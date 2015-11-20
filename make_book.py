@@ -353,6 +353,8 @@ def Main():
     pprint.pprint(table_of_contents)
   
 
+  print
+  print
   
   # Look at how many sections actually have data in them
   report = Report__SectionsPopulated()
