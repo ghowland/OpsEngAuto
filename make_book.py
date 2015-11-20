@@ -52,7 +52,7 @@ def Report__SectionsPopulated():
   
   print 'Populated Sections: %s' % len(populated)
   
-  goal_done_percent = ((total_sections - len(populated)) / float(total_sections)) * 100.0
+  goal_done_percent = 100.0 - (((total_sections - len(populated)) / float(total_sections)) * 100.0)
   
   print 'Current Goal: Populate Sections: %s   (Done: %0.1f%%)' % (total_sections - len(populated), goal_done_percent)
 
