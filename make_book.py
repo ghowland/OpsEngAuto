@@ -274,7 +274,7 @@ def Main():
       
       # Create the new sub-chapter entry
       cur_section = {'title':line, 'children':[], 'parent':cur_dict}
-        total_sections += 1
+      total_sections += 1
       
       # Add this to our parent (cur_dict is parent now)
       cur_dict['children'].append(cur_section)
