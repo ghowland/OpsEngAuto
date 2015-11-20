@@ -16,7 +16,7 @@ import commands
 GO_COMMAND = './go.sh'
 
 # How long between checking if we need to run our thing
-SLEEP_INTERVAL = 4
+SLEEP_INTERVAL = 3
 
 # Where we look for changes
 glob_paths = ['_toc_details.yaml', 'sections/*']
