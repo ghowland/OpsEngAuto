@@ -150,7 +150,7 @@ def OutputSection(section_dict, header_prefix=None, report=None, depth=0):
   """Output section, and recurse through sub-sections."""
   output = ''
   
-  output += '<h1>Operational Engineering and Automation</h1>\n'
+  output += ''
   
   # If we have a report, add it to the top of the output.
   #NOTE(g): This is temporary, as Im writing the book to track goals and other stuff easily
