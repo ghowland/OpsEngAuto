@@ -48,11 +48,10 @@ while True:
     
     # If this path has changed mtime (updated)
     if not last_updated_time or mtime > last_updated_time:
-      updated = True
-      
       # We cant break here, as we need to find the latest MTIME, and the first match may not be the latest
       if latest_mtime == None or mtime > latest_mtime:
-        latest_mtime = mtime
+        updated = True
+        last_updated_time = mtime
         print 'Updated path: %s: %s' % (path, mtime)
   
   
@@ -61,7 +60,9 @@ while True:
     (status, output) = commands.getstatusoutput(GO_COMMAND)
     
     # If failed, report error.  Git returns 1 for not needed to do work.
-    if status not in (0, 1):
+    #NOTE(g): When running from Python, ./go.sh is returning 255, which it never does on the CLI
+    #if status not in (0, 1):
+    if status not in (0, 1, 255):
       print '\n%s: Error running: %s: %s: %s\n' % (time.asctime(time.localtime(time.time())), GO_COMMAND, status, output)
     
     # Else, report success
