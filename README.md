@@ -45,6 +45,13 @@ https://www.linkedin.com/in/ghowland
 
 
 
+<h2 id=c0288d74f0dd8cb74fcb23af5ce26a0e><a href="#c0288d74f0dd8cb74fcb23af5ce26a0e">1.4</a>: Hopefully, this will provide you with a set of foundational experiences from my expeirence, in which you can use to form your own opinions, methods, philosophies, procedures, axioms, and systems.</h2>
+
+
+
+
+
+
 # Chapter 2: Introduction
 
 
