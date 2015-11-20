@@ -3,6 +3,4 @@
 
 Stuff goes here for the preface.  This is in the linked section tag file.
 
-Adding more stuff here, testing the watcher.  The watcher works, I can update this and it will check things in as soon as I save, so I can immediately reload on github if I want.
-
 
