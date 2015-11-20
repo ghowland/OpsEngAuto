@@ -40,6 +40,8 @@ def Report__SectionsPopulated():
   
   populated = []
   
+  total_sections = len(paths)
+  
   for path in paths:
     lines = open(path).read().split('\n')
     
@@ -49,6 +51,7 @@ def Report__SectionsPopulated():
     
   
   print 'Populated Sections: %s' % len(populated)
+  print 'Current Goal: Populate Sections: %s' % (total_sections - len(populated))
 
 
 def Report__SectionsAbandoned():
