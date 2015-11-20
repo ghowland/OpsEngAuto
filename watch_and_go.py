@@ -40,6 +40,7 @@ while True:
   
   # Our test
   updated = False
+  latest_mtime = None
   
   # Check all our paths latest MTIMEs.  If never than last_updated_time or last_updated_time==None, then GO!
   for path in paths:
@@ -48,7 +49,10 @@ while True:
     # If this path has changed mtime (updated)
     if not last_updated_time or mtime > last_updated_time:
       updated = True
-      break
+      
+      # We cant break here, as we need to find the latest MTIME, and the first match may not be the latest
+      if not latest_mtime or mtime > latest_mtime:
+        latest_mtime = mtime
   
   
   # If one of our files was updated, do the thing
