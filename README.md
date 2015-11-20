@@ -3,7 +3,7 @@
 
 Total Sections: 281   Populated Sections: 2
 
-Current Goal: Populate Sections: 279   (Done: 0.7%)
+Current Goal: Populate Remaining Sections: 279   (Done: 0.7%)
 
 # Chapter 1: Preface
 
@@ -11,8 +11,6 @@ Current Goal: Populate Sections: 279   (Done: 0.7%)
 
 
 Stuff goes here for the preface.  This is in the linked section tag file.
-
-
 
 
 
@@ -60,7 +58,7 @@ https://www.linkedin.com/in/ghowland
 
 Total Sections: 281   Populated Sections: 2
 
-Current Goal: Populate Sections: 279   (Done: 0.7%)
+Current Goal: Populate Remaining Sections: 279   (Done: 0.7%)
 
 # Chapter 2: Introduction
 
@@ -351,7 +349,7 @@ Current Goal: Populate Sections: 279   (Done: 0.7%)
 
 Total Sections: 281   Populated Sections: 2
 
-Current Goal: Populate Sections: 279   (Done: 0.7%)
+Current Goal: Populate Remaining Sections: 279   (Done: 0.7%)
 
 # Chapter 3: Engineering Philosophy and Methodology in Operations
 
@@ -663,7 +661,7 @@ Current Goal: Populate Sections: 279   (Done: 0.7%)
 
 Total Sections: 281   Populated Sections: 2
 
-Current Goal: Populate Sections: 279   (Done: 0.7%)
+Current Goal: Populate Remaining Sections: 279   (Done: 0.7%)
 
 # Chapter 4: Automation Philosophy and Methodology in Operations
 
@@ -947,7 +945,7 @@ Current Goal: Populate Sections: 279   (Done: 0.7%)
 
 Total Sections: 281   Populated Sections: 2
 
-Current Goal: Populate Sections: 279   (Done: 0.7%)
+Current Goal: Populate Remaining Sections: 279   (Done: 0.7%)
 
 # Chapter 5: Components of Operational Environments
 
@@ -965,7 +963,7 @@ Current Goal: Populate Sections: 279   (Done: 0.7%)
 
 Total Sections: 281   Populated Sections: 2
 
-Current Goal: Populate Sections: 279   (Done: 0.7%)
+Current Goal: Populate Remaining Sections: 279   (Done: 0.7%)
 
 # Chapter 6: Components of Automation Environments
 
@@ -1088,7 +1086,7 @@ Current Goal: Populate Sections: 279   (Done: 0.7%)
 
 Total Sections: 281   Populated Sections: 2
 
-Current Goal: Populate Sections: 279   (Done: 0.7%)
+Current Goal: Populate Remaining Sections: 279   (Done: 0.7%)
 
 # Chapter 7: The OpsDB
 
@@ -1701,7 +1699,7 @@ Current Goal: Populate Sections: 279   (Done: 0.7%)
 
 Total Sections: 281   Populated Sections: 2
 
-Current Goal: Populate Sections: 279   (Done: 0.7%)
+Current Goal: Populate Remaining Sections: 279   (Done: 0.7%)
 
 # Chapter 8: How to Implement the OpsDB in your Current Environment
 
@@ -1887,7 +1885,7 @@ Current Goal: Populate Sections: 279   (Done: 0.7%)
 
 Total Sections: 281   Populated Sections: 2
 
-Current Goal: Populate Sections: 279   (Done: 0.7%)
+Current Goal: Populate Remaining Sections: 279   (Done: 0.7%)
 
 # Chapter 9: General Advice
 
@@ -2017,7 +2015,7 @@ Current Goal: Populate Sections: 279   (Done: 0.7%)
 
 Total Sections: 281   Populated Sections: 2
 
-Current Goal: Populate Sections: 279   (Done: 0.7%)
+Current Goal: Populate Remaining Sections: 279   (Done: 0.7%)
 
 # Chapter 10: Everywhere.  Throughout the book.
 
