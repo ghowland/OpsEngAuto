@@ -2,7 +2,17 @@
 
 
 # Chapter 1: Preface
-<p></p><p></p><p>Stuff goes here for the preface.  This is in the linked section tag file.</p><p></p><p></p><h2 id=8d921a98a2974ea61b905ce719a9f121><a href="#8d921a98a2974ea61b905ce719a9f121">1.1</a>: Where Ive Been, What Ive Been Doing, Why I Wrote this Book.  All positives.</h2>
+
+
+
+
+Stuff goes here for the preface.  This is in the linked section tag file.
+
+
+
+
+
+<h2 id=8d921a98a2974ea61b905ce719a9f121><a href="#8d921a98a2974ea61b905ce719a9f121">1.1</a>: Where Ive Been, What Ive Been Doing, Why I Wrote this Book.  All positives.</h2>
 
 
 
@@ -29,7 +39,13 @@ https://www.linkedin.com/in/ghowland
 
 
 # Chapter 2: Introduction
-<p></p><p></p><p></p><h2 id=ff17d94c0d49aab3e372e47b64b96ea7><a href="#ff17d94c0d49aab3e372e47b64b96ea7">2.1</a>: Focus on the virtual/physical management, specifically around internet and network services, but relatable to other industries.  All use cases will be around data centers and networked services.</h2>
+
+
+
+
+
+
+<h2 id=ff17d94c0d49aab3e372e47b64b96ea7><a href="#ff17d94c0d49aab3e372e47b64b96ea7">2.1</a>: Focus on the virtual/physical management, specifically around internet and network services, but relatable to other industries.  All use cases will be around data centers and networked services.</h2>
 
 
 
@@ -303,7 +319,13 @@ https://www.linkedin.com/in/ghowland
 
 
 # Chapter 3: Engineering Philosophy and Methodology in Operations
-<p></p><p></p><p></p><h2 id=b313ae83a593ebeebefbf3e427c23f35><a href="#b313ae83a593ebeebefbf3e427c23f35">3.1</a>: What is Engineering?</h2>
+
+
+
+
+
+
+<h2 id=b313ae83a593ebeebefbf3e427c23f35><a href="#b313ae83a593ebeebefbf3e427c23f35">3.1</a>: What is Engineering?</h2>
 
 
 
@@ -605,7 +627,13 @@ https://www.linkedin.com/in/ghowland
 
 
 # Chapter 4: Automation Philosophy and Methodology in Operations
-<p></p><p></p><p></p><h2 id=92fb73bc7b038ce1ccda5ff2fbfdbd56><a href="#92fb73bc7b038ce1ccda5ff2fbfdbd56">4.1</a>: ***** Removing classes of work.</h2>
+
+
+
+
+
+
+<h2 id=92fb73bc7b038ce1ccda5ff2fbfdbd56><a href="#92fb73bc7b038ce1ccda5ff2fbfdbd56">4.1</a>: ***** Removing classes of work.</h2>
 
 
 
@@ -879,7 +907,13 @@ https://www.linkedin.com/in/ghowland
 
 
 # Chapter 5: Components of Operational Environments
-<p></p><p></p><p></p><h2 id=e0456dfc4344813c454b2832f721d7cc><a href="#e0456dfc4344813c454b2832f721d7cc">5.1</a>: Troubleshooting</h2>
+
+
+
+
+
+
+<h2 id=e0456dfc4344813c454b2832f721d7cc><a href="#e0456dfc4344813c454b2832f721d7cc">5.1</a>: Troubleshooting</h2>
 
 
 
@@ -887,7 +921,13 @@ https://www.linkedin.com/in/ghowland
 
 
 # Chapter 6: Components of Automation Environments
-<p></p><p></p><p></p><h2 id=a26d014573a051d21bf35b17d0eda041><a href="#a26d014573a051d21bf35b17d0eda041">6.1</a>: The process of building this system in your organization.</h2>
+
+
+
+
+
+
+<h2 id=a26d014573a051d21bf35b17d0eda041><a href="#a26d014573a051d21bf35b17d0eda041">6.1</a>: The process of building this system in your organization.</h2>
 
 
 
@@ -1000,7 +1040,13 @@ https://www.linkedin.com/in/ghowland
 
 
 # Chapter 7: The OpsDB
-<p></p><p></p><p></p><h2 id=64bbdc8ed0e1e42739b42a4fc419e08e><a href="#64bbdc8ed0e1e42739b42a4fc419e08e">7.1</a>: What is it?</h2>
+
+
+
+
+
+
+<h2 id=64bbdc8ed0e1e42739b42a4fc419e08e><a href="#64bbdc8ed0e1e42739b42a4fc419e08e">7.1</a>: What is it?</h2>
 
 
 
@@ -1603,7 +1649,13 @@ https://www.linkedin.com/in/ghowland
 
 
 # Chapter 8: How to Implement the OpsDB in your Current Environment
-<p></p><p></p><p></p><h2 id=4e188beb6a9e453253679bb857ac7767><a href="#4e188beb6a9e453253679bb857ac7767">8.1</a>: The OSI layer for getting things done:</h2>
+
+
+
+
+
+
+<h2 id=4e188beb6a9e453253679bb857ac7767><a href="#4e188beb6a9e453253679bb857ac7767">8.1</a>: The OSI layer for getting things done:</h2>
 
 
 
@@ -1779,7 +1831,13 @@ https://www.linkedin.com/in/ghowland
 
 
 # Chapter 9: General Advice
-<p></p><p></p><p></p><h2 id=0a605e177cdf62b2e4fd820e73cbecf7><a href="#0a605e177cdf62b2e4fd820e73cbecf7">9.1</a>: Go over code reviews, and config reviews.</h2>
+
+
+
+
+
+
+<h2 id=0a605e177cdf62b2e4fd820e73cbecf7><a href="#0a605e177cdf62b2e4fd820e73cbecf7">9.1</a>: Go over code reviews, and config reviews.</h2>
 
 
 
@@ -1899,7 +1957,13 @@ https://www.linkedin.com/in/ghowland
 
 
 # Chapter 10: Everywhere.  Throughout the book.
-<p></p><p></p><p></p><h2 id=a7df76e3e33c3832af992a160d248f3b><a href="#a7df76e3e33c3832af992a160d248f3b">10.1</a>: Have "Wouldnt it be nice?" sections, where I posit what would be improvements I have yet to experience.  Coming to terms, agreeing on the foundational details, agreeing on the axioms, agreeing on how to relate data to the axioms.  Agreeing on how to act against axioms.  With these done, we can work much better as a team, and discuss them.</h2>
+
+
+
+
+
+
+<h2 id=a7df76e3e33c3832af992a160d248f3b><a href="#a7df76e3e33c3832af992a160d248f3b">10.1</a>: Have "Wouldnt it be nice?" sections, where I posit what would be improvements I have yet to experience.  Coming to terms, agreeing on the foundational details, agreeing on the axioms, agreeing on how to relate data to the axioms.  Agreeing on how to act against axioms.  With these done, we can work much better as a team, and discuss them.</h2>
 
 
 

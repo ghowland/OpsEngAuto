@@ -84,7 +84,7 @@ def OutputSectionGitMarkDown(section_dict, header_prefix=None, depth=0):
   for line in section_content.split('\n'):
     # Skip the comment lines out (comments start with: ###)
     if not line.strip().startswith('###'):
-      output += '<p>%s</p>' % line
+      output += '%s\n\n' % line
   
   
   # If this section has children, output them too
