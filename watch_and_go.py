@@ -51,9 +51,9 @@ while True:
       updated = True
       
       # We cant break here, as we need to find the latest MTIME, and the first match may not be the latest
-      if not latest_mtime or mtime > latest_mtime:
+      if latest_mtime == None or mtime > latest_mtime:
         latest_mtime = mtime
-        print 'Updated path: %s: %s' % (path, mtime) 
+        print 'Updated path: %s: %s' % (path, mtime)
   
   
   # If one of our files was updated, do the thing
