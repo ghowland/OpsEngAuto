@@ -67,7 +67,7 @@ while True:
     
     # Else, report success
     else:
-      print '%s: Updated' % time.asctime(time.localtime(time.time()))
+      print '%s: Updated:\n%s' % (time.asctime(time.localtime(time.time())), output)
   
   
   # Sleep, so we arent spinning constantly
