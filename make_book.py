@@ -50,11 +50,17 @@ def Report__SectionsPopulated():
       populated.append(path)
     
   
-  print 'Populated Sections: %s' % len(populated)
+  # Generate a report to put into the header of the book, so I can see them easily
+  report = ''
+  report += 'Total Sections: %s   Populated Sections: %s\n' % (total_sections, len(populated))
   
   goal_done_percent = 100.0 - (((total_sections - len(populated)) / float(total_sections)) * 100.0)
   
-  print 'Current Goal: Populate Sections: %s   (Done: %0.1f%%)' % (total_sections - len(populated), goal_done_percent)
+  report += 'Current Goal: Populate Sections: %s   (Done: %0.1f%%)\n' % (total_sections - len(populated), goal_done_percent)
+  
+  print report
+  
+  return report
 
 
 def Report__SectionsAbandoned():
@@ -65,12 +71,22 @@ def Report__SectionsAbandoned():
   #NOTE(g): Look for non-empty files with no references from TOC and list them, so I can edit them and move their content into other sections and not lose them.  Manually delete.
   pass
 
+  # Generate a report to put into the header of the book, so I can see them easily
+  report = ''
+  
+  return report
 
-def OutputSectionGitMarkDown(section_dict, header_prefix=None, depth=0):
+
+def OutputSectionGitMarkDown(section_dict, header_prefix=None, report=None, depth=0):
   """GitHub MarkDown Output section, and recurse through sub-sections."""
   output = ''
   
   #print 'DEBUG: %s' % section_dict
+  
+  # If we have a report, add it to the top of the output.
+  #NOTE(g): This is temporary, as Im writing the book to track goals and other stuff easily
+  if report:
+    output += report.replace('\n', '\n\n')
   
   # Split the title and section tag out of this entry
   (title, section_tag) = section_dict['title'].split(' [[', 1)
@@ -132,11 +148,16 @@ def OutputSectionGitMarkDown(section_dict, header_prefix=None, depth=0):
   return output
 
 
-def OutputSection(section_dict, header_prefix=None, depth=0):
+def OutputSection(section_dict, header_prefix=None, report=None, depth=0):
   """Output section, and recurse through sub-sections."""
   output = ''
   
   #print 'DEBUG: %s' % section_dict
+  
+  # If we have a report, add it to the top of the output.
+  #NOTE(g): This is temporary, as Im writing the book to track goals and other stuff easily
+  if report:
+    output += report.replace('\n', '<br>\n')
   
   # Split the title and section tag out of this entry
   (title, section_tag) = section_dict['title'].split(' [[', 1)
@@ -331,13 +352,21 @@ def Main():
   if DEBUG:
     pprint.pprint(table_of_contents)
   
+
+  
+  # Look at how many sections actually have data in them
+  report = Report__SectionsPopulated()
+  
+  #TODO(g): Look for abandoned sections (no TOC reference)
+  report += Report__SectionsAbandoned()
+
   
   # Print the HTML
   output = ''
   count = 0
   for cur_section in table_of_contents:
     count += 1
-    output += OutputSection(cur_section, header_prefix=str(count))
+    output += OutputSection(cur_section, header_prefix=str(count), report=report)
   
   fp = open(OUT_PATH, 'w').write(output)
   
@@ -347,7 +376,7 @@ def Main():
   count = 0
   for cur_section in table_of_contents:
     count += 1
-    output += OutputSectionGitMarkDown(cur_section, header_prefix=str(count))
+    output += OutputSectionGitMarkDown(cur_section, header_prefix=str(count), report=report)
   
   fp = open(OUT_GIT_PATH, 'w').write(output)
   
@@ -370,12 +399,6 @@ def Main():
     #open('%s.rewrite' % IN_PATH, 'w').write(toc_rewrite_output.rstrip())
   
   print '\n\nTotal Sections: %s' % total_sections
-  
-  # Look at how many sections actually have data in them
-  Report__SectionsPopulated()
-  
-  #TODO(g): Look for abandoned sections (no TOC reference)
-  Report__SectionsAbandoned()
   
   print
   print

@@ -1,14 +1,16 @@
 # Operations Engineering and Automation
 
 
+Total Sections: 281   Populated Sections: 2
+
+Current Goal: Populate Sections: 279   (Done: 0.7%)
+
 # Chapter 1: Preface
 
 
 
 
 Stuff goes here for the preface.  This is in the linked section tag file.
-
-
 
 
 
@@ -55,6 +57,10 @@ https://www.linkedin.com/in/ghowland
 
 
 
+
+Total Sections: 281   Populated Sections: 2
+
+Current Goal: Populate Sections: 279   (Done: 0.7%)
 
 # Chapter 2: Introduction
 
@@ -342,6 +348,10 @@ https://www.linkedin.com/in/ghowland
 
 
 
+
+Total Sections: 281   Populated Sections: 2
+
+Current Goal: Populate Sections: 279   (Done: 0.7%)
 
 # Chapter 3: Engineering Philosophy and Methodology in Operations
 
@@ -651,6 +661,10 @@ https://www.linkedin.com/in/ghowland
 
 
 
+Total Sections: 281   Populated Sections: 2
+
+Current Goal: Populate Sections: 279   (Done: 0.7%)
+
 # Chapter 4: Automation Philosophy and Methodology in Operations
 
 
@@ -931,6 +945,10 @@ https://www.linkedin.com/in/ghowland
 
 
 
+Total Sections: 281   Populated Sections: 2
+
+Current Goal: Populate Sections: 279   (Done: 0.7%)
+
 # Chapter 5: Components of Operational Environments
 
 
@@ -944,6 +962,10 @@ https://www.linkedin.com/in/ghowland
 
 
 
+
+Total Sections: 281   Populated Sections: 2
+
+Current Goal: Populate Sections: 279   (Done: 0.7%)
 
 # Chapter 6: Components of Automation Environments
 
@@ -1063,6 +1085,10 @@ https://www.linkedin.com/in/ghowland
 
 
 
+
+Total Sections: 281   Populated Sections: 2
+
+Current Goal: Populate Sections: 279   (Done: 0.7%)
 
 # Chapter 7: The OpsDB
 
@@ -1673,6 +1699,10 @@ https://www.linkedin.com/in/ghowland
 
 
 
+Total Sections: 281   Populated Sections: 2
+
+Current Goal: Populate Sections: 279   (Done: 0.7%)
+
 # Chapter 8: How to Implement the OpsDB in your Current Environment
 
 
@@ -1855,6 +1885,10 @@ https://www.linkedin.com/in/ghowland
 
 
 
+Total Sections: 281   Populated Sections: 2
+
+Current Goal: Populate Sections: 279   (Done: 0.7%)
+
 # Chapter 9: General Advice
 
 
@@ -1980,6 +2014,10 @@ https://www.linkedin.com/in/ghowland
 
 
 
+
+Total Sections: 281   Populated Sections: 2
+
+Current Goal: Populate Sections: 279   (Done: 0.7%)
 
 # Chapter 10: Everywhere.  Throughout the book.
 
