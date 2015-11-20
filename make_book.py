@@ -362,7 +362,7 @@ def Main():
     open(IN_PATH, 'w').write(toc_rewrite_output.rstrip() + '\n\n')
     #open('%s.rewrite' % IN_PATH, 'w').write(toc_rewrite_output.rstrip())
   
-  print 'Total Sections: %s' % total_sections
+  print '\n\nTotal Sections: %s' % total_sections
   
   # Look at how many sections actually have data in them
   Report__SectionsPopulated()
