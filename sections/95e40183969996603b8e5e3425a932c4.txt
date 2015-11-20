@@ -1,0 +1,3 @@
+### [[8.1.4.2: Automation is the control of logical devices and state.  It does not control Physical devices, but does control their state.  (Even in the case of directing a physical robot, the automation updates state, and it takes something physical (motors, servos, cogs) to make the physical thing move.)]]
+
+

@@ -1,0 +1,3 @@
+### [[7.10.2.1.1.3.1.1: Size of domain, and rate of change and lock duration determine requirements]]
+
+

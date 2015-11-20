@@ -1,0 +1,3 @@
+### [[7.10.2.1.2.2: Role users (scripts) can auto-commit changes, but should go through same process, because needed for auditing, troubleshooting, and maintaining integrity and pre/post-commit logic]]
+
+

@@ -1,0 +1,3 @@
+### [[7.8.2.7: What stays the same, what changes?  IPs for LOM on HW.  IPs for OSes on virtual.]]
+
+

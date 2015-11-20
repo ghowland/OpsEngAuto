@@ -1,0 +1,3 @@
+### [[7.10.7.1.2: Dont ignore failures of jobs.  Keep logs for auditing, so we know what happened, and what it happened for troubleshooting and Root Cause Analysis.]]
+
+

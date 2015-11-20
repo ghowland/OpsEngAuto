@@ -1,0 +1,3 @@
+### [[7.6: What tools you will need to manage this data.   Problems with ORM, problems with non-ORMs.  The tools chosen will determine the level of automatability.]]
+
+

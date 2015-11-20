@@ -1,0 +1,3 @@
+### [[7.2.1: Separate data changing logic from non-data changing logic.  This is like the Model/Controller separation, but is different because it is about any type of action, not just GUI-like actions.]]
+
+

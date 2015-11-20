@@ -1,0 +1,3 @@
+### [[2.2.2.1.1.1.1.2: Balance to this.  What can be self-service, and what cant.  PaaS for production, IaaS for development and Ops usage.]]
+
+

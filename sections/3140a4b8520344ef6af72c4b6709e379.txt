@@ -1,0 +1,3 @@
+### [[7.1.3: It is a system or "machine" that can be used to solve all problems, in that it is a centralized database and method for acting against that data.  That is immediately a universal set of tools, because every piece of software is data with a method for acting against it.]]
+
+

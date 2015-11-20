@@ -1,0 +1,3 @@
+### [[7.10.2.1.2.1: Web/API all use the same code, so different paths give different results.]]
+
+

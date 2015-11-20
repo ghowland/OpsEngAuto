@@ -1,0 +1,3 @@
+### [[9.1.2.1: Too style oriented.  Enforcing a style is important in some areas, but less important in others.  It is better to keep a team cohevsive to know these differences, so that on some things you are strict (variable naming) and on other things you are flexible (commenting style).  People write prose more personally than they name variables, and variables have to be used by many people, whereas the message in a comment in based on the author's mental state when they wrote it, which is very subjective, and people have very different styles.]]
+
+

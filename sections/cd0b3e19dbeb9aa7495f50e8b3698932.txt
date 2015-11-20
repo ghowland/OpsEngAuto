@@ -1,0 +1,3 @@
+### [[3.10.1.7.1: Named servers (1-1), position and datacenter are known.  Utilty is anonymous server, not anonymous location, position unknown, location known.  Cloud is anonymous name and location.  You dont care what server in a DC it is, or what DC it is in.]]
+
+

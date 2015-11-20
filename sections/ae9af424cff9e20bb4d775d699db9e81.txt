@@ -1,0 +1,3 @@
+### [[8.2.5.2.1: When each time block arrives, try to get what you can finish, and hopefully test and put into place, in that 1 session.  This isnt possible for some work, because it's too big, so break that into stages that can fit into one of these time blocks.  A simple method, would be: write it in 1, test it in another, and finally deploy it in the 3rd.]]
+
+

@@ -1,0 +1,3 @@
+### [[4.10: How to construct an unbreakable process.  How to stop that process from being completed/sealed, so that it breaks.  How to ensure it breaks all the time, by setting conditions accordingly.]]
+
+

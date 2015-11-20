@@ -1,0 +1,3 @@
+### [[4.18: ORM vs wrapping lib vs straight SQL/data query.]]
+
+

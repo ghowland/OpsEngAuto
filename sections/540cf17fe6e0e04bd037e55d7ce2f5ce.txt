@@ -1,0 +1,3 @@
+### [[7.10.3: Pull method, to gather data.  Time Series, Logs, State/Configs, Events, etc]]
+
+

@@ -1,0 +1,3 @@
+### [[4.19: Scales,  1000s/millions, not billions.  Can make this "configuration scale" not "production deployment end-user scale".  Optimize only when necessary, use tools that do heavy lifting for Time series data analysis, and import results and last N snippets into OpsDB.]]
+
+

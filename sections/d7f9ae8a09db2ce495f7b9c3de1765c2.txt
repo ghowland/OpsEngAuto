@@ -1,0 +1,3 @@
+### [[7.10.3.1.2.2.1.1: Can use local data for N time, until is stale.  Logic can decide how stale the data can be, can have Rules for lag time allowances.]]
+
+

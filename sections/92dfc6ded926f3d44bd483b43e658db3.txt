@@ -1,0 +1,3 @@
+### [[3.8: Axiomatic Engineering.  My method for making decisions that are not personal, even though of course they are my personal understand and information matching to the algorithm.  Present a method for discussing engineering in this manner..]]
+
+

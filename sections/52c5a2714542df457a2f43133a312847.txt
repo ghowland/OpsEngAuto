@@ -1,0 +1,3 @@
+### [[4.22: Introduce the dotted notation as a universal naming convention, for lookups, it can universally address any type of DAG data:   domain.sub.thing.11.field.subfield.11.arrayfield.20.subsubfield]]
+
+

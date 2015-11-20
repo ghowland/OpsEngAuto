@@ -1,0 +1,3 @@
+### [[2.2.2.1.1.1.1.1: Everyone doing everything themselves is great for a boot-strap project, but just does not work in a Mission-Critical environment.  Launch NASA rocket with newbies running things?  No, experience is needed for precision and taking into account All The Things.]]
+
+

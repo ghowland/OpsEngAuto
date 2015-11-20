@@ -1,0 +1,3 @@
+### [[6.3.5.1: Good to have different CMS for tickets, because your ops logic will change, but its more useful to track the CMS data right in the ops db for a real record of things, because it lists the complete workloads.]]
+
+

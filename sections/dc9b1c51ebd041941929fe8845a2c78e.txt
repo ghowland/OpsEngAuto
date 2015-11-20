@@ -1,0 +1,3 @@
+### [[7.11: States of machines:  Unknown, Unprovisioned/Spare, Provisioned-Inactive, Active, In Maintenance, Transition-To X State, Broken, Fixed (waitig to be Unprovisioned/Spare)]]
+
+

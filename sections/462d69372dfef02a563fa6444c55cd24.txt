@@ -1,0 +1,3 @@
+### [[7.10.3.1.1.1: Need Transactions on all pieces of total DB, so that things are changed in block fastion, all this way, then all that way.  Keeping alignment.  (Like a shot in Pool, game.  Stick and balls must line up to make it into the pocket.)]]
+
+

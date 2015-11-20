@@ -1,0 +1,3 @@
+### [[4.2: Introduce spectrum of automatability.  How automateable is something in configure X vs Y?  This is automatability.]]
+
+

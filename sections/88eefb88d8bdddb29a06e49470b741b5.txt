@@ -1,0 +1,3 @@
+### [[7.5: My rules:  No plurals in data (code is ok), strict lookup methods, limit methods of relationality.  DAG lookups, with normalized relations in data (not-DAG, has cycles, data doesnt have a direction when there are cycles, the search could start anywhere).]]
+
+

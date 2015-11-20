@@ -1,0 +1,3 @@
+### [[3.13: Name spaces.  Different kinds, diff uses, diff formats.  One of the 2 hard problems (+ off by 1)]]
+
+

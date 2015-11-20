@@ -1,0 +1,3 @@
+### [[7.10.3.1.2.1: In this scenario, the Master will need to have N instances, where N is the number of sub-masters, so it can replicate.  Then it will pull and integrate this data into it's own global system, and then synthesize.]]
+
+

@@ -1,0 +1,3 @@
+### [[7.10.11.2: LOM IPs stay with the hardware.  DHCP timeouts, etc.  Server IPs stay with "ServerInstance" (OSInstance)]]
+
+

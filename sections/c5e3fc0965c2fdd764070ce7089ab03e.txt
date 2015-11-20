@@ -1,0 +1,3 @@
+### [[7.9: How to "translate" data changes, making many changes at once, like matrix multiplication.  Changing from Puppet to Salt, etc.]]
+
+

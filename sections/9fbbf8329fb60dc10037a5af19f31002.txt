@@ -1,0 +1,3 @@
+### [[4.13: Monitoring is the heart of automation.  You cant control what you dont have info on.]]
+
+

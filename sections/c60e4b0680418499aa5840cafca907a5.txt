@@ -1,0 +1,3 @@
+### [[6.5: Data survives longer than code/logic, business logic stays all the time, but the assets described in the DB remain the same, even if they are used differently, and different meta-data is stored about them.]]
+
+

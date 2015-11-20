@@ -1,0 +1,3 @@
+### [[6.1.2.1: FQDNs, IPs, HW specs, OS specs, configuration variables, specific workflow and stuff.]]
+
+

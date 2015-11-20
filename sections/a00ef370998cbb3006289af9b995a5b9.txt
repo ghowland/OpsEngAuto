@@ -1,0 +1,3 @@
+### [[7.10.4: Orchestration.  Remote Execution.  Seall the loop and check.  Post-Provisioning will need to run commands to check that things really worked.  Same as any other type of action. Do the action, get the result, but then go check and make sure it worked.  Check again to see if it failed after some time.  Ensure another action hasnt caused this (acted on the same Resource)]]
+
+

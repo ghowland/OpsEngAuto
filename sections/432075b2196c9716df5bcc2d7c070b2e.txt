@@ -1,0 +1,3 @@
+### [[3.3: The difference between App software dev, and Operational dev.  Robust, resilient, correct, handles failures, assumes failures will occur, is designed around failures occuring, instead of App designed around all functions being available (for the most part).]]
+
+

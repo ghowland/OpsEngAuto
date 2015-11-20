@@ -1,0 +1,3 @@
+### [[3.10.1.7.1.1: What do you have to care about?  The exact machine?  The DC in general?  Nothing, only that the service is reachable, and it can be reachable from anywhere?]]
+
+

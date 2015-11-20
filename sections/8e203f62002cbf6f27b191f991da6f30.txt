@@ -1,0 +1,3 @@
+### [[8.1.6: Policy.  Dictates how processes can be implemented.  Policies may be directly contradicting Process, such as "No one is allowed to X", while a process requires a person to do exactly that.]]
+
+

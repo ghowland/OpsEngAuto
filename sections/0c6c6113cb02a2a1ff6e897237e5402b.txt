@@ -1,0 +1,3 @@
+### [[7.10.8.1: Resources of our services.  Network Loadbalancer has N potential connections, and we can determine that by a MAX check on how much its done, and where it has produced failures after MAX_WORKING values have been breached.  Might not be the LB though, just correlation.]]
+
+

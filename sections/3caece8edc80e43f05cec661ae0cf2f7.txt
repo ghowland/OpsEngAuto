@@ -1,0 +1,3 @@
+### [[9.1.2.1.1: I recommend allowing people to have their own unique style in areas that will not harm the ease-of-use and resiliency/robustness of the Logic, and strictness on naming conventions, and basic formatting (indentation)]]
+
+

@@ -1,0 +1,3 @@
+### [[4.3.3: Tools to fit the job.  Testing in an operational environment.  Mock-tests, etc in a world of only side effects.  Using Vagrant and VMs to test allows these side-effects to be tested, but take time to set up.  Worth it, but you may not start there in a live environment because of all the legacy that would have to be replicated and is changing all the time in non-standard ways.]]
+
+

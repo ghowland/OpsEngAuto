@@ -1,0 +1,3 @@
+### [[3.10.1.2.1: Black boxing the world.  Pragmatism and effect driven models.  Input, Output, Side-Effects.]]
+
+

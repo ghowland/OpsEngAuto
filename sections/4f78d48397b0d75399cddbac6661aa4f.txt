@@ -1,0 +1,3 @@
+### [[6.4: * The more sources of authoritative data, the more data drift and non-alignment between the data (fields tracking similar but non-matching things, naming differences, not able to point to same primary keys, etc)]]
+
+

@@ -1,0 +1,3 @@
+### [[3.6.1: Quality is never #1, utility is.  Once it's "good enough", it is abandoned for higher priority things.]]
+
+

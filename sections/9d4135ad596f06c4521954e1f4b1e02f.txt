@@ -1,0 +1,3 @@
+### [[4.22.1: **** Use this DAG lookup to go into YAML, DBs, etc.  Schema Man can allow this.  Can use sub-searches like globs (domain.thing.*.field) and translate that into SQL or whatever for more advanced usage.]]
+
+

@@ -1,0 +1,3 @@
+### [[9.7: The benefits of "vanilla" use of tools.  Less upkeep.  Only change what you strictly need to change.  Spend time optimizing only in critical areas.  Reduce things that need to be manually maintained.]]
+
+

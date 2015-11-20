@@ -1,0 +1,3 @@
+### [[2.6.1.1: Deal with ONLY effecs.  No side effects.]]
+
+

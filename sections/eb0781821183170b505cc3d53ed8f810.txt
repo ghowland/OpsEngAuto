@@ -1,0 +1,3 @@
+### [[7.4: Naming conventions.  Set them and try to abide by them consistently.  This will determine how frequently things must be looked up to be used, for someone familiar with the sytem.  Python vs PHP.]]
+
+

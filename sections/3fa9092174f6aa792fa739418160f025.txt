@@ -1,0 +1,3 @@
+### [[4.14.1: Do not use fuzzy info until you have exhausted discrete/precise info.  And turn the fuzzy info into a discrete/precise data point, so it can be acted on cleanly by logic.]]
+
+

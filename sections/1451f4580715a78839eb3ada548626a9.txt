@@ -1,0 +1,3 @@
+### [[6.3.3: Kickstarts and auto config  (AWS gets you here)]]
+
+
