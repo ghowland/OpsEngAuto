@@ -18,8 +18,6 @@ Stuff goes here for the preface.  This is in the linked section tag file.
 
 
 
-
-
 <h1>Operational Engineering and Automation</h1>
 <h2 id=8d921a98a2974ea61b905ce719a9f121><a href="#8d921a98a2974ea61b905ce719a9f121">1.1</a>: Where Ive Been, What Ive Been Doing, Why I Wrote this Book.  All positives.</h2>
 
