@@ -52,266 +52,273 @@ https://www.linkedin.com/in/ghowland
 
 
 
-<h2 id=10fc971fd9dc706d141c5ada28fd9ae3><a href="#10fc971fd9dc706d141c5ada28fd9ae3">2.2</a>: What is Operations?</h2>
+<h2 id=75d62671847424a563ec929a890245c5><a href="#75d62671847424a563ec929a890245c5">2.2</a>: I only really know what I mysql have experienced.  Everything else is hear-say, and while there may be a solid model behind it, I do not actually have experience in the matter, so I cannot trust the information to make solid engineering decisions on.  If I have nothing better, I may need to use this as the best course of action, and it may sound like a good thing to try, so I might experiment with it, but I have to recognize that this is an experiment, and so there is a great risk of failure.</h2>
 
 
 
 
 
 
-<h3 id=0671652556ae5d62c827e6db8082bab7><a href="#0671652556ae5d62c827e6db8082bab7">2.2.1</a>: Ops is about Control.  Letting everyone do their own thing is not-control.  It is individual control, for them, but the company is not in control as there are too many different types of activities going on for the same task, so the task is constantly done differently, creating cruft and stuff.  You can move faster, but not in an aligned way.</h3>
+<h2 id=10fc971fd9dc706d141c5ada28fd9ae3><a href="#10fc971fd9dc706d141c5ada28fd9ae3">2.3</a>: What is Operations?</h2>
 
 
 
 
 
 
-<p id=126b3100e0bafcd606cdb539413d4ce5><b><a href="#126b3100e0bafcd606cdb539413d4ce5">2.2.1.1</a>: "De facto" ops vs. "planned/controlled" ops</b></p>
+<h3 id=0671652556ae5d62c827e6db8082bab7><a href="#0671652556ae5d62c827e6db8082bab7">2.3.1</a>: Ops is about Control.  Letting everyone do their own thing is not-control.  It is individual control, for them, but the company is not in control as there are too many different types of activities going on for the same task, so the task is constantly done differently, creating cruft and stuff.  You can move faster, but not in an aligned way.</h3>
 
 
 
 
 
 
-<p id=e6f860a586c5005530de3736bbf50109><b><a href="#e6f860a586c5005530de3736bbf50109">2.2.1.2</a>: Alignment takes "vision" and knowledge.  Not someting someone new to the process can understand well, because they are new.</b></p>
+<p id=126b3100e0bafcd606cdb539413d4ce5><b><a href="#126b3100e0bafcd606cdb539413d4ce5">2.3.1.1</a>: "De facto" ops vs. "planned/controlled" ops</b></p>
 
 
 
 
 
 
-<h3 id=7bdf31941d762810d8c81c360d28d38c><a href="#7bdf31941d762810d8c81c360d28d38c">2.2.2</a>: An Explanation of what Operations.  And why every company is an Operations company (internet or not), and how now almost every company is first and foremost an Ops company, though almost no companies recognize this.</h3>
+<p id=e6f860a586c5005530de3736bbf50109><b><a href="#e6f860a586c5005530de3736bbf50109">2.3.1.2</a>: Alignment takes "vision" and knowledge.  Not someting someone new to the process can understand well, because they are new.</b></p>
 
 
 
 
 
 
-<p id=5bc4c817bd8491f2de4fcd4fa234cca9><b><a href="#5bc4c817bd8491f2de4fcd4fa234cca9">2.2.2.1</a>: Their ability to stay online and available and provide their service is what keeps them making money.  How is this not a core-service?</b></p>
+<h3 id=7bdf31941d762810d8c81c360d28d38c><a href="#7bdf31941d762810d8c81c360d28d38c">2.3.2</a>: An Explanation of what Operations.  And why every company is an Operations company (internet or not), and how now almost every company is first and foremost an Ops company, though almost no companies recognize this.</h3>
 
 
 
 
 
 
-<p id=109a7a222581029b6b3ed44aeb36acbc><b><a href="#109a7a222581029b6b3ed44aeb36acbc">2.2.2.1.1</a>: Just because its Core doesnt mean they need to own all of it, but as they grow they will pay more and more for what they do not control, and control well.</b></p>
+<p id=5bc4c817bd8491f2de4fcd4fa234cca9><b><a href="#5bc4c817bd8491f2de4fcd4fa234cca9">2.3.2.1</a>: Their ability to stay online and available and provide their service is what keeps them making money.  How is this not a core-service?</b></p>
 
 
 
 
 
 
-<p id=0932b206900bdd69c2b6cc7a46dfee68><b><a href="#0932b206900bdd69c2b6cc7a46dfee68">2.2.2.1.1.1</a>: Typically companies still dont tell ops departments that they need anything, until its due, all decisions are done, and its time to roll out.</b></p>
+<p id=109a7a222581029b6b3ed44aeb36acbc><b><a href="#109a7a222581029b6b3ed44aeb36acbc">2.3.2.1.1</a>: Just because its Core doesnt mean they need to own all of it, but as they grow they will pay more and more for what they do not control, and control well.</b></p>
 
 
 
 
 
 
-<p id=d05edb2ae926b6b3071c2d16497f5721><b><a href="#d05edb2ae926b6b3071c2d16497f5721">2.2.2.1.1.1.1</a>: The ops department is blamed for all lag.  Developers are blocked, legitimately and not-legitimately.</b></p>
+<p id=0932b206900bdd69c2b6cc7a46dfee68><b><a href="#0932b206900bdd69c2b6cc7a46dfee68">2.3.2.1.1.1</a>: Typically companies still dont tell ops departments that they need anything, until its due, all decisions are done, and its time to roll out.</b></p>
 
 
 
 
 
 
-<p id=565cd0fce08c8934484649d6a9f5b105><b><a href="#565cd0fce08c8934484649d6a9f5b105">2.2.2.1.1.1.1.1</a>: Everyone doing everything themselves is great for a boot-strap project, but just does not work in a Mission-Critical environment.  Launch NASA rocket with newbies running things?  No, experience is needed for precision and taking into account All The Things.</b></p>
+<p id=d05edb2ae926b6b3071c2d16497f5721><b><a href="#d05edb2ae926b6b3071c2d16497f5721">2.3.2.1.1.1.1</a>: The ops department is blamed for all lag.  Developers are blocked, legitimately and not-legitimately.</b></p>
 
 
 
 
 
 
-<p id=e08a32902b4d3960b8ee560f8851f34f><b><a href="#e08a32902b4d3960b8ee560f8851f34f">2.2.2.1.1.1.1.2</a>: Balance to this.  What can be self-service, and what cant.  PaaS for production, IaaS for development and Ops usage.</b></p>
+<p id=565cd0fce08c8934484649d6a9f5b105><b><a href="#565cd0fce08c8934484649d6a9f5b105">2.3.2.1.1.1.1.1</a>: Everyone doing everything themselves is great for a boot-strap project, but just does not work in a Mission-Critical environment.  Launch NASA rocket with newbies running things?  No, experience is needed for precision and taking into account All The Things.</b></p>
 
 
 
 
 
 
-<h2 id=7ef5e6c23b6cb4359f88aea566c255fb><a href="#7ef5e6c23b6cb4359f88aea566c255fb">2.3</a>: What is a System?</h2>
+<p id=e08a32902b4d3960b8ee560f8851f34f><b><a href="#e08a32902b4d3960b8ee560f8851f34f">2.3.2.1.1.1.1.2</a>: Balance to this.  What can be self-service, and what cant.  PaaS for production, IaaS for development and Ops usage.</b></p>
 
 
 
 
 
 
-<h2 id=61fc96e11d2dd57966d2b5b014f1a2dc><a href="#61fc96e11d2dd57966d2b5b014f1a2dc">2.4</a>: Systemic Thinking</h2>
+<h2 id=7ef5e6c23b6cb4359f88aea566c255fb><a href="#7ef5e6c23b6cb4359f88aea566c255fb">2.4</a>: What is a System?</h2>
 
 
 
 
 
 
-<h3 id=03071c27c692b17c5d7f95b9d4f021a4><a href="#03071c27c692b17c5d7f95b9d4f021a4">2.4.1</a>: Philosophers Knife</h3>
+<h2 id=61fc96e11d2dd57966d2b5b014f1a2dc><a href="#61fc96e11d2dd57966d2b5b014f1a2dc">2.5</a>: Systemic Thinking</h2>
 
 
 
 
 
 
-<h3 id=1f4b194d8569136439831f483c38a264><a href="#1f4b194d8569136439831f483c38a264">2.4.2</a>: Slicing the pie vs aggregation</h3>
+<h3 id=03071c27c692b17c5d7f95b9d4f021a4><a href="#03071c27c692b17c5d7f95b9d4f021a4">2.5.1</a>: Philosophers Knife</h3>
 
 
 
 
 
 
-<h3 id=f32b593542b3562df78d89693543c0fe><a href="#f32b593542b3562df78d89693543c0fe">2.4.3</a>: Systemic Thinking.  Philosophers Knife.  Slicing the pie vs Aggregation.  Completeness, ease of understanding, ease of building, life-cycle maintenance.  Where do you spend your time?</h3>
+<h3 id=1f4b194d8569136439831f483c38a264><a href="#1f4b194d8569136439831f483c38a264">2.5.2</a>: Slicing the pie vs aggregation</h3>
 
 
 
 
 
 
-<h2 id=da54e5ab11aae5fc49994945cb3bc9a8><a href="#da54e5ab11aae5fc49994945cb3bc9a8">2.5</a>: Terminology</h2>
+<h3 id=f32b593542b3562df78d89693543c0fe><a href="#f32b593542b3562df78d89693543c0fe">2.5.3</a>: Systemic Thinking.  Philosophers Knife.  Slicing the pie vs Aggregation.  Completeness, ease of understanding, ease of building, life-cycle maintenance.  Where do you spend your time?</h3>
 
 
 
 
 
 
-<h3 id=69371f3e438e2ed281f525ac57e65e3c><a href="#69371f3e438e2ed281f525ac57e65e3c">2.5.1</a>: Logic: code</h3>
+<h2 id=da54e5ab11aae5fc49994945cb3bc9a8><a href="#da54e5ab11aae5fc49994945cb3bc9a8">2.6</a>: Terminology</h2>
 
 
 
 
 
 
-<h3 id=9b48a00c792d88dfa31f203429758f84><a href="#9b48a00c792d88dfa31f203429758f84">2.5.2</a>: Data: data</h3>
+<h3 id=69371f3e438e2ed281f525ac57e65e3c><a href="#69371f3e438e2ed281f525ac57e65e3c">2.6.1</a>: Logic: code</h3>
 
 
 
 
 
 
-<h3 id=aa2640c210126a47b684283980210b76><a href="#aa2640c210126a47b684283980210b76">2.5.3</a>: Rules: policies about how you do stuff</h3>
+<h3 id=9b48a00c792d88dfa31f203429758f84><a href="#9b48a00c792d88dfa31f203429758f84">2.6.2</a>: Data: data</h3>
 
 
 
 
 
 
-<h3 id=3393e40f9f65bba3ee24fc4f744c792b><a href="#3393e40f9f65bba3ee24fc4f744c792b">2.5.4</a>: Distributed: dealing with N nodes</h3>
+<h3 id=aa2640c210126a47b684283980210b76><a href="#aa2640c210126a47b684283980210b76">2.6.3</a>: Rules: policies about how you do stuff</h3>
 
 
 
 
 
 
-<h3 id=a709b239027a030b1a2dc4d500e49a24><a href="#a709b239027a030b1a2dc4d500e49a24">2.5.5</a>: Real/Virtual.  Strict definitions.</h3>
+<h3 id=3393e40f9f65bba3ee24fc4f744c792b><a href="#3393e40f9f65bba3ee24fc4f744c792b">2.6.4</a>: Distributed: dealing with N nodes</h3>
 
 
 
 
 
 
-<p id=d997d62bdfc3a11ce132fe5aade05eaa><b><a href="#d997d62bdfc3a11ce132fe5aade05eaa">2.5.5.1</a>: Physical</b></p>
+<h3 id=a709b239027a030b1a2dc4d500e49a24><a href="#a709b239027a030b1a2dc4d500e49a24">2.6.5</a>: Real/Virtual.  Strict definitions.</h3>
 
 
 
 
 
 
-<p id=90c9825a0f594625107fd59419c3f079><b><a href="#90c9825a0f594625107fd59419c3f079">2.5.5.1.1</a>: Matter, Eletricity</b></p>
+<p id=d997d62bdfc3a11ce132fe5aade05eaa><b><a href="#d997d62bdfc3a11ce132fe5aade05eaa">2.6.5.1</a>: Physical</b></p>
 
 
 
 
 
 
-<p id=f94e13d4b8fcbb599dc285bff7bdb543><b><a href="#f94e13d4b8fcbb599dc285bff7bdb543">2.5.5.2</a>: Virtual:</b></p>
+<p id=90c9825a0f594625107fd59419c3f079><b><a href="#90c9825a0f594625107fd59419c3f079">2.6.5.1.1</a>: Matter, Eletricity</b></p>
 
 
 
 
 
 
-<p id=41d56db0a27604bc57fe7a0b5bfe58d0><b><a href="#41d56db0a27604bc57fe7a0b5bfe58d0">2.5.5.2.1</a>: Data, Logic</b></p>
+<p id=f94e13d4b8fcbb599dc285bff7bdb543><b><a href="#f94e13d4b8fcbb599dc285bff7bdb543">2.6.5.2</a>: Virtual:</b></p>
 
 
 
 
 
 
-<p id=031f037060d88ef98ae42ae359b42dd0><b><a href="#031f037060d88ef98ae42ae359b42dd0">2.5.5.3</a>: Be clear about the differences:  Physical (Real), Logical (Virtual), Data (Virtual)</b></p>
+<p id=41d56db0a27604bc57fe7a0b5bfe58d0><b><a href="#41d56db0a27604bc57fe7a0b5bfe58d0">2.6.5.2.1</a>: Data, Logic</b></p>
 
 
 
 
 
 
-<p id=5a2ee645ef74425ffa093976096dee18><b><a href="#5a2ee645ef74425ffa093976096dee18">2.5.5.3.1</a>: Can never know everything about something Real (physical), because of limited insight into what is going on with it</b></p>
+<p id=031f037060d88ef98ae42ae359b42dd0><b><a href="#031f037060d88ef98ae42ae359b42dd0">2.6.5.3</a>: Be clear about the differences:  Physical (Real), Logical (Virtual), Data (Virtual)</b></p>
 
 
 
 
 
 
-<p id=e529c9c5431e0acff31b16484c63dfad><b><a href="#e529c9c5431e0acff31b16484c63dfad">2.5.5.3.2</a>: Can know everything about Virtual (Logic/Data), because they are limited, and they are fully contained and inspectable.</b></p>
+<p id=5a2ee645ef74425ffa093976096dee18><b><a href="#5a2ee645ef74425ffa093976096dee18">2.6.5.3.1</a>: Can never know everything about something Real (physical), because of limited insight into what is going on with it</b></p>
 
 
 
 
 
 
-<p id=dd889cf6d887f391188383b428c7ebfc><b><a href="#dd889cf6d887f391188383b428c7ebfc">2.5.5.3.2.1</a>: However, between Data and Logic is a huge gap, as Data is "perfectly" understandable, while Logic is not, due to Halting Problems and all other things CS-academia knows and describes very well.</b></p>
+<p id=e529c9c5431e0acff31b16484c63dfad><b><a href="#e529c9c5431e0acff31b16484c63dfad">2.6.5.3.2</a>: Can know everything about Virtual (Logic/Data), because they are limited, and they are fully contained and inspectable.</b></p>
 
 
 
 
 
 
-<p id=99b45325e58458c65965de974e2f7dc2><b><a href="#99b45325e58458c65965de974e2f7dc2">2.5.5.3.2.2</a>: This difference also tells us why Data is more important than Logic, because Data is more trustworthy than Logic.  When making changes to data, the changes are straight-forward to understand, when making changes to Logic, the side-effects (unintended consequences) can be far-reaching and completely not understandable, and frequently enough are this way.</b></p>
+<p id=dd889cf6d887f391188383b428c7ebfc><b><a href="#dd889cf6d887f391188383b428c7ebfc">2.6.5.3.2.1</a>: However, between Data and Logic is a huge gap, as Data is "perfectly" understandable, while Logic is not, due to Halting Problems and all other things CS-academia knows and describes very well.</b></p>
 
 
 
 
 
 
-<p id=3b9a062658c7f15e53b7601de12d3857><b><a href="#3b9a062658c7f15e53b7601de12d3857">2.5.5.3.2.2.1</a>: Changes to data, that meets constraints, will not harm other data, but can harm Logic that acts on the data (results of Logic, rather)</b></p>
+<p id=99b45325e58458c65965de974e2f7dc2><b><a href="#99b45325e58458c65965de974e2f7dc2">2.6.5.3.2.2</a>: This difference also tells us why Data is more important than Logic, because Data is more trustworthy than Logic.  When making changes to data, the changes are straight-forward to understand, when making changes to Logic, the side-effects (unintended consequences) can be far-reaching and completely not understandable, and frequently enough are this way.</b></p>
 
 
 
 
 
 
-<h3 id=e2a0bb61f2d74d70b31bf533e2b1c260><a href="#e2a0bb61f2d74d70b31bf533e2b1c260">2.5.6</a>: Class of Work: a specific type of work that is done, may be domain specific or general across the company</h3>
+<p id=3b9a062658c7f15e53b7601de12d3857><b><a href="#3b9a062658c7f15e53b7601de12d3857">2.6.5.3.2.2.1</a>: Changes to data, that meets constraints, will not harm other data, but can harm Logic that acts on the data (results of Logic, rather)</b></p>
 
 
 
 
 
 
-<h2 id=af1f8c9950e296d130a668076e4ba88b><a href="#af1f8c9950e296d130a668076e4ba88b">2.6</a>: The Philosophy of Pragmatism</h2>
+<h3 id=e2a0bb61f2d74d70b31bf533e2b1c260><a href="#e2a0bb61f2d74d70b31bf533e2b1c260">2.6.6</a>: Class of Work: a specific type of work that is done, may be domain specific or general across the company</h3>
 
 
 
 
 
 
-<h3 id=ecb2f6533d02864a3355571f4e7d17b7><a href="#ecb2f6533d02864a3355571f4e7d17b7">2.6.1</a>: It doens't mean practical, or common sense.  It is specific to the effects, and nothing else.</h3>
+<h2 id=af1f8c9950e296d130a668076e4ba88b><a href="#af1f8c9950e296d130a668076e4ba88b">2.7</a>: The Philosophy of Pragmatism</h2>
 
 
 
 
 
 
-<p id=c88a8c2a472464982c2f1601901f744d><b><a href="#c88a8c2a472464982c2f1601901f744d">2.6.1.1</a>: Deal with ONLY effecs.  No side effects.</b></p>
+<h3 id=ecb2f6533d02864a3355571f4e7d17b7><a href="#ecb2f6533d02864a3355571f4e7d17b7">2.7.1</a>: It doens't mean practical, or common sense.  It is specific to the effects, and nothing else.</h3>
 
 
 
 
 
 
-<p id=c225c5097c5fbffad5f9b2d6d5fb3d43><b><a href="#c225c5097c5fbffad5f9b2d6d5fb3d43">2.6.1.1.1</a>: Show positives, not negatives.</b></p>
+<p id=c88a8c2a472464982c2f1601901f744d><b><a href="#c88a8c2a472464982c2f1601901f744d">2.7.1.1</a>: Deal with ONLY effecs.  No side effects.</b></p>
 
 
 
 
 
 
-<p id=435b1da00f2fe0352e54a0887ca8e461><b><a href="#435b1da00f2fe0352e54a0887ca8e461">2.6.1.1.1.1</a>: How to produce low-downtime.  How to produce high-downtime.  Functinally positive or negative on our Axiom spectrums.  As prioritized by the 90-9-.9-.09... rules.</b></p>
+<p id=c225c5097c5fbffad5f9b2d6d5fb3d43><b><a href="#c225c5097c5fbffad5f9b2d6d5fb3d43">2.7.1.1.1</a>: Show positives, not negatives.</b></p>
+
+
+
+
+
+
+<p id=435b1da00f2fe0352e54a0887ca8e461><b><a href="#435b1da00f2fe0352e54a0887ca8e461">2.7.1.1.1.1</a>: How to produce low-downtime.  How to produce high-downtime.  Functinally positive or negative on our Axiom spectrums.  As prioritized by the 90-9-.9-.09... rules.</b></p>
 
 
 

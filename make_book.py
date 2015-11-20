@@ -100,8 +100,7 @@ def OutputSectionGitMarkDown(section_dict, header_prefix=None, depth=0):
   
   # If we dont have the section path, create it from our title label
   if not os.path.isfile(section_path):
-    section_content = '### [[%s]]\n\n\n' % label
-    open(section_path, 'w').write(section_content)
+    raise Exception('Section path not found, this should have been handled in HTML output: %s' % section_path)
   
   # Else, we do have it, so read it in and put it under the section header
   else:
@@ -167,7 +166,8 @@ def OutputSection(section_dict, header_prefix=None, depth=0):
   
   # If we dont have the section path, create it from our title label
   if not os.path.isfile(section_path):
-    raise Exception('Section path not found, this should have been handled in HTML output: %s' % section_path)
+    section_content = '### [[%s]]\n\n\n' % label
+    open(section_path, 'w').write(section_content)
   
   # Else, we do have it, so read it in and put it under the section header
   else:
