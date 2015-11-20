@@ -398,8 +398,6 @@ def Main():
     open(IN_PATH, 'w').write(toc_rewrite_output.rstrip() + '\n\n')
     #open('%s.rewrite' % IN_PATH, 'w').write(toc_rewrite_output.rstrip())
   
-  print '\n\nTotal Sections: %s' % total_sections
-  
   print
   print
 
