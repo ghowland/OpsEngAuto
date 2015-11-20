@@ -11,6 +11,7 @@ import hashlib
 import pprint
 import time
 import os
+import glob
 
 
 #DEBUG=True
@@ -30,6 +31,33 @@ SECTION_TAG_STRING = '%-500s [[%s]]'
 
 # This is where our Section Tag files will go
 SECTION_DIR = 'sections'
+
+
+def Report__SectionsPopulated():
+  """Prints out how many sections have been populated."""
+  glob_path = '%s/*' % SECTION_DIR
+  paths = glob.glob(glob_path)
+  
+  populated = []
+  
+  for path in paths:
+    lines = open(path).read().split('\n')
+    
+    # Simple line count check.  Not enough lines?  Not populated.
+    if len(lines) > 4:
+      populated.append(path)
+    
+  
+  print 'Populated Sections: %s' % len(populated)
+
+
+def Report__SectionsAbandoned():
+  """Prints out how many sections no longer have references in the TOC."""
+  #TODO(g): If these are empty just move them to the backup directory (deleted, effectively).  Use git commands, since this is in the repo now.
+  pass
+  
+  #NOTE(g): Look for non-empty files with no references from TOC and list them, so I can edit them and move their content into other sections and not lose them.  Manually delete.
+  pass
 
 
 def OutputSectionGitMarkDown(section_dict, header_prefix=None, depth=0):
@@ -335,6 +363,12 @@ def Main():
     #open('%s.rewrite' % IN_PATH, 'w').write(toc_rewrite_output.rstrip())
   
   print 'Total Sections: %s' % total_sections
+  
+  # Look at how many sections actually have data in them
+  Report__SectionsPopulated()
+  
+  #TODO(g): Look for abandoned sections (no TOC reference)
+  Report__SectionsAbandoned()
   
   print
 
