@@ -81,8 +81,6 @@ def OutputSectionGitMarkDown(section_dict, header_prefix=None, report=None, dept
   """GitHub MarkDown Output section, and recurse through sub-sections."""
   output = ''
   
-  #print 'DEBUG: %s' % section_dict
-  
   # If we have a report, add it to the top of the output.
   #NOTE(g): This is temporary, as Im writing the book to track goals and other stuff easily
   if report:
@@ -111,7 +109,7 @@ def OutputSectionGitMarkDown(section_dict, header_prefix=None, report=None, dept
     
     line_prefix = '#' * depth
     
-    output += '%s %s</h%d>\n' % (line_prefix, label)
+    output += '%s %s\n' % (line_prefix, label)
   
   # Else, deeper, not using HTML headers
   else:
@@ -152,7 +150,7 @@ def OutputSection(section_dict, header_prefix=None, report=None, depth=0):
   """Output section, and recurse through sub-sections."""
   output = ''
   
-  #print 'DEBUG: %s' % section_dict
+  output += '<h1>Operational Engineering and Automation</h1>\n'
   
   # If we have a report, add it to the top of the output.
   #NOTE(g): This is temporary, as Im writing the book to track goals and other stuff easily
