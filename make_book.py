@@ -184,6 +184,9 @@ def Main():
   # Track chapters (each depth==0 item is a chapter)
   cur_chapter = 0
   
+  # Stats
+  total_sections = 0
+  
   # As we process each line, we may need to edit it to add a section tag (suffix: "[[md5sum]]")
   toc_rewrite_output = ''
   
@@ -246,6 +249,7 @@ def Main():
       # If we dont have this chapter yet, add it
       if cur_chapter not in table_of_contents:
         cur_section = {'title':line, 'children':[], 'parent':None}
+        total_sections += 1
         
         # Add to top level
         table_of_contents.append(cur_section)
@@ -270,6 +274,7 @@ def Main():
       
       # Create the new sub-chapter entry
       cur_section = {'title':line, 'children':[], 'parent':cur_dict}
+        total_sections += 1
       
       # Add this to our parent (cur_dict is parent now)
       cur_dict['children'].append(cur_section)
@@ -328,6 +333,8 @@ def Main():
     # Write over our original with the new-updated TOC
     open(IN_PATH, 'w').write(toc_rewrite_output.rstrip() + '\n\n')
     #open('%s.rewrite' % IN_PATH, 'w').write(toc_rewrite_output.rstrip())
+  
+  print 'Total Sections: %s' % total_sections
   
   print
 
