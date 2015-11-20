@@ -59,8 +59,8 @@ while True:
   if updated:
     (status, output) = commands.getstatusoutput(GO_COMMAND)
     
-    # If failed, report error
-    if status != 0:
+    # If failed, report error.  Git returns 1 for not needed to do work.
+    if status not in (0, 1):
       print '\n%s: Error running: %s: %s: %s\n' % (time.asctime(time.localtime(time.time())), GO_COMMAND, status, output)
     
     # Else, report success
