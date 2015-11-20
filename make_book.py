@@ -352,7 +352,7 @@ def Main():
   
   # Else, something changed, so we need to make a backup and re-write the original file
   else:
-    backup_path = '%s/%s_%s' % (TOC_BACKUP_DIR, IN_PATH, int(time.time()))
+    backup_path = '%s/%s' % (TOC_BACKUP_DIR, IN_PATH)
     print '\n- Rewrite necessary:  Updated: %s    Backup: %s' % (IN_PATH, backup_path)
     
     # Write the original to our TOC backup dir
