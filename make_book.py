@@ -1,5 +1,12 @@
 #!/usr/bin/python
 
+"""
+Throw-away program to generate a book.  Not meant to be re-usable at this point,
+and not a full life-cycle yet, but getting me up and running in the method I
+want to write the book sections and TOC in.
+"""
+
+
 import hashlib
 import pprint
 import time
@@ -11,6 +18,7 @@ DEBUG=False
 
 
 OUT_PATH = 'book.html'
+OUT_GIT_PATH = 'README.md'
 IN_PATH = '_toc_details.yaml'
 
 # Directory to backup current TOC IN_PATH file, as we make changes to it, so it cannot be corrupted by the automated changes
@@ -22,6 +30,73 @@ SECTION_TAG_STRING = '%-500s [[%s]]'
 
 # This is where our Section Tag files will go
 SECTION_DIR = 'sections'
+
+
+def OutputSectionGitMarkDown(section_dict, header_prefix=None, depth=0):
+  """GitHub MarkDown Output section, and recurse through sub-sections."""
+  output = ''
+  
+  #print 'DEBUG: %s' % section_dict
+  
+  # Split the title and section tag out of this entry
+  (title, section_tag) = section_dict['title'].split(' [[', 1)
+  title = title.strip()
+  section_tag = section_tag.split(']]', 1)[0]
+  
+  
+  # Build section file path
+  #TODO(g): Switch this to HTML after processing with Jinja to template out vars
+  section_path = '%s/%s.txt' % (SECTION_DIR, section_tag)
+  
+  
+  # Chapter header
+  if depth == 0:
+    label = 'Chapter %s: %s' % (header_prefix, title)
+    
+    output += '# %s\n' % label
+    
+  # H2 to H3, beyond that is just paragraph headers?
+  elif depth < 3:
+    label = '%s: %s' % (header_prefix, title)
+    
+    line_prefix = '#' * depth
+    
+    output += '%s %s</h%d>\n' % (line_prefix, label)
+  
+  # Else, deeper, not using HTML headers
+  else:
+    label = '%s: %s' % (header_prefix, title)
+    
+    output += '#### %s\n' % label
+  
+  
+  # If we dont have the section path, create it from our title label
+  if not os.path.isfile(section_path):
+    section_content = '### [[%s]]\n\n\n' % label
+    open(section_path, 'w').write(section_content)
+  
+  # Else, we do have it, so read it in and put it under the section header
+  else:
+    section_content = open(section_path).read()
+  
+  
+  # Print the section contents to our ouput (under our section header, which this is the content for)
+  for line in section_content.split('\n'):
+    # Skip the comment lines out (comments start with: ###)
+    if not line.strip().startswith('###'):
+      output += '<p>%s</p>' % line
+  
+  
+  # If this section has children, output them too
+  if section_dict['children']:
+    count = 0
+    for section_child_dict in section_dict['children']:
+      count += 1
+      cur_header_prefix = '%s.%s' % (header_prefix, count)
+      output += OutputSection(section_child_dict, header_prefix=cur_header_prefix, depth=depth+1)
+  
+  
+  return output
 
 
 def OutputSection(section_dict, header_prefix=None, depth=0):
@@ -64,8 +139,7 @@ def OutputSection(section_dict, header_prefix=None, depth=0):
   
   # If we dont have the section path, create it from our title label
   if not os.path.isfile(section_path):
-    section_content = '### [[%s]]\n\n\n' % label
-    open(section_path, 'w').write(section_content)
+    raise Exception('Section path not found, this should have been handled in HTML output: %s' % section_path)
   
   # Else, we do have it, so read it in and put it under the section header
   else:
@@ -76,7 +150,7 @@ def OutputSection(section_dict, header_prefix=None, depth=0):
   for line in section_content.split('\n'):
     # Skip the comment lines out (comments start with: ###)
     if not line.strip().startswith('###'):
-      output += '<p>%s</p>' % line
+      output += '%s\n\n' % line
   
   
   # If this section has children, output them too
@@ -227,6 +301,16 @@ def Main():
     output += OutputSection(cur_section, header_prefix=str(count))
   
   fp = open(OUT_PATH, 'w').write(output)
+  
+  
+  # Print the GitHub MarkDown
+  output = '# Operations Engineering and Automation\n\n\n'
+  count = 0
+  for cur_section in table_of_contents:
+    count += 1
+    output += OutputSectionGitMarkDown(cur_section, header_prefix=str(count))
+  
+  fp = open(OUT_GIT_PATH, 'w').write(output)
   
   
   # Test if we need to rewrite the TOC file
