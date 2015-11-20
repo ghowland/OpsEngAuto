@@ -352,6 +352,7 @@ def Main():
   
   # Else, something changed, so we need to make a backup and re-write the original file
   else:
+    #backup_path = '%s/%s_%s' % (TOC_BACKUP_DIR, IN_PATH, int(time.time()))     #NOTE(g): Because Im checking into github every time, this is the backup.  If I cant check into github for a period of time, I can switch the comments, and create unique files again.
     backup_path = '%s/%s' % (TOC_BACKUP_DIR, IN_PATH)
     print '\n- Rewrite necessary:  Updated: %s    Backup: %s' % (IN_PATH, backup_path)
     
