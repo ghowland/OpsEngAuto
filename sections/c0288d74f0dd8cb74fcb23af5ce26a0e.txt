@@ -1,3 +1,8 @@
 ### [[1.4: Hopefully, this will provide you with a set of foundational experiences from my expeirence, in which you can use to form your own opinions, methods, philosophies, procedures, axioms, and systems.]]
 
+The ultimate goal in this book is that it improves your ability to function as an operational engineer, and to write automation that achieves the results that you want.
+
+If you find any areas difficult to understand, or believe that sections are not explained well or are incorrect, feel free to write me and I will try to get back to you and update the work as best I can.
+
+My personal email is:  geoff@gmail.com
 

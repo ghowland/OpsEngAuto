@@ -200,10 +200,10 @@ def OutputSection(section_dict, header_prefix=None, report=None, depth=0):
   
   
   # Print the section contents to our ouput (under our section header, which this is the content for)
-  for line in section_content.split('\n'):
+  for line in section_content.strip().split('\n'):
     # Skip the comment lines out (comments start with: ###)
     if not line.strip().startswith('###'):
-      output += '%s\n\n' % line
+      output += '%s<br>\n' % line
   
   
   # If this section has children, output them too
@@ -362,21 +362,21 @@ def Main():
 
   
   # Print the HTML
-  output = '<h1>Operations Engineering and Automation</h1>\n'
+  output = '<h1>Operations Engineering and Automation</h1>\n' + report
   count = 0
   for cur_section in table_of_contents:
     count += 1
-    output += OutputSection(cur_section, header_prefix=str(count), report=report)
+    output += OutputSection(cur_section, header_prefix=str(count))
   
   open(OUT_PATH, 'w').write(output)
   
   
   # Print the GitHub MarkDown
-  output = '# Operations Engineering and Automation\n\n\n'
+  output = '# Operations Engineering and Automation\n\n\n' + report
   count = 0
   for cur_section in table_of_contents:
     count += 1
-    output += OutputSectionGitMarkDown(cur_section, header_prefix=str(count), report=report)
+    output += OutputSectionGitMarkDown(cur_section, header_prefix=str(count))
   
   open(OUT_GIT_PATH, 'w').write(output)
   

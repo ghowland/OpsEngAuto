@@ -1,5 +1,11 @@
 ### [[Chapter 1: Preface]]
 
+What will you get out of this book?  Why read it?
 
-Stuff goes here for the preface.  This is in the linked section tag file.
+What I hope to impart here is a view into how I see operations, and how I automate operations.
 
+In the case of the book, "operations" means "networked operations", "server operations", "datacenter operations", "production operations", all rolled into one term.  The field is both specific and non-specific, as operations can mean other things, but these fields are what I'm referring to.
+
+What I hope you will gain from my perspective is a new foundation you can use as a point of reference to build your own operations experiences from, whether you are already an experienced operations engineer or new to the field. 
+
+I will be covering a very large arena of information, so I will try to present a coherent picture, even though I cannot go into full details on every aspect, as it covers too many disciplines.

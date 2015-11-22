@@ -1,3 +1,76 @@
 ### [[2.1: Focus on the virtual/physical management, specifically around internet and network services, but relatable to other industries.  All use cases will be around data centers and networked services.]]
 
+"What is reality?" is a question that is too big and general to be dealt with here, if you want a good introduction on how to understand this from an engineering perspective, you can see Bertrand Russell's book {{ book_russell_reality }}.  It does a good job of describing how reality can be determined from our senses, and is a fairly short read.  You can also take a look on Wikipedia at the philosophical movement, Logical Positivism, which is a useful philosophy for engineers, and is one of the philosophical methodologies I use and reference in this book.
+
+For our purposes, it is good enough to have a summary of this, and for me to describe on which side of real vs. virtual (un-real) various elements reside in, for our purposes.  Again, this is not meant to be "ultimate truth", but a tool for communication, so that we can come to common terms and understandings, and grow our engineering abilities and get better results.  It is not meant for purposes outside of this endeavor.
+
+To be brief, I will use Russell's example converted into the experience you are having right now.
+
+At present, you are somewhere reading this text.  You are real, you exist, because you have tangible properties, such as mass, made of of molecules and atoms, in a certain state that make you you.
+
+The text you are reading is either in a book form, such as paper, or an electronic form, such as a monitor or e-ink display.
+
+If you are reading a book, the book is real, because like you, it is made of molecules, and has physical properties.  It resides in a certain position in the world.
+
+If you are reading from a monitor, then the monitor has similar physical properties.
+
+These things are all real, for our purposes of reality.
+
+The way you are able to read is that either ambient light is refracting off of the book, or is being emitted from the monitor, and those photons are striking your eyes, and the rods and cones in your eyes are being stimulated, and sending "signals" into your brain and nervous system.
+
+These things are all real.  Photons have physical properties, and while different than molecules and atoms, are able to be physically described and interacted with.
+
+At this point, you are probably affirming why you may have not read more philosophy works in your life, right?  Nothing new here, but lots of words to get to that point.
+
+Now, we enter into the realm of the un-real, the virtual world.
+
+How you interpret the words is not real.  It is a virtual type of understanding, though the word "virtual" is usually confined to computer related terms, I am going to use it universally to all things to differentiate from real.  Because we are mostly going to be discussing computer-related un-real concepts, it is easier to just stick to real vs. virtual.
+
+So, what am I getting at here?
+
+You are real, the device (book/monitor/device) is real, the photons traveling to your eyes are real, but your understanding and interpretation of the words is virtual.  Your feelings about the words is virtual, and in fact the words themselves are virtual.
+
+The ink on the paper, or the electrons producing the physical effects are real, but your understanding and interpretations of them are virtual.
+
+What's the point of this?  It will become clearer as we go on why I am leading with this, and it's not to make myself seem like a fancy-pants smart guy, it's because without this agreement now, there will be many more disagreements in the future, and it will hinder our communication about the more interesting and relevant parts of engineering and automation.  Please, bear with me here.
+
+So.  We have real books, devices, you are real, I am real, but your understanding and my understanding of things is not real, and even the words I am writing and you are reading are not real.
+
+How are words not real?  It is because they are symbolic.  They represent an idea, or set of ideas, which are also not real.
+
+The word for "book" exists separately then the object they describe.  In other languages, the word "book" changes (libre, knega, etc), yet the book itself does not change.  This illustrates how words are different than the things that they describe.
+
+Words can also be written in different fonts, and I could call this a "manual" instead of a "book", and yet what you are reading would not change.
+
+Symbolic things are not real, they are virtual, or logical.  I will use virtual instead of logical, as I will be differentiating "Virtual" as un-real, from "Logic" to be used for processes and code, or programming.
+
+Let's create a quick list of things that are real and virtual, for an immediate reference:
+
+- Hardware:  Real.  Something you buy, put an OS on, and runs your software, or something similar.
+- Software: Virtual.  Electricity (RAM), magnetism (rotating disks) or electro-chemical (SSDs/NAND) stores bits of information that can be executed.
+- Data: Virtual.  Same as software, but can't necessarily be executed.
+- Operating System:  Virtual.  Collection of software and data to make hardware perform operations.
+- Book: Real.
+- Words.  Virtual.
+- "A network": Virtual.  It's a concept of something that "networks", or more specifically may be an network IP address (data), that describes the network.
+- Network cables: Real.  Physical objects, that carry current.
+- Ethernet protocol: Virtual.  A collection of data and logic that describes how to communicate over electrical signals.
+- Layer 1 Ethernet: Real.  Physical electrical signals
+- Layer 1 Ethernet standard:  Virtual.  The description of how the physical Layer 1 ethernet will operatie.
+- Layer 2 Ethernet: Virtual.  How the Layer 1 physical (real) is used via the Layer 1 Ethernet standard (virtual), to create a Layer 2 ethernet connectivity effect (virtual).
+- IP Address: Virtual.  Data.
+- Hostname:  Virtual.  Data.
+- My engineering perspectives:  Virtual.  Data.
+- My engineering experience:  Virtual.  Data.
+- The actual things I have been through in my life:  Real.  Things happened, involving molecules and stuff over time (entropic heat exchange, etc)
+- My perspectives and memories of the actual things I have experienced:  Virtual.  Data, and summarized data at that, since I was not aware of the full-state of the physical (real) occurrences around me, and my memory (virtual) of them is a summary of that as well.
+
+
+I hope this short list and hopefully not-too-painful fundamental section has left what I am referring to in a clear state with you.  
+
+If not, please skim it again.  You don't need to agree with me on these things, you merely need to understand what I am trying to say clearly to get the information I am trying to convey.
+
+If you ever hit parts that feel wrong to you, or you reject, try to use the mechanism I presented in the preference of: "Geoff says X"
+
+This means you can take in this information, as "Geoff is saying this to me", without having to update your world-view at this moment to include what I am saying as "the truth", and in fact, I am not asking you to ever do this.  This is a communication to hopefully provide you more insight, which will include my perspectives, not as instructions on how you should see the world once you have finished reading this.
 

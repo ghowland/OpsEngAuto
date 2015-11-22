@@ -1,3 +1,27 @@
-### [[1.3: Writing in the first-person.  I will try to write as much as possible in the first-person, as I am speaking of my opinions, my experiences, etc.  I also find that this avoids the tone that can be see as "scolding" or "commanding" in write, as in the second-person "you must do this", etc.  When reading speech in the first person, I am more likely to see the information as informative, coming from the writers' perspective, rather than commanding and authoritative, in that this is something you must do.]]
+### [[1.3: Writing in the first-person ]]
 
+You may have noticed, but I am writing quiet frequently in the first person, and will try to keep this consistent as much as possible.
 
+I am speaking of my experiences, perspectives and opinions, and so I think this is best done using "my own" voice, instead of a more factual "voice of authority".
+
+In my view, all information should be considered as coming from the source of origin, where you discovered it.
+
+When I say "X is Y", I think this should be read as "Geoff said X is Y", and not that X really is Y.  Whether X is really Y or not should be something that you validate for yourself, in your own experience, in your specific situation.
+
+The situation I could be using as my example may not match up to the situation you are working in, and my perspective may not be a useful one.
+
+Moreover, language itself is very flexible in what is what is meant, as many things could be intended by the same word, like the very overloaded word of "operations".  There is frequently a COO, Chief Operations Officer, in large or public companies, and this person's role and department has absolutely nothing to do with "production operations", "network operations", "server operations", "datacenter operations", etc.
+
+Because of this, it is useful to limit what you take from incoming information to what the speaker was trying to convey to you, as coming from them, from that particular situation, and their particular perspective and experiences.
+
+This separation from incoming-information to "fact" makes taking in more perspectives easier, as they do not need to be turned into a one-size-fits-all world view of truth.  As I learn more, I find that having such a one-size-fits-all is often a hindrance to communicating with other people, and learning new things.  It is certainly a hindrance to having an open mind to new information which may conflict with your current world view.
+
+Instead having a "this person said this thing" stance, allows any new information to come in as it arrived.  You experienced getting the information in some way, and that is that.
+
+Whether you utilize that information, or make it part of how you make decisions is up to you.  Whether it is applicable to your situation is up to you.  Whether it seems logical and grounded in reality as you understand it is up to you.  There is no reason to reject or accept it, as it is simply information.
+
+There will be quite a bit of this kind of introspection into language and meaning in this book, as it is in part a book on the philosophy of engineering and automation, because this is much more important than common jokes about philosophy majors in college may lead one to believe.
+
+I also find that when writing in the first person, it is less of a commanding or authoritative approach, rather than writing in the second person ("you will then do this") has more opportunities to throw readers off if they disagree, do not want to do that, or are tired of being lectured to.
+
+This is a one-way conversation, in that it is a book, but it is meant to be taken as a conversational approach to learning, so that you can grow from it as best is possible, and not merely a display of my knowledge and set of instructions for others to follow.
