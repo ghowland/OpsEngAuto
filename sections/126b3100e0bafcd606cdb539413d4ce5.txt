@@ -137,7 +137,7 @@ This is an "environment" description, and differentiates machines in production 
 
 - sjc
 
-This is the location of the datacenter the server is in.  Whether it is a closet, or a Tier-4 Gold data center, you have assigned a location to it, so no one has to guess.  If you are consistent and only put the correct location labels into the hostnames, you will not have confusion over where machines physically resides when this becomes an issue, say for maintenance, repairs, or networking changes.
+This is the location of the datacenter the server is in.  Whether it is a closet, or a Tier-4 Gold data center, you have assigned a location to it, so no one has to guess.  If you are consistent and only put the correct location labels into the hostnames, you will not have confusion over where machines physically reside when this becomes an issue, say for maintenance, repairs, or networking changes.
 
 - domain.com
 
