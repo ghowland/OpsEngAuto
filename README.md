@@ -522,6 +522,12 @@ In this case I refer to the first number as the "Shard" and the second number as
 <br>
 This is a very scalable naming convention.  It allows for different Host Classes (web), different Shards of data (-1-), different instances in the shards (-001.), different products (.product.), different environments (.prod., .qa.), different data centers (.sjc1.) and the common domain name for internal server hostnames.<br>
 <br>
+Separate from being scalable, this also provides a new layer of Control.<br>
+<br>
+Data in Shard 1 is different than data in Shard 2, and may even have different logic operate against it.  This is more easily handled than differentiating "redis-001, redis-002" from "redis-003, redis-004" for different logic.<br>
+<br>
+It is better still to use the same logic on all Host Classes of type "redis" and merely differentiate the data sets by the Shard, but because you have grouped the Shards as different numbers, you have this additional ability to control them accurately based on this data.<br>
+<br>
 There are other ways of organizing this data into names, and it depends on what data you need to track, but starting from a naming convention like this when you don't yet have that information is a safer bet than starting with less information planning than this.<br>
 <br>
 If you know you have additional requirements, be sure that they are implemented into the naming convention, and kept in the standard.<br>
