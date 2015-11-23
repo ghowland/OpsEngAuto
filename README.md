@@ -407,7 +407,7 @@ Take this for example:<br>
 - redis-2-001.product.prod.domain.com<br>
 - redis-2-002.product.prod.domain.com<br>
 <br>
-These are 2 redis servers, in the same "pool" of servers (used by the same application servers, in the same production data center), but halfway through someone changed the naming convention.<br>
+These are 4 redis servers, in the same "pool" of servers (used by the same application servers, in the same production data center), but halfway through someone changed the naming convention.<br>
 <br>
 They started out with "shards" as "redis-XX-#", where "#" is the "shard" number (relating to a master-slave set of data), and "XX" was the "shard instance" number, where "01" might be the Master (takes writes) and "02" would be the Slave.<br>
 <br>
