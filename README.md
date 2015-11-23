@@ -432,7 +432,7 @@ Let's look at each part of this name:<br>
 <br>
 These are the components that make up this name.  Do we have the right components for our current needs?  What about our future needs?<br>
 <br>
-One can certainly over-engineer a problem and "prematurely optimize" it against future concerns, but not looking at what is likely to come in the future is on the far side of the spectrum for planning for the future.<br>
+One can certainly over-engineer a problem and "prematurely optimize" it against future concerns, but not looking at what is likely to come in the future is on an extreme side of the spectrum for planning for the future.<br>
 <br>
 Taking each section individually:<br>
 <br>
