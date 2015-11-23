@@ -1,3 +1,76 @@
-### [[2.2: I only really know what I mysql have experienced.  Everything else is hear-say, and while there may be a solid model behind it, I do not actually have experience in the matter, so I cannot trust the information to make solid engineering decisions on.  If I have nothing better, I may need to use this as the best course of action, and it may sound like a good thing to try, so I might experiment with it, but I have to recognize that this is an experiment, and so there is a great risk of failure.]]
+### [[2.2: I only really know what I myself have experienced.  ]]
 
+What do I know?  What do I really know?
+
+In any situation, this is a relevant question, as it directs where I will go next.
+
+If I believe I have solid information, that I can take action on, I can begin immediately to take action on that information.
+
+If I know that I do not have solid information, then I know that the first thing I need to do is to get some solid information I could work on.
+
+How do I know what I really know is good information?
+
+It should be sourced from my own experiences, or it should be planned to quickly make checking the information so that it becomes part of my personal experience.
+
+Things I have personally experienced, I can say I have knowledge of.  Things I have read or heard, or that someone (including myself) just thought up may not be related to the reality of what is going on at the moment.
+
+Actions based on this kind of information are going to yield extremely unreliable results, because the information was not grounded in the circumstances it is being applied to.
+
+Let's create an example, a problem for us to solve.  We'll be doing a lot of this during the course of the book, so to get the most out of these I would suggest taking a moment each time one is introduced to try to model it out in your mind, or imagine it.  I will discuss techniques for doing this a bit later on.
+
+The problem will be a common one:  Alerts are going off on our monitoring system, and tell us that we are having problems with our web servers.
+
+The monitor alerts are not extremely specific in this case and report something like "HTTP test failure".  More specific alerting would be helpful here, but those tests take time to set up, and in our immediate example environment they don't exist.
+
+A group of people forms up to deal with the alerts, and immediately several things are suggested as problems:
+
+- Maybe there was a bad code push?
+- Maybe the logs have filled up the disks?
+- Maybe There is a DDOS or other hacking attack occurring?
+- Maybe someone is doing work on it, and forgot to tell anyone and made a mistake?
+
+All of these are possible, and while some are more likely than others, and could be used to prioritize where we start looking, the question remains:  What do we know?
+
+What we have experienced so far, and what we really know, is that we got an alert of "HTTP test failure", and this has something to do with our web server environment returning correct results to the monitor health checks.
+
+This is all we know in this circumstance.
+
+Was there a bad code push?  We don't know, because we haven't made it part of our example.  Let's add some data around that.
+
+We have 2 options:
+
+- We ask developers or release engineers (or whomever, for this purpose we will say "release engineers") if they have recently pushed any code.
+- We go and look to see if the code has been updated.
+
+Both of these options will yield us new information we can work from, but will each of them give us solid information?
+
+Asking the release engineers will give us the hear-say information that whoever we asked gives their best current information.  Do they check first before responding, to see if anyone has pushed code lately, or do they use their current information to tell us?
+
+If they say, "No, no one has pushed any code lately.  We won't be doing that until X time", then we will leave that conversation with information that says no new code was recently pushed, and we will have impetus to de-prioritize the possibility of new-bad code being pushed into production causing the monitoring alert.
+
+But is this solid information?  They may be the only person who does the code pushes, and so they may be the "definitive" answer on the subject, but what if someone new accidentally did it for some reason?  The "definitive" person would not know this, unless they checked, and their information would not be congruous with reality.
+
+If we take the second option, and we look for ourselves, then we can see if the timestamps on the files have been updated, or if the log files say that the web or application servers have been reloaded.
+
+The second option gives us information that we have personal experience with, and this is solid information.  If we do not have access to go look ourselves, then the next best thing would be getting someone who does have access to verify it themselves and preferably show us the result, but they could also provide unique information such as "X was the last time code was pushed", instead of a more vague answer like "No, no code has been pushed lately".
+
+So we have 2 lessons we can take from this example problem.  One, that information we have personal experience on is better than hear-say information, or information we do not have personal experience with.  Second, that there are degrees to "information solidity", or the reality-based nature of the information.
+
+Looking ourselves yields the highest relation to reality.  We were there, we looked at the information, and it said "X".  We have very high reliability with this information, as long as we were paying attention to what "X" was, and paid attention to get into the right position to look at the right data (not accidentally looking in a different server or direction, at the wrong files), then we have solid actionable information to work off.
+
+This would be the same level of information if someone else did this work, but showed us while they did it.  We saw them do it, we saw the results.  It would take some acts of deception to make this data questionable, and since we are referring to working in a work-environment, we will assume that all people are behaving as Good Actors for these examples.  Later, we will also look at how some people act as Bad Actors, and can create bad data, for instance trying to hide a mistake that have made.
+
+Less reliable is information that someone told us they looked, but did not show us, and gave us exact data, such as "X was the last time code was pushed, I checked the directory timestamps and logs".  This is good data, but we do not have personal experience with it, so it is less-good than data we verify ourselves.
+
+Next, we have a situation where someone else tells us "No, no code was pushed recently".  This is not data we have verified ourselves, so we have no personal experience with it, and it is not specific as to when the code was actually released.  It is possible that this person did not check, and is just telling us from their own perspective that they don't believe it was pushed recently.  This is beginning to be invalid data.  
+
+We could still ascribe Good Actor behavior to this person, and take them for their word, however, what will be the result if we do take them at their word, and de-prioritize looking at a bad code release, and start looking at other problems.  We end up exhausting the search on other things, and much down-time has accrued with the "HTTP test failure" alert still going off, and eventually someone looks and see that indeed new code was pushed out, and it contained a bug.
+
+Rolling back the code resolves the problem, and the HTTP server starts to return correct tests to the monitoring system.
+
+Much of the downtime accrued because of working with non-verified information could have been avoided by getting personal verification of the exact time of the last code push.  I have seen this exact situation happen many times, and bad-code or bad-configuration changes are one of the most common outages for networked services.
+
+Even though these are common, the common-ness alone does not mean that it is solid information.  It only means it is something that should be verified quickly to see if it is a contender for causing the problem.
+
+We will be exploring the idea of what makes good information in detail in this book, and I will change this introductory terminology of "solid information" into a more precise definition of Intelligence, which we can categorize in many ways:  Verified, Unverified, Actionable, Unactionable, etc.
 

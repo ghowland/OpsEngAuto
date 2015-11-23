@@ -1,3 +1,17 @@
 ### [[2.2: What is Operations?]]
 
+Keeping up our short tradition of asking questions that seem pointlessly basic, I will ask:  What is operations?
 
+Why do we do what we do?  Why does it exist?  What is it?  What are the goals?  What are the priorities?  What are the procedures that makes up an Operations department?
+
+The more questions that are asked, stemming from the original question, the less the question seems to be pointless, and the more the questions start to become the ones we deal with every day.  But, we skip the first question.  Why?
+
+We skip it because we already assume that we all know the answer, and that we are already in agreement about the answer.  It is taken as a given, but in my experience, there are many differences of opinions in even the most basic answers to what it is.
+
+People have different values, and they have different skills and personal experiences, and from these, they have a world-view that is also different.
+
+Getting to the fundamentals of what we mean by something like "Operations" means that we can start to align our views, and in aligning our views, we will communicate more effectively, and be able to work more effectively together.
+
+It is really these fundamental issues that make communication so hard and ineffective, because we do not drop down to discussing what we are fundamentally doing, and get buy-in from everyone on the team about each of the layers in the stack of what makes up an environment's operations.
+
+So, what is operations?

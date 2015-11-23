@@ -1,3 +1,207 @@
 ### [[2.2.1.1: "De facto" ops vs. "planned/controlled" ops]]
 
+If Control is the central tenet of Operations, what is the opposite side of the spectrum?  Uncontrolled operations?
+
+I think it's clearer to say that the opposite side of the spectrum from control is "de facto" operations.  What simply happens because there are business goals that need to be solved, and resources were put towards solving them, again and again.
+
+It is fairly easy, in my experience, to handle every situation in an efficient manner for the problem at hand, and still end up with a total mess of an operations environment, because the actions while individually efficient do not work together as a whole efficiently.
+
+This is often seen in naming conventions that change frequently, or that you could say there is not really a "convention" to the naming of things.  The same goes with what kind of hardware you purchase, if every time you purchase hardware you pick the "right tool for the job", but you end up with unique hardware configurations for every problem solved that required a purchase, then you have N number of hardware configurations to support and manage.
+
+The maintenance work to keeping many hardware configurations versus a limited number (say 2-4 unique hardware specifications per generation of hardware purchases), will mean many more problems have to be solved in upgrading software, and many more security and firmware upgrades will need to be tested.  It can easily create a situation that either requires many people to support, or more likely it to not worth the cost of actively supporting everything, and so support is only assigned when a high priority problem arises.
+
+"De facto" just means "In reality", but in common terms it means "the way things happens", like "this is what we have got from our low-coordinated efforts".
+
+So a spectrum for Control would look like:
+
+De Facto <----> Planned
+
+Planned operations will have strict naming conventions, where all the data required to be derived from a name is embedded in the name, and when new services, products, environments, and other things arrive, they are intelligently inserted into the existing convention and do not create new conventions.
+
+An example of "de facto" naming of hostnames might be like this:
+
+- chicken.domain.com
+- trex.domain.com
+- saturn.domain.com
+- monkeyknifefight.domain.com
+- web1.prod.domain.com
+- web9.prod.domain.com
+- web10.prod.domain.com
+- redis-01.sf.prod.domain.com
+- redis-01.nyc.prod.domain.com
+- redisqa-01.nyc.prod.domain.com
+- redis-01.nyc.stage.domain.com
+- git.corp.domain.com
+
+And a list of the same names, in a "planned" fashion might be like this (which provide the same services as the above machines, in a 1-1 fashion):
+
+- ops-001.infra.admin.sjc.domain.com
+- ops-002.infra.admin.sjc.domain.com
+- ops-003.infra.admin.sjc.domain.com
+- monitor-001.infra.admin.sjc.domain.com
+- web-001.product.prod.sjc.domain.com
+- web-009.product.prod.sjc.domain.com
+- web-010.product.prod.sjc.domain.com
+- redis-001.product.prod.nyc.domain.com
+- redis-001.product.qa.nyc.domain.com
+- redis-001.product.stage.nyc.domain.com
+- git-001.infra.corp.sjc.domain.com
+
+A couple of things can be immediately seem from these lists, as you compare the each ordered element against the same position in the other list.
+
+Some striking differences:
+
+- No "funny" or special names for machines.  "monkeyknifefight" is great imagery, and fun to say, but it has no business in your operational data.  It does not explain what services are provided, who owns the machine, where it is located, or any other actionable information.  It is essentially dis-information, since you know less about the machine then if it was called "misc" or "general".
+
+- In a planned naming structure, all names have the same number of elements, and the elements are in the same order, and written in the same sequence and pattern.
+
+In the list I have just made up, you can tell a number of things about any of the given hostnames' servers:  
+
+What general function they provide (web, git, redis).  
+
+What location is the server in?  SJC and NYC seems to be our options.  This is much clearer than "sf", as they are airport codes, and so provide more than city or regional information.
+
+What environment is this used for?  Production, staging, QA, corporate?
+
+What instance number of the service is this?  001, 010?  
+
+In addition, the instance numbers are always written in the same format, providing a standard for where to start a new service:  001 (or 000, if you prefer computer counting)
+
+The planned naming convention can scale significantly, while keeping a pattern that fits any of the machines, new or old.  Selecting the proper format for naming hosts is so important, because it is a direct factor in Control.
+
+If you cannot name something accurately, how can you control it?  How can I access a server, if I do not know it's name?  How can I change the state of a server, if I do not know it's name?
+
+I have worked in environments where naming conventions changed even in the same service.
+
+Take this for example:
+
+- redis-01-1.product.prod.domain.com
+- redis-02-1.product.prod.domain.com
+- redis-2-001.product.prod.domain.com
+- redis-2-002.product.prod.domain.com
+
+These are 2 redis servers, in the same "pool" of servers (used by the same application servers, in the same production data center), but halfway through someone changed the naming convention.
+
+They started out with "shards" as "redis-XX-#", where "#" is the "shard" number (relating to a master-slave set of data), and "XX" was the "shard instance" number, where "01" might be the Master (takes writes) and "02" would be the Slave.
+
+Then later they or someone else (more likely) created a new set of machines with the shard and shard-instance values flipped, and the shard-instance values now have 3 digits, instead of 2.
+
+This creates problems every time someone tries to work on these machines.  Logging into any given machine takes either trial-and-error, memorization, or looking it up.  Each of these is inefficient in time and personnel resources, and as the site scales up (more servers, more services), these kinds of time-personnel costs start to become major factors in both how much work can be accomplished in a given period of time, how frequently mistakes are made (not updating all the servers in the same fashion, performing work on the wrong servers), how long it takes to train new employees, and how well any employee really knows the environment.
+
+We are probably in agreement that planned naming conventions is better than unplanned or de facto naming conventions, but we are engineers, and it is not enough to think something is better, we require being able to dissect the issue to see what the components make it up, so that we can build it better for our specific needs.
+
+Let's take a look at the original planned naming convention I gave, and see how we can make it more efficient, since we want it to be our one-and-only naming convention.
+
+- web-001.product.prod.sjc.domain.com
+
+Let's look at each part of this name:
+
+- web
+- 001
+- product
+- prod
+- sjc
+- domain.com
+
+These are the components that make up this name.  Do we have the right components for our current needs?  What about our future needs?
+
+One can certainly over-engineer a problem and "pre-maturely optimize" it against future concerns, but not looking at what is likely to come in the future is on the far side of the spectrum for planning for the future.
+
+Taking each section individually:
+
+- web
+
+This seems pretty self-explanatory.  If we call things "web" servers, and they do "web" things, and we don't have other services that also do the same thing in the same environment and could cause confusion, this is good enough.
+
+If we do have other services that do the same or similar things, we might need some alternative names, such as "app", "webmain", or "webfront" or something similar.  Try to make it what people in your environment call it verbally, and there will be less confusion when switching from discussions to typing in data.
+
+I will call this first part of a naming convention our "Host Class".  So machines hostnames that start with "web" have a Host Class of "web".
+
+- 001
+
+This is our Instance number.  It is the first (or second if starting from 000) machine in in the "web" Host Class.
+
+This has an obvious limit of stopping at 999, and then the naming convention breaks.  Many organizations will never have more than 999 servers of any type, but this is not a reason to fail to plan for the case of scaling past that point.
+
+It costs very little to make a good naming convention, and only requires diligence and checking your work to ensure that no one creates names they should not, and it will save much pain in having issues with naming down the line.
+
+Scripts are written whose logic may not be able to deal with naming conventions that change, and this can cause problems in your environment as you pass these thresholds.  We'll cover how to solve this shortly.
+
+- product
+
+This is an example product name for your organization.  This should be a short product or project name that clearly differentiates it's purpose from other products or projects.  Notice in the example I use "product" and "infra" to differentiate the organization's project from the infrastructure servers used to support the product's operational environment.
+
+- prod
+
+This is an "environment" description, and differentiates machines in production (being used by end-users, or running financially impacting services), differentiating it from servers performing the same actions, but that run in development, QA, staging, corporate, or other environments which have different users and impact if they go down or degrade.
+
+- sjc
+
+This is the location of the datacenter the server is in.  Whether it is a closet, or a Tier-4 Gold data center, you have assigned a location to it, so no one has to guess.  If you are consistent and only put the correct location labels into the hostnames, you will not have confusion over where machines physically resides when this becomes an issue, say for maintenance, repairs, or networking changes.
+
+- domain.com
+
+The example domain of our example organization.  The important part here is that it is consistent.
+
+There is a difference between internal names and external names, in that internal names can be kept consistent with the work of the Operations department, but external names are frequently in control of other departments such as Marketing, Business Development, Sales, etc.
+
+As such, they should be treated differently.  Internal names should be rigidly controlled, and external names should come with high recommendations for using naming conventions.  You could even provide several different recommendations for external naming conventions, to try to get other departments to constraint themselves and avoiding total naming-anarchy.
+
+Frequently non-Operations departments do not understand the use of sub-domains like ".product.domain.com", and will create new base level domains for every projects.  Sometimes this is required (legal and business reasons) and other times, it is only because they didnt know they could have "newproduct.domain.com".
+
+
+Now that we have gone over a bit about the initial planned naming convention, let's make it better.  Here is a proposal:
+
+- web-1-001.product.prod.sjc1.domain.com
+
+I have only added 3 characters to this name, but I have made it both significantly more scalable, and provided a new level of control.
+
+First, how is it more scalable than the previous naming convention of "web-001.product.prod.sjc.domain.com"?
+
+It is more scalable in 2 ways.
+
+First, it is more scalable in the location.  Previously we had "sjc", which meant that the server was located near the closest airport code of SJC (San Jose, California), but which data center is this?
+
+If you only have 1 data center, then you know.  But what if you get a second data center, for redundancy or growth?  What do you name it?  sjc2?  
+
+If you name the second data center "sjc2" and the first was "sjc", you now have a naming convention error.  You previously had 3 letters, now you have 3 letters and 1 number.  This will create parsing problems in scripts, and is inconsistent when you type names.  As you grow in number of data centers in the SJC area, you will have more problems when "sjc3" and "sjc4" are consistent, but the original "sjc" is not.
+
+If you know that something is likely to grow in count, then you should start with a numerical indicator from the beginning.
+
+What about "product", is it likely to grow in count too?  No, there is no necessary requirement for this.  If a new product does come out that is called "product2", then it is still differentiated from "product", and while it shares the same look and feel as the datacenter location scaling problem, it is actually a different type of scaling.
+
+This is likely to be controversial, as it is difficult to back up with solid data quickly, so we will cover how to differentiate data like this later.
+
+The second way it is more scalable is that we have a secondary numerical counter for the Host Class.  "001" has now become "1-001".
+
+This provides 2 methods of scaling.  For Host Classes that merely collect a lot of servers, this means we can use the same naming convention once we pass "999" instances for the "web" Host Class in our production SJC facility for our given product.
+
+This would look like:  web-2-001.product.prod.sjc1.domain.com
+
+However, many services have a more interesting use case for this number than simply going rolling over by 1000, which is separating sets of machines that hold related information.  Consider these names:
+
+- redis-1-001.product.prod.sjc1.domain.com
+- redis-1-002.product.prod.sjc1.domain.com
+- redis-2-001.product.prod.sjc1.domain.com
+- redis-2-002.product.prod.sjc1.domain.com
+
+These are 4 machines, grouped into 2 sets of 2:  1-001/1-002 and 2-001/2-002
+
+These can be used in many ways, but one way would be that this represents a Master-Slave relationship of data being written and read to 1-001 and 2-001, until one of those machines goes down, and then the other would take over such as 1-001 going down, it would be: 1-002 and 2-001 which are active for reads and writes.
+
+What data is sent to each of these machines could be done based on doing a modulus of an index ID (shard = index_id % 2), or another lookup method (rings, partitions, etc).
+
+In this case I refer to the first number as the "Shard" and the second number as the "Shard Instance", so redis-1-001 is Shard 1, Shard Instance 001.
+
+This is a very scalable naming convention.  It allows for different Host Classes (web), different Shards of data (-1-), different instances in the shards (-001.), different products (.product.), different environments (.prod., .qa.), different data centers (.sjc1.) and the common domain name for internal server hostnames.
+
+There are other ways of organizing this data into names, and it depends on what data you need to track, but starting from a naming convention like this when you don't yet have that information is a safer bet than starting with less information planning than this.
+
+If you know you have additional requirements, be sure that they are implemented into the naming convention, and kept in the standard.
+
+If you already have a naming convention, it is better to stay with it than to change it, but if you do need to change it, it is better to make a new standard, and make all new machines comply with it (if they are not in existing services with the old naming convention).
+
+This way you can at least control your naming conventions in a generational sense, and if you are doing planned work, you should have a very limited number of total generations.
+
+There is a lot more that could be said on just this example, and we will come back to it later, as naming things is, after all, one of the two hard computer problems, along with cache poisoning and off-by-one errors.
 

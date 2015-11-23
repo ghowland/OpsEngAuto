@@ -1,6 +1,6 @@
 <h1>Operations Engineering and Automation</h1>
-Total Sections: 281   Populated Sections: 7
-Current Goal: Populate Empty Sections: 274   (Done: 2.5%)
+Total Sections: 281   Populated Sections: 11
+Current Goal: Populate Empty Sections: 270   (Done: 3.9%)
 <h1 id=48152466029dfcb314ccad4d502d1a73><a href="#48152466029dfcb314ccad4d502d1a73">Chapter 1</a>: Preface</h1>
 <br>
 What will you get out of this book?  Why read it?<br>
@@ -173,9 +173,342 @@ If you ever hit parts that feel wrong to you, or you reject, try to use the mech
 <br>
 This means you can take in this information, as "Geoff is saying this to me", without having to update your world-view at this moment to include what I am saying as "the truth", and in fact, I am not asking you to ever do this.  This is a communication to hopefully provide you more insight, which will include my perspectives, not as instructions on how you should see the world once you have finished reading this.<br>
 <h2 id=75d62671847424a563ec929a890245c5><a href="#75d62671847424a563ec929a890245c5">2.2</a>: I only really know what I myself have experienced.  Everything else is hear-say, and while there may be a solid model behind it, I do not actually have experience in the matter, so I cannot trust the information to make solid engineering decisions on.  If I have nothing better, I may need to use this as the best course of action, and it may sound like a good thing to try, so I might experiment with it, but I have to recognize that this is an experiment, and so there is a great risk of failure.</h2>
+<br>
+What do I know?  What do I really know?<br>
+<br>
+In any situation, this is a relevant question, as it directs where I will go next.<br>
+<br>
+If I believe I have solid information, that I can take action on, I can begin immediately to take action on that information.<br>
+<br>
+If I know that I do not have solid information, then I know that the first thing I need to do is to get some solid information I could work on.<br>
+<br>
+How do I know what I really know is good information?<br>
+<br>
+It should be sourced from my own experiences, or it should be planned to quickly make checking the information so that it becomes part of my personal experience.<br>
+<br>
+Things I have personally experienced, I can say I have knowledge of.  Things I have read or heard, or that someone (including myself) just thought up may not be related to the reality of what is going on at the moment.<br>
+<br>
+Actions based on this kind of information are going to yield extremely unreliable results, because the information was not grounded in the circumstances it is being applied to.<br>
+<br>
+Let's create an example, a problem for us to solve.  We'll be doing a lot of this during the course of the book, so to get the most out of these I would suggest taking a moment each time one is introduced to try to model it out in your mind, or imagine it.  I will discuss techniques for doing this a bit later on.<br>
+<br>
+The problem will be a common one:  Alerts are going off on our monitoring system, and tell us that we are having problems with our web servers.<br>
+<br>
+The monitor alerts are not extremely specific in this case and report something like "HTTP test failure".  More specific alerting would be helpful here, but those tests take time to set up, and in our immediate example environment they don't exist.<br>
+<br>
+A group of people forms up to deal with the alerts, and immediately several things are suggested as problems:<br>
+<br>
+- Maybe there was a bad code push?<br>
+- Maybe the logs have filled up the disks?<br>
+- Maybe There is a DDOS or other hacking attack occurring?<br>
+- Maybe someone is doing work on it, and forgot to tell anyone and made a mistake?<br>
+<br>
+All of these are possible, and while some are more likely than others, and could be used to prioritize where we start looking, the question remains:  What do we know?<br>
+<br>
+What we have experienced so far, and what we really know, is that we got an alert of "HTTP test failure", and this has something to do with our web server environment returning correct results to the monitor health checks.<br>
+<br>
+This is all we know in this circumstance.<br>
+<br>
+Was there a bad code push?  We don't know, because we haven't made it part of our example.  Let's add some data around that.<br>
+<br>
+We have 2 options:<br>
+<br>
+- We ask developers or release engineers (or whomever, for this purpose we will say "release engineers") if they have recently pushed any code.<br>
+- We go and look to see if the code has been updated.<br>
+<br>
+Both of these options will yield us new information we can work from, but will each of them give us solid information?<br>
+<br>
+Asking the release engineers will give us the hear-say information that whoever we asked gives their best current information.  Do they check first before responding, to see if anyone has pushed code lately, or do they use their current information to tell us?<br>
+<br>
+If they say, "No, no one has pushed any code lately.  We won't be doing that until X time", then we will leave that conversation with information that says no new code was recently pushed, and we will have impetus to de-prioritize the possibility of new-bad code being pushed into production causing the monitoring alert.<br>
+<br>
+But is this solid information?  They may be the only person who does the code pushes, and so they may be the "definitive" answer on the subject, but what if someone new accidentally did it for some reason?  The "definitive" person would not know this, unless they checked, and their information would not be congruous with reality.<br>
+<br>
+If we take the second option, and we look for ourselves, then we can see if the timestamps on the files have been updated, or if the log files say that the web or application servers have been reloaded.<br>
+<br>
+The second option gives us information that we have personal experience with, and this is solid information.  If we do not have access to go look ourselves, then the next best thing would be getting someone who does have access to verify it themselves and preferably show us the result, but they could also provide unique information such as "X was the last time code was pushed", instead of a more vague answer like "No, no code has been pushed lately".<br>
+<br>
+So we have 2 lessons we can take from this example problem.  One, that information we have personal experience on is better than hear-say information, or information we do not have personal experience with.  Second, that there are degrees to "information solidity", or the reality-based nature of the information.<br>
+<br>
+Looking ourselves yields the highest relation to reality.  We were there, we looked at the information, and it said "X".  We have very high reliability with this information, as long as we were paying attention to what "X" was, and paid attention to get into the right position to look at the right data (not accidentally looking in a different server or direction, at the wrong files), then we have solid actionable information to work off.<br>
+<br>
+This would be the same level of information if someone else did this work, but showed us while they did it.  We saw them do it, we saw the results.  It would take some acts of deception to make this data questionable, and since we are referring to working in a work-environment, we will assume that all people are behaving as Good Actors for these examples.  Later, we will also look at how some people act as Bad Actors, and can create bad data, for instance trying to hide a mistake that have made.<br>
+<br>
+Less reliable is information that someone told us they looked, but did not show us, and gave us exact data, such as "X was the last time code was pushed, I checked the directory timestamps and logs".  This is good data, but we do not have personal experience with it, so it is less-good than data we verify ourselves.<br>
+<br>
+Next, we have a situation where someone else tells us "No, no code was pushed recently".  This is not data we have verified ourselves, so we have no personal experience with it, and it is not specific as to when the code was actually released.  It is possible that this person did not check, and is just telling us from their own perspective that they don't believe it was pushed recently.  This is beginning to be invalid data.  <br>
+<br>
+We could still ascribe Good Actor behavior to this person, and take them for their word, however, what will be the result if we do take them at their word, and de-prioritize looking at a bad code release, and start looking at other problems.  We end up exhausting the search on other things, and much down-time has accrued with the "HTTP test failure" alert still going off, and eventually someone looks and see that indeed new code was pushed out, and it contained a bug.<br>
+<br>
+Rolling back the code resolves the problem, and the HTTP server starts to return correct tests to the monitoring system.<br>
+<br>
+Much of the downtime accrued because of working with non-verified information could have been avoided by getting personal verification of the exact time of the last code push.  I have seen this exact situation happen many times, and bad-code or bad-configuration changes are one of the most common outages for networked services.<br>
+<br>
+Even though these are common, the common-ness alone does not mean that it is solid information.  It only means it is something that should be verified quickly to see if it is a contender for causing the problem.<br>
+<br>
+We will be exploring the idea of what makes good information in detail in this book, and I will change this introductory terminology of "solid information" into a more precise definition of Intelligence, which we can categorize in many ways:  Verified, Unverified, Actionable, Unactionable, etc.<br>
 <h2 id=10fc971fd9dc706d141c5ada28fd9ae3><a href="#10fc971fd9dc706d141c5ada28fd9ae3">2.3</a>: What is Operations?</h2>
+<br>
+Keeping up our short tradition of asking questions that seem pointlessly basic, I will ask:  What is operations?<br>
+<br>
+Why do we do what we do?  Why does it exist?  What is it?  What are the goals?  What are the priorities?  What are the procedures that makes up an Operations department?<br>
+<br>
+The more questions that are asked, stemming from the original question, the less the question seems to be pointless, and the more the questions start to become the ones we deal with every day.  But, we skip the first question.  Why?<br>
+<br>
+We skip it because we already assume that we all know the answer, and that we are already in agreement about the answer.  It is taken as a given, but in my experience, there are many differences of opinions in even the most basic answers to what it is.<br>
+<br>
+People have different values, and they have different skills and personal experiences, and from these, they have a world-view that is also different.<br>
+<br>
+Getting to the fundamentals of what we mean by something like "Operations" means that we can start to align our views, and in aligning our views, we will communicate more effectively, and be able to work more effectively together.<br>
+<br>
+It is really these fundamental issues that make communication so hard and ineffective, because we do not drop down to discussing what we are fundamentally doing, and get buy-in from everyone on the team about each of the layers in the stack of what makes up an environment's operations.<br>
+<br>
+So, what is operations?<br>
 <h3 id=0671652556ae5d62c827e6db8082bab7><a href="#0671652556ae5d62c827e6db8082bab7">2.3.1</a>: Ops is about Control.  Letting everyone do their own thing is not-control.  It is individual control, for them, but the company is not in control as there are too many different types of activities going on for the same task, so the task is constantly done differently, creating cruft and stuff.  You can move faster, but not in an aligned way.</h3>
+<br>
+I will posit that the primary thing that operations is about is Control.<br>
+<br>
+Why control?  Why not up-time, availability, responsiveness to business direction, or any other valid priority?<br>
+<br>
+My reason for this is that without control, you cannot have be efficient in any other areas.<br>
+<br>
+You can always make progress in any area by applying resources to it:  people, time, money, hardware, etc.  <br>
+<br>
+These will make progress on problems you have and want to solve, but the limiting factor to each of them will be your ability to control the environment.<br>
+<br>
+If you have an up-time failure event, to fix the problem quickly you must be able to determine what is wrong, which takes the ability to gather information, and you must be able to take action to resolve the problem, which takes the ability to change the environment.<br>
+<br>
+Both of those actions, "gather information" and "change the environment" have Control as a central tenet.  <br>
+<br>
+How can you gather information without the control of the environment to yield you information?  In the most basic example, if you do not have access to the information, you cannot gather it, and you certainly do not have control over it.<br>
+<br>
+If you do not have access to change the environment, you cannot change it, and do not have control over it.  <br>
+<br>
+Like many things, Control can be seen a spectrum.  We can illustrate in on a line segment, such as:<br>
+<br>
+No Control <-----> Total Control<br>
+<br>
+This spectrum would represent all possibilities of "Control", having no control, and having total control.<br>
+<br>
+Control is a tricky subject, in that it is not only un-real (Virtual), but it is even more Virtual than many other things, because it more like a concept than something that is valid data.<br>
+<br>
+Unlike other Virtual (non-real) things, Control cannot be verified like data can be verified.<br>
+<br>
+If I have a variable "X" and I set X to 5 (X=5), and then I check if X is 5 (X==5?), I can get a result that is True or False.  X is either 5 or it isn't.<br>
+<br>
+But with a concept like "Control", there is no way to check that you have control or not.  You can check that you have access to some data, which is an aspect of control, and you can check if you can change data (by changing it, or looking at permissions (less good)), and this tells you more aspects about control, but there are so many other things that go into this that are very difficult to inspect or verify.<br>
+<br>
+For instance, one aspect of Control is, "Do we have enough time to do the work we need to do?"  This is an aspect of controlling one's schedule, so that good work can be produced.<br>
+<br>
+If we do not have control over our schedules, and work is required to be done before it can be done to our satisfaction of "good work", then we do not have control over this, and we will see problems arise from this fact.<br>
+<br>
+There are many other aspects of Control that we will look at, and I will make more cases on why I believe this is the central tenet of Operations and why understanding what you do have good control, and do not have good control over is very valuable and actionable information.<br>
 <p id=126b3100e0bafcd606cdb539413d4ce5><b><a href="#126b3100e0bafcd606cdb539413d4ce5">2.3.1.1</a>: "De facto" ops vs. "planned/controlled" ops</b></p>
+<br>
+If Control is the central tenet of Operations, what is the opposite side of the spectrum?  Uncontrolled operations?<br>
+<br>
+I think it's clearer to say that the opposite side of the spectrum from control is "de facto" operations.  What simply happens because there are business goals that need to be solved, and resources were put towards solving them, again and again.<br>
+<br>
+It is fairly easy, in my experience, to handle every situation in an efficient manner for the problem at hand, and still end up with a total mess of an operations environment, because the actions while individually efficient do not work together as a whole efficiently.<br>
+<br>
+This is often seen in naming conventions that change frequently, or that you could say there is not really a "convention" to the naming of things.  The same goes with what kind of hardware you purchase, if every time you purchase hardware you pick the "right tool for the job", but you end up with unique hardware configurations for every problem solved that required a purchase, then you have N number of hardware configurations to support and manage.<br>
+<br>
+The maintenance work to keeping many hardware configurations versus a limited number (say 2-4 unique hardware specifications per generation of hardware purchases), will mean many more problems have to be solved in upgrading software, and many more security and firmware upgrades will need to be tested.  It can easily create a situation that either requires many people to support, or more likely it to not worth the cost of actively supporting everything, and so support is only assigned when a high priority problem arises.<br>
+<br>
+"De facto" just means "In reality", but in common terms it means "the way things happens", like "this is what we have got from our low-coordinated efforts".<br>
+<br>
+So a spectrum for Control would look like:<br>
+<br>
+De Facto <----> Planned<br>
+<br>
+Planned operations will have strict naming conventions, where all the data required to be derived from a name is embedded in the name, and when new services, products, environments, and other things arrive, they are intelligently inserted into the existing convention and do not create new conventions.<br>
+<br>
+An example of "de facto" naming of hostnames might be like this:<br>
+<br>
+- chicken.domain.com<br>
+- trex.domain.com<br>
+- saturn.domain.com<br>
+- monkeyknifefight.domain.com<br>
+- web1.prod.domain.com<br>
+- web9.prod.domain.com<br>
+- web10.prod.domain.com<br>
+- redis-01.sf.prod.domain.com<br>
+- redis-01.nyc.prod.domain.com<br>
+- redisqa-01.nyc.prod.domain.com<br>
+- redis-01.nyc.stage.domain.com<br>
+- git.corp.domain.com<br>
+<br>
+And a list of the same names, in a "planned" fashion might be like this (which provide the same services as the above machines, in a 1-1 fashion):<br>
+<br>
+- ops-001.infra.admin.sjc.domain.com<br>
+- ops-002.infra.admin.sjc.domain.com<br>
+- ops-003.infra.admin.sjc.domain.com<br>
+- monitor-001.infra.admin.sjc.domain.com<br>
+- web-001.product.prod.sjc.domain.com<br>
+- web-009.product.prod.sjc.domain.com<br>
+- web-010.product.prod.sjc.domain.com<br>
+- redis-001.product.prod.nyc.domain.com<br>
+- redis-001.product.qa.nyc.domain.com<br>
+- redis-001.product.stage.nyc.domain.com<br>
+- git-001.infra.corp.sjc.domain.com<br>
+<br>
+A couple of things can be immediately seem from these lists, as you compare the each ordered element against the same position in the other list.<br>
+<br>
+Some striking differences:<br>
+<br>
+- No "funny" or special names for machines.  "monkeyknifefight" is great imagery, and fun to say, but it has no business in your operational data.  It does not explain what services are provided, who owns the machine, where it is located, or any other actionable information.  It is essentially dis-information, since you know less about the machine then if it was called "misc" or "general".<br>
+<br>
+- In a planned naming structure, all names have the same number of elements, and the elements are in the same order, and written in the same sequence and pattern.<br>
+<br>
+In the list I have just made up, you can tell a number of things about any of the given hostnames' servers:  <br>
+<br>
+What general function they provide (web, git, redis).  <br>
+<br>
+What location is the server in?  SJC and NYC seems to be our options.  This is much clearer than "sf", as they are airport codes, and so provide more than city or regional information.<br>
+<br>
+What environment is this used for?  Production, staging, QA, corporate?<br>
+<br>
+What instance number of the service is this?  001, 010?  <br>
+<br>
+In addition, the instance numbers are always written in the same format, providing a standard for where to start a new service:  001 (or 000, if you prefer computer counting)<br>
+<br>
+The planned naming convention can scale significantly, while keeping a pattern that fits any of the machines, new or old.  Selecting the proper format for naming hosts is so important, because it is a direct factor in Control.<br>
+<br>
+If you cannot name something accurately, how can you control it?  How can I access a server, if I do not know it's name?  How can I change the state of a server, if I do not know it's name?<br>
+<br>
+I have worked in environments where naming conventions changed even in the same service.<br>
+<br>
+Take this for example:<br>
+<br>
+- redis-01-1.product.prod.domain.com<br>
+- redis-02-1.product.prod.domain.com<br>
+- redis-2-001.product.prod.domain.com<br>
+- redis-2-002.product.prod.domain.com<br>
+<br>
+These are 2 redis servers, in the same "pool" of servers (used by the same application servers, in the same production data center), but halfway through someone changed the naming convention.<br>
+<br>
+They started out with "shards" as "redis-XX-#", where "#" is the "shard" number (relating to a master-slave set of data), and "XX" was the "shard instance" number, where "01" might be the Master (takes writes) and "02" would be the Slave.<br>
+<br>
+Then later they or someone else (more likely) created a new set of machines with the shard and shard-instance values flipped, and the shard-instance values now have 3 digits, instead of 2.<br>
+<br>
+This creates problems every time someone tries to work on these machines.  Logging into any given machine takes either trial-and-error, memorization, or looking it up.  Each of these is inefficient in time and personnel resources, and as the site scales up (more servers, more services), these kinds of time-personnel costs start to become major factors in both how much work can be accomplished in a given period of time, how frequently mistakes are made (not updating all the servers in the same fashion, performing work on the wrong servers), how long it takes to train new employees, and how well any employee really knows the environment.<br>
+<br>
+We are probably in agreement that planned naming conventions is better than unplanned or de facto naming conventions, but we are engineers, and it is not enough to think something is better, we require being able to dissect the issue to see what the components make it up, so that we can build it better for our specific needs.<br>
+<br>
+Let's take a look at the original planned naming convention I gave, and see how we can make it more efficient, since we want it to be our one-and-only naming convention.<br>
+<br>
+- web-001.product.prod.sjc.domain.com<br>
+<br>
+Let's look at each part of this name:<br>
+<br>
+- web<br>
+- 001<br>
+- product<br>
+- prod<br>
+- sjc<br>
+- domain.com<br>
+<br>
+These are the components that make up this name.  Do we have the right components for our current needs?  What about our future needs?<br>
+<br>
+One can certainly over-engineer a problem and "pre-maturely optimize" it against future concerns, but not looking at what is likely to come in the future is on the far side of the spectrum for planning for the future.<br>
+<br>
+Taking each section individually:<br>
+<br>
+- web<br>
+<br>
+This seems pretty self-explanatory.  If we call things "web" servers, and they do "web" things, and we don't have other services that also do the same thing in the same environment and could cause confusion, this is good enough.<br>
+<br>
+If we do have other services that do the same or similar things, we might need some alternative names, such as "app", "webmain", or "webfront" or something similar.  Try to make it what people in your environment call it verbally, and there will be less confusion when switching from discussions to typing in data.<br>
+<br>
+I will call this first part of a naming convention our "Host Class".  So machines hostnames that start with "web" have a Host Class of "web".<br>
+<br>
+- 001<br>
+<br>
+This is our Instance number.  It is the first (or second if starting from 000) machine in in the "web" Host Class.<br>
+<br>
+This has an obvious limit of stopping at 999, and then the naming convention breaks.  Many organizations will never have more than 999 servers of any type, but this is not a reason to fail to plan for the case of scaling past that point.<br>
+<br>
+It costs very little to make a good naming convention, and only requires diligence and checking your work to ensure that no one creates names they should not, and it will save much pain in having issues with naming down the line.<br>
+<br>
+Scripts are written whose logic may not be able to deal with naming conventions that change, and this can cause problems in your environment as you pass these thresholds.  We'll cover how to solve this shortly.<br>
+<br>
+- product<br>
+<br>
+This is an example product name for your organization.  This should be a short product or project name that clearly differentiates it's purpose from other products or projects.  Notice in the example I use "product" and "infra" to differentiate the organization's project from the infrastructure servers used to support the product's operational environment.<br>
+<br>
+- prod<br>
+<br>
+This is an "environment" description, and differentiates machines in production (being used by end-users, or running financially impacting services), differentiating it from servers performing the same actions, but that run in development, QA, staging, corporate, or other environments which have different users and impact if they go down or degrade.<br>
+<br>
+- sjc<br>
+<br>
+This is the location of the datacenter the server is in.  Whether it is a closet, or a Tier-4 Gold data center, you have assigned a location to it, so no one has to guess.  If you are consistent and only put the correct location labels into the hostnames, you will not have confusion over where machines physically resides when this becomes an issue, say for maintenance, repairs, or networking changes.<br>
+<br>
+- domain.com<br>
+<br>
+The example domain of our example organization.  The important part here is that it is consistent.<br>
+<br>
+There is a difference between internal names and external names, in that internal names can be kept consistent with the work of the Operations department, but external names are frequently in control of other departments such as Marketing, Business Development, Sales, etc.<br>
+<br>
+As such, they should be treated differently.  Internal names should be rigidly controlled, and external names should come with high recommendations for using naming conventions.  You could even provide several different recommendations for external naming conventions, to try to get other departments to constraint themselves and avoiding total naming-anarchy.<br>
+<br>
+Frequently non-Operations departments do not understand the use of sub-domains like ".product.domain.com", and will create new base level domains for every projects.  Sometimes this is required (legal and business reasons) and other times, it is only because they didnt know they could have "newproduct.domain.com".<br>
+<br>
+<br>
+Now that we have gone over a bit about the initial planned naming convention, let's make it better.  Here is a proposal:<br>
+<br>
+- web-1-001.product.prod.sjc1.domain.com<br>
+<br>
+I have only added 3 characters to this name, but I have made it both significantly more scalable, and provided a new level of control.<br>
+<br>
+First, how is it more scalable than the previous naming convention of "web-001.product.prod.sjc.domain.com"?<br>
+<br>
+It is more scalable in 2 ways.<br>
+<br>
+First, it is more scalable in the location.  Previously we had "sjc", which meant that the server was located near the closest airport code of SJC (San Jose, California), but which data center is this?<br>
+<br>
+If you only have 1 data center, then you know.  But what if you get a second data center, for redundancy or growth?  What do you name it?  sjc2?  <br>
+<br>
+If you name the second data center "sjc2" and the first was "sjc", you now have a naming convention error.  You previously had 3 letters, now you have 3 letters and 1 number.  This will create parsing problems in scripts, and is inconsistent when you type names.  As you grow in number of data centers in the SJC area, you will have more problems when "sjc3" and "sjc4" are consistent, but the original "sjc" is not.<br>
+<br>
+If you know that something is likely to grow in count, then you should start with a numerical indicator from the beginning.<br>
+<br>
+What about "product", is it likely to grow in count too?  No, there is no necessary requirement for this.  If a new product does come out that is called "product2", then it is still differentiated from "product", and while it shares the same look and feel as the datacenter location scaling problem, it is actually a different type of scaling.<br>
+<br>
+This is likely to be controversial, as it is difficult to back up with solid data quickly, so we will cover how to differentiate data like this later.<br>
+<br>
+The second way it is more scalable is that we have a secondary numerical counter for the Host Class.  "001" has now become "1-001".<br>
+<br>
+This provides 2 methods of scaling.  For Host Classes that merely collect a lot of servers, this means we can use the same naming convention once we pass "999" instances for the "web" Host Class in our production SJC facility for our given product.<br>
+<br>
+This would look like:  web-2-001.product.prod.sjc1.domain.com<br>
+<br>
+However, many services have a more interesting use case for this number than simply going rolling over by 1000, which is separating sets of machines that hold related information.  Consider these names:<br>
+<br>
+- redis-1-001.product.prod.sjc1.domain.com<br>
+- redis-1-002.product.prod.sjc1.domain.com<br>
+- redis-2-001.product.prod.sjc1.domain.com<br>
+- redis-2-002.product.prod.sjc1.domain.com<br>
+<br>
+These are 4 machines, grouped into 2 sets of 2:  1-001/1-002 and 2-001/2-002<br>
+<br>
+These can be used in many ways, but one way would be that this represents a Master-Slave relationship of data being written and read to 1-001 and 2-001, until one of those machines goes down, and then the other would take over such as 1-001 going down, it would be: 1-002 and 2-001 which are active for reads and writes.<br>
+<br>
+What data is sent to each of these machines could be done based on doing a modulus of an index ID (shard = index_id % 2), or another lookup method (rings, partitions, etc).<br>
+<br>
+In this case I refer to the first number as the "Shard" and the second number as the "Shard Instance", so redis-1-001 is Shard 1, Shard Instance 001.<br>
+<br>
+This is a very scalable naming convention.  It allows for different Host Classes (web), different Shards of data (-1-), different instances in the shards (-001.), different products (.product.), different environments (.prod., .qa.), different data centers (.sjc1.) and the common domain name for internal server hostnames.<br>
+<br>
+There are other ways of organizing this data into names, and it depends on what data you need to track, but starting from a naming convention like this when you don't yet have that information is a safer bet than starting with less information planning than this.<br>
+<br>
+If you know you have additional requirements, be sure that they are implemented into the naming convention, and kept in the standard.<br>
+<br>
+If you already have a naming convention, it is better to stay with it than to change it, but if you do need to change it, it is better to make a new standard, and make all new machines comply with it (if they are not in existing services with the old naming convention).<br>
+<br>
+This way you can at least control your naming conventions in a generational sense, and if you are doing planned work, you should have a very limited number of total generations.<br>
+<br>
+There is a lot more that could be said on just this example, and we will come back to it later, as naming things is, after all, one of the two hard computer problems, along with cache poisoning and off-by-one errors.<br>
 <p id=e6f860a586c5005530de3736bbf50109><b><a href="#e6f860a586c5005530de3736bbf50109">2.3.1.2</a>: Alignment takes "vision" and knowledge.  Not someting someone new to the process can understand well, because they are new.</b></p>
 <h3 id=7bdf31941d762810d8c81c360d28d38c><a href="#7bdf31941d762810d8c81c360d28d38c">2.3.2</a>: An Explanation of what Operations.  And why every company is an Operations company (internet or not), and how now almost every company is first and foremost an Ops company, though almost no companies recognize this.</h3>
 <p id=5bc4c817bd8491f2de4fcd4fa234cca9><b><a href="#5bc4c817bd8491f2de4fcd4fa234cca9">2.3.2.1</a>: Their ability to stay online and available and provide their service is what keeps them making money.  How is this not a core-service?</b></p>

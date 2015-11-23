@@ -1,3 +1,40 @@
 ### [[2.2.1: Ops is about Control.  Letting everyone do their own thing is not-control.  You can move faster, but not in an aligned way.]]
 
+I will posit that the primary thing that operations is about is Control.
+
+Why control?  Why not up-time, availability, responsiveness to business direction, or any other valid priority?
+
+My reason for this is that without control, you cannot have be efficient in any other areas.
+
+You can always make progress in any area by applying resources to it:  people, time, money, hardware, etc.  
+
+These will make progress on problems you have and want to solve, but the limiting factor to each of them will be your ability to control the environment.
+
+If you have an up-time failure event, to fix the problem quickly you must be able to determine what is wrong, which takes the ability to gather information, and you must be able to take action to resolve the problem, which takes the ability to change the environment.
+
+Both of those actions, "gather information" and "change the environment" have Control as a central tenet.  
+
+How can you gather information without the control of the environment to yield you information?  In the most basic example, if you do not have access to the information, you cannot gather it, and you certainly do not have control over it.
+
+If you do not have access to change the environment, you cannot change it, and do not have control over it.  
+
+Like many things, Control can be seen a spectrum.  We can illustrate in on a line segment, such as:
+
+No Control <-----> Total Control
+
+This spectrum would represent all possibilities of "Control", having no control, and having total control.
+
+Control is a tricky subject, in that it is not only un-real (Virtual), but it is even more Virtual than many other things, because it more like a concept than something that is valid data.
+
+Unlike other Virtual (non-real) things, Control cannot be verified like data can be verified.
+
+If I have a variable "X" and I set X to 5 (X=5), and then I check if X is 5 (X==5?), I can get a result that is True or False.  X is either 5 or it isn't.
+
+But with a concept like "Control", there is no way to check that you have control or not.  You can check that you have access to some data, which is an aspect of control, and you can check if you can change data (by changing it, or looking at permissions (less good)), and this tells you more aspects about control, but there are so many other things that go into this that are very difficult to inspect or verify.
+
+For instance, one aspect of Control is, "Do we have enough time to do the work we need to do?"  This is an aspect of controlling one's schedule, so that good work can be produced.
+
+If we do not have control over our schedules, and work is required to be done before it can be done to our satisfaction of "good work", then we do not have control over this, and we will see problems arise from this fact.
+
+There are many other aspects of Control that we will look at, and I will make more cases on why I believe this is the central tenet of Operations and why understanding what you do have good control, and do not have good control over is very valuable and actionable information.
 
