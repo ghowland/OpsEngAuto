@@ -292,7 +292,7 @@ I will posit that the primary thing that operations is about is Control.<br>
 <br>
 Why control?  Why not up-time, availability, responsiveness to business direction, or any other valid priority?<br>
 <br>
-My reason for this is that without control, you cannot be efficient in any other areas.  You can be as efficient as your level of control allows you to be.<br>
+My reason for this is that without control, you cannot be efficient in any other areas.  You can only be as efficient as your level of control allows you to be.<br>
 <br>
 You can always make progress in any area by applying resources to it:  people, time, money, hardware, etc.  <br>
 <br>
