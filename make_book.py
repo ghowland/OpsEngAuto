@@ -384,7 +384,7 @@ def Main():
   
   report_text = '\n\nLines: %s\n\nWords: %s\n\n' % (REPORT_LINE_COUNT, REPORT_WORD_COUNT)
   print report_text.strip()
-  output += report_text.replace('\n', '<br>\n')
+  header += report_text.replace('\n', '<br>\n')
   
   open(OUT_PATH, 'w').write(header + output)
   
