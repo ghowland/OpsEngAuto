@@ -393,6 +393,7 @@ def Main():
     count += 1
     output += OutputSectionGitMarkDown(cur_section, header_prefix=str(count))
     
+  print '\n\nLines: %s\n\nWords: %s\n\n' % (REPORT_LINE_COUNT, REPORT_WORD_COUNT)
   output += '\n\nLines: %s\n\nWords: %s\n\n' % (REPORT_LINE_COUNT, REPORT_WORD_COUNT)
   
   open(OUT_GIT_PATH, 'w').write(output)
