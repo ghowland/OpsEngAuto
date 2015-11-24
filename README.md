@@ -1044,7 +1044,7 @@ There are many more factors in this, and we will get into some of them later, bu
 <h2 id=a7df76e3e33c3832af992a160d248f3b><a href="#a7df76e3e33c3832af992a160d248f3b">10.1</a>: Have "Wouldnt it be nice?" sections, where I posit what would be improvements I have yet to experience.  Coming to terms, agreeing on the foundational details, agreeing on the axioms, agreeing on how to relate data to the axioms.  Agreeing on how to act against axioms.  With these done, we can work much better as a team, and discuss them.</h2>
 
 
-Lines: 1358
+Lines: 0
 
-Words: 21790
+Words: 0
 

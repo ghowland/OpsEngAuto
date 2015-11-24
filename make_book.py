@@ -154,6 +154,8 @@ def OutputSectionGitMarkDown(section_dict, header_prefix=None, report=None, dept
 def OutputSection(section_dict, header_prefix=None, report=None, depth=0):
   """Output section, and recurse through sub-sections."""
   global REPORT_LINE_COUNT, REPORT_WORD_COUNT
+  REPORT_LINE_COUNT = 0
+  REPORT_WORD_COUNT = 0
   
   output = ''
   
