@@ -375,7 +375,8 @@ def Main():
 
   
   # Print the HTML
-  output = '<h1>Operations Engineering and Automation</h1>\n' + report
+  header = '<h1>Operations Engineering and Automation</h1>\n' + report
+  output = ''
   count = 0
   for cur_section in table_of_contents:
     count += 1
@@ -385,19 +386,20 @@ def Main():
   print report_text.strip()
   output += report_text.replace('\n', '<br>\n')
   
-  open(OUT_PATH, 'w').write(output)
+  open(OUT_PATH, 'w').write(header + output)
   
   
   # Print the GitHub MarkDown
-  output = '# Operations Engineering and Automation\n\n\n' + report
+  header = '# Operations Engineering and Automation\n\n\n' + report
+  output = ''
   count = 0
   for cur_section in table_of_contents:
     count += 1
     output += OutputSectionGitMarkDown(cur_section, header_prefix=str(count))
     
-  output += report_text
+  header += report_text
   
-  open(OUT_GIT_PATH, 'w').write(output)
+  open(OUT_GIT_PATH, 'w').write(header + output)
   
   
   # Test if we need to rewrite the TOC file

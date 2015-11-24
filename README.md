@@ -3,6 +3,12 @@
 
 Total Sections: 281   Populated Sections: 15
 Current Goal: Populate Empty Sections: 266   (Done: 5.3%)
+
+
+Lines: 689
+
+Words: 11064
+
 # Chapter 1: Preface
 
 
@@ -1042,9 +1048,3 @@ There are many more factors in this, and we will get into some of them later, bu
 
 
 <h2 id=a7df76e3e33c3832af992a160d248f3b><a href="#a7df76e3e33c3832af992a160d248f3b">10.1</a>: Have "Wouldnt it be nice?" sections, where I posit what would be improvements I have yet to experience.  Coming to terms, agreeing on the foundational details, agreeing on the axioms, agreeing on how to relate data to the axioms.  Agreeing on how to act against axioms.  With these done, we can work much better as a team, and discuss them.</h2>
-
-
-Lines: 689
-
-Words: 11064
-
