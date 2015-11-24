@@ -33,6 +33,11 @@ SECTION_TAG_STRING = '%-500s [[%s]]'
 SECTION_DIR = 'sections'
 
 
+# Reports on word/line counts, etc.  Easier as global as it's an after thought
+REPORT_WORD_COUNT = 0
+REPORT_LINE_COUNT = 0
+
+
 def Report__SectionsPopulated():
   """Prints out how many sections have been populated."""
   glob_path = '%s/*' % SECTION_DIR
@@ -148,6 +153,8 @@ def OutputSectionGitMarkDown(section_dict, header_prefix=None, report=None, dept
 
 def OutputSection(section_dict, header_prefix=None, report=None, depth=0):
   """Output section, and recurse through sub-sections."""
+  global REPORT_LINE_COUNT, REPORT_WORD_COUNT
+  
   output = ''
   
   output += ''
@@ -204,6 +211,10 @@ def OutputSection(section_dict, header_prefix=None, report=None, depth=0):
     # Skip the comment lines out (comments start with: ###)
     if not line.strip().startswith('###'):
       output += '%s<br>\n' % line
+      
+      # Do reporting check here
+      REPORT_LINE_COUNT += 1
+      REPORT_WORD_COUNT += len(line.strip().split())   # Pretty inaccurate, fine for my purposes
   
   
   # If this section has children, output them too
@@ -220,6 +231,8 @@ def OutputSection(section_dict, header_prefix=None, report=None, depth=0):
 
 def Main():
   """Make an HTML book."""
+  global REPORT_LINE_COUNT, REPORT_WORD_COUNT
+  
   text = open(IN_PATH).read()
   
   lines = text.split('\n')
@@ -368,6 +381,8 @@ def Main():
     count += 1
     output += OutputSection(cur_section, header_prefix=str(count))
   
+  output += '<br><br>Lines: %s<br>Words: %s<br>\n' % (REPORT_LINE_COUNT, REPORT_WORD_COUNT)
+  
   open(OUT_PATH, 'w').write(output)
   
   
@@ -377,6 +392,8 @@ def Main():
   for cur_section in table_of_contents:
     count += 1
     output += OutputSectionGitMarkDown(cur_section, header_prefix=str(count))
+    
+  output += '\n\nLines: %s\n\nWords: %s\n\n' % (REPORT_LINE_COUNT, REPORT_WORD_COUNT)
   
   open(OUT_GIT_PATH, 'w').write(output)
   

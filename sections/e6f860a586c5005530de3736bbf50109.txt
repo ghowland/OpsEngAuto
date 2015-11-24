@@ -1,3 +1,27 @@
-### [[2.2.1.2: Alignment takes "vision" and knowledge.  Not someting someone new to the process can understand well, because they are new.]]
+### [[2.2.1.2: Alignment takes "vision" and knowledge.  Not something someone new to the process can understand well, because they are new.]]
 
+Another important aspect of operational engineering, and engineering in general, is "alignment".
 
+Things must align with each other for their full efficiency to be able to be used.  This is easy to see in the physical world: all sections of a bridge must align with one another, fence parts must be in alignment to be a good fence, and support beams must align with each other to provide continuous support.  Engines must align with transmissions and so on.
+
+It is no less important in the virtual world.  The entire field of networking is about aligning physical cables and virtual configuration to move frames and packets from source to destination.  Databases are about aligning data together so that it can be stored and retrieved efficiently.
+
+Everywhere you look alignment is an important factor on the quality, reliability, resilience, and structure and yet like many fundamental aspects of engineering, this topic itself is not discussed directly, and typically indirectly discussed as in how "everything must match up" given different protocols.
+
+You may see where I'm starting to go at this point with all of these fundamental questions and inspections:  the are fundamentals of engineering that we are using every day, but not discussing directly in our conversations about our environment, resources, goals, and what we are going to do to achieve our goals.
+
+This lack of introspection of our process results in a lot of miscommunication, and different visions struggling for the chance of being implemented, but without the necessary alignment between all the points of implementation to give us the kind of efficiencies, resiliency and other effects that we desire.
+
+Having this vision requires being able to see "the big picture" as well as the details, and it is important to be able to go from detail to big picture, back to details again repeatedly to see what any proposed changes will mean with regard to aligning with the rest of our details, to create the final result which occurs when all of those details are taken in whole.
+
+This is the methodology I use in designing any solution, and I will try to describe it in enough detail that you can inspect the process for yourself and can hopefully positively supplement your current methods for doing similar activities.
+
+One thing about "vision" is that it is something that takes a bit of experience to be able to see.  One needs to have had personal experience implementing things to really know what effects will result in the implementation, and across enough areas of the environment so that one can see how things align well or do not align well.
+
+This experience is less about how many years one has worked in an industry or environment, and more about the experiences one has had in one's lifetime.  
+
+If you have never worked in the industry before, you will not know how organizations that run production operations, especially internet facing production operations at large scale, will function and what changes will do those organizations and operating environments.
+
+The more you work in different environments, and complete more areas of implementation, the more experiences you will gain.  You can supplement these by setting up your own virtual environments on any cloud hosting providers, or on your own machines with a series of virtual machines.
+
+All projects, whether in-industry or outside of it, are limited, and never give complete information, because one's viewpoint is limited and the amount of details one can interact with is limited.  So even if you know one environment from beginning to end, having created all of it, you will find another environment that you didn't create to have many different properties, even if all the software used is the same, due to the alignment choices made in it's creation.

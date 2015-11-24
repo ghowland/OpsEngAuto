@@ -1,8 +1,8 @@
 # Operations Engineering and Automation
 
 
-Total Sections: 281   Populated Sections: 11
-Current Goal: Populate Empty Sections: 270   (Done: 3.9%)
+Total Sections: 281   Populated Sections: 15
+Current Goal: Populate Empty Sections: 266   (Done: 5.3%)
 # Chapter 1: Preface
 
 
@@ -538,9 +538,195 @@ This way you can at least control your naming conventions in a generational sens
 <br>
 There is a lot more that could be said on just this example, and we will come back to it later, as naming things is, after all, one of the two hard computer problems, along with cache poisoning and off-by-one errors.<br>
 <p id=e6f860a586c5005530de3736bbf50109><b><a href="#e6f860a586c5005530de3736bbf50109">2.3.1.2</a>: Alignment takes "vision" and knowledge.  Not someting someone new to the process can understand well, because they are new.</b></p>
+<br>
+Another important aspect of operational engineering, and engineering in general, is "alignment".<br>
+<br>
+Things must align with each other for their full efficiency to be able to be used.  This is easy to see in the physical world: all sections of a bridge must align with one another, fence parts must be in alignment to be a good fence, and support beams must align with each other to provide continuous support.  Engines must align with transmissions and so on.<br>
+<br>
+It is no less important in the virtual world.  The entire field of networking is about aligning physical cables and virtual configuration to move frames and packets from source to destination.  Databases are about aligning data together so that it can be stored and retrieved efficiently.<br>
+<br>
+Everywhere you look alignment is an important factor on the quality, reliability, resilience, and structure and yet like many fundamental aspects of engineering, this topic itself is not discussed directly, and typically indirectly discussed as in how "everything must match up" given different protocols.<br>
+<br>
+You may see where I'm starting to go at this point with all of these fundamental questions and inspections:  the are fundamentals of engineering that we are using every day, but not discussing directly in our conversations about our environment, resources, goals, and what we are going to do to achieve our goals.<br>
+<br>
+This lack of introspection of our process results in a lot of miscommunication, and different visions struggling for the chance of being implemented, but without the necessary alignment between all the points of implementation to give us the kind of efficiencies, resiliency and other effects that we desire.<br>
+<br>
+Having this vision requires being able to see "the big picture" as well as the details, and it is important to be able to go from detail to big picture, back to details again repeatedly to see what any proposed changes will mean with regard to aligning with the rest of our details, to create the final result which occurs when all of those details are taken in whole.<br>
+<br>
+This is the methodology I use in designing any solution, and I will try to describe it in enough detail that you can inspect the process for yourself and can hopefully positively supplement your current methods for doing similar activities.<br>
+<br>
+One thing about "vision" is that it is something that takes a bit of experience to be able to see.  One needs to have had personal experience implementing things to really know what effects will result in the implementation, and across enough areas of the environment so that one can see how things align well or do not align well.<br>
+<br>
+This experience is less about how many years one has worked in an industry or environment, and more about the experiences one has had in one's lifetime.  <br>
+<br>
+If you have never worked in the industry before, you will not know how organizations that run production operations, especially internet facing production operations at large scale, will function and what changes will do those organizations and operating environments.<br>
+<br>
+The more you work in different environments, and complete more areas of implementation, the more experiences you will gain.  You can supplement these by setting up your own virtual environments on any cloud hosting providers, or on your own machines with a series of virtual machines.<br>
+<br>
+All projects, whether in-industry or outside of it, are limited, and never give complete information, because one's viewpoint is limited and the amount of details one can interact with is limited.  So even if you know one environment from beginning to end, having created all of it, you will find another environment that you didn't create to have many different properties, even if all the software used is the same, due to the alignment choices made in it's creation.<br>
 <h3 id=7bdf31941d762810d8c81c360d28d38c><a href="#7bdf31941d762810d8c81c360d28d38c">2.3.2</a>: An Explanation of what Operations.  And why every company is an Operations company (internet or not), and how now almost every company is first and foremost an Ops company, though almost no companies recognize this.</h3>
+<br>
+This section could be headlines on the front page of any magazine targeted at CIOs, and so may seem a little fluffy and self-serving.<br>
+<br>
+Sales people think of organizations in terms of their sales generating revenues.<br>
+<br>
+Developers think of organizations in terms of the software they write, which may be sold to generate revenue.<br>
+<br>
+Managers think of organizations in terms of the people they manage that do the work.<br>
+<br>
+Customer Support thinks about organizations in that customers would be completely dissatisfied without their support.<br>
+<br>
+Finance thinks about organizations in terms of cash flow, as when an organization runs out of money, they can no longer pay their building leases or employees.<br>
+<br>
+Etc...<br>
+<br>
+Each department in an organization thinks it is a critical department, and they are all right.  No organization would pay the financial and opportunity costs in maintaining any department that is unnecessary, so they are all critical.  Operations is no different here.<br>
+<br>
+There was a time that operations was a lot more like Facilities departments, they bought things and maintained them.  Keeping them powered up and plugged in, and keeping people from stealing or damaging them.  This is not really accurate, but from the perspectives of people paying for these employees, it is pretty close to accurate, and we are currently discussing how organizations see themselves and their actions, and organizations act through using money to pay for services.<br>
+<br>
+What has changed, and what companies have for the most part not caught on to yet, and it will behove operational engineers to start repeating ad nauseam is operations is now the front-line of many companies ability to collect revenue.<br>
+<br>
+This started changing for many companies in the late 1990s, and started to become normal in the 2000s, and by this current 2010s almost every company's interactions with it's customers are going through a network, to servers, and software and databases that run on those servers.<br>
+<br>
+The majority of the companies I have worked for have completely downgraded the importance of their operations departments, giving much more staffing and scheduling priority to other departments.<br>
+<br>
+There are a number of reasons for this, and they are all valid in themselves, as many perspectives are when given in their own context.<br>
+<br>
+However, in a context that is grounded in the physical world the connection to their revenue might look like this for different companies, starting from the least-technological and moving to the most:<br>
+<br>
+- Physical good company.  Makes things that are sold in metal cans, etc:<br>
+	- Supply chain management has a basis in digital records at every step.  Some steps involve calling people, writing things on paper, but these are recorded in at least Excel type spread sheets, and at any larger organizations something more similar to an Enterprise Resource Planning (ERP) software to coordinate all the steps are required.<br>
+<br>
+	- Communication with vendors in the chain may have many physical components, but ultimately they are also recorded into digital mediums, at least the low-level of email, if not higher level tracking software.<br>
+<br>
+	- Employee time and pay records are now kept in a mostly or purely digital form.<br>
+<br>
+	- End-user support is typically done via electronic medium (emails, customer support) to <br>
+<br>
+	- The larger the organization for all non-Internet based companies, the more corporate infrastructure that will be needed to provide support to desktops, laptops, servers to manage directory services (AD/LDAP), backups, storage, centralized software, etc.  More of these services are moving into online-only for small-medium companies.<br>
+<br>
+	- Hold outs will be older (pre-PC age computers) and will need to be small, to maintain operating the manual labor scales<br>
+<br>
+- Non-Internet Services Company<br>
+	- Similar to physical companies, but with more smaller companies that can get by without much technology.  Real estate agents are a famous example of this.  Doctors and lawyers are also slow to adopt technology in tracking their clients and work, but in most medical institutes I have seen recently, all patient visit tracking is being digitally tracked.<br>
+<br>
+- Physical software companies<br>
+	- Software is sold in boxes, in stores or shipped via the mail on DVDs.<br>
+<br>
+	- All software is written in a networked environment which must remain up for any productivity.  Developers cannot all go home and continue working if the infrastructure going down, and as security levels increase, this is not possible for those reasons as well.<br>
+<br>
+	- Customer support is usually entirely digital, unless it is for Enterprise level software, and then there is phone call and occasional in-person visits as well, mostly as good-faith efforts, not to solve immediate problems.<br>
+<br>
+- Internet Service Companies<br>
+	- This is where the real change occurs, and many businesses are becoming more Internet service oriented.<br>
+<br>
+	- Almost every interaction the company has with end-users/customers is over the Internet, and handled by servers that the company manages, and may or may not own/lease.<br>
+<br>
+<br>
+This is a very simplified spectrum of business, and not meant to be correct or truly representative, but merely to paint a quick picture I need for this example, which I'll start describing... now.<br>
+<br>
+<br>
+The change is that these days if your operations is not reliable, and you have frequent outages, or long-term degraded performance, or you are unable to respond to customer demands in a "reasonable" time, or competitors have a more reliable and reachable service, then you are directly impacted in your revenue.<br>
+<br>
+If your operations is down, your customers cannot reach you to pay you.<br>
+<br>
+As someone reading this book, this is no surprise to you, but what may be somewhat surprising is that many companies I have worked for, and you may have as well, display all the symptoms of completely not behaving like this is true.<br>
+<br>
+Some of these symptoms are:<br>
+<br>
+- Not properly staffing their operation teams for the workloads they are required to perform.<br>
+<br>
+- Not giving proper lead times on work that is due, such as finishing a project that the operations team was not notified about, and expecting an immediate release to the public of that project.  Not taking into account either ordering hardware, or configuring systems to support the software.<br>
+<br>
+- Not giving significant information on how to maintain, run, or even install the software to be released and supported.<br>
+<br>
+- Prioritizing work that does not yield to improving or supporting the revenue generating and employee supporting software and services.<br>
+<br>
+There are many other symptoms, but these are large enough to illustrate this point.  Other departments have similar complaints with regard to notice ahead-of-time, and schedules.  See any book on Software Development project management for examples close to operations.<br>
+<br>
+This is not a problem that is likely to be solved soon, if every solved, because there are a number of difficult factors that cause it, the primary one being the structure of organizations themselves.  When something is structure a certain way, it will tend to produce certain results, and producing different results is very difficult, and often only temporarily possible.<br>
+<br>
+Since the organizational structure of organizations is not likely to change, the best hope in making progress here is something akin to the Agile movement in development, where all developers just kept repeating the same things and eventually the management of companies started to be populated with managers who also said the same things, and their world changed.<br>
+<br>
+It's debatable on whether their world really changed that much for the better, but there are many distinct differences in the pre-Agile development world, from the post-Agile development world, and it was this change in perspective and discussing it that caused those changes to take effect.<br>
 <p id=5bc4c817bd8491f2de4fcd4fa234cca9><b><a href="#5bc4c817bd8491f2de4fcd4fa234cca9">2.3.2.1</a>: Their ability to stay online and available and provide their service is what keeps them making money.  How is this not a core-service?</b></p>
+<br>
+One concept that organizations have a pretty good grasp on is "core services".  They understand there are some services that they cannot outsource to other organizations and remain an efficient operation.<br>
+<br>
+The core-est of these core services are: management, finance and human resources (HR).<br>
+<br>
+Almost no organization outsources its' people managers.  They are the most core-service that a company has.<br>
+<br>
+Similarly, there will almost always be at least 1 to several people in the finance department, even if they use external services for many services that used to be hired in-house.<br>
+<br>
+HR in the past decade has begun to be outsourced, but once a company reaches a certain size, they always have their own HR departments.  This is the same for legal services, though this can be configured in a number of ways for companies, so I'm not listing it as a core service.<br>
+<br>
+Many companies outsource their development departments, and many companies also try to outsource their operation department, though this does not usually last long, and they may try to stick with it by turning their developers into their operations staff, but eventually some people will end up being the de facto operations team, regardless of their titles.<br>
+<br>
+If a company is primarily a software or internet service organization, and these are the types of companies I focus on, so they will be the majority of what we spend time inspecting, then they are much less likely to outsource their development departments.<br>
+<br>
+They realize the developing software is a core business service, and without direct control of their developers and efficient communications, they are unlikely to make consistent progress.  Many companies that try to outsource this department end up moving it back into their company after poor experiences, unless the product being developed itself is not all that important to the company, or can be treated as a throw-away product (like a phone application they only need to do XYZ "well enough").<br>
+<br>
+This is all a pretty subjective description, and I won't use up the space to turn it into a more objective one.  You should review your own experiences with these descriptions to determine how accurate they seem to you.<br>
+<br>
+The point of this discussion on core services is that for any company that relies on Internet or networked services for revenue generation, their operations department is not only a core service, but is often the front door to any other services.<br>
+<br>
+If their operations is not available, or performance is significantly degraded, then their customers and partners are not able to use their services, and they cannot generate revenue.<br>
+<br>
+This would be similar to sales people losing the ability to contact customers, completely making that department unable to provide benefit.<br>
+<br>
+If a company develops software, and end-users cannot reach that software, then there was no reason to develop it.<br>
+<br>
+This is where operations sits in the revenue chain, and companies are not yet currently recognizing the important distinction.<br>
+<br>
+I have used many similies for this over time, such as:<br>
+<br>
+- Operations is like the tires of the car.  We are the part of the car that comes into contact with the road.  Your driving can only be as good as your traction against the ground.  If you lose a tire, your ability to drive is severely impacted or not possible. <br>
+<br>
+- Operations are like the roads.  You can have a fleet of cars or trucks, but you cannot efficiently move them around without roads to provide consistent surfaces.<br>
+<br>
+A lot of people shop for cars, but not a lot of people are involved in the building or maintenance of roads.  This is similar to many people using networked services, but not being aware of what it takes to build or maintain them.<br>
 <p id=109a7a222581029b6b3ed44aeb36acbc><b><a href="#109a7a222581029b6b3ed44aeb36acbc">2.3.2.1.1</a>: Just because its Core doesnt mean they need to own all of it, but as they grow they will pay more and more for what they do not control, and control well.</b></p>
+<br>
+A service may be a core service, but that does not mean all of it needs to be internally owned and operated.<br>
+<br>
+Cloud datacenter operations and Software-as-a-Service (SaaS) have changed the way many companies perform their internal and external operations, and has provided new ways for many engineers to think about solving problems.<br>
+<br>
+Just because you are paying someone else to maintain hardware or software for you does not mean that you do not need to manage it.  Some SaaS products do not require much management, but other still requires one or more full time staff to help manage it for the rest of the departments.<br>
+<br>
+For machine and datacenter operations, having Cloud offerings like Amazon or Googles offerings does not stop operational work from being created, it only raises the bar on what type of work is required.<br>
+<br>
+The basics of buying machines, racking them, cabling them, keeping them physically functioning (replacing disks and RAM, etc) and doing basics like assigning their primary IPs is taken care of for you.<br>
+<br>
+Everything above that level is up to you to manage, and these are the more complex problem areas, as the lower level areas are more logistical, scheduling and manual labor intensive.<br>
+<br>
+Who will manage all of the rest of the decisions and life-cycle maintenance problems that your network services require to function properly?<br>
+<br>
+Whoever they are, whatever you call them, they are your operations team, and are providing the operational core services for your organization.<br>
+<br>
+Outsourcing works up until the point where you lose Control that you need over the environment.  At some scaling point in every organizations usage of an external service, their needs and the services offerings will start to part ways, and the service will start requiring more work than previous to perform the same benefits for the organization.<br>
+<br>
+Once this reaches a critical point, either though financial cost, personnel time cost, or cost in terms of outages, degraded performance or misalignment in terms of providing the kinds of services the organization requires.<br>
+<br>
+Once this point is met, there will be a new transition where the problem areas are migrated to another service, which it is hoped will solve these problems, or the services are migrated in-house to be internally managed.<br>
+<br>
+At present the financial costs alone seem to be consistently measuring up like this:<br>
+<br>
+- Internally managed infrastructure.  1x cost, of hardware, data center and network services to provide an operational environment.  This is the base-line, doing it yourself.<br>
+<br>
+- Managed services that are comparable to doing it yourself, but letting others do it for you, about 3x the base-line cost.<br>
+<br>
+- Using cloud services, where you manage all your infrastructures through a virtual interface is about 5x the cost of doing it yourself.<br>
+<br>
+This is highly subject to change, as many things are involved in pricing, but as of 2015, this has been accurate in all the measurements I have made in about 10 environments I had direct internal access to, from 2008 to 2015.<br>
+<br>
+What are the differences in cost in your current environment, between total ownership/leasing, managed services (someone else buys/leases and maintains), or going completely virtual?<br>
+<br>
+You should know these differences, as they will make data points in decisions on how to run your departments as the costs start to outweigh the benefits of any solution.<br>
+<br>
+This 1-factor look at the problem, finance, is not a "big picture" view, it is only a single detail, so there are many other factors which make using services that may be 5x or 3x as expensive, and provide worthwhile benefits, such as the total cost being low enough to be worth it, or the faster turn around time on new machines, or not having decided on the hardware requirements to make it practical to start ordering hardware yourselves.<br>
+<br>
+There are many more factors in this, and we will get into some of them later, but they are not the focus of this book, so we will not cover them comprehensively.<br>
 <p id=0932b206900bdd69c2b6cc7a46dfee68><b><a href="#0932b206900bdd69c2b6cc7a46dfee68">2.3.2.1.1.1</a>: Typically companies still dont tell ops departments that they need anything, until its due, all decisions are done, and its time to roll out.</b></p>
 <p id=d05edb2ae926b6b3071c2d16497f5721><b><a href="#d05edb2ae926b6b3071c2d16497f5721">2.3.2.1.1.1.1</a>: The ops department is blamed for all lag.  Developers are blocked, legitimately and not-legitimately.</b></p>
 <p id=565cd0fce08c8934484649d6a9f5b105><b><a href="#565cd0fce08c8934484649d6a9f5b105">2.3.2.1.1.1.1.1</a>: Everyone doing everything themselves is great for a boot-strap project, but just does not work in a Mission-Critical environment.  Launch NASA rocket with newbies running things?  No, experience is needed for precision and taking into account All The Things.</b></p>
@@ -856,3 +1042,9 @@ There is a lot more that could be said on just this example, and we will come ba
 
 
 <h2 id=a7df76e3e33c3832af992a160d248f3b><a href="#a7df76e3e33c3832af992a160d248f3b">10.1</a>: Have "Wouldnt it be nice?" sections, where I posit what would be improvements I have yet to experience.  Coming to terms, agreeing on the foundational details, agreeing on the axioms, agreeing on how to relate data to the axioms.  Agreeing on how to act against axioms.  With these done, we can work much better as a team, and discuss them.</h2>
+
+
+Lines: 1358
+
+Words: 21790
+

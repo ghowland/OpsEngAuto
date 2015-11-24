@@ -1,3 +1,41 @@
 ### [[2.2.2.1.1: Just because its Core doesnt mean they need to own all of it, but as they grow they will pay more and more for what they do not control, and control well.]]
 
+A service may be a core service, but that does not mean all of it needs to be internally owned and operated.
 
+Cloud datacenter operations and Software-as-a-Service (SaaS) have changed the way many companies perform their internal and external operations, and has provided new ways for many engineers to think about solving problems.
+
+Just because you are paying someone else to maintain hardware or software for you does not mean that you do not need to manage it.  Some SaaS products do not require much management, but other still requires one or more full time staff to help manage it for the rest of the departments.
+
+For machine and datacenter operations, having Cloud offerings like Amazon or Googles offerings does not stop operational work from being created, it only raises the bar on what type of work is required.
+
+The basics of buying machines, racking them, cabling them, keeping them physically functioning (replacing disks and RAM, etc) and doing basics like assigning their primary IPs is taken care of for you.
+
+Everything above that level is up to you to manage, and these are the more complex problem areas, as the lower level areas are more logistical, scheduling and manual labor intensive.
+
+Who will manage all of the rest of the decisions and life-cycle maintenance problems that your network services require to function properly?
+
+Whoever they are, whatever you call them, they are your operations team, and are providing the operational core services for your organization.
+
+Outsourcing works up until the point where you lose Control that you need over the environment.  At some scaling point in every organizations usage of an external service, their needs and the services offerings will start to part ways, and the service will start requiring more work than previous to perform the same benefits for the organization.
+
+Once this reaches a critical point, either though financial cost, personnel time cost, or cost in terms of outages, degraded performance or misalignment in terms of providing the kinds of services the organization requires.
+
+Once this point is met, there will be a new transition where the problem areas are migrated to another service, which it is hoped will solve these problems, or the services are migrated in-house to be internally managed.
+
+At present the financial costs alone seem to be consistently measuring up like this:
+
+- Internally managed infrastructure.  1x cost, of hardware, data center and network services to provide an operational environment.  This is the base-line, doing it yourself.
+
+- Managed services that are comparable to doing it yourself, but letting others do it for you, about 3x the base-line cost.
+
+- Using cloud services, where you manage all your infrastructures through a virtual interface is about 5x the cost of doing it yourself.
+
+This is highly subject to change, as many things are involved in pricing, but as of 2015, this has been accurate in all the measurements I have made in about 10 environments I had direct internal access to, from 2008 to 2015.
+
+What are the differences in cost in your current environment, between total ownership/leasing, managed services (someone else buys/leases and maintains), or going completely virtual?
+
+You should know these differences, as they will make data points in decisions on how to run your departments as the costs start to outweigh the benefits of any solution.
+
+This 1-factor look at the problem, finance, is not a "big picture" view, it is only a single detail, so there are many other factors which make using services that may be 5x or 3x as expensive, and provide worthwhile benefits, such as the total cost being low enough to be worth it, or the faster turn around time on new machines, or not having decided on the hardware requirements to make it practical to start ordering hardware yourselves.
+
+There are many more factors in this, and we will get into some of them later, but they are not the focus of this book, so we will not cover them comprehensively.

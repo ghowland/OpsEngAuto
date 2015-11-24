@@ -1,3 +1,38 @@
 ### [[2.2.2.1: Their ability to stay online and available and provide their service is what keeps them making money.  How is this not a core-service?]]
 
+One concept that organizations have a pretty good grasp on is "core services".  They understand there are some services that they cannot outsource to other organizations and remain an efficient operation.
+
+The core-est of these core services are: management, finance and human resources (HR).
+
+Almost no organization outsources its' people managers.  They are the most core-service that a company has.
+
+Similarly, there will almost always be at least 1 to several people in the finance department, even if they use external services for many services that used to be hired in-house.
+
+HR in the past decade has begun to be outsourced, but once a company reaches a certain size, they always have their own HR departments.  This is the same for legal services, though this can be configured in a number of ways for companies, so I'm not listing it as a core service.
+
+Many companies outsource their development departments, and many companies also try to outsource their operation department, though this does not usually last long, and they may try to stick with it by turning their developers into their operations staff, but eventually some people will end up being the de facto operations team, regardless of their titles.
+
+If a company is primarily a software or internet service organization, and these are the types of companies I focus on, so they will be the majority of what we spend time inspecting, then they are much less likely to outsource their development departments.
+
+They realize the developing software is a core business service, and without direct control of their developers and efficient communications, they are unlikely to make consistent progress.  Many companies that try to outsource this department end up moving it back into their company after poor experiences, unless the product being developed itself is not all that important to the company, or can be treated as a throw-away product (like a phone application they only need to do XYZ "well enough").
+
+This is all a pretty subjective description, and I won't use up the space to turn it into a more objective one.  You should review your own experiences with these descriptions to determine how accurate they seem to you.
+
+The point of this discussion on core services is that for any company that relies on Internet or networked services for revenue generation, their operations department is not only a core service, but is often the front door to any other services.
+
+If their operations is not available, or performance is significantly degraded, then their customers and partners are not able to use their services, and they cannot generate revenue.
+
+This would be similar to sales people losing the ability to contact customers, completely making that department unable to provide benefit.
+
+If a company develops software, and end-users cannot reach that software, then there was no reason to develop it.
+
+This is where operations sits in the revenue chain, and companies are not yet currently recognizing the important distinction.
+
+I have used many similies for this over time, such as:
+
+- Operations is like the tires of the car.  We are the part of the car that comes into contact with the road.  Your driving can only be as good as your traction against the ground.  If you lose a tire, your ability to drive is severely impacted or not possible. 
+
+- Operations are like the roads.  You can have a fleet of cars or trucks, but you cannot efficiently move them around without roads to provide consistent surfaces.
+
+A lot of people shop for cars, but not a lot of people are involved in the building or maintenance of roads.  This is similar to many people using networked services, but not being aware of what it takes to build or maintain them.
 

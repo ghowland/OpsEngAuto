@@ -1,3 +1,86 @@
 ### [[2.2.2: An Explanation of what Operations.  And why every company is an Operations company (internet or not), and how now almost every company is first and foremost an Ops company, though almost no companies recognize this.]]
 
+This section could be headlines on the front page of any magazine targeted at CIOs, and so may seem a little fluffy and self-serving.
+
+Sales people think of organizations in terms of their sales generating revenues.
+
+Developers think of organizations in terms of the software they write, which may be sold to generate revenue.
+
+Managers think of organizations in terms of the people they manage that do the work.
+
+Customer Support thinks about organizations in that customers would be completely dissatisfied without their support.
+
+Finance thinks about organizations in terms of cash flow, as when an organization runs out of money, they can no longer pay their building leases or employees.
+
+Etc...
+
+Each department in an organization thinks it is a critical department, and they are all right.  No organization would pay the financial and opportunity costs in maintaining any department that is unnecessary, so they are all critical.  Operations is no different here.
+
+There was a time that operations was a lot more like Facilities departments, they bought things and maintained them.  Keeping them powered up and plugged in, and keeping people from stealing or damaging them.  This is not really accurate, but from the perspectives of people paying for these employees, it is pretty close to accurate, and we are currently discussing how organizations see themselves and their actions, and organizations act through using money to pay for services.
+
+What has changed, and what companies have for the most part not caught on to yet, and it will behove operational engineers to start repeating ad nauseam is operations is now the front-line of many companies ability to collect revenue.
+
+This started changing for many companies in the late 1990s, and started to become normal in the 2000s, and by this current 2010s almost every company's interactions with it's customers are going through a network, to servers, and software and databases that run on those servers.
+
+The majority of the companies I have worked for have completely downgraded the importance of their operations departments, giving much more staffing and scheduling priority to other departments.
+
+There are a number of reasons for this, and they are all valid in themselves, as many perspectives are when given in their own context.
+
+However, in a context that is grounded in the physical world the connection to their revenue might look like this for different companies, starting from the least-technological and moving to the most:
+
+- Physical good company.  Makes things that are sold in metal cans, etc:
+	- Supply chain management has a basis in digital records at every step.  Some steps involve calling people, writing things on paper, but these are recorded in at least Excel type spread sheets, and at any larger organizations something more similar to an Enterprise Resource Planning (ERP) software to coordinate all the steps are required.
+
+	- Communication with vendors in the chain may have many physical components, but ultimately they are also recorded into digital mediums, at least the low-level of email, if not higher level tracking software.
+
+	- Employee time and pay records are now kept in a mostly or purely digital form.
+
+	- End-user support is typically done via electronic medium (emails, customer support) to 
+
+	- The larger the organization for all non-Internet based companies, the more corporate infrastructure that will be needed to provide support to desktops, laptops, servers to manage directory services (AD/LDAP), backups, storage, centralized software, etc.  More of these services are moving into online-only for small-medium companies.
+
+	- Hold outs will be older (pre-PC age computers) and will need to be small, to maintain operating the manual labor scales
+
+- Non-Internet Services Company
+	- Similar to physical companies, but with more smaller companies that can get by without much technology.  Real estate agents are a famous example of this.  Doctors and lawyers are also slow to adopt technology in tracking their clients and work, but in most medical institutes I have seen recently, all patient visit tracking is being digitally tracked.
+
+- Physical software companies
+	- Software is sold in boxes, in stores or shipped via the mail on DVDs.
+
+	- All software is written in a networked environment which must remain up for any productivity.  Developers cannot all go home and continue working if the infrastructure going down, and as security levels increase, this is not possible for those reasons as well.
+
+	- Customer support is usually entirely digital, unless it is for Enterprise level software, and then there is phone call and occasional in-person visits as well, mostly as good-faith efforts, not to solve immediate problems.
+
+- Internet Service Companies
+	- This is where the real change occurs, and many businesses are becoming more Internet service oriented.
+
+	- Almost every interaction the company has with end-users/customers is over the Internet, and handled by servers that the company manages, and may or may not own/lease.
+
+
+This is a very simplified spectrum of business, and not meant to be correct or truly representative, but merely to paint a quick picture I need for this example, which I'll start describing... now.
+
+
+The change is that these days if your operations is not reliable, and you have frequent outages, or long-term degraded performance, or you are unable to respond to customer demands in a "reasonable" time, or competitors have a more reliable and reachable service, then you are directly impacted in your revenue.
+
+If your operations is down, your customers cannot reach you to pay you.
+
+As someone reading this book, this is no surprise to you, but what may be somewhat surprising is that many companies I have worked for, and you may have as well, display all the symptoms of completely not behaving like this is true.
+
+Some of these symptoms are:
+
+- Not properly staffing their operation teams for the workloads they are required to perform.
+
+- Not giving proper lead times on work that is due, such as finishing a project that the operations team was not notified about, and expecting an immediate release to the public of that project.  Not taking into account either ordering hardware, or configuring systems to support the software.
+
+- Not giving significant information on how to maintain, run, or even install the software to be released and supported.
+
+- Prioritizing work that does not yield to improving or supporting the revenue generating and employee supporting software and services.
+
+There are many other symptoms, but these are large enough to illustrate this point.  Other departments have similar complaints with regard to notice ahead-of-time, and schedules.  See any book on Software Development project management for examples close to operations.
+
+This is not a problem that is likely to be solved soon, if every solved, because there are a number of difficult factors that cause it, the primary one being the structure of organizations themselves.  When something is structure a certain way, it will tend to produce certain results, and producing different results is very difficult, and often only temporarily possible.
+
+Since the organizational structure of organizations is not likely to change, the best hope in making progress here is something akin to the Agile movement in development, where all developers just kept repeating the same things and eventually the management of companies started to be populated with managers who also said the same things, and their world changed.
+
+It's debatable on whether their world really changed that much for the better, but there are many distinct differences in the pre-Agile development world, from the post-Agile development world, and it was this change in perspective and discussing it that caused those changes to take effect.
 
