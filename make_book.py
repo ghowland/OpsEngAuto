@@ -154,8 +154,6 @@ def OutputSectionGitMarkDown(section_dict, header_prefix=None, report=None, dept
 def OutputSection(section_dict, header_prefix=None, report=None, depth=0):
   """Output section, and recurse through sub-sections."""
   global REPORT_LINE_COUNT, REPORT_WORD_COUNT
-  REPORT_LINE_COUNT = 0
-  REPORT_WORD_COUNT = 0
   
   output = ''
   
@@ -383,7 +381,9 @@ def Main():
     count += 1
     output += OutputSection(cur_section, header_prefix=str(count))
   
-  output += '<br><br>Lines: %s<br>Words: %s<br>\n' % (REPORT_LINE_COUNT, REPORT_WORD_COUNT)
+  report_text = '\n\nLines: %s\n\nWords: %s\n\n' % (REPORT_LINE_COUNT, REPORT_WORD_COUNT)
+  print report_text.strip()
+  output += report_text.replace('\n', '<br>\n')
   
   open(OUT_PATH, 'w').write(output)
   
@@ -395,8 +395,6 @@ def Main():
     count += 1
     output += OutputSectionGitMarkDown(cur_section, header_prefix=str(count))
     
-  report_text = '\n\nLines: %s\n\nWords: %s\n\n' % (REPORT_LINE_COUNT, REPORT_WORD_COUNT)
-  print report_text.strip()
   output += report_text
   
   open(OUT_GIT_PATH, 'w').write(output)
