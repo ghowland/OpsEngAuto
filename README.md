@@ -5,9 +5,9 @@ Total Sections: 281   Populated Sections: 19
 Current Goal: Populate Empty Sections: 262   (Done: 6.8%)
 
 
-Lines: 819
+Lines: 821
 
-Words: 13584
+Words: 13673
 
 # Chapter 1: Preface
 
@@ -866,7 +866,9 @@ The more of the operational team's resources (time, people) that are committed t
 <br>
 I have worked in many organizations where the operations team spends nearly all of their time performing requests, and almost no time improving the infrastructure, and as a result the infrastructure becomes more and more fragile as request after request is done in a manner that is not scalable or supportable, but is required to meet business timelines and direction.<br>
 <br>
-Achieving business goals is the reason all departments exist, so this is a good thing, in itself, but it can be performed in a manner where the business begins to not operate efficiently, and eventually starts to fail frequently, causing harm to other business goals, such as customer retention, w<br>
+Achieving business goals is the reason all departments exist, so this is a good thing, in itself, but it can be performed in a manner where the business begins to not operate efficiently, and eventually starts to fail frequently, causing harm to other business goals, such as customer retention, which effects revenue.<br>
+<br>
+In order to handle requests efficiently, the infrastructure must be one that can reasonably be altered to support this requests, and as the business changes in scale, scope, and direction, this takes either a very well put together operational environment that is made to be changed quickly in these manners (possible, but difficult to assemble, and easy to turn less-functional), or it requires time before requests are done, to prepare the environment, or more time after the requests are done to fix the system after the fact.<br>
 <h2 id=7ef5e6c23b6cb4359f88aea566c255fb><a href="#7ef5e6c23b6cb4359f88aea566c255fb">2.4</a>: What is a System?</h2>
 <h2 id=61fc96e11d2dd57966d2b5b014f1a2dc><a href="#61fc96e11d2dd57966d2b5b014f1a2dc">2.5</a>: Systemic Thinking</h2>
 <h3 id=03071c27c692b17c5d7f95b9d4f021a4><a href="#03071c27c692b17c5d7f95b9d4f021a4">2.5.1</a>: Philosophers Knife</h3>
