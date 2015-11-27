@@ -1,3 +1,37 @@
 ### [[2.2.2.1.1.1.1.1: Everyone doing everything themselves is great for a boot-strap project, but just does not work in a Mission-Critical environment.  Launch NASA rocket with newbies running things?  No, experience is needed for precision and taking into account All The Things.]]
 
 
+One important component of all operational environments is standardization.  At the extreme end of that spectrum would be uniformity and at the other extreme everything is unique:
+
+Everything Is Uniform <---> Everything Is Unique
+
+Since we know that not everything can be uniform, since we are already starting with a base of 3 SKUs (Utility, Relational Database, Non-Relational Database), that side of the spectrum is already constrained.
+
+However, it is completely possible to have an "everything is unique" operational system, and this might be labelled something like "operational hell", where everything is a special snow-flake one-off case.
+
+In an "operational hell" environment, no change can be assumed to work for more than 1 specific case.  That case must be inspected just prior to being modified, because it could be in any type of state or configuration at all, and the only way to have reasonable confidence that the change will not break things would be to look at everything going on on the machine, all configuration, all currently running processes, and to determine through expert-understanding that the planned change will work with the existing configuration.
+
+This is the most dangerous type of environment to work in, with regards to uptime, stability, efficiency, and all the other positive attributes we want to imbrue our operational environments with.
+
+All it takes to create an "everything is unique" environment is to let everyone solve every problem in the way they see best, at the time they got the request, without communicating the changes to others, and aligning the changes so that they follow a planned path.
+
+Many requests into operations will diff from previous requests in some way, making it impossible for the current request to be handled in the same fashion as the previous request, because of those differences, but still the methods used to take care of the previous and current requests could be aligned with one another.
+
+This type of alignment does not come for free, and it does not come naturally.  It is a process that must be learned, and it takes coordination of all the different members of a team to work together in ensuring that this alignment takes place.
+
+Alignment itself has a spectrum, and is best seen at different levels of details.
+
+We can "block box" anything into:  Inputs, Outputs, Side-Effects
+
+Inputs are what comes into the black box, say HTTP requests for a web server.
+
+Outputs are what comes out of the black box, sat the HTTP response for a web server.
+
+And side-effects are what happens beyond the outputs, say that a database is updated, and a memory caching server is updated, and logs are written to storage.
+
+Black boxes are an appropriate level for a group to be able to discuss alignment, as getting into implementation details of how a web server is configured should be left to the sub-team that deals with that web server. 
+
+This is to allow people and sub-teams autonomy of action, as centralized planning cannot deal with all details and all contingencies efficiently, while still allowing a larger centralized inspection of the black boxes, to achieve a total operational system alignment.
+
+There's a lot involve in this, and we will be going into more depth as we move from philosophy and general issues into implementation.
+

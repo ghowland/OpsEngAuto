@@ -1,13 +1,13 @@
 # Operations Engineering and Automation
 
 
-Total Sections: 281   Populated Sections: 15
-Current Goal: Populate Empty Sections: 266   (Done: 5.3%)
+Total Sections: 281   Populated Sections: 18
+Current Goal: Populate Empty Sections: 263   (Done: 6.4%)
 
 
-Lines: 689
+Lines: 805
 
-Words: 11064
+Words: 13342
 
 # Chapter 1: Preface
 
@@ -734,8 +734,124 @@ This 1-factor look at the problem, finance, is not a "big picture" view, it is o
 <br>
 There are many more factors in this, and we will get into some of them later, but they are not the focus of this book, so we will not cover them comprehensively.<br>
 <p id=0932b206900bdd69c2b6cc7a46dfee68><b><a href="#0932b206900bdd69c2b6cc7a46dfee68">2.3.2.1.1.1</a>: Typically companies still dont tell ops departments that they need anything, until its due, all decisions are done, and its time to roll out.</b></p>
+<br>
+The problem of communication between departments, especially in regard to lead times between knowing they need work to eventually be done, and when they alert another department or team that they need that work done is such a classic problem that we can just assume it will happen everywhere, in every circumstance, unless people do something to change the pattern.<br>
+<br>
+In places where departments are giving each other prior notice of work coming down the pipeline, and involving the teams they will need to do that future work in the design phase, it is very likely that this was set up on purpose, and either by "visionary" early employees or founders, or through great work of some individuals to make changes to the de facto process of only asking for work to be done, when it is at the end of the project and time to release.<br>
+<br>
+I say it's most likely that this is the problem, because I have only worked in a couple environments, out of a large number of environments, where this happened as a normal occurrence.<br>
+<br>
+The point I am making is that one shouldn't be surprised when another department or group arrives and says they have finished a project, and they "just need it deployed into production", and has no time available in their release schedule for doing things like:<br>
+<br>
+- Productionizing the release process<br>
+- Productionizing the configuration<br>
+- Doing security audits and fixes<br>
+- Writing an operational manual with support play book, enumeration of error codes, instructions as to options<br>
+<br>
+Frequently projects just being released into production do not have good performance tests done of them, although this happens more frequently than others, so I'm not including it in the above list.<br>
+<br>
+One of the lessons it took me a very long time to learn, but has served me well since learning it, is that if you recognize a pattern as occurring regularly, it is better to simply plan to deal with that pattern than to put up any resistance to it's existence.<br>
+<br>
+What I mean by this is not to get upset when you are given these types of projects, and they require immediate action, and things are requested to be done "wrong" and they cause havoc with the clean environment you are trying to make.<br>
+<br>
+Instead, see them as failure to get ahead of a pattern that occurs so frequently that you can simply assume that there are cases in process of coming to you right now.<br>
+<br>
+Knowing this, how do you get ahead of this problem?  You can't completely solve it, as it requires cooperation from other people, and the root of the problem is that they themselves aren't coming forward to cooperate before they normally would.<br>
+<br>
+Some things you can do:<br>
+<br>
+- Regularly, say every month, send out a standard template communication (email, etc) to all departments asking if they have any projects that will coming down the pipeline and will need operational resources.<br>
+<br>
+- Describe in the communication what "requires operational resources" means, such as machines in production, adding a new service, making changes to services which aren't already in production or that the operations department doesn't know about, etc.<br>
+<br>
+- Describe any lead-times you require for these types of projects.<br>
+<br>
+This is the direct-but-passive communication approach, and will allow people who are up for communicating ahead of time to communicate with you in a way they can understand is helpful.  This will not catch all new projects.<br>
+<br>
+From there you can also create a department policy, document it in your online documentation site (wiki, etc) as to how you accept new projects, and when people ask you for them,  you can refer them to the "new project on-boarding" documentation that describes how you would like to work.<br>
+<br>
+This provides some "back end" type protections, as people will see that they didn't communicate with your regular email, and now they are learning how the operations department works.<br>
+<br>
+But this will still not stop any externally set schedules, as if the company requires a product is launched on a given date, then this is a higher priority than following any department's self-appointed rules, and will override them in many circumstances.<br>
+<br>
+The direct-active approach is the best, but requires more resources, this would be someone who is acting a department project manager would meet with the other department heads or team managers directly, and ask them what they are working on, and when they will need operational resources.<br>
+<br>
+This direct-active approach is more likely to be successful, as the managers will know what projects they are working on, and are not trying to hide their project's work, they are simply working to complete their projects, and in this way you are assisting them in getting to the final steps of completion.<br>
+<br>
+If this can be approached in a "let us help you" manner, then collaboration can begin, and hopefully will improve the working conditions for everyone, as handing off work between groups is a difficult process.<br>
 <p id=d05edb2ae926b6b3071c2d16497f5721><b><a href="#d05edb2ae926b6b3071c2d16497f5721">2.3.2.1.1.1.1</a>: The ops department is blamed for all lag.  Developers are blocked, legitimately and not-legitimately.</b></p>
+<br>
+A look at the more negative side of this problem between groups is that the operations departments are often claimed to be creating lag between work being completed by other teams (typically development, sometimes marketing or business development).<br>
+<br>
+From the perspective of the non-operations teams, this is a true statement.  They finished their work, and now they want to put it into production for end-users to be able to access, and any time between them being "finished" and the end-user being able to access the work is considered lag created by the operations department.<br>
+<br>
+The issue here is one of "someone else's problem", which comes down to empathy and a realistic view of the nature of all work involved in a company, not just one's own work in the company.  This is not a problem that can be solved directly, as people's ability to appreciate other's positions is not going to change easily, or deterministically.<br>
+<br>
+So what we can do is to look to ameliorate this problem as much as we can, by getting ahead of the requests.  This means having a process that people can easily follow to getting what they want.<br>
+<br>
+For example, create a limited set of Hardware Specifications that you purchase, for any generation of hardware.  The typical basics of this as of 2015 are usually a "utility" class machine, a "relational database" class machine, and a "non-relational database" class machines.<br>
+<br>
+To simplify what we call a Hardware Specification, let's use the acronym for Stock Keeping Unit (SKU), which is very general.<br>
+<br>
+Utility class machines are for running general purpose software, and typically are mostly used for web and application services in production.  There may be two SKUs if there is a "low memory" and "high memory" version.  Caching services (memcache, redis) usually use a low amount of CPU, but a high amount of RAM, and may reside alone on machines due to their critical nature.  Utility machines typically do not need much in the way of storage, and almost any small redundant disks are good enough.<br>
+<br>
+Relational Database class machines are typically used for relational SQL databases like MySQL, PostgreSQL, etc.  They need both a lot of RAM, a lot of cores, and they need very fast disk.<br>
+<br>
+Non-Relational Database class machines are usually running software like Hadoop, Cassandra, or any of the other many column-oriented databases that are better at storing logs, events, time-series and other databases.  They typically need a lot of CPU, memory, and much more storage than relational databases.  If a relational database might need 5TB of storage, a non-relational database might need 30TB, or something in this type of proportion.<br>
+<br>
+Starting with these 3 base SKUs, and perhaps several sub-SKUs for more RAM, you can offer departments easy choices for how they want to deploy their software.  Providing them virtual machines for some services may also be a good match, depending on their usage patterns and criticality.<br>
+<br>
+For each type of request they are likely to make, having already worked out in advance what options they will need, in a sort of restaurant-like menu, will allow you to make the requests more streamlined, and work better with your organization.<br>
+<br>
+You can add SKUs if necessary, when they have a strong need (for example, a large order of systems that have a usage pattern that do not match any of your existing SKUs), and otherwise they have an easier by simply selecting what seems best to them.<br>
+<br>
+This can also be done for:<br>
+<br>
+- Networks:  Have set ranges of IP space that you assign to a given network, such as standardizing on /23, /22 and /20.  If you only create server networks of these sizes, then it should be pretty easy to size them appropriately for a given request that needs their own network.<br>
+<br>
+- Load Balancing:  If you have a pre-determined set of options say using SNAT with X-Forwarded-For for all web services, then you can announce that early, and avoid running into problems where web applications require the source IP in the request.<br>
+<br>
+- Host names: As we went over earlier, there is a lot of information stored in names.  If you give a guideline of what your convention is, and how to apply that convention to various configurations, you can avoid being requested to make names that do not fit the convention, as you have already described how to take their configuration and put it into your naming convention.<br>
+<br>
+- Accessing production machines:  You should have a security policy that can be applied in a standard way to all requests.  Do you allow root logins?  Root escalation?  Sudo?  Role accounts?  Copying data to machines?   You should write each of these things down, and where you do not allow something, you should have a method for how to accomplish that goal in a manner that is consistent with your security policy.  If you do not do this, people will just work around your enforcements and create many messes as everyone does it slightly differently.<br>
+<br>
+It is unlikely that people who perform different roles will start to become empathetic that the work done in others' roles really does take expertise and time, since we have so much history of people not having this empathy, but we can do things to try to bridge these gaps by being aware of them and tuning our behaviors accordingly.<br>
 <p id=565cd0fce08c8934484649d6a9f5b105><b><a href="#565cd0fce08c8934484649d6a9f5b105">2.3.2.1.1.1.1.1</a>: Everyone doing everything themselves is great for a boot-strap project, but just does not work in a Mission-Critical environment.  Launch NASA rocket with newbies running things?  No, experience is needed for precision and taking into account All The Things.</b></p>
+<br>
+<br>
+One important component of all operational environments is standardization.  At the extreme end of that spectrum would be uniformity and at the other extreme everything is unique:<br>
+<br>
+Everything Is Uniform <---> Everything Is Unique<br>
+<br>
+Since we know that not everything can be uniform, since we are already starting with a base of 3 SKUs (Utility, Relational Database, Non-Relational Database), that side of the spectrum is already constrained.<br>
+<br>
+However, it is completely possible to have an "everything is unique" operational system, and this might be labelled something like "operational hell", where everything is a special snow-flake one-off case.<br>
+<br>
+In an "operational hell" environment, no change can be assumed to work for more than 1 specific case.  That case must be inspected just prior to being modified, because it could be in any type of state or configuration at all, and the only way to have reasonable confidence that the change will not break things would be to look at everything going on on the machine, all configuration, all currently running processes, and to determine through expert-understanding that the planned change will work with the existing configuration.<br>
+<br>
+This is the most dangerous type of environment to work in, with regards to uptime, stability, efficiency, and all the other positive attributes we want to imbrue our operational environments with.<br>
+<br>
+All it takes to create an "everything is unique" environment is to let everyone solve every problem in the way they see best, at the time they got the request, without communicating the changes to others, and aligning the changes so that they follow a planned path.<br>
+<br>
+Many requests into operations will diff from previous requests in some way, making it impossible for the current request to be handled in the same fashion as the previous request, because of those differences, but still the methods used to take care of the previous and current requests could be aligned with one another.<br>
+<br>
+This type of alignment does not come for free, and it does not come naturally.  It is a process that must be learned, and it takes coordination of all the different members of a team to work together in ensuring that this alignment takes place.<br>
+<br>
+Alignment itself has a spectrum, and is best seen at different levels of details.<br>
+<br>
+We can "block box" anything into:  Inputs, Outputs, Side-Effects<br>
+<br>
+Inputs are what comes into the black box, say HTTP requests for a web server.<br>
+<br>
+Outputs are what comes out of the black box, sat the HTTP response for a web server.<br>
+<br>
+And side-effects are what happens beyond the outputs, say that a database is updated, and a memory caching server is updated, and logs are written to storage.<br>
+<br>
+Black boxes are an appropriate level for a group to be able to discuss alignment, as getting into implementation details of how a web server is configured should be left to the sub-team that deals with that web server. <br>
+<br>
+This is to allow people and sub-teams autonomy of action, as centralized planning cannot deal with all details and all contingencies efficiently, while still allowing a larger centralized inspection of the black boxes, to achieve a total operational system alignment.<br>
+<br>
+There's a lot involve in this, and we will be going into more depth as we move from philosophy and general issues into implementation.<br>
 <p id=e08a32902b4d3960b8ee560f8851f34f><b><a href="#e08a32902b4d3960b8ee560f8851f34f">2.3.2.1.1.1.1.2</a>: Balance to this.  What can be self-service, and what cant.  PaaS for production, IaaS for development and Ops usage.</b></p>
 <h2 id=7ef5e6c23b6cb4359f88aea566c255fb><a href="#7ef5e6c23b6cb4359f88aea566c255fb">2.4</a>: What is a System?</h2>
 <h2 id=61fc96e11d2dd57966d2b5b014f1a2dc><a href="#61fc96e11d2dd57966d2b5b014f1a2dc">2.5</a>: Systemic Thinking</h2>

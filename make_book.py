@@ -396,7 +396,7 @@ def Main():
   for cur_section in table_of_contents:
     count += 1
     output += OutputSectionGitMarkDown(cur_section, header_prefix=str(count))
-    
+  
   header += report_text
   
   open(OUT_GIT_PATH, 'w').write(header + output)
