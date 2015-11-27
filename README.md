@@ -5,7 +5,7 @@ Total Sections: 281   Populated Sections: 19
 Current Goal: Populate Empty Sections: 262   (Done: 6.8%)
 
 
-Lines: 821
+Lines: 820
 
 Words: 13673
 
@@ -860,7 +860,6 @@ The benefit for the operations team is that they can remain more focused on impr
 There is also a spectrum of productivity to this:<br>
 <br>
 Handling Requests <---> Improving Infrastructure<br>
-<br>
 <br>
 The more of the operational team's resources (time, people) that are committed to processing requests made from outside the team (other departments, higher management), the less time the team is able to work on improving the infrastructure that exists, including improving the ability to handle the incoming requests in the first place.<br>
 <br>
