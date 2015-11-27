@@ -5,9 +5,9 @@ Total Sections: 281   Populated Sections: 19
 Current Goal: Populate Empty Sections: 262   (Done: 6.8%)
 
 
-Lines: 820
+Lines: 822
 
-Words: 13673
+Words: 13728
 
 # Chapter 1: Preface
 
@@ -29,6 +29,10 @@ What I hope you will gain from my perspective is a new foundation you can use as
 
 
 I will be covering a very large arena of information, so I will try to present a coherent picture, even though I cannot go into full details on every aspect, as it covers too many disciplines.
+
+
+
+This book's format is meant to be read from start to finish.  It starts off more general, and very philosophical, setting up terminology and scenarios.  Then will become more specific as we get into implementation details.  Finally, it will go back to being more general as we discuss how to implement in your current environment.
 
 <h2 id=8d921a98a2974ea61b905ce719a9f121><a href="#8d921a98a2974ea61b905ce719a9f121">1.1</a>: Where Ive Been, What Ive Been Doing, Why I Wrote this Book.</h2>
 <br>
