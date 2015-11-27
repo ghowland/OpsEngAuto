@@ -11,3 +11,4 @@ What I hope you will gain from my perspective is a new foundation you can use as
 I will be covering a very large arena of information, so I will try to present a coherent picture, even though I cannot go into full details on every aspect, as it covers too many disciplines.
 
 This book's format is meant to be read from start to finish.  It starts off more general, and very philosophical, setting up terminology and scenarios.  Then will become more specific as we get into implementation details.  Finally, it will go back to being more general as we discuss how to implement in your current environment.
+
