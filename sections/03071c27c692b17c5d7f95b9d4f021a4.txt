@@ -26,7 +26,10 @@ Let's first use our previous example of the static HTTP web request.
 
 I used the philosopher's knife on the system of "making HTTP requests from a web server over a network" to come up with 5 elements of the process:
 
-- A communication network (Internet)
-- A protocol and environment (TCP/IP on Linux)
-- A request handler (web server on TCP port 80)
-- A content location (static files on local filesystem)
+- A communication network (Internet): part of the environment.
+- A protocol and environment (TCP/IP on Linux): part of the environment.
+- A request handler (web server on TCP port 80): the Input to the black-box.
+- A content location (static files on local filesystem): a component of the Output to the black-box.
+- A log location (appending results to log file): a Side-Effect of the black-box operation.
+
+I could have sliced this in a different manner, and 

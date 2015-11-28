@@ -5,9 +5,9 @@ Total Sections: 281   Populated Sections: 22
 Current Goal: Populate Empty Sections: 259   (Done: 7.8%)
 
 
-Lines: 955
+Lines: 958
 
-Words: 16375
+Words: 16421
 
 # Chapter 1: Preface
 
@@ -1008,10 +1008,13 @@ Let's first use our previous example of the static HTTP web request.<br>
 <br>
 I used the philosopher's knife on the system of "making HTTP requests from a web server over a network" to come up with 5 elements of the process:<br>
 <br>
-- A communication network (Internet)<br>
-- A protocol and environment (TCP/IP on Linux)<br>
-- A request handler (web server on TCP port 80)<br>
-- A content location (static files on local filesystem)<br>
+- A communication network (Internet): part of the environment.<br>
+- A protocol and environment (TCP/IP on Linux): part of the environment.<br>
+- A request handler (web server on TCP port 80): the Input to the black-box.<br>
+- A content location (static files on local filesystem): a component of the Output to the black-box.<br>
+- A log location (appending results to log file): a Side-Effect of the black-box operation.<br>
+<br>
+I could have sliced this in a different manner, and<br>
 <h3 id=1f4b194d8569136439831f483c38a264><a href="#1f4b194d8569136439831f483c38a264">2.5.2</a>: Slicing the pie vs aggregation</h3>
 <h3 id=f32b593542b3562df78d89693543c0fe><a href="#f32b593542b3562df78d89693543c0fe">2.5.3</a>: Systemic Thinking.  Philosophers Knife.  Slicing the pie vs Aggregation.  Completeness, ease of understanding, ease of building, life-cycle maintenance.  Where do you spend your time?</h3>
 <h2 id=da54e5ab11aae5fc49994945cb3bc9a8><a href="#da54e5ab11aae5fc49994945cb3bc9a8">2.6</a>: Terminology</h2>
