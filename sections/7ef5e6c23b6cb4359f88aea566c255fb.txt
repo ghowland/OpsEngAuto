@@ -24,4 +24,16 @@ Without having this mental mapping, and having a mind that over time becomes mor
 
 These gaps are perfectly fine if they are properly black-boxed to create a comprehensive system, where you may not know how memory data is shuttled between the RAM chips and the CPU, but you have a model for how this works, and that model, while not physically accurate in detail, has a strong correlation to reality and can be used to make good decisions and predictions.
 
-We will go deeper into modeling in the future, 
+We will go deeper into Modeling in the future, but building accurate models of the systems you are working with is an important part of operations.
+
+When someone has a poor Model they are working with, they will be confused by things that occur, and are likely to have "magical thinking" ideas, like "out of nowhere, X just happened".
+
+When someone has a good Model and "X happens", they can see that X is related to Y and Z, and without first Y occurring, and then Z occurring, then X could not occur.
+
+They can trace this backwards and confirm that indeed Z occurred, and Y occurred, and so of course X was going to occur in sequence after them.
+
+For a common example of this, a web server starts to fail, and on inspection the disk is full, and on further inspection no log rotation was configured, and so the web server failing is a mechanical response to the disk filling up, which is a mechanical response to not having logs being rotated.
+
+If you do not rotate logs (or truncate them), then with any activity at all, it is guaranteed that eventually the disk will fill up, and any services which might use the disk for writes (such as logging) will fail.
+
+This is a simple system, and indeed anything can be turned into

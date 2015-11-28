@@ -5,9 +5,9 @@ Total Sections: 281   Populated Sections: 20
 Current Goal: Populate Empty Sections: 261   (Done: 7.1%)
 
 
-Lines: 848
+Lines: 860
 
-Words: 14273
+Words: 14490
 
 # Chapter 1: Preface
 
@@ -902,7 +902,19 @@ Without having this mental mapping, and having a mind that over time becomes mor
 <br>
 These gaps are perfectly fine if they are properly black-boxed to create a comprehensive system, where you may not know how memory data is shuttled between the RAM chips and the CPU, but you have a model for how this works, and that model, while not physically accurate in detail, has a strong correlation to reality and can be used to make good decisions and predictions.<br>
 <br>
-We will go deeper into modeling in the future,<br>
+We will go deeper into Modeling in the future, but building accurate models of the systems you are working with is an important part of operations.<br>
+<br>
+When someone has a poor Model they are working with, they will be confused by things that occur, and are likely to have "magical thinking" ideas, like "out of nowhere, X just happened".<br>
+<br>
+When someone has a good Model and "X happens", they can see that X is related to Y and Z, and without first Y occurring, and then Z occurring, then X could not occur.<br>
+<br>
+They can trace this backwards and confirm that indeed Z occurred, and Y occurred, and so of course X was going to occur in sequence after them.<br>
+<br>
+For a common example of this, a web server starts to fail, and on inspection the disk is full, and on further inspection no log rotation was configured, and so the web server failing is a mechanical response to the disk filling up, which is a mechanical response to not having logs being rotated.<br>
+<br>
+If you do not rotate logs (or truncate them), then with any activity at all, it is guaranteed that eventually the disk will fill up, and any services which might use the disk for writes (such as logging) will fail.<br>
+<br>
+This is a simple system, and indeed anything can be turned into<br>
 <h2 id=61fc96e11d2dd57966d2b5b014f1a2dc><a href="#61fc96e11d2dd57966d2b5b014f1a2dc">2.5</a>: Systemic Thinking</h2>
 <h3 id=03071c27c692b17c5d7f95b9d4f021a4><a href="#03071c27c692b17c5d7f95b9d4f021a4">2.5.1</a>: Philosophers Knife</h3>
 <h3 id=1f4b194d8569136439831f483c38a264><a href="#1f4b194d8569136439831f483c38a264">2.5.2</a>: Slicing the pie vs aggregation</h3>
