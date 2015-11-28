@@ -5,9 +5,9 @@ Total Sections: 281   Populated Sections: 21
 Current Goal: Populate Empty Sections: 260   (Done: 7.5%)
 
 
-Lines: 896
+Lines: 902
 
-Words: 15216
+Words: 15400
 
 # Chapter 1: Preface
 
@@ -33,6 +33,10 @@ I will be covering a very large arena of information, so I will try to present a
 
 
 This book's format is meant to be read from start to finish.  It starts off more general, and very philosophical, setting up terminology and scenarios.  Then will become more specific as we get into implementation details.  Finally, it will go back to being more general as we discuss how to implement in your current environment.
+
+
+
+This book is more about depth than about breadth, and as such we will continue to come back to examples over and over again, looking at them in different ways, to give a deeper understanding of all the components that make them up.  This is in contrast to many books that are meant to describe an array of information and give you a broader understanding of how to work.
 
 
 
@@ -952,6 +956,10 @@ Since we can create a system out of any components, let's decide what our compon
 - A web server that listens on TCP port 80 on that server.<br>
 - A file system that locally contains system files.<br>
 - A file system that locally logs requests and processing.<br>
+<br>
+This is a slice of components involve in web process, and just as I have arbitrarily picked these for this example, you can pick any components you want to build your own systems.  You can continue to refer to the same system over time to get more familiar with all the details of that system, as is important in operational and application documentation, or you can abandon the system as soon as it's immediate purposes are over.  Systems can be used forever or can be completely ephemeral, they are abstractions for reasoning and understanding reality, which remains too detailed and complex for us to directly understand.<br>
+<br>
+Let's create an event that occurs and exercises the<br>
 <h3 id=03071c27c692b17c5d7f95b9d4f021a4><a href="#03071c27c692b17c5d7f95b9d4f021a4">2.5.1</a>: Philosophers Knife</h3>
 <h3 id=1f4b194d8569136439831f483c38a264><a href="#1f4b194d8569136439831f483c38a264">2.5.2</a>: Slicing the pie vs aggregation</h3>
 <h3 id=f32b593542b3562df78d89693543c0fe><a href="#f32b593542b3562df78d89693543c0fe">2.5.3</a>: Systemic Thinking.  Philosophers Knife.  Slicing the pie vs Aggregation.  Completeness, ease of understanding, ease of building, life-cycle maintenance.  Where do you spend your time?</h3>
