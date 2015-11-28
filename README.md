@@ -7,7 +7,7 @@ Current Goal: Populate Empty Sections: 256   (Done: 8.9%)
 
 Lines: 1038
 
-Words: 18375
+Words: 18376
 
 # Chapter 1: Preface
 
@@ -214,7 +214,7 @@ This means you can take in this information, as "Geoff is saying this to me", wi
 <br>
 What do I know?  What do I really know?<br>
 <br>
-To paraphase a Sherlock Holmes quote: "What do I know, and how do I know it?"<br>
+Or, to paraphase a Sherlock Holmes quote, "What do I know, and how do I know it?"<br>
 <br>
 In any situation, this is a relevant question, as it directs where I will go next.<br>
 <br>
