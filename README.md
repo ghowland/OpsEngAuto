@@ -5,9 +5,9 @@ Total Sections: 281   Populated Sections: 25
 Current Goal: Populate Empty Sections: 256   (Done: 8.9%)
 
 
-Lines: 1026
+Lines: 1032
 
-Words: 18043
+Words: 18161
 
 # Chapter 1: Preface
 
@@ -1075,6 +1075,12 @@ Through the power of using systems and the philosopher's knife, and black-boxing
 By reducing a system or component to it's Inputs, Outputs and known Side-Effects, I can clearly talk about what is going on as it relates to other systems or components.  <br>
 <br>
 If I can come to an agreement on terms and what the Inputs, Outputs and Side-Effects are for the given systems/components we are talking about, we have a much higher likelihood of coming to consensus on what we are talking about, and will be less likely to be talking about completely different things, while we are trying to communicate about a problem, or a solution, or whatever.<br>
+<br>
+Additionally, once we can create a system out of any environment and events, we can begin to Model that system so that we can come up with procedures on what we should do in different circumstances.<br>
+<br>
+For instance, in our web request and logging examples, we have determined that without log rotation we will in time fill up the storage, and fail to be able to take more requests (and log their results), and so we are sure to have failures on any active systems where this is the case.<br>
+<br>
+From this we can create a policy that requires all services to have log rotation or truncating configured for any software before it is put into active service.<br>
 <h2 id=da54e5ab11aae5fc49994945cb3bc9a8><a href="#da54e5ab11aae5fc49994945cb3bc9a8">2.6</a>: Terminology</h2>
 <br>
 Congratulations!  You've made it to the second beginning of the book, where we go over the definitions of terminology we will be using.<br>
