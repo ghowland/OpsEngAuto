@@ -7,7 +7,7 @@ Current Goal: Populate Empty Sections: 256   (Done: 8.9%)
 
 Lines: 1044
 
-Words: 18496
+Words: 18502
 
 # Chapter 1: Preface
 
@@ -521,7 +521,7 @@ If you know that something is likely to grow in count, then you should start wit
 <br>
 What about "product", is it likely to grow in count too?  No, there is not necessarily a requirement for this.  If a new product does come out that is called "product2", then it is still differentiated from "product", and while it shares the same look and feel as the datacenter location scaling problem, it is actually a different type of scaling.<br>
 <br>
-This is likely to be controversial, as it is difficult to back up with solid data quickly, so we will cover how to differentiate data like this later.<br>
+This is likely to be controversial, as it is difficult to back up with solid data quickly, so we will cover how to differentiate data like this later to keep the pace moving along.<br>
 <br>
 The second way it is more scalable is that we have a secondary numerical counter for the Host Class.  "001" has now become "1-001".<br>
 <br>
