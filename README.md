@@ -5,9 +5,9 @@ Total Sections: 281   Populated Sections: 25
 Current Goal: Populate Empty Sections: 256   (Done: 8.9%)
 
 
-Lines: 1036
+Lines: 1038
 
-Words: 18359
+Words: 18375
 
 # Chapter 1: Preface
 
@@ -213,6 +213,8 @@ This means you can take in this information, as "Geoff is saying this to me", wi
 <h2 id=75d62671847424a563ec929a890245c5><a href="#75d62671847424a563ec929a890245c5">2.2</a>: I only really know what I myself have experienced.  Everything else is hear-say, and while there may be a solid model behind it, I do not actually have experience in the matter, so I cannot trust the information to make solid engineering decisions on.  If I have nothing better, I may need to use this as the best course of action, and it may sound like a good thing to try, so I might experiment with it, but I have to recognize that this is an experiment, and so there is a great risk of failure.</h2>
 <br>
 What do I know?  What do I really know?<br>
+<br>
+To paraphase a Sherlock Holmes quote: "What do I know, and how do I know it?"<br>
 <br>
 In any situation, this is a relevant question, as it directs where I will go next.<br>
 <br>
