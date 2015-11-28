@@ -18,4 +18,7 @@ For instance, we can look at an Operating System that runs on hardware (like Lin
 
 This divides all code that is executed from the operating system.  We can take the same system, and make a cut between "firmware" (code that executes from BIOS and other places closer to hardware) and "software", which is executed from RAM on the main CPU.
 
-Whether we have divided by "Kernel vs User" or "Firmware vs Software", nothing about the system has changed, we have simply decided to cut the pie in a different place, and we can 
+Whether we have divided by "Kernel vs User" or "Firmware vs Software", nothing about the system has changed, we have simply decided to cut the pie in a different place, and we can then use this division for some sort of useful inspection.
+
+Cuts can be layered on top of each other, like dividing into Firmware/Software, and then dividing Software into Kernel/User space, and could continue to be divided, such as dividing User space into shared library code vs. application local code.  Share library code will be executed by more than one application, and is stored in a .so or .dll type file, and application code will be stored in a program's ELF or EXE formatted binary file.
+

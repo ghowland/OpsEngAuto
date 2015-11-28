@@ -5,9 +5,9 @@ Total Sections: 281   Populated Sections: 23
 Current Goal: Populate Empty Sections: 258   (Done: 8.2%)
 
 
-Lines: 982
+Lines: 984
 
-Words: 16916
+Words: 17001
 
 # Chapter 1: Preface
 
@@ -1039,7 +1039,9 @@ For instance, we can look at an Operating System that runs on hardware (like Lin
 <br>
 This divides all code that is executed from the operating system.  We can take the same system, and make a cut between "firmware" (code that executes from BIOS and other places closer to hardware) and "software", which is executed from RAM on the main CPU.<br>
 <br>
-Whether we have divided by "Kernel vs User" or "Firmware vs Software", nothing about the system has changed, we have simply decided to cut the pie in a different place, and we can<br>
+Whether we have divided by "Kernel vs User" or "Firmware vs Software", nothing about the system has changed, we have simply decided to cut the pie in a different place, and we can then use this division for some sort of useful inspection.<br>
+<br>
+Cuts can be layered on top of each other, like dividing into Firmware/Software, and then dividing Software into Kernel/User space, and could continue to be divided, such as dividing User space into shared library code vs. application local code.  Share library code will be executed by more than one application, and is stored in a .so or .dll type file, and application code will be stored in a program's ELF or EXE formatted binary file.<br>
 <h3 id=f32b593542b3562df78d89693543c0fe><a href="#f32b593542b3562df78d89693543c0fe">2.5.3</a>: Systemic Thinking.  Philosophers Knife.  Slicing the pie vs Aggregation.  Completeness, ease of understanding, ease of building, life-cycle maintenance.  Where do you spend your time?</h3>
 <h2 id=da54e5ab11aae5fc49994945cb3bc9a8><a href="#da54e5ab11aae5fc49994945cb3bc9a8">2.6</a>: Terminology</h2>
 <h3 id=69371f3e438e2ed281f525ac57e65e3c><a href="#69371f3e438e2ed281f525ac57e65e3c">2.6.1</a>: Logic: code</h3>
