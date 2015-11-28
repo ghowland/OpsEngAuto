@@ -1,3 +1,17 @@
 ### [[2.4.2: Slicing the pie vs aggregation]]
 
+In the last section we covered the importance of slicing with the philosopher's knife without losing any information.
 
+One easy way of thinking about this is that you are cutting up a pie with the philosopher's knife.
+
+No matter how you slice a pie, the amount of pie has not been reduced.
+
+If you cut a piece directly down the middle, creating 2 symmetrical pieces, no pie is lost.  You have 2 pieces that compose the entire pie before slicing.
+
+Similarly if you cut a pie into any configuration, with any number of cuts, whether it is symmetrical, asymmetrical, whether the cuts are vertical, horizontal, diagonal, straight or wavy, the results are the same, in total all the pieces still contain all the original matter of the pie.
+
+In our philosophical cuts, the structure of the "pie" does not change, unlike a real pie, which deforms with the pressure of cuts, and will turn into a mess.
+
+In our virtual "pies" of information, or systems, we can slice any number of times in any direction, and the information remains the same, but on each side of the cut, we have made a division.
+
+For instance, we can look at an Operating System that runs on hardware (like Linux, Mac OS or Windows)

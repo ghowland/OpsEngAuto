@@ -1,13 +1,13 @@
 # Operations Engineering and Automation
 
 
-Total Sections: 281   Populated Sections: 22
-Current Goal: Populate Empty Sections: 259   (Done: 7.8%)
+Total Sections: 281   Populated Sections: 23
+Current Goal: Populate Empty Sections: 258   (Done: 8.2%)
 
 
-Lines: 962
+Lines: 978
 
-Words: 16608
+Words: 16820
 
 # Chapter 1: Preface
 
@@ -1020,6 +1020,22 @@ I was able to slice this process into the layer's I chose, because I wanted to d
 <br>
 We can take the exact same example process, and re-slice it any way we want, and the events would be the same, but in the information we look at, and how we inspect it would be different.  The system has not changed, the actions that occur in reality did not change, the results did not change, the inputs, outputs and side-effects did not change, and yet we are able to look at the problem in a completely different way, and take different lessons and gather different information from it.<br>
 <h3 id=1f4b194d8569136439831f483c38a264><a href="#1f4b194d8569136439831f483c38a264">2.5.2</a>: Slicing the pie vs aggregation</h3>
+<br>
+In the last section we covered the importance of slicing with the philosopher's knife without losing any information.<br>
+<br>
+One easy way of thinking about this is that you are cutting up a pie with the philosopher's knife.<br>
+<br>
+No matter how you slice a pie, the amount of pie has not been reduced.<br>
+<br>
+If you cut a piece directly down the middle, creating 2 symmetrical pieces, no pie is lost.  You have 2 pieces that compose the entire pie before slicing.<br>
+<br>
+Similarly if you cut a pie into any configuration, with any number of cuts, whether it is symmetrical, asymmetrical, whether the cuts are vertical, horizontal, diagonal, straight or wavy, the results are the same, in total all the pieces still contain all the original matter of the pie.<br>
+<br>
+In our philosophical cuts, the structure of the "pie" does not change, unlike a real pie, which deforms with the pressure of cuts, and will turn into a mess.<br>
+<br>
+In our virtual "pies" of information, or systems, we can slice any number of times in any direction, and the information remains the same, but on each side of the cut, we have made a division.<br>
+<br>
+For instance, we can look at an Operating System that runs on hardware (like Linux, Mac OS or Windows)<br>
 <h3 id=f32b593542b3562df78d89693543c0fe><a href="#f32b593542b3562df78d89693543c0fe">2.5.3</a>: Systemic Thinking.  Philosophers Knife.  Slicing the pie vs Aggregation.  Completeness, ease of understanding, ease of building, life-cycle maintenance.  Where do you spend your time?</h3>
 <h2 id=da54e5ab11aae5fc49994945cb3bc9a8><a href="#da54e5ab11aae5fc49994945cb3bc9a8">2.6</a>: Terminology</h2>
 <h3 id=69371f3e438e2ed281f525ac57e65e3c><a href="#69371f3e438e2ed281f525ac57e65e3c">2.6.1</a>: Logic: code</h3>
