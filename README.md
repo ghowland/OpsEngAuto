@@ -7,7 +7,7 @@ Current Goal: Populate Empty Sections: 256   (Done: 8.9%)
 
 Lines: 1044
 
-Words: 18517
+Words: 18540
 
 # Chapter 1: Preface
 
@@ -554,7 +554,7 @@ It is generally better still to use the same logic on all Host Classes of type "
 <br>
 There are other ways of organizing this data into names, and it depends on what data you need to track, but starting from a naming convention like this when you don't yet have that information is a safer bet than starting with less planning than this.<br>
 <br>
-If you know you have additional requirements, be sure that they are implemented into the naming convention, and kept in the standard.<br>
+If you know you have additional requirements, be sure that they are implemented into the naming convention, and kept in the standard.  This is a good standard to be extremely rigid with, as the benefits for having consistent naming are large and increase over time.  <br>
 <br>
 If you already have a naming convention, it is better to stay with it than to change it, but if you do need to change it, it is better to make a new standard, and make all new machines comply with it (if they are not in existing services with the old naming convention).<br>
 <br>
