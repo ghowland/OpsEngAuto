@@ -14,4 +14,8 @@ In our philosophical cuts, the structure of the "pie" does not change, unlike a 
 
 In our virtual "pies" of information, or systems, we can slice any number of times in any direction, and the information remains the same, but on each side of the cut, we have made a division.
 
-For instance, we can look at an Operating System that runs on hardware (like Linux, Mac OS or Windows)
+For instance, we can look at an Operating System that runs on hardware (like Linux, OS X or Windows), and divide the it into code that runs in "Kernel space" vs code that runs in "User space".
+
+This divides all code that is executed from the operating system.  We can take the same system, and make a cut between "firmware" (code that executes from BIOS and other places closer to hardware) and "software", which is executed from RAM on the main CPU.
+
+Whether we have divided by "Kernel vs User" or "Firmware vs Software", nothing about the system has changed, we have simply decided to cut the pie in a different place, and we can 

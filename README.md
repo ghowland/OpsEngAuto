@@ -5,9 +5,9 @@ Total Sections: 281   Populated Sections: 23
 Current Goal: Populate Empty Sections: 258   (Done: 8.2%)
 
 
-Lines: 978
+Lines: 982
 
-Words: 16820
+Words: 16916
 
 # Chapter 1: Preface
 
@@ -1035,7 +1035,11 @@ In our philosophical cuts, the structure of the "pie" does not change, unlike a 
 <br>
 In our virtual "pies" of information, or systems, we can slice any number of times in any direction, and the information remains the same, but on each side of the cut, we have made a division.<br>
 <br>
-For instance, we can look at an Operating System that runs on hardware (like Linux, Mac OS or Windows)<br>
+For instance, we can look at an Operating System that runs on hardware (like Linux, OS X or Windows), and divide the it into code that runs in "Kernel space" vs code that runs in "User space".<br>
+<br>
+This divides all code that is executed from the operating system.  We can take the same system, and make a cut between "firmware" (code that executes from BIOS and other places closer to hardware) and "software", which is executed from RAM on the main CPU.<br>
+<br>
+Whether we have divided by "Kernel vs User" or "Firmware vs Software", nothing about the system has changed, we have simply decided to cut the pie in a different place, and we can<br>
 <h3 id=f32b593542b3562df78d89693543c0fe><a href="#f32b593542b3562df78d89693543c0fe">2.5.3</a>: Systemic Thinking.  Philosophers Knife.  Slicing the pie vs Aggregation.  Completeness, ease of understanding, ease of building, life-cycle maintenance.  Where do you spend your time?</h3>
 <h2 id=da54e5ab11aae5fc49994945cb3bc9a8><a href="#da54e5ab11aae5fc49994945cb3bc9a8">2.6</a>: Terminology</h2>
 <h3 id=69371f3e438e2ed281f525ac57e65e3c><a href="#69371f3e438e2ed281f525ac57e65e3c">2.6.1</a>: Logic: code</h3>
