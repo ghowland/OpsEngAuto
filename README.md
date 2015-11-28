@@ -5,9 +5,9 @@ Total Sections: 281   Populated Sections: 25
 Current Goal: Populate Empty Sections: 256   (Done: 8.9%)
 
 
-Lines: 1038
+Lines: 1040
 
-Words: 18398
+Words: 18404
 
 # Chapter 1: Preface
 
@@ -479,6 +479,8 @@ This is an example product name for your organization.  This should be a short p
 - prod<br>
 <br>
 This is an "environment" description, and differentiates machines in production (being used by end-users, or running financially impacting services), differentiating it from servers performing the same actions, but that run in development, QA, staging, corporate, or other environments which have different users and impact if they go down or degrade.<br>
+<br>
+Common examples:  prod, stage, qa, de<br>
 <br>
 - sjc<br>
 <br>
