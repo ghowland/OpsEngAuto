@@ -7,7 +7,7 @@ Current Goal: Populate Empty Sections: 257   (Done: 8.5%)
 
 Lines: 1012
 
-Words: 17659
+Words: 17683
 
 # Chapter 1: Preface
 
@@ -1071,7 +1071,7 @@ For the purposes of this book, please accept my definitions as I will use them i
 <br>
 The important part of this is that you gain insight into my perspectives, as I will be using those descriptions of my perspectives to build up a detailed map of how to inspect an environment, how to design and compose an environment, how to implement it, how to automate it, how to troubleshoot it, how to perform maintenance and life-cycle changes to it, how to document it, describe it to other people, etc.<br>
 <br>
-This is all too much to do with just anyone's terminology, and the only terminology that will be able to consistently deliver these results will be my own.  So try to accept all of these for t<br>
+This is all too much to do with just anyone's terminology, and the only terminology that will be able to consistently deliver these results will be my own.  So try to accept all of these for the tools that they are in getting to these goals, and not as universal definitions that should be written into dictionaries, or compared against them.<br>
 <h3 id=69371f3e438e2ed281f525ac57e65e3c><a href="#69371f3e438e2ed281f525ac57e65e3c">2.6.1</a>: Logic: code</h3>
 <h3 id=9b48a00c792d88dfa31f203429758f84><a href="#9b48a00c792d88dfa31f203429758f84">2.6.2</a>: Data: data</h3>
 <h3 id=aa2640c210126a47b684283980210b76><a href="#aa2640c210126a47b684283980210b76">2.6.3</a>: Rules: policies about how you do stuff</h3>
