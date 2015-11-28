@@ -3,9 +3,9 @@ Total Sections: 281   Populated Sections: 22
 Current Goal: Populate Empty Sections: 259   (Done: 7.8%)
 <br>
 <br>
-Lines: 944<br>
+Lines: 955<br>
 <br>
-Words: 16235<br>
+Words: 16375<br>
 <br>
 <h1 id=48152466029dfcb314ccad4d502d1a73><a href="#48152466029dfcb314ccad4d502d1a73">Chapter 1</a>: Preface</h1>
 <br>
@@ -941,7 +941,7 @@ Let's create an event that occurs and exercises these components, as a sequence:
 <br>
 - Having determined what the path of the static file is on the local file system, if the file exists, the web server opens the file, reads it, and relays the data into the content section of the HTTP response.  After relaying the contents, it closes the file, creates a successful HTTP status code, and returns the results.  In this case we will assume that HTTP keep-alive is not enabled, and the HTTP server will close the connection afterwards.<br>
 <br>
-- The web server logs the request and successful response to it's access log on the local file system.<br>
+- The web server logs the request and successful response, appending to it's access log on the local file system.<br>
 <br>
 - The end-user's web browser will have received the HTTP response, getting the status code and body of the content, and in this case will display the image to the screen.<br>
 <br>
@@ -972,7 +972,18 @@ This is both the power and the limitation of the philosophers knife.  It can rev
 <br>
 For our purposes, we are looking at how to use the philosophers knife to sub-divide systems, for the purposes of Systemic Thinking.<br>
 <br>
-The most important element in creating a well-cut concept into a system, is that nothing is left behind.  The use of the philosopher's knife should account for all<br>
+The most important element in creating a well-cut concept into a system, is that nothing is left behind.  The use of the philosopher's knife should account for all components and options of a system, and while it is sub-dividing them, they never lose their whole.<br>
+<br>
+Their "whole" is what makes up the "system".  If you lose a part of the system while sub-dividing it, you have not correctly used the philosophers knife.  This will be important when designing your system, implementing it, and troubleshooting it, or in creating a Model to understand an existing system.<br>
+<br>
+Let's first use our previous example of the static HTTP web request.<br>
+<br>
+I used the philosopher's knife on the system of "making HTTP requests from a web server over a network" to come up with 5 elements of the process:<br>
+<br>
+- A communication network (Internet)<br>
+- A protocol and environment (TCP/IP on Linux)<br>
+- A request handler (web server on TCP port 80)<br>
+- A content location (static files on local filesystem)<br>
 <h3 id=1f4b194d8569136439831f483c38a264><a href="#1f4b194d8569136439831f483c38a264">2.5.2</a>: Slicing the pie vs aggregation</h3>
 <h3 id=f32b593542b3562df78d89693543c0fe><a href="#f32b593542b3562df78d89693543c0fe">2.5.3</a>: Systemic Thinking.  Philosophers Knife.  Slicing the pie vs Aggregation.  Completeness, ease of understanding, ease of building, life-cycle maintenance.  Where do you spend your time?</h3>
 <h2 id=da54e5ab11aae5fc49994945cb3bc9a8><a href="#da54e5ab11aae5fc49994945cb3bc9a8">2.6</a>: Terminology</h2>

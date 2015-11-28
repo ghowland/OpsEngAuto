@@ -18,4 +18,15 @@ This is both the power and the limitation of the philosophers knife.  It can rev
 
 For our purposes, we are looking at how to use the philosophers knife to sub-divide systems, for the purposes of Systemic Thinking.
 
-The most important element in creating a well-cut concept into a system, is that nothing is left behind.  The use of the philosopher's knife should account for all 
+The most important element in creating a well-cut concept into a system, is that nothing is left behind.  The use of the philosopher's knife should account for all components and options of a system, and while it is sub-dividing them, they never lose their whole.
+
+Their "whole" is what makes up the "system".  If you lose a part of the system while sub-dividing it, you have not correctly used the philosophers knife.  This will be important when designing your system, implementing it, and troubleshooting it, or in creating a Model to understand an existing system.
+
+Let's first use our previous example of the static HTTP web request.
+
+I used the philosopher's knife on the system of "making HTTP requests from a web server over a network" to come up with 5 elements of the process:
+
+- A communication network (Internet)
+- A protocol and environment (TCP/IP on Linux)
+- A request handler (web server on TCP port 80)
+- A content location (static files on local filesystem)
