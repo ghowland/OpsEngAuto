@@ -5,9 +5,9 @@ Total Sections: 281   Populated Sections: 21
 Current Goal: Populate Empty Sections: 260   (Done: 7.5%)
 
 
-Lines: 902
+Lines: 904
 
-Words: 15400
+Words: 15416
 
 # Chapter 1: Preface
 
@@ -957,7 +957,9 @@ Since we can create a system out of any components, let's decide what our compon
 <br>
 This is a slice of components involve in web process, and just as I have arbitrarily picked these for this example, you can pick any components you want to build your own systems.  You can continue to refer to the same system over time to get more familiar with all the details of that system, as is important in operational and application documentation, or you can abandon the system as soon as it's immediate purposes are over.  Systems can be used forever or can be completely ephemeral, they are abstractions for reasoning and understanding reality, which remains too detailed and complex for us to directly understand.<br>
 <br>
-Let's create an event that occurs and exercises the<br>
+Let's create an event that occurs and exercises these components, as a sequence:<br>
+<br>
+- An end-user requests a file from the remote web server: http://www.domain.com/images/unstoppabletrex.png<br>
 <h3 id=03071c27c692b17c5d7f95b9d4f021a4><a href="#03071c27c692b17c5d7f95b9d4f021a4">2.5.1</a>: Philosophers Knife</h3>
 <h3 id=1f4b194d8569136439831f483c38a264><a href="#1f4b194d8569136439831f483c38a264">2.5.2</a>: Slicing the pie vs aggregation</h3>
 <h3 id=f32b593542b3562df78d89693543c0fe><a href="#f32b593542b3562df78d89693543c0fe">2.5.3</a>: Systemic Thinking.  Philosophers Knife.  Slicing the pie vs Aggregation.  Completeness, ease of understanding, ease of building, life-cycle maintenance.  Where do you spend your time?</h3>
