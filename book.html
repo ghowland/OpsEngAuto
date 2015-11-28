@@ -3,9 +3,9 @@ Total Sections: 281   Populated Sections: 23
 Current Goal: Populate Empty Sections: 258   (Done: 8.2%)
 <br>
 <br>
-Lines: 984<br>
+Lines: 996<br>
 <br>
-Words: 17001<br>
+Words: 17262<br>
 <br>
 <h1 id=48152466029dfcb314ccad4d502d1a73><a href="#48152466029dfcb314ccad4d502d1a73">Chapter 1</a>: Preface</h1>
 <br>
@@ -1014,6 +1014,18 @@ This divides all code that is executed from the operating system.  We can take t
 Whether we have divided by "Kernel vs User" or "Firmware vs Software", nothing about the system has changed, we have simply decided to cut the pie in a different place, and we can then use this division for some sort of useful inspection.<br>
 <br>
 Cuts can be layered on top of each other, like dividing into Firmware/Software, and then dividing Software into Kernel/User space, and could continue to be divided, such as dividing User space into shared library code vs. application local code.  Share library code will be executed by more than one application, and is stored in a .so or .dll type file, and application code will be stored in a program's ELF or EXE formatted binary file.<br>
+<br>
+For purposes of discussion and illustration we can be fairly fluid about our definitions, and decisions on where to slice, because they are throw-away examples, and exist only for as long as they are useful to us.<br>
+<br>
+As we get deeper into the topics of Engineering Axioms and automation, we will see that while this can be used fluidly, the ability to use it deterministically, in a repeatable pattern, across many topics, becomes of paramount importance.<br>
+<br>
+The reason for this is the difference between a comprehensive system (correctly sliced with the philosophers knife), and an aggregated system, which is built not as a complete system that is sliced into pieces of the pie that can be put together to form the whole, but is aggregated from components.<br>
+<br>
+The problem with aggregated "systems" is that they are not always in jeopardy of becoming not-internally-consistent.  Due to being "aggregated" into creation, where one piece is created, and then another piece, and then the two are put together, and then a change is made, and then a new piece is added, you get the result of not having a "complete pie" when it is resembled.<br>
+<br>
+In fact, I will attempt to prove later on that it is impossible for a system that is aggregated to ever become a complete and comprehensive system, whereas if you always work from the method of "slicing the pie", you will always have a comprehensive system.<br>
+<br>
+The work involved to do both are very similar, and in some cases exactly the same, but the manner of thinking about the<br>
 <h3 id=f32b593542b3562df78d89693543c0fe><a href="#f32b593542b3562df78d89693543c0fe">2.5.3</a>: Systemic Thinking.  Philosophers Knife.  Slicing the pie vs Aggregation.  Completeness, ease of understanding, ease of building, life-cycle maintenance.  Where do you spend your time?</h3>
 <h2 id=da54e5ab11aae5fc49994945cb3bc9a8><a href="#da54e5ab11aae5fc49994945cb3bc9a8">2.6</a>: Terminology</h2>
 <h3 id=69371f3e438e2ed281f525ac57e65e3c><a href="#69371f3e438e2ed281f525ac57e65e3c">2.6.1</a>: Logic: code</h3>

@@ -22,3 +22,14 @@ Whether we have divided by "Kernel vs User" or "Firmware vs Software", nothing a
 
 Cuts can be layered on top of each other, like dividing into Firmware/Software, and then dividing Software into Kernel/User space, and could continue to be divided, such as dividing User space into shared library code vs. application local code.  Share library code will be executed by more than one application, and is stored in a .so or .dll type file, and application code will be stored in a program's ELF or EXE formatted binary file.
 
+For purposes of discussion and illustration we can be fairly fluid about our definitions, and decisions on where to slice, because they are throw-away examples, and exist only for as long as they are useful to us.
+
+As we get deeper into the topics of Engineering Axioms and automation, we will see that while this can be used fluidly, the ability to use it deterministically, in a repeatable pattern, across many topics, becomes of paramount importance.
+
+The reason for this is the difference between a comprehensive system (correctly sliced with the philosophers knife), and an aggregated system, which is built not as a complete system that is sliced into pieces of the pie that can be put together to form the whole, but is aggregated from components.
+
+The problem with aggregated "systems" is that they are not always in jeopardy of becoming not-internally-consistent.  Due to being "aggregated" into creation, where one piece is created, and then another piece, and then the two are put together, and then a change is made, and then a new piece is added, you get the result of not having a "complete pie" when it is resembled.
+
+In fact, I will attempt to prove later on that it is impossible for a system that is aggregated to ever become a complete and comprehensive system, whereas if you always work from the method of "slicing the pie", you will always have a comprehensive system.
+
+The work involved to do both are very similar, and in some cases exactly the same, but the manner of thinking about the 
