@@ -375,7 +375,7 @@ def Main():
 
   
   # Print the HTML
-  header = '<h1>Operations Engineering and Automation</h1>\n' + report
+  header = '<h1>Operations: Engineering and Automation</h1>\n' + report
   output = ''
   count = 0
   for cur_section in table_of_contents:
@@ -390,7 +390,7 @@ def Main():
   
   
   # Print the GitHub MarkDown
-  header = '# Operations Engineering and Automation\n\n\n' + report
+  header = '# Operations: Engineering and Automation\n\n\n' + report
   output = ''
   count = 0
   for cur_section in table_of_contents:
