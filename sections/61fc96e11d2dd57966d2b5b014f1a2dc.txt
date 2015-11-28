@@ -44,3 +44,4 @@ This is one way that a request event could be processed by a web server.  We can
 
 In the case of a more dynamic system, the web server could proxy the request to an application server, which then makes database calls and performs formatting logic, and then returns a dynamic result instead of a static one.
 
+The important of systemic thinking in this is that there are no gaps.  Every connection that is required is modeled, and if new connections are required, they are added, and the remaining components need to be updated so that the system remains 
