@@ -5,9 +5,9 @@ Total Sections: 281   Populated Sections: 25
 Current Goal: Populate Empty Sections: 256   (Done: 8.9%)
 
 
-Lines: 1042
+Lines: 1044
 
-Words: 18489
+Words: 18495
 
 # Chapter 1: Preface
 
@@ -496,7 +496,9 @@ There is a difference between internal names and external names, in that interna
 <br>
 As such, they should be treated differently.  Internal names should be rigidly controlled, and external names should come with high recommendations for using naming conventions.  You could even provide several different recommendations for external naming conventions, to try to get other departments to constrain themselves and avoiding total naming-anarchy.<br>
 <br>
+{{ aside_begin }}<br>
 Frequently non-Operations departments do not understand the use of sub-domains like "product.domain.com", and will create new base level domains for every project.  Sometimes this is required (legal and business reasons) and other times, it is only because they didnt know they could have "newproduct.domain.com".  This is especially a problem for certificates, like for HTTPS, as new domains require new certs and updating them every year or so, while sub-domains may use star-certs (*.domain.com), and roll up hundreds of sub-domains under a single certificate to manage them.<br>
+{{ aside_end }}<br>
 <br>
 <br>
 Now that we have gone over a bit about the initial planned naming convention, let's make it better.  Here is a proposal:<br>
