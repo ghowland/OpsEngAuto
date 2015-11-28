@@ -1,6 +1,6 @@
 ### [[Chapter 2: Introduction]]
 
-One of the major focuses of this book will be to different the real from the virtual.
+One of the major focuses of this book will be to differentiate the real from the virtual.
 
 This may seem like something that is common sense, but I have found wide spread and scale disagreement on in what is real and what is not real, and this creates a lot of communication and planning problems.
 

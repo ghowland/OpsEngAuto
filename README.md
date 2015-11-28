@@ -117,7 +117,7 @@ My personal email is:  geoff@gmail.com<br>
 # Chapter 2: Introduction
 
 
-One of the major focuses of this book will be to different the real from the virtual.
+One of the major focuses of this book will be to differentiate the real from the virtual.
 
 
 
