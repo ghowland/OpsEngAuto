@@ -7,7 +7,7 @@ Current Goal: Populate Empty Sections: 256   (Done: 8.9%)
 
 Lines: 1038
 
-Words: 18376
+Words: 18377
 
 # Chapter 1: Preface
 
@@ -222,7 +222,7 @@ If I believe I have solid information, that I can take action on, I can begin im
 <br>
 If I know that I do not have solid information, then I know that the first thing I need to do is to get some solid information I could work on.<br>
 <br>
-How do I know what I really know is good information?<br>
+How do I know if what I really know is good information?<br>
 <br>
 It should be sourced from my own experiences, or it should be planned to quickly make checking the information so that it becomes part of my personal experience.<br>
 <br>
