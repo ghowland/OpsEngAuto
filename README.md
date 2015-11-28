@@ -299,7 +299,7 @@ We skip it because we already assume that we all know the answer, and that we ar
 <br>
 People have different values, and they have different skills and personal experiences, and from these, they have a world-view that is also different.<br>
 <br>
-Getting to the fundamentals of what we mean by something like "Operations" means that we can start to align our views, and in aligning our views, we will communicate more effectively, and be able to work more effectively together.<br>
+Getting to the fundamentals of what we mean by something like "Operations" means that we can start to align our views, and in aligning our views, we will communicate more effectively, and become able to work more effectively together.<br>
 <br>
 It is really these fundamental issues that make communication so hard and ineffective, because we do not drop down to discussing what we are fundamentally doing, and get buy-in from everyone on the team about each of the layers in the stack of what makes up an environment's operations.<br>
 <br>
