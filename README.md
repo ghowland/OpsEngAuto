@@ -1,13 +1,13 @@
 # Operations Engineering and Automation
 
 
-Total Sections: 281   Populated Sections: 20
-Current Goal: Populate Empty Sections: 261   (Done: 7.1%)
+Total Sections: 281   Populated Sections: 21
+Current Goal: Populate Empty Sections: 260   (Done: 7.5%)
 
 
-Lines: 872
+Lines: 876
 
-Words: 14768
+Words: 14847
 
 # Chapter 1: Preface
 
@@ -928,6 +928,10 @@ You can do this on paper, in your head, you can find software that helps you cre
 <br>
 How you describe a system is merely a view into the system, and will never cover every aspect of a system.  Only the actual components of a system describe the system, and any attempt to review the system will only give a partial insight into it.  Systems are tricky in this way, but this is also where their power comes from, because they are not limited by them either.<br>
 <h2 id=61fc96e11d2dd57966d2b5b014f1a2dc><a href="#61fc96e11d2dd57966d2b5b014f1a2dc">2.5</a>: Systemic Thinking</h2>
+<br>
+System Thinking is one of the tools that I believe is the most powerful, and could use a lot more of the educational spotlight.  In terms of yielding positive results in learning, creating things, and in performing maintenance (in a very general sense), system thinking is one of the most useful tools.<br>
+<br>
+System Thinking has a number of prerequisites, such as a general understanding of how systems work, how to create systems, how to modify a system, how to<br>
 <h3 id=03071c27c692b17c5d7f95b9d4f021a4><a href="#03071c27c692b17c5d7f95b9d4f021a4">2.5.1</a>: Philosophers Knife</h3>
 <h3 id=1f4b194d8569136439831f483c38a264><a href="#1f4b194d8569136439831f483c38a264">2.5.2</a>: Slicing the pie vs aggregation</h3>
 <h3 id=f32b593542b3562df78d89693543c0fe><a href="#f32b593542b3562df78d89693543c0fe">2.5.3</a>: Systemic Thinking.  Philosophers Knife.  Slicing the pie vs Aggregation.  Completeness, ease of understanding, ease of building, life-cycle maintenance.  Where do you spend your time?</h3>
