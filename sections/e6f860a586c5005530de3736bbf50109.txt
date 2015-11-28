@@ -8,7 +8,7 @@ It is no less important in the virtual world.  The entire field of networking is
 
 Everywhere you look alignment is an important factor on the quality, reliability, resilience, and structure and yet like many fundamental aspects of engineering, this topic itself is not discussed directly, and typically indirectly discussed as in how "everything must match up" given different protocols.
 
-You may see where I'm starting to go at this point with all of these fundamental questions and inspections:  the are fundamentals of engineering that we are using every day, but not discussing directly in our conversations about our environment, resources, goals, and what we are going to do to achieve our goals.
+You may see where I'm starting to go at this point with all of these fundamental questions and inspections:  these are fundamentals of engineering that we are using every day, but not discussing directly in our conversations about our environment, resources, goals, and what we are going to do to achieve our goals.
 
 This lack of introspection of our process results in a lot of miscommunication, and different visions struggling for the chance of being implemented, but without the necessary alignment between all the points of implementation to give us the kind of efficiencies, resiliency and other effects that we desire.
 
