@@ -36,4 +36,14 @@ For a common example of this, a web server starts to fail, and on inspection the
 
 If you do not rotate logs (or truncate them), then with any activity at all, it is guaranteed that eventually the disk will fill up, and any services which might use the disk for writes (such as logging) will fail.
 
-This is a simple system, and indeed anything can be turned into
+This is a simple system, and indeed anything can be turned into a system.
+
+The power of Systems is that they can be created at any time, to describe any thing, provided you are capable of properly black-boxing the components of the system you want to construct.
+
+You do not need to constrain yourself to existing systems, that other people have described, even when working with their work which have their own systems already described.  You can create your own systems for your own purposes.
+
+You might create alternative systems to simply understand other people's described systems.  Sometimes it is harder to understand someone else's work than your own, and so creating your own work can illuminate a subject.  
+
+As an exercise while you read this book, try to create your own systems based on "the big picture" to understand what is currently being discussed.  As new information comes in, update your system to reflect these changes.
+
+You can do this on paper, in your head, you can find software that helps you create systems quickly (like Mind Map software), or use relational databases to 
