@@ -46,4 +46,6 @@ You might create alternative systems to simply understand other people's describ
 
 As an exercise while you read this book, try to create your own systems based on "the big picture" to understand what is currently being discussed.  As new information comes in, update your system to reflect these changes.
 
-You can do this on paper, in your head, you can find software that helps you create systems quickly (like Mind Map software), or use relational databases to track 
+You can do this on paper, in your head, you can find software that helps you create systems quickly (like Mind Map software), or use relational databases to track discrete data.  Flow charts are one way to map systems, finite state machines are others ways, behavior trees are another way, but you can also describe them in prose, or doodles or any other way.
+
+How you describe a system is merely a view into the system, 
