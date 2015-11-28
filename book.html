@@ -3,9 +3,9 @@ Total Sections: 281   Populated Sections: 21
 Current Goal: Populate Empty Sections: 260   (Done: 7.5%)
 <br>
 <br>
-Lines: 904<br>
+Lines: 910<br>
 <br>
-Words: 15416<br>
+Words: 15515<br>
 <br>
 <h1 id=48152466029dfcb314ccad4d502d1a73><a href="#48152466029dfcb314ccad4d502d1a73">Chapter 1</a>: Preface</h1>
 <br>
@@ -932,6 +932,12 @@ This is a slice of components involve in web process, and just as I have arbitra
 Let's create an event that occurs and exercises these components, as a sequence:<br>
 <br>
 - An end-user requests a file from the remote web server: http://www.domain.com/images/unstoppabletrex.png<br>
+<br>
+- The request performs operations outside of this system (LAN, routing, DNS, etc), but eventually opens a TCP socket to port 80 on the web server.  The web server and the end-user now have a persistent session to communicate bidirectionally.<br>
+<br>
+- The end-user requests the URL specified above (broken into URI and Host Header sections), and relays any cookie and browser header information.<br>
+<br>
+- The web server accepts the input of the request, and goes through a process of routing the request internally, where it matches the domain in the Host Header value to any Host Headers it processes<br>
 <h3 id=03071c27c692b17c5d7f95b9d4f021a4><a href="#03071c27c692b17c5d7f95b9d4f021a4">2.5.1</a>: Philosophers Knife</h3>
 <h3 id=1f4b194d8569136439831f483c38a264><a href="#1f4b194d8569136439831f483c38a264">2.5.2</a>: Slicing the pie vs aggregation</h3>
 <h3 id=f32b593542b3562df78d89693543c0fe><a href="#f32b593542b3562df78d89693543c0fe">2.5.3</a>: Systemic Thinking.  Philosophers Knife.  Slicing the pie vs Aggregation.  Completeness, ease of understanding, ease of building, life-cycle maintenance.  Where do you spend your time?</h3>
