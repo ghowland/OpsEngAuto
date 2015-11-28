@@ -7,7 +7,7 @@ Current Goal: Populate Empty Sections: 261   (Done: 7.1%)
 
 Lines: 830
 
-Words: 13951
+Words: 13952
 
 # Chapter 1: Preface
 
@@ -884,7 +884,7 @@ When I was growing up and for the first 10 years of my career, operational engin
 <br>
 I was lucky enough to spend some around professional system administrators throughout the 1980s, before I was old enough to work, and I got to see them doing core dumps and reading through the hexadecimal output to find where the problems in their code were, and even fix some problems through a hex editor.  I also got to get a bit of their practical advice and viewpoints, and I believe that after 5 or so years of professional operations work the lessons I saw back then started to filter back in to be more conscious rather than subconscious guides and role models.<br>
 <br>
-So what is a system?  A system was often referred to as a single machine with an operating system on it, and the environment that was then configured on top of that to create a working environment.  This is<br>
+So what is a system?  Historically, A system was often referred to as a single machine with an operating system on it, and the environment that was then configured on top of that to create a working environment.  This is<br>
 <h2 id=61fc96e11d2dd57966d2b5b014f1a2dc><a href="#61fc96e11d2dd57966d2b5b014f1a2dc">2.5</a>: Systemic Thinking</h2>
 <h3 id=03071c27c692b17c5d7f95b9d4f021a4><a href="#03071c27c692b17c5d7f95b9d4f021a4">2.5.1</a>: Philosophers Knife</h3>
 <h3 id=1f4b194d8569136439831f483c38a264><a href="#1f4b194d8569136439831f483c38a264">2.5.2</a>: Slicing the pie vs aggregation</h3>
