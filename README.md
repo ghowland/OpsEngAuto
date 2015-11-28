@@ -5,9 +5,9 @@ Total Sections: 281   Populated Sections: 22
 Current Goal: Populate Empty Sections: 259   (Done: 7.8%)
 
 
-Lines: 942
+Lines: 944
 
-Words: 16216
+Words: 16235
 
 # Chapter 1: Preface
 
@@ -968,6 +968,8 @@ Let's create an event that occurs and exercises these components, as a sequence:
 - The web server accepts the input of the request, and goes through a process of routing the request internally, where it matches the domain in the Host Header value to any Host Headers it processes, and then determines if there are any directory modifications to look for the static file.<br>
 <br>
 - Having determined what the path of the static file is on the local file system, if the file exists, the web server opens the file, reads it, and relays the data into the content section of the HTTP response.  After relaying the contents, it closes the file, creates a successful HTTP status code, and returns the results.  In this case we will assume that HTTP keep-alive is not enabled, and the HTTP server will close the connection afterwards.<br>
+<br>
+- The web server logs the request and successful response to it's access log on the local file system.<br>
 <br>
 - The end-user's web browser will have received the HTTP response, getting the status code and body of the content, and in this case will display the image to the screen.<br>
 <br>

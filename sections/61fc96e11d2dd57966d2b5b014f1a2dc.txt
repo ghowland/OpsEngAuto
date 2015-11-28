@@ -38,6 +38,8 @@ Let's create an event that occurs and exercises these components, as a sequence:
 
 - Having determined what the path of the static file is on the local file system, if the file exists, the web server opens the file, reads it, and relays the data into the content section of the HTTP response.  After relaying the contents, it closes the file, creates a successful HTTP status code, and returns the results.  In this case we will assume that HTTP keep-alive is not enabled, and the HTTP server will close the connection afterwards.
 
+- The web server logs the request and successful response to it's access log on the local file system.
+
 - The end-user's web browser will have received the HTTP response, getting the status code and body of the content, and in this case will display the image to the screen.
 
 This is one way that a request event could be processed by a web server.  We can similarly model of the file does not exist, the web server may do something similar, except return a 404 File Not Found static content.
