@@ -32,4 +32,10 @@ The problem with aggregated "systems" is that they are not always in jeopardy of
 
 In fact, I will attempt to prove later on that it is impossible for a system that is aggregated to ever become a complete and comprehensive system, whereas if you always work from the method of "slicing the pie", you will always have a comprehensive system.
 
-The work involved to do both are very similar, and in some cases exactly the same, but the manner of thinking about the 
+The work involved to do both are very similar, and in some cases exactly the same, but the manner of thinking about the elements in them are very different, and yield very different results.
+
+As of 2015, I do not know of any operational environments which work in a manner that is consistent with "slicing the pie" vs aggregation.  I will explain this assertion as we get more into details, but this puts the use of systemic thinking in an operational environment into a purely "mythical" state at the moment.
+
+Part of the purpose of this book is to provide a path for others to understand these differences, so that paths can be built to allow us to create these comprehensive and complete systems, and to manage them accordingly, to get the benefits which they provide.
+
+We know the benefits and fallbacks of the aggregation system, though without comparing them to another method it is merely the de facto operations of all environments.  Making a change requires both defining the goals we want to achieve, and the current state of things, to know what is required to make a change to get to our goals.
