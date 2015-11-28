@@ -529,7 +529,7 @@ This provides 2 methods of scaling.  For Host Classes that merely collect a lot 
 <br>
 This would look like:  web-2-001.product.prod.sjc1.domain.com<br>
 <br>
-However, many services have a more interesting use case for this number than simply going rolling over by 1000, which is separating sets of machines that hold related information.  Consider these names:<br>
+However, many services have a more interesting use case for this number than simply going rolling over at 1000, which is separating sets of machines that hold related information.  Consider these names:<br>
 <br>
 - redis-1-001.product.prod.sjc1.domain.com<br>
 - redis-1-002.product.prod.sjc1.domain.com<br>
