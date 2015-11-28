@@ -7,7 +7,7 @@ Current Goal: Populate Empty Sections: 256   (Done: 8.9%)
 
 Lines: 1044
 
-Words: 18518
+Words: 18517
 
 # Chapter 1: Preface
 
@@ -552,7 +552,7 @@ Data in Shard 1 is different than data in Shard 2, and may even have different l
 <br>
 It is generally better still to use the same logic on all Host Classes of type "redis" and merely differentiate the data sets by the Shard, but if you have grouped the Shards as different distinct numbers, you have this additional ability to control them accurately based on this data.<br>
 <br>
-There are other ways of organizing this data into names, and it depends on what data you need to track, but starting from a naming convention like this when you don't yet have that information is a safer bet than starting with less information planning than this.<br>
+There are other ways of organizing this data into names, and it depends on what data you need to track, but starting from a naming convention like this when you don't yet have that information is a safer bet than starting with less planning than this.<br>
 <br>
 If you know you have additional requirements, be sure that they are implemented into the naming convention, and kept in the standard.<br>
 <br>
