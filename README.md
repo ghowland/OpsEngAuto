@@ -7,7 +7,7 @@ Current Goal: Populate Empty Sections: 256   (Done: 8.9%)
 
 Lines: 1042
 
-Words: 18485
+Words: 18489
 
 # Chapter 1: Preface
 
@@ -486,7 +486,7 @@ Common examples:  prod, stage, qa, dev, corp, net<br>
 <br>
 This is the location of the datacenter the server is in.  Whether it is a closet, or a Tier-4 Gold data center, you have assigned a location to it, so no one has to guess.  If you are consistent and only put the correct location labels into the hostnames, you will not have confusion over where machines physically reside when this becomes an issue, say for maintenance, repairs, or networking changes.<br>
 <br>
-Using airport codes, of the airport closest to the location, is a common practice and a good one.  It allows being fairly specific, but not having to debate over whether something is inside this-or-that region.  Simply find the closest airport with a 3-letter airport code and use that.  It doesn't matter how big the airport is, if it is a registered airport it is guaranteed to be unique and give you a latitude and longitude to the general area.<br>
+Using airport codes, of the airport closest to the location, is a common practice and a good one.  It allows being fairly specific, but not having to debate over whether something is inside this-or-that region.  Simply find the closest airport with a 3-letter airport code and use that.  It doesn't matter how big the airport is, if it is a registered airport it is guaranteed to be unique and give you a latitude and longitude to the general area in a consistent manner.<br>
 <br>
 - domain.com<br>
 <br>
