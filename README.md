@@ -5,9 +5,9 @@ Total Sections: 281   Populated Sections: 21
 Current Goal: Populate Empty Sections: 260   (Done: 7.5%)
 
 
-Lines: 910
+Lines: 918
 
-Words: 15515
+Words: 15720
 
 # Chapter 1: Preface
 
@@ -965,7 +965,15 @@ Let's create an event that occurs and exercises these components, as a sequence:
 <br>
 - The end-user requests the URL specified above (broken into URI and Host Header sections), and relays any cookie and browser header information.<br>
 <br>
-- The web server accepts the input of the request, and goes through a process of routing the request internally, where it matches the domain in the Host Header value to any Host Headers it processes<br>
+- The web server accepts the input of the request, and goes through a process of routing the request internally, where it matches the domain in the Host Header value to any Host Headers it processes, and then determines if there are any directory modifications to look for the static file.<br>
+<br>
+- Having determined what the path of the static file is on the local file system, if the file exists, the web server opens the file, reads it, and relays the data into the content section of the HTTP response.  After relaying the contents, it closes the file, creates a successful HTTP status code, and returns the results.  In this case we will assume that HTTP keep-alive is not enabled, and the HTTP server will close the connection afterwards.<br>
+<br>
+- The end-user's web browser will have received the HTTP response, getting the status code and body of the content, and in this case will display the image to the screen.<br>
+<br>
+This is one way that a request event could be processed by a web server.  We can similarly model of the file does not exist, the web server may do something similar, except return a 404 File Not Found static content.<br>
+<br>
+In the case of a more dynamic system, the web server could proxy the request to an application server, which then makes database calls and performs formatting logic, and then returns a dynamic result instead of a static one.<br>
 <h3 id=03071c27c692b17c5d7f95b9d4f021a4><a href="#03071c27c692b17c5d7f95b9d4f021a4">2.5.1</a>: Philosophers Knife</h3>
 <h3 id=1f4b194d8569136439831f483c38a264><a href="#1f4b194d8569136439831f483c38a264">2.5.2</a>: Slicing the pie vs aggregation</h3>
 <h3 id=f32b593542b3562df78d89693543c0fe><a href="#f32b593542b3562df78d89693543c0fe">2.5.3</a>: Systemic Thinking.  Philosophers Knife.  Slicing the pie vs Aggregation.  Completeness, ease of understanding, ease of building, life-cycle maintenance.  Where do you spend your time?</h3>
