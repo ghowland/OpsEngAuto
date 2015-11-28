@@ -16,4 +16,12 @@ A system is an generalized term for a set of interrelated, connected things that
 
 So a system is a flexible term, and is something like an "environment" or an "ecosystem" in common usage.
 
-I like to think of systems as being somewhat like virtual machines, in the actual sense not in the container operating system sense.  A system 
+I like to think of systems as being somewhat like virtual machines, in the actual sense not in the container operating system sense.  A system's connections can be graphed, like a network, and each component and be described by the inputs, outputs and side effects it causes, and may contain many layers of other systems, and may be part of a bigger system.
+
+Why is any of this important?  Because your understanding of how systems works will determine your ability to mentally map the systems that you work with, so that you can think in terms of how those systems function.
+
+Without having this mental mapping, and having a mind that over time becomes more and more comfortable learning about systems, and understanding system intra-action and interactions, one will have gaps in their understanding.
+
+These gaps are perfectly fine if they are properly black-boxed to create a comprehensive system, where you may not know how memory data is shuttled between the RAM chips and the CPU, but you have a model for how this works, and that model, while not physically accurate in detail, has a strong correlation to reality and can be used to make good decisions and predictions.
+
+We will go deeper into modeling in the future, 
