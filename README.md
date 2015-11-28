@@ -7,7 +7,7 @@ Current Goal: Populate Empty Sections: 256   (Done: 8.9%)
 
 Lines: 1044
 
-Words: 18543
+Words: 18554
 
 # Chapter 1: Preface
 
@@ -583,7 +583,7 @@ One thing about "vision" is that it is something that takes a bit of experience 
 <br>
 This experience is less about how many years one has worked in an industry or environment, and more about the experiences one has had in one's lifetime.  <br>
 <br>
-If you have never worked in the industry before, you will not know how organizations that run production operations, especially internet facing production operations at large scale, will function and what changes will do those organizations and operating environments.<br>
+If you have never worked in the industry before, you will not know how organizations that run production operations, especially internet facing production operations at large scale (which I use as an extreme end of the scaling spectrum), will function and what changes will do those organizations and operating environments.<br>
 <br>
 The more you work in different environments, and complete more areas of implementation, the more experiences you will gain.  You can supplement these by setting up your own virtual environments on any cloud hosting providers, or on your own machines with a series of virtual machines.<br>
 <br>
