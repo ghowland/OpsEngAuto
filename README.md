@@ -7,7 +7,7 @@ Current Goal: Populate Empty Sections: 256   (Done: 8.9%)
 
 Lines: 1044
 
-Words: 18495
+Words: 18496
 
 # Chapter 1: Preface
 
@@ -519,7 +519,7 @@ If you name the second data center "sjc2" and the first was "sjc", you now have 
 <br>
 If you know that something is likely to grow in count, then you should start with a numerical indicator from the beginning.<br>
 <br>
-What about "product", is it likely to grow in count too?  No, there is no necessary requirement for this.  If a new product does come out that is called "product2", then it is still differentiated from "product", and while it shares the same look and feel as the datacenter location scaling problem, it is actually a different type of scaling.<br>
+What about "product", is it likely to grow in count too?  No, there is not necessarily a requirement for this.  If a new product does come out that is called "product2", then it is still differentiated from "product", and while it shares the same look and feel as the datacenter location scaling problem, it is actually a different type of scaling.<br>
 <br>
 This is likely to be controversial, as it is difficult to back up with solid data quickly, so we will cover how to differentiate data like this later.<br>
 <br>
