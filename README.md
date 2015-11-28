@@ -7,7 +7,7 @@ Current Goal: Populate Empty Sections: 256   (Done: 8.9%)
 
 Lines: 1038
 
-Words: 18377
+Words: 18388
 
 # Chapter 1: Preface
 
@@ -230,7 +230,7 @@ Things I have personally experienced, I can say I have knowledge of.  Things I h
 <br>
 Actions based on this kind of information are going to yield extremely unreliable results, because the information was not grounded in the circumstances it is being applied to.<br>
 <br>
-Let's create an example, a problem for us to solve.  We'll be doing a lot of this during the course of the book, so to get the most out of these I would suggest taking a moment each time one is introduced to try to model it out in your mind, or imagine it.  I will discuss techniques for doing this a bit later on.<br>
+Let's create an example, a problem for us to solve.  We'll be doing a lot of this during the course of the book, so to get the most out of these I would suggest taking a moment each time one is introduced to try to model it out in your mind, imagine it, draw it out on paper, or do whatever works best for you.  I will discuss techniques for doing this a bit later on.<br>
 <br>
 The problem will be a common one:  Alerts are going off on our monitoring system, and tell us that we are having problems with our web servers.<br>
 <br>
