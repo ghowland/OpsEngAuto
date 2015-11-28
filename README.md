@@ -5,9 +5,9 @@ Total Sections: 281   Populated Sections: 22
 Current Goal: Populate Empty Sections: 259   (Done: 7.8%)
 
 
-Lines: 958
+Lines: 962
 
-Words: 16421
+Words: 16608
 
 # Chapter 1: Preface
 
@@ -1014,7 +1014,11 @@ I used the philosopher's knife on the system of "making HTTP requests from a web
 - A content location (static files on local filesystem): a component of the Output to the black-box.<br>
 - A log location (appending results to log file): a Side-Effect of the black-box operation.<br>
 <br>
-I could have sliced this in a different manner, and<br>
+I could have sliced this in a different manner, and instead focused on the TCP packet exchange, or I could have cut it so we delved deeper into the end-user's process of getting it's request to the web server (LAN, routing, DNS, TCP handshakes, etc).<br>
+<br>
+I was able to slice this process into the layer's I chose, because I wanted to discuss those elements, and not other elements.  This ability to exclude what information is being inspected, while not losing any of those excluded areas of data in the total picture is the real power of systemic thinking, is the function of the philosopher's knife in this process.<br>
+<br>
+We can take the exact same example process, and re-slice it any way we want, and the events would be the same, but in the information we look at, and how we inspect it would be different.  The system has not changed, the actions that occur in reality did not change, the results did not change, the inputs, outputs and side-effects did not change, and yet we are able to look at the problem in a completely different way, and take different lessons and gather different information from it.<br>
 <h3 id=1f4b194d8569136439831f483c38a264><a href="#1f4b194d8569136439831f483c38a264">2.5.2</a>: Slicing the pie vs aggregation</h3>
 <h3 id=f32b593542b3562df78d89693543c0fe><a href="#f32b593542b3562df78d89693543c0fe">2.5.3</a>: Systemic Thinking.  Philosophers Knife.  Slicing the pie vs Aggregation.  Completeness, ease of understanding, ease of building, life-cycle maintenance.  Where do you spend your time?</h3>
 <h2 id=da54e5ab11aae5fc49994945cb3bc9a8><a href="#da54e5ab11aae5fc49994945cb3bc9a8">2.6</a>: Terminology</h2>
