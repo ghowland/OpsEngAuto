@@ -5,9 +5,9 @@ Total Sections: 281   Populated Sections: 21
 Current Goal: Populate Empty Sections: 260   (Done: 7.5%)
 
 
-Lines: 888
+Lines: 892
 
-Words: 15139
+Words: 15157
 
 # Chapter 1: Preface
 
@@ -944,6 +944,10 @@ Since we, as humans, are limited in the number of things we can think about simu
 Let's create a system right now and do some reasoning with it, to use as an example.  We will continue to use the web server analogy, as it is one that many people will already be familiar with, or will probably spend a lot of time dealing with in their careers.  You can think of this as an "Application Server" instead of web server if you like, the important thing is that it takes requests and servers back data.<br>
 <br>
 In the simplest of web server systems, we have static content serving.  This is when someone has pre-created text (HTML, CSS, etc) and binary (images, videos) and the web server's job is to take requests for specific static files, and to relay those files to the requester.<br>
+<br>
+Since we can create a system out of any components, let's decide what our components will be:<br>
+<br>
+-<br>
 <h3 id=03071c27c692b17c5d7f95b9d4f021a4><a href="#03071c27c692b17c5d7f95b9d4f021a4">2.5.1</a>: Philosophers Knife</h3>
 <h3 id=1f4b194d8569136439831f483c38a264><a href="#1f4b194d8569136439831f483c38a264">2.5.2</a>: Slicing the pie vs aggregation</h3>
 <h3 id=f32b593542b3562df78d89693543c0fe><a href="#f32b593542b3562df78d89693543c0fe">2.5.3</a>: Systemic Thinking.  Philosophers Knife.  Slicing the pie vs Aggregation.  Completeness, ease of understanding, ease of building, life-cycle maintenance.  Where do you spend your time?</h3>

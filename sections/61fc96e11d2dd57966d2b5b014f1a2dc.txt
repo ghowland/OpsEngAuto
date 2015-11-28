@@ -16,5 +16,7 @@ Let's create a system right now and do some reasoning with it, to use as an exam
 
 In the simplest of web server systems, we have static content serving.  This is when someone has pre-created text (HTML, CSS, etc) and binary (images, videos) and the web server's job is to take requests for specific static files, and to relay those files to the requester.
 
+Since we can create a system out of any components, let's decide what our components will be:
 
+- 
 
