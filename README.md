@@ -5,9 +5,9 @@ Total Sections: 281   Populated Sections: 21
 Current Goal: Populate Empty Sections: 260   (Done: 7.5%)
 
 
-Lines: 876
+Lines: 878
 
-Words: 14847
+Words: 14874
 
 # Chapter 1: Preface
 
@@ -931,7 +931,9 @@ How you describe a system is merely a view into the system, and will never cover
 <br>
 System Thinking is one of the tools that I believe is the most powerful, and could use a lot more of the educational spotlight.  In terms of yielding positive results in learning, creating things, and in performing maintenance (in a very general sense), system thinking is one of the most useful tools.<br>
 <br>
-System Thinking has a number of prerequisites, such as a general understanding of how systems work, how to create systems, how to modify a system, how to<br>
+System Thinking has a number of prerequisites, such as a general understanding of how systems work, how to create systems, how to modify a system, how to inspect and evaluate the connections and links between system components, and a good basis in critical thinking.  Having the ability to thinking deductive is critical.<br>
+<br>
+If you<br>
 <h3 id=03071c27c692b17c5d7f95b9d4f021a4><a href="#03071c27c692b17c5d7f95b9d4f021a4">2.5.1</a>: Philosophers Knife</h3>
 <h3 id=1f4b194d8569136439831f483c38a264><a href="#1f4b194d8569136439831f483c38a264">2.5.2</a>: Slicing the pie vs aggregation</h3>
 <h3 id=f32b593542b3562df78d89693543c0fe><a href="#f32b593542b3562df78d89693543c0fe">2.5.3</a>: Systemic Thinking.  Philosophers Knife.  Slicing the pie vs Aggregation.  Completeness, ease of understanding, ease of building, life-cycle maintenance.  Where do you spend your time?</h3>

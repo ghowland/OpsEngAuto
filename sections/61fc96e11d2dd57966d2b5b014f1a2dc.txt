@@ -2,4 +2,6 @@
 
 System Thinking is one of the tools that I believe is the most powerful, and could use a lot more of the educational spotlight.  In terms of yielding positive results in learning, creating things, and in performing maintenance (in a very general sense), system thinking is one of the most useful tools.
 
-System Thinking has a number of prerequisites, such as a general understanding of how systems work, how to create systems, how to modify a system, how to 
+System Thinking has a number of prerequisites, such as a general understanding of how systems work, how to create systems, how to modify a system, how to inspect and evaluate the connections and links between system components, and a good basis in critical thinking.  Having the ability to thinking deductive is critical.
+
+If you 
