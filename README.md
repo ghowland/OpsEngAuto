@@ -40,8 +40,6 @@ This book is more about depth than about breadth, and as such we will continue t
 
 
 
-
-
 <h2 id=8d921a98a2974ea61b905ce719a9f121><a href="#8d921a98a2974ea61b905ce719a9f121">1.1</a>: Where Ive Been, What Ive Been Doing, Why I Wrote this Book.</h2>
 <br>
 I've been working in the industry for over 20 years, and have been programming for over 30 years.  I've written over 1000 programs of varying size (the bulk of them being smaller, and operational in nature), but have also written and deployed PC games, end-user productivity tools, accounting software, end-user websites, as well as a lot of operations related monitoring, alerting, log parsing, configuration and automation logic required for operations work.<br>
