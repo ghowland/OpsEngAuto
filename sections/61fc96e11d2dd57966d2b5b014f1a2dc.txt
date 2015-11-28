@@ -18,5 +18,9 @@ In the simplest of web server systems, we have static content serving.  This is 
 
 Since we can create a system out of any components, let's decide what our components will be:
 
-- 
+- A network connection to the Internet, which end-users are making requests on.
+- The IP protocol for networking, and basic TCP session management, on a Linux server.
+- A web server that listens on TCP port 80 on that server.
+- A file system that locally contains system files.
+- A file system that locally logs requests and processing.
 
