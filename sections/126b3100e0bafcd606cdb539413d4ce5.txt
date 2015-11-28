@@ -170,7 +170,7 @@ First, it is more scalable in the location.  Previously we had "sjc", which mean
 
 If you only have 1 data center, then you know.  But what if you get a second data center, for redundancy or growth?  What do you name it?  sjc2?  
 
-If you name the second data center "sjc2" and the first was "sjc", you now have a naming convention discrepency.  You previously had 3 letters, now you have 3 letters and 1 number.  This will create parsing problems in scripts, and is inconsistent when you type names.  As you grow in number of data centers in the SJC area, you will have more problems when "sjc3" and "sjc4" are consistent, but the original "sjc" is not.
+If you name the second data center "sjc2" and the first was "sjc", you now have a naming convention discrepency.  You previously had 3 letters, now you have 3 letters and 1 number.  This can create parsing problems in scripts, and is inconsistent when you type names.  As you grow in number of data centers in the SJC area, you will have more problems when "sjc3" and "sjc4" are consistent, but the original "sjc" is not.
 
 If you know that something is likely to grow in count, then you should start with a numerical indicator from the beginning.
 
