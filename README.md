@@ -7,7 +7,7 @@ Current Goal: Populate Empty Sections: 261   (Done: 7.1%)
 
 Lines: 872
 
-Words: 14711
+Words: 14768
 
 # Chapter 1: Preface
 
@@ -926,7 +926,7 @@ As an exercise while you read this book, try to create your own systems based on
 <br>
 You can do this on paper, in your head, you can find software that helps you create systems quickly (like Mind Map software), or use relational databases to track discrete data.  Flow charts are one way to map systems, finite state machines are others ways, behavior trees are another way, but you can also describe them in prose, or doodles or any other way.<br>
 <br>
-How you describe a system is merely a view into the system,<br>
+How you describe a system is merely a view into the system, and will never cover every aspect of a system.  Only the actual components of a system describe the system, and any attempt to review the system will only give a partial insight into it.  Systems are tricky in this way, but this is also where their power comes from, because they are not limited by them either.<br>
 <h2 id=61fc96e11d2dd57966d2b5b014f1a2dc><a href="#61fc96e11d2dd57966d2b5b014f1a2dc">2.5</a>: Systemic Thinking</h2>
 <h3 id=03071c27c692b17c5d7f95b9d4f021a4><a href="#03071c27c692b17c5d7f95b9d4f021a4">2.5.1</a>: Philosophers Knife</h3>
 <h3 id=1f4b194d8569136439831f483c38a264><a href="#1f4b194d8569136439831f483c38a264">2.5.2</a>: Slicing the pie vs aggregation</h3>
