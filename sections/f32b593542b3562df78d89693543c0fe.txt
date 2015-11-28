@@ -8,4 +8,9 @@ Firstly, if one cannot understand something in detail for one's self, then it wi
 
 Once one has an understanding for one's self, then the ability to communicate effectively about the topic becomes a possibility.  If I don't understand a topic thoroughly, I will have a very hard time having a thorough discussion of that topic for someone else, in fact I believe this is impossible to do.  I must have a thorough and comprehensive understanding myself if I wish to be able to communicate with someone else with clarity.
 
-Through the power of using systems and the philosopher's knife, and black-boxing, I can take topics I do not comprehensively understand, and transform them into topics I 
+Through the power of using systems and the philosopher's knife, and black-boxing, I can take topics I do not comprehensively understand, and transform them into topics I do comprehensively understand.
+
+By reducing a system or component to it's Inputs, Outputs and known Side-Effects, I can clearly talk about what is going on as it relates to other systems or components.  
+
+If I can come to an agreement on terms and what the Inputs, Outputs and Side-Effects are for the given systems/components we are talking about, we have a much higher likelihood of coming to consensus on what we are talking about, and will be less likely to be talking about completely different things, while we are trying to communicate about a problem, or a solution, or whatever.
+
