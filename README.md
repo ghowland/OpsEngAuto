@@ -7,7 +7,7 @@ Current Goal: Populate Empty Sections: 256   (Done: 8.9%)
 
 Lines: 1044
 
-Words: 18502
+Words: 18517
 
 # Chapter 1: Preface
 
@@ -548,7 +548,7 @@ This is a very scalable naming convention.  It allows for different Host Classes
 <br>
 Separate from being scalable, this also provides a new layer of Control.<br>
 <br>
-Data in Shard 1 is different than data in Shard 2, and may even have different logic operate against it.  This is more easily handled than differentiating "redis-001, redis-002" from "redis-003, redis-004" for different logic.<br>
+Data in Shard 1 is different than data in Shard 2, and may even have different logic operate against it.  This is more easily handled than differentiating "redis-001, redis-002" from "redis-003, redis-004" for logic that groups data on servers by their position in a sequentially numbered set of server instances.<br>
 <br>
 It is generally better still to use the same logic on all Host Classes of type "redis" and merely differentiate the data sets by the Shard, but because you have grouped the Shards as different numbers, you have this additional ability to control them accurately based on this data.<br>
 <br>
