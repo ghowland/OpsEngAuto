@@ -1638,7 +1638,7 @@ This allows me to see where I have made mistakes more easily, and gives me the i
 <br>
 If I have said or done something that may have caused a problem for someone, in any way, I can realize this and then mention it to them in passing, or ask to talk with them and go over what happened, and how I would prefer things were resolved, trying to fix any problems that were created, and create and keep a positive relationship with them.<br>
 <br>
-I think this has been very good for me, and recommend spending some time to think about this, and how it intersects with your life, and who you are, and if you can think of ways that bring about similar improvements in your own life that make working with other people more enjoyable and fulfilling, and brings you more happiness, contentment and a more fulfilling life.<br>
+I think this has been very good for me, and recommend spending some time to think about this, and how it intersects with your life, and who you are, and if you can think of ways that bring about similar improvements in your own life, that make working with other people more enjoyable and fulfilling, and brings you more happiness, contentment and a more fulfilling life.<br>
 # Chapter 10: Everywhere.  Throughout the book.
 
 
