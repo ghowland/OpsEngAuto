@@ -7,7 +7,7 @@ Current Goal: Populate Empty Sections: 262   (Done: 10.6%)
 
 Lines: 1283
 
-Words: 22809
+Words: 22842
 
 # Chapter 1: Preface
 
@@ -1646,7 +1646,7 @@ If I have said or done something that may have caused a problem for someone, in 
 <br>
 This, however, does not mean that I ignore problems because "problems are negative".  I do not see problems being negative, even though "problem" and "obstacle" are normally negative-quality terms.  In engineering, and especially in more maintenance type aspects such as Operations, problems and obstacles are almost all we deal with.  Everything could be phrased as a problem, and it could be flipped around to being phrased as an opportunity.  <br>
 <br>
-I don't recommend trying to phrase problems as opportunities all the time, because it leads to sounding unrealistic, but if you look at them positively, they really are opportunities that yo<br>
+I don't recommend trying to phrase problems as opportunities all the time, because it leads to sounding unrealistic, but if you look at them positively, they really are opportunities that one can take advantage of to greater or lesser degrees to get greater or lesser benefits, if one can view them appropriately, and work with the knowledge gained from that vision into their nature.<br>
 <br>
 I think methodology this has been very good for me, and recommend spending some time to think about this, and how it intersects with your life, and who you are, and if you can think of ways that bring about similar improvements in your own life, which can make working with other people more enjoyable and efficient, and brings you more happiness, contentment and a more fulfilling life with more accomplishments and friends.<br>
 # Chapter 10: Everywhere.  Throughout the book.
