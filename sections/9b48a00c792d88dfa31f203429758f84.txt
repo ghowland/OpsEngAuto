@@ -4,4 +4,16 @@ In the virtual world, Data is king.
 
 I will support this assertion throughout this entire work, as it has become a central tenet in my thinking about how to do any sort of digital engineering.
 
-As I asserted in {{ section_ff17d94c0d49aab3e372e47b64b96ea7 }},
+As I asserted in {{ section_ff17d94c0d49aab3e372e47b64b96ea7 }}, Data is an un-real thing.  It is virtual.  It does not have physical properties, and does not exist in the physical world.
+
+Electrons and magnetic forces exist, which we use to encode data into storage and processing mediums, but the Data itself does not physically exist.
+
+This is an important fundamental to understand, and more important for the purpose of learning from this book, to accept as the usage under which I will giving examples and explaining things.
+
+Data is symbolic and descriptive.  It can be used in any way, to accomplish any purpose at which the data has usefulness.
+
+You can use Data to accomplish things it was not intended.  For instance I could take the textual data inside a Linux /etc/passwd file and turn that into a musical score, by converting the characters and terms into frequencies, and by playing it.
+
+It would likely sound incoherent, and not be considered musical, but that is the power of Data.  It can be used as you see fit.
+
+
