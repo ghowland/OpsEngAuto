@@ -24,3 +24,6 @@ These differentiates can be seen in the phase:
 
 Make this an internal meme for yourself, and watch as things start to make more sense in terms of problems with scaling.  When a number larger than 1-instance is introduced, you will eventually see that number grow, and sub-divide into different domains.
 
+
+
+I will cover this concept in full detail later on, because it is critical to understanding how scaling works in practice.

@@ -5,9 +5,9 @@ Total Sections: 283   Populated Sections: 29
 Current Goal: Populate Empty Sections: 254   (Done: 10.2%)
 
 
-Lines: 1189
+Lines: 1193
 
-Words: 20874
+Words: 20895
 
 # Chapter 1: Preface
 
@@ -1253,6 +1253,10 @@ These differentiates can be seen in the phase:<br>
 "0, 1, Infinity.  There is no 2."<br>
 <br>
 Make this an internal meme for yourself, and watch as things start to make more sense in terms of problems with scaling.  When a number larger than 1-instance is introduced, you will eventually see that number grow, and sub-divide into different domains.<br>
+<br>
+<br>
+<br>
+I will cover this concept in full detail later on, because it is critical to understanding how scaling works in practice.<br>
 <h3 id=a709b239027a030b1a2dc4d500e49a24><a href="#a709b239027a030b1a2dc4d500e49a24">2.6.5</a>: Real/Virtual.  Strict definitions.</h3>
 <p id=d997d62bdfc3a11ce132fe5aade05eaa><b><a href="#d997d62bdfc3a11ce132fe5aade05eaa">2.6.5.1</a>: Physical</b></p>
 <p id=90c9825a0f594625107fd59419c3f079><b><a href="#90c9825a0f594625107fd59419c3f079">2.6.5.1.1</a>: Matter, Eletricity</b></p>
