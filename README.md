@@ -1,13 +1,13 @@
 # Operations: Engineering and Automation
 
 
-Total Sections: 283   Populated Sections: 27
-Current Goal: Populate Empty Sections: 256   (Done: 9.5%)
+Total Sections: 283   Populated Sections: 28
+Current Goal: Populate Empty Sections: 255   (Done: 9.9%)
 
 
-Lines: 1151
+Lines: 1163
 
-Words: 20274
+Words: 20424
 
 # Chapter 1: Preface
 
@@ -1214,6 +1214,18 @@ For our purposes, in automating an operational environment, we will be extending
 <br>
 Like the Unix-style environment that allows so much control and flexibility, we will create a layer on top of current Operating Systems, which allows the accomplishment of goals with a minimum amount of changes to Logic, as the Logic is driven by the Data.<br>
 <h3 id=aa2640c210126a47b684283980210b76><a href="#aa2640c210126a47b684283980210b76">2.6.3</a>: Rules: policies about how you do stuff</h3>
+<br>
+For the purpose of this book, I'm going to use a term I don't usually use in real life, which is "Rules".<br>
+<br>
+In this case I will define Rules to mean the way we do things, encoded into Logic and Data.<br>
+<br>
+I will use this to separate out digital Rules from policies and procedures that departments and organizations use to determine how people do things.<br>
+<br>
+This could be seen in the sense of "Rule Processing Systems", or something similar, where Rules are constraints or requirements in how Logic will operate.<br>
+<br>
+And the Rules are specified either directly in the Logic (hard-coded rules), or in Data.<br>
+<br>
+Rules encoded in Logic will require more effort to change, and are not able to be changed automatically, unless you are generating the code.  Generated code is more of the side of the spectrum of Data than Logic, because Logic is generally created by humans.<br>
 <h3 id=3393e40f9f65bba3ee24fc4f744c792b><a href="#3393e40f9f65bba3ee24fc4f744c792b">2.6.4</a>: Distributed: dealing with N nodes</h3>
 <h3 id=a709b239027a030b1a2dc4d500e49a24><a href="#a709b239027a030b1a2dc4d500e49a24">2.6.5</a>: Real/Virtual.  Strict definitions.</h3>
 <p id=d997d62bdfc3a11ce132fe5aade05eaa><b><a href="#d997d62bdfc3a11ce132fe5aade05eaa">2.6.5.1</a>: Physical</b></p>

@@ -1,2 +1,13 @@
 ### [[2.5.3: Rules: policies about how you do stuff]]
 
+For the purpose of this book, I'm going to use a term I don't usually use in real life, which is "Rules".
+
+In this case I will define Rules to mean the way we do things, encoded into Logic and Data.
+
+I will use this to separate out digital Rules from policies and procedures that departments and organizations use to determine how people do things.
+
+This could be seen in the sense of "Rule Processing Systems", or something similar, where Rules are constraints or requirements in how Logic will operate.
+
+And the Rules are specified either directly in the Logic (hard-coded rules), or in Data.
+
+Rules encoded in Logic will require more effort to change, and are not able to be changed automatically, unless you are generating the code.  Generated code is more of the side of the spectrum of Data than Logic, because Logic is generally created by humans.
