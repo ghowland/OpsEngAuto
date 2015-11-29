@@ -15,7 +15,9 @@ It's good that our industry has many terms for things, as it makes them specific
 
 One simple definition could be:
 
-- Logic is Data that is executable. 
+- Logic is Data that is executable.
+
+This could because it is in a native format an Operating System can load and execute (ex: ELF, EXE, etc) or via an interpreter (ex: Python, Ruby, Bash).
 
 Logic is used when one wants to operate on data in a digital environment.  With Logic we will change the data, create new data, validate data, and perform side-effect type actions where we do things like copy data to different locations, remove it, create directories, start and stop services, as well as anything else we could do manually.
 
