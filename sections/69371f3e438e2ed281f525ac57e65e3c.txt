@@ -48,3 +48,8 @@ Logic expects certain environmental requirements to exist.  It may expect to run
 Or Logic could require access to network services which must exist for it to properly work.  
 
 Logic has dependencies.  It runs on a given "platform", and does not run on other platforms.
+
+Data needs a place to reside (ex: database, file system, etc), but it does not require a specific environment, it could be stored in a YAML format, JSON format, in a relational database, a flat file with comma or colon separation, or any type of format or storage system at all.
+
+The methods to access the Data will change 
+
