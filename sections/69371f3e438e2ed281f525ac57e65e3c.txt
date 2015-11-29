@@ -81,4 +81,3 @@ For our purposes, in automating an operational environment, we will be extending
 
 Like the Unix-style environment that allows so much control and flexibility, we will create a layer on top of current Operating Systems, which allows the accomplishment of goals with a minimum amount of changes to Logic, as the Logic is driven by the Data.
 
-
