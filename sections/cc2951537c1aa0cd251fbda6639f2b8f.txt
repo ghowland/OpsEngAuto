@@ -1,6 +1,6 @@
 ### [[9.8: "Lowest Common Denominator" problem]]
 
-In response to: 
+In response to: http://euphoricus.blogspot.com/2015/11/everybody-is-doing-tdd-take-two.html
 
 
 

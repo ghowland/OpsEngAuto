@@ -7,7 +7,7 @@ Current Goal: Populate Empty Sections: 262   (Done: 10.3%)
 
 Lines: 1229
 
-Words: 21389
+Words: 21390
 
 # Chapter 1: Preface
 
@@ -1563,7 +1563,7 @@ I will cover this concept in full detail later on, because it is critical to und
 <h2 id=5ca3d14cd4988a84227bb91b9f59650b><a href="#5ca3d14cd4988a84227bb91b9f59650b">9.7</a>: The benefits of "vanilla" use of tools.  Less upkeep.  Only change what you strictly need to change.  Spend time optimizing only in critical areas.  Reduce things that need to be manually maintained.</h2>
 <h2 id=cc2951537c1aa0cd251fbda6639f2b8f><a href="#cc2951537c1aa0cd251fbda6639f2b8f">9.8</a>: "Lowest Common Denominator" problem</h2>
 <br>
-In response to: <br>
+In response to: http://euphoricus.blogspot.com/2015/11/everybody-is-doing-tdd-take-two.html<br>
 <br>
 <br>
 <br>
