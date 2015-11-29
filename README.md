@@ -5,9 +5,9 @@ Total Sections: 293   Populated Sections: 31
 Current Goal: Populate Empty Sections: 262   (Done: 10.6%)
 
 
-Lines: 1253
+Lines: 1261
 
-Words: 21898
+Words: 22081
 
 # Chapter 1: Preface
 
@@ -1619,6 +1619,14 @@ No matter what society, culture or place you are born in, grow up in, and live i
 In dealing with other people, we often encounter negativity in many dimensions, whether it is in attitude, verbally, or physically.<br>
 <br>
 And in our own actions, we ourselves will have negative attributes that are presented and may affect our co-workers, team mates, as well as friends and family.<br>
+<br>
+A term I have begun to use for this type of thing is "poison", and to use it in a sentence might be something like, "I am poisoned, and have become toxic and it is effecting myself and others".<br>
+<br>
+I believe that all of us are both our own greatest allies, and our own worst enemies.  Our own actions have more impact on us than any other individual's can have, because we are the ones who coordinate our actions, whether we are directly aware of that for each action or not.<br>
+<br>
+In term's of our larger group's influence on us, this is actually more of our own influence on ourselves, as we have interpreted the intention of our larger society, culture or group, and our position in it.  I find conflict between my view of how I think I should fit into my group, versus how I would like to fit into my group.  And the same is true for "how the group thinks about me", to anthropomorphsize the "collective dynamic" or "group think" or "social pressure", or whatever.<br>
+<br>
+This does not have<br>
 # Chapter 10: Everywhere.  Throughout the book.
 
 
