@@ -4,4 +4,4 @@ In the virtual world, Data is king.
 
 I will support this assertion throughout this entire work, as it has become a central tenet in my thinking about how to do any sort of digital engineering.
 
-
+As I asserted in {{ section_ff17d94c0d49aab3e372e47b64b96ea7 }},

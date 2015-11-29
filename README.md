@@ -5,9 +5,9 @@ Total Sections: 282   Populated Sections: 27
 Current Goal: Populate Empty Sections: 255   (Done: 9.6%)
 
 
-Lines: 1129
+Lines: 1131
 
-Words: 19930
+Words: 19937
 
 # Chapter 1: Preface
 
@@ -1111,6 +1111,8 @@ I will be using the capitalization of proper nouns with these special terms, so 
 In the virtual world, Data is king.<br>
 <br>
 I will support this assertion throughout this entire work, as it has become a central tenet in my thinking about how to do any sort of digital engineering.<br>
+<br>
+As I asserted in {{ section_ff17d94c0d49aab3e372e47b64b96ea7 }},<br>
 <h3 id=69371f3e438e2ed281f525ac57e65e3c><a href="#69371f3e438e2ed281f525ac57e65e3c">2.6.2</a>: Logic: code</h3>
 <br>
 I'm going to try to constrain myself to using the capitalized (proper noun) "Logic" any time I am referring any of the following things:<br>
