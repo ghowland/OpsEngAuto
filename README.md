@@ -1638,7 +1638,7 @@ Why is it important that I can continue to make progress without external valida
 <br>
 Because this feedback loop only intensifies until one of the party "turns down the volume", or turns it off, then it becomes clear why so many problems exist between people. <br>
 <br>
-I am certainly not through with my journey on this path, but I feel continual improvement as I have created an internal process of inspecting things that occur in my life, and comparing them to the model I have created for how I spend time doing negative things, versus how I spend time doing positive things.<br>
+I am certainly not through with my journey on this path, but I feel continual improvement as I have created an internal process of inspecting things that occur in my life, and comparing them to the model I have created for how I spend time related to negativity, versus how I spend time related to positivity.<br>
 <br>
 This allows me to see where I have made mistakes more easily, and gives me the incentive to take action to try to correct those mistakes.<br>
 <br>
