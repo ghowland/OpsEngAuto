@@ -11,3 +11,6 @@ This could be seen in the sense of "Rule Processing Systems", or something simil
 And the Rules are specified either directly in the Logic (hard-coded rules), or in Data.
 
 Rules encoded in Logic will require more effort to change, and are not able to be changed automatically, unless you are generating the code.  Generated code is more of the side of the spectrum of Data than Logic, because Logic is generally created by humans.
+
+In the case of generated Logic, it will be generated from Logic created by humans, and is a type of template that has data populated into it, or loops of generated chunks with data populated into them.
+
