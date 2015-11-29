@@ -5,9 +5,9 @@ Total Sections: 293   Populated Sections: 31
 Current Goal: Populate Empty Sections: 262   (Done: 10.6%)
 
 
-Lines: 1279
+Lines: 1283
 
-Words: 22708
+Words: 22809
 
 # Chapter 1: Preface
 
@@ -1644,7 +1644,11 @@ This allows me to see where I have made mistakes more easily, and gives me the i
 <br>
 If I have said or done something that may have caused a problem for someone, in any way, I can realize this and then mention it to them in passing, or ask to talk with them and go over what happened, and how I would prefer things were resolved, trying to fix any problems that were created, and create and keep a positive relationship with them.<br>
 <br>
-I think this has been very good for me, and recommend spending some time to think about this, and how it intersects with your life, and who you are, and if you can think of ways that bring about similar improvements in your own life, which can make working with other people more enjoyable and efficient, and brings you more happiness, contentment and a more fulfilling life with more accomplishments and friends.<br>
+This, however, does not mean that I ignore problems because "problems are negative".  I do not see problems being negative, even though "problem" and "obstacle" are normally negative-quality terms.  In engineering, and especially in more maintenance type aspects such as Operations, problems and obstacles are almost all we deal with.  Everything could be phrased as a problem, and it could be flipped around to being phrased as an opportunity.  <br>
+<br>
+I don't recommend trying to phrase problems as opportunities all the time, because it leads to sounding unrealistic, but if you look at them positively, they really are opportunities that yo<br>
+<br>
+I think methodology this has been very good for me, and recommend spending some time to think about this, and how it intersects with your life, and who you are, and if you can think of ways that bring about similar improvements in your own life, which can make working with other people more enjoyable and efficient, and brings you more happiness, contentment and a more fulfilling life with more accomplishments and friends.<br>
 # Chapter 10: Everywhere.  Throughout the book.
 
 
