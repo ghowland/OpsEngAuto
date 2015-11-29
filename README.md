@@ -5,9 +5,9 @@ Total Sections: 282   Populated Sections: 26
 Current Goal: Populate Empty Sections: 256   (Done: 9.2%)
 
 
-Lines: 1080
+Lines: 1087
 
-Words: 19095
+Words: 19230
 
 # Chapter 1: Preface
 
@@ -1121,6 +1121,10 @@ I will also use these other terms in their normal meanings throughout the book, 
 <br>
 It's good that our industry has many terms for things, as it makes them specific, but I will using the roll-up term, Logic, in order to simplify and generalize what we are talking about.<br>
 <br>
+One simple definition could be:<br>
+<br>
+- Logic is Data that is executable. <br>
+<br>
 Logic is used when one wants to operate on data in a digital environment.  With Logic we will change the data, create new data, validate data, and perform side-effect type actions where we do things like copy data to different locations, remove it, create directories, start and stop services, as well as anything else we could do manually.<br>
 <br>
 Essentially Logic is the way we take action through digital means, where we would otherwise take actions manually.<br>
@@ -1139,8 +1143,11 @@ I will end up breaking down many things to Logic layers and Data layers, and how
 <br>
 To make the assertion as briefly as I can:<br>
 <br>
-- Data is what you know at a given time.  This is useful forever.  It could be useful hundreds of years for now, for <br>
-- Logic<br>
+1. Data is what you know at a given time.  This is useful forever.  It could be useful hundreds of years for now, for the same reasons it is for us today (using it to configure things), or strictly for historical or analytical purposes.  Data has essentially no "death" or time where it becomes invalid or unusable, as a general resource.  <br>
+<br>
+Not to say Data cannot be corrupted, or be invalid to our purposes, but it remains valid as a source of information even if it is corrupted (though perhaps not actionable for our immediate use).<br>
+<br>
+2. Logic is the codification of goals.  What we want to occur is processed through Logic.  Because of this, Logic has a number of environmental factors that work in some conditions, but there are many states where Logic cannot be used, except if it is seen as "Data" and is no longer executable.<br>
 <h3 id=9b48a00c792d88dfa31f203429758f84><a href="#9b48a00c792d88dfa31f203429758f84">2.6.2</a>: Data: data</h3>
 <h3 id=aa2640c210126a47b684283980210b76><a href="#aa2640c210126a47b684283980210b76">2.6.3</a>: Rules: policies about how you do stuff</h3>
 <h3 id=3393e40f9f65bba3ee24fc4f744c792b><a href="#3393e40f9f65bba3ee24fc4f744c792b">2.6.4</a>: Distributed: dealing with N nodes</h3>
