@@ -7,7 +7,7 @@ Current Goal: Populate Empty Sections: 262   (Done: 10.6%)
 
 Lines: 1273
 
-Words: 22481
+Words: 22483
 
 # Chapter 1: Preface
 
@@ -1618,7 +1618,7 @@ No matter what society, culture or place you are born in, grow up in, and live i
 <br>
 In dealing with other people, we often encounter negativity in many dimensions, whether it is in attitude, verbally, or physically.<br>
 <br>
-And in our own actions, we ourselves will have negative attributes that are presented and may affect our co-workers, team mates, as well as friends and family.<br>
+And in our own actions, we ourselves will have negative attributes that are presented and may affect our co-workers, team mates, as well as ourselves and friends and family.<br>
 <br>
 A term I have begun to use for this type of thing is "poison", and to use it in a sentence might be something like, "I am poisoned, and have become toxic and it is effecting myself and others".  It reads pretty harshly to me, but it is meant to be clarifying and not vague or down-played.<br>
 <br>
