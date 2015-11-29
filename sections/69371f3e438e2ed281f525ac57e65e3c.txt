@@ -23,7 +23,7 @@ Logic is used when one wants to operate on data in a digital environment.  With 
 
 Essentially Logic is the way we take action through digital means, where we would otherwise take actions manually.
 
-Of course, in a digital environment, all actions eventually require logic.
+Of course, in a digital environment, all actions eventually require Logic.
 
 If I am in a command-line shell, and I run a command to create a directory, I have manually initiated Logic to perform this work.
 
