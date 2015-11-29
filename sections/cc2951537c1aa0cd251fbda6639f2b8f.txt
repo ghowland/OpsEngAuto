@@ -84,3 +84,4 @@ This is the full-spectrum of analysis:  From complete abstraction to complete co
 So we can tune the discussion to any parameter for both this spectrum, and any related axioms for determining the results of the work that we wish to get through our efforts.
 
 My point was mostly that we should not lose out on efficiency, if we desire efficiency, because we also desire commonality.  As they have a spectrum between them.  (Almost anything can be put with anything else into a spectrum, like two points making a line segment, so I'm not drawing from any specific examples here, more in idea-space)
+
