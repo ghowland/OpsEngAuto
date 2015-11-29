@@ -7,7 +7,7 @@ Current Goal: Populate Empty Sections: 262   (Done: 10.6%)
 
 Lines: 1279
 
-Words: 22681
+Words: 22691
 
 # Chapter 1: Preface
 
@@ -1636,7 +1636,7 @@ I say "releasing" instead of some other term, because these are active patterns 
 <br>
 Why is it important that I can continue to make progress without external validation?  It is important, because if people active in negative ways to me, I do not need to respond with negativity.  Responding with negativity creates a feedback loop, where one party is negative to another party, and the other responds with negativity (understandable, even if they were neutral or positive prior to the introduced negativity).<br>
 <br>
-Because this feedback loop only intensifies until one of the party "turns down the volume", or turns it off, then <br>
+Because this feedback loop only intensifies until one of the party "turns down the volume", or turns it off, then it becomes clear why so many problems exist between people. <br>
 <br>
 I am certainly not through with my journey on this path, but I feel continual improvement as I have created an internal process of inspecting things that occur in my life, and comparing them to the model I have created for how I spend time doing negative things, versus how I spend time doing positive things.<br>
 <br>
