@@ -17,7 +17,7 @@ One simple definition could be:
 
 - Logic is Data that is executable.
 
-This could because it is in a native format an Operating System can load and execute (ex: ELF, EXE, etc) or via an interpreter (ex: Python, Ruby, PHP, Bash).
+This could because it is in a native format an Operating System can load and execute (ex: ELF, EXE, etc), or via an interpreter (ex: Python, Ruby, PHP, Bash), or via a Virtual Machine executor (ex: Java, .NET/Mono).
 
 Logic is used when one wants to operate on data in a digital environment.  With Logic we will change the data, create new data, validate data, and perform side-effect type actions where we do things like copy data to different locations, remove it, create directories, start and stop services, as well as anything else we could do manually.
 
@@ -55,4 +55,4 @@ Data needs a place to reside (ex: database, file system, etc), but it does not r
 
 The methods to access the Data will change, but the Data itself can remain the same.
 
-In order for Logic to run in a different environment, 
+In order for Logic to run in a different environment, it is likely going to need changes.  Some programming languages offer cross platform execute, via being run by an 

@@ -7,7 +7,7 @@ Current Goal: Populate Empty Sections: 256   (Done: 9.2%)
 
 Lines: 1103
 
-Words: 19428
+Words: 19456
 
 # Chapter 1: Preface
 
@@ -1126,7 +1126,7 @@ One simple definition could be:<br>
 <br>
 - Logic is Data that is executable.<br>
 <br>
-This could because it is in a native format an Operating System can load and execute (ex: ELF, EXE, etc) or via an interpreter (ex: Python, Ruby, PHP, Bash).<br>
+This could because it is in a native format an Operating System can load and execute (ex: ELF, EXE, etc), or via an interpreter (ex: Python, Ruby, PHP, Bash), or via a Virtual Machine executor (ex: Java, .NET/Mono).<br>
 <br>
 Logic is used when one wants to operate on data in a digital environment.  With Logic we will change the data, create new data, validate data, and perform side-effect type actions where we do things like copy data to different locations, remove it, create directories, start and stop services, as well as anything else we could do manually.<br>
 <br>
@@ -1164,7 +1164,7 @@ Data needs a place to reside (ex: database, file system, etc), but it does not r
 <br>
 The methods to access the Data will change, but the Data itself can remain the same.<br>
 <br>
-In order for Logic to run in a different environment,<br>
+In order for Logic to run in a different environment, it is likely going to need changes.  Some programming languages offer cross platform execute, via being run by an<br>
 <h3 id=aa2640c210126a47b684283980210b76><a href="#aa2640c210126a47b684283980210b76">2.6.3</a>: Rules: policies about how you do stuff</h3>
 <h3 id=3393e40f9f65bba3ee24fc4f744c792b><a href="#3393e40f9f65bba3ee24fc4f744c792b">2.6.4</a>: Distributed: dealing with N nodes</h3>
 <h3 id=a709b239027a030b1a2dc4d500e49a24><a href="#a709b239027a030b1a2dc4d500e49a24">2.6.5</a>: Real/Virtual.  Strict definitions.</h3>
