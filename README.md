@@ -5,9 +5,9 @@ Total Sections: 282   Populated Sections: 27
 Current Goal: Populate Empty Sections: 255   (Done: 9.6%)
 
 
-Lines: 1141
+Lines: 1151
 
-Words: 20105
+Words: 20274
 
 # Chapter 1: Preface
 
@@ -1123,6 +1123,16 @@ Data is symbolic and descriptive.  It can be used in any way, to accomplish any 
 You can use Data to accomplish things it was not intended.  For instance I could take the textual data inside a Linux /etc/passwd file and turn that into a musical score, by converting the characters and terms into frequencies, and by playing it.<br>
 <br>
 It would likely sound incoherent, and not be considered musical, but that is the power of Data.  It can be used as you see fit.<br>
+<br>
+Data resides in a Data Source, which could be anything, such as: files, database tables and rows, returned by networked services, etc.<br>
+<br>
+Data can be stored in many formats, and these formats can dramatically change the way the data is stored, and yet if it is not corrupted, the data can still function in the same way.<br>
+<br>
+Consider that data stored in a CSV (Comma-Separated Value) file and data stored in a YAML or JSON format look very different, and yet both can be loaded, parsed, and used as if they were stored in the same format.<br>
+<br>
+Data could be formatted to fit inside a relational database, so that it is spread into tables and fields, and looks nothing like a CSV file, and yet after querying the database I can get the data back in the same format which I could parse from a CSV file.<br>
+<br>
+This shows the dynamic nature of Data, while still providing us with consistent information that can be used by humans or Logic.<br>
 <h3 id=69371f3e438e2ed281f525ac57e65e3c><a href="#69371f3e438e2ed281f525ac57e65e3c">2.6.2</a>: Logic: code</h3>
 <br>
 I'm going to try to constrain myself to using the capitalized (proper noun) "Logic" any time I am referring any of the following things:<br>
