@@ -1610,6 +1610,7 @@ Anything that is not immediately well-understood by any member of the team, in a
 Taken to it's extreme, it is easy to see how this solution will be "dumbed down" (not to be insulting, merely to illustrate the point) to the most common knowledge (low tech vs high tech), and this will have an effect on the efficiency and manageability of the work.<br>
 <br>
 There is a "tipping point" where this "low-tech" type direction starts to become a problem in itself, either by not performing fast enough, or not being small enough to manage, as size has a direct impact on complexity as well.  More things are harder to manage than less things, just as more complex things are harder to manager than simple things.<br>
+<h2 id=822a93e6d35a5d2173bda4a30b16591b><a href="#822a93e6d35a5d2173bda4a30b16591b">9.9</a>: Releasing the poison</h2>
 # Chapter 10: Everywhere.  Throughout the book.
 
 
