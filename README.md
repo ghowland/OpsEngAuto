@@ -1,13 +1,13 @@
 # Operations: Engineering and Automation
 
 
-Total Sections: 292   Populated Sections: 29
-Current Goal: Populate Empty Sections: 263   (Done: 9.9%)
+Total Sections: 292   Populated Sections: 30
+Current Goal: Populate Empty Sections: 262   (Done: 10.3%)
 
 
-Lines: 1197
+Lines: 1229
 
-Words: 21006
+Words: 21389
 
 # Chapter 1: Preface
 
@@ -1562,6 +1562,38 @@ I will cover this concept in full detail later on, because it is critical to und
 <h2 id=7f0428bc4e8fd20bc8ddd31b00ea1d75><a href="#7f0428bc4e8fd20bc8ddd31b00ea1d75">9.6</a>: Journmanship, apprenticeship.  What we are missing.  Valuing experience.  Im old, of course thats my take.</h2>
 <h2 id=5ca3d14cd4988a84227bb91b9f59650b><a href="#5ca3d14cd4988a84227bb91b9f59650b">9.7</a>: The benefits of "vanilla" use of tools.  Less upkeep.  Only change what you strictly need to change.  Spend time optimizing only in critical areas.  Reduce things that need to be manually maintained.</h2>
 <h2 id=cc2951537c1aa0cd251fbda6639f2b8f><a href="#cc2951537c1aa0cd251fbda6639f2b8f">9.8</a>: "Lowest Common Denominator" problem</h2>
+<br>
+In response to: <br>
+<br>
+<br>
+<br>
+Reduction to this workflow does not mean that this workflow can be understood and implemented with the same results in any manner.<br>
+<br>
+I call this the "Lowest Common Denominator" problem.  In any given situation, there are some common things that are understood between all parties, and these are the things that can be communicated "clearly".<br>
+<br>
+These concepts are used to divide up the problem so that they can be solved, hence denominator.  The problem is that in order for the parties to agree, they have to use the simplest methods of communicating that every party can understand, which is where the "common" and "lowest" (simplest) come from.<br>
+<br>
+The issue here is that there are more efficient ways of doing things, that are not as simple, but not all parties will have equal knowledge of all of these things, presenting a dilemma:  Do you aim for higher efficiency or higher commonality?<br>
+<br>
+This is something every given team/organization should decide for themselves, because they work on a spectrum.  If you aim for more commonality, you lower the bar on what techniques are common to all parties, and you will lose the benefits that un-common techniques may provide.<br>
+<br>
+If you aim for efficiency of techniques, you enter the area where not all parties understand the techniques.  This is also exemplified by the "single person vs. large team" spectrum.  Single people are able to use inefficiencies that even a 2-person team cannot, because of the immediate nature of communicate inside one's own head.<br>
+<br>
+As soon as the communication must be externalized, there is a MASSIVE loss of efficiency in the communication, and as the team grows the communication problems grow factorially.<br>
+<br>
+So while your assertion that everything can be broken down into: Create Test, Implement Thing To Be Tested, Verified Test.  <br>
+<br>
+This does not mean that all different types of processes give the same results merely because of this.<br>
+<br>
+To give an analogy, I can say that all data in a database could be stored in a single table with 3 fields:<br>
+<br>
+- Group<br>
+- Type<br>
+- Value<br>
+<br>
+All of these fields can be BLOBs, so we only need 1 storage type, and from that all data actions done in any other method can be implemented.<br>
+<br>
+This is true, but it is not efficient.<br>
 # Chapter 10: Everywhere.  Throughout the book.
 
 

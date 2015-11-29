@@ -1,3 +1,34 @@
 ### [[9.8: "Lowest Common Denominator" problem]]
 
+In response to: 
+
+
+
+Reduction to this workflow does not mean that this workflow can be understood and implemented with the same results in any manner.
+
+I call this the "Lowest Common Denominator" problem.  In any given situation, there are some common things that are understood between all parties, and these are the things that can be communicated "clearly".
+
+These concepts are used to divide up the problem so that they can be solved, hence denominator.  The problem is that in order for the parties to agree, they have to use the simplest methods of communicating that every party can understand, which is where the "common" and "lowest" (simplest) come from.
+
+The issue here is that there are more efficient ways of doing things, that are not as simple, but not all parties will have equal knowledge of all of these things, presenting a dilemma:  Do you aim for higher efficiency or higher commonality?
+
+This is something every given team/organization should decide for themselves, because they work on a spectrum.  If you aim for more commonality, you lower the bar on what techniques are common to all parties, and you will lose the benefits that un-common techniques may provide.
+
+If you aim for efficiency of techniques, you enter the area where not all parties understand the techniques.  This is also exemplified by the "single person vs. large team" spectrum.  Single people are able to use inefficiencies that even a 2-person team cannot, because of the immediate nature of communicate inside one's own head.
+
+As soon as the communication must be externalized, there is a MASSIVE loss of efficiency in the communication, and as the team grows the communication problems grow factorially.
+
+So while your assertion that everything can be broken down into: Create Test, Implement Thing To Be Tested, Verified Test.  
+
+This does not mean that all different types of processes give the same results merely because of this.
+
+To give an analogy, I can say that all data in a database could be stored in a single table with 3 fields:
+
+- Group
+- Type
+- Value
+
+All of these fields can be BLOBs, so we only need 1 storage type, and from that all data actions done in any other method can be implemented.
+
+This is true, but it is not efficient.
 
