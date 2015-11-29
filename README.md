@@ -7,7 +7,7 @@ Current Goal: Populate Empty Sections: 255   (Done: 9.3%)
 
 Lines: 1061
 
-Words: 18736
+Words: 18759
 
 # Chapter 1: Preface
 
@@ -1121,7 +1121,7 @@ I will also use these other terms in their normal meanings throughout the book, 
 <br>
 It's good that our industry has many terms for things, as it makes them specific, but I will using the roll-up term, Logic, in order to simplify and generalize what we are talking about.<br>
 <br>
-Logic is used when one wants to operate on data in a digital environment<br>
+Logic is used when one wants to operate on data in a digital environment.  With Logic we will change the data, create new data, validate data, and perform side-effect type actions where we do things like c<br>
 <h3 id=9b48a00c792d88dfa31f203429758f84><a href="#9b48a00c792d88dfa31f203429758f84">2.6.2</a>: Data: data</h3>
 <h3 id=aa2640c210126a47b684283980210b76><a href="#aa2640c210126a47b684283980210b76">2.6.3</a>: Rules: policies about how you do stuff</h3>
 <h3 id=3393e40f9f65bba3ee24fc4f744c792b><a href="#3393e40f9f65bba3ee24fc4f744c792b">2.6.4</a>: Distributed: dealing with N nodes</h3>

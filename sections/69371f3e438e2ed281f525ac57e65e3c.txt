@@ -13,4 +13,4 @@ I will also use these other terms in their normal meanings throughout the book, 
 
 It's good that our industry has many terms for things, as it makes them specific, but I will using the roll-up term, Logic, in order to simplify and generalize what we are talking about.
 
-Logic is used when one wants to operate on data in a digital environment 
+Logic is used when one wants to operate on data in a digital environment.  With Logic we will change the data, create new data, validate data, and perform side-effect type actions where we do things like c
