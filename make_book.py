@@ -106,7 +106,7 @@ def OutputSectionGitMarkDown(section_dict, header_prefix=None, report=None, dept
   if depth == 0:
     label = 'Chapter %s: %s' % (header_prefix, title)
     
-    output += '# %s\n' % label
+    output += '\n# %s\n' % label
     
   # H2 to H3, beyond that is just paragraph headers?
   elif depth < 3:

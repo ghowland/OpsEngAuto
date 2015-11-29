@@ -9,6 +9,7 @@ Lines: 1322
 
 Words: 23320
 
+
 # Chapter 1: Preface
 
 
@@ -114,6 +115,7 @@ The ultimate goal in this book is that it improves your ability to function as a
 If you find any areas difficult to understand, or believe that sections are not explained well or are incorrect, feel free to write me and I will try to get back to you and update the work as best I can.<br>
 <br>
 My personal email is:  geoff@gmail.com<br>
+
 # Chapter 2: Introduction
 
 
@@ -1285,6 +1287,7 @@ I will cover this concept in full detail later on, because it is critical to und
 <p id=c88a8c2a472464982c2f1601901f744d><b><a href="#c88a8c2a472464982c2f1601901f744d">2.7.1.1</a>: Deal with ONLY effecs.  No side effects.</b></p>
 <p id=c225c5097c5fbffad5f9b2d6d5fb3d43><b><a href="#c225c5097c5fbffad5f9b2d6d5fb3d43">2.7.1.1.1</a>: Show positives, not negatives.</b></p>
 <p id=435b1da00f2fe0352e54a0887ca8e461><b><a href="#435b1da00f2fe0352e54a0887ca8e461">2.7.1.1.1.1</a>: How to produce low-downtime.  How to produce high-downtime.  Functinally positive or negative on our Axiom spectrums.  As prioritized by the 90-9-.9-.09... rules.</b></p>
+
 # Chapter 3: Engineering Philosophy and Methodology in Operations
 
 
@@ -1335,6 +1338,7 @@ I will cover this concept in full detail later on, because it is critical to und
 <h2 id=27893ca25e6be2dd440c59fcc7aa321e><a href="#27893ca25e6be2dd440c59fcc7aa321e">3.13</a>: Name spaces.  Different kinds, diff uses, diff formats.  One of the 2 hard problems (+ off by 1)</h2>
 <h2 id=2a00c5d80b8c51101939d282ffea333c><a href="#2a00c5d80b8c51101939d282ffea333c">3.14</a>: Differences between Ops vs Non-Ops code.</h2>
 <h3 id=ae00bdb9200029912abd5c942058cf26><a href="#ae00bdb9200029912abd5c942058cf26">3.14.1</a>: Making more depencies.  Networked dependencies.  When things are broken, how will your system function?  Will it fail?  Will it make it worse?  Will it make a mess?  Will it corrupt and destroy?</h3>
+
 # Chapter 4: Automation Philosophy and Methodology in Operations
 
 
@@ -1381,6 +1385,7 @@ I will cover this concept in full detail later on, because it is critical to und
 <h2 id=8e5a823181660693663ac9171ea437f7><a href="#8e5a823181660693663ac9171ea437f7">4.21</a>: Compare Pyramid vs Mesh (p2p).  Pros and cons.</h2>
 <h2 id=52c5a2714542df457a2f43133a312847><a href="#52c5a2714542df457a2f43133a312847">4.22</a>: Introduce the dotted notation as a universal naming convention, for lookups, it can universally address any type of DAG data:   domain.sub.thing.11.field.subfield.11.arrayfield.20.subsubfield</h2>
 <h3 id=9d4135ad596f06c4521954e1f4b1e02f><a href="#9d4135ad596f06c4521954e1f4b1e02f">4.22.1</a>: **** Use this DAG lookup to go into YAML, DBs, etc.  Schema Man can allow this.  Can use sub-searches like globs (domain.thing.*.field) and translate that into SQL or whatever for more advanced usage.</h3>
+
 # Chapter 5: Components of Operational Environments
 
 
@@ -1389,6 +1394,7 @@ I will cover this concept in full detail later on, because it is critical to und
 
 
 <h2 id=e0456dfc4344813c454b2832f721d7cc><a href="#e0456dfc4344813c454b2832f721d7cc">5.1</a>: Troubleshooting</h2>
+
 # Chapter 6: Components of Automation Environments
 
 
@@ -1412,6 +1418,7 @@ I will cover this concept in full detail later on, because it is critical to und
 <h3 id=1fc55849153c719e757bb6cba8124d73><a href="#1fc55849153c719e757bb6cba8124d73">6.3.6</a>: Databases for assets, inventory, etc</h3>
 <h2 id=4f78d48397b0d75399cddbac6661aa4f><a href="#4f78d48397b0d75399cddbac6661aa4f">6.4</a>: * The more sources of authoritative data, the more data drift and non-alignment between the data (fields tracking similar but non-matching things, naming differences, not able to point to same primary keys, etc)</h2>
 <h2 id=c60e4b0680418499aa5840cafca907a5><a href="#c60e4b0680418499aa5840cafca907a5">6.5</a>: Data survives longer than code/logic, business logic stays all the time, but the assets described in the DB remain the same, even if they are used differently, and different meta-data is stored about them.</h2>
+
 # Chapter 7: The OpsDB
 
 
@@ -1505,6 +1512,7 @@ I will cover this concept in full detail later on, because it is critical to und
 <h3 id=f7ae4f5ab54c3927652049bdcf35e555><a href="#f7ae4f5ab54c3927652049bdcf35e555">7.10.13</a>: Self Service tools.</h3>
 <h3 id=276b07fae87391ca794e8587e972cf4e><a href="#276b07fae87391ca794e8587e972cf4e">7.10.14</a>: How to plan to do this in your existing environment.  A map from:  Here -> There.</h3>
 <h2 id=dc9b1c51ebd041941929fe8845a2c78e><a href="#dc9b1c51ebd041941929fe8845a2c78e">7.11</a>: States of machines:  Unknown, Unprovisioned/Spare, Provisioned-Inactive, Active, In Maintenance, Transition-To X State, Broken, Fixed (waitig to be Unprovisioned/Spare)</h2>
+
 # Chapter 8: How to Implement the OpsDB in your Current Environment
 
 
@@ -1537,6 +1545,7 @@ I will cover this concept in full detail later on, because it is critical to und
 <p id=d14a0f795ad0930b2ab59e40ff6742b4><b><a href="#d14a0f795ad0930b2ab59e40ff6742b4">8.2.5.1</a>: Know what kind of work you are going to start, and pick the best time to do so.  If it needs more ramp-up time, then pick a block where you are less likely to be interrupted.</b></p>
 <p id=ca064b32d34547ac269d1b85fa693e6d><b><a href="#ca064b32d34547ac269d1b85fa693e6d">8.2.5.2</a>: Break your open time periods into "units" of 30 minutes or 2 hours or whatever you can have contiguously, and see what you can FINISH in that time.  It is easy to lose days/weeks to getting little changes made, but not moving ahead in terms of usable progress.</b></p>
 <p id=ae9af424cff9e20bb4d775d699db9e81><b><a href="#ae9af424cff9e20bb4d775d699db9e81">8.2.5.2.1</a>: When each time block arrives, try to get what you can finish, and hopefully test and put into place, in that 1 session.  This isnt possible for some work, because it's too big, so break that into stages that can fit into one of these time blocks.  A simple method, would be: write it in 1, test it in another, and finally deploy it in the 3rd.</b></p>
+
 # Chapter 9: General Advice
 
 
@@ -1688,6 +1697,7 @@ This, however, does not mean that I ignore problems because "problems are negati
 I don't recommend trying to phrase problems as opportunities all the time, because it leads to sounding unrealistic, but if you look at them positively, they really are opportunities that one can take advantage of to greater or lesser degrees to get greater or lesser benefits, if one can view them appropriately, and work with the knowledge gained from that vision into their nature.<br>
 <br>
 I think this methodology this has been very good for me, and recommend spending some time to think about this, and how it intersects with your life, and who you are, and if you can think of ways that bring about similar improvements in your own life, which can make working with other people more enjoyable and efficient, and brings you more happiness, contentment and a more fulfilling life with more accomplishments and friends.<br>
+
 # Chapter 10: Everywhere.  Throughout the book.
 
 
