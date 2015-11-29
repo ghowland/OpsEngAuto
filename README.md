@@ -5,9 +5,9 @@ Total Sections: 293   Populated Sections: 31
 Current Goal: Populate Empty Sections: 262   (Done: 10.6%)
 
 
-Lines: 1292
+Lines: 1322
 
-Words: 22968
+Words: 23319
 
 # Chapter 1: Preface
 
@@ -1617,6 +1617,36 @@ Author:  So are you are saying that the workflow is same, but it just differs in
 <br>
 <br>
 Me:<br>
+<br>
+I completely agree with your interest in coming to agreement on workflow, techniques and terminology.  I think this is important work, and the surface has barely been scratched on it in our industry (even with places like the c2 wiki, which are comically in-depth).  Just wanted to say that.<br>
+<br>
+I think there are a couple of issues here.<br>
+<br>
+The first is the matter of deconstructionism.  For every layer of abstraction you remove when deconstructing something, you lose the context and connotations (intentions) of that symbolic abstraction as well.<br>
+<br>
+So I can further deconstruct your deconstruction like into this:<br>
+<br>
+- Think<br>
+- Act<br>
+- Evaluate<br>
+<br>
+Now we have an even simpler model, and we aren't restricting to programming.  The problem is that we also aren't even talking about software development any more, we've gone so general that it has lost it's original purpose, which is to better understand how to do something related to developing software.<br>
+<br>
+In similar ways, each abstraction to get to the point of:<br>
+<br>
+- Create test<br>
+- Write code<br>
+- Evaluate test<br>
+<br>
+Has lost the contexts, connotations, and further layers of abstractions that each of the concrete methods that would be used in place of those 3 things, and the many nuanced sub-things that would be required to properly detail those replaces.<br>
+<br>
+Taken to it's extreme, on that same spectrum, you go from the 3 things I just typed in, to the complete work of code you intended to produce, in it's ideal fully-tested-and-shippable form.<br>
+<br>
+This is the full-spectrum of analysis:  From complete abstraction to complete concrete implementation.<br>
+<br>
+So we can tune the discussion to any parameter for both this spectrum, and any related axioms for determining the results of the work that we wish to get through our efforts.<br>
+<br>
+My point was mostly that we should not lose out on efficiency, if we desire efficiency, because we also desire commonality.  As they have a spectrum between them.  (Almost anything can be put with anything else into a spectrum, like two points making a line segment, so I'm not drawing from any specific examples here, more in idea-space)<br>
 <h2 id=822a93e6d35a5d2173bda4a30b16591b><a href="#822a93e6d35a5d2173bda4a30b16591b">9.9</a>: Releasing the poison</h2>
 <br>
 This is the only non-Operations advice that I will give in this book, because I think it is the most important non-technical advice I can give, and it has to do with inter-human communication and inter-human relationships.<br>
