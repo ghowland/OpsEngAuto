@@ -5,9 +5,9 @@ Total Sections: 283   Populated Sections: 29
 Current Goal: Populate Empty Sections: 254   (Done: 10.2%)
 
 
-Lines: 1181
+Lines: 1183
 
-Words: 20709
+Words: 20735
 
 # Chapter 1: Preface
 
@@ -1244,7 +1244,9 @@ As I will cover in more detail later on, there are 3 cases you should account fo
 <br>
 - Zero instances of something.  You do not do this thing.  In some cases this is simply something you do not require, but in the more sophisticated case, this is work you are still accomplishing, but in a manner that does not need an instance of anything, it is an efficiency gain.  In either case, it is important to know that "not having something" is a state.<br>
 <br>
-- One instance of something.  This is when you one thing that you use, it is a centralization of a service.  There may still be a pair of machines (Master/Slave) supporting this one-thing, and there may be<br>
+- One instance of something.  This is when you one thing that you use, it is a centralization of a service.  There may still be a pair of machines (Master/Slave) supporting this one-thing, and there may be more than a pair, but if there is logically a "single instance" of the thing, then it is a "one instance".<br>
+<br>
+- Infinite instances of something.<br>
 <h3 id=a709b239027a030b1a2dc4d500e49a24><a href="#a709b239027a030b1a2dc4d500e49a24">2.6.5</a>: Real/Virtual.  Strict definitions.</h3>
 <p id=d997d62bdfc3a11ce132fe5aade05eaa><b><a href="#d997d62bdfc3a11ce132fe5aade05eaa">2.6.5.1</a>: Physical</b></p>
 <p id=90c9825a0f594625107fd59419c3f079><b><a href="#90c9825a0f594625107fd59419c3f079">2.6.5.1.1</a>: Matter, Eletricity</b></p>
