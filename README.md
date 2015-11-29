@@ -5,9 +5,9 @@ Total Sections: 293   Populated Sections: 31
 Current Goal: Populate Empty Sections: 262   (Done: 10.6%)
 
 
-Lines: 1271
+Lines: 1273
 
-Words: 22377
+Words: 22443
 
 # Chapter 1: Preface
 
@@ -1637,6 +1637,8 @@ I am certainly not through with my journey on this path, but I feel continual im
 This allows me to see where I have made mistakes more easily, and gives me the incentive to take action to try to correct that mistake.<br>
 <br>
 If I have said something to someone that may have caused a problem for them, in any way, I can realize this and then mention it to them in passing, or ask to talk with them and go over what happened, and how I would prefer things end up, trying to fix any problems that were created.<br>
+<br>
+I think this has been very good for me, and recommend spending some time to think about this, and how it intersects with your life, and who you are, and if you can think of ways that bring about similar improvements in your own life that make working with other people more enjoyable and fulfilling, and brings you more happiness, contentment and a more fulfilling life.<br>
 # Chapter 10: Everywhere.  Throughout the book.
 
 
