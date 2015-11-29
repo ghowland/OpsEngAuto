@@ -7,7 +7,7 @@ Current Goal: Populate Empty Sections: 254   (Done: 10.2%)
 
 Lines: 1197
 
-Words: 21004
+Words: 21006
 
 # Chapter 1: Preface
 
@@ -1154,7 +1154,7 @@ One simple definition could be:<br>
 <br>
 In this definition, Logic is a sub-set of Data.<br>
 <br>
-This could because it is in a native format an Operating System can load and execute (ex: ELF, EXE, etc), or via an interpreter (ex: Python, Ruby, PHP, Bash), or via a Virtual Machine executor (ex: Java, .NET/Mono).<br>
+This could be executable because it is in a native format an Operating System can load and execute (ex: ELF, EXE, etc), or via an interpreter (ex: Python, Ruby, PHP, Bash), or via a Virtual Machine executor (ex: Java, .NET/Mono).<br>
 <br>
 Logic is used when one wants to operate on data in a digital environment.  With Logic we will change the data, create new data, validate data, and perform side-effect type actions where we do things like copy data to different locations, remove it, create directories, start and stop services, as well as anything else we could do manually.<br>
 <br>
