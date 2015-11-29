@@ -5,9 +5,9 @@ Total Sections: 283   Populated Sections: 29
 Current Goal: Populate Empty Sections: 254   (Done: 10.2%)
 
 
-Lines: 1183
+Lines: 1189
 
-Words: 20817
+Words: 20874
 
 # Chapter 1: Preface
 
@@ -1247,6 +1247,12 @@ As I will cover in more detail later on, there are 3 cases you should account fo
 - One instance of something.  This is when you one thing that you use, it is a centralization of a service.  There may still be a pair of machines (Master/Slave) supporting this one-thing, and there may be more than a pair, but if there is logically a "single instance" of the thing, then it is a "one instance".<br>
 <br>
 - Infinite instances of something.  As soon as you move beyond "one instance", you move into the realm of many-things.  If you think you can move to "just two" or "just three" you are not taking into account all of history which shows continual sub-division and growth in all things that are not "shutting down".  "infinite instances" may currently be at a count of "2", but in order to handle the growth that will eventually come, it should be implemented as an N-instance, or infinite instance system.<br>
+<br>
+These differentiates can be seen in the phase:<br>
+<br>
+"0, 1, Infinity.  There is no 2."<br>
+<br>
+Make this an internal meme for yourself, and watch as things start to make more sense in terms of problems with scaling.  When a number larger than 1-instance is introduced, you will eventually see that number grow, and sub-divide into different domains.<br>
 <h3 id=a709b239027a030b1a2dc4d500e49a24><a href="#a709b239027a030b1a2dc4d500e49a24">2.6.5</a>: Real/Virtual.  Strict definitions.</h3>
 <p id=d997d62bdfc3a11ce132fe5aade05eaa><b><a href="#d997d62bdfc3a11ce132fe5aade05eaa">2.6.5.1</a>: Physical</b></p>
 <p id=90c9825a0f594625107fd59419c3f079><b><a href="#90c9825a0f594625107fd59419c3f079">2.6.5.1.1</a>: Matter, Eletricity</b></p>

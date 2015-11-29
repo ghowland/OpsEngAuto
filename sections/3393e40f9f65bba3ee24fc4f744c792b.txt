@@ -18,3 +18,9 @@ As I will cover in more detail later on, there are 3 cases you should account fo
 
 - Infinite instances of something.  As soon as you move beyond "one instance", you move into the realm of many-things.  If you think you can move to "just two" or "just three" you are not taking into account all of history which shows continual sub-division and growth in all things that are not "shutting down".  "infinite instances" may currently be at a count of "2", but in order to handle the growth that will eventually come, it should be implemented as an N-instance, or infinite instance system.
 
+These differentiates can be seen in the phase:
+
+"0, 1, Infinity.  There is no 2."
+
+Make this an internal meme for yourself, and watch as things start to make more sense in terms of problems with scaling.  When a number larger than 1-instance is introduced, you will eventually see that number grow, and sub-divide into different domains.
+
