@@ -5,9 +5,9 @@ Total Sections: 281   Populated Sections: 26
 Current Goal: Populate Empty Sections: 255   (Done: 9.3%)
 
 
-Lines: 1061
+Lines: 1069
 
-Words: 18759
+Words: 18881
 
 # Chapter 1: Preface
 
@@ -1121,7 +1121,15 @@ I will also use these other terms in their normal meanings throughout the book, 
 <br>
 It's good that our industry has many terms for things, as it makes them specific, but I will using the roll-up term, Logic, in order to simplify and generalize what we are talking about.<br>
 <br>
-Logic is used when one wants to operate on data in a digital environment.  With Logic we will change the data, create new data, validate data, and perform side-effect type actions where we do things like c<br>
+Logic is used when one wants to operate on data in a digital environment.  With Logic we will change the data, create new data, validate data, and perform side-effect type actions where we do things like copy data to different locations, remove it, create directories, start and stop services, as well as anything else we could do manually.<br>
+<br>
+Essentially Logic is the way we take action through digital means, where we would otherwise take actions manually.<br>
+<br>
+Of course, in a digital environment, all actions eventually require logic.<br>
+<br>
+If I am in a command-line shell, and I run a command to create a directory, I have manually initiated Logic to perform this work.<br>
+<br>
+If I write logic to inspect a data source, and then to create directories based on that data in that source, then I do not need to manually initiate the Logic to create the directory.  There will be some kind of timed period (ex: cron jobs) or<br>
 <h3 id=9b48a00c792d88dfa31f203429758f84><a href="#9b48a00c792d88dfa31f203429758f84">2.6.2</a>: Data: data</h3>
 <h3 id=aa2640c210126a47b684283980210b76><a href="#aa2640c210126a47b684283980210b76">2.6.3</a>: Rules: policies about how you do stuff</h3>
 <h3 id=3393e40f9f65bba3ee24fc4f744c792b><a href="#3393e40f9f65bba3ee24fc4f744c792b">2.6.4</a>: Distributed: dealing with N nodes</h3>
