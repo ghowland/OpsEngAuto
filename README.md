@@ -5,9 +5,9 @@ Total Sections: 283   Populated Sections: 29
 Current Goal: Populate Empty Sections: 254   (Done: 10.2%)
 
 
-Lines: 1195
+Lines: 1197
 
-Words: 20995
+Words: 21004
 
 # Chapter 1: Preface
 
@@ -1151,6 +1151,8 @@ It's good that our industry has many terms for things, as it makes them specific
 One simple definition could be:<br>
 <br>
 - Logic is Data that is executable.<br>
+<br>
+In this definition, Logic is a sub-set of Data.<br>
 <br>
 This could because it is in a native format an Operating System can load and execute (ex: ELF, EXE, etc), or via an interpreter (ex: Python, Ruby, PHP, Bash), or via a Virtual Machine executor (ex: Java, .NET/Mono).<br>
 <br>
