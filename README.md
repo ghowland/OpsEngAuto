@@ -7,7 +7,7 @@ Current Goal: Populate Empty Sections: 262   (Done: 10.6%)
 
 Lines: 1273
 
-Words: 22464
+Words: 22465
 
 # Chapter 1: Preface
 
@@ -1626,7 +1626,7 @@ I believe that all of us are both our own greatest allies, and our own worst ene
 <br>
 In term's of our larger group's influence on us, this is actually more of our own influence on ourselves, as we have interpreted the intention of our larger society, culture or group, and our position in it.  I find conflict between my view of how I think I should fit into my group, versus how I would like to fit into my group.  And the same is true for "how the group thinks about me", to anthropomorphize the "collective dynamic" or "group think" or "social pressure" or "super ego" or whatever.<br>
 <br>
-This is not merely negative, it is also positive, as I take the good things about my culture and group, and I am seen positively by them and myself, and I see the positive ways that I fit into the group, and they do me.<br>
+But, this is not merely negative, it is also positive, as I take the good things about my culture and group, and I am seen positively by them and myself, and I see the positive ways that I fit into the group, and they do me.<br>
 <br>
 In order to improve myself, I need to focus more on seeing these positive things, and how others can see me positively, and less on the negative.  My attention alone will create time that I spend reflecting on the negative aspects, where I could be putting effort into actively making things more positive, and spending my time inspecting the positive aspects of things to determine how to strengthen them, and more to them.<br>
 <br>
