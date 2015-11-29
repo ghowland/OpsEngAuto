@@ -5,9 +5,9 @@ Total Sections: 292   Populated Sections: 30
 Current Goal: Populate Empty Sections: 262   (Done: 10.3%)
 
 
-Lines: 1229
+Lines: 1233
 
-Words: 21390
+Words: 21461
 
 # Chapter 1: Preface
 
@@ -1579,7 +1579,11 @@ This is something every given team/organization should decide for themselves, be
 <br>
 If you aim for efficiency of techniques, you enter the area where not all parties understand the techniques.  This is also exemplified by the "single person vs. large team" spectrum.  Single people are able to use efficiencies that even a 2-person team cannot, because of the immediate nature of communication inside one's own head.<br>
 <br>
-As soon as the communication must be externalized, there is a MASSIVE loss of efficiency in the communication, and as the team grows the communication problems grow factorially.<br>
+As soon as the communication must be externalized, there is a massive loss of efficiency in the communication, and as the team grows the communication problems grow factorially.<br>
+<br>
+How massive is this loss in terms of efficiency in communication between your own thoughts, and communicating with 1 external person?  {{ stats_memory_cycles_per_second_vs_words_per_minute }}<br>
+<br>
+To give an example, this is the difference between accessing something already loaded into RAM and Layer 1 Cache, vs accessing something on a 5400 RPM slow rotating spindle disk, on a remote computer, that is networked via satellite, and resides on another planet (Earth -> Mars).<br>
 <br>
 So while your assertion that everything can be broken down into: Create Test, Implement Thing To Be Tested, Verified Test.  <br>
 <br>
