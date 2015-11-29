@@ -1561,6 +1561,7 @@ I will cover this concept in full detail later on, because it is critical to und
 <h2 id=90ee09235d729b6403260561482812a7><a href="#90ee09235d729b6403260561482812a7">9.5</a>: Introduce the Basic Laws of Human Stupidity.  Not meant as insult or joke, but as quantitative method of determining the intelligence of an action.  This is the model I will use in this book.</h2>
 <h2 id=7f0428bc4e8fd20bc8ddd31b00ea1d75><a href="#7f0428bc4e8fd20bc8ddd31b00ea1d75">9.6</a>: Journmanship, apprenticeship.  What we are missing.  Valuing experience.  Im old, of course thats my take.</h2>
 <h2 id=5ca3d14cd4988a84227bb91b9f59650b><a href="#5ca3d14cd4988a84227bb91b9f59650b">9.7</a>: The benefits of "vanilla" use of tools.  Less upkeep.  Only change what you strictly need to change.  Spend time optimizing only in critical areas.  Reduce things that need to be manually maintained.</h2>
+<h2 id=cc2951537c1aa0cd251fbda6639f2b8f><a href="#cc2951537c1aa0cd251fbda6639f2b8f">9.8</a>: "Lowest Common Denominator" problem</h2>
 # Chapter 10: Everywhere.  Throughout the book.
 
 
