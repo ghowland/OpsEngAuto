@@ -1,13 +1,13 @@
 # Operations: Engineering and Automation
 
 
-Total Sections: 293   Populated Sections: 30
-Current Goal: Populate Empty Sections: 263   (Done: 10.2%)
+Total Sections: 293   Populated Sections: 31
+Current Goal: Populate Empty Sections: 262   (Done: 10.6%)
 
 
-Lines: 1245
+Lines: 1253
 
-Words: 21780
+Words: 21898
 
 # Chapter 1: Preface
 
@@ -1611,6 +1611,14 @@ Taken to it's extreme, it is easy to see how this solution will be "dumbed down"
 <br>
 There is a "tipping point" where this "low-tech" type direction starts to become a problem in itself, either by not performing fast enough, or not being small enough to manage, as size has a direct impact on complexity as well.  More things are harder to manage than less things, just as more complex things are harder to manager than simple things.<br>
 <h2 id=822a93e6d35a5d2173bda4a30b16591b><a href="#822a93e6d35a5d2173bda4a30b16591b">9.9</a>: Releasing the poison</h2>
+<br>
+This is the only non-technical advice that I will give in this book, because I think it is the most important non-technical advice I can give, and it has to do with inter-human communication and inter-human relationships.<br>
+<br>
+No matter what society, culture or place you are born in, grow up in, and live in, there are elements around you that are harmful to you, and affect you in a negative manner.<br>
+<br>
+In dealing with other people, we often encounter negativity in many dimensions, whether it is in attitude, verbally, or physically.<br>
+<br>
+And in our own actions, we ourselves will have negative attributes that are presented and may affect our co-workers, team mates, as well as friends and family.<br>
 # Chapter 10: Everywhere.  Throughout the book.
 
 
