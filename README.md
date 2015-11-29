@@ -7,7 +7,7 @@ Current Goal: Populate Empty Sections: 262   (Done: 10.6%)
 
 Lines: 1283
 
-Words: 22842
+Words: 22859
 
 # Chapter 1: Preface
 
@@ -1640,7 +1640,7 @@ Because this feedback loop only intensifies until one of the party "turns down t
 <br>
 I am certainly not through with my journey on this path, but I feel continual improvement as I have created an internal process of inspecting things that occur in my life, and comparing them to the model I have created for how I spend time related to negativity, versus how I spend time related to positivity.<br>
 <br>
-This allows me to see where I have made mistakes more easily, and gives me the incentive to take action to try to correct those mistakes.<br>
+This allows me to see where I have made mistakes more easily, and gives me the incentive to take action to try to correct those mistakes.  Often simply not taking action to correct a negative-effect action creates even more problems down the road<br>
 <br>
 If I have said or done something that may have caused a problem for someone, in any way, I can realize this and then mention it to them in passing, or ask to talk with them and go over what happened, and how I would prefer things were resolved, trying to fix any problems that were created, and create and keep a positive relationship with them.<br>
 <br>
