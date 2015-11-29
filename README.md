@@ -7,7 +7,7 @@ Current Goal: Populate Empty Sections: 256   (Done: 9.2%)
 
 Lines: 1099
 
-Words: 19381
+Words: 19389
 
 # Chapter 1: Preface
 
@@ -1160,7 +1160,7 @@ Logic has dependencies.  It runs on a given "platform", and does not run on othe
 <br>
 Data needs a place to reside (ex: database, file system, etc), but it does not require a specific environment, it could be stored in a YAML format, JSON format, in a relational database, a flat file with comma or colon separation, or any type of format or storage system at all.<br>
 <br>
-The methods to access the Data will change<br>
+The methods to access the Data will change, but the Data itself can remain the same.<br>
 <h3 id=aa2640c210126a47b684283980210b76><a href="#aa2640c210126a47b684283980210b76">2.6.3</a>: Rules: policies about how you do stuff</h3>
 <h3 id=3393e40f9f65bba3ee24fc4f744c792b><a href="#3393e40f9f65bba3ee24fc4f744c792b">2.6.4</a>: Distributed: dealing with N nodes</h3>
 <h3 id=a709b239027a030b1a2dc4d500e49a24><a href="#a709b239027a030b1a2dc4d500e49a24">2.6.5</a>: Real/Virtual.  Strict definitions.</h3>

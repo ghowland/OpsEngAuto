@@ -51,5 +51,5 @@ Logic has dependencies.  It runs on a given "platform", and does not run on othe
 
 Data needs a place to reside (ex: database, file system, etc), but it does not require a specific environment, it could be stored in a YAML format, JSON format, in a relational database, a flat file with comma or colon separation, or any type of format or storage system at all.
 
-The methods to access the Data will change 
+The methods to access the Data will change, but the Data itself can remain the same.
 
