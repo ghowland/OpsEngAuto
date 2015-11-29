@@ -1,3 +1,7 @@
 ### [[2.5.2: Data: data]]
 
+In the virtual world, Data is king.
+
+I will support this assertion throughout this entire work, as it has become a central tenet in my thinking about how to do any sort of digital engineering.
+
 

@@ -1,13 +1,13 @@
 # Operations: Engineering and Automation
 
 
-Total Sections: 282   Populated Sections: 26
-Current Goal: Populate Empty Sections: 256   (Done: 9.2%)
+Total Sections: 282   Populated Sections: 27
+Current Goal: Populate Empty Sections: 255   (Done: 9.6%)
 
 
-Lines: 1125
+Lines: 1129
 
-Words: 19895
+Words: 19930
 
 # Chapter 1: Preface
 
@@ -1107,6 +1107,10 @@ This is all too much to do with just anyone's terminology, and the only terminol
 <br>
 I will be using the capitalization of proper nouns with these special terms, so that they are clearly my definition, for the purpose of this book, and not meant as the general term.  The only time this may be confusing is when the word starts the beginning of a sentence, but I hope context will keep that clear.<br>
 <h3 id=9b48a00c792d88dfa31f203429758f84><a href="#9b48a00c792d88dfa31f203429758f84">2.6.1</a>: Data: data</h3>
+<br>
+In the virtual world, Data is king.<br>
+<br>
+I will support this assertion throughout this entire work, as it has become a central tenet in my thinking about how to do any sort of digital engineering.<br>
 <h3 id=69371f3e438e2ed281f525ac57e65e3c><a href="#69371f3e438e2ed281f525ac57e65e3c">2.6.2</a>: Logic: code</h3>
 <br>
 I'm going to try to constrain myself to using the capitalized (proper noun) "Logic" any time I am referring any of the following things:<br>
