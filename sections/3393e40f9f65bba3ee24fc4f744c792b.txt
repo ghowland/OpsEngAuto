@@ -2,4 +2,16 @@
 
 You may have used the word "distributed" before, such as in "distributed systems".
 
-My meaning will be very similar to this usage, but I will use it a little more generally to mean any time you need to work 
+My meaning will be very similar to this usage, but I will use it a little more generally to mean any time you need to work across many nodes of something.
+
+For instance having to control 200 web servers will be a Distributed service of web servers.
+
+This usage stems from a single web server being able to do the same thing as 200 web servers (configured in the same manner), but the "load" is "distributed" across the 200 web servers, making this a distributed network service.
+
+The reason for being very general in this usage is that it provides a comparison point between single processing system and a distributed processing system.
+
+As I will cover in more detail later on, there are 3 cases you should account for in operations:
+
+- Zero instances of something.  You do not do this thing.  In some cases this is simply something you do not require, but in the more sophisticated case, this is work you are still accomplishing, but in a manner that does not need an instance of anything, it is an efficiency gain.  In either case, it is important to know that "not having something" is a state.
+
+- One instance of something.  This is when you one thing that you use, it is a centralization of a service.  There may still be a pair of machines (Master/Slave) supporting this one-thing, and there may be 
