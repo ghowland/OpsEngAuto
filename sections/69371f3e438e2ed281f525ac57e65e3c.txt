@@ -55,3 +55,4 @@ Data needs a place to reside (ex: database, file system, etc), but it does not r
 
 The methods to access the Data will change, but the Data itself can remain the same.
 
+In order for Logic to run in a different environment, 
