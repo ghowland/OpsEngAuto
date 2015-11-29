@@ -5,9 +5,9 @@ Total Sections: 282   Populated Sections: 26
 Current Goal: Populate Empty Sections: 256   (Done: 9.2%)
 
 
-Lines: 1071
+Lines: 1080
 
-Words: 18897
+Words: 19095
 
 # Chapter 1: Preface
 
@@ -1131,7 +1131,16 @@ If I am in a command-line shell, and I run a command to create a directory, I ha
 <br>
 If I write logic to inspect a data source, and then to create directories based on that data in that source, then I do not need to manually initiate the Logic to create the directory.  There will be some kind of timed period (ex: cron jobs) or event (ex: monitoring initiated execution) that will initiate the Logic.<br>
 <br>
-As we went over in the<br>
+As we went over in {{ section_ff17d94c0d49aab3e372e47b64b96ea7 }}, Logic is un-real or virtual.  It is not a physical thing, with physical properties.  It does not exist in the physical world at a given location or orientation.<br>
+<br>
+One can say that that bits that describe the Logic do reside on a physical storage medium (rotating disk, SSD, RAM, etc), but I am separating these physical attributes from the Logic itself, which could be anywhere, and in a given physical device, it will almost always reside in multiple locations, both on storage, and in RAM and perhaps in a CPU cache, and perhaps partially in CPU registers.<br>
+<br>
+I will end up breaking down many things to Logic layers and Data layers, and how Logic works on Data, and how Data is the stable foundation of Logic.  In my perspective, this is a reversal of how many people see the relationship between Logic and Data, but I will make a case for why Data is the core and Logic is the shell.<br>
+<br>
+To make the assertion as briefly as I can:<br>
+<br>
+- Data is what you know at a given time.  This is useful forever.  It could be useful hundreds of years for now, for <br>
+- Logic<br>
 <h3 id=9b48a00c792d88dfa31f203429758f84><a href="#9b48a00c792d88dfa31f203429758f84">2.6.2</a>: Data: data</h3>
 <h3 id=aa2640c210126a47b684283980210b76><a href="#aa2640c210126a47b684283980210b76">2.6.3</a>: Rules: policies about how you do stuff</h3>
 <h3 id=3393e40f9f65bba3ee24fc4f744c792b><a href="#3393e40f9f65bba3ee24fc4f744c792b">2.6.4</a>: Distributed: dealing with N nodes</h3>
