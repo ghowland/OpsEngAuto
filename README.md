@@ -1634,7 +1634,7 @@ I refer to this, internally (and now written into a book, I guess), as "releasin
 <br>
 I am certainly not through with my journey on this path, but I feel continual improvement as I have created an internal process of inspecting things that occur in my life, and comparing them to the model I have created for how I spend time doing negative things, versus how I spend time doing positive things.<br>
 <br>
-This allows me to see where I have made mistakes more easily, and gives me the incentive to take action to try to correct that mistake.<br>
+This allows me to see where I have made mistakes more easily, and gives me the incentive to take action to try to correct those mistakes.<br>
 <br>
 If I have said something to someone that may have caused a problem for them, in any way, I can realize this and then mention it to them in passing, or ask to talk with them and go over what happened, and how I would prefer things end up, trying to fix any problems that were created.<br>
 <br>
