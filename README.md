@@ -5,9 +5,9 @@ Total Sections: 292   Populated Sections: 30
 Current Goal: Populate Empty Sections: 262   (Done: 10.3%)
 
 
-Lines: 1235
+Lines: 1245
 
-Words: 21544
+Words: 21780
 
 # Chapter 1: Preface
 
@@ -1600,6 +1600,16 @@ To give an analogy, I can say that all data in a database could be stored in a s
 All of these fields can be BLOBs, so we only need 1 storage type, and from that all data actions done in any other method can be implemented.<br>
 <br>
 This is true, but it is not efficient.<br>
+<br>
+This is a similar spectrum to having "single ownership" vs "team ownership".  They provide different benefits, and cause different problems.  Single ownership allows for the efficiency that a single owner can bring, but at the loss of wider understanding and access.<br>
+<br>
+Team ownership provides wider understanding and access, but limits the amount of efficiency that can be used due to all members of the team needing to be able to understand all of the implementation well enough to work with it.<br>
+<br>
+Anything that is not immediately well-understood by any member of the team, in a team-ownership environment, should be converted into a method in which that team member can understand it.  This should be applied to all changes, recursively, so that all details fit this criteria.<br>
+<br>
+Taken to it's extreme, it is easy to see how this solution will be "dumbed down" (not to be insulting, merely to illustrate the point) to the most common knowledge (low tech vs high tech), and this will have an effect on the efficiency and manageability of the work.<br>
+<br>
+There is a "tipping point" where this "low-tech" type direction starts to become a problem in itself, either by not performing fast enough, or not being small enough to manage, as size has a direct impact on complexity as well.  More things are harder to manage than less things, just as more complex things are harder to manager than simple things.<br>
 # Chapter 10: Everywhere.  Throughout the book.
 
 
