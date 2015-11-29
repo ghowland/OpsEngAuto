@@ -7,7 +7,7 @@ Current Goal: Populate Empty Sections: 262   (Done: 10.6%)
 
 Lines: 1273
 
-Words: 22465
+Words: 22466
 
 # Chapter 1: Preface
 
@@ -1628,7 +1628,7 @@ In term's of our larger group's influence on us, this is actually more of our ow
 <br>
 But, this is not merely negative, it is also positive, as I take the good things about my culture and group, and I am seen positively by them and myself, and I see the positive ways that I fit into the group, and they do me.<br>
 <br>
-In order to improve myself, I need to focus more on seeing these positive things, and how others can see me positively, and less on the negative.  My attention alone will create time that I spend reflecting on the negative aspects, where I could be putting effort into actively making things more positive, and spending my time inspecting the positive aspects of things to determine how to strengthen them, and more to them.<br>
+In order to improve myself, I need to focus more on seeing these positive things, and how others can see me positively, and less on the negative.  My attention alone will create time that I spend reflecting on the negative aspects, where I could be putting effort into actively making things more positive, and spending my time inspecting the positive aspects of things to determine how to strengthen them, and create more of them.<br>
 <br>
 I refer to this, internally (and now written into a book, I guess), as "releasing the poison", which is releasing the things inside me that make me "more toxic", so that I can be "less toxic", with the goal of being "not toxic".<br>
 <br>
