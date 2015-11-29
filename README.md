@@ -7,7 +7,7 @@ Current Goal: Populate Empty Sections: 262   (Done: 10.6%)
 
 Lines: 1322
 
-Words: 23319
+Words: 23320
 
 # Chapter 1: Preface
 
@@ -1624,7 +1624,7 @@ I think there are a couple of issues here.<br>
 <br>
 The first is the matter of deconstructionism.  For every layer of abstraction you remove when deconstructing something, you lose the context and connotations (intentions) of that symbolic abstraction as well.<br>
 <br>
-So I can further deconstruct your deconstruction like into this:<br>
+So I can further deconstruct your deconstruction into this:<br>
 <br>
 - Think<br>
 - Act<br>
@@ -1632,7 +1632,7 @@ So I can further deconstruct your deconstruction like into this:<br>
 <br>
 Now we have an even simpler model, and we aren't restricting to programming.  The problem is that we also aren't even talking about software development any more, we've gone so general that it has lost it's original purpose, which is to better understand how to do something related to developing software.<br>
 <br>
-In similar ways, each abstraction to get to the point of:<br>
+In similar ways, each abstraction layer removed to get to the point of:<br>
 <br>
 - Create test<br>
 - Write code<br>
