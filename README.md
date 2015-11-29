@@ -5,9 +5,9 @@ Total Sections: 282   Populated Sections: 26
 Current Goal: Populate Empty Sections: 256   (Done: 9.2%)
 
 
-Lines: 1069
+Lines: 1071
 
-Words: 18891
+Words: 18897
 
 # Chapter 1: Preface
 
@@ -1130,6 +1130,8 @@ Of course, in a digital environment, all actions eventually require logic.<br>
 If I am in a command-line shell, and I run a command to create a directory, I have manually initiated Logic to perform this work.<br>
 <br>
 If I write logic to inspect a data source, and then to create directories based on that data in that source, then I do not need to manually initiate the Logic to create the directory.  There will be some kind of timed period (ex: cron jobs) or event (ex: monitoring initiated execution) that will initiate the Logic.<br>
+<br>
+As we went over in the<br>
 <h3 id=9b48a00c792d88dfa31f203429758f84><a href="#9b48a00c792d88dfa31f203429758f84">2.6.2</a>: Data: data</h3>
 <h3 id=aa2640c210126a47b684283980210b76><a href="#aa2640c210126a47b684283980210b76">2.6.3</a>: Rules: policies about how you do stuff</h3>
 <h3 id=3393e40f9f65bba3ee24fc4f744c792b><a href="#3393e40f9f65bba3ee24fc4f744c792b">2.6.4</a>: Distributed: dealing with N nodes</h3>
