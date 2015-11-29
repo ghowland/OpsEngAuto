@@ -1577,7 +1577,7 @@ The issue here is that there are more efficient ways of doing things, that are n
 <br>
 This is something every given team/organization should decide for themselves, because they work on a spectrum.  If you aim for more commonality, you lower the bar on what techniques are common to all parties, and you will lose the benefits that un-common techniques may provide.<br>
 <br>
-If you aim for efficiency of techniques, you enter the area where not all parties understand the techniques.  This is also exemplified by the "single person vs. large team" spectrum.  Single people are able to use inefficiencies that even a 2-person team cannot, because of the immediate nature of communicate inside one's own head.<br>
+If you aim for efficiency of techniques, you enter the area where not all parties understand the techniques.  This is also exemplified by the "single person vs. large team" spectrum.  Single people are able to use efficiencies that even a 2-person team cannot, because of the immediate nature of communicate inside one's own head.<br>
 <br>
 As soon as the communication must be externalized, there is a MASSIVE loss of efficiency in the communication, and as the team grows the communication problems grow factorially.<br>
 <br>
