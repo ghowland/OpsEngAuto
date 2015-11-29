@@ -9,4 +9,8 @@ I'm going to try to constrain myself to using the capitalized (proper noun) "Log
 - Finite State Machine processes
 - etc
 
-I will also use these other terms in their normal meanings throughout the book, but I will refer to 
+I will also use these other terms in their normal meanings throughout the book, but I will refer to Logic when I am combining what is created in order to manage things that are done programmatically.
+
+It's good that our industry has many terms for things, as it makes them specific, but I will using the roll-up term, Logic, in order to simplify and generalize what we are talking about.
+
+Logic is used when one wants to operate on data in a digital environment 
