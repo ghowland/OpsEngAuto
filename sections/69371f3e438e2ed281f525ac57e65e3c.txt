@@ -1,3 +1,12 @@
 ### [[2.5.1: Logic: code]]
 
+I'm going to try to constrain myself to using the capitalized (proper noun) "Logic" any time I am referring any of the following things:
 
+- Code
+- Programming
+- Scripts
+- Decision trees
+- Finite State Machine processes
+- etc
+
+I will also use these other terms in their normal meanings throughout the book, but I will refer to 

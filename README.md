@@ -1,13 +1,13 @@
 # Operations: Engineering and Automation
 
 
-Total Sections: 281   Populated Sections: 25
-Current Goal: Populate Empty Sections: 256   (Done: 8.9%)
+Total Sections: 281   Populated Sections: 26
+Current Goal: Populate Empty Sections: 255   (Done: 9.3%)
 
 
-Lines: 1044
+Lines: 1055
 
-Words: 18554
+Words: 18613
 
 # Chapter 1: Preface
 
@@ -1105,6 +1105,17 @@ The important part of this is that you gain insight into my perspectives, as I w
 <br>
 This is all too much to do with just anyone's terminology, and the only terminology that will be able to consistently deliver these results will be my own.  So try to accept all of these for the tools that they are in getting to these goals, and not as universal definitions that should be written into dictionaries, or compared against them.<br>
 <h3 id=69371f3e438e2ed281f525ac57e65e3c><a href="#69371f3e438e2ed281f525ac57e65e3c">2.6.1</a>: Logic: code</h3>
+<br>
+I'm going to try to constrain myself to using the capitalized (proper noun) "Logic" any time I am referring any of the following things:<br>
+<br>
+- Code<br>
+- Programming<br>
+- Scripts<br>
+- Decision trees<br>
+- Finite State Machine processes<br>
+- etc<br>
+<br>
+I will also use these other terms in their normal meanings throughout the book, but I will refer to<br>
 <h3 id=9b48a00c792d88dfa31f203429758f84><a href="#9b48a00c792d88dfa31f203429758f84">2.6.2</a>: Data: data</h3>
 <h3 id=aa2640c210126a47b684283980210b76><a href="#aa2640c210126a47b684283980210b76">2.6.3</a>: Rules: policies about how you do stuff</h3>
 <h3 id=3393e40f9f65bba3ee24fc4f744c792b><a href="#3393e40f9f65bba3ee24fc4f744c792b">2.6.4</a>: Distributed: dealing with N nodes</h3>
