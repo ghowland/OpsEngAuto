@@ -2,4 +2,4 @@
 
 You may have used the word "distributed" before, such as in "distributed systems".
 
-My meaning will be very similar to this usage, but 
+My meaning will be very similar to this usage, but I will use it a little more generally to mean any time you need to work 

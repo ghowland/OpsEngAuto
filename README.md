@@ -7,7 +7,7 @@ Current Goal: Populate Empty Sections: 254   (Done: 10.2%)
 
 Lines: 1169
 
-Words: 20484
+Words: 20500
 
 # Chapter 1: Preface
 
@@ -1232,7 +1232,7 @@ In the case of generated Logic, it will be generated from Logic created by human
 <br>
 You may have used the word "distributed" before, such as in "distributed systems".<br>
 <br>
-My meaning will be very similar to this usage, but<br>
+My meaning will be very similar to this usage, but I will use it a little more generally to mean any time you need to work<br>
 <h3 id=a709b239027a030b1a2dc4d500e49a24><a href="#a709b239027a030b1a2dc4d500e49a24">2.6.5</a>: Real/Virtual.  Strict definitions.</h3>
 <p id=d997d62bdfc3a11ce132fe5aade05eaa><b><a href="#d997d62bdfc3a11ce132fe5aade05eaa">2.6.5.1</a>: Physical</b></p>
 <p id=90c9825a0f594625107fd59419c3f079><b><a href="#90c9825a0f594625107fd59419c3f079">2.6.5.1.1</a>: Matter, Eletricity</b></p>
