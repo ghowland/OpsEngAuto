@@ -5,9 +5,9 @@ Total Sections: 293   Populated Sections: 31
 Current Goal: Populate Empty Sections: 262   (Done: 10.6%)
 
 
-Lines: 1285
+Lines: 1292
 
-Words: 22902
+Words: 22968
 
 # Chapter 1: Preface
 
@@ -1610,6 +1610,13 @@ Anything that is not immediately well-understood by any member of the team, in a
 Taken to it's extreme, it is easy to see how this solution will be "dumbed down" (not to be insulting, merely to illustrate the point) to the most common knowledge (low tech vs high tech), and this will have an effect on the efficiency and manageability of the work.<br>
 <br>
 There is a "tipping point" where this "low-tech" type direction starts to become a problem in itself, either by not performing fast enough, or not being small enough to manage, as size has a direct impact on complexity as well.  More things are harder to manage than less things, just as more complex things are harder to manager than simple things.<br>
+<br>
+__Exchange__<br>
+<br>
+Author:  So are you are saying that the workflow is same, but it just differs in implementation? I'm leaving that question out for now. I believe it is possible to separate the questions of workflow and it's implementation. So first think I want to agree on is on which workflow produces best result. After we agree on that, we can talk about it's implementation.<br>
+<br>
+<br>
+Me:<br>
 <h2 id=822a93e6d35a5d2173bda4a30b16591b><a href="#822a93e6d35a5d2173bda4a30b16591b">9.9</a>: Releasing the poison</h2>
 <br>
 This is the only non-Operations advice that I will give in this book, because I think it is the most important non-technical advice I can give, and it has to do with inter-human communication and inter-human relationships.<br>
