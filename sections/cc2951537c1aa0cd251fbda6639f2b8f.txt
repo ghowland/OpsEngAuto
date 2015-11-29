@@ -12,7 +12,7 @@ These concepts are used to divide up the problem so that they can be solved, hen
 
 The issue here is that there are more efficient ways of doing things, that are not as simple, but not all parties will have equal knowledge of all of these things, presenting a dilemma:  Do you aim for higher efficiency or higher commonality?
 
-This is something every given team/organization should decide for themselves, because they work on a spectrum.  If you aim for more commonality, you lower the bar on what techniques are common to all parties, and you will lose the benefits that un-common techniques may provide.
+This is something every given team/organization should decide for themselves, because they work on a spectrum.  If you aim for more commonality, you lower the bar on what techniques are common to all parties, and you will lose the benefits that un-commonly-known techniques may provide.
 
 If you aim for efficiency of techniques, you enter the area where not all parties understand the techniques.  This is also exemplified by the "single person vs. large team" spectrum.  Single people are able to use efficiencies that even a 2-person team cannot, because of the immediate nature of communication inside one's own head.
 
