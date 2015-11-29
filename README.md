@@ -5,9 +5,9 @@ Total Sections: 292   Populated Sections: 30
 Current Goal: Populate Empty Sections: 262   (Done: 10.3%)
 
 
-Lines: 1233
+Lines: 1235
 
-Words: 21461
+Words: 21538
 
 # Chapter 1: Preface
 
@@ -1583,7 +1583,9 @@ As soon as the communication must be externalized, there is a massive loss of ef
 <br>
 How massive is this loss in terms of efficiency in communication between your own thoughts, and communicating with 1 external person?  {{ stats_memory_cycles_per_second_vs_words_per_minute }}<br>
 <br>
-To give an example, this is the difference between accessing something already loaded into RAM and Layer 1 Cache, vs accessing something on a 5400 RPM slow rotating spindle disk, on a remote computer, that is networked via satellite, and resides on another planet (Earth -> Mars).<br>
+To give an example, this is the difference between accessing something already loaded into RAM and Layer 1 Cache, vs accessing something on a 5400 RPM slow rotating spindle disk, on a remote computer, that is networked via satellite, and resides on another planet (Earth -> Mars).  That is the type of inefficiency that is created between going from one's own thoughts, to communicating with 1 other person.<br>
+<br>
+When communicating with teams or large groups of people, this is made worse, as often the communicate is by proxy, so not only is the communication inter-planetary in terms of efficiency, it is through a lossy-proxy, which will change the data and is more likely to summarize it, dropping out many details and changing the terminology.<br>
 <br>
 So while your assertion that everything can be broken down into: Create Test, Implement Thing To Be Tested, Verified Test.  <br>
 <br>
