@@ -7,7 +7,7 @@ Current Goal: Populate Empty Sections: 262   (Done: 10.6%)
 
 Lines: 1283
 
-Words: 22886
+Words: 22888
 
 # Chapter 1: Preface
 
@@ -1632,7 +1632,7 @@ In order to improve myself, I need to focus more on seeing these positive things
 <br>
 I refer to this, internally (and now written into a book, I guess), as "releasing the poison", which is releasing the things inside me that make me "more toxic", so that I can be "less toxic", with the goal of being "not toxic".<br>
 <br>
-I say "releasing" instead of some other term, because these are active patterns in myself, things that I do, that I didn't have to do, but did.  So these are habits which need to be changed, but in order to do something else, I must stop doing what I am already doing.  So I refer to this as "releasing" it, as it is something I am "holding on to", which is why I keep doing it.  I think this distinction is important, as it underlines how this is completely an internal process, that I can accomplish myself, with no external validation.  <br>
+I say "releasing" instead of some other term, because these are active patterns in myself, things that I do, that I didn't have to do, but did.  So these are habits or reflexes which need to be changed, but in order to do something else, I must stop doing what I am already doing.  So I refer to this as "releasing" it, as it is something I am "holding on to", which is why I keep doing it.  I think this distinction is important, as it underlines how this is completely an internal process, that I can accomplish myself, with no external validation.  <br>
 <br>
 Why is it important that I can continue to make progress without external validation?  It is important, because if people act in negative ways to me or around me, I do not need to respond with negativity.  Responding with negativity creates a feedback loop, where one party is negative to another party, and the other responds with negativity (understandable, even if they were neutral or positive prior to the introduced negativity), and the first continues to respond negative and may increase it, and so on.<br>
 <br>
