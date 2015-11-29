@@ -7,7 +7,7 @@ Current Goal: Populate Empty Sections: 262   (Done: 10.3%)
 
 Lines: 1235
 
-Words: 21538
+Words: 21544
 
 # Chapter 1: Preface
 
@@ -1585,7 +1585,7 @@ How massive is this loss in terms of efficiency in communication between your ow
 <br>
 To give an example, this is the difference between accessing something already loaded into RAM and Layer 1 Cache, vs accessing something on a 5400 RPM slow rotating spindle disk, on a remote computer, that is networked via satellite, and resides on another planet (Earth -> Mars).  That is the type of inefficiency that is created between going from one's own thoughts, to communicating with 1 other person.<br>
 <br>
-When communicating with teams or large groups of people, this is made worse, as often the communicate is by proxy, so not only is the communication inter-planetary in terms of efficiency, it is through a lossy-proxy, which will change the data and is more likely to summarize it, dropping out many details and changing the terminology.<br>
+When communicating with teams or large groups of people, this is made worse, as often the communicate is by proxy, so not only is the communication inter-planetary in terms of efficiency, it is through a lossy-proxy, which will change the data and is more likely to summarize it, dropping out many details and changing the terminology, phrasing, and perhaps even the intent.<br>
 <br>
 So while your assertion that everything can be broken down into: Create Test, Implement Thing To Be Tested, Verified Test.  <br>
 <br>
