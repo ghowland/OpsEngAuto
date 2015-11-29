@@ -5,9 +5,9 @@ Total Sections: 282   Populated Sections: 26
 Current Goal: Populate Empty Sections: 256   (Done: 9.2%)
 
 
-Lines: 1103
+Lines: 1109
 
-Words: 19456
+Words: 19583
 
 # Chapter 1: Preface
 
@@ -1164,7 +1164,13 @@ Data needs a place to reside (ex: database, file system, etc), but it does not r
 <br>
 The methods to access the Data will change, but the Data itself can remain the same.<br>
 <br>
-In order for Logic to run in a different environment, it is likely going to need changes.  Some programming languages offer cross platform execute, via being run by an<br>
+In order for Logic to run in a different environment, it is likely going to need changes.  Some programming languages offer cross platform execute, via being run by an interpreter or virtual machine executor which was natively compiled to the target operating system.<br>
+<br>
+However, there are still many places that Logic may not be able to work cross-platform without changes, such as moving from Linux to Windows there is a difference in how Windows access some storage, because it uses "Drive Letters" as device targets, and Unix-style operating systems use a single directory hierarchy.<br>
+<br>
+Other changes may be system files it expects to find in certain places, or required libraries that may not be installed, or may be an incompatible version.<br>
+<br>
+These are lower-level types of problems that Logic has, and why unless it is running in a hardware emulator Logic written decades ago generally cannot be executed properly on modern hardware and modern operating systems.<br>
 <h3 id=aa2640c210126a47b684283980210b76><a href="#aa2640c210126a47b684283980210b76">2.6.3</a>: Rules: policies about how you do stuff</h3>
 <h3 id=3393e40f9f65bba3ee24fc4f744c792b><a href="#3393e40f9f65bba3ee24fc4f744c792b">2.6.4</a>: Distributed: dealing with N nodes</h3>
 <h3 id=a709b239027a030b1a2dc4d500e49a24><a href="#a709b239027a030b1a2dc4d500e49a24">2.6.5</a>: Real/Virtual.  Strict definitions.</h3>
