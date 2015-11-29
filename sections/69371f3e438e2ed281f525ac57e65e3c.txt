@@ -21,4 +21,5 @@ Of course, in a digital environment, all actions eventually require logic.
 
 If I am in a command-line shell, and I run a command to create a directory, I have manually initiated Logic to perform this work.
 
-If I write logic to inspect a data source, and then to create directories based on that data in that source, then I do not need to manually initiate the Logic to create the directory.  There will be some kind of timed period (ex: cron jobs) or 
+If I write logic to inspect a data source, and then to create directories based on that data in that source, then I do not need to manually initiate the Logic to create the directory.  There will be some kind of timed period (ex: cron jobs) or event (ex: monitoring initiated execution) that will initiate the Logic.
+
