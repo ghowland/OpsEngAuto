@@ -5,9 +5,9 @@ Total Sections: 283   Populated Sections: 29
 Current Goal: Populate Empty Sections: 254   (Done: 10.2%)
 
 
-Lines: 1193
+Lines: 1195
 
-Words: 20895
+Words: 20995
 
 # Chapter 1: Preface
 
@@ -1254,7 +1254,9 @@ These differentiates can be seen in the phase:<br>
 <br>
 Make this an internal meme for yourself, and watch as things start to make more sense in terms of problems with scaling.  When a number larger than 1-instance is introduced, you will eventually see that number grow, and sub-divide into different domains.<br>
 <br>
+Having a 1-instance system is incredibly difficult.  Pressures will continually be applied to grow into an N-system, and it will take work and perseverance to keep a 1-instance system at 1-instance.<br>
 <br>
+0-instance systems, when not just the identity of "we don't do that here", come from efficiencies.  This is when a 1-instance or N-instance system has been replaced in such a way that the work does not need to specifically occur, and yet the goals are still achieved.  If this sounds a lot like what I referred to as "removing Classes of Work", it is because it is exactly that.<br>
 <br>
 I will cover this concept in full detail later on, because it is critical to understanding how scaling works in practice.<br>
 <h3 id=a709b239027a030b1a2dc4d500e49a24><a href="#a709b239027a030b1a2dc4d500e49a24">2.6.5</a>: Real/Virtual.  Strict definitions.</h3>
