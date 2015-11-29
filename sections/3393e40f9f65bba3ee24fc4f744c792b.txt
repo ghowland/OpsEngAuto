@@ -1,3 +1,2 @@
 ### [[2.5.4: Distributed: dealing with N nodes]]
 
-
