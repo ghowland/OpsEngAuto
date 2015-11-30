@@ -27,7 +27,11 @@ Now that we have these two axes, which we could use in the Cartesian coordinate 
 
 If you are familiar with any sort of procedural generation, this yields the same kind of effect that Perlin Noise allowed in procedural generation, in that because the pattern remained consistent whether viewed from "from away" or "up close", procedurally generated content (images, models, clouds, cities, whatever) could scale to "infinite" detail, either looking at the "big picture" or with a magnifying glass.
 
-In the same way, this generative tool of mapping axes to an information space, and then using your own understanding of that space to extrapolate what text would describe that point in those axes' space.  Let's do it.
+In the same way, this generative tool of mapping axes to an information space, and then using your own understanding of that space to extrapolate what text would describe that point in those axes' space.  
+
+This is actually the exact same technique I am using to write this book, as I have broken up the information space I am trying to cover into both a linear (sequential) flow (chapters), and 
+
+Let's do it:
 
 For the Atomicity value, let's say on a scale of 1.0 (Atomic) to 0.0 (Not Atomic), we have an Atomicity value of 0.25, or not very Atomic, but having some Atomic characterics.  
 
