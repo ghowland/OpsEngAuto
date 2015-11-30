@@ -5,9 +5,9 @@ Total Sections: 294   Populated Sections: 43
 Current Goal: Populate Empty Sections: 251   (Done: 14.6%)
 
 
-Lines: 1736
+Lines: 1742
 
-Words: 29567
+Words: 29602
 
 
 # Chapter 1: Preface
@@ -1674,6 +1674,12 @@ In the same way, this generative tool of mapping axes to an information space, a
 For the Atomicity value, let's say on a scale of 1.0 (Atomic) to 0.0 (Not Atomic), we have an Atomicity value of 0.25, or not very Atomic, but having some Atomic characterics.  <br>
 <br>
 Then let's say on the Specificity scale of 1.0 (Specific) to 0.0 (General), we have an Specificity value of 0.75, or fairly specific.<br>
+<br>
+Because we need to be specific, I am going to make up some details about the Atomicity of the thing in question, which I will use a database for:<br>
+<br>
+{{ start_quote }}<br>
+<br>
+{{ end_quote }}<br>
 <br>
 <br>
 What if we had a Specific value of 1.0, instead of 0.75?<br>

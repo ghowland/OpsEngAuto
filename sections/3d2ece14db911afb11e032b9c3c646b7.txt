@@ -33,6 +33,12 @@ For the Atomicity value, let's say on a scale of 1.0 (Atomic) to 0.0 (Not Atomic
 
 Then let's say on the Specificity scale of 1.0 (Specific) to 0.0 (General), we have an Specificity value of 0.75, or fairly specific.
 
+Because we need to be specific, I am going to make up some details about the Atomicity of the thing in question, which I will use a database for:
+
+{{ start_quote }}
+
+{{ end_quote }}
+
 
 What if we had a Specific value of 1.0, instead of 0.75?
 
