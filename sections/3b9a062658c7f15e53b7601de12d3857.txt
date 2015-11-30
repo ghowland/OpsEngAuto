@@ -26,4 +26,4 @@ Logic is not actually tied to Data in that same way that Data can be tied to its
 
 When the Logic next tries to access this data, it finds the new table row, and it goes about it's normal logic, which has always worked before, but this time the data it receives is not something the Logic accounted for.
 
-Say you have a field that is an unsigned int(11), 
+Say you have a field that is an unsigned int(11), so it goes from 0 to 

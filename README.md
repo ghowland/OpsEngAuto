@@ -7,7 +7,7 @@ Current Goal: Populate Empty Sections: 256   (Done: 12.9%)
 
 Lines: 1514
 
-Words: 26112
+Words: 26118
 
 
 # Chapter 1: Preface
@@ -1461,7 +1461,7 @@ Logic is not actually tied to Data in that same way that Data can be tied to its
 <br>
 When the Logic next tries to access this data, it finds the new table row, and it goes about it's normal logic, which has always worked before, but this time the data it receives is not something the Logic accounted for.<br>
 <br>
-Say you have a field that is an unsigned int(11),<br>
+Say you have a field that is an unsigned int(11), so it goes from 0 to<br>
 <h3 id=9ea896216c817034b6d3858d8f934e34><a href="#9ea896216c817034b6d3858d8f934e34">2.6.6</a>: Knowability</h3>
 <h3 id=e2a0bb61f2d74d70b31bf533e2b1c260><a href="#e2a0bb61f2d74d70b31bf533e2b1c260">2.6.7</a>: Class of Work: a specific type of work that is done, may be domain specific or general across the company</h3>
 <h3 id=e51fd2df5fa27c89dbb16625df6ec6b6><a href="#e51fd2df5fa27c89dbb16625df6ec6b6">2.6.8</a>: Data Source</h3>
