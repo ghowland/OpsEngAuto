@@ -5,9 +5,9 @@ Total Sections: 294   Populated Sections: 43
 Current Goal: Populate Empty Sections: 251   (Done: 14.6%)
 
 
-Lines: 1758
+Lines: 1760
 
-Words: 29868
+Words: 29885
 
 
 # Chapter 1: Preface
@@ -1705,6 +1705,8 @@ We would have to specify the entire code, every line, and it would need to be id
 Taking this into account, maybe my example using 0.75 for that level of specificity isn't nearly detailed or specific enough, but on first introduction 0.75 sounds like "pretty specific", where 0.5 sounds "half specific, half vague", and I wanted to be detailed enough to get real implementation points across.  Only after thinking about what 100% Specificity would really mean does 0.75 seem too high.  <br>
 <br>
 This is yet another tool for performing evaluations, by making one example, and rating it, and then making another (or a series of others) example, and rating that, and going back and re-rating the first example, then the second again, and finally creating examples of the most extreme situation you can imagine at both ends of the spectrum (being 0.0 and 1.0), and then re-evaluating the middle ones again.  This is a method for getting a numeric sense of an information space.<br>
+<br>
+So, these are 2 more tools we can use in the future to discuss problems in a <br>
 <br>
 But where we're we?  Oh, yes!  Humans!<br>
 <br>
