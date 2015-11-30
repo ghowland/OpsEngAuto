@@ -5,9 +5,9 @@ Total Sections: 294   Populated Sections: 38
 Current Goal: Populate Empty Sections: 256   (Done: 12.9%)
 
 
-Lines: 1524
+Lines: 1540
 
-Words: 26381
+Words: 26688
 
 
 # Chapter 1: Preface
@@ -1472,6 +1472,22 @@ It is a shared problem with between the two, because the Data contains valid dat
 There are many ways to approach this problem.  Databases frequently have code that you can put into the database to execute at certain times, which could validate the values and enforce only numbers 0-100 are put in them.<br>
 <br>
 There are some problems with this, in the long term you have probably tied yourself to this database platform for a very long time, whether you want to be or not, because after all of that Logic is put into the database to validate the Data, it would take a large effort to re-create it all correctly in another database's methods, and those methods may not be fully compatible, in that you can't do everything in the target database that you could do in the original database.<br>
+<br>
+That is a manageable problem, however, as it deals with timescales of years, and is likely worth of the cost-benefit tradeoff.<br>
+<br>
+However, there is another problem is that now you are putting Logic into your Data.  We know that Data is Knowable, and Logic is Unknowable, and when you put an Unknowable into your Knowable, the result is that you end up with an Unknowable.<br>
+<br>
+We have just transformed our safe-space of Data into an un-safe space, because now we have custom Logic in there as well.  So we do not have anywhere that is just Data.<br>
+<br>
+This is a huge problem as we will never be able to be assured that the Data we are accessing is going to be accessed correctly.  <br>
+<br>
+To take our "X=5" type example, if we have a field "X" in a database table, and we have Logic running in that database, it is possible that as we test and modify that "X" field, the Logic will be invoked, and it could change the results.<br>
+<br>
+With this being the case, we can no longer trust that we set "X=5" and then we test "X > 4" (X is greater than 4), and we receive a positive.<br>
+<br>
+The Logic may have silently changed X to 4, because it had a constraint that we did or didn't know about at some point, and now we do 2 steps in a row, where we assume success is guaranteed, and we end up with failure.<br>
+<br>
+This is a large problem.  Another issue that we deal with is that writing Logic for databases is not as manageable over time as writing Logic in other platforms, such as directly for execution or interpretation in an operating system.  That is because database's purposes are to serve data, and so they do not get "best of breed" software development environments.<br>
 <h3 id=9ea896216c817034b6d3858d8f934e34><a href="#9ea896216c817034b6d3858d8f934e34">2.6.6</a>: Knowability</h3>
 <h3 id=e2a0bb61f2d74d70b31bf533e2b1c260><a href="#e2a0bb61f2d74d70b31bf533e2b1c260">2.6.7</a>: Class of Work: a specific type of work that is done, may be domain specific or general across the company</h3>
 <h3 id=e51fd2df5fa27c89dbb16625df6ec6b6><a href="#e51fd2df5fa27c89dbb16625df6ec6b6">2.6.8</a>: Data Source</h3>

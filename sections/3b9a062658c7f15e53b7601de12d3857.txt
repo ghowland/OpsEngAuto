@@ -38,3 +38,19 @@ There are many ways to approach this problem.  Databases frequently have code th
 
 There are some problems with this, in the long term you have probably tied yourself to this database platform for a very long time, whether you want to be or not, because after all of that Logic is put into the database to validate the Data, it would take a large effort to re-create it all correctly in another database's methods, and those methods may not be fully compatible, in that you can't do everything in the target database that you could do in the original database.
 
+That is a manageable problem, however, as it deals with timescales of years, and is likely worth of the cost-benefit tradeoff.
+
+However, there is another problem is that now you are putting Logic into your Data.  We know that Data is Knowable, and Logic is Unknowable, and when you put an Unknowable into your Knowable, the result is that you end up with an Unknowable.
+
+We have just transformed our safe-space of Data into an un-safe space, because now we have custom Logic in there as well.  So we do not have anywhere that is just Data.
+
+This is a huge problem as we will never be able to be assured that the Data we are accessing is going to be accessed correctly.  
+
+To take our "X=5" type example, if we have a field "X" in a database table, and we have Logic running in that database, it is possible that as we test and modify that "X" field, the Logic will be invoked, and it could change the results.
+
+With this being the case, we can no longer trust that we set "X=5" and then we test "X > 4" (X is greater than 4), and we receive a positive.
+
+The Logic may have silently changed X to 4, because it had a constraint that we did or didn't know about at some point, and now we do 2 steps in a row, where we assume success is guaranteed, and we end up with failure.
+
+This is a large problem.  Another issue that we deal with is that writing Logic for databases is not as manageable over time as writing Logic in other platforms, such as directly for execution or interpretation in an operating system.  That is because database's purposes are to serve data, and so they do not get "best of breed" software development environments.
+
