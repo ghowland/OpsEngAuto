@@ -14,4 +14,16 @@ Another Knowable thing about Data, is that if you have these constraints active,
 
 There are some operations, such as dumping data and mass-importing it, that can cause these checks to be turned off, so be careful when you do this to do everything that is involved at the same time (all tables that reference each other), to ensure that you have not imported things into an inconsistent state.
 
+We've now covered that Data can have an additional area of Knowability.  How does this relate to Logic?
 
+Well, it turns out this is another area where Logic provides a fundamental weakness, and in a way that is Unknowable.
+
+You can have perfectly consistent and correct Data, with all constraints active, and have Logic that works perfectly well with all of the current data.
+
+And then you can make a change to that Data, which does not violate any of the comprehensive validation tests, and yet afterwards the Logic fails against the Data.  How?
+
+Logic is not actually tied to Data in that same way that Data can be tied to itself.  In a database, let's use an abstract general SQL database with transactions for this case, we can insert a row into database table, that is perfectly valid, and all the tests are made in the transactional commit process, and the data is put through correctly.
+
+When the Logic next tries to access this data, it finds the new table row, and it goes about it's normal logic, which has always worked before, but this time the data it receives is not something the Logic accounted for.
+
+Say you have a field that is an unsigned int(11), 
