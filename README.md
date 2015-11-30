@@ -5,9 +5,9 @@ Total Sections: 293   Populated Sections: 36
 Current Goal: Populate Empty Sections: 257   (Done: 12.3%)
 
 
-Lines: 1438
+Lines: 1445
 
-Words: 24957
+Words: 25002
 
 
 # Chapter 1: Preface
@@ -1376,14 +1376,21 @@ So, that would look like:<br>
 <br>
 I leave off calling them directly Knowable and Unknowable, because Logic can be tricky, and there can be tricky things done inside logic, and perhaps in some circumstances this means that variables are not completely knowable, and there might be circumstances where we have a high confidence that a program will halt, like this pseudo-code:<br>
 <br>
+{{ start_code }}<br>
 main()<br>
 {<br>
   return 1;<br>
 }<br>
+{{ end_code }}<br>
 <br>
 We can be reasonably sure that if this program compiles, and there are not problems with dynamically linked libraries, and there are not somehow crazy macros in the white space or brackets, that this program will eventually stop running.<br>
 <br>
-This tells us another Knowlable property of Logic, which is that it is very complex, and can be<br>
+This tells us another Knowable property of Logic, which is that it is very complex, and can have obscured meaning.<br>
+<br>
+Take for example this Python code snippet which uses a Decorator.  It's OK if you don't know Python or aren't familiar with Decorators, because it's just an example and I'll explain my meaning of it.<br>
+<br>
+"""<br>
+"""<br>
 <p id=99b45325e58458c65965de974e2f7dc2><b><a href="#99b45325e58458c65965de974e2f7dc2">2.6.5.1.2.2</a>: This difference also tells us why Data is more important than Logic, because Data is more trustworthy than Logic.  When making changes to data, the changes are straight-forward to understand, when making changes to Logic, the side-effects (unintended consequences) can be far-reaching and completely not understandable, and frequently enough are this way.</b></p>
 <p id=3b9a062658c7f15e53b7601de12d3857><b><a href="#3b9a062658c7f15e53b7601de12d3857">2.6.5.1.2.2.1</a>: Changes to data, that meets constraints, will not harm other data, but can harm Logic that acts on the data (results of Logic, rather)</b></p>
 <h3 id=e2a0bb61f2d74d70b31bf533e2b1c260><a href="#e2a0bb61f2d74d70b31bf533e2b1c260">2.6.6</a>: Class of Work: a specific type of work that is done, may be domain specific or general across the company</h3>
