@@ -1,3 +1,9 @@
 ### [[2.5.5.3.2: Can know everything about Virtual (Logic/Data), because they are limited, and they are fully contained and inspectable.]]
 
+In the last section we learned that there are things we cannot know, or know with full accuracy about Real things.  Their very nature means that they are not fully knowable, but we can know enough about them to make use of them effectively, and have a long history of doing so.
 
+How do Virtual things align on this same spectrum of "knowability"?
+
+Some Virtual things can be completely known.  Other Virtual things remain unknowable.
+
+Take for example t
