@@ -5,9 +5,9 @@ Total Sections: 294   Populated Sections: 42
 Current Goal: Populate Empty Sections: 252   (Done: 14.3%)
 
 
-Lines: 1669
+Lines: 1673
 
-Words: 28451
+Words: 28494
 
 
 # Chapter 1: Preface
@@ -1621,6 +1621,10 @@ Or, it could be in a cloud or managed hosting environment, in which you mostly m
 It doesn't matter what exactly the circumstances of your "Production" are, you should be aware of what it is, and how it is treated different than other areas of your organization.<br>
 <br>
 Thing's in Production should be the most important things, and not intermingled with devices or services which are not of the same critical importance.  Sometimes sharing of environmental space will have to occur, but this should be minimized, and remedied once it is possible to do so.<br>
+<br>
+The Production environment should have the highest levels of security, where only authorized personnel are allowed to access the server instances, and every login and preferably every command issued is logged, for auditing purposes.<br>
+<br>
+This follows the "AAA" process of: Authenticate, Authorize, Audit.<br>
 <h3 id=85f5ad95d9e4d6cd51f782e15b9a380d><a href="#85f5ad95d9e4d6cd51f782e15b9a380d">2.6.10</a>: Staging Environment</h3>
 <h3 id=42913fa225b25b38eee2478890c7cdc9><a href="#42913fa225b25b38eee2478890c7cdc9">2.6.11</a>: QA Environment</h3>
 <h3 id=e51f755569b88937197a5286a282bf76><a href="#e51f755569b88937197a5286a282bf76">2.6.12</a>: Performance Bench Testing Environment</h3>
