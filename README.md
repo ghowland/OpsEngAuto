@@ -1,13 +1,13 @@
 # Operations: Engineering and Automation
 
 
-Total Sections: 294   Populated Sections: 42
-Current Goal: Populate Empty Sections: 252   (Done: 14.3%)
+Total Sections: 294   Populated Sections: 43
+Current Goal: Populate Empty Sections: 251   (Done: 14.6%)
 
 
-Lines: 1684
+Lines: 1696
 
-Words: 28540
+Words: 28761
 
 
 # Chapter 1: Preface
@@ -1641,6 +1641,18 @@ There is a fourth "A" that be added {{ todo_forgot_what_this_is_tempoarily_but_i
 <h3 id=e51f755569b88937197a5286a282bf76><a href="#e51f755569b88937197a5286a282bf76">2.6.12</a>: Performance Bench Testing Environment</h3>
 <h3 id=d1a4f057af493912852ac12fc03ca9b3><a href="#d1a4f057af493912852ac12fc03ca9b3">2.6.13</a>: Corporate Environment</h3>
 <h3 id=3d2ece14db911afb11e032b9c3c646b7><a href="#3d2ece14db911afb11e032b9c3c646b7">2.6.14</a>: Humans</h3>
+<br>
+It feels a bit weird when I say or write "Humans", as it's strangely impersonalizing to everyone, I feel.  However, it is conveniently clear to differentiate not only from "Not Human", or "Logic Based" or "Software" or whatever, but also clear in the sense that I am not speaking casually about people, but specifically about the type of effects that Humans cause.<br>
+<br>
+We generalize about "people" all the time, different groups of them, to have any sort of discussion.  Sentences can only carry so much information in them at any given time, because words only have so much meaning, and a word is composed of syllables, and those take time to write or say, and they have to be done sequentially, the syllables cannot be written or said simultaneously to be more efficient, and so generalizing or summarization is required.<br>
+<br>
+Without summarization and generalization, we would spend so much time getting to the point, by being maximally specific in every detail, much in the way I am doing right now, that we would just not get to the point, and all communication would cease to function.<br>
+<br>
+Shouldn't there be a spectrum for this?  Let's make one:<br>
+<br>
+Specificity  <----->  Generalization<br>
+<br>
+Now we have an axis on which we can slide a variable across, to be more or less specific, and it can<br>
 <h2 id=af1f8c9950e296d130a668076e4ba88b><a href="#af1f8c9950e296d130a668076e4ba88b">2.7</a>: The Philosophy of Pragmatism</h2>
 <h3 id=ecb2f6533d02864a3355571f4e7d17b7><a href="#ecb2f6533d02864a3355571f4e7d17b7">2.7.1</a>: It doens't mean practical, or common sense.  It is specific to the effects, and nothing else.</h3>
 <p id=c88a8c2a472464982c2f1601901f744d><b><a href="#c88a8c2a472464982c2f1601901f744d">2.7.1.1</a>: Deal with ONLY effecs.  No side effects.</b></p>
