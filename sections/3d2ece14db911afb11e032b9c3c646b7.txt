@@ -54,6 +54,7 @@ In this case we would be 100% Generic, but we still have to say something releva
 This database handles requests in Transactions, and writes them to a journal file, but flushes only periodically, so Transactions may be lost on power failure.
 {{ end_quote }}
 
+This gets across the idea of 
 
 What if we had a Specific value of 1.0, instead of 0.75?
 
