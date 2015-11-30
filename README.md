@@ -7,7 +7,7 @@ Current Goal: Populate Empty Sections: 261   (Done: 10.9%)
 
 Lines: 1326
 
-Words: 23375
+Words: 23379
 
 
 # Chapter 1: Preface
@@ -1267,7 +1267,7 @@ I will cover this concept in full detail later on, because it is critical to und
 <br>
 I won't go through the explanation that I made in {{ section_ff17d94c0d49aab3e372e47b64b96ea7 }} again here, as I think we covered the differences between what I meant by real and un-real, or virtual there.<br>
 <br>
-I'll just say that like other this-book-only terms, I will be using Real and Virtual as proper nouns to describe things I<br>
+I'll just say that like other this-book-only terms, I will be using Real and Virtual as proper nouns to describe things I mean to be having<br>
 <p id=d997d62bdfc3a11ce132fe5aade05eaa><b><a href="#d997d62bdfc3a11ce132fe5aade05eaa">2.6.5.1</a>: Physical</b></p>
 <p id=90c9825a0f594625107fd59419c3f079><b><a href="#90c9825a0f594625107fd59419c3f079">2.6.5.1.1</a>: Matter, Eletricity</b></p>
 <p id=f94e13d4b8fcbb599dc285bff7bdb543><b><a href="#f94e13d4b8fcbb599dc285bff7bdb543">2.6.5.2</a>: Virtual:</b></p>
