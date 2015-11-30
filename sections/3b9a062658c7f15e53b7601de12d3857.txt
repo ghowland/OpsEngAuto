@@ -52,5 +52,7 @@ With this being the case, we can no longer trust that we set "X=5" and then we t
 
 The Logic may have silently changed X to 4, because it had a constraint that we did or didn't know about at some point, and now we do 2 steps in a row, where we assume success is guaranteed, and we end up with failure.
 
-This is a large problem.  Another issue that we deal with is that writing Logic for databases is not as manageable over time as writing Logic in other platforms, such as directly for execution or interpretation in an operating system.  That is because database's purposes are to serve data, and so they do not get "best of breed" software development environments.
+This is a large problem.  
+
+Another issue that we deal with is that writing Logic for databases is not as manageable over time as writing Logic in other platforms, such as directly for execution or interpretation in an operating system.  That is because database's purposes are to serve data, and so they do not get "best of breed" software development environments.
 
