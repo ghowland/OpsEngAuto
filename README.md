@@ -5,9 +5,9 @@ Total Sections: 294   Populated Sections: 38
 Current Goal: Populate Empty Sections: 256   (Done: 12.9%)
 
 
-Lines: 1498
+Lines: 1500
 
-Words: 25838
+Words: 25904
 
 
 # Chapter 1: Preface
@@ -1445,7 +1445,9 @@ If you find yourself in a place where constraints are causing a real performance
 <br>
 For the areas where data constraints are turned off, you must be especially careful when making changes to this data not to lose any of the referential integrity that the constraints would have provided, with your own changes via Logic, or in unfortunate times when you manually update the database (which you should try to never, ever do).<br>
 <br>
-Another Knowable thing about Data, is that if you have these constraints active, then you can Know that<br>
+Another Knowable thing about Data, is that if you have these constraints active, then you can Know that the data is correctly configured, and it's referential integrity is consistent.<br>
+<br>
+There are some operations, such as dumping data and mass-importing it, that can cause these checks to be turned off, so be careful when you do this to do everything that is involved at the same time (all tables that reference each other), to ensure that you have not imported things into an inconsistent state.<br>
 <h3 id=9ea896216c817034b6d3858d8f934e34><a href="#9ea896216c817034b6d3858d8f934e34">2.6.6</a>: Knowability</h3>
 <h3 id=e2a0bb61f2d74d70b31bf533e2b1c260><a href="#e2a0bb61f2d74d70b31bf533e2b1c260">2.6.7</a>: Class of Work: a specific type of work that is done, may be domain specific or general across the company</h3>
 <h3 id=e51fd2df5fa27c89dbb16625df6ec6b6><a href="#e51fd2df5fa27c89dbb16625df6ec6b6">2.6.8</a>: Data Source</h3>
