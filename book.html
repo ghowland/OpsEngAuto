@@ -3,9 +3,9 @@ Total Sections: 294   Populated Sections: 38
 Current Goal: Populate Empty Sections: 256   (Done: 12.9%)
 <br>
 <br>
-Lines: 1514<br>
+Lines: 1524<br>
 <br>
-Words: 26118<br>
+Words: 26338<br>
 <br>
 <h1 id=48152466029dfcb314ccad4d502d1a73><a href="#48152466029dfcb314ccad4d502d1a73">Chapter 1</a>: Preface</h1>
 <br>
@@ -1431,7 +1431,17 @@ Logic is not actually tied to Data in that same way that Data can be tied to its
 <br>
 When the Logic next tries to access this data, it finds the new table row, and it goes about it's normal logic, which has always worked before, but this time the data it receives is not something the Logic accounted for.<br>
 <br>
-Say you have a field that is an unsigned int(11), so it goes from 0 to<br>
+Say you have a field that is an unsigned integer, so it goes from 0 to some very large amount (it depends on implementation, so I will leave it vague), and the Logic expects that this data is in the range of 0 to 100.<br>
+<br>
+If the data entered is actually 5000, and the Logic expected it to never be more than 100, then the Logic will do something incorrect, perhaps making something that shouldn't be 50 times larger, such as memory allocations of a Java Virtual Machine, which might fail and cause a service to not start on the next attempt.<br>
+<br>
+Whose problem is this, Data or Logic?<br>
+<br>
+It is a shared problem with between the two, because the Data contains valid data (0 to large number), and the the Logic is only handling 0 to 100, and so a failure has been entered between the two, even though the Data is correct.<br>
+<br>
+There are many ways to approach this problem.  Databases frequently have code that you can put into the database to execute at certain times, which could validate the values and enforce only numbers 0-100 are put in them.<br>
+<br>
+There are some problems with this, in the long term you have probably tied yourself to this database platform for a very long time, whether you want to be or not, because after all of that Logic is put into the database to validate<br>
 <h3 id=9ea896216c817034b6d3858d8f934e34><a href="#9ea896216c817034b6d3858d8f934e34">2.6.6</a>: Knowability</h3>
 <h3 id=e2a0bb61f2d74d70b31bf533e2b1c260><a href="#e2a0bb61f2d74d70b31bf533e2b1c260">2.6.7</a>: Class of Work: a specific type of work that is done, may be domain specific or general across the company</h3>
 <h3 id=e51fd2df5fa27c89dbb16625df6ec6b6><a href="#e51fd2df5fa27c89dbb16625df6ec6b6">2.6.8</a>: Data Source</h3>

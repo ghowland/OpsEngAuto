@@ -26,4 +26,14 @@ Logic is not actually tied to Data in that same way that Data can be tied to its
 
 When the Logic next tries to access this data, it finds the new table row, and it goes about it's normal logic, which has always worked before, but this time the data it receives is not something the Logic accounted for.
 
-Say you have a field that is an unsigned int(11), so it goes from 0 to 
+Say you have a field that is an unsigned integer, so it goes from 0 to some very large amount (it depends on implementation, so I will leave it vague), and the Logic expects that this data is in the range of 0 to 100.
+
+If the data entered is actually 5000, and the Logic expected it to never be more than 100, then the Logic will do something incorrect, perhaps making something that shouldn't be 50 times larger, such as memory allocations of a Java Virtual Machine, which might fail and cause a service to not start on the next attempt.
+
+Whose problem is this, Data or Logic?
+
+It is a shared problem with between the two, because the Data contains valid data (0 to large number), and the the Logic is only handling 0 to 100, and so a failure has been entered between the two, even though the Data is correct.
+
+There are many ways to approach this problem.  Databases frequently have code that you can put into the database to execute at certain times, which could validate the values and enforce only numbers 0-100 are put in them.
+
+There are some problems with this, in the long term you have probably tied yourself to this database platform for a very long time, whether you want to be or not, because after all of that Logic is put into the database to validate 
