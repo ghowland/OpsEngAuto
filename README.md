@@ -5,9 +5,9 @@ Total Sections: 293   Populated Sections: 37
 Current Goal: Populate Empty Sections: 256   (Done: 12.6%)
 
 
-Lines: 1478
+Lines: 1482
 
-Words: 25320
+Words: 25372
 
 
 # Chapter 1: Preface
@@ -1425,6 +1425,10 @@ This is another aspect of Logic's being on the Unknowable side of the spectrum, 
 Now that we have established that collectively, Virtual Data, which I will just call Data, since it is always Virtual, is Knowable.<br>
 <br>
 And we have established that collectively Logic is Unknowable, even though components of it may be knowable, we can use this information to set up a hierarchy, which we can use to build more robust engineering solutions.<br>
+<br>
+If Data is Knowable, and Logic is Knowable, then we should base our actions on our Data, and treat that as the supreme truth.  Our Logic is not less important because of this, as it serves the same role as it would if Logic was King, and reigned supreme over Data.<br>
+<br>
+However,<br>
 <p id=3b9a062658c7f15e53b7601de12d3857><b><a href="#3b9a062658c7f15e53b7601de12d3857">2.6.5.1.2.2.1</a>: Changes to data, that meets constraints, will not harm other data, but can harm Logic that acts on the data (results of Logic, rather)</b></p>
 <h3 id=e2a0bb61f2d74d70b31bf533e2b1c260><a href="#e2a0bb61f2d74d70b31bf533e2b1c260">2.6.6</a>: Class of Work: a specific type of work that is done, may be domain specific or general across the company</h3>
 <h3 id=e51fd2df5fa27c89dbb16625df6ec6b6><a href="#e51fd2df5fa27c89dbb16625df6ec6b6">2.6.7</a>: Data Source</h3>
