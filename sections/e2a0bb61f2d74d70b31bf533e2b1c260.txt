@@ -39,3 +39,19 @@ If a line that used to exist was removed, then very shortly afterwards services 
 
 These problems are usually caught quickly, as things will fail and alert, if monitoring is set up properly, but there was just an outage, and revenue may have been lost, or other negative consequences for an organization.
 
+Humans making manual entry mistakes are simply unavoidable.  As the population of humans doing manual work increases, and the amount of work each human does increases, so will the amount of failures.
+
+Some failures only show up when multiple mistakes occur, so the original set-up problem may have occurred days, weeks or months before, but the secondary mistake triggers that mistake, making it very difficult to troubleshoot.
+
+The "second mistake" may not have even been a mistake at all, and on inspection it is found that it looks correct, so it is put back in, and the failure occurs again.  
+
+This is a component of Alignment, which I mentioned in the beginning of the book, but we haven't referenced in a while.
+
+The Alignment in question for our original "DNS zone entry is removed" is this:
+
+- A service, say a web server, references a database by DNS name, and is live and working
+
+- A person makes a change to the Zone file, removing the database name, but leaving the zone file in a valid state in terms of validation
+
+- The zone file is loaded and replicated, and the web server cannot reach the database.  An outage has begun.
+

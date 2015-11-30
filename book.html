@@ -3,9 +3,9 @@ Total Sections: 294   Populated Sections: 40
 Current Goal: Populate Empty Sections: 254   (Done: 13.6%)
 <br>
 <br>
-Lines: 1597<br>
+Lines: 1613<br>
 <br>
-Words: 27320<br>
+Words: 27521<br>
 <br>
 <h1 id=48152466029dfcb314ccad4d502d1a73><a href="#48152466029dfcb314ccad4d502d1a73">Chapter 1</a>: Preface</h1>
 <br>
@@ -1517,6 +1517,22 @@ A larger problem is that people can type things incorrectly, and while the valid
 If a line that used to exist was removed, then very shortly afterwards services that referred to that previously-existing DNS name will start to fail, as the name no longer resolves.<br>
 <br>
 These problems are usually caught quickly, as things will fail and alert, if monitoring is set up properly, but there was just an outage, and revenue may have been lost, or other negative consequences for an organization.<br>
+<br>
+Humans making manual entry mistakes are simply unavoidable.  As the population of humans doing manual work increases, and the amount of work each human does increases, so will the amount of failures.<br>
+<br>
+Some failures only show up when multiple mistakes occur, so the original set-up problem may have occurred days, weeks or months before, but the secondary mistake triggers that mistake, making it very difficult to troubleshoot.<br>
+<br>
+The "second mistake" may not have even been a mistake at all, and on inspection it is found that it looks correct, so it is put back in, and the failure occurs again.  <br>
+<br>
+This is a component of Alignment, which I mentioned in the beginning of the book, but we haven't referenced in a while.<br>
+<br>
+The Alignment in question for our original "DNS zone entry is removed" is this:<br>
+<br>
+- A service, say a web server, references a database by DNS name, and is live and working<br>
+<br>
+- A person makes a change to the Zone file, removing the database name, but leaving the zone file in a valid state in terms of validation<br>
+<br>
+- The zone file is loaded and replicated, and the web server cannot reach the database.  An outage has begun.<br>
 <h3 id=e51fd2df5fa27c89dbb16625df6ec6b6><a href="#e51fd2df5fa27c89dbb16625df6ec6b6">2.6.8</a>: Data Source</h3>
 <h3 id=2880d6cb6fe0e0528df63476d031e45e><a href="#2880d6cb6fe0e0528df63476d031e45e">2.6.9</a>: Production Environment</h3>
 <h3 id=85f5ad95d9e4d6cd51f782e15b9a380d><a href="#85f5ad95d9e4d6cd51f782e15b9a380d">2.6.10</a>: Staging Environment</h3>
