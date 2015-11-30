@@ -9,6 +9,9 @@ The Data Source may be persistent, or it may be temporary (such as Javascript da
 Some qualities of a Data Source:
 
 - Access to data.  Get it, set it.  This is mandatory, all others are optional.
+
+- Constraints on the structure of the data (such as not being able to insert arbitrary fields).  This would be a strict schema.
+
 - 
 
 

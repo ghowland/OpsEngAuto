@@ -5,9 +5,9 @@ Total Sections: 294   Populated Sections: 41
 Current Goal: Populate Empty Sections: 253   (Done: 13.9%)
 
 
-Lines: 1637
+Lines: 1640
 
-Words: 27761
+Words: 27784
 
 
 # Chapter 1: Preface
@@ -1584,6 +1584,9 @@ The Data Source may be persistent, or it may be temporary (such as Javascript da
 Some qualities of a Data Source:<br>
 <br>
 - Access to data.  Get it, set it.  This is mandatory, all others are optional.<br>
+<br>
+- Constraints on the structure of the data (such as not being able to insert arbitrary fields).  This would be a strict schema.<br>
+<br>
 - <br>
 <br>
 <br>
