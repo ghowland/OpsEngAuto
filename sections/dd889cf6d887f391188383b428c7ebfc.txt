@@ -51,7 +51,18 @@ However, there is a Decorator to this function call "HelloWorldDecorator", which
 Let's look at the decorator code I have created:
 
 {{ start_code }}
-@HelloWorldDecorator
-def HelloWorldFunction():
-    return 'Hello World!'
+# Decorator
+def HelloWorldDecorator(function_reference):
+    def DecoratorInside():
+        # Call the Function we are wrapping
+        intitial_result = function_reference()
+        
+        return intitial_result.replace('Hello', 'Goodbye')
+    
+    return DecoratorInside
 {{ end_code }}
+
+The decorator code creates the required wrapper for the functions, as that is what decorators do in Python, and it calls the function reference, but instead of simply returning the result, as if we had called the code without a decorator, it modifies the result.
+
+It replaces the string "Hello" with "Goodbye", so we get a very different result of the "Goodbye World!" string being returned, changing our peppy introductory function into something much darker.
+
