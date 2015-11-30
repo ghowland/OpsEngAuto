@@ -5,9 +5,9 @@ Total Sections: 294   Populated Sections: 43
 Current Goal: Populate Empty Sections: 251   (Done: 14.6%)
 
 
-Lines: 1715
+Lines: 1720
 
-Words: 29221
+Words: 29307
 
 
 # Chapter 1: Preface
@@ -1671,7 +1671,12 @@ If you are familiar with any sort of procedural generation, this yields the same
 <br>
 In the same way, this generative tool of mapping axes to an information space, and then using your own understanding of that space to extrapolate what text would describe that point in those axes' space.  Let's do it.<br>
 <br>
-For the Atomicity value, let's say on a scale of 1.0 (Atomic) to 0.0 (Not Atomic) we have an Atomicity value of 0.25, or not very Atomic, but having some Atomic characterics<br>
+For the Atomicity value, let's say on a scale of 1.0 (Atomic) to 0.0 (Not Atomic), we have an Atomicity value of 0.25, or not very Atomic, but having some Atomic characterics.  <br>
+<br>
+Then let's say on the Specificity scale of 1.0 (Specific) to 0.0 (General), we have an Specificity value of 0.75, or fairly specific.<br>
+<br>
+<br>
+If we had a Specific value of 1.0, we would have to specify the entire code, every line, and it would need to be idealistically correct (or actual implementation), and we would have to specify all environment requirements.  Why?  Because we are 100% Specificity at 1.0.  This means absolutely everything must be specified, if this spectrum or axis is to have real meaning.<br>
 <h2 id=af1f8c9950e296d130a668076e4ba88b><a href="#af1f8c9950e296d130a668076e4ba88b">2.7</a>: The Philosophy of Pragmatism</h2>
 <h3 id=ecb2f6533d02864a3355571f4e7d17b7><a href="#ecb2f6533d02864a3355571f4e7d17b7">2.7.1</a>: It doens't mean practical, or common sense.  It is specific to the effects, and nothing else.</h3>
 <p id=c88a8c2a472464982c2f1601901f744d><b><a href="#c88a8c2a472464982c2f1601901f744d">2.7.1.1</a>: Deal with ONLY effecs.  No side effects.</b></p>
