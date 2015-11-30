@@ -5,9 +5,9 @@ Total Sections: 294   Populated Sections: 42
 Current Goal: Populate Empty Sections: 252   (Done: 14.3%)
 
 
-Lines: 1677
+Lines: 1684
 
-Words: 28506
+Words: 28540
 
 
 # Chapter 1: Preface
@@ -1626,7 +1626,14 @@ The Production environment should have the highest levels of security, where onl
 <br>
 This follows the "AAA" process of: Authenticate, Authorize, Audit.<br>
 <br>
-Authentication<br>
+In brief:<br>
+<br>
+Authentication is determining who someone is.<br>
+<br>
+Authorization is determining if they are allowed to do what they are trying to do.<br>
+<br>
+Auditing is logging everything that happens, so that it can be reviewed.<br>
+<br>
 <br>
 There is a fourth "A" that be added {{ todo_forgot_what_this_is_tempoarily_but_i_wrote_about_it_years_ago }}<br>
 <h3 id=85f5ad95d9e4d6cd51f782e15b9a380d><a href="#85f5ad95d9e4d6cd51f782e15b9a380d">2.6.10</a>: Staging Environment</h3>
