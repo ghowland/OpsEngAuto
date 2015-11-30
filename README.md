@@ -7,7 +7,7 @@ Current Goal: Populate Empty Sections: 251   (Done: 14.6%)
 
 Lines: 1764
 
-Words: 29952
+Words: 29969
 
 
 # Chapter 1: Preface
@@ -1671,7 +1671,7 @@ If you are familiar with any sort of procedural generation, this yields the same
 <br>
 In the same way, this generative tool of mapping axes to an information space, and then using your own understanding of that space to extrapolate what text would describe that point in those axes' space.  <br>
 <br>
-This is actually the exact same technique I am using to write this book, as I have broken up the information space I am trying to cover into both a linear (sequential) flow (chapters), and <br>
+This is actually the exact same technique I am using to write this book, as I have broken up the information space I am trying to cover into both a linear (sequential) flow (chapters), and then assigning various variables (in the forms of words in the topics) to create each chapter's text.<br>
 <br>
 Let's do it:<br>
 <br>
