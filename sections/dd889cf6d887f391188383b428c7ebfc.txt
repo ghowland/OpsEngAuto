@@ -38,5 +38,9 @@ This tells us another Knowable property of Logic, which is that it is very compl
 
 Take for example this Python code snippet which uses a Decorator.  It's OK if you don't know Python or aren't familiar with Decorators, because it's just an example and I'll explain my meaning of it.
 
-"""
-"""
+{{ start_code }}
+
+@doSomething
+
+
+{{ end_code }}
