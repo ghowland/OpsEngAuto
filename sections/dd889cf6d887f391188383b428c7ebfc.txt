@@ -20,5 +20,7 @@ What we need to do in this instance is simple break up what Logic is, and look a
 
 So, that would look like:
 
-- Logic: Will it ever stop running?  On the Unknowable.
-- Logic: 
+- Logic: Will it ever stop running?  On the Unknowable part of the spectrum.
+- Logic: Variables and other values?  On the Knowable part of the spectrum.
+
+I leave off calling them directly Knowable and Unknowable, because Logic can be tricky, and there can be tricky things done inside logic, and perhaps in some circumstances this means that variables are not completely knowable, and there might be 
