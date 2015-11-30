@@ -5,9 +5,9 @@ Total Sections: 294   Populated Sections: 43
 Current Goal: Populate Empty Sections: 251   (Done: 14.6%)
 
 
-Lines: 1745
+Lines: 1746
 
-Words: 29614
+Words: 29662
 
 
 # Chapter 1: Preface
@@ -1678,12 +1678,13 @@ Then let's say on the Specificity scale of 1.0 (Specific) to 0.0 (General), we h
 Because we need to be specific, I am going to make up some details about the Atomicity of the thing in question, which I will use a database for:<br>
 <br>
 {{ start_quote }}<br>
-<br>
+The database provides limited atomic transactions.  Transactions are accepted, and written into a journal file, which is flushed to disk periodically, but not in sync with the transaction being written, for performance.  The means that in certain circumstances a transaction may be partially written onto the disk.<br>
 {{ end_quote }}<br>
 <br>
 <br>
 What if we had a Specific value of 0.0, instead of 0.75?<br>
 <br>
+...<br>
 <br>
 What if we had a Specific value of 1.0, instead of 0.75?<br>
 <br>
