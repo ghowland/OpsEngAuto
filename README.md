@@ -5,9 +5,9 @@ Total Sections: 294   Populated Sections: 40
 Current Goal: Populate Empty Sections: 254   (Done: 13.6%)
 
 
-Lines: 1570
+Lines: 1586
 
-Words: 26982
+Words: 27157
 
 
 # Chapter 1: Preface
@@ -1520,6 +1520,22 @@ I initially used the example of automating the DNS zone file updating.<br>
 If you aren't familiar with DNS zone files, they are text files look like this:<br>
 <br>
 {{ example_dns_zone_file }}<br>
+<br>
+One aspect of manual workflow generally goes:<br>
+<br>
+- A new system is created, and needs a name matched to it's IP address (an address "A" record)<br>
+<br>
+- Someone goes to the server that hosts the DNS Master files (the machine people use to make edits on, and where the changes will be diseminated)<br>
+<br>
+- That add the line with the hostname fragment, and the "A" for address record, and the IP address<br>
+<br>
+- They update the serial number of the zone file (so the DNS software knows the file has been changed)<br>
+<br>
+- They test the file with the DNS software's configuration file validation<br>
+<br>
+- If the test passes, they reload the DNS zone file into the server.<br>
+<br>
+- Then they tell the Slave DNS servers (other machines that reference this Master machine's DNS service to get records), and tell them to do a zone transfer.  This might also be configured to happen automatically on the Zone file changing, through the Master DNS server's software (although there are some reliability problems with this, in practice)<br>
 <h3 id=e51fd2df5fa27c89dbb16625df6ec6b6><a href="#e51fd2df5fa27c89dbb16625df6ec6b6">2.6.8</a>: Data Source</h3>
 <h3 id=2880d6cb6fe0e0528df63476d031e45e><a href="#2880d6cb6fe0e0528df63476d031e45e">2.6.9</a>: Production Environment</h3>
 <h3 id=85f5ad95d9e4d6cd51f782e15b9a380d><a href="#85f5ad95d9e4d6cd51f782e15b9a380d">2.6.10</a>: Staging Environment</h3>
