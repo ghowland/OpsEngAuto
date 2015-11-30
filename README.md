@@ -5,9 +5,9 @@ Total Sections: 293   Populated Sections: 36
 Current Goal: Populate Empty Sections: 257   (Done: 12.3%)
 
 
-Lines: 1449
+Lines: 1452
 
-Words: 25007
+Words: 25089
 
 
 # Chapter 1: Preface
@@ -1390,11 +1390,14 @@ This tells us another Knowable property of Logic, which is that it is very compl
 Take for example this Python code snippet which uses a Decorator.  It's OK if you don't know Python or aren't familiar with Decorators, because it's just an example and I'll explain my meaning of it.<br>
 <br>
 {{ start_code }}<br>
-<br>
-@doSomething<br>
-<br>
-<br>
+@SomethingSomething<br>
+def DoSomething():<br>
+  print 'Hello world!'<br>
 {{ end_code }}<br>
+<br>
+If the "@SomethingSomething" wasn't there, this would read like a beginning Hello World! program, as when you call the DoSomething() function, it says it will print out "Hello World!".<br>
+<br>
+However, there is a Decorator to this function call "SomethingSomething", which modifies the behavior.  The decorator code may live in another file, so it may not be obvious what is happening when you simply look at the code.  You assume it's basically going to print out "Hello World!".<br>
 <p id=99b45325e58458c65965de974e2f7dc2><b><a href="#99b45325e58458c65965de974e2f7dc2">2.6.5.1.2.2</a>: This difference also tells us why Data is more important than Logic, because Data is more trustworthy than Logic.  When making changes to data, the changes are straight-forward to understand, when making changes to Logic, the side-effects (unintended consequences) can be far-reaching and completely not understandable, and frequently enough are this way.</b></p>
 <p id=3b9a062658c7f15e53b7601de12d3857><b><a href="#3b9a062658c7f15e53b7601de12d3857">2.6.5.1.2.2.1</a>: Changes to data, that meets constraints, will not harm other data, but can harm Logic that acts on the data (results of Logic, rather)</b></p>
 <h3 id=e2a0bb61f2d74d70b31bf533e2b1c260><a href="#e2a0bb61f2d74d70b31bf533e2b1c260">2.6.6</a>: Class of Work: a specific type of work that is done, may be domain specific or general across the company</h3>
