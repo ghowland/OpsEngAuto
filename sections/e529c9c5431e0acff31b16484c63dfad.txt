@@ -24,4 +24,6 @@ Now, let's look at a Virtual thing that is not fully knowable, we will look at t
 
 We can take the word "idea" and trace it's language roots, and compare it to other languages, and find common usage of it in popular literature, and we can ask people what it means, and in all of these things we will gain information.
 
-But, we will never know everything there is to know about the word and symbol of "idea" because it is 
+But, we will never know everything there is to know about the word and symbol of "idea" because it is not a concrete thing.  It has subjectivity and flexibility, and can be used in different ways in different circumstances.
+
+The same is true for many things.  So we have a class of Virtual things about which anything can be completely known, and another class of Virtual things about which only some 
