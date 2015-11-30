@@ -1390,9 +1390,9 @@ This tells us another Knowable property of Logic, which is that it is very compl
 Take for example this Python code snippet which uses a Decorator.  It's OK if you don't know Python or aren't familiar with Decorators, because it's just an example and I'll explain my meaning of it.<br>
 <br>
 {{ start_code }}<br>
-@SomethingSomething<br>
-def DoSomething():<br>
-  print 'Hello world!'<br>
+@HelloWorldDecorator<br>
+def HelloWorldFunction():<br>
+    return 'Hello World!'<br>
 {{ end_code }}<br>
 <br>
 If the "@SomethingSomething" wasn't there, this would read like a beginning Hello World! program, as when you call the DoSomething() function, it says it will print out "Hello World!".<br>
