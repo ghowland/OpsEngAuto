@@ -5,9 +5,9 @@ Total Sections: 294   Populated Sections: 41
 Current Goal: Populate Empty Sections: 253   (Done: 13.9%)
 
 
-Lines: 1640
+Lines: 1646
 
-Words: 27797
+Words: 27988
 
 
 # Chapter 1: Preface
@@ -1586,6 +1586,12 @@ Some qualities of a Data Source:<br>
 - Access to data.  Get it, set it.  This is mandatory, all others are optional.<br>
 <br>
 - Constraints on the structure of the data (such as not being able to insert arbitrary fields).  This would be a strict "schema" (schematic), as opposed to a "document" style which allows any type of modifications.<br>
+<br>
+- Constraints on the value of the data that is put into specific fields in the data.  For instance, in a relational database a field in table may be of type "integer" and will not allow alphabet characters, special characters, or real numbers (floating point) to be inserted.<br>
+<br>
+- Persistence, so that the data is saved, and is the power is turned off to the system where the data is, when the machine restarts the data will still be available.  There may be corruption here, unless the Data Source also offers a Consistency guarantee.<br>
+<br>
+- Consistency.  Ensures that the data does not become corrupted in any failure situations.  These situations might be the program being terminated un-cleanly, and it might use something like a journal to keep track of previous changes, and will replay this journal to ensure that recently changed data is the same as in the journal.  To be safe, the journal is written to and flushed to disk before the changes are made in the database, so if anything the internal database data is consistent with the previous changes, and only new journal entries need to be applied.<br>
 <br>
 - <br>
 <br>
