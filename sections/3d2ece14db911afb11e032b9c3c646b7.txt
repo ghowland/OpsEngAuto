@@ -50,5 +50,5 @@ This allows us to move away from our standard social communication style, and in
 
 So while it is weird to type and say, it has a benefit for clarity, which is an important attribute of Engineering.
 
-Also, it will make it easier to relate to your future AI overlords, which could be auspicious.
+Also, it will make it easier to relate to your future AI overlords, which could be beneficial.
 
