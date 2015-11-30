@@ -5,9 +5,9 @@ Total Sections: 294   Populated Sections: 43
 Current Goal: Populate Empty Sections: 251   (Done: 14.6%)
 
 
-Lines: 1726
+Lines: 1732
 
-Words: 29457
+Words: 29528
 
 
 # Chapter 1: Preface
@@ -1683,6 +1683,12 @@ We would have to specify the entire code, every line, and it would need to be id
 Taking this into account, maybe my example using 0.75 for that level of specificity isn't nearly detailed or specific enough, but on first introduction 0.75 sounds like "pretty specific", where 0.5 sounds "half specific, half vague", and I wanted to be detailed enough to get real implementation points across.  Only after thinking about what 100% Specificity would really mean does 0.75 seem too high.  <br>
 <br>
 This is yet another tool for performing evaluations, by making one example, and rating it, and then making another (or a series of others) example, and rating that, and going back and re-rating the first example, then the second again, and finally creating examples of the most extreme situation you can imagine at both ends of the spectrum (being 0.0 and 1.0), and then re-evaluating the middle ones again.  This is a method for getting a numeric sense of an information space.<br>
+<br>
+But where we're we?  Oh, yes!  Humans!<br>
+<br>
+When we are having conversations like the one we are sort-of currently involved in, being specific by saying "Humans" instead of any other word allows us to understand we are using technical jargon, and we mean technical things.<br>
+<br>
+This allows us to move away from our standard social communication style, and into a technical communication style, to discuss technical points at a detailed level.<br>
 <h2 id=af1f8c9950e296d130a668076e4ba88b><a href="#af1f8c9950e296d130a668076e4ba88b">2.7</a>: The Philosophy of Pragmatism</h2>
 <h3 id=ecb2f6533d02864a3355571f4e7d17b7><a href="#ecb2f6533d02864a3355571f4e7d17b7">2.7.1</a>: It doens't mean practical, or common sense.  It is specific to the effects, and nothing else.</h3>
 <p id=c88a8c2a472464982c2f1601901f744d><b><a href="#c88a8c2a472464982c2f1601901f744d">2.7.1.1</a>: Deal with ONLY effecs.  No side effects.</b></p>
