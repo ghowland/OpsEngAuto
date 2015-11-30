@@ -18,4 +18,9 @@ We could measure the each CPU socket temperature, and the temperature near the p
 
 It happens that this is not necessarily important for our purposes, but it is important to understand and accept that this data is simply not available to us, and we have sensors in place to detect some aspects of it.
 
-Other aspects we may not have any sensors for.  For instance, mobile devices often come with accelerometers, which will detect movement of the devices.  Rack servers do not come with t
+Other aspects we may not have any sensors for.  For instance, mobile devices often come with accelerometers, which will detect movement of the devices.  Rack servers do not currently come with these sensors, and for a fairly reasonable reason, as they are not in demand.
+
+But this is one type of data that we cannot collect about this server.  It could be that the amount of vibration the servers are going through could end up causing problems over large numbers of servers, and by doing correlative analysis on part failures with vibrations, and by determining where the vibrations were worse, we could contact our data center's staff and see if they could fix the problem, as it may be an undetected problem on their part.
+
+This is a completely theoretical example, but it illustrates that there are things we know, but not completely (temperature), and there are things we do not know at all about Real things.
+

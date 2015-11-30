@@ -5,9 +5,9 @@ Total Sections: 293   Populated Sections: 34
 Current Goal: Populate Empty Sections: 259   (Done: 11.6%)
 
 
-Lines: 1352
+Lines: 1356
 
-Words: 23779
+Words: 23905
 
 
 # Chapter 1: Preface
@@ -1295,7 +1295,11 @@ We could measure the each CPU socket temperature, and the temperature near the p
 <br>
 It happens that this is not necessarily important for our purposes, but it is important to understand and accept that this data is simply not available to us, and we have sensors in place to detect some aspects of it.<br>
 <br>
-Other aspects we may not have any sensors for.  For instance, mobile devices often come with accelerometers, which will detect movement of the devices.  Rack servers do not come with t<br>
+Other aspects we may not have any sensors for.  For instance, mobile devices often come with accelerometers, which will detect movement of the devices.  Rack servers do not currently come with these sensors, and for a fairly reasonable reason, as they are not in demand.<br>
+<br>
+But this is one type of data that we cannot collect about this server.  It could be that the amount of vibration the servers are going through could end up causing problems over large numbers of servers, and by doing correlative analysis on part failures with vibrations, and by determining where the vibrations were worse, we could contact our data center's staff and see if they could fix the problem, as it may be an undetected problem on their part.<br>
+<br>
+This is a completely theoretical example, but it illustrates that there are things we know, but not completely (temperature), and there are things we do not know at all about Real things.<br>
 <p id=e529c9c5431e0acff31b16484c63dfad><b><a href="#e529c9c5431e0acff31b16484c63dfad">2.6.5.1.2</a>: Can know everything about Virtual (Logic/Data), because they are limited, and they are fully contained and inspectable.</b></p>
 <p id=dd889cf6d887f391188383b428c7ebfc><b><a href="#dd889cf6d887f391188383b428c7ebfc">2.6.5.1.2.1</a>: However, between Data and Logic is a huge gap, as Data is "perfectly" understandable, while Logic is not, due to Halting Problems and all other things CS-academia knows and describes very well.</b></p>
 <p id=99b45325e58458c65965de974e2f7dc2><b><a href="#99b45325e58458c65965de974e2f7dc2">2.6.5.1.2.2</a>: This difference also tells us why Data is more important than Logic, because Data is more trustworthy than Logic.  When making changes to data, the changes are straight-forward to understand, when making changes to Logic, the side-effects (unintended consequences) can be far-reaching and completely not understandable, and frequently enough are this way.</b></p>
