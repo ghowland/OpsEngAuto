@@ -1,3 +1,11 @@
 ### [[2.6.8: Production]]
 
+There are a couple different environments which we will be framing our discussions in, so let's get some strict definitions for them, starting with the most important, Production.
+
+The Production Environment, which I will mostly just be calling "Production", is the place that the critical operations of your organization takes place.
+
+This might be a data center that has many peered network circuits, in which you receive internet traffic and generate revenue.
+
+Or, it could be a server farm in your corporate offices, in which processing occurs, which is critical for the functioning of your organization.
+
 

@@ -1,13 +1,13 @@
 # Operations: Engineering and Automation
 
 
-Total Sections: 294   Populated Sections: 41
-Current Goal: Populate Empty Sections: 253   (Done: 13.9%)
+Total Sections: 294   Populated Sections: 42
+Current Goal: Populate Empty Sections: 252   (Done: 14.3%)
 
 
-Lines: 1655
+Lines: 1663
 
-Words: 28257
+Words: 28353
 
 
 # Chapter 1: Preface
@@ -1607,6 +1607,14 @@ Some Data Source implementations offer features that are in opposition to some o
 <br>
 {{ todo__make_more_of_these_qualities_lists_for_other_terms_and_things }}<br>
 <h3 id=2880d6cb6fe0e0528df63476d031e45e><a href="#2880d6cb6fe0e0528df63476d031e45e">2.6.9</a>: Production Environment</h3>
+<br>
+There are a couple different environments which we will be framing our discussions in, so let's get some strict definitions for them, starting with the most important, Production.<br>
+<br>
+The Production Environment, which I will mostly just be calling "Production", is the place that the critical operations of your organization takes place.<br>
+<br>
+This might be a data center that has many peered network circuits, in which you receive internet traffic and generate revenue.<br>
+<br>
+Or, it could be a server farm in your corporate offices, in which processing occurs, which is critical for the functioning of your organization.<br>
 <h3 id=85f5ad95d9e4d6cd51f782e15b9a380d><a href="#85f5ad95d9e4d6cd51f782e15b9a380d">2.6.10</a>: Staging Environment</h3>
 <h3 id=42913fa225b25b38eee2478890c7cdc9><a href="#42913fa225b25b38eee2478890c7cdc9">2.6.11</a>: QA Environment</h3>
 <h3 id=e51f755569b88937197a5286a282bf76><a href="#e51f755569b88937197a5286a282bf76">2.6.12</a>: Performance Bench Testing Environment</h3>
