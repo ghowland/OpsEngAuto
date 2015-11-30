@@ -7,7 +7,7 @@ Current Goal: Populate Empty Sections: 251   (Done: 14.6%)
 
 Lines: 1758
 
-Words: 29859
+Words: 29868
 
 
 # Chapter 1: Preface
@@ -1696,7 +1696,7 @@ In this case we would be 100% Generic, but we still have to say something releva
 This database handles requests in Transactions, and writes them to a journal file, but flushes only periodically, so Transactions may be lost on power failure.<br>
 {{ end_quote }}<br>
 <br>
-This gets across the idea of <br>
+This gets across the idea of what's going on, but is very brief about it.<br>
 <br>
 What if we had a Specific value of 1.0, instead of 0.75?<br>
 <br>
