@@ -7,7 +7,7 @@ Current Goal: Populate Empty Sections: 251   (Done: 14.6%)
 
 Lines: 1760
 
-Words: 29885
+Words: 29907
 
 
 # Chapter 1: Preface
@@ -1706,7 +1706,7 @@ Taking this into account, maybe my example using 0.75 for that level of specific
 <br>
 This is yet another tool for performing evaluations, by making one example, and rating it, and then making another (or a series of others) example, and rating that, and going back and re-rating the first example, then the second again, and finally creating examples of the most extreme situation you can imagine at both ends of the spectrum (being 0.0 and 1.0), and then re-evaluating the middle ones again.  This is a method for getting a numeric sense of an information space.<br>
 <br>
-So, these are 2 more tools we can use in the future to discuss problems in a <br>
+So, these are 2 more tools we can use in the future to discuss problems in a clear and precise manner.  Trying to get as close as we can to 1.0 specificity, without losing the ability to make progress.<br>
 <br>
 But where we're we?  Oh, yes!  Humans!<br>
 <br>
