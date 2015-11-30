@@ -8,4 +8,6 @@ In an Operational Automation environment it is likely that the data sets will st
 
 If you find yourself in a place where constraints are causing a real performance problem, and are not working, I suggest only turning off the constraints that are the problem points, and leaving the rest of them enabled.
 
-For the areas where data constraints are turned off, you must be especially careful when making changes to this data not to lose any of the referential integrity that the constraints would have provided, with your own changes.
+For the areas where data constraints are turned off, you must be especially careful when making changes to this data not to lose any of the referential integrity that the constraints would have provided, with your own changes via Logic, or in unfortunate times when you manually update the database (which you should try to never, ever do).
+
+
