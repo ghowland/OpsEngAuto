@@ -5,9 +5,9 @@ Total Sections: 294   Populated Sections: 43
 Current Goal: Populate Empty Sections: 251   (Done: 14.6%)
 
 
-Lines: 1709
+Lines: 1715
 
-Words: 29050
+Words: 29205
 
 
 # Chapter 1: Preface
@@ -1665,7 +1665,13 @@ Specificity:  Specific <---> General<br>
 <br>
 I ended up righting these "Left to Right" in terms of the subject being in a full-state, or an empty-state, but they could just as easily be written "Right to Left" (in reverse order), if it is more convenient for the problem at hand to see them in that way.  This process of ordering things as needed for the current problem is another tool that can be applied, and which has properties that can be evaluated.  For the sake of keeping up a fluid pacing for this book, I can't go into detail on each of these things as they arrive (even though I would like to).<br>
 <br>
-Now that we have these two axes, which we could use in the Cartesian coordinate system, we can<br>
+Now that we have these two axes, which we could use in the Cartesian coordinate system, we can plot a point on it, and then create text that describes that point.  This is a sort of generative tool, in which one can use one's knowledge of an information space to generate any amount of specific data.<br>
+<br>
+If you are familiar with any sort of procedural generation, this yields the same kind of effect that Perlin Noise allowed in procedural generation, in that because the pattern remained consistent whether viewed from "from away" or "up close", procedurally generated content (images, models, clouds, cities, whatever) could scale to "infinite" detail, either looking at the "big picture" or with a magnifying glass.<br>
+<br>
+In the same way, this generative tool of mapping axes to an information space, and then using your own understanding of that space to extrapolate what text would describe that point in those axes' space.  Let's do it.<br>
+<br>
+For the Atomicity value, let's say on a scale of 0.0 (Atomic) to 1.0 (Not Atomic)<br>
 <h2 id=af1f8c9950e296d130a668076e4ba88b><a href="#af1f8c9950e296d130a668076e4ba88b">2.7</a>: The Philosophy of Pragmatism</h2>
 <h3 id=ecb2f6533d02864a3355571f4e7d17b7><a href="#ecb2f6533d02864a3355571f4e7d17b7">2.7.1</a>: It doens't mean practical, or common sense.  It is specific to the effects, and nothing else.</h3>
 <p id=c88a8c2a472464982c2f1601901f744d><b><a href="#c88a8c2a472464982c2f1601901f744d">2.7.1.1</a>: Deal with ONLY effecs.  No side effects.</b></p>
