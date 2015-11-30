@@ -66,6 +66,6 @@ The decorator code creates the required wrapper for the functions, as that is wh
 
 It replaces the string "Hello" with "Goodbye", so we get the very different result of the "Goodbye World!" string being returned, changing our peppy introductory function into something much darker.
 
-This melodramatic example shows that we can see something that looks very clear in code, and yet something that does not necessarily looks like it will change the result we clearly see, in fact does change that result.
+This melodramatic example shows that we can see something that looks very clear in code, and yet something that does not necessarily looks like it will change the result we clearly see, in fact, does change that result.
 
 This is another aspect of Logic's being on the Unknowable side of the spectrum, due to it's ability to contain very high complexity.
