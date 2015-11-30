@@ -23,4 +23,13 @@ So, that would look like:
 - Logic: Will it ever stop running?  On the Unknowable part of the spectrum.
 - Logic: Variables and other values?  On the Knowable part of the spectrum.
 
-I leave off calling them directly Knowable and Unknowable, because Logic can be tricky, and there can be tricky things done inside logic, and perhaps in some circumstances this means that variables are not completely knowable, and there might be 
+I leave off calling them directly Knowable and Unknowable, because Logic can be tricky, and there can be tricky things done inside logic, and perhaps in some circumstances this means that variables are not completely knowable, and there might be circumstances where we have a high confidence that a program will halt, like this pseudo-code:
+
+main()
+{
+  return 1;
+}
+
+We can be reasonably sure that if this program compiles, and there are not problems with dynamically linked libraries, and there are not somehow crazy macros in the white space or brackets, that this program will eventually stop running.
+
+This tells us another Knowlable property of Logic, which is that it is very complex, and can be 
