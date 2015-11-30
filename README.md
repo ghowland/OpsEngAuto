@@ -5,9 +5,9 @@ Total Sections: 294   Populated Sections: 40
 Current Goal: Populate Empty Sections: 254   (Done: 13.6%)
 
 
-Lines: 1593
+Lines: 1597
 
-Words: 27247
+Words: 27320
 
 
 # Chapter 1: Preface
@@ -1542,7 +1542,11 @@ These steps might take a person 10-15 minutes to perform, on an individual basis
 <br>
 Sometimes it is a problem that people just forget to do this, although since the new machines wont have DNS names, people will only be able to reference them by IP address, so usually the problem is quickly remedied.<br>
 <br>
-A larger problem is that people can type things incorrectly, and while the validation tests find some problems, they will not find correctly formatted zone or configuration files, which<br>
+A larger problem is that people can type things incorrectly, and while the validation tests find some problems, they will not find correctly formatted zone or configuration files, which have bad data in them.<br>
+<br>
+If a line that used to exist was removed, then very shortly afterwards services that referred to that previously-existing DNS name will start to fail, as the name no longer resolves.<br>
+<br>
+These problems are usually caught quickly, as things will fail and alert, if monitoring is set up properly, but there was just an outage, and revenue may have been lost, or other negative consequences for an organization.<br>
 <h3 id=e51fd2df5fa27c89dbb16625df6ec6b6><a href="#e51fd2df5fa27c89dbb16625df6ec6b6">2.6.8</a>: Data Source</h3>
 <h3 id=2880d6cb6fe0e0528df63476d031e45e><a href="#2880d6cb6fe0e0528df63476d031e45e">2.6.9</a>: Production Environment</h3>
 <h3 id=85f5ad95d9e4d6cd51f782e15b9a380d><a href="#85f5ad95d9e4d6cd51f782e15b9a380d">2.6.10</a>: Staging Environment</h3>
