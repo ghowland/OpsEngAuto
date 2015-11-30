@@ -21,7 +21,7 @@ In fact, let's just combine some right now, and make a new tool.  We just discus
 Atomicity:  Atomic <---> Not Atomic
 Specificity:  Specific <---> General
 
-I ended up righting these "Left to Right" in terms of the subject being in a full-state, or an empty-state, but they could just as easily be written "Right to Left" (in reverse order), if it is more convenient for the problem at hand to see them in that way.  This process of ordering things as needed for the current problem is another tool that can be applied, and which has properties that can be evaluated.  For the sake of keeping up a fluid pacing for this book, I can't go into detail on each of these things as they arrive (even though I would like to: enhance, enhance, enhance).
+I ended up writing these "Left to Right" in terms of the subject being in a full-state, or an empty-state, but they could just as easily be written "Right to Left" (in reverse order), if it is more convenient for the problem at hand to see them in that way.  This process of ordering things as needed for the current problem is another tool that can be applied, and which has properties that can be evaluated.  For the sake of keeping up a fluid pacing for this book, I can't go into detail on each of these things as they arrive (even though I would like to: enhance, enhance, enhance).
 
 Now that we have these two axes, which we could use in the Cartesian coordinate system, we can plot a point on it, and then create text that describes that point.  This is a sort of generative tool, in which one can use one's knowledge of an information space to generate any amount of specific data.
 
