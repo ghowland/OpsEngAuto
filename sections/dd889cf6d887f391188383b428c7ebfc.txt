@@ -6,4 +6,19 @@ Logic, as we defined earlier, is an all-emcompassing term for anything to do wit
 
 One of the famous problems of computer science is the Halting Problem.
 
-This problem 
+This problem is essentially that is impossible to know if a program is every going to stop executing once it starts.  There is a lot of information about this problem out there, so we will just leave it with that description and realize that Logic has an Unknowable Virtual element to it.
+
+However, Logic also has many Knowable Virtual elements to it, because as in our example of "X = 5", this is a statement that can be made in Logic.
+
+Additionally, just like in our example we can use the Logic itself to inspect this, or we can externally inspect the Logic using a debugger, and we can verify the data, and it is Knowlable Virtual Data.
+
+So, while Logic contains some properties that are Unknowable (the halting problem being one example), it also contains properties that are Knowable, and the Unknowable does not stop us or hinder us in any way from gaining full access to the Knowable.  
+
+This puts Logic in a murky place on a spectrum of Knowlable to Unknowable, but that's OK!
+
+What we need to do in this instance is simple break up what Logic is, and look at each of the components on the spectrum, and we will have a correct view into it.
+
+So, that would look like:
+
+- Logic: Will it ever stop running?  On the Unknowable.
+- Logic: 

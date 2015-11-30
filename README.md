@@ -5,9 +5,9 @@ Total Sections: 293   Populated Sections: 36
 Current Goal: Populate Empty Sections: 257   (Done: 12.3%)
 
 
-Lines: 1412
+Lines: 1427
 
-Words: 24599
+Words: 24825
 
 
 # Chapter 1: Preface
@@ -1357,7 +1357,22 @@ Logic, as we defined earlier, is an all-emcompassing term for anything to do wit
 <br>
 One of the famous problems of computer science is the Halting Problem.<br>
 <br>
-This problem<br>
+This problem is essentially that is impossible to know if a program is every going to stop executing once it starts.  There is a lot of information about this problem out there, so we will just leave it with that description and realize that Logic has an Unknowable Virtual element to it.<br>
+<br>
+However, Logic also has many Knowable Virtual elements to it, because as in our example of "X = 5", this is a statement that can be made in Logic.<br>
+<br>
+Additionally, just like in our example we can use the Logic itself to inspect this, or we can externally inspect the Logic using a debugger, and we can verify the data, and it is Knowlable Virtual Data.<br>
+<br>
+So, while Logic contains some properties that are Unknowable (the halting problem being one example), it also contains properties that are Knowable, and the Unknowable does not stop us or hinder us in any way from gaining full access to the Knowable.  <br>
+<br>
+This puts Logic in a murky place on a spectrum of Knowlable to Unknowable, but that's OK!<br>
+<br>
+What we need to do in this instance is simple break up what Logic is, and look at each of the components on the spectrum, and we will have a correct view into it.<br>
+<br>
+So, that would look like:<br>
+<br>
+- Logic: Will it ever stop running?  On the Unknowable.<br>
+- Logic:<br>
 <p id=99b45325e58458c65965de974e2f7dc2><b><a href="#99b45325e58458c65965de974e2f7dc2">2.6.5.1.2.2</a>: This difference also tells us why Data is more important than Logic, because Data is more trustworthy than Logic.  When making changes to data, the changes are straight-forward to understand, when making changes to Logic, the side-effects (unintended consequences) can be far-reaching and completely not understandable, and frequently enough are this way.</b></p>
 <p id=3b9a062658c7f15e53b7601de12d3857><b><a href="#3b9a062658c7f15e53b7601de12d3857">2.6.5.1.2.2.1</a>: Changes to data, that meets constraints, will not harm other data, but can harm Logic that acts on the data (results of Logic, rather)</b></p>
 <h3 id=e2a0bb61f2d74d70b31bf533e2b1c260><a href="#e2a0bb61f2d74d70b31bf533e2b1c260">2.6.6</a>: Class of Work: a specific type of work that is done, may be domain specific or general across the company</h3>
