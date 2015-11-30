@@ -8,4 +8,7 @@ However, there is more depth we can gain from looking at it deeper.
 
 I initially used the example of automating the DNS zone file updating.
 
-If you aren't familiar with DNS zone files, they are text files
+If you aren't familiar with DNS zone files, they are text files look like this:
+
+{{ example_dns_zone_file }}
+

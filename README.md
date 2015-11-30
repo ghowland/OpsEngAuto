@@ -5,9 +5,9 @@ Total Sections: 294   Populated Sections: 40
 Current Goal: Populate Empty Sections: 254   (Done: 13.6%)
 
 
-Lines: 1568
+Lines: 1570
 
-Words: 26976
+Words: 26982
 
 
 # Chapter 1: Preface
@@ -1517,7 +1517,9 @@ However, there is more depth we can gain from looking at it deeper.<br>
 <br>
 I initially used the example of automating the DNS zone file updating.<br>
 <br>
-If you aren't familiar with DNS zone files, they are text files<br>
+If you aren't familiar with DNS zone files, they are text files look like this:<br>
+<br>
+{{ example_dns_zone_file }}<br>
 <h3 id=e51fd2df5fa27c89dbb16625df6ec6b6><a href="#e51fd2df5fa27c89dbb16625df6ec6b6">2.6.8</a>: Data Source</h3>
 <h3 id=2880d6cb6fe0e0528df63476d031e45e><a href="#2880d6cb6fe0e0528df63476d031e45e">2.6.9</a>: Production Environment</h3>
 <h3 id=85f5ad95d9e4d6cd51f782e15b9a380d><a href="#85f5ad95d9e4d6cd51f782e15b9a380d">2.6.10</a>: Staging Environment</h3>
