@@ -1,13 +1,13 @@
 # Operations: Engineering and Automation
 
 
-Total Sections: 294   Populated Sections: 38
-Current Goal: Populate Empty Sections: 256   (Done: 12.9%)
+Total Sections: 294   Populated Sections: 39
+Current Goal: Populate Empty Sections: 255   (Done: 13.3%)
 
 
-Lines: 1546
+Lines: 1558
 
-Words: 26769
+Words: 26890
 
 
 # Chapter 1: Preface
@@ -1495,6 +1495,18 @@ There are many more examples I can give on how you can have consistent Data, but
 <br>
 There are many techniques for this that we will cover once we get to implementation.<br>
 <h3 id=9ea896216c817034b6d3858d8f934e34><a href="#9ea896216c817034b6d3858d8f934e34">2.6.6</a>: Knowability</h3>
+<br>
+I didn't know this before I just looked it up, but Knowability is already a word in dictionaries, so there is not a lot of reason to cover it in depth.<br>
+<br>
+We've already been using it quite a lot, but I thought it would make sense to shortly define it.<br>
+<br>
+Knowability is a spectrum of how well you can know something, in full, at all levels.  It needs to be extreme knowledge like our "X=5" example, where we know absolutely everything about it.<br>
+<br>
+Any ambiguity or aspects that remain not-perfectly-knowable need to count against it being on the extreme side of Knowability, and more towards the side of Unknowability.<br>
+<br>
+To set up the spectrum, it looks like this:<br>
+<br>
+Unknowable  <--->  Knowable<br>
 <h3 id=e2a0bb61f2d74d70b31bf533e2b1c260><a href="#e2a0bb61f2d74d70b31bf533e2b1c260">2.6.7</a>: Class of Work: a specific type of work that is done, may be domain specific or general across the company</h3>
 <h3 id=e51fd2df5fa27c89dbb16625df6ec6b6><a href="#e51fd2df5fa27c89dbb16625df6ec6b6">2.6.8</a>: Data Source</h3>
 <h3 id=2880d6cb6fe0e0528df63476d031e45e><a href="#2880d6cb6fe0e0528df63476d031e45e">2.6.9</a>: Production Environment</h3>

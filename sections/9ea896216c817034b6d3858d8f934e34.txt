@@ -1,3 +1,13 @@
 ### [[2.6.6: Knowability]]
 
+I didn't know this before I just looked it up, but Knowability is already a word in dictionaries, so there is not a lot of reason to cover it in depth.
 
+We've already been using it quite a lot, but I thought it would make sense to shortly define it.
+
+Knowability is a spectrum of how well you can know something, in full, at all levels.  It needs to be extreme knowledge like our "X=5" example, where we know absolutely everything about it.
+
+Any ambiguity or aspects that remain not-perfectly-knowable need to count against it being on the extreme side of Knowability, and more towards the side of Unknowability.
+
+To set up the spectrum, it looks like this:
+
+Unknowable  <--->  Knowable
