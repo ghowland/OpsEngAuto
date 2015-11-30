@@ -18,5 +18,10 @@ We can be extremely specific in our discussion of Atomicity, or we can be extrem
 
 In fact, let's just combine some right now, and make a new tool.  We just discussed "Atomicity" as a topic, on the spectrum/axis of Specificity <--> Generalization.  Let's combine the Atomicity scale and the Specificity scale together, and create a topic based on the two dimensional coordinate system that those two axes create.
 
+Atomicity:  Atomic <---> Not Atomic
+Specificity:  Specific <---> General
+
+I ended up righting these "Left to Right" in terms of the subject being in a full-state, or an empty-state, but they could just as easily be written "Right to Left" (in reverse order), if it is more convenient for the problem at hand to see them in that way.  This process of ordering things as needed for the current problem is another tool that can be applied, and which has properties that can be evaluated.  For the sake of keeping up a pace, I can't go into detail on each of these things as they arrive, even though I would like to.
+
 
 
