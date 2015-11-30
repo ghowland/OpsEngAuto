@@ -6,4 +6,22 @@ How do Virtual things align on this same spectrum of "knowability"?
 
 Some Virtual things can be completely known.  Other Virtual things remain unknowable.
 
-Take for example t
+We can use the examples we used in a previous chapter.
+
+Let's look at a variable that we assign:
+
+X = 5
+
+Here, I have made X to be equal to 5.  Can we know everything about this Virtual thing?
+
+Yes, we can.
+
+We can inspect this in any way we like, and know everything to know about it.  We can compare it to different numbers:  X < 6, X > 4, X == 10, and see if it is similar to them.  
+
+Any operation we wish to make, we can perform and know the full extent of what there is to know about this Data.
+
+Now, let's look at a Virtual thing that is not fully knowable, we will look at the word and symbol of "idea".
+
+We can take the word "idea" and trace it's language roots, and compare it to other languages, and find common usage of it in popular literature, and we can ask people what it means, and in all of these things we will gain information.
+
+But, we will never know everything there is to know about the word and symbol of "idea" because it is 
