@@ -48,3 +48,10 @@ If the "@SomethingSomething" wasn't there, this would read like a beginning Hell
 
 However, there is a Decorator to this function call "HelloWorldDecorator", which modifies the behavior.  The decorator code may live in another file, so it may not be obvious what is happening when you simply look at the code.  You assume it's basically going to return "Hello World!".
 
+Let's look at the decorator code I have created:
+
+{{ start_code }}
+@HelloWorldDecorator
+def HelloWorldFunction():
+    return 'Hello World!'
+{{ end_code }}
