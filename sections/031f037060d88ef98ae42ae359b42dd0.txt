@@ -1,3 +1,6 @@
 ### [[2.5.5.3: Be clear about the differences:  Physical (Real), Logical (Virtual), Data (Virtual)]]
 
+Since I think we have a clear working definition for the terms Real and Virtual, we start to do some comparisons between them and see what other things are different.
+
+Since they have very different properties, as they are about as different as anything can be, that means that those different properties should have different advantages and disadvantages when looking at them from different perspectives.
 

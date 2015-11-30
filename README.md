@@ -1,13 +1,13 @@
 # Operations: Engineering and Automation
 
 
-Total Sections: 293   Populated Sections: 32
-Current Goal: Populate Empty Sections: 261   (Done: 10.9%)
+Total Sections: 293   Populated Sections: 33
+Current Goal: Populate Empty Sections: 260   (Done: 11.3%)
 
 
-Lines: 1328
+Lines: 1332
 
-Words: 23425
+Words: 23490
 
 
 # Chapter 1: Preface
@@ -1271,6 +1271,10 @@ I'll just say that like other this-book-only terms, I will be using Real and Vir
 <br>
 If this seems vague, please review {{ section_ff17d94c0d49aab3e372e47b64b96ea7 }} again, as the specific use of these terms for the purposes of this book is important for understanding what I'm trying to convey.<br>
 <p id=031f037060d88ef98ae42ae359b42dd0><b><a href="#031f037060d88ef98ae42ae359b42dd0">2.6.5.1</a>: Be clear about the differences:  Physical (Real), Logical (Virtual), Data (Virtual)</b></p>
+<br>
+Since I think we have a clear working definition for the terms Real and Virtual, we start to do some comparisons between them and see what other things are different.<br>
+<br>
+Since they have very different properties, as they are about as different as anything can be, that means that those different properties should have different advantages and disadvantages when looking at them from different perspectives.<br>
 <p id=5a2ee645ef74425ffa093976096dee18><b><a href="#5a2ee645ef74425ffa093976096dee18">2.6.5.1.1</a>: Can never know everything about something Real (physical), because of limited insight into what is going on with it</b></p>
 <p id=e529c9c5431e0acff31b16484c63dfad><b><a href="#e529c9c5431e0acff31b16484c63dfad">2.6.5.1.2</a>: Can know everything about Virtual (Logic/Data), because they are limited, and they are fully contained and inspectable.</b></p>
 <p id=dd889cf6d887f391188383b428c7ebfc><b><a href="#dd889cf6d887f391188383b428c7ebfc">2.6.5.1.2.1</a>: However, between Data and Logic is a huge gap, as Data is "perfectly" understandable, while Logic is not, due to Halting Problems and all other things CS-academia knows and describes very well.</b></p>
