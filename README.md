@@ -5,9 +5,9 @@ Total Sections: 294   Populated Sections: 43
 Current Goal: Populate Empty Sections: 251   (Done: 14.6%)
 
 
-Lines: 1746
+Lines: 1752
 
-Words: 29662
+Words: 29803
 
 
 # Chapter 1: Preface
@@ -1680,6 +1680,12 @@ Because we need to be specific, I am going to make up some details about the Ato
 {{ start_quote }}<br>
 The database provides limited atomic transactions.  Transactions are accepted, and written into a journal file, which is flushed to disk periodically, but not in sync with the transaction being written, for performance.  The means that in certain circumstances a transaction may be partially written onto the disk.<br>
 {{ end_quote }}<br>
+<br>
+So, this terrible database accepts things as Transactions, and journals the transactions, but it doesn't flush the journal Atomically, so you might have partial transactions on the disk.  This is actually always potentially true, since a power failure could cause a partial transfer, in some hardware configurations.<br>
+<br>
+In practice, modern controllers accept a queue of IO requests, and can do some optimizations on them, depending on the construction of the storage medium (what type of disk/etc), and so flushing merely pushes more things onto this queue, and if you cant put more things into the queue, you have already maxed out your throughput in this configuration.<br>
+<br>
+In this case, it is possible that the queue can take more total IO requests if they are batched, and for a given workload and hardware specification, you may need to do this.  Moving on.<br>
 <br>
 <br>
 What if we had a Specific value of 0.0, instead of 0.75?<br>
