@@ -1,3 +1,6 @@
 ### [[2.5.5.3.2.2: This difference also tells us why Data is more important than Logic, because Data is more trustworthy than Logic.  When making changes to data, the changes are straight-forward to understand, when making changes to Logic, the side-effects (unintended consequences) can be far-reaching and completely not understandable, and frequently enough are this way.]]
 
+Now that we have established that collectively, Virtual Data, which I will just call Data, since it is always Virtual, is Knowable.
+
+And we have established that collectively Logic is Unknowable, even though components of it may be knowable, we can use this information to set up a hierarchy, which we can use to build more robust engineering solutions.
 
