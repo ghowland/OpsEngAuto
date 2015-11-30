@@ -7,7 +7,7 @@ Current Goal: Populate Empty Sections: 251   (Done: 14.6%)
 
 Lines: 1764
 
-Words: 29969
+Words: 29972
 
 
 # Chapter 1: Preface
@@ -1673,7 +1673,7 @@ In the same way, this generative tool of mapping axes to an information space, a
 <br>
 This is actually the exact same technique I am using to write this book, as I have broken up the information space I am trying to cover into both a linear (sequential) flow (chapters), and then assigning various variables (in the forms of words in the topics) to create each chapter's text.<br>
 <br>
-Let's do it:<br>
+Let's do one of these now:<br>
 <br>
 For the Atomicity value, let's say on a scale of 1.0 (Atomic) to 0.0 (Not Atomic), we have an Atomicity value of 0.25, or not very Atomic, but having some Atomic characterics.  <br>
 <br>
