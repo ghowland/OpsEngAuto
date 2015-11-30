@@ -5,9 +5,9 @@ Total Sections: 294   Populated Sections: 43
 Current Goal: Populate Empty Sections: 251   (Done: 14.6%)
 
 
-Lines: 1756
+Lines: 1757
 
-Words: 29828
+Words: 29850
 
 
 # Chapter 1: Preface
@@ -1693,6 +1693,7 @@ What if we had a Specific value of 0.0, instead of 0.75?<br>
 In this case we would be 100% Generic, but we still have to say something relevant so we might summarize:<br>
 <br>
 {{ start_quote }}<br>
+This database handles requests in Transactions, and writes them to a journal file, but flushes only periodically, so Transactions may be lost.<br>
 {{ end_quote }}<br>
 <br>
 <br>
