@@ -5,9 +5,9 @@ Total Sections: 294   Populated Sections: 43
 Current Goal: Populate Empty Sections: 251   (Done: 14.6%)
 
 
-Lines: 1696
+Lines: 1702
 
-Words: 28761
+Words: 28876
 
 
 # Chapter 1: Preface
@@ -1652,7 +1652,13 @@ Shouldn't there be a spectrum for this?  Let's make one:<br>
 <br>
 Specificity  <----->  Generalization<br>
 <br>
-Now we have an axis on which we can slide a variable across, to be more or less specific, and it can<br>
+Now we have an axis on which we can slide a variable across, to be more or less specific, and it can be tuned in the way we want it, for every circumstance that is possible.<br>
+<br>
+In addition to this, we can add in another topic, such as "Atomicity" that we spoke of previously.<br>
+<br>
+We can be extremely specific in our discussion of Atomicity, or we can be extremely General, or somewhere in between, in the spectrum, along the axis.  I will use this method of multiple examples mixed together to provide a richer tapestry for these ideas to be expressed in, as the book goes on.  These are tools for communicating more deeply than not, another spectrum, which can be applied.<br>
+<br>
+In fact, let's just combine some right now, and make a new tool.  We just<br>
 <h2 id=af1f8c9950e296d130a668076e4ba88b><a href="#af1f8c9950e296d130a668076e4ba88b">2.7</a>: The Philosophy of Pragmatism</h2>
 <h3 id=ecb2f6533d02864a3355571f4e7d17b7><a href="#ecb2f6533d02864a3355571f4e7d17b7">2.7.1</a>: It doens't mean practical, or common sense.  It is specific to the effects, and nothing else.</h3>
 <p id=c88a8c2a472464982c2f1601901f744d><b><a href="#c88a8c2a472464982c2f1601901f744d">2.7.1.1</a>: Deal with ONLY effecs.  No side effects.</b></p>
