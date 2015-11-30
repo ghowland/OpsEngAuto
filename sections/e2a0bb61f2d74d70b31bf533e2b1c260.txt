@@ -1,3 +1,11 @@
 ### [[2.5.6: Class of Work: a specific type of work that is done, may be domain specific or general across the company]]
 
+We briefly defined Class of Work in the beginning of the book, but let's take a slightly deeper look at what it means.
 
+Initially I just said it was "anything that is done", and this is true but perhaps "work" work suffice to say that, and everyone would understand.
+
+However, there is more depth we can gain from looking at it deeper.
+
+I initially used the example of automating the DNS zone file updating.
+
+If you aren't familiar with DNS zone files, they are text files
