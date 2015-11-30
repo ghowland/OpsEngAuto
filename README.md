@@ -7,7 +7,7 @@ Current Goal: Populate Empty Sections: 257   (Done: 12.3%)
 
 Lines: 1452
 
-Words: 25089
+Words: 25088
 
 
 # Chapter 1: Preface
@@ -1395,7 +1395,7 @@ def HelloWorldFunction():<br>
     return 'Hello World!'<br>
 {{ end_code }}<br>
 <br>
-If the "@SomethingSomething" wasn't there, this would read like a beginning Hello World! program, as when you call the DoSomething() function, it says it will print out "Hello World!".<br>
+If the "@SomethingSomething" wasn't there, this would read like a beginning Hello World! program, as when you call the HelloWorldFunction() function, and it returns the string "Hello World!".<br>
 <br>
 However, there is a Decorator to this function call "SomethingSomething", which modifies the behavior.  The decorator code may live in another file, so it may not be obvious what is happening when you simply look at the code.  You assume it's basically going to print out "Hello World!".<br>
 <p id=99b45325e58458c65965de974e2f7dc2><b><a href="#99b45325e58458c65965de974e2f7dc2">2.6.5.1.2.2</a>: This difference also tells us why Data is more important than Logic, because Data is more trustworthy than Logic.  When making changes to data, the changes are straight-forward to understand, when making changes to Logic, the side-effects (unintended consequences) can be far-reaching and completely not understandable, and frequently enough are this way.</b></p>
