@@ -1,11 +1,11 @@
 <h1>Operations: Engineering and Automation</h1>
-Total Sections: 293   Populated Sections: 37
-Current Goal: Populate Empty Sections: 256   (Done: 12.6%)
+Total Sections: 293   Populated Sections: 38
+Current Goal: Populate Empty Sections: 255   (Done: 13.0%)
 <br>
 <br>
-Lines: 1486<br>
+Lines: 1496<br>
 <br>
-Words: 25578<br>
+Words: 25800<br>
 <br>
 <h1 id=48152466029dfcb314ccad4d502d1a73><a href="#48152466029dfcb314ccad4d502d1a73">Chapter 1</a>: Preface</h1>
 <br>
@@ -1404,6 +1404,16 @@ Of course, you don't have to have any of this kind of analysis to know that you 
 <br>
 Without all of these details, all the adjectives I just used to describe what we will build may still be applied, but they may not be true, and we may not really get those effects.  Through using well defined fundamentals, we can being to bring this assurance in.  This is an important part of what Knowability gives us.<br>
 <p id=3b9a062658c7f15e53b7601de12d3857><b><a href="#3b9a062658c7f15e53b7601de12d3857">2.6.5.1.2.2.1</a>: Changes to data, that meets constraints, will not harm other data, but can harm Logic that acts on the data (results of Logic, rather)</b></p>
+<br>
+When working with Data, is it required that certain constraints are met.  This is normal database 101 stuff.  If you have a relationship between 2 tables, the the primary key of Table A is referenced in Table B, and then you change that primary key in Table A, but do not update all external references to it (such as in Table B), then you will have created an inconsistency.<br>
+<br>
+There are methods for forcing this to not be allowed in many database software's schema configuration, using constraints and foreign keys, etc.<br>
+<br>
+In an Operational Automation environment it is likely that the data sets will stay small enough that you can work with these constraints enabled, and the changes are important enough to deal with the performance hit the constraints provide anyway.  So, I recommend leaving them on, and letting the database software manage enforcement of constraints.<br>
+<br>
+If you find yourself in a place where constraints are causing a real performance problem, and are not working, I suggest only turning off the constraints that are the problem points, and leaving the rest of them enabled.<br>
+<br>
+For the areas where data constraints are turned off, you must be especially careful when making changes to this data not to lose any of the referential integrity that the constraints would have provided, with your own changes.<br>
 <h3 id=e2a0bb61f2d74d70b31bf533e2b1c260><a href="#e2a0bb61f2d74d70b31bf533e2b1c260">2.6.6</a>: Class of Work: a specific type of work that is done, may be domain specific or general across the company</h3>
 <h3 id=e51fd2df5fa27c89dbb16625df6ec6b6><a href="#e51fd2df5fa27c89dbb16625df6ec6b6">2.6.7</a>: Data Source</h3>
 <h3 id=2880d6cb6fe0e0528df63476d031e45e><a href="#2880d6cb6fe0e0528df63476d031e45e">2.6.8</a>: Production Environment</h3>

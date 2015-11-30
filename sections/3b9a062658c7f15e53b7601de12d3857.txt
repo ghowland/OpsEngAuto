@@ -1,3 +1,11 @@
 ### [[2.5.5.3.2.2.1: Changes to data, that meets constraints, will not harm other data, but can harm Logic that acts on the data (results of Logic, rather)]]
 
+When working with Data, is it required that certain constraints are met.  This is normal database 101 stuff.  If you have a relationship between 2 tables, the the primary key of Table A is referenced in Table B, and then you change that primary key in Table A, but do not update all external references to it (such as in Table B), then you will have created an inconsistency.
 
+There are methods for forcing this to not be allowed in many database software's schema configuration, using constraints and foreign keys, etc.
+
+In an Operational Automation environment it is likely that the data sets will stay small enough that you can work with these constraints enabled, and the changes are important enough to deal with the performance hit the constraints provide anyway.  So, I recommend leaving them on, and letting the database software manage enforcement of constraints.
+
+If you find yourself in a place where constraints are causing a real performance problem, and are not working, I suggest only turning off the constraints that are the problem points, and leaving the rest of them enabled.
+
+For the areas where data constraints are turned off, you must be especially careful when making changes to this data not to lose any of the referential integrity that the constraints would have provided, with your own changes.
