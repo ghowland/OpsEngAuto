@@ -28,3 +28,9 @@ One aspect of manual workflow generally goes:
 
 - Then they tell the Slave DNS servers (other machines that reference this Master machine's DNS service to get records), and tell them to do a zone transfer.  This might also be configured to happen automatically on the Zone file changing, through the Master DNS server's software (although there are some reliability problems with this, in practice)
 
+
+These steps might take a person 10-15 minutes to perform, on an individual basis, and slightly longer to implement for larger changes.
+
+Sometimes it is a problem that people just forget to do this, although since the new machines wont have DNS names, people will only be able to reference them by IP address, so usually the problem is quickly remedied.
+
+A larger problem is that people can type things incorrectly, and while the validation tests find some problems, they will not find correctly formatted zone or configuration files, which 
