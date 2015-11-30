@@ -40,6 +40,9 @@ Because we need to be specific, I am going to make up some details about the Ato
 {{ end_quote }}
 
 
+What if we had a Specific value of 0.0, instead of 0.75?
+
+
 What if we had a Specific value of 1.0, instead of 0.75?
 
 We would have to specify the entire code, every line, and it would need to be idealistically correct (or actual implementation), and we would have to specify all environment requirements.  Why?  Because we are 100% Specificity at 1.0.  This means absolutely everything must be specified, if this spectrum or axis is to have real meaning.

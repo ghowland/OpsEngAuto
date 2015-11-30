@@ -5,9 +5,9 @@ Total Sections: 294   Populated Sections: 43
 Current Goal: Populate Empty Sections: 251   (Done: 14.6%)
 
 
-Lines: 1742
+Lines: 1745
 
-Words: 29602
+Words: 29614
 
 
 # Chapter 1: Preface
@@ -1680,6 +1680,9 @@ Because we need to be specific, I am going to make up some details about the Ato
 {{ start_quote }}<br>
 <br>
 {{ end_quote }}<br>
+<br>
+<br>
+What if we had a Specific value of 0.0, instead of 0.75?<br>
 <br>
 <br>
 What if we had a Specific value of 1.0, instead of 0.75?<br>
