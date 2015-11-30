@@ -8,4 +8,10 @@ This might be a data center that has many peered network circuits, in which you 
 
 Or, it could be a server farm in your corporate offices, in which processing occurs, which is critical for the functioning of your organization.
 
+Or, it could be in a cloud or managed hosting environment, in which you mostly manage through a browser application.
+
+It doesn't matter what exactly the circumstances of your "Production" are, you should be aware of what it is, and how it is treated different than other areas of your organization.
+
+Thing's in Production should be the most important things, and not intermingled with devices or services which are not of the same critical importance.  Sometimes sharing of environmental space will have to occur, but this should be minimized, and remedied once it is possible to do so.
+
 
