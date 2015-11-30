@@ -5,9 +5,9 @@ Total Sections: 294   Populated Sections: 41
 Current Goal: Populate Empty Sections: 253   (Done: 13.9%)
 
 
-Lines: 1653
+Lines: 1655
 
-Words: 28211
+Words: 28257
 
 
 # Chapter 1: Preface
@@ -1602,6 +1602,8 @@ Transactional changes are made sequentially, and cannot interrupt each other.  F
 - Replication: This allows copies to be made of the data to at least 1 other instance of the Data Source implementation, for example a SQL server could incrementally copy it's journal file from itself to another machine, which then applies the journal.  If the original machine goes down, the replication target machine will have an update-to-date version of the database, up to the latest journal entry it received.<br>
 <br>
 There are many other properties to Data Sources, so this is not meant to be an exhaustive list, but a brief coverage of some elements we can associate with the label Data Source, which may or may not exist in a given implementation you may use.<br>
+<br>
+Some Data Source implementations offer features that are in opposition to some of the above, and those feature sets are also useful, since they provide different benefits and weaknesses to some of the features I have mentioned.  The right tool for every job, and all that.<br>
 <br>
 {{ todo__make_more_of_these_qualities_lists_for_other_terms_and_things }}<br>
 <h3 id=2880d6cb6fe0e0528df63476d031e45e><a href="#2880d6cb6fe0e0528df63476d031e45e">2.6.9</a>: Production Environment</h3>
