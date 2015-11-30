@@ -5,9 +5,9 @@ Total Sections: 294   Populated Sections: 38
 Current Goal: Populate Empty Sections: 256   (Done: 12.9%)
 
 
-Lines: 1542
+Lines: 1546
 
-Words: 26688
+Words: 26769
 
 
 # Chapter 1: Preface
@@ -1490,6 +1490,10 @@ The Logic may have silently changed X to 4, because it had a constraint that we 
 This is a large problem.  <br>
 <br>
 Another issue that we deal with is that writing Logic for databases is not as manageable over time as writing Logic in other platforms, such as directly for execution or interpretation in an operating system.  That is because database's purposes are to serve data, and so they do not get "best of breed" software development environments.<br>
+<br>
+There are many more examples I can give on how you can have consistent Data, but inconsistencies between the Logic and Data.  The end result of all of these is that you must simply be very cautious when creating your Logic, and provide as many safe guards as is warranted by the needs of your organization to provide that the Logic works cleanly with the Data.<br>
+<br>
+There are many techniques for this that we will cover once we get to implementation.<br>
 <h3 id=9ea896216c817034b6d3858d8f934e34><a href="#9ea896216c817034b6d3858d8f934e34">2.6.6</a>: Knowability</h3>
 <h3 id=e2a0bb61f2d74d70b31bf533e2b1c260><a href="#e2a0bb61f2d74d70b31bf533e2b1c260">2.6.7</a>: Class of Work: a specific type of work that is done, may be domain specific or general across the company</h3>
 <h3 id=e51fd2df5fa27c89dbb16625df6ec6b6><a href="#e51fd2df5fa27c89dbb16625df6ec6b6">2.6.8</a>: Data Source</h3>
