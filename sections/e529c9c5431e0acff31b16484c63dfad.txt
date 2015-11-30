@@ -26,4 +26,15 @@ We can take the word "idea" and trace it's language roots, and compare it to oth
 
 But, we will never know everything there is to know about the word and symbol of "idea" because it is not a concrete thing.  It has subjectivity and flexibility, and can be used in different ways in different circumstances.
 
-The same is true for many things.  So we have a class of Virtual things about which anything can be completely known, and another class of Virtual things about which only some 
+The same is true for many things.  So we have a class of Virtual things about which anything can be completely known, and another class of Virtual things about which only some things can be known.
+
+Let's simplify this into two more terms:  Knowable Virtual things, and Unknowable Virtual things.
+
+We could call this "Knowable Virtual Data", but since Data is a subset of Virtual, and there exists other things that are virtual, and may be completely Knowable, that do not meet the same definition as Data, we will use the label "Knowable Virtual" and then can append anything onto it afterwards, like Data, to describe what exactly the Knowlable Virtual thing is.
+
+We're going to build a little forest of terms over the course of the book, because once we have clear terms like this, we can use them in different ways than if they were still more vague, and less specific.
+
+Terms such as these can have specific properties, which contract with other terms, such as Knowable Virtual Data vs. Unknowable Virtual Data.  We already have at least 1 property between these things that we can use in any algorithm as something that is clearly understood.
+
+Over time we will build up a toolset of these, so that we can communicate about incredibly complicated topics, and reason about them efficiently and clearly.
+
