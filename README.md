@@ -5,9 +5,9 @@ Total Sections: 293   Populated Sections: 35
 Current Goal: Populate Empty Sections: 258   (Done: 11.9%)
 
 
-Lines: 1400
+Lines: 1404
 
-Words: 24533
+Words: 24547
 
 
 # Chapter 1: Preface
@@ -1333,6 +1333,10 @@ The same is true for many things.  So we have a class of Virtual things about wh
 Let's simplify this into two more terms:  Knowable Virtual things, and Unknowable Virtual things.<br>
 <br>
 We could call this "Knowable Virtual Data", but since Data is a subset of Virtual, and there exists other things that are virtual, and may be completely Knowable, that do not meet the same definition as Data, we will use the label "Knowable Virtual" and then can append anything onto it afterwards, like Data, to describe what exactly the Knowlable Virtual thing is.<br>
+<br>
+Let's create a spectrum for these labels:<br>
+<br>
+Knowable Virtual thing <---> Unknowable Virtual thing<br>
 <br>
 We're going to build a little forest of terms over the course of the book, because once we have clear terms like this, we can use them in different ways than if they were still more vague, and less specific.<br>
 <br>
