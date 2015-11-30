@@ -5,9 +5,9 @@ Total Sections: 293   Populated Sections: 38
 Current Goal: Populate Empty Sections: 255   (Done: 13.0%)
 
 
-Lines: 1496
+Lines: 1498
 
-Words: 25820
+Words: 25838
 
 
 # Chapter 1: Preface
@@ -1444,6 +1444,8 @@ In an Operational Automation environment it is likely that the data sets will st
 If you find yourself in a place where constraints are causing a real performance problem, and are not working, I suggest only turning off the constraints that are the problem points, and leaving the rest of them enabled.<br>
 <br>
 For the areas where data constraints are turned off, you must be especially careful when making changes to this data not to lose any of the referential integrity that the constraints would have provided, with your own changes via Logic, or in unfortunate times when you manually update the database (which you should try to never, ever do).<br>
+<br>
+Another Knowable thing about Data, is that if you have these constraints active, then you can Know that<br>
 <h3 id=e2a0bb61f2d74d70b31bf533e2b1c260><a href="#e2a0bb61f2d74d70b31bf533e2b1c260">2.6.6</a>: Class of Work: a specific type of work that is done, may be domain specific or general across the company</h3>
 <h3 id=e51fd2df5fa27c89dbb16625df6ec6b6><a href="#e51fd2df5fa27c89dbb16625df6ec6b6">2.6.7</a>: Data Source</h3>
 <h3 id=2880d6cb6fe0e0528df63476d031e45e><a href="#2880d6cb6fe0e0528df63476d031e45e">2.6.8</a>: Production Environment</h3>

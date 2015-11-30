@@ -10,4 +10,4 @@ If you find yourself in a place where constraints are causing a real performance
 
 For the areas where data constraints are turned off, you must be especially careful when making changes to this data not to lose any of the referential integrity that the constraints would have provided, with your own changes via Logic, or in unfortunate times when you manually update the database (which you should try to never, ever do).
 
-
+Another Knowable thing about Data, is that if you have these constraints active, then you can Know that 
