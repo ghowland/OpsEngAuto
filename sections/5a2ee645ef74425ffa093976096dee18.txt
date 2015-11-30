@@ -10,4 +10,12 @@ This is not taking this too far either, it is simply being clear about what is p
 
 So, if we can't know everything, then what is possible, and what are those limitations?
 
+Let's take something fairly simple for example, such as temperature.  What temperature is a physical device, we will say a 1U 19" rack server?
 
+Well, that depends on where you are measuring it from.  Modern servers can have dozens of temperature sensors throughout their chassis, and those temperature sensors will approximate the temperature fairly accurately for part of the device.
+
+We could measure the each CPU socket temperature, and the temperature near the power supply, and the fans, and then we can approximate from these or list them, but there remains many places we are not even directly measuring.
+
+It happens that this is not necessarily important for our purposes, but it is important to understand and accept that this data is simply not available to us, and we have sensors in place to detect some aspects of it.
+
+Other aspects we may not have any sensors for.  For instance, mobile devices often come with accelerometers, which will detect movement of the devices.  Rack servers do not come with t
