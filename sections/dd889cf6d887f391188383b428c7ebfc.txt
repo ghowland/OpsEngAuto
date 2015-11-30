@@ -1,3 +1,9 @@
 ### [[2.5.5.3.2.1: However, between Data and Logic is a huge gap, as Data is "perfectly" understandable, while Logic is not, due to Halting Problems and all other things CS-academia knows and describes very well.]]
 
-Another 
+Another Unknowable Virtual thing is Logic.
+
+Logic, as we defined earlier, is an all-emcompassing term for anything to do with software or decisions, or scripts or other methods of manipulating data, executing statements, etc.
+
+One of the famous problems of computer science is the Halting Problem.
+
+This problem 

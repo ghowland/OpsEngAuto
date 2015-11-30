@@ -1,13 +1,13 @@
 # Operations: Engineering and Automation
 
 
-Total Sections: 293   Populated Sections: 35
-Current Goal: Populate Empty Sections: 258   (Done: 11.9%)
+Total Sections: 293   Populated Sections: 36
+Current Goal: Populate Empty Sections: 257   (Done: 12.3%)
 
 
-Lines: 1406
+Lines: 1412
 
-Words: 24552
+Words: 24599
 
 
 # Chapter 1: Preface
@@ -1351,7 +1351,13 @@ If you can, great, write them down and add more to that list as you think of mor
 If you can't think of any now, that's not a problem, but if any come to mind in the future, write them down, and over time more and more may start to come to you.<br>
 <p id=dd889cf6d887f391188383b428c7ebfc><b><a href="#dd889cf6d887f391188383b428c7ebfc">2.6.5.1.2.1</a>: However, between Data and Logic is a huge gap, as Data is "perfectly" understandable, while Logic is not, due to Halting Problems and all other things CS-academia knows and describes very well.</b></p>
 <br>
-Another<br>
+Another Unknowable Virtual thing is Logic.<br>
+<br>
+Logic, as we defined earlier, is an all-emcompassing term for anything to do with software or decisions, or scripts or other methods of manipulating data, executing statements, etc.<br>
+<br>
+One of the famous problems of computer science is the Halting Problem.<br>
+<br>
+This problem<br>
 <p id=99b45325e58458c65965de974e2f7dc2><b><a href="#99b45325e58458c65965de974e2f7dc2">2.6.5.1.2.2</a>: This difference also tells us why Data is more important than Logic, because Data is more trustworthy than Logic.  When making changes to data, the changes are straight-forward to understand, when making changes to Logic, the side-effects (unintended consequences) can be far-reaching and completely not understandable, and frequently enough are this way.</b></p>
 <p id=3b9a062658c7f15e53b7601de12d3857><b><a href="#3b9a062658c7f15e53b7601de12d3857">2.6.5.1.2.2.1</a>: Changes to data, that meets constraints, will not harm other data, but can harm Logic that acts on the data (results of Logic, rather)</b></p>
 <h3 id=e2a0bb61f2d74d70b31bf533e2b1c260><a href="#e2a0bb61f2d74d70b31bf533e2b1c260">2.6.6</a>: Class of Work: a specific type of work that is done, may be domain specific or general across the company</h3>
