@@ -3,9 +3,9 @@ Total Sections: 294   Populated Sections: 41
 Current Goal: Populate Empty Sections: 253   (Done: 13.9%)
 <br>
 <br>
-Lines: 1650<br>
+Lines: 1652<br>
 <br>
-Words: 28096<br>
+Words: 28165<br>
 <br>
 <h1 id=48152466029dfcb314ccad4d502d1a73><a href="#48152466029dfcb314ccad4d502d1a73">Chapter 1</a>: Preface</h1>
 <br>
@@ -1568,6 +1568,8 @@ To be safe, the journal is written to and flushed to disk before the changes are
 - Transactions: Multiple changes, such as in different tables, or multiple rows in the same table, can be applied all-at-once, in an "atomic" fashion, which means that it "cannot be split further" (Atomicity), and being the smallest-type-of-action, it is guaranteed to either not-have-started, or finished completely, before another action takes place.  <br>
 <br>
 Transactional changes are made sequentially, and cannot interrupt each other.  Furthermore they verify the consistency of the entire exchange, and not simply each statement, which allows more precise validation of referential integrity as well as being able to make changes that would be constraint violations if done one-at-a-time, but which are consistent when done together in a transaction.<br>
+<br>
+- Replication: This allows copies to be made of the data to at least 1 other instance of the Data Source implementation, for example a SQL server could incrementally copy it's journal file from itself to another machine, which then applies the journal.  If the original machine goes down, the replication target machine will have an update-to-date version of the database, up to the latest journal entry it received.<br>
 <br>
 <br>
 {{ todo__make_more_of_these_qualities_lists_for_other_terms_and_things }}<br>

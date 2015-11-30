@@ -24,6 +24,9 @@ To be safe, the journal is written to and flushed to disk before the changes are
 
 Transactional changes are made sequentially, and cannot interrupt each other.  Furthermore they verify the consistency of the entire exchange, and not simply each statement, which allows more precise validation of referential integrity as well as being able to make changes that would be constraint violations if done one-at-a-time, but which are consistent when done together in a transaction.
 
+- Replication: This allows copies to be made of the data to at least 1 other instance of the Data Source implementation, for example a SQL server could incrementally copy it's journal file from itself to another machine, which then applies the journal.  If the original machine goes down, the replication target machine will have an update-to-date version of the database, up to the latest journal entry it received.
+
 
 {{ todo__make_more_of_these_qualities_lists_for_other_terms_and_things }}
+
 
