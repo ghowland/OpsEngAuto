@@ -7,7 +7,7 @@ Current Goal: Populate Empty Sections: 257   (Done: 12.3%)
 
 Lines: 1474
 
-Words: 25250
+Words: 25252
 
 
 # Chapter 1: Preface
@@ -1385,7 +1385,7 @@ main()<br>
 <br>
 We can be reasonably sure that if this program compiles, and there are not problems with dynamically linked libraries, and there are not somehow crazy macros in the white space or brackets, that this program will eventually stop running.<br>
 <br>
-This tells us another Knowable property of Logic, which is that it is very complex, and can have obscured meaning.<br>
+This tells us another Knowable property of Logic, which is that it is very complex, and can it's meanings can be obscured.<br>
 <br>
 Take for example this Python code snippet which uses a Decorator.  It's OK if you don't know Python or aren't familiar with Decorators, because it's just an example and I'll explain my meaning of it.<br>
 <br>
