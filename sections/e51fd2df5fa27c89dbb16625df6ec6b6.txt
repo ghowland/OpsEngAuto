@@ -32,4 +32,3 @@ Some Data Source implementations offer features that are in opposition to some o
 
 {{ todo__make_more_of_these_qualities_lists_for_other_terms_and_things }}
 
-
