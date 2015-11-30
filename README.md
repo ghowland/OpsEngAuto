@@ -5,9 +5,9 @@ Total Sections: 294   Populated Sections: 43
 Current Goal: Populate Empty Sections: 251   (Done: 14.6%)
 
 
-Lines: 1752
+Lines: 1756
 
-Words: 29803
+Words: 29828
 
 
 # Chapter 1: Preface
@@ -1690,7 +1690,11 @@ In this case, it is possible that the queue can take more total IO requests if t
 <br>
 What if we had a Specific value of 0.0, instead of 0.75?<br>
 <br>
-...<br>
+In this case we would be 100% Generic, but we still have to say something relevant so we might summarize:<br>
+<br>
+{{ start_quote }}<br>
+{{ end_quote }}<br>
+<br>
 <br>
 What if we had a Specific value of 1.0, instead of 0.75?<br>
 <br>
