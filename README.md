@@ -5,9 +5,9 @@ Total Sections: 294   Populated Sections: 43
 Current Goal: Populate Empty Sections: 251   (Done: 14.6%)
 
 
-Lines: 1732
+Lines: 1734
 
-Words: 29528
+Words: 29550
 
 
 # Chapter 1: Preface
@@ -1689,6 +1689,8 @@ But where we're we?  Oh, yes!  Humans!<br>
 When we are having conversations like the one we are sort-of currently involved in, being specific by saying "Humans" instead of any other word allows us to understand we are using technical jargon, and we mean technical things.<br>
 <br>
 This allows us to move away from our standard social communication style, and into a technical communication style, to discuss technical points at a detailed level.<br>
+<br>
+So while it is weird to type and say, it has a benefit for clarity, which is an important attribute of Engineering.<br>
 <h2 id=af1f8c9950e296d130a668076e4ba88b><a href="#af1f8c9950e296d130a668076e4ba88b">2.7</a>: The Philosophy of Pragmatism</h2>
 <h3 id=ecb2f6533d02864a3355571f4e7d17b7><a href="#ecb2f6533d02864a3355571f4e7d17b7">2.7.1</a>: It doens't mean practical, or common sense.  It is specific to the effects, and nothing else.</h3>
 <p id=c88a8c2a472464982c2f1601901f744d><b><a href="#c88a8c2a472464982c2f1601901f744d">2.7.1.1</a>: Deal with ONLY effecs.  No side effects.</b></p>

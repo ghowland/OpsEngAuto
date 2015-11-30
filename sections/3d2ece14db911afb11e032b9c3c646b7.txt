@@ -48,3 +48,5 @@ When we are having conversations like the one we are sort-of currently involved 
 
 This allows us to move away from our standard social communication style, and into a technical communication style, to discuss technical points at a detailed level.
 
+So while it is weird to type and say, it has a benefit for clarity, which is an important attribute of Engineering.
+
