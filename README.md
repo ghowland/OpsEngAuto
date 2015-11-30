@@ -5,9 +5,9 @@ Total Sections: 293   Populated Sections: 37
 Current Goal: Populate Empty Sections: 256   (Done: 12.6%)
 
 
-Lines: 1482
+Lines: 1486
 
-Words: 25372
+Words: 25578
 
 
 # Chapter 1: Preface
@@ -1428,7 +1428,11 @@ And we have established that collectively Logic is Unknowable, even though compo
 <br>
 If Data is Knowable, and Logic is Knowable, then we should base our actions on our Data, and treat that as the supreme truth.  Our Logic is not less important because of this, as it serves the same role as it would if Logic was King, and reigned supreme over Data.<br>
 <br>
-However,<br>
+However, knowing that we can treat Data as the most important thing in our operational environment means that we will always first focus on the data being correct, and then secondarily we will look at how the Logic interacts with the Data, with an careful watch that the Logic does not do anything to the Data that would cause us problems.<br>
+<br>
+Of course, you don't have to have any of this kind of analysis to know that you should not corrupt your data with your code, but this is the path I have taken to understanding where to place priorities, and how to approach working, and they have served me well.  I hope to prove after we have gotten through this introductory phase, into the details phase, and finally into going over implementation, how these fundamentals are truly critical to building large, robust, resilient, controllable, manageable operational automation environments.<br>
+<br>
+Without all of these details, all the adjectives I just used to describe what we will build may still be applied, but they may not be true, and we may not really get those effects.  Through using well defined fundamentals, we can being to bring this assurance in.  This is an important part of what Knowability gives us.<br>
 <p id=3b9a062658c7f15e53b7601de12d3857><b><a href="#3b9a062658c7f15e53b7601de12d3857">2.6.5.1.2.2.1</a>: Changes to data, that meets constraints, will not harm other data, but can harm Logic that acts on the data (results of Logic, rather)</b></p>
 <h3 id=e2a0bb61f2d74d70b31bf533e2b1c260><a href="#e2a0bb61f2d74d70b31bf533e2b1c260">2.6.6</a>: Class of Work: a specific type of work that is done, may be domain specific or general across the company</h3>
 <h3 id=e51fd2df5fa27c89dbb16625df6ec6b6><a href="#e51fd2df5fa27c89dbb16625df6ec6b6">2.6.7</a>: Data Source</h3>
