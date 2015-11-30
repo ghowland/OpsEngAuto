@@ -1620,7 +1620,7 @@ Or, it could be in a cloud or managed hosting environment, in which you mostly m
 <br>
 It doesn't matter what exactly the circumstances of your "Production" are, you should be aware of what it is, and how it is treated different than other areas of your organization.<br>
 <br>
-Thing's in Production should be the most important things, and not intermingled with devices or services which are not of the same critical importance.  Sometimes sharing of environmental space will have to occur, but this should be minimized, and remedied once it is possible to do so.<br>
+Things in Production should be the most important things, and not intermingled with devices or services which are not of the same critical importance.  Sometimes sharing of environmental space will have to occur, but this should be minimized, and remedied once it is possible to do so.<br>
 <br>
 The Production environment should have the highest levels of security, where only authorized personnel are allowed to access the server instances, and every login and preferably every command issued is logged, for auditing purposes.<br>
 <br>
