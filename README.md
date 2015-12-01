@@ -5,7 +5,7 @@ Total Sections: 298   Populated Sections: 49
 Current Goal: Populate Empty Sections: 249   (Done: 16.4%)
 
 
-Lines: 1927
+Lines: 1929
 
 Words: 33458
 
@@ -1791,7 +1791,9 @@ The article is entitled "The Basic Laws of Human Stupidity", and while it's titl
 <br>
 These start to illustrate the differences between Intelligence and Wisdom, to me, and will hopefully (over the course of the material) become clearer and useful to you as well.<br>
 <br>
-So Philosophy is the "love of wisdom", and I love wisdom, so I take it for that.  I orient myself on "Applied Philosophy", which is Philosophy in a way that I can use to achieve results (internally and externally) and not merely as a way to win arguments at dinner parties, or making comments that end with "Do you want fries with that?".  I think Philosophy has a bad-wrap these days, and I hope to show, if only a little bit, that there is a way to use Philosophical ideas in a practical way to add clarity and improved performance in your life and work.<br>
+So Philosophy is the "love of wisdom", and I love wisdom, so I take it for that.  I orient myself on "Applied Philosophy", which is Philosophy in a way that I can use to achieve results (internally and externally) and not merely as a way to win arguments at dinner parties, or making comments that end with "Do you want fries with that?".  <br>
+<br>
+I think Philosophy has a bad-wrap these days, and I hope to show, if only a little bit, that there is a way to use Philosophical ideas in a practical way to add clarity and improved performance in your life and work.<br>
 <br>
 One simply way to see Wisdom is "good ideas".<br>
 <br>
