@@ -1856,7 +1856,7 @@ We have cleared the hurdles of disclaimers, how-to-read, introductions, and term
 
 <h2 id=b313ae83a593ebeebefbf3e427c23f35><a href="#b313ae83a593ebeebefbf3e427c23f35">3.1</a>: What is Engineering?</h2>
 <br>
-More definitions?  Well, we are never going to stop defining and re-defining things to our particular circumstances, as we simply can't front load all the thinking, and sometimes we will need to be more specific, but at least we are into the real content, and not the peripherals now.<br>
+More definitions?  Well, we are never going to stop defining and re-defining things to our particular circumstances, as we simply can't front load all the thinking, and sometimes we will need to be more specific, but at least we are into the real content, and not the peripherals, now.<br>
 <br>
 Engineering, to me, is:<br>
 <br>
