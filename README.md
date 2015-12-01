@@ -7,7 +7,7 @@ Current Goal: Populate Empty Sections: 249   (Done: 16.4%)
 
 Lines: 1951
 
-Words: 33762
+Words: 33767
 
 
 # Chapter 1: Preface (README.txt)
@@ -1815,7 +1815,7 @@ This is a "Turing Machine" in which we know it will never halt.  There is no fin
 <br>
 I think Philosophy has a bad-wrap these days, and I hope to show, if only in a thin slice, that there is a way to use Philosophical ideas in a practical way to add clarity and improved performance in your life and work.<br>
 <br>
-Transitioning back to Wisdom:<br>
+Transitioning back to Wisdom (Note to self: awesome segue!):<br>
 <br>
 One simply way to see Wisdom is "good ideas".<br>
 <br>
