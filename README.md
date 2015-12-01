@@ -1883,7 +1883,7 @@ This metaphor, or simile in this case, is most useful if the audience are not ex
 <br>
 This is where metaphors are weak, because they are meant to give "a comparative idea" by taking us out of the details we are currently immersed in, and putting us into a "very loose" frame in another topic which we can discuss as non-experts.<br>
 <br>
-Because of this, it may be useful to change metaphorical topics if someone introduces details about the metaphor which derail the intention of using a metaphor.  This is commonly referred to as "over-extending the metaphor".<br>
+Because of this, it may be useful to change metaphorical topics if someone introduces details about the metaphor which derail the intention of using a metaphor.  This can be referred to as "over-extending the metaphor".<br>
 <br>
 If you find yourself disagreeing with a particular metaphorical usage, try to re-frame the metaphor yourself into a different topic, preferably one you do not have expert knowledge in, and see if you can gain more insight into it that way instead.  <br>
 <br>
