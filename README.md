@@ -7,7 +7,7 @@ Current Goal: Populate Empty Sections: 249   (Done: 16.4%)
 
 Lines: 1918
 
-Words: 33209
+Words: 33199
 
 
 # Chapter 1: Preface (README.txt)
@@ -1887,7 +1887,7 @@ Because of this, it may be useful to change metaphorical topics if someone intro
 <br>
 If you find yourself disagreeing with a particular metaphorical usage, try to re-frame the metaphor yourself into a different topic, preferably one you do not have expert knowledge in, and see if you can gain more insight into it that way instead.  <br>
 <br>
-The curse of an expert is a real thing, and doesn't just ruin movie plots ("They stole the floppy disk with all our vital information!", "We are 10 digits into hacking the mainframe password, but they are using 49-bit encryption, it will take two more hours."), but also can ruin the intention of any type of alternative explanation, which is trying to expand on an idea in a hand-wavy-kind-of-way.<br>
+The curse of an expert is a real thing, and doesn't just ruin movie plots ("We are 10 digits into hacking the mainframe password, but they are using 49-bit encryption, it will take two more hours."), but also can ruin the intention of any type of alternative explanation, which is trying to expand on an idea in a hand-wavy-kind-of-way.<br>
 <br>
 This is an attempt to get you to use more information that is being provided, which you already internally know, instead of explicitly providing all the information.  People are great at filling in this information, and while this works best in spoken conversations (say, where you could finish the other person's sentence), metaphors are an attempt to do that explicitly by providing a non-related but comparable reference.<br>
 <h2 id=a941939e629b2be25c1ba265cbd9aaed><a href="#a941939e629b2be25c1ba265cbd9aaed">3.2</a>: Difference between Application and Operational Logic</h2>
