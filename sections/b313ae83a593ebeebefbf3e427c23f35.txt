@@ -1,6 +1,6 @@
 ### [[3.1: What is Engineering?]]
 
-More definitions?  Well, we are never going to stop defining and re-defining things to our particular circumstances, as we simply can't front load all the thinking, and sometimes we will need to be more specific, but at least we are into the real content, and not the peripherals, now.
+More definitions?  Well, we are never going to stop defining and re-defining things to our particular circumstances, as we simply can't front load all the thinking, and sometimes we will need to be more specific, but at least we are now into the real content, and not the peripherals.
 
 Engineering, to me, is:
 
