@@ -7,7 +7,7 @@ Current Goal: Populate Empty Sections: 249   (Done: 16.4%)
 
 Lines: 1918
 
-Words: 33274
+Words: 33320
 
 
 # Chapter 1: Preface (README.txt)
@@ -1885,7 +1885,7 @@ This is where metaphors are weak, because they are meant to give "a comparative 
 <br>
 Because of this, it may be useful to change metaphorical topics if someone introduces details about the metaphor which derail the intention of using a metaphor.  This can be referred to as "over-extending the metaphor".<br>
 <br>
-If you find yourself disagreeing with a particular metaphorical usage, try to re-frame the metaphor yourself into a different topic, preferably one you do not have expert knowledge in, and see if you can gain more insight into it that way instead.  This can also be a useful tool in determining if you understood someone correctly, as you can re-frame what you understand of their point with a different metaphorical topic, allowing them to re-map what they meant to your new metaphor, and if they are agree, you are both likely thinking of very similar things.<br>
+If you find yourself disagreeing with a particular metaphorical usage, try to re-frame the metaphor yourself into a different topic, preferably one you do not have expert knowledge in, and see if you can gain more insight into it that way instead.  This can also be a useful tool in determining if you understood someone correctly, as you can re-frame what you understand of their point with a different metaphorical topic, allowing them to re-map what they meant to your new metaphor, and if they are agree, you are both likely thinking of very similar things.  Going back and forth like this, when there is still mis-alignment, choosing new metaphorical topics, or changing the reference of the metaphor, can allow a complex topic to be worked through in a shorter period of time than going to full-fundamentals and working up from there.<br>
 <br>
 The curse of an expert is a real thing, and doesn't just ruin movie plots ("We are 10 digits into hacking the mainframe password, but they are using 49-bit encryption, it will take two more hours.  You need it done in 10 minutes?  We'll make it happen."), but also can ruin the intention of any type of alternative explanation, which is trying to expand on an idea in a hand-wavy-kind-of-way.<br>
 <br>
