@@ -7,7 +7,7 @@ Current Goal: Populate Empty Sections: 249   (Done: 16.4%)
 
 Lines: 1951
 
-Words: 33889
+Words: 33892
 
 
 # Chapter 1: Preface (README.txt)
@@ -1826,7 +1826,7 @@ This is what philosophy is an element of, for me, and in this book, it will be h
 <br>
 Pragmatism is a formally written up philosophy, and you can read more in-depth about it on the Internet or various books.<br>
 <br>
-For the purpose of this book, we'll be using it in it's core form which is:<br>
+For the purpose of this book, we'll be using it in it's core form, in my usage, which is:<br>
 <br>
 "Pragmatism is when you only evaluate an action based on the effects, and nothing else."<br>
 <br>

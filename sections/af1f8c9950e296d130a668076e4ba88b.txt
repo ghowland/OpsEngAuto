@@ -2,7 +2,7 @@
 
 Pragmatism is a formally written up philosophy, and you can read more in-depth about it on the Internet or various books.
 
-For the purpose of this book, we'll be using it in it's core form which is:
+For the purpose of this book, we'll be using it in it's core form, in my usage, which is:
 
 "Pragmatism is when you only evaluate an action based on the effects, and nothing else."
 
