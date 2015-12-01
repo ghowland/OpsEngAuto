@@ -42,4 +42,7 @@ By using Pragmatism, and only focusing on the "effects" of doing one thing, vers
 
 Knowing that one thing that causes down-time events is "Humans making changes" we can say that we want to optimize for making more changes through automation, and less changes through direct Human manual (by hand) efforts.
 
-Since Logic is able to be written so that it runs deterministically (if done "properly"), 
+Since Logic is able to be written so that it runs deterministically (if done "properly"), then this Determinism is an attribute which helps us improve our up-time, by removing the non-determinism of manual Human changes.
+
+We can evaluate these based on the effects of what happens when Logic updates a DNS Zone file 10000 times, versus having Humans update a DNS Zone file 10000 times.  From these cumulative effects, we can see that the Humans will make more mistakes in the act of updating the zone file, than the Logic will, and thus the effect of Human edits are more errors, which reduce our up-time.
+

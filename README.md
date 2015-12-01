@@ -5,9 +5,9 @@ Total Sections: 295   Populated Sections: 44
 Current Goal: Populate Empty Sections: 251   (Done: 14.9%)
 
 
-Lines: 1808
+Lines: 1810
 
-Words: 30777
+Words: 30867
 
 
 # Chapter 1: Preface
@@ -1765,7 +1765,9 @@ By using Pragmatism, and only focusing on the "effects" of doing one thing, vers
 <br>
 Knowing that one thing that causes down-time events is "Humans making changes" we can say that we want to optimize for making more changes through automation, and less changes through direct Human manual (by hand) efforts.<br>
 <br>
-Since Logic is able to be written so that it runs deterministically (if done "properly"),<br>
+Since Logic is able to be written so that it runs deterministically (if done "properly"), then this Determinism is an attribute which helps us improve our up-time, by removing the non-determinism of manual Human changes.<br>
+<br>
+We can evaluate these based on the effects of what happens when Logic updates a DNS Zone file 10000 times, versus having Humans update a DNS Zone file 10000 times.  From these cumulative effects, we can see that the Humans will make more mistakes in the act of updating the zone file, than the Logic will, and thus the effect of Human edits are more errors, which reduce our up-time.<br>
 <h3 id=ecb2f6533d02864a3355571f4e7d17b7><a href="#ecb2f6533d02864a3355571f4e7d17b7">2.7.1</a>: It doens't mean practical, or common sense.  It is specific to the effects, and nothing else.</h3>
 <p id=c88a8c2a472464982c2f1601901f744d><b><a href="#c88a8c2a472464982c2f1601901f744d">2.7.1.1</a>: Deal with ONLY effecs.  No side effects.</b></p>
 <p id=c225c5097c5fbffad5f9b2d6d5fb3d43><b><a href="#c225c5097c5fbffad5f9b2d6d5fb3d43">2.7.1.1.1</a>: Show positives, not negatives.</b></p>
