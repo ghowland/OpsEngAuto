@@ -5,9 +5,9 @@ Total Sections: 297   Populated Sections: 48
 Current Goal: Populate Empty Sections: 249   (Done: 16.2%)
 
 
-Lines: 1886
+Lines: 1898
 
-Words: 32577
+Words: 32772
 
 
 # Chapter 1: Preface (README.txt)
@@ -1857,6 +1857,18 @@ We have cleared the hurdles of disclaimers, how-to-read, introductions, and term
 <h2 id=b313ae83a593ebeebefbf3e427c23f35><a href="#b313ae83a593ebeebefbf3e427c23f35">3.1</a>: What is Engineering?</h2>
 <br>
 More definitions?  Well, we are never going to stop defining and re-defining things to our particular circumstances, as we simply can't front load all the thinking, and sometimes we will need to be more specific, but at least we are into the real content, and not the peripherals now.<br>
+<br>
+Engineering, to me, is:<br>
+<br>
+"The efficient use of resources applied in an environment, to yield a desired effect."<br>
+<br>
+Generic and vague?  You bet!  But, also it can be used to insert in any specifics into the general terms to get at a more specific definition, like so:<br>
+<br>
+"The efficient use of time, personnel, money and physical devices (servers, etc) applied into a Production Operations environment, to yield high up-time, acceptable performance, and scalable management."<br>
+<br>
+That's starting to be more clear, and more specific to our current topic than the more general answer, but I see all of Engineering as a similar set of options.<br>
+<br>
+Whether Engineering is applied to building a bridge, a canal, a sky scraper, or a production operations environment, it needs to be efficient (because being inefficient might mean it is not able to be completed, or "fails"), and it has certain resources (universally time, almost always money, and also almost always people, and then it might be soil conditions, and logistics of getting materials from Point A to Point B, or whatever), and has specifically desired effects, such as a set of interlocking canal segments of the Panama Canal, or a<br>
 <h2 id=a941939e629b2be25c1ba265cbd9aaed><a href="#a941939e629b2be25c1ba265cbd9aaed">3.2</a>: Difference between Application and Operational code</h2>
 <h3 id=1e13f344d1ae44173a1f9532c809f6b1><a href="#1e13f344d1ae44173a1f9532c809f6b1">3.2.1</a>: Many applications and services.  One Operational environment</h3>
 <p id=8eb74e570e995c459a430857793ad69f><b><a href="#8eb74e570e995c459a430857793ad69f">3.2.1.1</a>: Like 1 big computer.</b></p>
