@@ -5,9 +5,9 @@ Total Sections: 298   Populated Sections: 49
 Current Goal: Populate Empty Sections: 249   (Done: 16.4%)
 
 
-Lines: 1908
+Lines: 1912
 
-Words: 32959
+Words: 33031
 
 
 # Chapter 1: Preface (README.txt)
@@ -1879,7 +1879,11 @@ If I give the example of:<br>
 <br>
  "Production Operations must deal with the problems given by information alignment and physical hardware management, similar to how building a bridge must deal with the soil, water, wind and temperatures around a bridge, and the materials used to construct the bridge."<br>
 <br>
-This metaphor, or simile in this case, is most useful if the audience are not experts at building bridges.  As an expert in building a bridge, they may have a very different take on what it takes to build a bridge, and what the issues are, and they may validly complain about my use of analogy to<br>
+This metaphor, or simile in this case, is most useful if the audience are not experts at building bridges.  As an expert in building a bridge, they may have a very different take on what it takes to build a bridge, and what the issues are, and they may validly complain about my use of analogy to information and soil.<br>
+<br>
+This is where metaphors are weak, because they are meant to give "a comparative idea" by taking us out of the details we are currently immersed, and putting us into a "very loose" frame in another topic which we can discuss as non-experts.<br>
+<br>
+Because of this, it may be useful to change metaphorical topics if someone introduces details about the metaphor which derail the intention of using a metaphor.<br>
 <h2 id=a941939e629b2be25c1ba265cbd9aaed><a href="#a941939e629b2be25c1ba265cbd9aaed">3.2</a>: Difference between Application and Operational Logic</h2>
 <h3 id=1e13f344d1ae44173a1f9532c809f6b1><a href="#1e13f344d1ae44173a1f9532c809f6b1">3.2.1</a>: Many applications and services.  One Operational environment</h3>
 <p id=8eb74e570e995c459a430857793ad69f><b><a href="#8eb74e570e995c459a430857793ad69f">3.2.1.1</a>: Like 1 big computer.</b></p>
