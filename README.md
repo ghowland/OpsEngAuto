@@ -7,7 +7,7 @@ Current Goal: Populate Empty Sections: 249   (Done: 16.4%)
 
 Lines: 1951
 
-Words: 33888
+Words: 33889
 
 
 # Chapter 1: Preface (README.txt)
@@ -1824,7 +1824,7 @@ To keep things simple and say, "I love good ideas", is why I love and heavily ut
 This is what philosophy is an element of, for me, and in this book, it will be how I will go about using it, and referencing it.<br>
 <h2 id=af1f8c9950e296d130a668076e4ba88b><a href="#af1f8c9950e296d130a668076e4ba88b">2.7</a>: The Philosophy of Pragmatism</h2>
 <br>
-Pragmatism is a formally written up philosophy, and you read more in-depth about it on the Internet or various books.<br>
+Pragmatism is a formally written up philosophy, and you can read more in-depth about it on the Internet or various books.<br>
 <br>
 For the purpose of this book, we'll be using it in it's core form which is:<br>
 <br>
