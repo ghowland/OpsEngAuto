@@ -30,3 +30,12 @@ In terms of getting coverage like "all of something", we are obviously talking a
 
 Again, this ability to scale in or out from details, is an important skill that needs to be developed and applied to get a good grasp on what is going on.  Without this, one is going to be "stuck" with the view from one's current perspective.
 
+I like to give examples with every topic I introduce, but I don't think it's the right time to go into an example deeply on this, so we will just touch the surface of an example we will delve into deeply soon.
+
+How can we use Pragmatism to get better results?
+
+For instance, one thing that we are concerned about greatly in Production Operations is "up-time", which is the Availability of our services.
+
+How do we get the "best" (most) up-time?  Well, the most important thing is actually a "negative", which is "not go down".  However, "not going down" takes "all the things" working all the time, even when things fail.  This is obviously a very complicated endeavor to try to improve.
+
+By using Pragmatism, and only focusing on the "effects" of doing one thing, versus another thing, we can evaluate that method with the highest signal-to-noise ratio, so that we are spending more time thinking of the most-relevant things, and are actively trying to avoid things that may be distractions.

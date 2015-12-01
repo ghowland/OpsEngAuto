@@ -5,9 +5,9 @@ Total Sections: 295   Populated Sections: 44
 Current Goal: Populate Empty Sections: 251   (Done: 14.9%)
 
 
-Lines: 1794
+Lines: 1804
 
-Words: 30555
+Words: 30726
 
 
 # Chapter 1: Preface
@@ -1752,6 +1752,16 @@ This allows us to go beyond whatever limitations we might be currently bound by,
 In terms of getting coverage like "all of something", we are obviously talking about potentially a lot of data and too much to grasp at any time, and this is where Systemic Thinking and Slicing the Pie come into effect, in that we can box these effects into groups, to be inspected in more detail as needed, or viewed from farther away, and seen with less detail.<br>
 <br>
 Again, this ability to scale in or out from details, is an important skill that needs to be developed and applied to get a good grasp on what is going on.  Without this, one is going to be "stuck" with the view from one's current perspective.<br>
+<br>
+I like to give examples with every topic I introduce, but I don't think it's the right time to go into an example deeply on this, so we will just touch the surface of an example we will delve into deeply soon.<br>
+<br>
+How can we use Pragmatism to get better results?<br>
+<br>
+For instance, one thing that we are concerned about greatly in Production Operations is "up-time", which is the Availability of our services.<br>
+<br>
+How do we get the "best" (most) up-time?  Well, the most important thing is actually a "negative", which is "not go down".  However, "not going down" takes "all the things" working all the time, even when things fail.  This is obviously a very complicated endeavor to try to improve.<br>
+<br>
+By using Pragmatism, and only focusing on the "effects" of doing one thing, versus another thing, we can evaluate that method with the highest signal-to-noise ratio, so that we are spending more time thinking of the most-relevant things, and are actively trying to avoid things that may be distractions.<br>
 <h3 id=ecb2f6533d02864a3355571f4e7d17b7><a href="#ecb2f6533d02864a3355571f4e7d17b7">2.7.1</a>: It doens't mean practical, or common sense.  It is specific to the effects, and nothing else.</h3>
 <p id=c88a8c2a472464982c2f1601901f744d><b><a href="#c88a8c2a472464982c2f1601901f744d">2.7.1.1</a>: Deal with ONLY effecs.  No side effects.</b></p>
 <p id=c225c5097c5fbffad5f9b2d6d5fb3d43><b><a href="#c225c5097c5fbffad5f9b2d6d5fb3d43">2.7.1.1.1</a>: Show positives, not negatives.</b></p>
