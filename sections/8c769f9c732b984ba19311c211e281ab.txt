@@ -39,3 +39,6 @@ I am mostly writing in a tone of conversation, and so will jump around more than
 If you jump to a section, and find it extremely confusing, it is likely because ideas were introduced and specified in a previous section, and their immediate usage (without that previous information) may seem very alien indeed.
 
 This is a trade-off between writing styles, and for this work I have chosen this style as the one I think will yield the best results for the audience most-likely to be able to intake this information and make use of it.  That is only a guess, but I have to pick a methodology and stick with it.
+
+I will also be making Liberal Use of capitalizations.  I will have certain terms that I always capitalize, as I am using them as "Proper Nouns" (like a person's name), but I will also sometimes capitalize Random Words, because I am introducing a concept and want to draw attention to those specific words in the sentence.  It may be that I will capitalize them the first time I talk about them, and then never again, because the point was made, and the attention to them was drawn.
+
