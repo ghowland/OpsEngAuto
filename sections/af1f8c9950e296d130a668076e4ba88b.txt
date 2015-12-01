@@ -20,3 +20,7 @@ This also covers another topic that causes confusion which is "side-effects", an
 
 Grouping everything into only one single pool of "effects" is the better way to do this, when you prioritize for accuracy and clarity, because you are not trying to push anything to the "side-lines" and are seeing all effects as being caused by your action, and thus will evaluate that action more comprehensively.
 
+What are we excluding when we only look at effects?
+
+Initially, we are excluding our value judgements, our goals, our history, culture, feelings, wants and desires, and anything else, so that we can focus on dealing with "what changed?", and detailing these effects (changes) qualitatively and quantitatively, where possible for each.
+

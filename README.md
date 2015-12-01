@@ -5,9 +5,9 @@ Total Sections: 295   Populated Sections: 44
 Current Goal: Populate Empty Sections: 251   (Done: 14.9%)
 
 
-Lines: 1784
+Lines: 1788
 
-Words: 30344
+Words: 30395
 
 
 # Chapter 1: Preface
@@ -1742,6 +1742,10 @@ This has nothing to do with Pragmatism, as Pragmatism has no concern for the amo
 This also covers another topic that causes confusion which is "side-effects", and although this is useful in language to denote things that occurred that may not have been part of the "main" or "center" (hence, "side"), in truth all things are simply effects.  Whether they are in the "center" or the "side" is based on your perspective, and likely to cause partial blindness when ignored.<br>
 <br>
 Grouping everything into only one single pool of "effects" is the better way to do this, when you prioritize for accuracy and clarity, because you are not trying to push anything to the "side-lines" and are seeing all effects as being caused by your action, and thus will evaluate that action more comprehensively.<br>
+<br>
+What are we excluding when we only look at effects?<br>
+<br>
+Initially, we are excluding our value judgements, our goals, our history, culture, feelings, wants and desires, and anything else, so that we can focus on dealing with "what changed?", and detailing these effects (changes) qualitatively and quantitatively, where possible for each.<br>
 <h3 id=ecb2f6533d02864a3355571f4e7d17b7><a href="#ecb2f6533d02864a3355571f4e7d17b7">2.7.1</a>: It doens't mean practical, or common sense.  It is specific to the effects, and nothing else.</h3>
 <p id=c88a8c2a472464982c2f1601901f744d><b><a href="#c88a8c2a472464982c2f1601901f744d">2.7.1.1</a>: Deal with ONLY effecs.  No side effects.</b></p>
 <p id=c225c5097c5fbffad5f9b2d6d5fb3d43><b><a href="#c225c5097c5fbffad5f9b2d6d5fb3d43">2.7.1.1.1</a>: Show positives, not negatives.</b></p>
