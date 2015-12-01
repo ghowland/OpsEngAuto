@@ -5,9 +5,9 @@ Total Sections: 300   Populated Sections: 49
 Current Goal: Populate Empty Sections: 251   (Done: 16.3%)
 
 
-Lines: 1954
+Lines: 1956
 
-Words: 33964
+Words: 33974
 
 
 # Chapter 1: Preface (README.txt)
@@ -1815,6 +1815,8 @@ Philosophy is more angled like:<br>
 Philosophy is about depth, and the ability to inspect things from different angles, and while it may appear on the surface (and is sometimes explicitly stated) that it is trying to "define the way things are", in actuality the Philosophical inspection never ends (Infinitely Recursive), and so it does not have the ability to ever define things "the way they are", because it can't stop defining things.<br>
 <br>
 This is a "Turing Machine" in which we know it will never halt.  There is no final exit or return from Philosophy, it is a rabbit hole that never ends, and goes as deep as you are willing to look, and the detail expands to meet any closer inspection.  What is true from one perspective, or frame of values, is false from another.  It's flexibility to reframe data is infinite.<br>
+<br>
+This is do to "Why?"  Why?  Why?  Why?  Why?  ...<br>
 <br>
 I think Philosophy has a bad-wrap these days, and I hope to show, if only in a thin slice, that there is a way to use Philosophical ideas in a practical way to add clarity and improved performance in your life and work.<br>
 <br>
