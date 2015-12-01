@@ -1784,7 +1784,7 @@ Intelligence I look at in very different perspective, which is "making an action
 <br>
 This is not a common definition of Intelligence, but it has a rigid definition, and comes from a brilliant article written by Carlo M. Cipolla, then a professor of Economics at UC Berkeley, and is one of the greatest things I have ever read, and quite literally changed my life.  I see the world differently after having ingested it, and am much better for it.<br>
 <br>
-The article is entitled "The Basic Laws of Human Stupidity", and while it's title and subject matter focus on "Stupidity" (anti-Intelligence), it's real function for me was to qualitatively and quantitatively define what intelligence is.  He puts it on a 2D graph, and charts it, and allows for pinpointing different kinds of Intelligence and Anti-Intelligent actions.  Try not to let the negative sounding name cause you to avoid this information, it is a very important set of thoughts he has encoded there-in.<br>
+The article is entitled "The Basic Laws of Human Stupidity", and while it's title and subject matter focus on "Stupidity" (anti-Intelligence), it's real function for me was to qualitatively and quantitatively define what intelligence is.  He puts it on a 2D graph, and charts it, and allows for pinpointing different kinds of Intelligent and Anti-Intelligent actions.  Try not to let the negative sounding name cause you to avoid this information, it is a very important set of thoughts he has encoded there-in.<br>
 <br>
 {{ link__basic_laws_of_human_stupiditiy }}<br>
 {{ todo__request_rights_to_reprint_article_in_my_book_from_family }}<br>
