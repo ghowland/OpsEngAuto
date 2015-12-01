@@ -5,9 +5,9 @@ Total Sections: 296   Populated Sections: 45
 Current Goal: Populate Empty Sections: 251   (Done: 15.2%)
 
 
-Lines: 1818
+Lines: 1822
 
-Words: 31013
+Words: 31137
 
 
 # Chapter 1: Preface
@@ -114,7 +114,11 @@ There will likely be some writing stylistic conventions I use that are new for y
 <br>
 I have developed my style of written communication over my life, and continue to refine it still.  I am more concerned with having my intent and detailed messages understood than in complying with grammatical rules, and so will bend and break them as needed to achieve my desired results.<br>
 <br>
-As such, as I will quote "things" whenever I want to emphasize them specifically, as introduced by Alfred Korzybski<br>
+As such, as I will quote "things" whenever I want to emphasize them specifically, as introduced by Alfred Korzybski, from his methodology of General Semantics.<br>
+<br>
+I will also interject parentheticals (like this), whenever I want to make an immediate "aside" comment or clarification (like this).<br>
+<br>
+I will also make up words whenever they seem to work better, or sometimes I will think I am making up a word, but it might end up being an existing word that I didn't know, and have a different meaning.  I will try to explain my meaning any time I think I am making a concept that may not be a standard one, so try to read it with my intent, instead of against a standard, as if I stuck to the standards I don't think I could get the details with the pacing that I want.<br>
 <h2 id=c0288d74f0dd8cb74fcb23af5ce26a0e><a href="#c0288d74f0dd8cb74fcb23af5ce26a0e">1.5</a>: Hopefully, this will provide you with a set of foundational experiences from my expeirence, in which you can use to form your own opinions, methods, philosophies, procedures, axioms, and systems.</h2>
 <br>
 The ultimate goal in this book is that it improves your ability to function as an operational engineer, and to write automation that achieves the results that you want.<br>
