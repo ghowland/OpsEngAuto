@@ -7,7 +7,7 @@ Current Goal: Populate Empty Sections: 249   (Done: 16.4%)
 
 Lines: 1951
 
-Words: 33896
+Words: 33900
 
 
 # Chapter 1: Preface (README.txt)
@@ -1832,7 +1832,7 @@ For the purpose of this book, we'll be using it in it's core form, in my usage, 
 <br>
 "Effects" are different than "results", because results is more about what you wanted to achieve, and whether you felt you achieved that thing or not.<br>
 <br>
-Effects is more general, and deals with all things that come from an action.  The change of state.<br>
+Effects is more general, and deals with all things that come from an action.  The change of state from before to after.<br>
 <br>
 There can be a lot of confusion with the word "pragmatism", and it is often used interchangeably with "practical", and sometimes conflated with "common knowledge", but it does not mean these things, and for the purpose of this book we will be strictly avoided any conflation with "practical".<br>
 <br>
