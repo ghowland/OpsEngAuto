@@ -5,9 +5,9 @@ Total Sections: 296   Populated Sections: 45
 Current Goal: Populate Empty Sections: 251   (Done: 15.2%)
 
 
-Lines: 1838
+Lines: 1852
 
-Words: 31511
+Words: 31766
 
 
 # Chapter 1: Preface
@@ -134,7 +134,21 @@ When I write code I often like to document things like "Here we are doing this" 
 <br>
 "One like's one's tea with slightly sweet biscuits."<br>
 <br>
-It is kind-of the "royal" we, but in reverse, is the "all encompassing singular", but I write it mostly do you don't want to accept it<br>
+It is kind-of the "royal" we, but in reverse, is the "all encompassing singular", but I write it mostly so if you don't want to accept it is is still easier to digest, because it is directly toward the aether, and not directly at "you" in a tone of command.<br>
+<br>
+I will also hyphenate-things-to-make-compound-ideas.  This allows words to be read in the sense of "all these things are one thing", and help in any kind of grammatical parsing.<br>
+<br>
+I was born and have lived almost exclusively in the United States of America, and only in a few small areas of that space, and so my language usage is set up in a certain way.  Additionally being an Internet-denizen, I have a very fluid use of that language.<br>
+<br>
+My usage of English, or maybe American, may not be easy for you to parse if you are not familiar with the way people similar-to-myself communicate, or English may not be your first language.  <br>
+<br>
+Even if you have a very similar usage of language that I do, the ideas I am expressing are complex and riddled with detail, so these mechanism of asides, and compound ideas, and such are methods to make parsing these ideas more clear.<br>
+<br>
+I am mostly writing in a tone of conversation, and so will jump around more than if this was a text book.  This is certainly not a text book, and should not be read as such.<br>
+<br>
+If you jump to a section, and find it extremely confusing, it is likely because ideas were introduced and specified in a previous section, and their immediate usage (without that previous information) may seem very alien indeed.<br>
+<br>
+This is a trade-of<br>
 <h2 id=c0288d74f0dd8cb74fcb23af5ce26a0e><a href="#c0288d74f0dd8cb74fcb23af5ce26a0e">1.5</a>: Hopefully, this will provide you with a set of foundational experiences from my expeirence, in which you can use to form your own opinions, methods, philosophies, procedures, axioms, and systems.</h2>
 <br>
 The ultimate goal in this book is that it improves your ability to function as an operational engineer, and to write automation that achieves the results that you want.<br>
