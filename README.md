@@ -7,7 +7,7 @@ Current Goal: Populate Empty Sections: 251   (Done: 15.2%)
 
 Lines: 1838
 
-Words: 31489
+Words: 31511
 
 
 # Chapter 1: Preface
@@ -134,7 +134,7 @@ When I write code I often like to document things like "Here we are doing this" 
 <br>
 "One like's one's tea with slightly sweet biscuits."<br>
 <br>
-It is kind-of the<br>
+It is kind-of the "royal" we, but in reverse, is the "all encompassing singular", but I write it mostly do you don't want to accept it<br>
 <h2 id=c0288d74f0dd8cb74fcb23af5ce26a0e><a href="#c0288d74f0dd8cb74fcb23af5ce26a0e">1.5</a>: Hopefully, this will provide you with a set of foundational experiences from my expeirence, in which you can use to form your own opinions, methods, philosophies, procedures, axioms, and systems.</h2>
 <br>
 The ultimate goal in this book is that it improves your ability to function as an operational engineer, and to write automation that achieves the results that you want.<br>
