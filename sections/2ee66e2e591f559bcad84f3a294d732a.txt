@@ -1,3 +1,11 @@
 ### [[3.1.1: A brief interlude on the Strengths and Weaknesses of Metaphors]]
 
+There is a trade-off on Metaphors, and is has to do with expert-knowledge and accuracy.
 
+Metaphors, in my opinion, are most useful when are you not an expert on the subject of the metaphor, or defer your expertise to see the metaphorical example being used as tool for communication.
+
+If I give the example of:
+
+ "Production Operations must deal with the problems given by information alignment and physical hardware management, similar to how building a bridge must deal with the soil, water, wind and temperatures around a bridge, and the materials used to construct the bridge."
+
+This metaphor, or simile in this case, is most useful if the audience are not experts at building bridges.  As an expert in building a bridge, they may have a very different take on what it takes to build a bridge, and what the issues are, and they may validly complain about my use of analogy to 
