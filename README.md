@@ -5,9 +5,9 @@ Total Sections: 296   Populated Sections: 45
 Current Goal: Populate Empty Sections: 251   (Done: 15.2%)
 
 
-Lines: 1854
+Lines: 1860
 
-Words: 32013
+Words: 32129
 
 
 # Chapter 1: Preface
@@ -151,6 +151,12 @@ If you jump to a section, and find it extremely confusing, it is likely because 
 This is a trade-off between writing styles, and for this work I have chosen this style as the one I think will yield the best results for the audience most-likely to be able to intake this information and make use of it.  That is only a guess, but I have to pick a methodology and stick with it.<br>
 <br>
 I will also be making Liberal Use of capitalizations.  I will have certain terms that I always capitalize, as I am using them as "Proper Nouns" (like a person's name), but I will also sometimes capitalize Random Words, because I am introducing a concept and want to draw attention to those specific words in the sentence.  It may be that I will capitalize them the first time I talk about them, and then never again, because the point was made, and the attention to them was drawn.<br>
+<br>
+All of this makes a real jumble of what is considered proper English, but I am doing more than relaying my thoughts and experiences and methodologies to you in English, I am trying to communicate the underlying ideas behind them, and those concepts are far more detailed and complex than English (or any language as I know them) can relay.<br>
+<br>
+There is a reason we have poetry, because the intent is to express something beyond the words, and often the structure of normal language communication is broken or modified to relay those intentions through the language, as the language is a barrier.<br>
+<br>
+My usage is similar, but is the Poetry of Engineering, as I see it.<br>
 <h2 id=c0288d74f0dd8cb74fcb23af5ce26a0e><a href="#c0288d74f0dd8cb74fcb23af5ce26a0e">1.5</a>: Hopefully, this will provide you with a set of foundational experiences from my expeirence, in which you can use to form your own opinions, methods, philosophies, procedures, axioms, and systems.</h2>
 <br>
 The ultimate goal in this book is that it improves your ability to function as an operational engineer, and to write automation that achieves the results that you want.<br>
