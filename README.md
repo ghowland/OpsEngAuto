@@ -7,7 +7,7 @@ Current Goal: Populate Empty Sections: 250   (Done: 15.8%)
 
 Lines: 1884
 
-Words: 32511
+Words: 32528
 
 
 # Chapter 1: Preface (README.txt)
@@ -1788,7 +1788,7 @@ The article is entitled "The Basic Laws of Human Stupidity", and while it's titl
 <br>
 {{ link__basic_laws_of_human_stupiditiy }}<br>
 <br>
-These start to illustrate the differences between Intelligence and Wisdom, to me.<br>
+These start to illustrate the differences between Intelligence and Wisdom, to me, and will hopefully (over the course of the material) become clearer and useful to you as well.<br>
 <br>
 So Philosophy is the "love of wisdom", and I love wisdom, so I take it for that.  I orient myself on "Applied Philosophy", which is Philosophy in a way that I can use to achieve results (internally and externally) and not merely as a way to win arguments at dinner parties.  I think Philosophy has a bad-wrap these days, and I hope to show, if only a little bit, that there is a way to use Philosophical ideas in a practical way to add clarity and improved performance in your life and work.<br>
 <h2 id=af1f8c9950e296d130a668076e4ba88b><a href="#af1f8c9950e296d130a668076e4ba88b">2.7</a>: The Philosophy of Pragmatism</h2>
