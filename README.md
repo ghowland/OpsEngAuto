@@ -1815,7 +1815,7 @@ This is a "Turing Machine" in which we know it will never halt.  There is no fin
 <br>
 I think Philosophy has a bad-wrap these days, and I hope to show, if only in a thin slice, that there is a way to use Philosophical ideas in a practical way to add clarity and improved performance in your life and work.<br>
 <br>
-Moving back to Wisdom:<br>
+Transitioning back to Wisdom:<br>
 <br>
 One simply way to see Wisdom is "good ideas".<br>
 <br>
