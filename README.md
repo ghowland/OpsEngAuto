@@ -134,7 +134,7 @@ When I write code I often like to document things like "Here we are doing this" 
 <br>
 "One like's one's tea with slightly sweet biscuits."<br>
 <br>
-It is kind-of the "royal" we, but in reverse, is the "all encompassing singular", but I write it mostly so if you don't want to accept it is is still easier to digest, because it is directly toward the aether, and not directly at "you" in a tone of command.<br>
+It is kind-of the royal "we", but in reverse, is the "all encompassing singular", but I write it mostly so if you don't want to accept it is is still easier to digest, because it is directly toward the aether, and not directly at "you" in a tone of command.<br>
 <br>
 I will also hyphenate-things-to-make-compound-ideas.  This allows words to be read in the sense of "all these things are one thing", and help in any kind of grammatical parsing.<br>
 <br>
