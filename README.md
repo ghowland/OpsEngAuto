@@ -7,7 +7,7 @@ Current Goal: Populate Empty Sections: 249   (Done: 16.4%)
 
 Lines: 1951
 
-Words: 33840
+Words: 33850
 
 
 # Chapter 1: Preface (README.txt)
@@ -1803,7 +1803,7 @@ In much of Engineering we focus on "How?":<br>
 <br>
 Philosophy is more angled like:<br>
 <br>
-- Why should I use this library instead of that other library?  How are they different?  What will be the effect of using the one, versus the other?  If one of them is better suited for my current situation, but the other may be better suited to a future situation of mine, when would be the time to start switching over?  Is it worth doing?<br>
+- Why should I use this library instead of that other library?  How are they different?  What will be the effect of using the one, versus the other?  If one of them is better suited for my current situation, but the other may be better suited to a future situation of mine, when would be the time to start switching over?  Is it worth doing?  Should we even be doing any of this at all?<br>
 <br>
 - Why was the software written in this way?  How was the developer trying to allow me to solve problems with it?  How can I best use this software to work with the way the developer was trying to enable me to solve a problem?  Between the different ways I could do this work, what are the different effects they will cause, and which of those do I think will be most beneficial for me?<br>
 <br>
