@@ -1,13 +1,13 @@
 # Operations: Engineering and Automation
 
 
-Total Sections: 294   Populated Sections: 43
-Current Goal: Populate Empty Sections: 251   (Done: 14.6%)
+Total Sections: 294   Populated Sections: 44
+Current Goal: Populate Empty Sections: 250   (Done: 15.0%)
 
 
-Lines: 1764
+Lines: 1774
 
-Words: 29972
+Words: 30062
 
 
 # Chapter 1: Preface
@@ -1722,6 +1722,16 @@ So while it is weird to type and say, it has a benefit for clarity, which is an 
 <br>
 Also, it will make it easier to relate to your future AI overlords, which will be helpful.<br>
 <h2 id=af1f8c9950e296d130a668076e4ba88b><a href="#af1f8c9950e296d130a668076e4ba88b">2.7</a>: The Philosophy of Pragmatism</h2>
+<br>
+Pragmatism is a formally written up philosophy, and you read more in-depth about it on the Internet or various books.<br>
+<br>
+For the purpose of this book, we'll be using it in it's core form which is:<br>
+<br>
+"Pragmatism is when you only evaluate an action based on the effects, and nothing else."<br>
+<br>
+"Effects" are different than "results", because results is more about what you wanted to achieve, and whether you felt you achieved that thing or not.<br>
+<br>
+Effects is more general, and deals with all things that come from an action.<br>
 <h3 id=ecb2f6533d02864a3355571f4e7d17b7><a href="#ecb2f6533d02864a3355571f4e7d17b7">2.7.1</a>: It doens't mean practical, or common sense.  It is specific to the effects, and nothing else.</h3>
 <p id=c88a8c2a472464982c2f1601901f744d><b><a href="#c88a8c2a472464982c2f1601901f744d">2.7.1.1</a>: Deal with ONLY effecs.  No side effects.</b></p>
 <p id=c225c5097c5fbffad5f9b2d6d5fb3d43><b><a href="#c225c5097c5fbffad5f9b2d6d5fb3d43">2.7.1.1.1</a>: Show positives, not negatives.</b></p>
