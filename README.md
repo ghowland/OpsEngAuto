@@ -5,9 +5,9 @@ Total Sections: 296   Populated Sections: 45
 Current Goal: Populate Empty Sections: 251   (Done: 15.2%)
 
 
-Lines: 1834
+Lines: 1838
 
-Words: 31440
+Words: 31489
 
 
 # Chapter 1: Preface
@@ -130,7 +130,11 @@ I am going to frequently switch words such as "I", "you", "we", "one" to account
 <br>
 When I write code I often like to document things like "Here we are doing this" and "We don't want this effect, so I am doing this".  In this "future readership" situation, I am thinking of the code documentation's future reader, which may be myself or someone else.  In either case, that reader will be in a different state than I was at the time I wrote the code and documented it, so I am trying to bridge that gap, and make it another "shared journey".<br>
 <br>
-- "One": This is when I am trying to give advice to some sort of direction.  I really don't think I should be telling you what to do, and I don't want to.  I want to assist in enabling you to<br>
+- "One": This is when I am trying to give advice to some sort of direction.  I really don't think I should be telling you what to do, and I don't want to.  I want to assist in enabling you to do things better, and to make your own choices, and make your own processes, and methodologies and philosophies.  Telling you to do things is in opposition to these goals, so I use the word "one", such as:<br>
+<br>
+"One like's one's tea with slightly sweet biscuits."<br>
+<br>
+It is kind-of the<br>
 <h2 id=c0288d74f0dd8cb74fcb23af5ce26a0e><a href="#c0288d74f0dd8cb74fcb23af5ce26a0e">1.5</a>: Hopefully, this will provide you with a set of foundational experiences from my expeirence, in which you can use to form your own opinions, methods, philosophies, procedures, axioms, and systems.</h2>
 <br>
 The ultimate goal in this book is that it improves your ability to function as an operational engineer, and to write automation that achieves the results that you want.<br>
