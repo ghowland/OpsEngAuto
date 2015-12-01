@@ -9,3 +9,4 @@ For the purpose of this book, we'll be using it in it's core form which is:
 "Effects" are different than "results", because results is more about what you wanted to achieve, and whether you felt you achieved that thing or not.
 
 Effects is more general, and deals with all things that come from an action.
+
