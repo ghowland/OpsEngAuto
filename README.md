@@ -5,9 +5,9 @@ Total Sections: 295   Populated Sections: 44
 Current Goal: Populate Empty Sections: 251   (Done: 14.9%)
 
 
-Lines: 1788
+Lines: 1794
 
-Words: 30395
+Words: 30551
 
 
 # Chapter 1: Preface
@@ -1746,6 +1746,12 @@ Grouping everything into only one single pool of "effects" is the better way to 
 What are we excluding when we only look at effects?<br>
 <br>
 Initially, we are excluding our value judgements, our goals, our history, culture, feelings, wants and desires, and anything else, so that we can focus on dealing with "what changed?", and detailing these effects (changes) qualitatively and quantitatively, where possible for each.<br>
+<br>
+This allows us to go beyond whatever limitations we might be currently bound by, if we don't apply them to the situation before we have enumerated and started to evaluate all of the effects, not merely the effects we want to focus on.<br>
+<br>
+In terms of getting coverage like "all of something", we are obviously talking about potentially a lot of data and too much to grasp at any time, and this is where Systemic Thinking and Slicing the Pie come into effect, in that we can box these effects into groups, to be inspected in more detail as needed, or viewed from farther away, and seen with less detail.<br>
+<br>
+Again, this ability to scale in or out from details, is an important skill that needs to be developed and applied to get a good grasp on what is going on.  Without this, one is going to be "stuck" with the view from one's current perspective.<br>
 <h3 id=ecb2f6533d02864a3355571f4e7d17b7><a href="#ecb2f6533d02864a3355571f4e7d17b7">2.7.1</a>: It doens't mean practical, or common sense.  It is specific to the effects, and nothing else.</h3>
 <p id=c88a8c2a472464982c2f1601901f744d><b><a href="#c88a8c2a472464982c2f1601901f744d">2.7.1.1</a>: Deal with ONLY effecs.  No side effects.</b></p>
 <p id=c225c5097c5fbffad5f9b2d6d5fb3d43><b><a href="#c225c5097c5fbffad5f9b2d6d5fb3d43">2.7.1.1.1</a>: Show positives, not negatives.</b></p>
