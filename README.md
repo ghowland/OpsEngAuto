@@ -5,9 +5,9 @@ Total Sections: 298   Populated Sections: 49
 Current Goal: Populate Empty Sections: 249   (Done: 16.4%)
 
 
-Lines: 1929
+Lines: 1937
 
-Words: 33460
+Words: 33505
 
 
 # Chapter 1: Preface (README.txt)
@@ -1792,6 +1792,14 @@ The article is entitled "The Basic Laws of Human Stupidity", and while it's titl
 These start to illustrate the differences between Intelligence and Wisdom, to me, and will hopefully (over the course of the material) become clearer and useful to you as well.<br>
 <br>
 So Philosophy is the "love of wisdom", and I love wisdom, so I take it for that.  I orient myself on "Applied Philosophy", which is Philosophy in a way that I can use to achieve results (internally and externally) and not merely as a way to win arguments at dinner parties, or making comments that end with "Do you want fries with that?".  <br>
+<br>
+Another purpose of Philosophy is to be a structure around the question, "Why?"<br>
+<br>
+In much of Engineering we focus on "How?":<br>
+<br>
+- How do I use this library or software?<br>
+- How was this software written?<br>
+- How do I get the result I want?<br>
 <br>
 I think Philosophy has a bad-wrap these days, and I hope to show, if only in a thin slice, that there is a way to use Philosophical ideas in a practical way to add clarity and improved performance in your life and work.<br>
 <br>
