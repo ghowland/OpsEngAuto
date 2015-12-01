@@ -7,7 +7,7 @@ Current Goal: Populate Empty Sections: 249   (Done: 16.4%)
 
 Lines: 1929
 
-Words: 33458
+Words: 33460
 
 
 # Chapter 1: Preface (README.txt)
@@ -1778,7 +1778,7 @@ These roots are "love" and "wisdom", so Philosophy is the "love of wisdom".<br>
 <br>
 I look at Wisdom and Intelligence as different axes.<br>
 <br>
-Wisdom is gained from experience, and has to do with the breadth and depth of insight into topics, and being able to make judgements that detail what might be favorable and unfavorable outcomes.<br>
+Wisdom is gained from experience, and has to do with the breadth and depth of insight into topics, and being able to make judgements that detail what might be favorable and unfavorable outcomes, and why.<br>
 <br>
 Intelligence I look at in very different perspective, which is "making an action that yields beneficial results for all parties involved."<br>
 <br>
