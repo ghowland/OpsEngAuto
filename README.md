@@ -7,7 +7,7 @@ Current Goal: Populate Empty Sections: 251   (Done: 14.9%)
 
 Lines: 1794
 
-Words: 30551
+Words: 30555
 
 
 # Chapter 1: Preface
@@ -1745,7 +1745,7 @@ Grouping everything into only one single pool of "effects" is the better way to 
 <br>
 What are we excluding when we only look at effects?<br>
 <br>
-Initially, we are excluding our value judgements, our goals, our history, culture, feelings, wants and desires, and anything else, so that we can focus on dealing with "what changed?", and detailing these effects (changes) qualitatively and quantitatively, where possible for each.<br>
+Initially, we are excluding our value judgements, our goals, our history, culture, feelings, wants and desires, and anything else, so that we can focus on dealing with "what changed?" or "what will change?", and detailing these effects (changes) qualitatively and quantitatively, where possible for each.<br>
 <br>
 This allows us to go beyond whatever limitations we might be currently bound by, if we don't apply them to the situation before we have enumerated and started to evaluate all of the effects, not merely the effects we want to focus on.<br>
 <br>

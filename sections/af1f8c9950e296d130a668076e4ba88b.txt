@@ -22,7 +22,7 @@ Grouping everything into only one single pool of "effects" is the better way to 
 
 What are we excluding when we only look at effects?
 
-Initially, we are excluding our value judgements, our goals, our history, culture, feelings, wants and desires, and anything else, so that we can focus on dealing with "what changed?", and detailing these effects (changes) qualitatively and quantitatively, where possible for each.
+Initially, we are excluding our value judgements, our goals, our history, culture, feelings, wants and desires, and anything else, so that we can focus on dealing with "what changed?" or "what will change?", and detailing these effects (changes) qualitatively and quantitatively, where possible for each.
 
 This allows us to go beyond whatever limitations we might be currently bound by, if we don't apply them to the situation before we have enumerated and started to evaluate all of the effects, not merely the effects we want to focus on.
 
