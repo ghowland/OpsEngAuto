@@ -1840,7 +1840,7 @@ There can be a lot of confusion with the word "pragmatism", and it is often used
 <br>
 This has nothing to do with Pragmatism, as Pragmatism has no concern for the amount of resources that were used, or if the burden was terrible, or whether it was convenient.  These things may show up in the "effects" of an action, such as the amount of resources impacted is part of the effect, but "practical" ties these things together as being important in the concept, whereas with Pragmatism, all of the effects are simply data and will be evaluated as to whether those are desirable effects, or not.<br>
 <br>
-This also covers another topic that causes confusion which is "side-effects", and although this is useful in language to denote things that occurred that may not have been part of the "main" or "center" (hence, "side"), in truth all things are simply effects.  Whether they are in the "center" or the "side" is based on your perspective, and likely to cause partial blindness when ignored.<br>
+This also covers another topic that causes confusion, which is "side-effects", and although this is useful in language to denote things that occurred that may not have been part of the "main" or "center" (hence, "side"), in truth all things are simply effects.  Whether they are in the "center" or the "side" is based on your perspective, and likely to cause partial blindness when ignored.<br>
 <br>
 Grouping everything into only one single pool of "effects" is the better way to do this, when you prioritize for accuracy and clarity, because you are not trying to push anything to the "side-lines" and are seeing all effects as being caused by your action, and thus will evaluate that action more comprehensively.<br>
 <br>
