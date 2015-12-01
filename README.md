@@ -7,7 +7,7 @@ Current Goal: Populate Empty Sections: 249   (Done: 16.2%)
 
 Lines: 1898
 
-Words: 32772
+Words: 32799
 
 
 # Chapter 1: Preface (README.txt)
@@ -1868,7 +1868,7 @@ Generic and vague?  You bet!  But, also it can be used to insert in any specific
 <br>
 That's starting to be more clear, and more specific to our current topic than the more general answer, but I see all of Engineering as a similar set of options.<br>
 <br>
-Whether Engineering is applied to building a bridge, a canal, a sky scraper, or a production operations environment, it needs to be efficient (because being inefficient might mean it is not able to be completed, or "fails"), and it has certain resources (universally time, almost always money, and also almost always people, and then it might be soil conditions, and logistics of getting materials from Point A to Point B, or whatever), and has specifically desired effects, such as a set of interlocking canal segments of the Panama Canal, or a<br>
+Whether Engineering is applied to building a bridge, a canal, a sky scraper, or a production operations environment, it needs to be efficient (because being inefficient might mean it is not able to be completed, or "fails"), and it has certain resources (universally time, almost always money, and also almost always people, and then it might be soil conditions, and logistics of getting materials from Point A to Point B, or whatever), and has specifically desired effects, such as a set of interlocking canal segments of the Panama Canal, or a sky-scraper buildings ability to stay erect under it's own enormous weight and support and movement of the soil, or the digital and physical equivalents in server operations.<br>
 <h2 id=a941939e629b2be25c1ba265cbd9aaed><a href="#a941939e629b2be25c1ba265cbd9aaed">3.2</a>: Difference between Application and Operational code</h2>
 <h3 id=1e13f344d1ae44173a1f9532c809f6b1><a href="#1e13f344d1ae44173a1f9532c809f6b1">3.2.1</a>: Many applications and services.  One Operational environment</h3>
 <p id=8eb74e570e995c459a430857793ad69f><b><a href="#8eb74e570e995c459a430857793ad69f">3.2.1.1</a>: Like 1 big computer.</b></p>
