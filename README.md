@@ -7,7 +7,7 @@ Current Goal: Populate Empty Sections: 251   (Done: 15.2%)
 
 Lines: 1852
 
-Words: 31766
+Words: 31820
 
 
 # Chapter 1: Preface
@@ -148,7 +148,7 @@ I am mostly writing in a tone of conversation, and so will jump around more than
 <br>
 If you jump to a section, and find it extremely confusing, it is likely because ideas were introduced and specified in a previous section, and their immediate usage (without that previous information) may seem very alien indeed.<br>
 <br>
-This is a trade-of<br>
+This is a trade-off between writing styles, and for this work I have chosen this style as the one I think will yield the best results for the audience most-likely to be able to intake this information and make use of it.  That is only a guess, but I have to pick a methodology and stick with it.<br>
 <h2 id=c0288d74f0dd8cb74fcb23af5ce26a0e><a href="#c0288d74f0dd8cb74fcb23af5ce26a0e">1.5</a>: Hopefully, this will provide you with a set of foundational experiences from my expeirence, in which you can use to form your own opinions, methods, philosophies, procedures, axioms, and systems.</h2>
 <br>
 The ultimate goal in this book is that it improves your ability to function as an operational engineer, and to write automation that achieves the results that you want.<br>
