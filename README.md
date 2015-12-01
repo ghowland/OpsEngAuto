@@ -7,7 +7,7 @@ Current Goal: Populate Empty Sections: 250   (Done: 15.0%)
 
 Lines: 1782
 
-Words: 30274
+Words: 30291
 
 
 # Chapter 1: Preface
@@ -1739,7 +1739,7 @@ There can be a lot of confusion with the word "pragmatism", and it is often used
 <br>
 This has nothing to do with Pragmatism, as Pragmatism has no concern for the amount of resources that were used, or if the burden was terrible, or whether it was convenient.  These things may show up in the "effects" of an action, such as the amount of resources impacted is part of the effect, but "practical" ties these things together as being important in the concept, whereas with Pragmatism, all of the effects are simply data and will be evaluated as to whether those are desirable effects, or not.<br>
 <br>
-This also covers another topic that causes confusion which is "side-effects", and although this is useful in language to denote things that occurred that may not have been part of the "main" or "center" (hence, "side"), in truth all things are simply effects.  Whether they are in the<br>
+This also covers another topic that causes confusion which is "side-effects", and although this is useful in language to denote things that occurred that may not have been part of the "main" or "center" (hence, "side"), in truth all things are simply effects.  Whether they are in the "center" or the "side" is based on your perspective, and likely to cause partial blindness when ignored.<br>
 <h3 id=ecb2f6533d02864a3355571f4e7d17b7><a href="#ecb2f6533d02864a3355571f4e7d17b7">2.7.1</a>: It doens't mean practical, or common sense.  It is specific to the effects, and nothing else.</h3>
 <p id=c88a8c2a472464982c2f1601901f744d><b><a href="#c88a8c2a472464982c2f1601901f744d">2.7.1.1</a>: Deal with ONLY effecs.  No side effects.</b></p>
 <p id=c225c5097c5fbffad5f9b2d6d5fb3d43><b><a href="#c225c5097c5fbffad5f9b2d6d5fb3d43">2.7.1.1.1</a>: Show positives, not negatives.</b></p>
