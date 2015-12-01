@@ -10,3 +10,14 @@ I will also interject parentheticals (like this), whenever I want to make an imm
 
 I will also make up words whenever they seem to work better, or sometimes I will think I am making up a word, but it might end up being an existing word that I didn't know, and have a different meaning.  I will try to explain my meaning any time I think I am making a concept that may not be a standard one, so try to read it with my intent, instead of against a standard, as if I stuck to the standards I don't think I could get the details with the pacing that I want.
 
+I am going to frequently switch words such as "I", "you", "we", "one" to account for the subject, and I have specific meanings for this:
+
+- "I": I am talking about myself and my experience.  As previously said, I will try to do this as much as possible, because this is a transference of knowledge, from me to you.
+
+- "You": I am talking about you, the reader.  I have written this for you, even though I probably don't know you, but I have you in mind when I am writing, and I am thinking "What will you be aware of at this time, from previous material?  What I am trying to get you to?  Is it clear to you?"
+
+- "We": You and I are on a short journey together, although at different times and different places, but I am relaying information into this medium, and you are consuming this information, and that creates an informal relationship between us.  I like to think in terms of "we" for this, as it is a shared journey.  
+
+When I write code I often like to document things like "Here we are doing this" and "We don't want this effect, so I am doing this".  In this "future readership" situation, I am thinking of the code documentation's future reader, which may be myself or someone else.  In either case, that reader will be in a different state than I was at the time I wrote the code and documented it, so I am trying to bridge that gap, and make it another "shared journey".
+
+- "One": This is when I am trying to give advice to some sort of direction.  I really don't think I should be telling you what to do, and I don't want to.  I want to assist in enabling you to 
