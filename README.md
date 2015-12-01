@@ -7,7 +7,7 @@ Current Goal: Populate Empty Sections: 249   (Done: 16.4%)
 
 Lines: 1951
 
-Words: 33948
+Words: 33954
 
 
 # Chapter 1: Preface (README.txt)
@@ -1852,7 +1852,7 @@ This allows us to go beyond whatever limitations we might be currently bound by,
 <br>
 In terms of getting coverage like "all of something", we are obviously talking about potentially a lot of data and too much to grasp at any time, and this is where Systemic Thinking and Slicing the Pie come into effect, in that we can box these effects into groups, to be inspected in more detail as needed, or viewed from farther away, and seen with less detail, or Specificity.<br>
 <br>
-Again, this ability to scale in or out from details, is an important skill that needs to be developed and applied to get a good grasp on what is going on.  Without this, one is going to be "stuck" with the view from one's current perspective.<br>
+Again, this ability to scale in or out from details, is an important skill that needs to be developed and applied to get a good grasp on what is going on.  Without this, one is going to be "stuck" with the view from one's current perspective, which may change under different circumstances.<br>
 <br>
 I like to give examples with every topic I introduce, but I don't think it's the right time to go into an example deeply on this, so we will just touch the surface of an example we will delve into deeply soon.<br>
 <br>
