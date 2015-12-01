@@ -5,9 +5,9 @@ Total Sections: 298   Populated Sections: 49
 Current Goal: Populate Empty Sections: 249   (Done: 16.4%)
 
 
-Lines: 1949
+Lines: 1951
 
-Words: 33758
+Words: 33762
 
 
 # Chapter 1: Preface (README.txt)
@@ -1814,6 +1814,8 @@ Philosophy is about depth, and the ability to inspect things from different angl
 This is a "Turing Machine" in which we know it will never halt.  There is no final exit or return from Philosophy, it is a rabbit hole that never ends, and goes as deep as you are willing to look.<br>
 <br>
 I think Philosophy has a bad-wrap these days, and I hope to show, if only in a thin slice, that there is a way to use Philosophical ideas in a practical way to add clarity and improved performance in your life and work.<br>
+<br>
+Moving back to Wisdom:<br>
 <br>
 One simply way to see Wisdom is "good ideas".<br>
 <br>
