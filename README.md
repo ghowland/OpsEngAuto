@@ -5,9 +5,9 @@ Total Sections: 298   Populated Sections: 49
 Current Goal: Populate Empty Sections: 249   (Done: 16.4%)
 
 
-Lines: 1926
+Lines: 1927
 
-Words: 33443
+Words: 33446
 
 
 # Chapter 1: Preface (README.txt)
@@ -1787,6 +1787,7 @@ This is not a common definition of Intelligence, but it has a rigid definition, 
 The article is entitled "The Basic Laws of Human Stupidity", and while it's title and subject matter focus on "Stupidity" (anti-Intelligence), it's real function for me was to qualitatively and quantitatively define what intelligence is.  He puts it on a 2D graph, and charts it, and allows for pinpointing different kinds of Intelligence and Anti-Intelligent actions.  Try not to let the negativity sounding name cause you to avoid this information, it is a very important set of thoughts he has encoded there-in.<br>
 <br>
 {{ link__basic_laws_of_human_stupiditiy }}<br>
+{{ todo__request_rights_to_reprint_in_my_book }}<br>
 <br>
 These start to illustrate the differences between Intelligence and Wisdom, to me, and will hopefully (over the course of the material) become clearer and useful to you as well.<br>
 <br>
