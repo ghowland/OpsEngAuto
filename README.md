@@ -7,7 +7,7 @@ Current Goal: Populate Empty Sections: 251   (Done: 15.2%)
 
 Lines: 1860
 
-Words: 32129
+Words: 32135
 
 
 # Chapter 1: Preface
@@ -114,7 +114,7 @@ There will likely be some writing stylistic conventions I use that are new for y
 <br>
 I have developed my style of written communication over my life, and continue to refine it still.  I am more concerned with having my intent and detailed messages understood than in complying with grammatical rules, and so will bend and break them as needed to achieve my desired results.<br>
 <br>
-As such, as I will quote "things" whenever I want to emphasize them specifically, as introduced by Alfred Korzybski, from his methodology of General Semantics.<br>
+As such, as I will quote "things" whenever I want to emphasize them specifically, as introduced by Alfred Korzybski, from his methodology of General Semantics (although not following his strict guidelines).<br>
 <br>
 I will also interject parentheticals (like this), whenever I want to make an immediate "aside" comment or clarification (like this).<br>
 <br>
