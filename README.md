@@ -1,13 +1,13 @@
 # Operations: Engineering and Automation
 
 
-Total Sections: 297   Populated Sections: 47
-Current Goal: Populate Empty Sections: 250   (Done: 15.8%)
+Total Sections: 297   Populated Sections: 48
+Current Goal: Populate Empty Sections: 249   (Done: 16.2%)
 
 
-Lines: 1884
+Lines: 1886
 
-Words: 32528
+Words: 32577
 
 
 # Chapter 1: Preface (README.txt)
@@ -1855,6 +1855,8 @@ We have cleared the hurdles of disclaimers, how-to-read, introductions, and term
 
 
 <h2 id=b313ae83a593ebeebefbf3e427c23f35><a href="#b313ae83a593ebeebefbf3e427c23f35">3.1</a>: What is Engineering?</h2>
+<br>
+More definitions?  Well, we are never going to stop defining and re-defining things to our particular circumstances, as we simply can't front load all the thinking, and sometimes we will need to be more specific, but at least we are into the real content, and not the peripherals now.<br>
 <h2 id=a941939e629b2be25c1ba265cbd9aaed><a href="#a941939e629b2be25c1ba265cbd9aaed">3.2</a>: Difference between Application and Operational code</h2>
 <h3 id=1e13f344d1ae44173a1f9532c809f6b1><a href="#1e13f344d1ae44173a1f9532c809f6b1">3.2.1</a>: Many applications and services.  One Operational environment</h3>
 <p id=8eb74e570e995c459a430857793ad69f><b><a href="#8eb74e570e995c459a430857793ad69f">3.2.1.1</a>: Like 1 big computer.</b></p>
