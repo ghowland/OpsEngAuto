@@ -108,7 +108,8 @@ There will be quite a bit of this kind of introspection into language and meanin
 I also find that when writing in the first person, it is less of a commanding or authoritative approach, rather than writing in the second person ("you will then do this") has more opportunities to throw readers off if they disagree, do not want to do that, or are tired of being lectured to.<br>
 <br>
 This is a one-way conversation, in that it is a book, but it is meant to be taken as a conversational approach to learning, so that you can grow from it as best is possible, and not merely a display of my knowledge and set of instructions for others to follow.<br>
-<h2 id=c0288d74f0dd8cb74fcb23af5ce26a0e><a href="#c0288d74f0dd8cb74fcb23af5ce26a0e">1.4</a>: Hopefully, this will provide you with a set of foundational experiences from my expeirence, in which you can use to form your own opinions, methods, philosophies, procedures, axioms, and systems.</h2>
+<h2 id=8c769f9c732b984ba19311c211e281ab><a href="#8c769f9c732b984ba19311c211e281ab">1.4</a>: Writing Stylistic Conventions</h2>
+<h2 id=c0288d74f0dd8cb74fcb23af5ce26a0e><a href="#c0288d74f0dd8cb74fcb23af5ce26a0e">1.5</a>: Hopefully, this will provide you with a set of foundational experiences from my expeirence, in which you can use to form your own opinions, methods, philosophies, procedures, axioms, and systems.</h2>
 <br>
 The ultimate goal in this book is that it improves your ability to function as an operational engineer, and to write automation that achieves the results that you want.<br>
 <br>
