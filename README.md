@@ -5,9 +5,9 @@ Total Sections: 298   Populated Sections: 49
 Current Goal: Populate Empty Sections: 249   (Done: 16.4%)
 
 
-Lines: 1937
+Lines: 1943
 
-Words: 33505
+Words: 33576
 
 
 # Chapter 1: Preface (README.txt)
@@ -1800,6 +1800,12 @@ In much of Engineering we focus on "How?":<br>
 - How do I use this library or software?<br>
 - How was this software written?<br>
 - How do I get the result I want?<br>
+<br>
+Philosophy is more angled like:<br>
+<br>
+- Why should I use this library instead of that other library?  How are they different?  What will be the effect of using the one, versus the other?  If one of them is better suited for my current situation, but the other may be better suited to a future situation of mine, when would be the time to start switching over?  Is it worth doing?<br>
+<br>
+- <br>
 <br>
 I think Philosophy has a bad-wrap these days, and I hope to show, if only in a thin slice, that there is a way to use Philosophical ideas in a practical way to add clarity and improved performance in your life and work.<br>
 <br>

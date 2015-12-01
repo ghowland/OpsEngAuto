@@ -29,6 +29,12 @@ In much of Engineering we focus on "How?":
 - How was this software written?
 - How do I get the result I want?
 
+Philosophy is more angled like:
+
+- Why should I use this library instead of that other library?  How are they different?  What will be the effect of using the one, versus the other?  If one of them is better suited for my current situation, but the other may be better suited to a future situation of mine, when would be the time to start switching over?  Is it worth doing?
+
+- 
+
 I think Philosophy has a bad-wrap these days, and I hope to show, if only in a thin slice, that there is a way to use Philosophical ideas in a practical way to add clarity and improved performance in your life and work.
 
 One simply way to see Wisdom is "good ideas".
