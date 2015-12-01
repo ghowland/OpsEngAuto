@@ -5,9 +5,9 @@ Total Sections: 300   Populated Sections: 49
 Current Goal: Populate Empty Sections: 251   (Done: 16.3%)
 
 
-Lines: 1953
+Lines: 1952
 
-Words: 33966
+Words: 33963
 
 
 # Chapter 1: Preface (README.txt)
@@ -1788,7 +1788,6 @@ The article is entitled "The Basic Laws of Human Stupidity", and while it's titl
 <br>
 http://www.amazon.com/The-Basic-Laws-Human-Stupidity-ebook/dp/B005ZX622C<br>
 <br>
-{{ link__basic_laws_of_human_stupiditiy }}<br>
 {{ todo__request_rights_to_reprint_article_in_my_book_from_family }}<br>
 <br>
 These start to illustrate the differences between Intelligence and Wisdom, to me, and will hopefully (over the course of the material) become clearer and useful to you as well.<br>
