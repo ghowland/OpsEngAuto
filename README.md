@@ -7,7 +7,7 @@ Current Goal: Populate Empty Sections: 249   (Done: 16.4%)
 
 Lines: 1951
 
-Words: 33887
+Words: 33888
 
 
 # Chapter 1: Preface (README.txt)
@@ -1807,7 +1807,7 @@ Philosophy is more angled like:<br>
 <br>
 - Why was the software written in this way?  How was the developer trying to allow me to solve problems with it?  How can I best use this software to work with the way the developer was trying to enable me to solve a problem?  Between the different ways I could do this work, what are the different effects they will cause, and which of those do I think will be most beneficial for me?<br>
 <br>
-- Why am I doing this?  What are my goals?  How can I define them precisely?  Is my entire team in agreement with this, as an intention?  Are we able to communicate effectively, ensuring that we understand each other and can work together efficiently?  How would know if this is true, and we are succeeding?  How can we measure that success, and compare it to the goals we wanted to achieve before we started?<br>
+- Why am I doing this?  What are my goals?  How can I define them precisely?  Is my entire team in agreement with this, as an intention?  Are we able to communicate effectively, ensuring that we understand each other and can work together efficiently?  How would we know if this is true, and we are succeeding?  How can we measure that success, and compare it to the goals we wanted to achieve before we started?<br>
 <br>
 Philosophy is about depth, and the ability to inspect things from different angles, and while it may appear on the surface (and is sometimes explicitly stated) that it is trying to "define the way things are", in actuality the Philosophical inspection never ends (Infinitely Recursive), and so it does not have the ability to ever define things "the way they are", because it can't stop defining things.<br>
 <br>
