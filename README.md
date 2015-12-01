@@ -7,7 +7,7 @@ Current Goal: Populate Empty Sections: 249   (Done: 16.2%)
 
 Lines: 1898
 
-Words: 32799
+Words: 32805
 
 
 # Chapter 1: Preface (README.txt)
@@ -37,7 +37,7 @@ This book's format is meant to be read from start to finish.  It starts off more
 
 
 
-This book is more about depth than about breadth, and as such we will continue to come back to examples over and over again, looking at them in different ways, to give a deeper understanding of all the components that make them up.  This is in contrast to many books that are meant to describe an array of information and give you a broader understanding of how to work.
+This book is more about depth than about breadth, and as such we will continue to come back to examples over and over again, looking at them in different ways, to give a deeper understanding of all the components that make them up.  This is in contrast to many books that are meant to describe an array of information and give you a broader understanding of how to work and how to use them specifically.
 
 
 
