@@ -1770,10 +1770,6 @@ Since Logic is able to be written so that it runs deterministically (if done "pr
 We can evaluate these based on the effects of what happens when Logic updates a DNS Zone file 10000 times, versus having Humans update a DNS Zone file 10000 times.  From these cumulative effects, we can see that the Humans will make more mistakes in the act of updating the zone file, than the Logic will, and thus the effect of Human edits are more errors, which reduce our up-time.<br>
 <br>
 There is a lot more detail that could go into this analysis, as with anything, but this is getting our feet on the path of how to analyze things by their effects, trying to strip out anything that is not an effect of the process.<br>
-<h3 id=ecb2f6533d02864a3355571f4e7d17b7><a href="#ecb2f6533d02864a3355571f4e7d17b7">2.7.1</a>: It doens't mean practical, or common sense.  It is specific to the effects, and nothing else.</h3>
-<p id=c88a8c2a472464982c2f1601901f744d><b><a href="#c88a8c2a472464982c2f1601901f744d">2.7.1.1</a>: Deal with ONLY effecs.  No side effects.</b></p>
-<p id=c225c5097c5fbffad5f9b2d6d5fb3d43><b><a href="#c225c5097c5fbffad5f9b2d6d5fb3d43">2.7.1.1.1</a>: Show positives, not negatives.</b></p>
-<p id=435b1da00f2fe0352e54a0887ca8e461><b><a href="#435b1da00f2fe0352e54a0887ca8e461">2.7.1.1.1.1</a>: How to produce low-downtime.  How to produce high-downtime.  Functinally positive or negative on our Axiom spectrums.  As prioritized by the 90-9-.9-.09... rules.</b></p>
 
 # Chapter 3: Engineering Philosophy and Methodology in Operations
 
