@@ -7,7 +7,7 @@ Current Goal: Populate Empty Sections: 250   (Done: 15.5%)
 
 Lines: 1864
 
-Words: 32160
+Words: 32163
 
 
 # Chapter 1: Preface (README.txt)
@@ -1827,7 +1827,7 @@ Alright!  The book is really starting now!
 
 
 
-We have cleared the hurdles of disclaimers, how-to-read, introductions, and terminology.  We can now get into the 
+We have cleared the hurdles of disclaimers, how-to-read, introductions, and terminology.  We can now get into the real substance of 
 
 <h2 id=b313ae83a593ebeebefbf3e427c23f35><a href="#b313ae83a593ebeebefbf3e427c23f35">3.1</a>: What is Engineering?</h2>
 <h2 id=a941939e629b2be25c1ba265cbd9aaed><a href="#a941939e629b2be25c1ba265cbd9aaed">3.2</a>: Difference between Application and Operational code</h2>
