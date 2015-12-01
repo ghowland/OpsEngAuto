@@ -1,13 +1,13 @@
 # Operations: Engineering and Automation
 
 
-Total Sections: 296   Populated Sections: 44
-Current Goal: Populate Empty Sections: 252   (Done: 14.9%)
+Total Sections: 296   Populated Sections: 45
+Current Goal: Populate Empty Sections: 251   (Done: 15.2%)
 
 
-Lines: 1812
+Lines: 1818
 
-Words: 30912
+Words: 31013
 
 
 # Chapter 1: Preface
@@ -109,6 +109,12 @@ I also find that when writing in the first person, it is less of a commanding or
 <br>
 This is a one-way conversation, in that it is a book, but it is meant to be taken as a conversational approach to learning, so that you can grow from it as best is possible, and not merely a display of my knowledge and set of instructions for others to follow.<br>
 <h2 id=8c769f9c732b984ba19311c211e281ab><a href="#8c769f9c732b984ba19311c211e281ab">1.4</a>: Writing Stylistic Conventions</h2>
+<br>
+There will likely be some writing stylistic conventions I use that are new for you to read, and perhaps you don't like, and certainly you will not find approved in English Grammar books.<br>
+<br>
+I have developed my style of written communication over my life, and continue to refine it still.  I am more concerned with having my intent and detailed messages understood than in complying with grammatical rules, and so will bend and break them as needed to achieve my desired results.<br>
+<br>
+As such, as I will quote "things" whenever I want to emphasize them specifically, as introduced by Alfred Korzybski<br>
 <h2 id=c0288d74f0dd8cb74fcb23af5ce26a0e><a href="#c0288d74f0dd8cb74fcb23af5ce26a0e">1.5</a>: Hopefully, this will provide you with a set of foundational experiences from my expeirence, in which you can use to form your own opinions, methods, philosophies, procedures, axioms, and systems.</h2>
 <br>
 The ultimate goal in this book is that it improves your ability to function as an operational engineer, and to write automation that achieves the results that you want.<br>
