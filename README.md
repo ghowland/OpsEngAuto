@@ -1871,7 +1871,7 @@ That's starting to be more clear, and more specific to our current topic than th
 Whether Engineering is applied to building a bridge, a canal, a sky scraper, or a production operations environment, it needs to be efficient (because being inefficient might mean it is not able to be completed, or "fails"), and it has certain resources (universally time, almost always money, and also almost always people, and then it might be soil conditions, and logistics of getting materials from Point A to Point B, or whatever), and has specifically desired effects, such as a set of interlocking canal segments of the Panama Canal, or a sky-scraper buildings ability to stay erect under it's own enormous weight and support and movement of the soil, or the digital and physical equivalents in server operations.<br>
 <h3 id=2ee66e2e591f559bcad84f3a294d732a><a href="#2ee66e2e591f559bcad84f3a294d732a">3.1.1</a>: A brief interlude on the Strengths and Weaknesses of Metaphors</h3>
 <br>
-There is a trade-off on Metaphors, and is has to do with expert-knowledge and accuracy.<br>
+There is a trade-off on Metaphors, and it has to do with expert-knowledge and accuracy.<br>
 <br>
 Metaphors, in my opinion, are most useful when are you not an expert on the subject of the metaphor, or defer your expertise to see the metaphorical example being used as tool for communication.<br>
 <br>

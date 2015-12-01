@@ -1,6 +1,6 @@
 ### [[3.1.1: A brief interlude on the Strengths and Weaknesses of Metaphors]]
 
-There is a trade-off on Metaphors, and is has to do with expert-knowledge and accuracy.
+There is a trade-off on Metaphors, and it has to do with expert-knowledge and accuracy.
 
 Metaphors, in my opinion, are most useful when are you not an expert on the subject of the metaphor, or defer your expertise to see the metaphorical example being used as tool for communication.
 
