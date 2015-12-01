@@ -7,7 +7,7 @@ Current Goal: Populate Empty Sections: 249   (Done: 16.4%)
 
 Lines: 1951
 
-Words: 33880
+Words: 33881
 
 
 # Chapter 1: Preface (README.txt)
@@ -1782,7 +1782,7 @@ Wisdom is gained from experience, and has to do with the breadth and depth of in
 <br>
 Intelligence I look at in very different perspective, which is "making an action that yields beneficial results for all parties involved."<br>
 <br>
-This is not a common definition of Intelligence, but it has a rigid definition, and comes from a brilliant article written by Carlo M. Cipolla, a professor of Economics at UC Berkeley, and is one of the greatest things I have ever read, and quite literally changed my life.  I see the world differently after having ingested it.<br>
+This is not a common definition of Intelligence, but it has a rigid definition, and comes from a brilliant article written by Carlo M. Cipolla, then a professor of Economics at UC Berkeley, and is one of the greatest things I have ever read, and quite literally changed my life.  I see the world differently after having ingested it.<br>
 <br>
 The article is entitled "The Basic Laws of Human Stupidity", and while it's title and subject matter focus on "Stupidity" (anti-Intelligence), it's real function for me was to qualitatively and quantitatively define what intelligence is.  He puts it on a 2D graph, and charts it, and allows for pinpointing different kinds of Intelligence and Anti-Intelligent actions.  Try not to let the negative sounding name cause you to avoid this information, it is a very important set of thoughts he has encoded there-in.<br>
 <br>
