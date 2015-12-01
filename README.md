@@ -1,13 +1,13 @@
 # Operations: Engineering and Automation
 
 
-Total Sections: 296   Populated Sections: 45
-Current Goal: Populate Empty Sections: 251   (Done: 15.2%)
+Total Sections: 296   Populated Sections: 46
+Current Goal: Populate Empty Sections: 250   (Done: 15.5%)
 
 
-Lines: 1860
+Lines: 1864
 
-Words: 32136
+Words: 32160
 
 
 # Chapter 1: Preface (README.txt)
@@ -1823,9 +1823,11 @@ There is a lot more detail that could go into this analysis, as with anything, b
 # Chapter 3: Engineering Philosophy and Methodology in Operations
 
 
+Alright!  The book is really starting now!
 
 
 
+We have cleared the hurdles of disclaimers, how-to-read, introductions, and terminology.  We can now get into the 
 
 <h2 id=b313ae83a593ebeebefbf3e427c23f35><a href="#b313ae83a593ebeebefbf3e427c23f35">3.1</a>: What is Engineering?</h2>
 <h2 id=a941939e629b2be25c1ba265cbd9aaed><a href="#a941939e629b2be25c1ba265cbd9aaed">3.2</a>: Difference between Application and Operational code</h2>
