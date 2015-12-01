@@ -5,9 +5,9 @@ Total Sections: 297   Populated Sections: 47
 Current Goal: Populate Empty Sections: 250   (Done: 15.8%)
 
 
-Lines: 1876
+Lines: 1880
 
-Words: 32285
+Words: 32380
 
 
 # Chapter 1: Preface (README.txt)
@@ -1782,7 +1782,11 @@ Wisdom is the gained from experience, and how to do with the breadth and depth o
 <br>
 Intelligence I look at in very different perspective, which is "making an action that yields beneficial results for all parties involved."<br>
 <br>
-This is not a common definition of Intelligence, but it has a rigid definition, and comes from a brilliant article written by<br>
+This is not a common definition of Intelligence, but it has a rigid definition, and comes from a brilliant article written by Carlo M. Cipolla, a professor of Economics at UC Berkeley, and is one of the greatest things I have ever read, and quite literally changed my life.  I see the world differently after having ingested it.<br>
+<br>
+The article is entitled "The Basic Laws of Human Stupidity", and while it's title and subject matter focus on "Stupidity" (anti-Intelligence), it's real function for me was to qualitatively and quantitatively define what intelligence is.  He puts it on a 2D graph, and charts it, and allows for pinpointing different kinds of Intelligence and Anti-Intelligent actions.<br>
+<br>
+{{ link__basic_laws_of_human_stupiditiy }}<br>
 <h2 id=af1f8c9950e296d130a668076e4ba88b><a href="#af1f8c9950e296d130a668076e4ba88b">2.7</a>: The Philosophy of Pragmatism</h2>
 <br>
 Pragmatism is a formally written up philosophy, and you read more in-depth about it on the Internet or various books.<br>
