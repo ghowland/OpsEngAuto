@@ -24,3 +24,12 @@ Since the Operations team also has to take new services into account, and new ha
 
 After all, in a one-way-to-do-it system, if you break something with a change, you have might have broken everything with the change.
 
+This "force multiplier" or leverage gained from automation is a double-edged sword, in that it cuts your problems efficiently but if used incorrectly will cut you as well, by automating failures into happening in a wider area and faster than Humans can manually do.
+
+In the past, these problems could be avoided when automation was implemented incorrectly by simply removing the automation and having everyone do everything by hands again.  I have seen this happen many times, when automation was immature, or was not given proper resources (mostly time) to be implemented correctly.
+
+As the scale of operations continues to grow, this will simply not be possible or efficient in terms of money and personnel to scale enough people to do things manually, and the number of mistakes created by manual work will mean that even getting through the dangerous stages of automation will be a better trade-off.
+
+We aren't quite there yet as of 2015, but it is coming.  Some organizations have a good amount of automation, and we will create a spectrum soon to do some analysis on this, but they are not yet comprehensively automated, and are approaching it through Aggregation, instead of Slicing The Pie.
+
+This change in viewpoint is what is required to deal with automation comprehensively, and it starts with understanding how to optimize the Operational Logic to yield the effects required to allow this to happen.

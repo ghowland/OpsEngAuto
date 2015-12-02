@@ -5,9 +5,9 @@ Total Sections: 300   Populated Sections: 53
 Current Goal: Populate Empty Sections: 247   (Done: 17.7%)
 
 
-Lines: 2096
+Lines: 2106
 
-Words: 36489
+Words: 36722
 
 
 # Chapter 1: Preface (README.txt)
@@ -2041,6 +2041,16 @@ Operations teams are also generally (at most organizations) much smaller than th
 Since the Operations team also has to take new services into account, and new hardware platforms, and may be given very short notice to get these working, the Operational Logic needs to be written to be able to be adapted to these situations extremely rapidly, and without causing problems for the existing infrastructure.<br>
 <br>
 After all, in a one-way-to-do-it system, if you break something with a change, you have might have broken everything with the change.<br>
+<br>
+This "force multiplier" or leverage gained from automation is a double-edged sword, in that it cuts your problems efficiently but if used incorrectly will cut you as well, by automating failures into happening in a wider area and faster than Humans can manually do.<br>
+<br>
+In the past, these problems could be avoided when automation was implemented incorrectly by simply removing the automation and having everyone do everything by hands again.  I have seen this happen many times, when automation was immature, or was not given proper resources (mostly time) to be implemented correctly.<br>
+<br>
+As the scale of operations continues to grow, this will simply not be possible or efficient in terms of money and personnel to scale enough people to do things manually, and the number of mistakes created by manual work will mean that even getting through the dangerous stages of automation will be a better trade-off.<br>
+<br>
+We aren't quite there yet as of 2015, but it is coming.  Some organizations have a good amount of automation, and we will create a spectrum soon to do some analysis on this, but they are not yet comprehensively automated, and are approaching it through Aggregation, instead of Slicing The Pie.<br>
+<br>
+This change in viewpoint is what is required to deal with automation comprehensively, and it starts with understanding how to optimize the Operational Logic to yield the effects required to allow this to happen.<br>
 <p id=8eb74e570e995c459a430857793ad69f><b><a href="#8eb74e570e995c459a430857793ad69f">3.2.1.2</a>: Like 1 big computer.</b></p>
 <br>
 One reason why the difference between Operational Logic and Application Logic matters if that it provides an insight into another way of looking at the Production Environment.<br>
