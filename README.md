@@ -5,9 +5,9 @@ Total Sections: 301   Populated Sections: 55
 Current Goal: Populate Empty Sections: 246   (Done: 18.3%)
 
 
-Lines: 2205
+Lines: 2215
 
-Words: 37718
+Words: 37763
 
 
 # Chapter 1: Preface (README.txt)
@@ -2210,7 +2210,17 @@ When I started this book I made some statistical counters, which are sections, w
 <br>
 I estimated from about 280 sections off of my first 10 sections written, that I would have about 208,000 words at the end of the book.<br>
 <br>
-I have been checking my percentage complete<br>
+I have been checking my percentage complete, such as currently:<br>
+<br>
+"""<br>
+ Total Sections: 301 Populated Sections: 54 Current Goal: Populate Empty Sections: 247 (Done: 17.9%)<br>
+<br>
+Lines: 2197<br>
+<br>
+Words: 37668<br>
+"""<br>
+<br>
+And the sections and word percentages to completion have almost kept perfect alignment the entire time I have been writing this work.<br>
 <h3 id=18ddda391b891bf36f9b2387380f5e67><a href="#18ddda391b891bf36f9b2387380f5e67">3.10.1</a>: Across many things: appliable</h3>
 <h3 id=967dc75f17be743f5b44485436fceff2><a href="#967dc75f17be743f5b44485436fceff2">3.10.2</a>: For a given thing: not applicable.</h3>
 <h3 id=feb605a9dd85dcc6e0d371d023dea881><a href="#feb605a9dd85dcc6e0d371d023dea881">3.10.3</a>: Give mental exercises to prove this.</h3>

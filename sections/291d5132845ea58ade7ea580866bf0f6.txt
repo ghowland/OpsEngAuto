@@ -6,4 +6,15 @@ When I started this book I made some statistical counters, which are sections, w
 
 I estimated from about 280 sections off of my first 10 sections written, that I would have about 208,000 words at the end of the book.
 
-I have been checking my percentage complete
+I have been checking my percentage complete, such as currently:
+
+"""
+ Total Sections: 301 Populated Sections: 54 Current Goal: Populate Empty Sections: 247 (Done: 17.9%)
+
+Lines: 2197
+
+Words: 37668
+"""
+
+And the sections and word percentages to completion have almost kept perfect alignment the entire time I have been writing this work.
+
