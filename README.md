@@ -2220,7 +2220,7 @@ What it means in reality is that we have a new Caching Layer.  With 100x perform
 <br>
 "Specification B" could be used for very fast read-only queries, or it could be used as transient storage for incoming queries, so that there is a "pretty reliable, with known long-term faults" solution in place for taking incoming data as quickly as we can.<br>
 <br>
-These types of analysis are what using axes of values, and combining them into an easy-to-communicate-and-visualize method allow.  We can change the values around, put them into forms or a spread sheet and apply algorithms to compare them quantitatively, etc.<br>
+These types of analysis are what using multiple-axes of values, and combining them into an easy-to-communicate-and-visualize method allow.  We can change the values around, put them into forms or a spread sheet and apply algorithms to compare them quantitatively, etc.<br>
 <br>
 So, I have establish that using 10x scale differences has value, so let's put it to use:<br>
 <br>
