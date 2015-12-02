@@ -5,9 +5,9 @@ Total Sections: 300   Populated Sections: 50
 Current Goal: Populate Empty Sections: 250   (Done: 16.7%)
 
 
-Lines: 1966
+Lines: 1976
 
-Words: 34111
+Words: 34203
 
 
 # Chapter 1: Preface (README.txt)
@@ -1938,7 +1938,17 @@ I see this changing more in the future, as distributed programming environments 
 <br>
 I will call non-Operational Logic "Application Logic", even though it may not strictly fit your definition of what an Application is, since it changes under different contexts.<br>
 <br>
-For instance, in a Production web serving environment, you frequently have "Application Servers" which might run Java Tomcat, JBoss, or Ruby of Rails, or a Python<br>
+For instance, in a Production web serving environment, you frequently have "Application Servers" which might run Java Tomcat, JBoss, or Ruby of Rails, or a Python, or other Logic required for producing dynamic web content.<br>
+<br>
+These would be "Application" Logic in the terminology as I'm using it.<br>
+<br>
+So, what is the difference between Application Logic and Operational Logic?<br>
+<br>
+The main difference is Resiliency, and this has a number of parts to it.  For instance:<br>
+<br>
+- Application Logic requires that the environment that it runs in be configured, or the Logic will fail, and often will fall non-gracefully.  How gracefully it fails generally has to do with how "mature" the Logic is, in terms of it's life cycle.<br>
+<br>
+-<br>
 <h3 id=1e13f344d1ae44173a1f9532c809f6b1><a href="#1e13f344d1ae44173a1f9532c809f6b1">3.2.1</a>: Many applications and services.  One Operational environment</h3>
 <p id=8eb74e570e995c459a430857793ad69f><b><a href="#8eb74e570e995c459a430857793ad69f">3.2.1.1</a>: Like 1 big computer.</b></p>
 <h2 id=432075b2196c9716df5bcc2d7c070b2e><a href="#432075b2196c9716df5bcc2d7c070b2e">3.3</a>: The difference between App software dev, and Operational dev.  Robust, resilient, correct, handles failures, assumes failures will occur, is designed around failures occuring, instead of App designed around all functions being available (for the most part).</h2>
