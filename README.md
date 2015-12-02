@@ -2239,7 +2239,7 @@ That depends on whether there is more important work to be done, which is the be
 <br>
 For instance:<br>
 <br>
-- If this is no work to do at the 90% layer, because the system is currently up (Available)<br>
+- If there is no work to do at the 90% layer, because the system is currently up (Available)<br>
 <br>
 - And, there is no work to do at the 9% layer, because the system is currently running fast enough (Performant)<br>
 <br>
