@@ -46,4 +46,26 @@ It could be used for very fast read-only queries, or it could be used as transie
 
 These types of analysis are what using axes of values, and combining them into an easy-to-communicate-and-visualize method allow.  We can change the values around, put them into forms or a spread sheet and apply algorithms to compare them quantitatively, etc.
 
-So, I have establish that using 10x scale differences has value, and 
+So, I have establish that using 10x scale differences has value, so let's put it to use:
+
+- Available:   90%
+- Performant:  9%
+- Manageable: Risk: 0.9%
+- Visible:  Opaque or Fuzzy 0.09%
+- Manageable: Difficulty: 0.009%
+- Manageable: Speed: 0.0009%
+
+Now the sequentially prioritized list we created before becomes numerically weighted.  We can calculate against each attribute based on the value we have assigned it, to determine which actions we should take next.
+
+But, one might ask, isn't setting things at 0.0009% and lower making them trivial and not important to work on?
+
+That depends on whether there is more important work to be done, which is the beauty of this system.
+
+For instance:
+
+- If this is no work to do at the 90% layer, because the system is currently up (Available)
+
+- And, there is no work to do at the 9% layer, because the system is currently running fast enough (Performant)
+
+- And, we are not currently evaluating making a change that introduce Risk into our Production environment
+
