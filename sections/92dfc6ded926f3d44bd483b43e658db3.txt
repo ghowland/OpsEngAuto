@@ -57,3 +57,11 @@ So, let's check our Attribute Axes for these prioritized goals:
 - Manageable:  Difficult, Risky and Slow <---> Easy, Safe and Fast
 - Visible:  Opaque or Fuzzy <---> Clear and Precise
 
+For Manageable, I ended up creating three different sub-attributed, as saying "Unmanageable" really doesn't mean much, so we can re-write it as:
+
+- Available:   Not Available <---> Completely Availability
+- Performant:  Slow <---> Fast
+- Manageable: Difficulty: Difficult <---> Easy
+- Manageable: Risk: Dangerous <---> Safe
+- Manageable: Speed: Slow <---> Fast
+- Visible:  Opaque or Fuzzy <---> Clear and Precise
