@@ -61,7 +61,12 @@ For Manageable, I ended up creating three different sub-attributed, as saying "U
 
 - Available:   Not Available <---> Completely Availability
 - Performant:  Slow <---> Fast
-- Manageable: Difficulty: Difficult <---> Easy
 - Manageable: Risk: Dangerous <---> Safe
+- Manageable: Difficulty: Difficult <---> Easy
 - Manageable: Speed: Slow <---> Fast
 - Visible:  Opaque or Fuzzy <---> Clear and Precise
+
+I have split these up now into individual attribute axes for Manageable, and also re-ordered them slightly for better prioritization, as we are more concerned with Risk than Difficulty.
+
+Difficult things need more leeway in performing them, so I am putting this higher than Speed, because if you are doing something difficult, but do it quickly, it seems that might lead to more mistakes, which increases Risk.  Perhaps the "Safeness" of the higher priority will protect us from these mistakes, but unless that is guaranteed, than Difficulty should be a higher priority issue than Speed.
+
