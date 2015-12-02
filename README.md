@@ -7,7 +7,7 @@ Current Goal: Populate Empty Sections: 246   (Done: 18.5%)
 
 Lines: 2330
 
-Words: 39711
+Words: 39747
 
 
 # Chapter 1: Preface (README.txt)
@@ -2251,7 +2251,7 @@ For instance:<br>
 <br>
 Should we also schedule work to fix "Manageable: Speed" problems (at the 0.0009% layer)?  Not unless we have another person to assign it too, as the 0.009% layer is 10x more important.<br>
 <br>
-I think this is a system that provides a lot of clarity for what is important right now, and how we should design things, and how to separate what should be done from what should not be done.<br>
+I think this is a system that provides a lot of clarity for what is important right now, and how we should design things, and how to separate what should be done from what should not be done.  It's simple enough to document in a page or so of Prioritized Attribute Axes, and that makes it easy to version control, or put into a Data Source, so we can also run Logic against it.<br>
 <br>
 In a one-way-to-do-it system, you do not want to do all-the-things, you preferably want to do one-thing for any given category of thing, so that you can gain efficiencies from that correctly chosen thing.<br>
 <br>
