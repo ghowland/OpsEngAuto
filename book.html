@@ -3,9 +3,9 @@ Total Sections: 300   Populated Sections: 51
 Current Goal: Populate Empty Sections: 249   (Done: 17.0%)
 <br>
 <br>
-Lines: 2017<br>
+Lines: 2023<br>
 <br>
-Words: 35115<br>
+Words: 35208<br>
 <br>
 <h1 id=48152466029dfcb314ccad4d502d1a73><a href="#48152466029dfcb314ccad4d502d1a73">Chapter 1</a>: Preface (README.txt)</h1>
 <br>
@@ -1952,6 +1952,12 @@ This means that in an entire Product Environment is being managed in a single ma
 Each of these "one way" methods may contain many sub-methods, such as you may actually have several monitoring packages, but collectively they make up the "one way", and generally things are put into one of them, versus any others, unless multiple coverage is desired.<br>
 <br>
 By this "one way" concept, I don't mean to be naive and really limit it to "one thing", that is why there is "one way to" and not "one thing that does".  However many methods of doing something (as legacy implementations will stick around for a long time, and sometimes there is intra-team competition for creating solutions).<br>
+<br>
+The thing about "one way to do it" systems that are different than "lots of different environments, that do it their own way", which is the comparison I'm trying to make, is that in a one-way-to-do-it system is that you don't want to introduce competing services.<br>
+<br>
+It is more efficient to configure, manage and have life-cycle support if we have limited the amount of ways we do things<br>
+<br>
+In terms of creating Application Logic, it is easy to separate components of the Application or separate applications that may work in tandem or sequence<br>
 <p id=8eb74e570e995c459a430857793ad69f><b><a href="#8eb74e570e995c459a430857793ad69f">3.2.1.1</a>: Like 1 big computer.</b></p>
 <h2 id=432075b2196c9716df5bcc2d7c070b2e><a href="#432075b2196c9716df5bcc2d7c070b2e">3.3</a>: The difference between App software dev, and Operational dev.  Robust, resilient, correct, handles failures, assumes failures will occur, is designed around failures occuring, instead of App designed around all functions being available (for the most part).</h2>
 <h2 id=53ee284612b4d4678a26814fc2442067><a href="#53ee284612b4d4678a26814fc2442067">3.4</a>: Troubleshooting.  Cencentric circles.  Locality.  Intermittent vs. sustained.  The attributes of failures.</h2>

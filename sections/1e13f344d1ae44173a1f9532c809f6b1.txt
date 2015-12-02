@@ -21,3 +21,8 @@ Each of these "one way" methods may contain many sub-methods, such as you may ac
 
 By this "one way" concept, I don't mean to be naive and really limit it to "one thing", that is why there is "one way to" and not "one thing that does".  However many methods of doing something (as legacy implementations will stick around for a long time, and sometimes there is intra-team competition for creating solutions).
 
+The thing about "one way to do it" systems that are different than "lots of different environments, that do it their own way", which is the comparison I'm trying to make, is that in a one-way-to-do-it system is that you don't want to introduce competing services.
+
+It is more efficient to configure, manage and have life-cycle support if we have limited the amount of ways we do things
+
+In terms of creating Application Logic, it is easy to separate components of the Application or separate applications that may work in tandem or sequence
