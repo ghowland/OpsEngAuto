@@ -7,7 +7,7 @@ Current Goal: Populate Empty Sections: 246   (Done: 18.5%)
 
 Lines: 2328
 
-Words: 39617
+Words: 39620
 
 
 # Chapter 1: Preface (README.txt)
@@ -2176,7 +2176,7 @@ That looks a little better to me.  We need that Visibility, because it speaks to
 Now, we have some Attribute Axes, does that mean we have Axioms?  Not quite, but we are getting close.<br>
 <h3 id=66087a8256206e268b334c49bc0ba5ef><a href="#66087a8256206e268b334c49bc0ba5ef">3.3.1</a>: 90-9-.9-.09% rules for priorities.  Make up your own rules if this doesnt work for you.  How to present them to people, a plan on improvining presentation.  A plan on requested for improving presentation.    If you dont come to common terms, you arent really communicating, talking past each other.</h3>
 <br>
-Let's take a brief tangent prioritization.  I gave a couple priority lists earlier, and they were listed sequentially, but not numbered or evaluated in terms of "how much more important" each element was.<br>
+Let's take a brief tangent to talk about prioritization.  I gave a couple priority lists earlier, and they were listed sequentially, but not numbered or evaluated in terms of "how much more important" each element was.<br>
 <br>
 There are many ways to rank priorities, and I have come up with a methodology that I like which I call the: "90-9-0.9% rule", and can be said as "Ninety-nine-point-Oh-nine rule" to make that actually pronounceable.<br>
 <br>
