@@ -14,4 +14,10 @@ But, while evaluating the priorities of "ABC", then "A" should always be preferr
 
 By making the differences 10x apart, it clarifies things much more than if they were less.  2x may still sufficient, but let us first demonstrate that merely being "too close together" in priority separation causes confusion, and from that we can see that "further apart is less confusion", and have our answer for why this is a valid technique.
 
+Say we have priority of Availability and Performance, and we assign Availability a value of "100" and we assign Performance a value of "90", so that Availability is the most important thing (an "A" grade of importance"), and Performance is the second most, but still highly important (a "B" grade of importance).
 
+So, Availability is first, but Performance is still quite close behind at 10%.
+
+Say there is a decision to be made, and it has to due with a hardware configuration, say cabling, that will give an Availability vs. Performance tradeoff.
+
+Let's say that we can cable up some storage which will be five times (5x) faster in Specification B, but it has as flaw in that sometimes it fails, but very rarely and might be able to be avoided with 

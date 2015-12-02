@@ -5,9 +5,9 @@ Total Sections: 302   Populated Sections: 56
 Current Goal: Populate Empty Sections: 246   (Done: 18.5%)
 
 
-Lines: 2249
+Lines: 2257
 
-Words: 38327
+Words: 38459
 
 
 # Chapter 1: Preface (README.txt)
@@ -2189,6 +2189,14 @@ It is my contention, that you should never do this.  If you are going to change 
 But, while evaluating the priorities of "ABC", then "A" should always be preferred over "B", or you should change your assessment of the priorities and state what the extenuating circumstances are for the priority change.  This is for clarity of communication, both with yourself at a later date ("Why did I do that?") and for people besides yourself who should share a common understanding with you.<br>
 <br>
 By making the differences 10x apart, it clarifies things much more than if they were less.  2x may still sufficient, but let us first demonstrate that merely being "too close together" in priority separation causes confusion, and from that we can see that "further apart is less confusion", and have our answer for why this is a valid technique.<br>
+<br>
+Say we have priority of Availability and Performance, and we assign Availability a value of "100" and we assign Performance a value of "90", so that Availability is the most important thing (an "A" grade of importance"), and Performance is the second most, but still highly important (a "B" grade of importance).<br>
+<br>
+So, Availability is first, but Performance is still quite close behind at 10%.<br>
+<br>
+Say there is a decision to be made, and it has to due with a hardware configuration, say cabling, that will give an Availability vs. Performance tradeoff.<br>
+<br>
+Let's say that we can cable up some storage which will be five times (5x) faster in Specification B, but it has as flaw in that sometimes it fails, but very rarely and might be able to be avoided with<br>
 <p id=e4f58bc454dce4b3362881399d9ca4fd><b><a href="#e4f58bc454dce4b3362881399d9ca4fd">3.3.1.1</a>: Assigning different people different priorities is what makes up different roles.  This allows different points of view, to make the organization stronger and more thoughtful, by design.</b></p>
 <h3 id=d2c6e14bfa28136f85c785a79fcfc39d><a href="#d2c6e14bfa28136f85c785a79fcfc39d">3.3.2</a>: Creating Axioms from Axes</h3>
 <p id=9daefd3b7edab6a712ab778906fedc9f><b><a href="#9daefd3b7edab6a712ab778906fedc9f">3.3.2.1</a>: Impersonal decision making through communicated values and priorities using Axioms</b></p>
