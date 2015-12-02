@@ -70,3 +70,14 @@ I have split these up now into individual attribute axes for Manageable, and als
 
 Difficult things need more leeway in performing them, so I am putting this higher than Speed, because if you are doing something difficult, but do it quickly, it seems that might lead to more mistakes, which increases Risk.  Perhaps the "Safeness" of the higher priority will protect us from these mistakes, but unless that is guaranteed, than Difficulty should be a higher priority issue than Speed.
 
+Is Visibility really less important than all of those Manageability attributes?  Maybe not, let's do one more re-ordering:
+
+- Available:   Not Available <---> Completely Availability
+- Performant:  Slow <---> Fast
+- Manageable: Risk: Dangerous <---> Safe
+- Visible:  Opaque or Fuzzy <---> Clear and Precise
+- Manageable: Difficulty: Difficult <---> Easy
+- Manageable: Speed: Slow <---> Fast
+
+That looks a little better to me.  We need that Visibility, because it speaks to knowing what is going on.  I would rather than that then easier to faster management, as I need it to ensure my work is correct, or help with troubleshooting if an error is introduced.
+
