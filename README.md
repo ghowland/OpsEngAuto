@@ -2247,7 +2247,7 @@ For instance:<br>
 <br>
 - And, we currently have sufficient monitoring and visibility into our system (Visible, at the 0.009% layer)<br>
 <br>
-- And, we have a problem with how Difficult some tasks are to perform (the 0.009% layer), then this is currently the top priority, and this work should occur.<br>
+- And, we have a problem with how Difficult some tasks are to perform (the 0.0009% layer), then this is currently the top priority, and this work should occur.<br>
 <br>
 Should we also schedule work to fix "Manageable: Speed" problems (at the 0.00009% layer)?  Not unless we have another person to assign it too, as the 0.0009% layer is 10x more important.<br>
 <br>
