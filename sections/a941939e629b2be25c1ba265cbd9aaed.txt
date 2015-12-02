@@ -22,5 +22,7 @@ The main difference is Resiliency, and this has a number of parts to it.  For in
 
 Don't misunderstand me in that I am criticizing Application Logic developers, and praising Operational Logic developers, they have different goals, and so will product works that have different results because of this.
 
+It mostly has to do with priorties and responsibility.  Operations is responsible for infrastructure working, and is responsible for solving operational failures.  Applications are made to provide end-users with correct results, and have an expectation that the operational environment is working correctly to do so.  This is a natural prioritization, and not an incorrect one.
+
 For example, say there are a pair of relational databases in a Master/Slave configuration, and the Master node fails
 
