@@ -54,5 +54,5 @@ So, let's check our Attribute Axes for these prioritized goals:
 
 - Available:   Not Available <---> Completely Availability
 - Performant:  Slow <---> Fast
-- Management:  Difficult, Risky and Slow <---> Easy, Safe and Fast
+- Manageable:  Difficult, Risky and Slow <---> Easy, Safe and Fast
 - 
