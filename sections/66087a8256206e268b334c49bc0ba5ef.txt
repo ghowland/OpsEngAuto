@@ -26,4 +26,10 @@ But, there is another cabling strategy which will ensure Availability, Specifica
 
 If we have a 10% different in importance (100 vs 90) in Availability (Spec A) and Performance (Spec B), but we are getting a 5x boost of Performance if we choose Spec B, we have a decision to make, and some data to make it with.
 
-If we were going to seriously evaluate this, for a presentation on "What should we do?" to our department, we could make up some "point system" and do the arithmetic and decide which had more points.  On a scale of 100 vs 90, it is possible that the 5X performance could win the "point comparison" just because of the "5x" scaling value being used in 
+If we were going to seriously evaluate this, for a presentation on "What should we do?" to our department, we could make up some "point system" and do the arithmetic and decide which had more points.  On a scale of 100 vs 90, it is possible that the 5X performance could win the "point comparison" just because of the "5x" scaling value being used in some calculation.
+
+Being "10%" close to the top item, it may seem more fluid, in that "this time" we will still keep Availability over Consistency (not thinking or talking about it, or not publicly stating the change in priority through documentation, etc), but we will go with the Spec B 5x performance boost, over better Availability.
+
+Making this trade-off isn't, the proposed down-time might be acceptable, if it doesn't also some with a Consistency trade-off of data corruption (because we haven't accounted for that, you might find that acceptable as well as a trade-off) or another important Attribute which needs to be accounted for.  (Data Corruption would actually impact Availability directly, since if the data is corrupt, it isn't Available in a useful form).
+
+
