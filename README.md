@@ -7,7 +7,7 @@ Current Goal: Populate Empty Sections: 246   (Done: 18.5%)
 
 Lines: 2330
 
-Words: 39816
+Words: 39820
 
 
 # Chapter 1: Preface (README.txt)
@@ -2208,7 +2208,7 @@ Being "10%" close to the top item, it may seem more fluid, in that "this time" w
 <br>
 Making this trade-off isn't wrong, the proposed down-time might be acceptable, if it doesn't also some with a Consistency trade-off of data corruption (because we haven't accounted for that, you might find that acceptable as well as a trade-off) or another important Attribute which needs to be accounted for.  (Aside: Data Corruption would actually impact Availability directly, since if the data is corrupt, it isn't Available in a useful form.  Consistency in terms of recovering may still take time, and also count against Availability.)<br>
 <br>
-However, when making the scales of the system ten times (10x) different, then the spread is much wider.  Availability is worth "90", and Performance is worth "9".<br>
+However, when making the scales of the system ten times (10x) different, then the spread is much wider, and thus more clear.  Availability is worth "90", and Performance is worth "9".<br>
 <br>
 Even if we took a very naive algorithm of "5x performance is 5x the value", we get "90" vs. "45", and Availability is still on top.<br>
 <br>
