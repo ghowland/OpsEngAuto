@@ -28,9 +28,10 @@ If we are being Pragmatic, and we are only concerned with the effects, then we c
 
 Let's make an overview for all of services in the Production Environment:
 
-- Availability.  Our services must be available.
+- Available.  Our services must be available.
 
 - Performant.  Our services must be fast enough for our purposes (poor performance under heavy load means that some percentage of our end-users will not have Availability).
 
 - Manageable.  We need to be able to control our environment, deploy software, upgrade security flaws, making configuration changes, add or replace server nodes, control user access, etc.
 
+- Visible
