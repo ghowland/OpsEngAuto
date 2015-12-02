@@ -33,3 +33,11 @@ As the scale of operations continues to grow, this will simply not be possible o
 We aren't quite there yet as of 2015, but it is coming.  Some organizations have a good amount of automation, and we will create a spectrum soon to do some analysis on this, but they are not yet comprehensively automated, and are approaching it through Aggregation, instead of Slicing The Pie.
 
 This change in viewpoint is what is required to deal with automation comprehensively, and it starts with understanding how to optimize the Operational Logic to yield the effects required to allow this to happen.
+
+- When things do break, how does your Logic function?
+
+Minimizing dependencies, locally caching data are two strategies in making resilient Logic, but the real goal is that the Logic continues to function exactly as you designed it.
+
+By using Slicing The Pie methods of black boxing work that needs to be done, one can create a system that anticipates failures, and continues to function properly with the resources that are still available to it.
+
+This will the be automation we are going to inspect and start modeling soon.

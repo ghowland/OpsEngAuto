@@ -5,9 +5,9 @@ Total Sections: 300   Populated Sections: 53
 Current Goal: Populate Empty Sections: 247   (Done: 17.7%)
 
 
-Lines: 2106
+Lines: 2114
 
-Words: 36722
+Words: 36811
 
 
 # Chapter 1: Preface (README.txt)
@@ -2051,6 +2051,14 @@ As the scale of operations continues to grow, this will simply not be possible o
 We aren't quite there yet as of 2015, but it is coming.  Some organizations have a good amount of automation, and we will create a spectrum soon to do some analysis on this, but they are not yet comprehensively automated, and are approaching it through Aggregation, instead of Slicing The Pie.<br>
 <br>
 This change in viewpoint is what is required to deal with automation comprehensively, and it starts with understanding how to optimize the Operational Logic to yield the effects required to allow this to happen.<br>
+<br>
+- When things do break, how does your Logic function?<br>
+<br>
+Minimizing dependencies, locally caching data are two strategies in making resilient Logic, but the real goal is that the Logic continues to function exactly as you designed it.<br>
+<br>
+By using Slicing The Pie methods of black boxing work that needs to be done, one can create a system that anticipates failures, and continues to function properly with the resources that are still available to it.<br>
+<br>
+This will the be automation we are going to inspect and start modeling soon.<br>
 <p id=8eb74e570e995c459a430857793ad69f><b><a href="#8eb74e570e995c459a430857793ad69f">3.2.1.2</a>: Like 1 big computer.</b></p>
 <br>
 One reason why the difference between Operational Logic and Application Logic matters if that it provides an insight into another way of looking at the Production Environment.<br>
