@@ -5,9 +5,9 @@ Total Sections: 300   Populated Sections: 52
 Current Goal: Populate Empty Sections: 248   (Done: 17.3%)
 
 
-Lines: 2056
+Lines: 2068
 
-Words: 35772
+Words: 36008
 
 
 # Chapter 1: Preface (README.txt)
@@ -2031,6 +2031,18 @@ Each node in this "one big computer" has it's own internal process schedulers (a
 But, the entire set of machines, no matter how distributed they are across the planet, or how many nodes they are, can be controlled in terms of configuration and operational management, as if they were one system with many parts.<br>
 <br>
 I think of this as a layer of Operating System above the traditional bare-metal and virtual-machine installed Operating Systems, whose goals are to abstract physical hardware (BIOS, Buses, Devices), and manage device drivers, and schedule processes on their CPU, and manage libraries and file systems and virtual memory and such.<br>
+<br>
+So, I'll introduce this acronym as "DOS", Distributed Operating System.  It is similar to a "cluster", but clusters are generally more uniform, trying to have the same type of pieces controlled by the same processes, in this they are homogeneous.<br>
+<br>
+Distributed Operating Systems (DOSes), would be heterogeneous, with any number of different hardware specification, different Operating Systems, and different services, and can contain any type of storage, in any configuration.<br>
+<br>
+Just like a single system, where you can run any kind of software (for that platform), or configure the directory structure in any way you want, there is no standard order for a DOS, it is merely an abstraction of working with a number of systems as if they were one system.<br>
+<br>
+There are unfortunately some acronym name conflicts with DOS, such as the legacy "MS-DOS", but this can simply be specified as "MS-DOS" or "PC-DOS" for the rare instances that someone needs to refer to this.<br>
+<br>
+There is also another acronym for "DoS", which is Denial of Service, and usually takes place in reality as a "DDoS", Distributed Denial of Service.  The convention is to keep the "o" lower case, which makes this less confusing.<br>
+<br>
+Since we need to move forward in our industry, and distributed systems are here to stay, and we need to advance our methods of thinking about how to manage those distributed systems, I think we can safely take the acronum<br>
 <h2 id=432075b2196c9716df5bcc2d7c070b2e><a href="#432075b2196c9716df5bcc2d7c070b2e">3.3</a>: The difference between App software dev, and Operational dev.  Robust, resilient, correct, handles failures, assumes failures will occur, is designed around failures occuring, instead of App designed around all functions being available (for the most part).</h2>
 <h2 id=53ee284612b4d4678a26814fc2442067><a href="#53ee284612b4d4678a26814fc2442067">3.4</a>: Troubleshooting.  Cencentric circles.  Locality.  Intermittent vs. sustained.  The attributes of failures.</h2>
 <h3 id=222b0da1a677c8319df0b5742703e46f><a href="#222b0da1a677c8319df0b5742703e46f">3.4.1</a>: Determines monitoring.</h3>
