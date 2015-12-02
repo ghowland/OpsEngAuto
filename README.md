@@ -5,9 +5,9 @@ Total Sections: 300   Populated Sections: 50
 Current Goal: Populate Empty Sections: 250   (Done: 16.7%)
 
 
-Lines: 1986
+Lines: 1988
 
-Words: 34489
+Words: 34575
 
 
 # Chapter 1: Preface (README.txt)
@@ -1959,6 +1959,8 @@ For example, say there are a pair of relational databases in a Master/Slave conf
 There are some good reasons why Application Logic currently behaves this way.  The first is that it takes extra Logic to determine what should happen if the primary database server goes away, and this will be (eventually) taken care of by the Operations team, through manual intervention or automation.<br>
 <br>
 Some classes of databases have a multi-node approach from the beginning, to make these types of events less frequent, since a server can go down, but others will be up, and the Application can talk to any of them.  These databases still have failure cases though, and so the results can up being the same depending on the type of failure.<br>
+<br>
+Part of the "extra Logic" is that Applications are meant to serve end-users, and the time put into making this extra resiliency is often prioritized to go into making additional or improved features.  Whether you agree or disagree that this should be the priority, it often is the priority, and it servers us well to accept Reality, and work within it's confines.  If we want to change this, we need to change the priorities by showing more value given with a different priority.  Difficult, but possible.<br>
 <h3 id=1e13f344d1ae44173a1f9532c809f6b1><a href="#1e13f344d1ae44173a1f9532c809f6b1">3.2.1</a>: Many applications and services.  One Operational environment</h3>
 <p id=8eb74e570e995c459a430857793ad69f><b><a href="#8eb74e570e995c459a430857793ad69f">3.2.1.1</a>: Like 1 big computer.</b></p>
 <h2 id=432075b2196c9716df5bcc2d7c070b2e><a href="#432075b2196c9716df5bcc2d7c070b2e">3.3</a>: The difference between App software dev, and Operational dev.  Robust, resilient, correct, handles failures, assumes failures will occur, is designed around failures occuring, instead of App designed around all functions being available (for the most part).</h2>
