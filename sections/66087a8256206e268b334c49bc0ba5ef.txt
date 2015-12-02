@@ -12,4 +12,6 @@ It is my contention, that you should never do this.  If you are going to change 
 
 But, while evaluating the priorities of "ABC", then "A" should always be preferred over "B", or you should change your assessment of the priorities and state what the extenuating circumstances are for the priority change.  This is for clarity of communication, both with yourself at a later date ("Why did I do that?") and for people besides yourself who should share a common understanding with you.
 
+By making the differences 10x apart, it clarifies things much more than if they were less.  2x may still sufficient, but let us first demonstrate that merely being "too close together" in priority separation causes confusion, and from that we can see that "further apart is less confusion", and have our answer for why this is a valid technique.
+
 
