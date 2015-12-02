@@ -4,4 +4,12 @@ Let's take a brief tangent prioritization.  I gave a couple priority lists earli
 
 There are many ways to rank priorities, and I have come up with a methodology that I like which I call the: "90-9-0.9% rule", and can be said as "Ninety-nine-point-Oh-nine rule" to make that actually pronounceable.
 
+The progression continues on forever, with the previous item being ten times (10x) more important than it's following item.
+
+This allows for clarity in which thing is more important, and also for knowing when things are just not important any more.  It is purposefully exaggerated because without that clear separation, it is unclear why one action would be preferred over another action, because of "extenuating circumstances" may exaggerate a lower prioritized item over a higher prioritized item.
+
+It is my contention, that you should never do this.  If you are going to change prioritization, you should explicitly change it from the order of ["A, B, C"] to ["B, A, C"] for a given circumstance.  "ABC" may normally be what you want, and in some circumstance "BAC" may be better, and so you should explicitly state that.
+
+But, while evaluating the priorities of "ABC", then "A" should always be preferred over "B", or you should change your assessment of the priorities and state what the exteniuating circumstances are for the priority change.  This is for clarity of communication, both with yourself at a later date ("Why did I do that?") and for people besides yourself who should share a common understanding with you.
+
 
