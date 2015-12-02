@@ -5,9 +5,9 @@ Total Sections: 300   Populated Sections: 50
 Current Goal: Populate Empty Sections: 250   (Done: 16.7%)
 
 
-Lines: 1976
+Lines: 1980
 
-Words: 34203
+Words: 34295
 
 
 # Chapter 1: Preface (README.txt)
@@ -1948,7 +1948,11 @@ The main difference is Resiliency, and this has a number of parts to it.  For in
 <br>
 - Application Logic requires that the environment that it runs in be configured, or the Logic will fail, and often will fall non-gracefully.  How gracefully it fails generally has to do with how "mature" the Logic is, in terms of it's life cycle.<br>
 <br>
--<br>
+- Operational Logic is built to support infrastructure, with the knowledge that the infrastructure components are going to fail, and the Operational Logic needs to not only recognize the failures, but needs to continue to work in whatever ways are still available.  <br>
+<br>
+Don't misunderstand me in that I am criticizing Application Logic developers, and praising Operational Logic developers, they have different goals, and so will product works that have different results because of this.<br>
+<br>
+For example, say there are a pair of relational databases in a Master/Slave configuration, and the Master node fails<br>
 <h3 id=1e13f344d1ae44173a1f9532c809f6b1><a href="#1e13f344d1ae44173a1f9532c809f6b1">3.2.1</a>: Many applications and services.  One Operational environment</h3>
 <p id=8eb74e570e995c459a430857793ad69f><b><a href="#8eb74e570e995c459a430857793ad69f">3.2.1.1</a>: Like 1 big computer.</b></p>
 <h2 id=432075b2196c9716df5bcc2d7c070b2e><a href="#432075b2196c9716df5bcc2d7c070b2e">3.3</a>: The difference between App software dev, and Operational dev.  Robust, resilient, correct, handles failures, assumes failures will occur, is designed around failures occuring, instead of App designed around all functions being available (for the most part).</h2>

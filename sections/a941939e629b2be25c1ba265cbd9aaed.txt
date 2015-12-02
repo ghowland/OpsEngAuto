@@ -18,4 +18,9 @@ The main difference is Resiliency, and this has a number of parts to it.  For in
 
 - Application Logic requires that the environment that it runs in be configured, or the Logic will fail, and often will fall non-gracefully.  How gracefully it fails generally has to do with how "mature" the Logic is, in terms of it's life cycle.
 
-- 
+- Operational Logic is built to support infrastructure, with the knowledge that the infrastructure components are going to fail, and the Operational Logic needs to not only recognize the failures, but needs to continue to work in whatever ways are still available.  
+
+Don't misunderstand me in that I am criticizing Application Logic developers, and praising Operational Logic developers, they have different goals, and so will product works that have different results because of this.
+
+For example, say there are a pair of relational databases in a Master/Slave configuration, and the Master node fails
+
