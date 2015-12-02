@@ -81,7 +81,7 @@ In a one-way-to-do-it system, you do not want to do all-the-things, you preferab
 
 Although I believe being able to maintain a regular scaling interval (10x) between priority levels is good, and the "90-9-0.9%" format makes doing this clear, it is not easy to communicate about these levels using the exact percentage values because saying "0.0009%" is difficult, and it is easy to confuse between "0.009%" and "0.00009%".
 
-Instead we can simply order the layers as "Top Priority", "Second Priority" and so on, or some other labeling structure which is easier to say.  ("Level Alpha, engage!", or whatever works for you.)
+Instead we can simply order the layers as "Top Priority", "Second Priority" and so on, or some other labeling structure which is easier to say.  ("Alpha Level, engage!", or whatever works for you.)
 
 Then you can say "This is 5th level priority, but we don't have anything to do in levels 1 to 4, so it is currently the top priority", which is clear, numerical, and does not use potentially confusing real numbers for normal communication purposes.
 
