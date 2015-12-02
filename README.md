@@ -5,9 +5,9 @@ Total Sections: 302   Populated Sections: 56
 Current Goal: Populate Empty Sections: 246   (Done: 18.5%)
 
 
-Lines: 2328
+Lines: 2330
 
-Words: 39694
+Words: 39711
 
 
 # Chapter 1: Preface (README.txt)
@@ -2244,6 +2244,8 @@ For instance:<br>
 - And, there is no work to do at the 9% layer, because the system is currently running fast enough (Performant)<br>
 <br>
 - And, we are not currently evaluating making a change that introduce Risk into our Production environment (Manageable: Risk, at the 0.09% layer)<br>
+<br>
+- And, we currently have sufficient monitoring and visibility into our system (Visible, at the 0.009% layer)<br>
 <br>
 - And, we have a problem with how Difficult some tasks are to perform (the 0.009% layer), then this is currently the top priority, and this work should occur.<br>
 <br>
