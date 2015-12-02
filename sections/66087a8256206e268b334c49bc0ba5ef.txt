@@ -79,7 +79,7 @@ I think this is a system that provides a lot of clarity for what is important ri
 
 In a one-way-to-do-it system, you do not want to do all-the-things, you preferably want to do one-thing for any given category of thing, so that you can gain efficiencies from that correctly chosen thing, for your set of priorities, goals and engineering values.
 
-Although I believe these 10x differences, and being able to maintain a regular scaling interval (10x) between priority levels is good, and the "90-9-0.9%" format makes doing this clear, it is not easy to communicate about these levels using the exact percentage values because saying "0.0009%" is difficult, and is confusing between say, "0.009%" and "0.00009%".
+Although I believe being able to maintain a regular scaling interval (10x) between priority levels is good, and the "90-9-0.9%" format makes doing this clear, it is not easy to communicate about these levels using the exact percentage values because saying "0.0009%" is difficult, and is confusing between say, "0.009%" and "0.00009%".
 
 Instead we can simply order the layers as "Top Priority", "Second Priority" and so on, or some other labeling structure which is easier to say.
 
