@@ -2110,7 +2110,7 @@ Let's re-iterate my generic definition for Engineering again:<br>
 <br>
 So we have:<br>
 <br>
-- Some environment (Production)<br>
+- An Environment (Production)<br>
 - Resources (time, people, hardware, money)<br>
 - Effects (Availability, Consistency, Resiliency, Atomicity, etc)<br>
 <br>
