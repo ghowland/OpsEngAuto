@@ -18,3 +18,9 @@ Frameworks and libraries are useful, they server a purpose, however the more thi
 
 Additionally each of these things needs expertise to manage and troubleshoot, and your Operational Logic needs to be as straight-forward and simple as it can be, so that when problems occur, they can be troubleshot and resolved quickly.
 
+Operations teams are also generally (at most organizations) much smaller than their Application Engineering departments, so this must also be done with less people involved in the work, and with shorter time frames.
+
+Since the Operations team also has to take new services into account, and new hardware platforms, and may be given very short notice to get these working, the Operational Logic needs to be written to be able to be adapted to these situations extremely rapidly, and without causing problems for the existing infrastructure.
+
+After all, in a one-way-to-do-it system, if you break something with a change, you have might have broken everything with the change.
+

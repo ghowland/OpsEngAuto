@@ -5,9 +5,9 @@ Total Sections: 300   Populated Sections: 53
 Current Goal: Populate Empty Sections: 247   (Done: 17.7%)
 
 
-Lines: 2090
+Lines: 2096
 
-Words: 36381
+Words: 36489
 
 
 # Chapter 1: Preface (README.txt)
@@ -2035,6 +2035,12 @@ This allows me to handle failure cases more gracefully.  For instance, maybe all
 Frameworks and libraries are useful, they server a purpose, however the more things you have, the more things that can fail and cause your Logic to no longer function.<br>
 <br>
 Additionally each of these things needs expertise to manage and troubleshoot, and your Operational Logic needs to be as straight-forward and simple as it can be, so that when problems occur, they can be troubleshot and resolved quickly.<br>
+<br>
+Operations teams are also generally (at most organizations) much smaller than their Application Engineering departments, so this must also be done with less people involved in the work, and with shorter time frames.<br>
+<br>
+Since the Operations team also has to take new services into account, and new hardware platforms, and may be given very short notice to get these working, the Operational Logic needs to be written to be able to be adapted to these situations extremely rapidly, and without causing problems for the existing infrastructure.<br>
+<br>
+After all, in a one-way-to-do-it system, if you break something with a change, you have might have broken everything with the change.<br>
 <p id=8eb74e570e995c459a430857793ad69f><b><a href="#8eb74e570e995c459a430857793ad69f">3.2.1.2</a>: Like 1 big computer.</b></p>
 <br>
 One reason why the difference between Operational Logic and Application Logic matters if that it provides an insight into another way of looking at the Production Environment.<br>
