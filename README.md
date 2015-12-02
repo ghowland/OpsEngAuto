@@ -1,13 +1,13 @@
 # Operations: Engineering and Automation
 
 
-Total Sections: 300   Populated Sections: 51
-Current Goal: Populate Empty Sections: 249   (Done: 17.0%)
+Total Sections: 300   Populated Sections: 52
+Current Goal: Populate Empty Sections: 248   (Done: 17.3%)
 
 
-Lines: 2042
+Lines: 2050
 
-Words: 35535
+Words: 35616
 
 
 # Chapter 1: Preface (README.txt)
@@ -2017,6 +2017,14 @@ Again, we could align these in terms of how they are similar, and we will find t
 <br>
 I will not spend much more time on Application Logic, as there is much writing about that in non-Operational literature that covers the current understanding of how to do that, and that is not the focus for Operational Engineers.<br>
 <p id=8eb74e570e995c459a430857793ad69f><b><a href="#8eb74e570e995c459a430857793ad69f">3.2.1.1</a>: Like 1 big computer.</b></p>
+<br>
+So, now that I have established some differences between Operational Logic and Application Logic, why does this matter?<br>
+<br>
+One reason why it matters if that it provides an insight into another way of looking at the Production Environment.<br>
+<br>
+By seeing it as a "one-way-to-do-it" system, where we mostly want things done one-way, we can actually look at the entire collective of Production Operations as a single entity.<br>
+<br>
+We can abstract it so that it is "one big computer", which many nodes<br>
 <h2 id=432075b2196c9716df5bcc2d7c070b2e><a href="#432075b2196c9716df5bcc2d7c070b2e">3.3</a>: The difference between App software dev, and Operational dev.  Robust, resilient, correct, handles failures, assumes failures will occur, is designed around failures occuring, instead of App designed around all functions being available (for the most part).</h2>
 <h2 id=53ee284612b4d4678a26814fc2442067><a href="#53ee284612b4d4678a26814fc2442067">3.4</a>: Troubleshooting.  Cencentric circles.  Locality.  Intermittent vs. sustained.  The attributes of failures.</h2>
 <h3 id=222b0da1a677c8319df0b5742703e46f><a href="#222b0da1a677c8319df0b5742703e46f">3.4.1</a>: Determines monitoring.</h3>
