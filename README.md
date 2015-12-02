@@ -7,7 +7,7 @@ Current Goal: Populate Empty Sections: 246   (Done: 18.5%)
 
 Lines: 2328
 
-Words: 39682
+Words: 39684
 
 
 # Chapter 1: Preface (README.txt)
@@ -2216,7 +2216,7 @@ If we change the value to "10x performance", then we get "90" vs. "90" and while
 <br>
 If we change the value to "100x performance", we would get "90" versus "900" and it is clear this Performance has true value.<br>
 <br>
-What it means in reality is that we have a new Caching Layer.  With 100x performance (or even considerably less), it is worth it to try to leverage that storage in a different capacity then we are currently considering.  The "balance of scales" is heavily in favor of using "Specification B", because it's performance simply cannot be denied, but we probably still need to use "Specification A" as well, for reliable storage that is better for Availability when the "Spec B" solution fails.  This decision will probably come down to whether the money is available, and the cost-benefit ratio is worth it to have both solutions.<br>
+What it means in reality is that we have a new Caching Layer.  With 100x performance (or even considerably less), it is worth it to try to leverage that storage in a different capacity then we are currently considering.  The "balance of scales" is heavily in favor of using "Specification B", because it's performance simply cannot be denied, but we probably still need to use "Specification A" as well, for reliable storage that is better for Availability when the "Spec B" solution fails.  This decision will probably come down to whether the money is available, and the cost-benefit ratio is required and worth it to have both solutions.<br>
 <br>
 It could be used for very fast read-only queries, or it could be used as transient storage for incoming queries, so that there is a "pretty reliable, with known long-term faults" solution in place for taking incoming data as quickly as we can.<br>
 <br>
