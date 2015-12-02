@@ -5,9 +5,9 @@ Total Sections: 302   Populated Sections: 56
 Current Goal: Populate Empty Sections: 246   (Done: 18.5%)
 
 
-Lines: 2257
+Lines: 2263
 
-Words: 38459
+Words: 38601
 
 
 # Chapter 1: Preface (README.txt)
@@ -2196,7 +2196,13 @@ So, Availability is first, but Performance is still quite close behind at 10%.<b
 <br>
 Say there is a decision to be made, and it has to due with a hardware configuration, say cabling, that will give an Availability vs. Performance tradeoff.<br>
 <br>
-Let's say that we can cable up some storage which will be five times (5x) faster in Specification B, but it has as flaw in that sometimes it fails, but very rarely and might be able to be avoided with<br>
+Let's say that we can cable up some storage which will be five times (5x) faster in Specification B, but it has as flaw in that sometimes it fails, but very rarely and might be able to be avoided with some maintenance actions.<br>
+<br>
+But, there is another cabling strategy which will ensure Availability, Specification A, even under intense failure scenarios, but is one fifth (1/5th) the speed (Performance) of Specification B.<br>
+<br>
+If we have a 10% different in importance (100 vs 90) in Availability (Spec A) and Performance (Spec B), but we are getting a 5x boost of Performance if we choose Spec B, we have a decision to make, and some data to make it with.<br>
+<br>
+If we were going to seriously evaluate this, for a presentation on "What should we do?" to our department, we could make up some "point system" and do the arithmetic and decide which had more points.  On a scale of 100 vs 90, it is possible that the 5X performance could win the "point comparison" just because of the "5x" scaling value being used in<br>
 <p id=e4f58bc454dce4b3362881399d9ca4fd><b><a href="#e4f58bc454dce4b3362881399d9ca4fd">3.3.1.1</a>: Assigning different people different priorities is what makes up different roles.  This allows different points of view, to make the organization stronger and more thoughtful, by design.</b></p>
 <h3 id=d2c6e14bfa28136f85c785a79fcfc39d><a href="#d2c6e14bfa28136f85c785a79fcfc39d">3.3.2</a>: Creating Axioms from Axes</h3>
 <p id=9daefd3b7edab6a712ab778906fedc9f><b><a href="#9daefd3b7edab6a712ab778906fedc9f">3.3.2.1</a>: Impersonal decision making through communicated values and priorities using Axioms</b></p>
