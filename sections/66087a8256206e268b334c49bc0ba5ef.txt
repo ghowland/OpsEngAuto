@@ -67,5 +67,13 @@ For instance:
 
 - And, there is no work to do at the 9% layer, because the system is currently running fast enough (Performant)
 
-- And, we are not currently evaluating making a change that introduce Risk into our Production environment
+- And, we are not currently evaluating making a change that introduce Risk into our Production environment (Manageable: Risk, at the 0.09% layer)
+
+- And, we have a problem with how Difficult some tasks are to perform (the 0.009% layer), then this is currently the top priority, and this work should occur.
+
+Should we also schedule work to fix "Manageable: Speed" problems (at the 0.00009% layer)?  Not unless we have another person to assign it too, as the 0.0009% layer is 10x more important.
+
+I think this is a system that provides a lot of clarity for what is important right now, and how we should design things, and how to separate what should be done from what should not be done.
+
+In a one-way-to-do-it system, you do not want to do all-the-things, you preferably want to do one-thing for any given category of thing, so that you can gain efficiencies from that correctly chosen thing.
 
