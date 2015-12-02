@@ -10,3 +10,7 @@ Between Consistency and Availability, which is higher priority?  What sorts of t
 
 We can't possible implement the same solution while matching our different axes values, and priorities, because we care about different things in each circumstance, and so we will create a different solution.
 
+This is important in your own work, and critical for working in a team.  If you can't agree on your values, how will your work have the Alignment necessary to produce the effects you want with efficient use of your resources?
+
+Let's re-iterate my generic definition for Engineering again:
+
