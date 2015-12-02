@@ -5,9 +5,9 @@ Total Sections: 302   Populated Sections: 56
 Current Goal: Populate Empty Sections: 246   (Done: 18.5%)
 
 
-Lines: 2312
+Lines: 2314
 
-Words: 39296
+Words: 39352
 
 
 # Chapter 1: Preface (README.txt)
@@ -2252,6 +2252,8 @@ Should we also schedule work to fix "Manageable: Speed" problems (at the 0.00009
 I think this is a system that provides a lot of clarity for what is important right now, and how we should design things, and how to separate what should be done from what should not be done.<br>
 <br>
 In a one-way-to-do-it system, you do not want to do all-the-things, you preferably want to do one-thing for any given category of thing, so that you can gain efficiencies from that correctly chosen thing.<br>
+<br>
+Although I believe these 10x differences, and being able to maintain a regular scaling interval (10x) between priority levels is good, and the "90-9-0.9%" format makes doing this clear, it is not easy to communicate about these levels using the exact percentage values because saying "0.0009%" is difficult, and is confusing between say, "0.009%" and "0.00009%".<br>
 <p id=e4f58bc454dce4b3362881399d9ca4fd><b><a href="#e4f58bc454dce4b3362881399d9ca4fd">3.3.1.1</a>: Assigning different people different priorities is what makes up different roles.  This allows different points of view, to make the organization stronger and more thoughtful, by design.</b></p>
 <h3 id=d2c6e14bfa28136f85c785a79fcfc39d><a href="#d2c6e14bfa28136f85c785a79fcfc39d">3.3.2</a>: Creating Axioms from Axes</h3>
 <p id=9daefd3b7edab6a712ab778906fedc9f><b><a href="#9daefd3b7edab6a712ab778906fedc9f">3.3.2.1</a>: Impersonal decision making through communicated values and priorities using Axioms</b></p>
