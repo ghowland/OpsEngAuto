@@ -79,3 +79,16 @@ In a one-way-to-do-it system, you do not want to do all-the-things, you preferab
 
 Although I believe these 10x differences, and being able to maintain a regular scaling interval (10x) between priority levels is good, and the "90-9-0.9%" format makes doing this clear, it is not easy to communicate about these levels using the exact percentage values because saying "0.0009%" is difficult, and is confusing between say, "0.009%" and "0.00009%".
 
+Instead we can simply order the layers as "Top Priority", "Second Priority" and so on, or some other labeling structure which is easier to say.
+
+Then you can say "This is 5th level priority, but we don't have anything to do in levels 1 to 4, so it is currently the top priority", which is clear, numerical, and does not use potentially confusing real numbers for normal communication purposes.
+
+The labelled tier structures can be replaced with their numerical equivalents to perform quantitative analysis whenever it is needed.
+
+The take-away for this section is not "this is a good technique, use it", although I am currently using it, and I do recommend it, but the larger lesson here is that you can make up these types of devices yourself, and you should.
+
+Come up with your own numbering schemes, labeling schemes, and determine the exact meaning for each of them, and reasoning behind why they are a valid method of working, and then suggest other people use them yourself.
+
+This is the type of Engineering discussions I would like to see more of, and the type of Engineering thought that I believe the Operational Engineering world could benefit from.
+
+We get clear sets of data, that are quantifiable, and qualifiable, and we can test ideas against them, and communicate clearly about what our priorities are, down to which axes of information, and we can change the attribute axes values or priorities and talk about how those changes would affect our designs, and evaluate how well our implementations did against those avl
