@@ -5,9 +5,9 @@ Total Sections: 300   Populated Sections: 54
 Current Goal: Populate Empty Sections: 246   (Done: 18.0%)
 
 
-Lines: 2144
+Lines: 2148
 
-Words: 37146
+Words: 37207
 
 
 # Chapter 1: Preface (README.txt)
@@ -2120,7 +2120,11 @@ If we are being Pragmatic, and we are only concerned with the effects, then we c
 <br>
 Let's make an overview for all of services in the Production Environment:<br>
 <br>
--<br>
+- Availability.  Our services must be available.<br>
+<br>
+- Performant.  Our services must be fast enough for our purposes (poor performance under heavy load means that some percentage of our end-users will not have Availability).<br>
+<br>
+- Manageable.  We need to be able to control our environment, deploy software, upgrade security flaws, making configuration changes, add or replace server nodes, control user access, etc.<br>
 <h3 id=66087a8256206e268b334c49bc0ba5ef><a href="#66087a8256206e268b334c49bc0ba5ef">3.3.1</a>: 90-9-.9-.09% rules for priorities.  Make up your own rules if this doesnt work for you.  How to present them to people, a plan on improvining presentation.  A plan on requested for improving presentation.    If you dont come to common terms, you arent really communicating, talking past each other.</h3>
 <p id=e4f58bc454dce4b3362881399d9ca4fd><b><a href="#e4f58bc454dce4b3362881399d9ca4fd">3.3.1.1</a>: Assigning different people different priorities is what makes up different roles.  This allows different points of view, to make the organization stronger and more thoughtful, by design.</b></p>
 <h3 id=5c1f069a25780e9d9aff8574624089fc><a href="#5c1f069a25780e9d9aff8574624089fc">3.3.2</a>: FOE: Fashion Oriented Engineering.  "Blogineering".  real evaluations of the environment, agreement between team on details, moving forward.  How to do it quickly.   Honesty in public relations, be skeptical of the claims of others.  No one will state they are fuckups, but that doesnt mean they arent asked to blog about their operational endeavours anyway.  What works for them may not work for you, apply Axiomatic Engineering principles, decided by you and your team.  Use everyone for source information, but nothing as universally applicable.  It's just another idea, including this one.  In-take, evaluate, match to your environment (synthesize), iterate, evaluate, repeat.</h3>
