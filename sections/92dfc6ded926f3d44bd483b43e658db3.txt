@@ -24,7 +24,7 @@ So we have:
 
 These are the fundamental elements of Production Operations Engineering, and how we mix and match them together, and the methods of their implementation, will determine the effects that we get.
 
-If we are being Pragmatic, and we are only concerned with the effects, then we can start to build an "Effect Estimating Machine", and this is done through Axioms, created by populating our Axes with values and prioritizing which of those values are more important to us than others.  After and during the implementation of the solution, we can use an "Effect Evaluation Machine" to determine how our implementation is matching up with our Prioritized Attribute Axes values.
+If we are being Pragmatic, and we are only concerned with the effects, then we can start to build an "Effect Estimating Machine", and this is done through Axioms, created by populating our Axes with values and prioritizing which of those values are more important to us than others.  After and during the implementation of the solution, we can use an "Effect Evaluation Machine" to determine how our implementation is matching up with our Prioritized Attribute Axes values.  These would be a type of mental Virtual "machines", which could be considered mental software, or well-structured internal algorithms for thinking.
 
 Let's make an overview for all of services in the Production Environment:
 
