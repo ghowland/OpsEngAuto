@@ -5,9 +5,9 @@ Total Sections: 300   Populated Sections: 54
 Current Goal: Populate Empty Sections: 246   (Done: 18.0%)
 
 
-Lines: 2152
+Lines: 2164
 
-Words: 37244
+Words: 37345
 
 
 # Chapter 1: Preface (README.txt)
@@ -2129,6 +2129,18 @@ Let's make an overview for all of services in the Production Environment:<br>
 - Visible.  We need insight into our system through monitoring, alerts, logs, etc.  We can't manage things if we don't know what is going on.<br>
 <br>
 That's a pretty good start, so let's take this as our basis.<br>
+<br>
+I have also ordered them in a general order of priority, because:<br>
+<br>
+- If the services are not Available, what is the point of it existing?<br>
+<br>
+- If the services are not Performant, then they are not available to some end-users, or are not timely.<br>
+<br>
+- If they are not Manageable, then we cannot control them to keep them Available and Performant.<br>
+<br>
+- If they are not Visible, we cannot efficiently Manage them.<br>
+<br>
+We could add other elements in here, or split these up, and some circumstances might order them differently, but this is a good starting place for our purposes.<br>
 <h3 id=66087a8256206e268b334c49bc0ba5ef><a href="#66087a8256206e268b334c49bc0ba5ef">3.3.1</a>: 90-9-.9-.09% rules for priorities.  Make up your own rules if this doesnt work for you.  How to present them to people, a plan on improvining presentation.  A plan on requested for improving presentation.    If you dont come to common terms, you arent really communicating, talking past each other.</h3>
 <p id=e4f58bc454dce4b3362881399d9ca4fd><b><a href="#e4f58bc454dce4b3362881399d9ca4fd">3.3.1.1</a>: Assigning different people different priorities is what makes up different roles.  This allows different points of view, to make the organization stronger and more thoughtful, by design.</b></p>
 <h3 id=5c1f069a25780e9d9aff8574624089fc><a href="#5c1f069a25780e9d9aff8574624089fc">3.3.2</a>: FOE: Fashion Oriented Engineering.  "Blogineering".  real evaluations of the environment, agreement between team on details, moving forward.  How to do it quickly.   Honesty in public relations, be skeptical of the claims of others.  No one will state they are fuckups, but that doesnt mean they arent asked to blog about their operational endeavours anyway.  What works for them may not work for you, apply Axiomatic Engineering principles, decided by you and your team.  Use everyone for source information, but nothing as universally applicable.  It's just another idea, including this one.  In-take, evaluate, match to your environment (synthesize), iterate, evaluate, repeat.</h3>
