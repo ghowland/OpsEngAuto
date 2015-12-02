@@ -7,7 +7,7 @@ Current Goal: Populate Empty Sections: 248   (Done: 17.3%)
 
 Lines: 2056
 
-Words: 35737
+Words: 35772
 
 
 # Chapter 1: Preface (README.txt)
@@ -2030,7 +2030,7 @@ Each node in this "one big computer" has it's own internal process schedulers (a
 <br>
 But, the entire set of machines, no matter how distributed they are across the planet, or how many nodes they are, can be controlled in terms of configuration and operational management, as if they were one system with many parts.<br>
 <br>
-I think of this as a layer of Operating System about the traditional bare-metal and<br>
+I think of this as a layer of Operating System above the traditional bare-metal and virtual-machine installed Operating Systems, whose goals are to abstract physical hardware (BIOS, Buses, Devices), and manage device drivers, and schedule processes on their CPU, and manage libraries and file systems and virtual memory and such.<br>
 <h2 id=432075b2196c9716df5bcc2d7c070b2e><a href="#432075b2196c9716df5bcc2d7c070b2e">3.3</a>: The difference between App software dev, and Operational dev.  Robust, resilient, correct, handles failures, assumes failures will occur, is designed around failures occuring, instead of App designed around all functions being available (for the most part).</h2>
 <h2 id=53ee284612b4d4678a26814fc2442067><a href="#53ee284612b4d4678a26814fc2442067">3.4</a>: Troubleshooting.  Cencentric circles.  Locality.  Intermittent vs. sustained.  The attributes of failures.</h2>
 <h3 id=222b0da1a677c8319df0b5742703e46f><a href="#222b0da1a677c8319df0b5742703e46f">3.4.1</a>: Determines monitoring.</h3>

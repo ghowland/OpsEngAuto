@@ -12,4 +12,5 @@ Each node in this "one big computer" has it's own internal process schedulers (a
 
 But, the entire set of machines, no matter how distributed they are across the planet, or how many nodes they are, can be controlled in terms of configuration and operational management, as if they were one system with many parts.
 
-I think of this as a layer of Operating System about the traditional bare-metal and 
+I think of this as a layer of Operating System above the traditional bare-metal and virtual-machine installed Operating Systems, whose goals are to abstract physical hardware (BIOS, Buses, Devices), and manage device drivers, and schedule processes on their CPU, and manage libraries and file systems and virtual memory and such.
+
