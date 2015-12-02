@@ -7,7 +7,7 @@ Current Goal: Populate Empty Sections: 247   (Done: 18.2%)
 
 Lines: 2235
 
-Words: 37969
+Words: 37970
 
 
 # Chapter 1: Preface (README.txt)
@@ -2116,7 +2116,7 @@ So we have:<br>
 <br>
 These are the fundamental elements of Production Operations Engineering, and how we mix and match them together, and the methods of their implementation, will determine the effects that we get.<br>
 <br>
-If we are being Pragmatic, and we are only concerned with the effects, then we can start to build an "Effect Estimating Machine", and this is done through Axioms, created by populating our Axes with values and prioritizing which of those values are more important to us than others.  After and during the implementation of the solution, we can use an "Effect Evaluation Machine" to determine how our implementation is matching up with our Attribute Axes values.<br>
+If we are being Pragmatic, and we are only concerned with the effects, then we can start to build an "Effect Estimating Machine", and this is done through Axioms, created by populating our Axes with values and prioritizing which of those values are more important to us than others.  After and during the implementation of the solution, we can use an "Effect Evaluation Machine" to determine how our implementation is matching up with our Prioritized Attribute Axes values.<br>
 <br>
 Let's make an overview for all of services in the Production Environment:<br>
 <br>
