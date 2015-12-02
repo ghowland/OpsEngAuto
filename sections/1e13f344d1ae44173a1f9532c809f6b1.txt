@@ -6,4 +6,18 @@ In a given organization there is generally only one "Production Environment".  I
 
 There are organizations who break these up, but they are frequently either regulated businesses, or ancient, or have some other external reason for running segmented Production Environments.  In general, companies, even very large ones with the largest Production server collections, only have one Production Environment.
 
-This means that in an entire Product
+This means that in an entire Product Environment is being managed in a single manner:
+
+- There is one way to update Production DNS.
+- There is one way to provision new servers.
+- There is one way to fail over from a faulty server to a working server, for a given service.
+- There is one way to handle authentication and authorization for user and role account access.
+- There is one way to centralize log collection.
+- There is one way to monitor and alert on logs.
+- There may be one way to software releases.  (Actually, this could be on a product by product basis)
+
+
+Each of these "one way" methods may contain many sub-methods, such as you may actually have several monitoring packages, but collectively they make up the "one way", and generally things are put into one of them, versus any others, unless multiple coverage is desired.
+
+By this "one way" concept, I don't mean to be naive and really limit it to "one thing", that is why there is "one way to" and not "one thing that does".  However many methods of doing something (as legacy implementations will stick around for a long time, and sometimes there is intra-team competition for creating solutions).
+
