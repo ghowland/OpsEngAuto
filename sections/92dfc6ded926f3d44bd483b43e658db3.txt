@@ -50,3 +50,9 @@ I have also ordered them in a general order of priority, because:
 
 We could add other elements in here, or split these up, and some circumstances might order them differently, but this is a good starting place for our purposes.
 
+So, let's check our Attribute Axes for these prioritized goals:
+
+- Available:   Not Available <---> Completely Availability
+- Performant:  Slow <---> Fast
+- Management:  Difficult, Risky and Slow <---> Easy, Safe and Fast
+- 
