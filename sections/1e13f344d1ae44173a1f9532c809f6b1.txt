@@ -25,5 +25,12 @@ The thing about "one way to do it" systems that are different than "lots of diff
 
 It is more efficient to configure, manage and have life-cycle support if we have limited the amount of ways we do things
 
-In terms of creating Application Logic, it is easy to separate components of the Application or separate applications that may work in tandem or sequence, or may be linked through a common Data Source, a through a messaging queue, RPC (Remote Procedure Calls), or other data transference mechanism.
+In terms of creating Application Logic, it is easy to separate components of the Application or separate applications that may work in tandem or sequence, or may be linked through a common Data Source, a through a messaging queue, RPC (Remote Procedure Call), or other data transference mechanism.
 
+There are many ways to do it, but the point is that you can split up personnel to work on different things, and their work can be isolated from each other, only connecting at certain points to do data exchanges. 
+
+This could be generalized to always be true, but again, the point Im making is the difference between one thing and another, not in their similarities. 
+
+The Operational equivalent needs to be more tightly integrated, because it is trying to support a one-way-to-do-it system, and where things are not one-way, they would often be better if they were.  
+
+So it is a Goal of an Operational system to have one-way-to-do-it, for efficiency, and it is a Goal of an Application system to have many ways to do many specific tasks, so that personnel can be split up and given 
