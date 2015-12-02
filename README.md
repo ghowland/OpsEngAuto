@@ -7,7 +7,7 @@ Current Goal: Populate Empty Sections: 246   (Done: 18.5%)
 
 Lines: 2328
 
-Words: 39620
+Words: 39621
 
 
 # Chapter 1: Preface (README.txt)
@@ -2178,7 +2178,7 @@ Now, we have some Attribute Axes, does that mean we have Axioms?  Not quite, but
 <br>
 Let's take a brief tangent to talk about prioritization.  We made a couple prioritized lists earlier, and they were listed sequentially, but not numbered or evaluated in terms of "how much more important" each element was.<br>
 <br>
-There are many ways to rank priorities, and I have come up with a methodology that I like which I call the: "90-9-0.9% rule", and can be said as "Ninety-nine-point-Oh-nine rule" to make that actually pronounceable.<br>
+There are many ways to rank priorities, and I have come up with a methodology that I like which I call the: "90-9-0.9% rule", and can be said as the "Ninety-nine-point-Oh-nine rule" to make that actually pronounceable.<br>
 <br>
 The progression continues on forever, with the previous item being ten times (10x) more important than it's following item.<br>
 <br>
