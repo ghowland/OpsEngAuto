@@ -7,7 +7,7 @@ Current Goal: Populate Empty Sections: 246   (Done: 18.5%)
 
 Lines: 2330
 
-Words: 39809
+Words: 39810
 
 
 # Chapter 1: Preface (README.txt)
@@ -2253,7 +2253,7 @@ Should we also schedule work to fix "Manageable: Speed" problems (at the 0.0009%
 <br>
 I think this is a system that provides a lot of clarity for what is important right now, and how we should design things, and how to separate what should be done from what should not be done.  It's simple enough to document in a page or so of Prioritized Attribute Axes, and that makes it easy to version control, or put into a Data Source, so we can also run Logic against it.<br>
 <br>
-In a one-way-to-do-it system, you do not want to do all-the-things, you preferably want to do one-thing for any given category of thing, so that you can gain efficiencies from that correctly chosen thing, for your set of priorities and engineering values.<br>
+In a one-way-to-do-it system, you do not want to do all-the-things, you preferably want to do one-thing for any given category of thing, so that you can gain efficiencies from that correctly chosen thing, for your set of priorities, goals and engineering values.<br>
 <br>
 Although I believe these 10x differences, and being able to maintain a regular scaling interval (10x) between priority levels is good, and the "90-9-0.9%" format makes doing this clear, it is not easy to communicate about these levels using the exact percentage values because saying "0.0009%" is difficult, and is confusing between say, "0.009%" and "0.00009%".<br>
 <br>
