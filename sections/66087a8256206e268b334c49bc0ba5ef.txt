@@ -73,7 +73,7 @@ For instance:
 
 - And, we have a problem with how Difficult some tasks are to perform (the 0.009% layer), then this is currently the top priority, and this work should occur.
 
-Should we also schedule work to fix "Manageable: Speed" problems (at the 0.00009% layer)?  Not unless we have another person to assign it too, as the 0.0009% layer is 10x more important.
+Should we also schedule work to fix "Manageable: Speed" problems (at the 0.0009% layer)?  Not unless we have another person to assign it too, as the 0.009% layer is 10x more important.
 
 I think this is a system that provides a lot of clarity for what is important right now, and how we should design things, and how to separate what should be done from what should not be done.
 
