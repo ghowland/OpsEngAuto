@@ -11,3 +11,10 @@ Knowing this, we can optimize for the case that we want our Operational Logic to
 If I have locally cached data to the server my Operational Logic is running on, I can access that data consistently, even if the network fails and the server running my Logic cannot reach other networked services or nodes.
 
 This allows me to handle failure cases more gracefully.  For instance, maybe all the nodes are not unavailable, and if I have the data that lists all the nodes and their properties on my server already, I can verify which are reachable, and which are not without an internal processing failure occurring (cannot access data to check with, because it has been partitioned in the network failure).
+
+- Operational Logic should try to minimize the amount of frameworks, libraries and services it uses.
+
+Frameworks and libraries are useful, they server a purpose, however the more things you have, the more things that can fail and cause your Logic to no longer function.
+
+Additionally each of these things needs expertise to manage and troubleshoot, and your Operational Logic needs to be as straight-forward and simple as it can be, so that when problems occur, they can be troubleshot and resolved quickly.
+

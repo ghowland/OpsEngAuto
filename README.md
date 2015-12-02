@@ -5,9 +5,9 @@ Total Sections: 300   Populated Sections: 53
 Current Goal: Populate Empty Sections: 247   (Done: 17.7%)
 
 
-Lines: 2084
+Lines: 2090
 
-Words: 36298
+Words: 36381
 
 
 # Chapter 1: Preface (README.txt)
@@ -2029,6 +2029,12 @@ Knowing this, we can optimize for the case that we want our Operational Logic to
 If I have locally cached data to the server my Operational Logic is running on, I can access that data consistently, even if the network fails and the server running my Logic cannot reach other networked services or nodes.<br>
 <br>
 This allows me to handle failure cases more gracefully.  For instance, maybe all the nodes are not unavailable, and if I have the data that lists all the nodes and their properties on my server already, I can verify which are reachable, and which are not without an internal processing failure occurring (cannot access data to check with, because it has been partitioned in the network failure).<br>
+<br>
+- Operational Logic should try to minimize the amount of frameworks, libraries and services it uses.<br>
+<br>
+Frameworks and libraries are useful, they server a purpose, however the more things you have, the more things that can fail and cause your Logic to no longer function.<br>
+<br>
+Additionally each of these things needs expertise to manage and troubleshoot, and your Operational Logic needs to be as straight-forward and simple as it can be, so that when problems occur, they can be troubleshot and resolved quickly.<br>
 <p id=8eb74e570e995c459a430857793ad69f><b><a href="#8eb74e570e995c459a430857793ad69f">3.2.1.2</a>: Like 1 big computer.</b></p>
 <br>
 One reason why the difference between Operational Logic and Application Logic matters if that it provides an insight into another way of looking at the Production Environment.<br>
