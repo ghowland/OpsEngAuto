@@ -1,13 +1,13 @@
 # Operations: Engineering and Automation
 
 
-Total Sections: 302   Populated Sections: 55
-Current Goal: Populate Empty Sections: 247   (Done: 18.2%)
+Total Sections: 302   Populated Sections: 56
+Current Goal: Populate Empty Sections: 246   (Done: 18.5%)
 
 
-Lines: 2235
+Lines: 2239
 
-Words: 37997
+Words: 38066
 
 
 # Chapter 1: Preface (README.txt)
@@ -2175,6 +2175,10 @@ That looks a little better to me.  We need that Visibility, because it speaks to
 <br>
 Now, we have some Attribute Axes, does that mean we have Axioms?  Not quite, but we are getting close.<br>
 <h3 id=66087a8256206e268b334c49bc0ba5ef><a href="#66087a8256206e268b334c49bc0ba5ef">3.3.1</a>: 90-9-.9-.09% rules for priorities.  Make up your own rules if this doesnt work for you.  How to present them to people, a plan on improvining presentation.  A plan on requested for improving presentation.    If you dont come to common terms, you arent really communicating, talking past each other.</h3>
+<br>
+Let's take a brief tangent prioritization.  I gave a couple priority lists earlier, and they were listed sequentially, but not numbered or evaluated in terms of "how much more important" each element was.<br>
+<br>
+There are many ways to rank priorities, and I have come up with a methodology that I like which I call the: "90-9-0.9% rule", and can be said as "Ninety-nine-point-Oh-nine rule" to make that actually pronounceable.<br>
 <p id=e4f58bc454dce4b3362881399d9ca4fd><b><a href="#e4f58bc454dce4b3362881399d9ca4fd">3.3.1.1</a>: Assigning different people different priorities is what makes up different roles.  This allows different points of view, to make the organization stronger and more thoughtful, by design.</b></p>
 <h3 id=d2c6e14bfa28136f85c785a79fcfc39d><a href="#d2c6e14bfa28136f85c785a79fcfc39d">3.3.2</a>: Creating Axioms from Axes</h3>
 <p id=9daefd3b7edab6a712ab778906fedc9f><b><a href="#9daefd3b7edab6a712ab778906fedc9f">3.3.2.1</a>: Impersonal decision making through communicated values and priorities using Axioms</b></p>

@@ -1,3 +1,7 @@
 ### [[3.8.1: 90-9-.9-.09% rules for priorities.  Make up your own rules if this doesnt work for you.  How to present them to people, a plan on improvining presentation.  A plan on requested for improving presentation.    If you dont come to common terms, you arent really communicating, talking past each other.]]
 
+Let's take a brief tangent prioritization.  I gave a couple priority lists earlier, and they were listed sequentially, but not numbered or evaluated in terms of "how much more important" each element was.
+
+There are many ways to rank priorities, and I have come up with a methodology that I like which I call the: "90-9-0.9% rule", and can be said as "Ninety-nine-point-Oh-nine rule" to make that actually pronounceable.
+
 
