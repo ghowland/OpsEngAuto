@@ -7,7 +7,7 @@ Current Goal: Populate Empty Sections: 246   (Done: 18.5%)
 
 Lines: 2328
 
-Words: 39691
+Words: 39692
 
 
 # Chapter 1: Preface (README.txt)
@@ -2218,7 +2218,7 @@ If we change the value to "100x performance", we would get "90" versus "900" and
 <br>
 What it means in reality is that we have a new Caching Layer.  With 100x performance (or even considerably less), it is worth it to try to leverage that storage in a different capacity then we are currently considering.  The "balance of scales" is heavily in favor of using "Specification B", because it's performance simply cannot be denied, but we probably still need to use "Specification A" as well, for reliable storage that is better for Availability when the "Spec B" solution fails.  This decision will probably come down to whether the money is available, and the cost-benefit ratio is required and worth it, for implementation both solutions as a 2-tier caching and persistence layer.<br>
 <br>
-It could be used for very fast read-only queries, or it could be used as transient storage for incoming queries, so that there is a "pretty reliable, with known long-term faults" solution in place for taking incoming data as quickly as we can.<br>
+"Specification B" could be used for very fast read-only queries, or it could be used as transient storage for incoming queries, so that there is a "pretty reliable, with known long-term faults" solution in place for taking incoming data as quickly as we can.<br>
 <br>
 These types of analysis are what using axes of values, and combining them into an easy-to-communicate-and-visualize method allow.  We can change the values around, put them into forms or a spread sheet and apply algorithms to compare them quantitatively, etc.<br>
 <br>
