@@ -81,4 +81,4 @@ Is Visibility really less important than all of those Manageability attributes? 
 
 That looks a little better to me.  We need that Visibility, because it speaks to knowing what is going on.  I would rather than that then easier to faster management, as I need it to ensure my work is correct, or help with troubleshooting if an error is introduced.
 
-Now, we have some Attribute Axes, does that mean we have Axioms?  Not quite
+Now, we have some Attribute Axes, does that mean we have Axioms?  Not quite, but we are getting close.
