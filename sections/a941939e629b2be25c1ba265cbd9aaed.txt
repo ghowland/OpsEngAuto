@@ -36,5 +36,7 @@ Additional to the Logic required to handle failures, is that Application code ne
 
 While I think with better education, and better base-libraries we can solve these problems and Application Logic can be more like Operational Logic in handling failures, or in fact leverage the same Logic, so that they are working hand-in-hand, I am making this point because this is not currently standard, and has never been historically standard.
 
+Another thing that Operational Logic needs to do, is to simply have more information about the operational environment.  Seems like common sense, but since we are building from the foundations, it is necessary to state the details.
+
 
 

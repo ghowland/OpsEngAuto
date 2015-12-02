@@ -5,9 +5,9 @@ Total Sections: 300   Populated Sections: 50
 Current Goal: Populate Empty Sections: 250   (Done: 16.7%)
 
 
-Lines: 1992
+Lines: 1994
 
-Words: 34707
+Words: 34744
 
 
 # Chapter 1: Preface (README.txt)
@@ -1965,6 +1965,8 @@ Part of the "extra Logic" is that Applications are meant to serve end-users, and
 Additional to the Logic required to handle failures, is that Application code needs to be very stable for-it's-own-purposes, and adding in this kind of Logic means that during failures more cases may be found that could be handled, which means more changes to the Logic surrounding database access, which means more change/churn, and this leads to more potential bugs.  Specifically the kind of bugs that have data access requests failing, which is someone no one wants.<br>
 <br>
 While I think with better education, and better base-libraries we can solve these problems and Application Logic can be more like Operational Logic in handling failures, or in fact leverage the same Logic, so that they are working hand-in-hand, I am making this point because this is not currently standard, and has never been historically standard.<br>
+<br>
+Another thing that Operational Logic needs to do, is to simply have more information about the operational environment.  Seems like common sense, but since we are building from the foundations, it is necessary to state the details.<br>
 <h3 id=1e13f344d1ae44173a1f9532c809f6b1><a href="#1e13f344d1ae44173a1f9532c809f6b1">3.2.1</a>: Many applications and services.  One Operational environment</h3>
 <p id=8eb74e570e995c459a430857793ad69f><b><a href="#8eb74e570e995c459a430857793ad69f">3.2.1.1</a>: Like 1 big computer.</b></p>
 <h2 id=432075b2196c9716df5bcc2d7c070b2e><a href="#432075b2196c9716df5bcc2d7c070b2e">3.3</a>: The difference between App software dev, and Operational dev.  Robust, resilient, correct, handles failures, assumes failures will occur, is designed around failures occuring, instead of App designed around all functions being available (for the most part).</h2>
