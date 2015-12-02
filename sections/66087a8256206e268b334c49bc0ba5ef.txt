@@ -73,7 +73,7 @@ For instance:
 
 - And, we have a problem with how Difficult some tasks are to perform (the 0.009% layer), then this is currently the top priority, and this work should occur.
 
-Should we also schedule work to fix "Manageable: Speed" problems (at the 0.0009% layer)?  Not unless we have another person to assign it too, as the 0.009% layer is 10x more important.  Once' the 0.009% work is complete, the 0.0009% work will become the most important work.  If you should ever have a problem with Availability (90%), it immediately becomes the top priority, as it is one hundred-thousand times (100,000x) more important.
+Should we also schedule work to fix "Manageable: Speed" problems (at the 0.0009% layer)?  Not unless we have another person to assign it too, as the 0.009% layer is 10x more important.  Once' the 0.009% work is complete, the 0.0009% work will become the most important work.  If you should ever have a problem with Availability (90%), it immediately becomes the top priority, as it is one hundred-thousand times (100,000x) more important.  That is clearly more important, and the scales again make things very clear.
 
 I think this is a system that provides a lot of clarity for what is important right now, and how we should design things, and how to separate what should be done from what should not be done.  It's simple enough to document in a page or so of Prioritized Attribute Axes, and that makes it easy to version control, or put into a Data Source, so we can also run Logic against it.
 
