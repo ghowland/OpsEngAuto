@@ -1,3 +1,13 @@
-### [[3.14.1: Making more depencies.  Networked dependencies.  When things are broken, how will your system function?  Will it fail?  Will it make it worse?  Will it make a mess?  Will it corrupt and destroy?]]
+### [[3.14.1: Making more dependencies.  Networked dependencies.  When things are broken, how will your system function?  Will it fail?  Will it make it worse?  Will it make a mess?  Will it corrupt and destroy?]]
 
+Now that I've established there are two different things, with different qualities, Operational Logic and Application Logic, let's get into what goals Operational Logic should have:
 
+- Operation Logic should try to minimize external dependencies, especially networked dependencies.
+
+If we know things are going to fail, and we are writing Logic to handle them in cases where they have failed, then we know the infrastructure we are writing against, to manage, will also fail.
+
+Knowing this, we can optimize for the case that we want our Operational Logic to continue to function properly even in the case of a network partition or failure.
+
+If I have locally cached data to the server my Operational Logic is running on, I can access that data consistently, even if the network fails and the server running my Logic cannot reach other networked services or nodes.
+
+This allows me to handle failure cases more gracefully.  For instance, maybe all the nodes are not unavailable, and if I have the data that lists all the nodes and their properties on my server already, I can verify which are reachable, and which are not without an internal processing failure occurring (cannot access data to check with, because it has been partitioned in the network failure).

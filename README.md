@@ -1,13 +1,13 @@
 # Operations: Engineering and Automation
 
 
-Total Sections: 300   Populated Sections: 52
-Current Goal: Populate Empty Sections: 248   (Done: 17.3%)
+Total Sections: 300   Populated Sections: 53
+Current Goal: Populate Empty Sections: 247   (Done: 17.7%)
 
 
-Lines: 2072
+Lines: 2084
 
-Words: 36089
+Words: 36298
 
 
 # Chapter 1: Preface (README.txt)
@@ -2017,6 +2017,18 @@ Again, we could align these in terms of how they are similar, and we will find t
 <br>
 I will not spend much more time on Application Logic, as there is much writing about that in non-Operational literature that covers the current understanding of how to do that, and that is not the focus for Operational Engineers.<br>
 <p id=ae00bdb9200029912abd5c942058cf26><b><a href="#ae00bdb9200029912abd5c942058cf26">3.2.1.1</a>: Making more depencies.  Networked dependencies.  When things are broken, how will your system function?  Will it fail?  Will it make it worse?  Will it make a mess?  Will it corrupt and destroy?</b></p>
+<br>
+Now that I've established there are two different things, with different qualities, Operational Logic and Application Logic, let's get into what goals Operational Logic should have:<br>
+<br>
+- Operation Logic should try to minimize external dependencies, especially networked dependencies.<br>
+<br>
+If we know things are going to fail, and we are writing Logic to handle them in cases where they have failed, then we know the infrastructure we are writing against, to manage, will also fail.<br>
+<br>
+Knowing this, we can optimize for the case that we want our Operational Logic to continue to function properly even in the case of a network partition or failure.<br>
+<br>
+If I have locally cached data to the server my Operational Logic is running on, I can access that data consistently, even if the network fails and the server running my Logic cannot reach other networked services or nodes.<br>
+<br>
+This allows me to handle failure cases more gracefully.  For instance, maybe all the nodes are not unavailable, and if I have the data that lists all the nodes and their properties on my server already, I can verify which are reachable, and which are not without an internal processing failure occurring (cannot access data to check with, because it has been partitioned in the network failure).<br>
 <p id=8eb74e570e995c459a430857793ad69f><b><a href="#8eb74e570e995c459a430857793ad69f">3.2.1.2</a>: Like 1 big computer.</b></p>
 <br>
 One reason why the difference between Operational Logic and Application Logic matters if that it provides an insight into another way of looking at the Production Environment.<br>
