@@ -6,4 +6,10 @@ One reason why it matters if that it provides an insight into another way of loo
 
 By seeing it as a "one-way-to-do-it" system, where we mostly want things done one-way, we can actually look at the entire collective of Production Operations as a single entity.
 
-We can abstract it so that it is "one big computer", which many nodes 
+We can abstract it so that it is "one big computer", with many nodes, which can be configured as if it one a single computer, with containers in it, or rather different directory mount points.
+
+Each node in this "one big computer" has it's own internal process schedulers (as Operating Systems start processes through a scheduler, that manages interrupts and putting processes back onto CPUs when their system calls finish), and it has it's own internal RAM and storage, etc.
+
+But, the entire set of machines, no matter how distributed they are across the planet, or how many nodes they are, can be controlled in terms of configuration and operational management, as if they were one system with many parts.
+
+I think of this as a layer of Operating System about the traditional bare-metal and 

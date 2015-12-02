@@ -3,9 +3,9 @@ Total Sections: 300   Populated Sections: 52
 Current Goal: Populate Empty Sections: 248   (Done: 17.3%)
 <br>
 <br>
-Lines: 2050<br>
+Lines: 2056<br>
 <br>
-Words: 35616<br>
+Words: 35737<br>
 <br>
 <h1 id=48152466029dfcb314ccad4d502d1a73><a href="#48152466029dfcb314ccad4d502d1a73">Chapter 1</a>: Preface (README.txt)</h1>
 <br>
@@ -1985,7 +1985,13 @@ One reason why it matters if that it provides an insight into another way of loo
 <br>
 By seeing it as a "one-way-to-do-it" system, where we mostly want things done one-way, we can actually look at the entire collective of Production Operations as a single entity.<br>
 <br>
-We can abstract it so that it is "one big computer", which many nodes<br>
+We can abstract it so that it is "one big computer", with many nodes, which can be configured as if it one a single computer, with containers in it, or rather different directory mount points.<br>
+<br>
+Each node in this "one big computer" has it's own internal process schedulers (as Operating Systems start processes through a scheduler, that manages interrupts and putting processes back onto CPUs when their system calls finish), and it has it's own internal RAM and storage, etc.<br>
+<br>
+But, the entire set of machines, no matter how distributed they are across the planet, or how many nodes they are, can be controlled in terms of configuration and operational management, as if they were one system with many parts.<br>
+<br>
+I think of this as a layer of Operating System about the traditional bare-metal and<br>
 <h2 id=432075b2196c9716df5bcc2d7c070b2e><a href="#432075b2196c9716df5bcc2d7c070b2e">3.3</a>: The difference between App software dev, and Operational dev.  Robust, resilient, correct, handles failures, assumes failures will occur, is designed around failures occuring, instead of App designed around all functions being available (for the most part).</h2>
 <h2 id=53ee284612b4d4678a26814fc2442067><a href="#53ee284612b4d4678a26814fc2442067">3.4</a>: Troubleshooting.  Cencentric circles.  Locality.  Intermittent vs. sustained.  The attributes of failures.</h2>
 <h3 id=222b0da1a677c8319df0b5742703e46f><a href="#222b0da1a677c8319df0b5742703e46f">3.4.1</a>: Determines monitoring.</h3>
