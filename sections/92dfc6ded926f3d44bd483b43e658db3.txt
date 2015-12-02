@@ -34,4 +34,6 @@ Let's make an overview for all of services in the Production Environment:
 
 - Manageable.  We need to be able to control our environment, deploy software, upgrade security flaws, making configuration changes, add or replace server nodes, control user access, etc.
 
-- Visible
+- Visible.  We need insight into our system through monitoring, alerts, logs, etc.  We can't manage things if we don't know what is going on.
+
+That's a pretty good start, so let's take this as our basis.
