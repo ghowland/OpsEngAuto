@@ -5,9 +5,9 @@ Total Sections: 302   Populated Sections: 56
 Current Goal: Populate Empty Sections: 246   (Done: 18.5%)
 
 
-Lines: 2281
+Lines: 2283
 
-Words: 38985
+Words: 38997
 
 
 # Chapter 1: Preface (README.txt)
@@ -2221,6 +2221,8 @@ What it means in reality is that we have a new Caching Layer.  With 100x perform
 It could be used for very fast read-only queries, or it could be used as transient storage for incoming queries, so that there is a "pretty reliable, with known long-term faults" solution in place for taking incoming data as quickly as we can.<br>
 <br>
 These types of analysis are what using axes of values, and combining them into an easy-to-communicate-and-visualize method allow.  We can change the values around, put them into forms or a spread sheet and apply algorithms to compare them quantitatively, etc.<br>
+<br>
+So, I have establish that using 10x scale differences has value, and<br>
 <p id=e4f58bc454dce4b3362881399d9ca4fd><b><a href="#e4f58bc454dce4b3362881399d9ca4fd">3.3.1.1</a>: Assigning different people different priorities is what makes up different roles.  This allows different points of view, to make the organization stronger and more thoughtful, by design.</b></p>
 <h3 id=d2c6e14bfa28136f85c785a79fcfc39d><a href="#d2c6e14bfa28136f85c785a79fcfc39d">3.3.2</a>: Creating Axioms from Axes</h3>
 <p id=9daefd3b7edab6a712ab778906fedc9f><b><a href="#9daefd3b7edab6a712ab778906fedc9f">3.3.2.1</a>: Impersonal decision making through communicated values and priorities using Axioms</b></p>
