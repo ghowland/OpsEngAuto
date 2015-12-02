@@ -25,4 +25,5 @@ The thing about "one way to do it" systems that are different than "lots of diff
 
 It is more efficient to configure, manage and have life-cycle support if we have limited the amount of ways we do things
 
-In terms of creating Application Logic, it is easy to separate components of the Application or separate applications that may work in tandem or sequence
+In terms of creating Application Logic, it is easy to separate components of the Application or separate applications that may work in tandem or sequence, or may be linked through a common Data Source, a through a messaging queue, RPC (Remote Procedure Calls), or other data transference mechanism.
+
