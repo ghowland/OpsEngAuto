@@ -1,13 +1,13 @@
 # Operations: Engineering and Automation
 
 
-Total Sections: 301   Populated Sections: 54
-Current Goal: Populate Empty Sections: 247   (Done: 17.9%)
+Total Sections: 301   Populated Sections: 55
+Current Goal: Populate Empty Sections: 246   (Done: 18.3%)
 
 
-Lines: 2197
+Lines: 2205
 
-Words: 37668
+Words: 37718
 
 
 # Chapter 1: Preface (README.txt)
@@ -2203,6 +2203,14 @@ Now, we have some Attribute Axes, does that mean we have Axioms?  Not quite, but
 <h3 id=8c334623a47643e18e33479feebf5bed><a href="#8c334623a47643e18e33479feebf5bed">3.9.1</a>: Show it like a Graph:  mwMmwnUvMMm, ups and downs in different areas.  How to test yourself, understanding your skills.  Completition of projects as proof of skill, etc.</h3>
 <h3 id=5e25a809a807106b545adb208a4fa99d><a href="#5e25a809a807106b545adb208a4fa99d">3.9.2</a>: Know that no one else can know your ladder positions, though they can attempt to estimate, and people are always trying to determine pecking order between themselves and other people, and often to change the pecking order by politics and power.</h3>
 <h2 id=291d5132845ea58ade7ea580866bf0f6><a href="#291d5132845ea58ade7ea580866bf0f6">3.10</a>: When to use statistics.  When they are applicable, when they are not.</h2>
+<br>
+<br>
+<br>
+When I started this book I made some statistical counters, which are sections, words and lines written.<br>
+<br>
+I estimated from about 280 sections off of my first 10 sections written, that I would have about 208,000 words at the end of the book.<br>
+<br>
+I have been checking my percentage complete<br>
 <h3 id=18ddda391b891bf36f9b2387380f5e67><a href="#18ddda391b891bf36f9b2387380f5e67">3.10.1</a>: Across many things: appliable</h3>
 <h3 id=967dc75f17be743f5b44485436fceff2><a href="#967dc75f17be743f5b44485436fceff2">3.10.2</a>: For a given thing: not applicable.</h3>
 <h3 id=feb605a9dd85dcc6e0d371d023dea881><a href="#feb605a9dd85dcc6e0d371d023dea881">3.10.3</a>: Give mental exercises to prove this.</h3>

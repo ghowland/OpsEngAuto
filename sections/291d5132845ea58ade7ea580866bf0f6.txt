@@ -1,3 +1,9 @@
 ### [[3.9: When to use statistics.  When they are applicable, when they are not.]]
 
 
+
+When I started this book I made some statistical counters, which are sections, words and lines written.
+
+I estimated from about 280 sections off of my first 10 sections written, that I would have about 208,000 words at the end of the book.
+
+I have been checking my percentage complete
