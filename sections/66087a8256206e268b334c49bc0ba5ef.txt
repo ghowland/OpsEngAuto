@@ -91,4 +91,4 @@ Come up with your own numbering schemes, labeling schemes, and determine the exa
 
 This is the type of Engineering discussions I would like to see more of, and the type of Engineering thought that I believe the Operational Engineering world could benefit from.
 
-We get clear sets of data, that are quantifiable, and qualifiable, and we can test ideas against them, and communicate clearly about what our priorities are, down to which axes of information, and we can change the attribute axes values or priorities and talk about how those changes would affect our designs, and evaluate how well our implementations did against those avl
+We get clear sets of data, that are quantifiable, and qualifiable, and we can test ideas against them, and communicate clearly about what our priorities are, down to which axes of information, and we can change the attribute axes values or priorities and talk about how those changes would affect our designs, and evaluate how well our implementations did against those values during and after implementation.
