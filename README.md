@@ -1,13 +1,13 @@
 # Operations: Engineering and Automation
 
 
-Total Sections: 300   Populated Sections: 53
-Current Goal: Populate Empty Sections: 247   (Done: 17.7%)
+Total Sections: 300   Populated Sections: 54
+Current Goal: Populate Empty Sections: 246   (Done: 18.0%)
 
 
-Lines: 2114
+Lines: 2124
 
-Words: 36811
+Words: 36971
 
 
 # Chapter 1: Preface (README.txt)
@@ -2091,6 +2091,16 @@ It's a big deal, and I predict whether this terminology is adopted or not, that 
 <br>
 In any case, I'm going to detail how to build this sort of thing in this book, so you have a path to getting access to this technology in your hands already.<br>
 <h2 id=92dfc6ded926f3d44bd483b43e658db3><a href="#92dfc6ded926f3d44bd483b43e658db3">3.3</a>: Axiomatic Engineering.  My method for making decisions that are not personal, even though of course they are my personal understand and information matching to the algorithm.  Present a method for discussing engineering in this manner..</h2>
+<br>
+We've been building up to this for a while, introducing different spectrums or axes for different Attributes of this or that, but do they fit into a system?  They do!  And I call this "Axiomatic Engineering", which is like working with mathematical Axioms, to create engineering solutions.<br>
+<br>
+In this way we can detail all of the Attributes that we would like, and specify the spectrums (or axes) of those attributes, and then assign values to each attribute axes that we would like.<br>
+<br>
+Do we want more Consistency or less Consistency?  Do we want more Availability or less Availability?<br>
+<br>
+Between Consistency and Availability, which is higher priority?  What sorts of trade-offs need to be made if we were to rate Consistency higher than Availability?  What about Available over Consistency?<br>
+<br>
+We can't possible implement the same solution while matching our different axes values, and priorities, because we care about different things in each circumstance, and so we will create a different solution.<br>
 <h3 id=66087a8256206e268b334c49bc0ba5ef><a href="#66087a8256206e268b334c49bc0ba5ef">3.3.1</a>: 90-9-.9-.09% rules for priorities.  Make up your own rules if this doesnt work for you.  How to present them to people, a plan on improvining presentation.  A plan on requested for improving presentation.    If you dont come to common terms, you arent really communicating, talking past each other.</h3>
 <p id=e4f58bc454dce4b3362881399d9ca4fd><b><a href="#e4f58bc454dce4b3362881399d9ca4fd">3.3.1.1</a>: Assigning different people different priorities is what makes up different roles.  This allows different points of view, to make the organization stronger and more thoughtful, by design.</b></p>
 <h3 id=5c1f069a25780e9d9aff8574624089fc><a href="#5c1f069a25780e9d9aff8574624089fc">3.3.2</a>: FOE: Fashion Oriented Engineering.  "Blogineering".  real evaluations of the environment, agreement between team on details, moving forward.  How to do it quickly.   Honesty in public relations, be skeptical of the claims of others.  No one will state they are fuckups, but that doesnt mean they arent asked to blog about their operational endeavours anyway.  What works for them may not work for you, apply Axiomatic Engineering principles, decided by you and your team.  Use everyone for source information, but nothing as universally applicable.  It's just another idea, including this one.  In-take, evaluate, match to your environment (synthesize), iterate, evaluate, repeat.</h3>

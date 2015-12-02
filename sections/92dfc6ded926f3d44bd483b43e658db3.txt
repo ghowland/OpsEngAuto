@@ -1,3 +1,12 @@
 ### [[3.8: Axiomatic Engineering.  My method for making decisions that are not personal, even though of course they are my personal understand and information matching to the algorithm.  Present a method for discussing engineering in this manner..]]
 
+We've been building up to this for a while, introducing different spectrums or axes for different Attributes of this or that, but do they fit into a system?  They do!  And I call this "Axiomatic Engineering", which is like working with mathematical Axioms, to create engineering solutions.
+
+In this way we can detail all of the Attributes that we would like, and specify the spectrums (or axes) of those attributes, and then assign values to each attribute axes that we would like.
+
+Do we want more Consistency or less Consistency?  Do we want more Availability or less Availability?
+
+Between Consistency and Availability, which is higher priority?  What sorts of trade-offs need to be made if we were to rate Consistency higher than Availability?  What about Available over Consistency?
+
+We can't possible implement the same solution while matching our different axes values, and priorities, because we care about different things in each circumstance, and so we will create a different solution.
 
