@@ -1,8 +1,6 @@
 ### [[3.2.1.1: Like 1 big computer.]]
 
-So, now that I have established some differences between Operational Logic and Application Logic, why does this matter?
-
-One reason why it matters if that it provides an insight into another way of looking at the Production Environment.
+One reason why the difference between Operational Logic and Application Logic matters if that it provides an insight into another way of looking at the Production Environment.
 
 By seeing it as a "one-way-to-do-it" system, where we mostly want things done one-way, we can actually look at the entire collective of Production Operations as a single entity.
 

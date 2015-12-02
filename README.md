@@ -5,9 +5,9 @@ Total Sections: 300   Populated Sections: 52
 Current Goal: Populate Empty Sections: 248   (Done: 17.3%)
 
 
-Lines: 2074
+Lines: 2072
 
-Words: 36100
+Words: 36089
 
 
 # Chapter 1: Preface (README.txt)
@@ -2019,9 +2019,7 @@ I will not spend much more time on Application Logic, as there is much writing a
 <p id=ae00bdb9200029912abd5c942058cf26><b><a href="#ae00bdb9200029912abd5c942058cf26">3.2.1.1</a>: Making more depencies.  Networked dependencies.  When things are broken, how will your system function?  Will it fail?  Will it make it worse?  Will it make a mess?  Will it corrupt and destroy?</b></p>
 <p id=8eb74e570e995c459a430857793ad69f><b><a href="#8eb74e570e995c459a430857793ad69f">3.2.1.2</a>: Like 1 big computer.</b></p>
 <br>
-So, now that I have established some differences between Operational Logic and Application Logic, why does this matter?<br>
-<br>
-One reason why it matters if that it provides an insight into another way of looking at the Production Environment.<br>
+One reason why the difference between Operational Logic and Application Logic matters if that it provides an insight into another way of looking at the Production Environment.<br>
 <br>
 By seeing it as a "one-way-to-do-it" system, where we mostly want things done one-way, we can actually look at the entire collective of Production Operations as a single entity.<br>
 <br>
