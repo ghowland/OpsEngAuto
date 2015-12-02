@@ -1,13 +1,13 @@
 # Operations: Engineering and Automation
 
 
-Total Sections: 300   Populated Sections: 50
-Current Goal: Populate Empty Sections: 250   (Done: 16.7%)
+Total Sections: 300   Populated Sections: 51
+Current Goal: Populate Empty Sections: 249   (Done: 17.0%)
 
 
-Lines: 1996
+Lines: 2004
 
-Words: 34798
+Words: 34913
 
 
 # Chapter 1: Preface (README.txt)
@@ -1970,6 +1970,14 @@ Another thing that Operational Logic needs to do, is to simply have more informa
 <br>
 As we get into what it takes to construct Operational Logic the brief description I have given here will be born out by many more details and along many more axes, to determine how these things are different, but for now it is sufficient that we can see that they are indeed different things.<br>
 <h3 id=1e13f344d1ae44173a1f9532c809f6b1><a href="#1e13f344d1ae44173a1f9532c809f6b1">3.2.1</a>: Many applications and services.  One Operational environment</h3>
+<br>
+Another difference between Operational Logic and Application Logic has to do with the nature of their environments.<br>
+<br>
+In a given organization there is generally only one "Production Environment".  It may span many data centers, and there may be regional data center teams to support the physical side of the operations environment, but it generally by classified and worked on as a single environment.<br>
+<br>
+There are organizations who break these up, but they are frequently either regulated businesses, or ancient, or have some other external reason for running segmented Production Environments.  In general, companies, even very large ones with the largest Production server collections, only have one Production Environment.<br>
+<br>
+This means that in an entire Product<br>
 <p id=8eb74e570e995c459a430857793ad69f><b><a href="#8eb74e570e995c459a430857793ad69f">3.2.1.1</a>: Like 1 big computer.</b></p>
 <h2 id=432075b2196c9716df5bcc2d7c070b2e><a href="#432075b2196c9716df5bcc2d7c070b2e">3.3</a>: The difference between App software dev, and Operational dev.  Robust, resilient, correct, handles failures, assumes failures will occur, is designed around failures occuring, instead of App designed around all functions being available (for the most part).</h2>
 <h2 id=53ee284612b4d4678a26814fc2442067><a href="#53ee284612b4d4678a26814fc2442067">3.4</a>: Troubleshooting.  Cencentric circles.  Locality.  Intermittent vs. sustained.  The attributes of failures.</h2>
