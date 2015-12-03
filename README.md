@@ -9,7 +9,7 @@ Current Goal: Populate Empty Sections: 243   (Done: 19.5%)
 
 Lines: 2456
 
-Words: 41882
+Words: 41896
 
 
 # Chapter 1: Preface (README.txt)
@@ -82,7 +82,7 @@ Updating the system (code) that manages this Class of Work remains manual labor,
 <br>
 Knowledge work is more stimulating, and known to be something that needs reviews and tests, whereas manual data-entry work is more prone to mistakes, because it is done so regularly that constant vigilance becomes impossible to perform accurately.&nbsp;&nbsp;Mistakes will happen.&nbsp;&nbsp;Eventually someone will make a typo or other data-entry mistake, and it will not be caught in review, and will be pushed out to production.<br>
 <br>
-With automated logic, these kinds of repetitive data changes and verifications can be done as correctly as the logic specifies, and if it is written correctly, it will be done correctly forever.<br>
+With automated logic, these kinds of repetitive data changes and verifications can be done as correctly as the logic specifies, and if it is written correctly, it will be done correctly forever.&nbsp;&nbsp;(Or, until the business goals or infrastructure environment changes, and it must be modified)<br>
 <h2 id=205420c1274a2b80366e988715cd32f8><a href="#205420c1274a2b80366e988715cd32f8">1.3</a>: Writing in the first-person.&nbsp;&nbsp;I will try to write as much as possible in the first-person, as I am speaking of my opinions, my experiences, etc.&nbsp;&nbsp;I also find that this avoids the tone that can be see as "scolding" or "commanding" in write, as in the second-person "you must do this", etc.&nbsp;&nbsp;When reading speech in the first person, I am more likely to see the information as informative, coming from the writers' perspective, rather than commanding and authoritative, in that this is an instruction or order for you.</h2>
 <br>
 You may have noticed, but I am writing quiet frequently in the first person, and will try to keep this consistent as much as possible.<br>
