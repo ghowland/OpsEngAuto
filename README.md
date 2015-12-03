@@ -1014,7 +1014,7 @@ The first thing to do is to take whatever you are thinking about, and turn it in
 <br>
 Since we, as humans, are limited in the number of things we can think about simultaneously, on a conscious level especially, we need to break things into small groups of related ideas.<br>
 <br>
-Let's create a system right now and do some reasoning with it, to use as an example.&nbsp;&nbsp;We will continue to use the web server analogy, as it is one that many people will already be familiar with, and are likely to spend a lot of time dealing with in their careers, as it has become the default medium for information exchange.&nbsp;&nbsp;You can think of this as an "Application Server" instead of web server if you like, the important thing is that it takes requests and servers back data.<br>
+Let's create a system right now and do some reasoning with it, to use as an example.&nbsp;&nbsp;We will continue to use the web server analogy, as it is one that many people will already be familiar with, and are likely to spend a lot of time dealing with in their careers, as it has become the default medium for information exchange.&nbsp;&nbsp;You can think of this as an "Application Server" instead of web server if you like, the important thing is that it takes requests and serves back data.<br>
 <br>
 In the simplest of web server systems, we have static content serving.&nbsp;&nbsp;This is when someone has pre-created text (HTML, CSS, etc) and binary (images, videos) and the web server's job is to take requests for specific static files, and to relay those files to the requester.<br>
 <br>
