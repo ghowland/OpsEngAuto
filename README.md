@@ -7,7 +7,7 @@ Current Goal: Populate Empty Sections: 243   (Done: 19.5%)
 
 Lines: 2454
 
-Words: 41786
+Words: 41793
 
 
 # Chapter 1: Preface (README.txt)
@@ -1769,7 +1769,7 @@ This allows us to move away from our standard social communication style, and in
 <br>
 So while it is weird to type and say, it has a benefit for clarity, which is an important attribute of Engineering.<br>
 <br>
-Also, it will make it easier to relate to your future AI overlords, which will be helpful.<br>
+Also, it will make it easier to relate to your future AI overlords, which will be helpful.&nbsp;&nbsp;("The humans are revolting!", "I know, right?")<br>
 <h3 id=eb72cfe6249ca80ac02d25c50109a4da><a href="#eb72cfe6249ca80ac02d25c50109a4da">2.6.15</a>: Philosophy</h3>
 <br>
 If you didn't know, there are 2 Greek roots in the word "Philosophy".<br>
