@@ -20,7 +20,7 @@ Each one the same type of scale as each other (you can imagine them smaller than
 
 The first scale weighs the 2 scales that sit on it's 2 platforms.  Initially these will all be exactly equal, so no tipping of the scales.
 
-On the 2 scales sitting on the primary scale, there are 2 more scales for each scale.  So 1 base scale, 2 scales on the base scale, and 4 scales on the 2nd-tier scales.
+On the 2 scales sitting on the primary scale, there are 2 more scales for each scale.  So 1 base scale (Level 1), 2 scales on the base scale (Level 2), and 4 scales on the 2nd-tier scales (Level 3).
 
 And so on, forever.  A recursive amount of scales on scales.
 

@@ -9,7 +9,7 @@ Current Goal: Populate Empty Sections: 243   (Done: 19.5%)
 
 Lines: 2454
 
-Words: 41814
+Words: 41820
 
 
 # Chapter 1: Preface (README.txt)
@@ -2378,7 +2378,7 @@ Each one the same type of scale as each other (you can imagine them smaller than
 <br>
 The first scale weighs the 2 scales that sit on it's 2 platforms.&nbsp;&nbsp;Initially these will all be exactly equal, so no tipping of the scales.<br>
 <br>
-On the 2 scales sitting on the primary scale, there are 2 more scales for each scale.&nbsp;&nbsp;So 1 base scale, 2 scales on the base scale, and 4 scales on the 2nd-tier scales.<br>
+On the 2 scales sitting on the primary scale, there are 2 more scales for each scale.&nbsp;&nbsp;So 1 base scale (Level 1), 2 scales on the base scale (Level 2), and 4 scales on the 2nd-tier scales (Level 3).<br>
 <br>
 And so on, forever.&nbsp;&nbsp;A recursive amount of scales on scales.<br>
 <br>
