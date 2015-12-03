@@ -10,4 +10,14 @@ However, different people do different things in an organization, and these prio
 
 Even in a Production Operations team, once it gets large enough, or if it has special needs, there may be people who do nothing related to the up-time or Availability of Production.
 
-These these people, they still need to understand and agree with, for the purpose of providing proper utility to their organization, the Production Priorities, but they will need 
+These these people, they still need to understand and agree with, for the purpose of providing proper utility to their organization, the Production Priorities, but they will need their own priorities in doing their own work.
+
+In fact, everyone should always have their own priorities, and then they should match up their priorities against the environments that they are supporting or responsible for, or interacting with.
+
+For example, someone with a title similar to "Database Administrator" would be primarily focused on how whatever changes are being made relate to databases.  They might be concerned at how the Development department might be making changes that could cause table scan differences.  Or how a schema change might not be able to be rolled back in a reasonable time, or might take too long to apply the change.
+
+Their concerns will be prioritized around their responsibilities.
+
+Different people in a department will have different priorities, and it is through this that the department gains coverage across concerns. 
+
+If everyone was only paying attention to exactly the same things, then there would be blind spots where no one was looking, and it would create a "monoculture" where only certain kinds of ideas would be suggested, and other types of ideas would be ignored or 
