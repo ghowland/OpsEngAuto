@@ -9,7 +9,7 @@ Current Goal: Populate Empty Sections: 243   (Done: 19.5%)
 
 Lines: 2458
 
-Words: 42062
+Words: 42063
 
 
 # Chapter 1: Preface (README.txt)
@@ -283,7 +283,7 @@ How do I know if what I really know is good information?<br>
 <br>
 It should be sourced from my own experiences, or it should be planned to quickly make checking the information so that it becomes part of my personal experience.<br>
 <br>
-Things I have personally experienced, I can say I have knowledge of.&nbsp;&nbsp;Things I have read or heard, or that someone (including myself) just thought up may not be related to the reality of what is going on at the moment.<br>
+Things I have personally experienced, I can say I have knowledge of.&nbsp;&nbsp;Things I have read or heard, or that someone (including myself) just thought up may not be related to the reality of what is going on at the moment (Reality).<br>
 <br>
 Actions based on this kind of information are going to yield extremely unreliable results, because the information was not grounded in the circumstances it is being applied to.<br>
 <br>
