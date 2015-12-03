@@ -14,4 +14,8 @@ This borders on a tautology, and that is OK, because it is being specific, and h
 
 Is "Availability" our Top Priority for our Production Environment?  If so, then we need to validate that a change to the Production Environment won't cause a problem with our Availability.   BAM!  Axiom!
 
+Not the most useful axiom, until one doesn't implicitly follow it, and causes an outage, and then a New Policy is created:  Validate the change against the existing Production Environment, and determine the level of Risk, and then test it against a Staging Environment to ensure it works there, before implementing in Production.
+
+This is a Policy, that creates a Procedure, that stems from the explicit axiom, with a historical background of the outage event in question as it's inspiration.
+
 
