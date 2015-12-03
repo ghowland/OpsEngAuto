@@ -9,7 +9,7 @@ Current Goal: Populate Empty Sections: 243   (Done: 19.5%)
 
 Lines: 2456
 
-Words: 41858
+Words: 41861
 
 
 # Chapter 1: Preface (README.txt)
@@ -56,7 +56,7 @@ You can see my abbrieviated job history at LinkedIn:<br>
 https://www.linkedin.com/in/ghowland<br>
 <h2 id=4135cf6df0e576145b37ff7fe29922a3><a href="#4135cf6df0e576145b37ff7fe29922a3">1.2</a>: The promise of automation is removing classes of work, while you get the desired results</h2>
 <br>
-At this point, everyone knows that automation is a necessary thing.&nbsp;&nbsp;It wasn't always this way.&nbsp;&nbsp;I spent much of my career trying to automate things and getting strong pushback from both management and peers.&nbsp;&nbsp;<br>
+At this point, everyone knows that automation is a necessary thing.&nbsp;&nbsp;It wasn't always this way.&nbsp;&nbsp;I spent much of my career trying to automate things and getting strong pushback from both management and peers (starting around 1996).&nbsp;&nbsp;<br>
 <br>
 These days people usually have some aspects of automation, and are comfortable with those, so it is only the areas that they do not yet have experience which are hard to get implemented.&nbsp;&nbsp;A major impetus in writing this book is to resolve those problems, by making the concepts better publicized and hopefully well understood.<br>
 <br>
