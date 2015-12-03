@@ -1,13 +1,13 @@
 # Operations: Engineering and Automation
 
 
-Total Sections: 302   Populated Sections: 58
-Current Goal: Populate Empty Sections: 244   (Done: 19.2%)
+Total Sections: 302   Populated Sections: 59
+Current Goal: Populate Empty Sections: 243   (Done: 19.5%)
 
 
-Lines: 2412
+Lines: 2424
 
-Words: 41131
+Words: 41286
 
 
 # Chapter 1: Preface (README.txt)
@@ -2355,6 +2355,18 @@ We can also create Non-Logical Axioms once we start building these formulas, as 
 <br>
 To go back to Philosophy, these elements are part of the Philosophy of Mathematics.  These do not need to be strictly used in an academic or strictly used in standard methods of statical analysis, but can be used in any circumstance, given that we have put sufficient thought and detail so that they can be used discretely and deterministically.<br>
 <p id=9daefd3b7edab6a712ab778906fedc9f><b><a href="#9daefd3b7edab6a712ab778906fedc9f">3.3.2.1</a>: Impersonal decision making through communicated values and priorities using Axioms</b></p>
+<br>
+One of the immediate benefits that we can apply to our everyday jobs is to use these Axioms, and their component Attribute Axes and Priorities to determine what actions we should take, and do so in a non-personal way.<br>
+<br>
+These days, when I make decisions, I don't do it because "I want to do X" or "I think X is a good idea", or "I had problems when I do Y, so I do X instead".<br>
+<br>
+I make decisions based on turning things into component pieces, evaluating them, and determining what action best aligns with all of the values.<br>
+<br>
+One course of action better fits those values than another course of action, and that is the action I advocate, and I attempt to use the internal variables for doing that analysis in my explanation of why this is my current position.<br>
+<br>
+Change any variable, and the answer may change.<br>
+<br>
+As a thought experiment to visualize<br>
 <h3 id=5c1f069a25780e9d9aff8574624089fc><a href="#5c1f069a25780e9d9aff8574624089fc">3.3.3</a>: FOE: Fashion Oriented Engineering.  "Blogineering".  real evaluations of the environment, agreement between team on details, moving forward.  How to do it quickly.   Honesty in public relations, be skeptical of the claims of others.  No one will state they are fuckups, but that doesnt mean they arent asked to blog about their operational endeavours anyway.  What works for them may not work for you, apply Axiomatic Engineering principles, decided by you and your team.  Use everyone for source information, but nothing as universally applicable.  It's just another idea, including this one.  In-take, evaluate, match to your environment (synthesize), iterate, evaluate, repeat.</h3>
 <h2 id=4410772cb808c71ea7621428281fa35c><a href="#4410772cb808c71ea7621428281fa35c">3.4</a>: Evaluating changes.</h2>
 <h3 id=26ab897a0841f617abc1175707de81dd><a href="#26ab897a0841f617abc1175707de81dd">3.4.1</a>: There is no best, except for a certain set of values and priorities, from a limited set of options.</h3>
