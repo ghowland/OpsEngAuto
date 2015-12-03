@@ -134,7 +134,7 @@ When I write code I often like to document things like "Here we are doing this" 
 <br>
 - "One": This is when I am trying to give advice to some sort of direction.&nbsp;&nbsp;I really don't think I should be telling you what to do, and I don't want to.&nbsp;&nbsp;I want to assist in enabling you to do things better, and to make your own choices, and make your own processes, and methodologies and philosophies.&nbsp;&nbsp;Telling you to do things is in opposition to these goals, so I use the word "one", such as:<br>
 <br>
-"One like's one's tea with slightly sweet biscuits."<br>
+"One's tea is best with slightly sweet biscuits."<br>
 <br>
 It is kind-of the British Royal "we", but in reverse, is the "all encompassing singular", but I write it mostly so if you don't want to accept it is is still easier to digest, because it is directly toward the aether, and not directly at "you" in a tone of command.&nbsp;&nbsp;When I hear people speaking in the British Royal tone-of-language, they use "one" in basically the same way I am using it.&nbsp;&nbsp;I feel this is a way one can make generalizations and advice, without making the statement too-pointed-at-you.<br>
 <br>
