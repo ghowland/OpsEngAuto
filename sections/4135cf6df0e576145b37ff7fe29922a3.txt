@@ -26,4 +26,4 @@ Updating the system (code) that manages this Class of Work remains manual labor,
 
 Knowledge work is more stimulating, and known to be something that needs reviews and tests, whereas manual data-entry work is more prone to mistakes, because it is done so regularly that constant vigilance becomes impossible to perform accurately.  Mistakes will happen.  Eventually someone will make a typo or other data-entry mistake, and it will not be caught in review, and will be pushed out to production.
 
-With automated logic, these kinds of repetitive data changes and verifications can be done as correctly as the logic specifies, and if it is written correctly, it will be done correctly forever.  (Or, until the business goals or infrastructure environment changes, and it must be modified)
+With automated logic, these kinds of repetitive data changes and verifications can be done as correctly as the logic specifies, and if it is written correctly, it will be done correctly forever.  (Or, until the business goals or infrastructure environment changes, and it must be modified.)
