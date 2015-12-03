@@ -9,7 +9,7 @@ Current Goal: Populate Empty Sections: 243   (Done: 19.5%)
 
 Lines: 2474
 
-Words: 42656
+Words: 42753
 
 
 # Chapter 1: Preface (README.txt)
@@ -1132,7 +1132,7 @@ If you think about "comprehensiveness" as "volume", and we think of the "space o
 <br>
 The Comprehensive model starts by utilizing the entire area of the volume, but making subdivisions, say in 4 equal pieces to start, and assigning each sub-section as an element of the Comprehensive whole.&nbsp;&nbsp;Then those sub-sections are subdivided again, and again, until we start to add in details.&nbsp;&nbsp;The entirety of the volume will never be filled, as there is an infinite amount of detail that can be applied, but the entire space of the rectangle is being "owned" by some topic, and is being further divided down as we zoom-in to more details.<br>
 <br>
-With the Aggregate model (which is a system, but not in the "Systemic Thinking" sense of the word), <br>
+With the Aggregate model (which is a system, but not in the "Systemic Thinking" sense of the word), only the bottom parts of the space are utilized.&nbsp;&nbsp;It's doing the same thing, in terms of implementation of the details, but the way the details are mapped to one-another is only through their implementation.&nbsp;&nbsp;This differs from the Comprehensive model (which uses "system" in the same way the "Systemic Thinking" does), because the relationship for all details is completely mapped into the entire volume, the entire comprehensive structure of thought or description, and the model takes into account "all of the space", even if a given particular part of the space has not yet been implemented.<br>
 <br>
 As of 2015, I do not know of any operational environments which work in a manner that is consistent with "slicing the pie" vs aggregation.&nbsp;&nbsp;I will explain this assertion as we get more into details, but this puts the use of systemic thinking in an operational environment into a purely "mythical" state at the moment.<br>
 <br>
