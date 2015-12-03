@@ -9,7 +9,7 @@ Current Goal: Populate Empty Sections: 243   (Done: 19.5%)
 
 Lines: 2454
 
-Words: 41806
+Words: 41816
 
 
 # Chapter 1: Preface (README.txt)
@@ -2370,7 +2370,7 @@ Change any variable, and the answer may change.<br>
 <br>
 As a thought experiment to visualize this, I like to imagine a scale, like the "Scales of Justice" or an old weight scale where you have 2 sides, and you put a known weight on one side, and the thing you are trying to weight on the other side.&nbsp;&nbsp;<br>
 <br>
-Since this is not a digital or a downward-vector scale (as we generally use these days), but a lever or fulcrum scale (I don't actually know the technical terms for these scales, so just making up what makes sense to me), <br>
+Since this is not a digital or a downward-vector scale (as we generally use these days), but a lever or fulcrum scale (I don't actually know the technical terms for these scales, so just making up what makes sense to me), it has two sides, and not just a single platform.<br>
 <br>
 So, we have this old-style scale.&nbsp;&nbsp;And on the weighing platforms on that scale, sit 2 more scales.<br>
 <br>
