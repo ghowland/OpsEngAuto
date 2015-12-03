@@ -7,9 +7,9 @@ Current Goal: Populate Empty Sections: 243   (Done: 19.5%)
 
 <br><br><b>NOTE: This is still an early Work-In-Progress.  It is being written linearly as a First Rough Draft without editing at the moment.  There are many typos and grammatical errors presently.</b>
 
-Lines: 2468
+Lines: 2474
 
-Words: 42490
+Words: 42656
 
 
 # Chapter 1: Preface (README.txt)
@@ -1124,9 +1124,15 @@ The problem with aggregated "systems" is that they not always in jeopardy of bec
 <br>
 Aggregated systems have a tendency towards not being internally consistent, and Comprehensive (Slicing the Pie) systems have a tendency towards being internally consistent.&nbsp;&nbsp;Just because you have a Comprehensive (Slicing the Pie) system, does not mean you cannot create an a situation where it isn't internally consistent, but as it is reviewed and worked on (under the Slicing-The-Pie mechanism), it will be revealed as to where and why an internal-consistency-error was created.&nbsp;&nbsp;In an aggregated system this is much more difficult, because things are only related to their adjacent neighbors through their connections, and did not come out of a comprehensive system from the beginning.<br>
 <br>
-In fact, I will attempt to prove later on that it is impossible for a system that is aggregated to ever become a complete and comprehensive system, whereas if you always work from the method of "slicing the pie", you will always have a comprehensive system.<br>
+In fact, I will attempt to prove later on that it is impossible for a system that is aggregated to ever become a complete and comprehensive system, whereas if you always work from the method of "slicing the pie", you will always have a comprehensive system.&nbsp;&nbsp;The reason for this is their approach.&nbsp;&nbsp;<br>
 <br>
 The work involved to do both are very similar, and in some cases exactly the same, but the manner of thinking about the elements in them are very different, and yield very different results.<br>
+<br>
+If you think about "comprehensiveness" as "volume", and we think of the "space of this volume" as a rectangle (width and height), then the Aggregation method works by building up from the bottom (height = 0, and up), and works along the width to provide more structure.&nbsp;&nbsp;<br>
+<br>
+The Comprehensive model starts by utilizing the entire area of the volume, but making subdivisions, say in 4 equal pieces to start, and assigning each sub-section as an element of the Comprehensive whole.&nbsp;&nbsp;Then those sub-sections are subdivided again, and again, until we start to add in details.&nbsp;&nbsp;The entirety of the volume will never be filled, as there is an infinite amount of detail that can be applied, but the entire space of the rectangle is being "owned" by some topic, and is being further divided down as we zoom-in to more details.<br>
+<br>
+With the Aggregate model (which is a system, but not in the "Systemic Thinking" sense of the word), <br>
 <br>
 As of 2015, I do not know of any operational environments which work in a manner that is consistent with "slicing the pie" vs aggregation.&nbsp;&nbsp;I will explain this assertion as we get more into details, but this puts the use of systemic thinking in an operational environment into a purely "mythical" state at the moment.<br>
 <br>
