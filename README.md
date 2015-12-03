@@ -5,7 +5,7 @@ Total Sections: 302   Populated Sections: 59
 Current Goal: Populate Empty Sections: 243   (Done: 19.5%)
 
 
-NOTE: This is still an early Work-In-Progress.  It is being written linearly as a First Rough Draft without editing at the moment.  There are many typos and grammatical errors presently.
+<b>NOTE: This is still an early Work-In-Progress.  It is being written linearly as a First Rough Draft without editing at the moment.  There are many typos and grammatical errors presently.</b>
 
 Lines: 2454
 
