@@ -32,5 +32,5 @@ Things are able to be moved around from being first to being second, with the sa
 
 a / b == b / a
 
-This is not a true statement, because unless "a" and "b" are both 1, then the different sides of the equation will have different values.
+This is generally not a true statement, so cannot be an axiom, because unless "a" and "b" are both 1, then the different sides of the equation will have different values.
 
