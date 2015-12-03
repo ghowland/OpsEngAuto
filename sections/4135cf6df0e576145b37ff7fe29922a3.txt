@@ -24,6 +24,6 @@ When no one has to think about the life-cycle changes or perform manual labor re
 
 Updating the system (code) that manages this Class of Work remains manual labor, as writing logic has not yet been turned into an automatable task, but the regularity of updating the automation logic should happen far less frequently, and is more knowledge-work than data-entry work.
 
-Knowledge work is more stimulating, and known to be something that needs reviews and tests, whereas manual data-entry work is more prone to mistakes, because it is done so regularly that constant vigilance becomes impossible to perform accurately.  Eventually someone will make a typo or other data-entry mistake, and it will not be caught in review, and will be pushed out to production.
+Knowledge work is more stimulating, and known to be something that needs reviews and tests, whereas manual data-entry work is more prone to mistakes, because it is done so regularly that constant vigilance becomes impossible to perform accurately.  Mistakes will happen..  Eventually someone will make a typo or other data-entry mistake, and it will not be caught in review, and will be pushed out to production.
 
 With automated logic, these kinds of repetitive data changes and verifications can be done as correctly as the logic specifies, and if it is written correctly, it will be done correctly forever.
