@@ -42,6 +42,10 @@ We will be using both kinds of Axioms.
 
 What we have been leading up to is mostly being able to build Logical Axioms, by taking our specific Attribute Axes, and the values we have assigned them, we can create Axioms.
 
-By using the Prioritization of our Attribute Axes values, we can make other Axioms (that deal with Priority).
+By using the Prioritization of our Attribute Axes values, we can make other Logical Axioms (that deal with Priority).
 
-By finding 
+We can also make Non-Logical Axioms by coming up with a system for how to discuss and compare the different things we are working on.  We can turn the Logical Axioms into variables, and create formulas out of them to determine what is a Logical course of action.
+
+We can also create Non-Logical Axioms once we start building these formulas, as we can decide how things can be treated inside the algorithm to express different ideas, and get different results.
+
+To go back to Philosophy, these elements are part of the Philosophy of Mathematics.  These do not need to be strictly used in an academic or strictly used in standard methods of statical analysis, but can be used in any circumstance, given that we have put sufficient thought and detail so that they can be used discretely and deterministically.
