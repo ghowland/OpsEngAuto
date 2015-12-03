@@ -9,7 +9,7 @@ Current Goal: Populate Empty Sections: 243   (Done: 19.5%)
 
 Lines: 2462
 
-Words: 42168
+Words: 42171
 
 
 # Chapter 1: Preface (README.txt)
@@ -1954,7 +1954,7 @@ These would be "Application" Logic in this terminology, as I'm using it.<br>
 <br>
 So, what is the difference between Application Logic and Operational Logic?<br>
 <br>
-The main difference is Resiliency, and this has a number of parts to it.&nbsp;&nbsp;For instance:<br>
+The main difference is Resiliency and Minimal Dependencies, and this has a number of parts to it.&nbsp;&nbsp;For instance:<br>
 <br>
 - Application Logic requires that the environment that it runs in be configured, or the Logic will fail, and often will fall non-gracefully.&nbsp;&nbsp;How gracefully it fails generally has to do with how "mature" the Logic is, in terms of it's life cycle.<br>
 <br>
