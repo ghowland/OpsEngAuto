@@ -5,9 +5,9 @@ Total Sections: 302   Populated Sections: 59
 Current Goal: Populate Empty Sections: 243   (Done: 19.5%)
 
 
-Lines: 2442
+Lines: 2454
 
-Words: 41544
+Words: 41786
 
 
 # Chapter 1: Preface (README.txt)
@@ -2384,7 +2384,19 @@ The primary scale is our question:  Do we do "A" or "B"?  One side of the scale 
 <br>
 Sub-dividing our question into Prioritized Attribute Axes, they map to the layers of the scales.<br>
 <br>
-Having a "Recursive Tree of Scales" in which I map all my values to, means that any time a<br>
+Having a "Recursive Tree of Scales" in which I map all my values to, means that any time a value changes, the entire tree will need to rebalance.<br>
+<br>
+If the "A" side was heavier, but something is removed and added to the "B" side, or something was merely made heavier on the "B" side, then the scale will tip.  Maybe it won't go all the way over to being "Fully-Weighted-On-B", but it will be "Less-Weighted-On-A" than it was before.<br>
+<br>
+This imaginary set of scales is always working in my mind as I rate the various axes that my organization or goals are concerned with, and as changes are proposed, I re-scale my values, and the Scale rebalances itself.<br>
+<br>
+In this way, I am not really making any decision at all, personally, I am merely an agent of this system, mapping values as I understand them into a set of Prioritized Attribute Axes, which map to goals, which map to a result (effects) that we want, and when any variable changes, the results might change.<br>
+<br>
+This doesn't mean that I don't bring my experience into the picture, because I do, but my experience is mapped into this Attribute Axes and Priorities, and can be expressed in a deterministic and explicit manner.<br>
+<br>
+They can be written into a Data Source and evaluated by Logic, and they can be graphed, statistically analyzed and revision controlled for historical reference.<br>
+<br>
+This is how I make judgement calls in a "non-personal" way, and I assert that this is a valid way to proceed with making Engineering decisions.<br>
 <h3 id=5c1f069a25780e9d9aff8574624089fc><a href="#5c1f069a25780e9d9aff8574624089fc">3.3.3</a>: FOE: Fashion Oriented Engineering.  "Blogineering".  real evaluations of the environment, agreement between team on details, moving forward.  How to do it quickly.   Honesty in public relations, be skeptical of the claims of others.  No one will state they are fuckups, but that doesnt mean they arent asked to blog about their operational endeavours anyway.  What works for them may not work for you, apply Axiomatic Engineering principles, decided by you and your team.  Use everyone for source information, but nothing as universally applicable.  It's just another idea, including this one.  In-take, evaluate, match to your environment (synthesize), iterate, evaluate, repeat.</h3>
 <h2 id=4410772cb808c71ea7621428281fa35c><a href="#4410772cb808c71ea7621428281fa35c">3.4</a>: Evaluating changes.</h2>
 <h3 id=26ab897a0841f617abc1175707de81dd><a href="#26ab897a0841f617abc1175707de81dd">3.4.1</a>: There is no best, except for a certain set of values and priorities, from a limited set of options.</h3>
