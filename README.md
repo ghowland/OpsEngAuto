@@ -9,7 +9,7 @@ Current Goal: Populate Empty Sections: 243   (Done: 19.5%)
 
 Lines: 2462
 
-Words: 42177
+Words: 42196
 
 
 # Chapter 1: Preface (README.txt)
@@ -2000,7 +2000,7 @@ This means that in an entire Product Environment is being managed in a single ma
 <br>
 Each of these "one way" methods may contain many sub-methods, such as you may actually have several monitoring packages, but collectively they make up the "one way", and generally things are put into one of them, versus any others, unless multiple coverage is desired.<br>
 <br>
-By this "one way" concept, I don't mean to be naive and really limit it to "one thing", that is why there is "one way to" and not "one thing that does".&nbsp;&nbsp;However many methods of doing something (as legacy implementations will stick around for a long time, and sometimes there is intra-team competition for creating solutions).<br>
+By this "one way" concept, I don't mean to be naive and really limit it to "one thing", that is why there is "one way to" and not "one thing that does".&nbsp;&nbsp;However many methods of doing something (as legacy implementations will stick around for a long time, and sometimes there is intra-team competition for creating solutions) may combine into "the way we do things", and is meant to keep growing (although it might in practice).<br>
 <br>
 The thing about "one way to do it" systems that are different than "lots of different environments, that do it their own way", which is the comparison I'm trying to make, is that in a one-way-to-do-it system is that you don't want to introduce competing services.<br>
 <br>
