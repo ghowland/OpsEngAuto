@@ -65,6 +65,8 @@ def Report__SectionsPopulated():
   
   print report
   
+  report += '\n\nNOTE: This is still an early Work-In-Progress.  It is being written linearly as a First Rough Draft without editing at the moment.  There are many typos and grammatical errors presently.'
+  
   return report
 
 
