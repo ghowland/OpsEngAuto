@@ -9,7 +9,7 @@ Current Goal: Populate Empty Sections: 243   (Done: 19.5%)
 
 Lines: 2464
 
-Words: 42369
+Words: 42371
 
 
 # Chapter 1: Preface (README.txt)
@@ -1002,7 +1002,7 @@ How you describe a system is merely a view into the system, and will never cover
 <br>
 System Thinking is one of the tools that I believe is the most powerful and useful in our mental toolbox, and could use a lot more of the educational spotlight.&nbsp;&nbsp;In terms of yielding positive results in learning, creating things, and in performing maintenance (in a very general sense), system thinking is one of the most useful tools.<br>
 <br>
-System Thinking has a number of prerequisites, such as a general understanding of how systems work, how to create systems, how to modify a system, how to inspect and evaluate the connections and links between system components, and a good basis in critical thinking.&nbsp;&nbsp;Having the ability to thinking deductive is critical.<br>
+System Thinking has a number of prerequisites, such as a general understanding of how systems work, how to create systems, how to modify a system, how to inspect and evaluate the connections and links between system components, and a good basis in critical thinking.&nbsp;&nbsp;Having the ability to thinking deductive and inductively is critical.<br>
 <br>
 If you have not yet read a book on critical thinking, you should to ensure you have down the basics of the topic.&nbsp;&nbsp;Deductive and inductive thinking, boolean logic, and set logic are primary tools for doing analysis, and any troubleshooting of systems will be significantly improved if you can break things down to terms and evaluate them.<br>
 <br>
