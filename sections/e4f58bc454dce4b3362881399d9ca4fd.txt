@@ -20,4 +20,12 @@ Their concerns will be prioritized around their responsibilities.
 
 Different people in a department will have different priorities, and it is through this that the department gains coverage across concerns. 
 
-If everyone was only paying attention to exactly the same things, then there would be blind spots where no one was looking, and it would create a "monoculture" where only certain kinds of ideas would be suggested, and other types of ideas would be ignored or 
+If everyone was only paying attention to exactly the same things, then there would be blind spots where no one was looking, and it would create a "monoculture" where only certain kinds of ideas would be suggested, and other types of ideas would be ignored or discarded, even though they may provide a valid solution that meets a different set of priorities.
+
+Having this internal opposition of priorities can cause friction, but this friction (if done in a healthy way) will lead to better discussions about the issues than if everyone had the same perspective, and so the discussion didn't take place at all, because there was no opposing point of view.
+
+This is the "Devil's Advocate" of Engineering, but shouldn't be used just to throw out opposing ideas, as that is also not Axiomatic Engineering, but should be applied to a set of Attribute Axes and Priorities with a different value set, that has a different perspective.
+
+This is always the case, but it not always explicitly the case, in fact it is rarely so in my experience.  Explicitness could be seen as "pedantic" or "argumentative", when it does not need to be this at all, and should be encouraged in the time allowed for discussions.
+
+The organization and department should make an effort to provide timelines that allow some period of these discussions, at least for most important changes (things that are direction changes, direction-setters, or are risky are the most important).

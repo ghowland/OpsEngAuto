@@ -5,9 +5,9 @@ Total Sections: 302   Populated Sections: 57
 Current Goal: Populate Empty Sections: 245   (Done: 18.9%)
 
 
-Lines: 2354
+Lines: 2362
 
-Words: 40156
+Words: 40354
 
 
 # Chapter 1: Preface (README.txt)
@@ -2294,7 +2294,15 @@ Their concerns will be prioritized around their responsibilities.<br>
 <br>
 Different people in a department will have different priorities, and it is through this that the department gains coverage across concerns. <br>
 <br>
-If everyone was only paying attention to exactly the same things, then there would be blind spots where no one was looking, and it would create a "monoculture" where only certain kinds of ideas would be suggested, and other types of ideas would be ignored or<br>
+If everyone was only paying attention to exactly the same things, then there would be blind spots where no one was looking, and it would create a "monoculture" where only certain kinds of ideas would be suggested, and other types of ideas would be ignored or discarded, even though they may provide a valid solution that meets a different set of priorities.<br>
+<br>
+Having this internal opposition of priorities can cause friction, but this friction (if done in a healthy way) will lead to better discussions about the issues than if everyone had the same perspective, and so the discussion didn't take place at all, because there was no opposing point of view.<br>
+<br>
+This is the "Devil's Advocate" of Engineering, but shouldn't be used just to throw out opposing ideas, as that is also not Axiomatic Engineering, but should be applied to a set of Attribute Axes and Priorities with a different value set, that has a different perspective.<br>
+<br>
+This is always the case, but it not always explicitly the case, in fact it is rarely so in my experience.  Explicitness could be seen as "pedantic" or "argumentative", when it does not need to be this at all, and should be encouraged in the time allowed for discussions.<br>
+<br>
+The organization and department should make an effort to provide timelines that allow some period of these discussions, at least for most important changes (things that are direction changes, direction-setters, or are risky are the most important).<br>
 <h3 id=d2c6e14bfa28136f85c785a79fcfc39d><a href="#d2c6e14bfa28136f85c785a79fcfc39d">3.3.2</a>: Creating Axioms from Axes</h3>
 <p id=9daefd3b7edab6a712ab778906fedc9f><b><a href="#9daefd3b7edab6a712ab778906fedc9f">3.3.2.1</a>: Impersonal decision making through communicated values and priorities using Axioms</b></p>
 <h3 id=5c1f069a25780e9d9aff8574624089fc><a href="#5c1f069a25780e9d9aff8574624089fc">3.3.3</a>: FOE: Fashion Oriented Engineering.  "Blogineering".  real evaluations of the environment, agreement between team on details, moving forward.  How to do it quickly.   Honesty in public relations, be skeptical of the claims of others.  No one will state they are fuckups, but that doesnt mean they arent asked to blog about their operational endeavours anyway.  What works for them may not work for you, apply Axiomatic Engineering principles, decided by you and your team.  Use everyone for source information, but nothing as universally applicable.  It's just another idea, including this one.  In-take, evaluate, match to your environment (synthesize), iterate, evaluate, repeat.</h3>
