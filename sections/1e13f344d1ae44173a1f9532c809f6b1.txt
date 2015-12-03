@@ -31,7 +31,7 @@ There are many ways to do it, but the point is that you can split up personnel, 
 
 This could be generalized to always be true, but again, the point Im making is the difference between one thing and another, not in their similarities. 
 
-The Operational equivalent needs to be more tightly integrated, because it is trying to support a one-way-to-do-it system, and where things are not one-way, they would often be better if they were.  
+The Operational equivalent needs to be more tightly integrated, because it is trying to support a one-way-to-do-it system, and where things are not one-way, it would often be better if they were.  
 
 So it is a Goal of an Operational system to have one-way-to-do-it, for efficiency, and it is a Goal of an Application system to have many ways to do many specific tasks, so that personnel can be split up into separate teams and given specific goals for those teams.
 
