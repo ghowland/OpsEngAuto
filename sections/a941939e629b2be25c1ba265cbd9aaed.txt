@@ -2,7 +2,7 @@
 
 Is there a difference between Logic that is written for Operations automation and Logic that is written for non-Operations?
 
-In my opinion, there is, and it is a big difference.  It doesn't need to exist, but it does exist, and they are not mildly different, but extremely different, at present.
+In my opinion, there is, and it is a big difference.  It doesn't need to exist, but it does exist, and they are not mildly different, but extremely different, at present (2015).
 
 I see this changing more in the future, as distributed programming environments not only become normal, as they are are now, but that we start to get generational levels of experience in the field.
 

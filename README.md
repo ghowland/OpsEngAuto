@@ -9,7 +9,7 @@ Current Goal: Populate Empty Sections: 243   (Done: 19.5%)
 
 Lines: 2462
 
-Words: 42167
+Words: 42168
 
 
 # Chapter 1: Preface (README.txt)
@@ -1942,7 +1942,7 @@ This is an attempt to get you to use more information than what is being provide
 <br>
 Is there a difference between Logic that is written for Operations automation and Logic that is written for non-Operations?<br>
 <br>
-In my opinion, there is, and it is a big difference.&nbsp;&nbsp;It doesn't need to exist, but it does exist, and they are not mildly different, but extremely different, at present.<br>
+In my opinion, there is, and it is a big difference.&nbsp;&nbsp;It doesn't need to exist, but it does exist, and they are not mildly different, but extremely different, at present (2015).<br>
 <br>
 I see this changing more in the future, as distributed programming environments not only become normal, as they are are now, but that we start to get generational levels of experience in the field.<br>
 <br>
