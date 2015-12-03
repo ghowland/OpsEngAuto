@@ -9,7 +9,7 @@ Current Goal: Populate Empty Sections: 243   (Done: 19.5%)
 
 Lines: 2456
 
-Words: 41857
+Words: 41858
 
 
 # Chapter 1: Preface (README.txt)
@@ -45,7 +45,7 @@ This book is more about depth than about breadth, and as such we will continue t
 
 <h2 id=8d921a98a2974ea61b905ce719a9f121><a href="#8d921a98a2974ea61b905ce719a9f121">1.1</a>: Where Ive Been, What Ive Been Doing, Why I Wrote this Book.</h2>
 <br>
-As of now (2015), I've been working in the industry for over 20 years, and have been programming for over 30 years.&nbsp;&nbsp;I've written over 1000 programs of varying size (the bulk of them being smaller, and operational in nature), but have also written and deployed PC games, end-user productivity tools, accounting software, end-user websites, as well as a lot of operations related monitoring, alerting, log parsing, configuration and automation logic required for operations work.<br>
+As of this writing (2015), I've been working in the industry for over 20 years, and have been programming for over 30 years.&nbsp;&nbsp;I've written over 1000 programs of varying size (the bulk of them being smaller, and operational in nature), but have also written and deployed PC games, end-user productivity tools, accounting software, end-user websites, as well as a lot of operations related monitoring, alerting, log parsing, configuration and automation logic required for operations work.<br>
 <br>
 Some names of places I've worked, named where you may know them, and grouped as industries where it's unlikely:<br>
 <br>
