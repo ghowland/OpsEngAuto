@@ -9,7 +9,7 @@ Current Goal: Populate Empty Sections: 243   (Done: 19.5%)
 
 Lines: 2456
 
-Words: 41966
+Words: 41967
 
 
 # Chapter 1: Preface (README.txt)
@@ -144,7 +144,7 @@ I was born and have lived almost exclusively in the United States of America, an
 <br>
 My usage of English, or maybe "American", may not be easy for you to parse if you are not familiar with the way people similar-to-myself communicate, or English may not be your first language.&nbsp;&nbsp;<br>
 <br>
-Even if you have a very similar usage of language as myself, the ideas I am expressing are complex and riddled with detail, so these mechanism of asides, and compound ideas, and such are methods to make parsing these ideas more clear.<br>
+Even if you have a very similar usage of language as I do, the ideas I am expressing are complex and riddled with detail, so these mechanism of asides, and compound ideas, and such are methods to make parsing these ideas more clear.<br>
 <br>
 I am mostly writing in a tone of conversation, and so will jump around more than if this was a text book.&nbsp;&nbsp;This is certainly not a text book, and should not be read as such.<br>
 <br>
