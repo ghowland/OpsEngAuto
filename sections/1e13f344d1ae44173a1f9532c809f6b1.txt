@@ -4,7 +4,7 @@ Another difference between Operational Logic and Application Logic has to do wit
 
 In a given organization there is generally only one "Production Environment".  It may span many data centers, and there may be regional data center teams to support the physical side of the operations environment, but it generally by classified and worked on as a single environment.
 
-There are organizations who break these up, but they are frequently either regulated businesses, or ancient, or have some other external reason for running segmented Production Environments.  In general, companies, even very large ones with the largest Production server collections, only have one Production Environment.
+There are organizations who break these up, but they are frequently either regulated businesses, or ancient, or have some other external reason for running segmented Production Environments.  In general, companies, even very large ones with the largest Production server collections, only have one Production Environment (which may contain many services and security zones).
 
 This means that in an entire Product Environment is being managed in a single manner:
 
