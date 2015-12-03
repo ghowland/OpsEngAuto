@@ -9,7 +9,7 @@ Current Goal: Populate Empty Sections: 243   (Done: 19.5%)
 
 Lines: 2462
 
-Words: 42123
+Words: 42169
 
 
 # Chapter 1: Preface (README.txt)
@@ -1927,7 +1927,7 @@ If I give the example of:<br>
 <br>
 This metaphor, or simile in this case, is most useful if the audience are not experts at building bridges.&nbsp;&nbsp;As an expert in building a bridge, they may have a very different take on what it takes to build a bridge, and what the issues are, and they may validly complain about my use of analogy between information and soil.<br>
 <br>
-This is where metaphors are weak, because they are meant to give "a comparative idea" by taking us out of the details we are currently immersed in, and putting us into a "very loose" frame in another topic which we can discuss as non-experts.<br>
+This is where metaphors are weak, because they are meant to give "a comparative idea" by taking us out of the details we are currently immersed in, and putting us into a "very loose" frame in another topic which we can discuss as non-experts.&nbsp;&nbsp;In a sense this "levels the playing field", as neither party is an expert at bridge building, so we can use that to illustrate our points of view without getting into details where we do have expertise, but our definitions and values may not be Aligned.<br>
 <br>
 Because of this, it may be useful to change metaphorical topics if someone introduces details about the metaphor which derail the intention of using a metaphor.&nbsp;&nbsp;This can be referred to as "over-extending the metaphor".<br>
 <br>
