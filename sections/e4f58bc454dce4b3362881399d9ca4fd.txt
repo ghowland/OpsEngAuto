@@ -1,3 +1,5 @@
 ### [[3.8.1.1: Assigning different people different priorities is what makes up different roles.  This allows different points of view, to make the organization stronger and more thoughtful, by design.]]
 
+Now, we have created a system for being able to prioritize our Attribute Axes that we are using to evaluate our goals.
 
+How do we use these, is it one-size-fits all?  Well, that doesn't sound like 
