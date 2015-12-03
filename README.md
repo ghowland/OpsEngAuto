@@ -5,9 +5,9 @@ Total Sections: 302   Populated Sections: 58
 Current Goal: Populate Empty Sections: 244   (Done: 19.2%)
 
 
-Lines: 2382
+Lines: 2386
 
-Words: 40662
+Words: 40736
 
 
 # Chapter 1: Preface (README.txt)
@@ -2323,7 +2323,11 @@ Not the most useful axiom, until one doesn't implicitly follow it, and causes an
 <br>
 This is a Policy, that creates a Procedure, that stems from the explicit axiom, with a historical background of the outage event in question as it's inspiration.<br>
 <br>
-So, we have "simple statements no one should be able to disagree with" as one type of Axiom.  It is important that<br>
+So, we have "simple statements no one should be able to disagree with" as one type of Axiom.  It is important that these statements are very explicit and detailed, or the generality of the statement will make it not true in some circumstances.<br>
+<br>
+For instance, I lead that axiom with "If Availability of your Production Operations is your top priority", because this set's both a Priority and a fairly specific range in the spectrum or axis of Availability that it will be "Highly Available" or more towards Available on the scale of:<br>
+<br>
+Not Available  <--->  Available<br>
 <p id=9daefd3b7edab6a712ab778906fedc9f><b><a href="#9daefd3b7edab6a712ab778906fedc9f">3.3.2.1</a>: Impersonal decision making through communicated values and priorities using Axioms</b></p>
 <h3 id=5c1f069a25780e9d9aff8574624089fc><a href="#5c1f069a25780e9d9aff8574624089fc">3.3.3</a>: FOE: Fashion Oriented Engineering.  "Blogineering".  real evaluations of the environment, agreement between team on details, moving forward.  How to do it quickly.   Honesty in public relations, be skeptical of the claims of others.  No one will state they are fuckups, but that doesnt mean they arent asked to blog about their operational endeavours anyway.  What works for them may not work for you, apply Axiomatic Engineering principles, decided by you and your team.  Use everyone for source information, but nothing as universally applicable.  It's just another idea, including this one.  In-take, evaluate, match to your environment (synthesize), iterate, evaluate, repeat.</h3>
 <h2 id=4410772cb808c71ea7621428281fa35c><a href="#4410772cb808c71ea7621428281fa35c">3.4</a>: Evaluating changes.</h2>

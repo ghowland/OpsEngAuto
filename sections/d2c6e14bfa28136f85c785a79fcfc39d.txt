@@ -18,4 +18,10 @@ Not the most useful axiom, until one doesn't implicitly follow it, and causes an
 
 This is a Policy, that creates a Procedure, that stems from the explicit axiom, with a historical background of the outage event in question as it's inspiration.
 
-So, we have "simple statements no one should be able to disagree with" as one type of Axiom.  It is important that 
+So, we have "simple statements no one should be able to disagree with" as one type of Axiom.  It is important that these statements are very explicit and detailed, or the generality of the statement will make it not true in some circumstances.
+
+For instance, I lead that axiom with "If Availability of your Production Operations is your top priority", because this set's both a Priority and a fairly specific range in the spectrum or axis of Availability that it will be "Highly Available" or more towards Available on the scale of:
+
+Not Available  <--->  Available
+
+
