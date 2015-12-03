@@ -9,7 +9,7 @@ Current Goal: Populate Empty Sections: 243   (Done: 19.5%)
 
 Lines: 2454
 
-Words: 41820
+Words: 41821
 
 
 # Chapter 1: Preface (README.txt)
@@ -2380,7 +2380,7 @@ The first scale weighs the 2 scales that sit on it's 2 platforms.&nbsp;&nbsp;Ini
 <br>
 On the 2 scales sitting on the primary scale, there are 2 more scales for each scale.&nbsp;&nbsp;So 1 base scale (Level 1), 2 scales on the base scale (Level 2), and 4 scales on the 2nd-tier scales (Level 3).<br>
 <br>
-And so on, forever.&nbsp;&nbsp;A recursive amount of scales on scales.<br>
+And so on, forever.&nbsp;&nbsp;A recursive amount of scales sitting on scales.<br>
 <br>
 The primary scale is our question:&nbsp;&nbsp;Do we do "A" or "B"?&nbsp;&nbsp;One side of the scale represents "A" and the other "B".<br>
 <br>
