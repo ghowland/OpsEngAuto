@@ -7,7 +7,7 @@ Current Goal: Populate Empty Sections: 243   (Done: 19.5%)
 
 <b>NOTE: This is still an early Work-In-Progress.  It is being written linearly as a First Rough Draft without editing at the moment.  There are many typos and grammatical errors presently.</b>
 
-Lines: 2458
+Lines: 2459
 
 Words: 42088
 
@@ -508,6 +508,7 @@ Let's look at each part of this name:<br>
 These are the components that make up this name.&nbsp;&nbsp;Do we have the right components for our current needs?&nbsp;&nbsp;What about our future needs?<br>
 <br>
 One can certainly over-engineer a problem and "prematurely optimize" it against future concerns, but not looking at what is likely to come in the future is on an extreme side of the spectrum for planning for the future.<br>
+<br>
 <br>
 Taking each section individually:<br>
 <br>
