@@ -2,4 +2,16 @@
 
 This will be one of the few places in the book that I use an external definition to help us get more clarity.  I used to always lead with dictionary definitions and quotes for things and I still am a fan of both these things, but if I am writing a book about how to think about things and evaluate them for yourself, it doesn't help to constantly source external material as an authority.
 
+So accordingly to the greatest authority that was easily accessible on my phone as I wrote this, there are generally two types of Axioms.  Logical Axioms and Non-Logical Axioms.
+
+Logical Axioms are where you say something so simple and concise, that it couldn't possible by disagreed with.
+
+This might be something like:
+
+"If Availability of your Production Operations is your top priority, you need to have a validation step before making a change to determine if the change will cause down-time or Unavailability."
+
+This borders on a tautology, and that is OK, because it is being specific, and has utility.
+
+Is "Availability" our Top Priority for our Production Environment?  If so, then we need to validate that a change to the Production Environment won't cause a problem with our Availability.   BAM!  Axiom!
+
 

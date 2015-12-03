@@ -5,9 +5,9 @@ Total Sections: 302   Populated Sections: 58
 Current Goal: Populate Empty Sections: 244   (Done: 19.2%)
 
 
-Lines: 2364
+Lines: 2376
 
-Words: 40428
+Words: 40560
 
 
 # Chapter 1: Preface (README.txt)
@@ -2306,6 +2306,18 @@ The organization and department should make an effort to provide timelines that 
 <h3 id=d2c6e14bfa28136f85c785a79fcfc39d><a href="#d2c6e14bfa28136f85c785a79fcfc39d">3.3.2</a>: Creating Axioms from Axes</h3>
 <br>
 This will be one of the few places in the book that I use an external definition to help us get more clarity.  I used to always lead with dictionary definitions and quotes for things and I still am a fan of both these things, but if I am writing a book about how to think about things and evaluate them for yourself, it doesn't help to constantly source external material as an authority.<br>
+<br>
+So accordingly to the greatest authority that was easily accessible on my phone as I wrote this, there are generally two types of Axioms.  Logical Axioms and Non-Logical Axioms.<br>
+<br>
+Logical Axioms are where you say something so simple and concise, that it couldn't possible by disagreed with.<br>
+<br>
+This might be something like:<br>
+<br>
+"If Availability of your Production Operations is your top priority, you need to have a validation step before making a change to determine if the change will cause down-time or Unavailability."<br>
+<br>
+This borders on a tautology, and that is OK, because it is being specific, and has utility.<br>
+<br>
+Is "Availability" our Top Priority for our Production Environment?  If so, then we need to validate that a change to the Production Environment won't cause a problem with our Availability.   BAM!  Axiom!<br>
 <p id=9daefd3b7edab6a712ab778906fedc9f><b><a href="#9daefd3b7edab6a712ab778906fedc9f">3.3.2.1</a>: Impersonal decision making through communicated values and priorities using Axioms</b></p>
 <h3 id=5c1f069a25780e9d9aff8574624089fc><a href="#5c1f069a25780e9d9aff8574624089fc">3.3.3</a>: FOE: Fashion Oriented Engineering.  "Blogineering".  real evaluations of the environment, agreement between team on details, moving forward.  How to do it quickly.   Honesty in public relations, be skeptical of the claims of others.  No one will state they are fuckups, but that doesnt mean they arent asked to blog about their operational endeavours anyway.  What works for them may not work for you, apply Axiomatic Engineering principles, decided by you and your team.  Use everyone for source information, but nothing as universally applicable.  It's just another idea, including this one.  In-take, evaluate, match to your environment (synthesize), iterate, evaluate, repeat.</h3>
 <h2 id=4410772cb808c71ea7621428281fa35c><a href="#4410772cb808c71ea7621428281fa35c">3.4</a>: Evaluating changes.</h2>
