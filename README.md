@@ -9,7 +9,7 @@ Current Goal: Populate Empty Sections: 243   (Done: 19.5%)
 
 Lines: 2456
 
-Words: 41978
+Words: 41977
 
 
 # Chapter 1: Preface (README.txt)
@@ -192,7 +192,7 @@ Going to the very basics and working up from there will allow us to develop a co
 
 <h2 id=ff17d94c0d49aab3e372e47b64b96ea7><a href="#ff17d94c0d49aab3e372e47b64b96ea7">2.1</a>: Focus on the virtual/physical management, specifically around internet and network services, but relatable to other industries.&nbsp;&nbsp;All use cases will be around data centers and networked services.</h2>
 <br>
-"What is reality?" is a question that is too big and general to be dealt with here, if you want a good introduction on how to understand this from an engineering perspective, you can see Bertrand Russell's book {{ book_russell_reality }}.&nbsp;&nbsp;It does a good job of describing how reality can be determined from our senses, and is a fairly short read (wrapped up in about the first 30 pages).&nbsp;&nbsp;You can also take a look on Wikipedia at the philosophical movement, Logical Positivism, which is a useful philosophy for engineers, and is one of the philosophical methodologies I use and reference in this book.<br>
+"What is reality?" is a question that is too big and general to be dealt with here, if you want a good introduction on how to understand this from an engineering perspective, you can see Bertrand Russell's book {{ book_russell_reality }}.&nbsp;&nbsp;It does a good job of describing how reality can be determined from our senses, and is a fairly short read (described in about the first 30 pages).&nbsp;&nbsp;You can also take a look on Wikipedia at the philosophical movement, Logical Positivism, which is a useful philosophy for engineers, and is one of the philosophical methodologies I use and reference in this book.<br>
 <br>
 For our purposes, it is good enough to have a summary of this, and for me to describe on which side of real vs. virtual (un-real) various elements reside in, for our purposes.&nbsp;&nbsp;Again, this is not meant to be "ultimate truth", but a tool for communication, so that we can come to common terms and understandings, and grow our engineering abilities and get better results.&nbsp;&nbsp;It is not meant for purposes outside of this endeavor.<br>
 <br>
