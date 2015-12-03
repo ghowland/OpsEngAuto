@@ -28,7 +28,7 @@ The primary scale is our question:  Do we do "A" or "B"?  One side of the scale 
 
 Sub-dividing our question into Prioritized Attribute Axes, they map to the layers of the scales.  
 
-We can also use this with our "90-9-0.9%" rule:  Level 1 is our Top Priority (90%).  Level 2 is next priority (9%).  Level 3 is our next (0.9%), and so on.
+We can also use this with our "90%-9%-0.9%" rule:  Level 1 is our Top Priority (90%).  Level 2 is next priority (9%).  Level 3 is our next (0.9%), and so on.
 
 Having a "Recursive Tree of Scales" in which I map all my values to, means that any time a value changes, the entire tree will need to rebalance.
 
