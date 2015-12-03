@@ -47,4 +47,3 @@ The Operational team, in contrast to the Non-Operational software development de
 Again, we could align these in terms of how they are similar, and we will find that they are mostly similar, but there is a difference between Operational Logic and Application Logic, and in this circumstance we want to understand the differences more than the similarities, as we are dividing the two subjects for inspection.
 
 I will not spend much more time on Application Logic, as there is much writing about that in non-Operational literature that covers the current understanding of how to do that, and that is not the focus for Operational Engineers.
-

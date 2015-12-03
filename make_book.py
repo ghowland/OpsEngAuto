@@ -65,7 +65,7 @@ def Report__SectionsPopulated():
   
   print report
   
-  report += '\n\n<br><br>b>NOTE: This is still an early Work-In-Progress.  It is being written linearly as a First Rough Draft without editing at the moment.  There are many typos and grammatical errors presently.</b>'
+  report += '\n\n<br><br><b>NOTE: This is still an early Work-In-Progress.  It is being written linearly as a First Rough Draft without editing at the moment.  There are many typos and grammatical errors presently.</b>'
   
   return report
 
