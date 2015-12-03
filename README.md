@@ -9,7 +9,7 @@ Current Goal: Populate Empty Sections: 243   (Done: 19.5%)
 
 Lines: 2456
 
-Words: 41981
+Words: 41982
 
 
 # Chapter 1: Preface (README.txt)
@@ -239,7 +239,7 @@ Symbolic things are not real, they are virtual, or logical.&nbsp;&nbsp;I will us
 Let's create a quick list of things that are real and virtual, for an immediate reference:<br>
 <br>
 - Hardware:&nbsp;&nbsp;Real.&nbsp;&nbsp;Something you buy (a device), put an OS on, and runs your software, or something similar.<br>
-- Software: Virtual.&nbsp;&nbsp;Electricity (in RAM), magnetism (on rotating disks) or electro-chemical (SSDs/NAND) stores bits of information that can be executed.<br>
+- Software: Virtual.&nbsp;&nbsp;Electricity (in RAM), magnetism (on rotating disks) or electro-chemical (on SSDs/NAND) stores bits of information that can be executed.<br>
 - Data: Virtual.&nbsp;&nbsp;Same as software, but can't necessarily be executed.<br>
 - Operating System:&nbsp;&nbsp;Virtual.&nbsp;&nbsp;Collection of software and data to make hardware perform operations.<br>
 - Book: Real.<br>
