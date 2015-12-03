@@ -9,7 +9,7 @@ Current Goal: Populate Empty Sections: 243   (Done: 19.5%)
 
 Lines: 2456
 
-Words: 41970
+Words: 41971
 
 
 # Chapter 1: Preface (README.txt)
@@ -178,7 +178,7 @@ This may seem like something that is common sense, but I have found wide spread 
 
 
 
-If we can't agree on what is real, how can we agree on our priorities?  We will value things differently, because we understand them differently at a very fundamental level, and all communication will be moving past each other, instead of directly engaging.
+If we can't agree on what is real, how can we agree on our priorities?  We will value things differently, because we understand them differently at a very fundamental level, and all communication will be moving past each other, missing, instead of directly engaging.
 
 
 
