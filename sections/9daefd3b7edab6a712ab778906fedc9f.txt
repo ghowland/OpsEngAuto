@@ -10,4 +10,22 @@ One course of action better fits those values than another course of action, and
 
 Change any variable, and the answer may change.
 
-As a thought experiment to visualize 
+As a thought experiment to visualize this, I like to imagine a scale, like the "Scales of Justice" or an old weight scale where you have 2 sides, and you put a known weight on one side, and the thing you are trying to weight on the other side.  
+
+Since this is not a digital or a downward-vector scale (as we generally use these days), but a lever or fulcrum scale (I don't actually know the technical terms for these scales, so just making up what makes sense to me), 
+
+So, we have this old-style scale.  And on the weighing platforms on that scale, sit 2 more scales.
+
+Each one the same type of scale as each other (you can imagine them smaller than the first, so they fit), so that now there are 3 scales
+
+The first scale weighs the 2 scales that sit on it's 2 platforms.  Initially these will all be exactly equal, so no tipping of the scales.
+
+On the 2 scales sitting on the primary scale, there are 2 more scales for each scales.  So 1 base scale, 2 scales on the base scale, and 4 scales on the 2nd-tier scales.
+
+And so on, forever.  A recursive amount of scales on scales.
+
+The primary scale is our question:  Do we do "A" or "B"?  One side of the scale represents "A" and the other "B".
+
+Sub-dividing our question into Prioritized Attribute Axes, they map to the layers of the scales.
+
+Having a "Recursive Tree of Scales" in which I map all my values to, means that any time a 
