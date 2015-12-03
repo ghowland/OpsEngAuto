@@ -18,4 +18,4 @@ Not the most useful axiom, until one doesn't implicitly follow it, and causes an
 
 This is a Policy, that creates a Procedure, that stems from the explicit axiom, with a historical background of the outage event in question as it's inspiration.
 
-
+So, we have "simple statements no one should be able to disagree with" as one type of Axiom.  It is important that 
