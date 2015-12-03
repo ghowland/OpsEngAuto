@@ -40,4 +40,8 @@ Regardless, the point is that Non-Logical Axioms fit into a system, and they sho
 
 We will be using both kinds of Axioms.
 
-What we have been leading up to is mostly being able to build Logical Axioms, by taking our specific Attribute Axes, and 
+What we have been leading up to is mostly being able to build Logical Axioms, by taking our specific Attribute Axes, and the values we have assigned them, we can create Axioms.
+
+By using the Prioritization of our Attribute Axes values, we can make other Axioms (that deal with Priority).
+
+By finding 

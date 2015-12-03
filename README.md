@@ -5,9 +5,9 @@ Total Sections: 302   Populated Sections: 58
 Current Goal: Populate Empty Sections: 244   (Done: 19.2%)
 
 
-Lines: 2404
+Lines: 2408
 
-Words: 40963
+Words: 40993
 
 
 # Chapter 1: Preface (README.txt)
@@ -2345,7 +2345,11 @@ Regardless, the point is that Non-Logical Axioms fit into a system, and they sho
 <br>
 We will be using both kinds of Axioms.<br>
 <br>
-What we have been leading up to is mostly being able to build Logical Axioms, by taking our specific Attribute Axes, and<br>
+What we have been leading up to is mostly being able to build Logical Axioms, by taking our specific Attribute Axes, and the values we have assigned them, we can create Axioms.<br>
+<br>
+By using the Prioritization of our Attribute Axes values, we can make other Axioms (that deal with Priority).<br>
+<br>
+By finding<br>
 <p id=9daefd3b7edab6a712ab778906fedc9f><b><a href="#9daefd3b7edab6a712ab778906fedc9f">3.3.2.1</a>: Impersonal decision making through communicated values and priorities using Axioms</b></p>
 <h3 id=5c1f069a25780e9d9aff8574624089fc><a href="#5c1f069a25780e9d9aff8574624089fc">3.3.3</a>: FOE: Fashion Oriented Engineering.  "Blogineering".  real evaluations of the environment, agreement between team on details, moving forward.  How to do it quickly.   Honesty in public relations, be skeptical of the claims of others.  No one will state they are fuckups, but that doesnt mean they arent asked to blog about their operational endeavours anyway.  What works for them may not work for you, apply Axiomatic Engineering principles, decided by you and your team.  Use everyone for source information, but nothing as universally applicable.  It's just another idea, including this one.  In-take, evaluate, match to your environment (synthesize), iterate, evaluate, repeat.</h3>
 <h2 id=4410772cb808c71ea7621428281fa35c><a href="#4410772cb808c71ea7621428281fa35c">3.4</a>: Evaluating changes.</h2>
