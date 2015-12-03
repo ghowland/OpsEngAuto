@@ -46,7 +46,7 @@ Symbolic things are not real, they are virtual, or logical.  I will use virtual 
 
 Let's create a quick list of things that are real and virtual, for an immediate reference:
 
-- Hardware:  Real.  Something you buy, a device, put an OS on, and runs your software, or something similar.
+- Hardware:  Real.  Something you buy (a device), put an OS on, and runs your software, or something similar.
 - Software: Virtual.  Electricity (RAM), magnetism (rotating disks) or electro-chemical (SSDs/NAND) stores bits of information that can be executed.
 - Data: Virtual.  Same as software, but can't necessarily be executed.
 - Operating System:  Virtual.  Collection of software and data to make hardware perform operations.
