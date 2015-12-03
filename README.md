@@ -9,7 +9,7 @@ Current Goal: Populate Empty Sections: 243   (Done: 19.5%)
 
 Lines: 2456
 
-Words: 41896
+Words: 41897
 
 
 # Chapter 1: Preface (README.txt)
@@ -91,7 +91,7 @@ I am speaking of my experiences, perspectives and opinions, and so I think this 
 <br>
 In my view, all information should be considered as coming from the source of origin, where you discovered it.<br>
 <br>
-When I say "X is Y", I think this should be read as "Geoff said X is Y", and not that X really is Y.&nbsp;&nbsp;Whether X is really Y or not should be something that you validate for yourself, in your own experience, in your specific situation.<br>
+When I say "X is Y", I think this should be read as "Geoff said X is Y", and not that X really is Y.&nbsp;&nbsp;Whether X is really Y or not should be something that you validate for yourself, in your own experience, in your specific situation (context).<br>
 <br>
 The situation I could be using as my example may not match up to the situation you are working in, and my perspective may not be a useful one.<br>
 <br>
