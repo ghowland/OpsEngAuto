@@ -9,7 +9,7 @@ Current Goal: Populate Empty Sections: 243   (Done: 19.5%)
 
 Lines: 2462
 
-Words: 42228
+Words: 42230
 
 
 # Chapter 1: Preface (README.txt)
@@ -2008,7 +2008,7 @@ It is more efficient to configure, manage and have life-cycle support if we have
 <br>
 In terms of creating Application Logic, it is easy to separate components of the Application or separate applications that may work in tandem or sequence, or may be linked through a common Data Source, through a messaging queue, RPC (Remote Procedure Call), or other data transference mechanism.<br>
 <br>
-There are many ways to do it, but the point is that you can split up personnel to work on different things, and their work can be isolated from each other, only connecting at certain points to do data exchanges. <br>
+There are many ways to do it, but the point is that you can split up personnel, or Logic, to work on different things, and their work can be isolated from each other, only connecting at certain points to do data exchanges. <br>
 <br>
 This could be generalized to always be true, but again, the point Im making is the difference between one thing and another, not in their similarities. <br>
 <br>
