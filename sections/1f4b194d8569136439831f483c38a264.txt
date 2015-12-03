@@ -42,6 +42,8 @@ The Comprehensive model starts by utilizing the entire area of the volume, but m
 
 With the Aggregate model (which is a system, but not in the "Systemic Thinking" sense of the word), only the bottom parts of the space are utilized.  It's doing the same thing, in terms of implementation of the details, but the way the details are mapped to one-another is only through their implementation.  This differs from the Comprehensive model (which uses "system" in the same way the "Systemic Thinking" does), because the relationship for all details is completely mapped into the entire volume, the entire comprehensive structure of thought or description, and the model takes into account "all of the space", even if a given particular part of the space has not yet been implemented.
 
+The Aggregate model does not have the attributes, and so gives a different result, which is not a Comprehensive result, but a "de facto" result.
+
 As of 2015, I do not know of any operational environments which work in a manner that is consistent with "slicing the pie" vs aggregation.  I will explain this assertion as we get more into details, but this puts the use of systemic thinking in an operational environment into a purely "mythical" state at the moment.
 
 Part of the purpose of this book is to provide a path for others to understand these differences, so that paths can be built to allow us to create these comprehensive and complete systems, and to manage them accordingly, to get the benefits which they provide.
