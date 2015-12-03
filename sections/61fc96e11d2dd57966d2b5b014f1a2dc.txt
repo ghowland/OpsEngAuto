@@ -6,6 +6,8 @@ System Thinking has a number of prerequisites, such as a general understanding o
 
 If you have not yet read a book on critical thinking, you should, to ensure you have down the basics of the topic.  Deductive and inductive thinking, boolean logic, and set logic are primary tools for doing analysis, and any troubleshooting of systems will be significantly improved if you can break things down to terms and evaluate them.
 
+{{ todo__recommend_critical_thinking_book }}
+
 How do you use System Thinking?
 
 The first thing to do is to take whatever you are thinking about, and turn it into a system.  Anything can be turned into a system, and this system can be as large or small as you need, and can contain any number of components.
