@@ -9,7 +9,7 @@ Current Goal: Populate Empty Sections: 243   (Done: 19.5%)
 
 Lines: 2456
 
-Words: 41871
+Words: 41875
 
 
 # Chapter 1: Preface (README.txt)
@@ -76,7 +76,7 @@ If you have a service (SaaS, such as a web-site like "DNS Made Easy") that does 
 <br>
 How would you remove this manual work?&nbsp;&nbsp;It will need to be generated from either a template of hostnames for the type of services being provided, or some other automated mechanism.<br>
 <br>
-When no one has to think about the life-cycle changes or perform manual labor relating to this area of work, then this Class of Work has been comprehensively automated, and has been removed from the realm of Manual Labor.&nbsp;&nbsp;<br>
+When no one has to think about the life-cycle changes or perform manual labor relating to this area of work, then this Class of Work has been comprehensively automated, and has been removed from the realm of Manual Labor (which requires scaling personnel).<br>
 <br>
 Updating the system that manages this Class of Work remains manual labor, as writing logic has not yet been turned into an automatable task, but the regularity of updating the automation logic should happen far less frequently, and is more knowledge-work than data-entry work.<br>
 <br>
