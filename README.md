@@ -9,7 +9,7 @@ Current Goal: Populate Empty Sections: 243   (Done: 19.5%)
 
 Lines: 2454
 
-Words: 41804
+Words: 41805
 
 
 # Chapter 1: Preface (README.txt)
@@ -2341,7 +2341,7 @@ a / b == b / a<br>
 <br>
 This is generally not a true statement, so cannot be an axiom, because unless "a" and "b" are both 1, then the different sides of the equation will have different values.<br>
 <br>
-But, this is only for the general rules of Arithmetic.&nbsp;&nbsp;We could create our own usage of the symbols "/" and "==" and define them to mean something else, then this could mean anything we want.&nbsp;&nbsp;However, because these symbols have an established use, and would generally be read with that use, this might be a bad idea.&nbsp;&nbsp;It depends on if it would make things more clear or less-clear.<br>
+But, this is only for the general rules of Arithmetic.&nbsp;&nbsp;We could create our own usage of the symbols "/" and "==" and define them to mean something else, then this could mean anything we want.&nbsp;&nbsp;However, because these symbols have an established use, and would generally be read with that use, this might be a bad idea.&nbsp;&nbsp;It depends on if it would make things more clear or less clear.<br>
 <br>
 Regardless, the point is that Non-Logical Axioms fit into a system, and they should be seen, understood and used in the context of that system.<br>
 <br>
