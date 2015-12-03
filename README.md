@@ -9,7 +9,7 @@ Current Goal: Populate Empty Sections: 243   (Done: 19.5%)
 
 Lines: 2458
 
-Words: 42052
+Words: 42062
 
 
 # Chapter 1: Preface (README.txt)
@@ -266,7 +266,7 @@ If you ever hit parts that feel wrong to you, or you reject, try to use the mech
 <br>
 This means you can take in this information, as "Geoff is saying this to me", without having to update your world-view at this moment to include what I am saying as "the truth", and in fact, I am not asking you to ever do this.&nbsp;&nbsp;This is a communication to hopefully provide you more insight, which will include my perspectives, not as instructions on how you should see the world once you have finished reading this.<br>
 <br>
-It is more important that the things I am saying to you are internally consistent (Alignment), than that you agree with my usage and summary of each of them.&nbsp;&nbsp;I am working with more information than I can convey at any given time, and am doing my best to partition this into a small stream of data that can be turned into understandable language.&nbsp;&nbsp;It's a lossy process, at best.<br>
+It is more important that the things I am saying to you are internally consistent (Alignment), than that you agree with my usage and summary of each of them.&nbsp;&nbsp;I am working with more information than I can convey at any given time, and am doing my best to partition this into a small stream of data that can be turned into understandable language.&nbsp;&nbsp;It's a lossy process, at best, but it's the best I am able to do currently.<br>
 <h2 id=75d62671847424a563ec929a890245c5><a href="#75d62671847424a563ec929a890245c5">2.2</a>: I only really know what I myself have experienced.&nbsp;&nbsp;Everything else is hear-say, and while there may be a solid model behind it, I do not actually have experience in the matter, so I cannot trust the information to make solid engineering decisions on.&nbsp;&nbsp;If I have nothing better, I may need to use this as the best course of action, and it may sound like a good thing to try, so I might experiment with it, but I have to recognize that this is an experiment, and so there is a great risk of failure.</h2>
 <br>
 What do I know?&nbsp;&nbsp;What do I really know?<br>
