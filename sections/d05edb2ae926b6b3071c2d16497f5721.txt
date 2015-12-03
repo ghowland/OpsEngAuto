@@ -16,7 +16,7 @@ Utility class machines are for running general purpose software, and typically a
 
 Relational Database class machines are typically used for relational SQL databases like MySQL, PostgreSQL, etc.  They need both a lot of RAM, a lot of cores, and they need very fast disk.
 
-Non-Relational Database class machines are usually running software like Hadoop, Cassandra, or any of the other many column-oriented databases that are better at storing logs, events, time-series and other databases.  They typically need a lot of CPU, memory, and much more storage than relational databases.  If a relational database might need 5TB of storage, a non-relational database might need 30TB, or something in this type of proportion.
+Non-Relational Database class machines are usually running software like Hadoop, Cassandra, or any of the other many column-oriented databases that are better at storing logs, events, time-series than other databases.  They typically need a lot of CPU, memory, and much more storage than relational databases.  If a relational database might need 5TB of storage, a non-relational database might need 30TB, or something in this type of proportion.
 
 Starting with these 3 base SKUs, and perhaps several sub-SKUs for more RAM, you can offer departments easy choices for how they want to deploy their software.  Providing them virtual machines for some services may also be a good match, depending on their usage patterns and criticality.
 
