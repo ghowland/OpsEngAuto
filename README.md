@@ -9,7 +9,7 @@ Current Goal: Populate Empty Sections: 243   (Done: 19.5%)
 
 Lines: 2462
 
-Words: 42196
+Words: 42229
 
 
 # Chapter 1: Preface (README.txt)
@@ -2004,7 +2004,7 @@ By this "one way" concept, I don't mean to be naive and really limit it to "one 
 <br>
 The thing about "one way to do it" systems that are different than "lots of different environments, that do it their own way", which is the comparison I'm trying to make, is that in a one-way-to-do-it system is that you don't want to introduce competing services.<br>
 <br>
-It is more efficient to configure, manage and have life-cycle support if we have limited the amount of ways we do things<br>
+It is more efficient to configure, manage and have life-cycle support if we have limited the amount of ways we do things.&nbsp;&nbsp;This is a goal for us, in a Production Environment, but we may be forced to fracture things due to time or other resource or environmental restrictions (laws, business goals, technical limitations, etc).<br>
 <br>
 In terms of creating Application Logic, it is easy to separate components of the Application or separate applications that may work in tandem or sequence, or may be linked through a common Data Source, a through a messaging queue, RPC (Remote Procedure Call), or other data transference mechanism.<br>
 <br>
