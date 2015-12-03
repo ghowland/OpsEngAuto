@@ -9,7 +9,7 @@ Current Goal: Populate Empty Sections: 243   (Done: 19.5%)
 
 Lines: 2456
 
-Words: 41861
+Words: 41865
 
 
 # Chapter 1: Preface (README.txt)
@@ -70,7 +70,7 @@ This may be a specific thing such as "update a DNS zone file" (text file).&nbsp;
 <br>
 This could be extended to "configuring DNS", in which case all zone files are automatically generated, the serial numbers are always incremented properly, the configuration files that specify the zones are generated, and all the transfers and tests to ensure that these changes are pushed out into production and contain valid entries are validated and monitored.<br>
 <br>
-This is a "Class of Work" that requires people to do currently, in some ways if it is already automated.<br>
+This is a "Class of Work" that requires people to do currently, but perhaps only in some areas if it is already partially automated.<br>
 <br>
 If you have a service (SaaS, such as a web-site like "DNS Made Easy") that does this for you, then someone still needs to enter the data.&nbsp;&nbsp;The data entry is still a manual process, and part of the Class of Work.<br>
 <br>
