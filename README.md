@@ -9,7 +9,7 @@ Current Goal: Populate Empty Sections: 243   (Done: 19.5%)
 
 Lines: 2464
 
-Words: 42292
+Words: 42323
 
 
 # Chapter 1: Preface (README.txt)
@@ -2016,7 +2016,7 @@ The Operational equivalent needs to be more tightly integrated, because it is tr
 <br>
 So it is a Goal of an Operational system to have one-way-to-do-it, for efficiency, and it is a Goal of an Application system to have many ways to do many specific tasks, so that personnel can be split up into separate teams and given specific goals for those teams.&nbsp;&nbsp;<br>
 <br>
-This may seem wrong to you if you are coming from the Application side of things as "re-use" and "modularity" and all the tenets of Software Development seem to contradict what I am saying, but I am referring to the scale and degrees of this, and am saying that in Operational Logic, these must be significantly more extreme than in Application Logic.<br>
+This may seem wrong to you if you are coming from the Application side of things as "re-use" and "modularity" and all the tenets of Software Development seem to contradict what I am saying, but I am referring to the scale and degrees of this, and am saying that in Operational Logic, these must be significantly more extreme than in Application Logic.&nbsp;&nbsp;This is because Operational Logic supports the infrastructure in which Application Logic runs, so Operational Logic must be "more basic", "more fundamental", "more fault-tolerant", "more infrastructure-aware", than it's Application Logic sibling.<br>
 <br>
 The Operational team, in contrast, has more generalized goals, that take into account the entire Production Environment, and are more concerned about:<br>
 <br>
