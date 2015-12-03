@@ -14,7 +14,7 @@ To simplify what we call a Hardware Specification, let's use the acronym for Sto
 
 Utility class machines are for running general purpose software, and typically are mostly used for web and application services in production.  There may be two SKUs if there is a "low memory" and "high memory" version.  Caching services (memcache, redis) usually use a low amount of CPU, but a high amount of RAM, and may reside alone on machines due to their critical nature.  Utility machines typically do not need much in the way of storage, and almost any small redundant disks are good enough.
 
-Relational Database class machines are typically used for relational SQL databases like MySQL, PostgreSQL, etc.  They need both a lot of RAM, a lot of cores, and they need very fast disk.
+Relational Database class machines are typically used for relational SQL databases like MySQL, PostgreSQL, etc.  They need both a lot of RAM, a lot of CPU cores, and they need very fast disk.
 
 Non-Relational Database class machines are usually running software like Hadoop, Cassandra, or any of the other many column-oriented databases that are better at storing logs, events, time-series than other databases.  They typically need a lot of CPU, memory, and much more storage than relational databases.  If a relational database might need 5TB of storage, a non-relational database might need 30TB, or something in this type of proportion.
 
