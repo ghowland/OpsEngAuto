@@ -9,7 +9,7 @@ Current Goal: Populate Empty Sections: 243   (Done: 19.5%)
 
 Lines: 2454
 
-Words: 41805
+Words: 41806
 
 
 # Chapter 1: Preface (README.txt)
@@ -2362,7 +2362,7 @@ One of the immediate benefits that we can apply to our everyday jobs is to use t
 <br>
 These days, when I make decisions, I don't do it because "I want to do X" or "I think X is a good idea", or "I had problems when I do Y, so I do X instead".<br>
 <br>
-I make decisions based on turning things into component pieces, evaluating them, and determining what action best aligns with all of the values.<br>
+I make decisions based on turning things into component pieces, evaluating them, and determining what action best aligns with all of the values (Alignment).<br>
 <br>
 One course of action better fits those values than another course of action, and that is the action I advocate, and I attempt to use the internal variables for doing that analysis in my explanation of why this is my current position.<br>
 <br>
