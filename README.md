@@ -186,7 +186,7 @@ The results will be poor, and without coming to terms with why this fundamental 
 
 
 
-Going to the very basics and working up from there will allow us to develop a common method of communicating, starting from terms, and moving to axioms, and then goals, and finally into priorities so that we can come up with plans where we agree on the components and end results.
+Going to the very basics and working up from there will allow us to develop a common method of communicating, starting from terms, and moving to goals, and then priorities, and finally into axioms so that we can come up with plans where we agree on the components and end results.
 
 <h2 id=ff17d94c0d49aab3e372e47b64b96ea7><a href="#ff17d94c0d49aab3e372e47b64b96ea7">2.1</a>: Focus on the virtual/physical management, specifically around internet and network services, but relatable to other industries.&nbsp;&nbsp;All use cases will be around data centers and networked services.</h2>
 <br>
