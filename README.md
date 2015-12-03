@@ -7,9 +7,9 @@ Current Goal: Populate Empty Sections: 243   (Done: 19.5%)
 
 <b>NOTE: This is still an early Work-In-Progress.  It is being written linearly as a First Rough Draft without editing at the moment.  There are many typos and grammatical errors presently.</b>
 
-Lines: 2454
+Lines: 2456
 
-Words: 41821
+Words: 41852
 
 
 # Chapter 1: Preface (README.txt)
@@ -2384,7 +2384,9 @@ And so on, forever.&nbsp;&nbsp;A recursive amount of scales placed on scales.<br
 <br>
 The primary scale is our question:&nbsp;&nbsp;Do we do "A" or "B"?&nbsp;&nbsp;One side of the scale represents "A" and the other "B".<br>
 <br>
-Sub-dividing our question into Prioritized Attribute Axes, they map to the layers of the scales.<br>
+Sub-dividing our question into Prioritized Attribute Axes, they map to the layers of the scales.&nbsp;&nbsp;<br>
+<br>
+We can also use this with our "90-9-0.9%" rule:&nbsp;&nbsp;Level 1 is our Top Priority (90%).&nbsp;&nbsp;Level 2 is next priority (9%).&nbsp;&nbsp;Level 3 is our next (0.9%), and so on.<br>
 <br>
 Having a "Recursive Tree of Scales" in which I map all my values to, means that any time a value changes, the entire tree will need to rebalance.<br>
 <br>
