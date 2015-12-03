@@ -109,6 +109,8 @@ One can certainly over-engineer a problem and "prematurely optimize" it against 
 
 No Planning <---> Every Detail Planned
 
+We want to be in the middle, but more towards the side of "Every Detail Planned", while minimizing the resources we spend on doing them, to maximize our efficiency.
+
 Taking each section individually:
 
 - web

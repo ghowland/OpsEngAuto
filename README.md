@@ -7,9 +7,9 @@ Current Goal: Populate Empty Sections: 243   (Done: 19.5%)
 
 <b>NOTE: This is still an early Work-In-Progress.  It is being written linearly as a First Rough Draft without editing at the moment.  There are many typos and grammatical errors presently.</b>
 
-Lines: 2460
+Lines: 2462
 
-Words: 42094
+Words: 42123
 
 
 # Chapter 1: Preface (README.txt)
@@ -510,6 +510,8 @@ These are the components that make up this name.&nbsp;&nbsp;Do we have the right
 One can certainly over-engineer a problem and "prematurely optimize" it against future concerns, but not looking at what is likely to come in the future is on an extreme side of the spectrum for planning for the future.<br>
 <br>
 No Planning <---> Every Detail Planned<br>
+<br>
+We want to be in the middle, but more towards the side of "Every Detail Planned", while minimizing the resources we spend on doing them, to maximize our efficiency.<br>
 <br>
 Taking each section individually:<br>
 <br>
