@@ -9,7 +9,7 @@ Current Goal: Populate Empty Sections: 243   (Done: 19.5%)
 
 Lines: 2456
 
-Words: 41852
+Words: 41853
 
 
 # Chapter 1: Preface (README.txt)
@@ -2392,7 +2392,7 @@ Having a "Recursive Tree of Scales" in which I map all my values to, means that 
 <br>
 If the "A" side was heavier, but something is removed and added to the "B" side, or something was merely made heavier on the "B" side, then the scale will tip.&nbsp;&nbsp;Maybe it won't go all the way over to being "Fully-Weighted-On-B", but it will be "Less-Weighted-On-A" than it was before.<br>
 <br>
-This imaginary set of scales is always working in my mind as I rate the various axes that my organization or goals are concerned with, and as changes are proposed, I re-scale my values, and the Scale rebalances itself.<br>
+This imaginary set of scales is always working in my mind as I rate the various axes that my organization or goals are concerned with, and as changes are proposed, I re-scale my values, and the Recursive Scale rebalances itself.<br>
 <br>
 In this way, I am not really making any decision at all, personally, I am merely an agent of this system, mapping values as I understand them into a set of Prioritized Attribute Axes, which map to goals, which map to a result (effects) that we want, and when any variable changes, the results might change.<br>
 <br>
