@@ -37,7 +37,7 @@ So it is a Goal of an Operational system to have one-way-to-do-it, for efficienc
 
 This may seem wrong to you if you are coming from the Application side of things as "re-use" and "modularity" and all the tenets of Software Development seem to contradict what I am saying, but I am referring to the scale and degrees of this, and am saying that in Operational Logic, these must be significantly more extreme than in Application Logic.  This is because Operational Logic supports the infrastructure in which Application Logic runs, so Operational Logic must be "more basic", "more fundamental", "more fault-tolerant", "more infrastructure-aware", than it's Application Logic sibling.
 
-The Operational team, in contrast to the Non-Operational software development team, has more generalized goals, that take into account the entire Production Environment, and are more concerned about:
+The Operational team, in contrast to the Non-Operational software development department, has more generalized goals, that take into account the entire Production Environment, and are more concerned about:
 
 - Total availability of all services in the Production Environment
 - Manageability and life-cycle maintenance efficiency
