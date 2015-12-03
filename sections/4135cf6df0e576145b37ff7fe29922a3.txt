@@ -22,7 +22,7 @@ How would you remove this manual work?  It will need to be generated from either
 
 When no one has to think about the life-cycle changes or perform manual labor relating to this area of work, then this Class of Work has been comprehensively automated, and has been removed from the realm of Manual Labor (which requires scaling personnel).
 
-Updating the system that manages this Class of Work remains manual labor, as writing logic has not yet been turned into an automatable task, but the regularity of updating the automation logic should happen far less frequently, and is more knowledge-work than data-entry work.
+Updating the system (code) that manages this Class of Work remains manual labor, as writing logic has not yet been turned into an automatable task, but the regularity of updating the automation logic should happen far less frequently, and is more knowledge-work than data-entry work.
 
 Knowledge work is more stimulating, and known to be something that needs reviews and tests, whereas manual data-entry work is more prone to mistakes, because it is done so regularly that constant vigilance becomes impossible.  Eventually someone will make a typo or other data-entry mistake, and it will not be caught in review, and will be pushed out to production.
 
