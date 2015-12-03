@@ -226,7 +226,7 @@ def OutputSection(section_dict, header_prefix=None, report=None, depth=0):
       output += OutputSection(section_child_dict, header_prefix=cur_header_prefix, depth=depth+1)
   
   
-  return output
+  return output.replace('  ', '&nbsp;&nbsp;')
 
 
 def Main():
