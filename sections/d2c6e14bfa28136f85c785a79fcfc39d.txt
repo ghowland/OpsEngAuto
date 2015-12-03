@@ -34,3 +34,10 @@ a / b == b / a
 
 This is generally not a true statement, so cannot be an axiom, because unless "a" and "b" are both 1, then the different sides of the equation will have different values.
 
+But, this is only for the general rules of Arithmetic.  We could create our own usage of the symbols "/" and "==" and define them to mean something else, then this could mean anything we want.  However, because these symbols have an established use, and would generally be read with that use, this would probably be a bad idea.
+
+Regardless, the point is that Non-Logical Axioms fit into a system, and they should be seen, understood and used in the context of that system.
+
+We will be using both kinds of Axioms.
+
+What we have been leading up to is mostly being able to build Logical Axioms, by taking our specific Attribute Axes, and 
