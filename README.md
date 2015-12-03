@@ -9,7 +9,7 @@ Current Goal: Populate Empty Sections: 243   (Done: 19.5%)
 
 Lines: 2456
 
-Words: 41950
+Words: 41967
 
 
 # Chapter 1: Preface (README.txt)
@@ -126,7 +126,7 @@ I am going to frequently switch words such as "I", "you", "we", "one" to account
 <br>
 - "I": I am talking about myself and my experience.&nbsp;&nbsp;As previously said, I will try to do this as much as possible, because this is a transference of knowledge, from me to you.<br>
 <br>
-- "You": I am talking about you, the reader.&nbsp;&nbsp;I have written this for you, even though I probably don't know you, I have you in mind when I am writing, and I am thinking "What will you be aware of at this time, from previous material?&nbsp;&nbsp;What I am trying to get you to?&nbsp;&nbsp;Is it clear to you?"<br>
+- "You": I am talking about you, the reader.&nbsp;&nbsp;I have written this for you, even though I probably don't know you, I have you in mind when I am writing, and I am thinking "What will you be aware of at this time, from previous material?&nbsp;&nbsp;What I am trying to get you to?&nbsp;&nbsp;Is it clear to you?&nbsp;&nbsp;Do I need to add any disclaimers or details?&nbsp;&nbsp;Am I spending too much time on this?"<br>
 <br>
 - "We": You and I are on a short journey together, although at different times and different places, but I am relaying information into this medium, and you are consuming this information, and that creates an informal relationship between us.&nbsp;&nbsp;I like to think in terms of "we" for this, as it is a shared journey.&nbsp;&nbsp;<br>
 <br>
