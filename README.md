@@ -9,7 +9,7 @@ Current Goal: Populate Empty Sections: 243   (Done: 19.5%)
 
 Lines: 2464
 
-Words: 42363
+Words: 42369
 
 
 # Chapter 1: Preface (README.txt)
@@ -1000,7 +1000,7 @@ You can do this on paper, in your head, you can find software that helps you cre
 How you describe a system is merely a view into the system, and will never cover every aspect of a system.&nbsp;&nbsp;Only the actual components of a system describe the system, and any attempt to review the system will only give a partial insight into it.&nbsp;&nbsp;Systems are tricky in this way, but this is also where their power comes from, because they are not limited by them either.<br>
 <h2 id=61fc96e11d2dd57966d2b5b014f1a2dc><a href="#61fc96e11d2dd57966d2b5b014f1a2dc">2.5</a>: Systemic Thinking</h2>
 <br>
-System Thinking is one of the tools that I believe is the most powerful, and could use a lot more of the educational spotlight.&nbsp;&nbsp;In terms of yielding positive results in learning, creating things, and in performing maintenance (in a very general sense), system thinking is one of the most useful tools.<br>
+System Thinking is one of the tools that I believe is the most powerful and useful in our mental toolbox, and could use a lot more of the educational spotlight.&nbsp;&nbsp;In terms of yielding positive results in learning, creating things, and in performing maintenance (in a very general sense), system thinking is one of the most useful tools.<br>
 <br>
 System Thinking has a number of prerequisites, such as a general understanding of how systems work, how to create systems, how to modify a system, how to inspect and evaluate the connections and links between system components, and a good basis in critical thinking.&nbsp;&nbsp;Having the ability to thinking deductive is critical.<br>
 <br>
