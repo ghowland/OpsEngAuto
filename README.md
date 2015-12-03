@@ -7,9 +7,9 @@ Current Goal: Populate Empty Sections: 243   (Done: 19.5%)
 
 <br><br><b>NOTE: This is still an early Work-In-Progress.  It is being written linearly as a First Rough Draft without editing at the moment.  There are many typos and grammatical errors presently.</b>
 
-Lines: 2466
+Lines: 2468
 
-Words: 42385
+Words: 42490
 
 
 # Chapter 1: Preface (README.txt)
@@ -1120,7 +1120,9 @@ As we get deeper into the topics of Engineering Axioms and automation, we will s
 <br>
 The reason for this is the difference between a comprehensive system (correctly sliced with the philosophers knife), and an aggregated system, which is built not as a complete system that is sliced into pieces of the pie that can be put together to form the whole, but is aggregated from components.<br>
 <br>
-The problem with aggregated "systems" is that they not always in jeopardy of becoming not-internally-consistent.&nbsp;&nbsp;Due to being "aggregated" into creation, where one piece is created, and then another piece, and then the two are put together, and then a change is made, and then a new piece is added, you get the result of not having a "complete pie" when it is resembled.<br>
+The problem with aggregated "systems" is that they not always in jeopardy of becoming not-internally-consistent.&nbsp;&nbsp;Due to being "aggregated" into creation, where one piece is created, and then another piece, and then the two are put together, and then a change is made, and then a new piece is added, you get the result of not having a "complete pie" when it is resembled.&nbsp;&nbsp;<br>
+<br>
+Aggregated systems have a tendency towards not being internally consistent, and Comprehensive (Slicing the Pie) systems have a tendency towards being internally consistent.&nbsp;&nbsp;Just because you have a Comprehensive (Slicing the Pie) system, does not mean you cannot create an a situation where it isn't internally consistent, but as it is reviewed and worked on (under the Slicing-The-Pie mechanism), it will be revealed as to where and why an internal-consistency-error was created.&nbsp;&nbsp;In an aggregated system this is much more difficult, because things are only related to their adjacent neighbors through their connections, and did not come out of a comprehensive system from the beginning.<br>
 <br>
 In fact, I will attempt to prove later on that it is impossible for a system that is aggregated to ever become a complete and comprehensive system, whereas if you always work from the method of "slicing the pie", you will always have a comprehensive system.<br>
 <br>
