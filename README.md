@@ -9,7 +9,7 @@ Current Goal: Populate Empty Sections: 243   (Done: 19.5%)
 
 Lines: 2456
 
-Words: 41898
+Words: 41900
 
 
 # Chapter 1: Preface (README.txt)
@@ -97,7 +97,7 @@ The situation I could be using as my example may not match up to the situation y
 <br>
 Moreover, language itself is very flexible in what is what is meant, as many things could be intended by the same word, like the very overloaded word of "operations".&nbsp;&nbsp;There is frequently a COO, Chief Operations Officer, in large or public companies, and this person's role and department has absolutely nothing to do with "production operations", "network operations", "server operations", "datacenter operations", etc.<br>
 <br>
-Because of this, it is useful to limit what you take from incoming information to what the speaker was trying to convey to you, as coming from them, from that particular situation, and their particular perspective and experiences.<br>
+Because of this, it is useful to limit what you take from incoming information to what the speaker was trying to convey to you, their intent, as coming from them, from that particular situation, and their particular perspective and experiences.<br>
 <br>
 This separation from incoming-information to "fact" makes taking in more perspectives easier, as they do not need to be turned into a one-size-fits-all world view of truth.&nbsp;&nbsp;As I learn more, I find that having such a one-size-fits-all is often a hindrance to communicating with other people, and learning new things.&nbsp;&nbsp;It is certainly a hindrance to having an open mind to new information which may conflict with your current world view.<br>
 <br>
