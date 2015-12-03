@@ -24,4 +24,13 @@ For instance, I lead that axiom with "If Availability of your Production Operati
 
 Not Available  <--->  Available
 
-Now let's look at the Non-Logical Axiom, which is defined as something that can't be proved by simply thinking about the assertion as being true or not true, but fit's into set of rules such as this 
+Now let's look at the Non-Logical Axiom, which is defined as something that can't be proved by simply thinking about the assertion as being true or not true, but fit's into set of rules such as the commutative property of Arithmetic:
+
+a + b == b + a
+
+Things are able to be moved around from being first to being second, with the same results.  This only works, for some operations, not others.   For instance:
+
+a / b == b / a
+
+This is not a true statement, because unless "a" and "b" are both 1, then the different sides of the equation will have different values.
+
