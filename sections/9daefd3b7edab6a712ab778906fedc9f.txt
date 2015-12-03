@@ -22,7 +22,7 @@ The first scale weighs the 2 scales that sit on it's 2 platforms.  Initially the
 
 On the 2 scales sitting on the primary scale, there are 2 more scales for each scale.  So 1 base scale (Level 1), 2 scales on the base scale (Level 2), and 4 scales on the 2nd-tier scales (Level 3).
 
-And so on, forever.  A recursive amount of scales sitting on scales.
+And so on, forever.  A recursive amount of scales placed on scales.
 
 The primary scale is our question:  Do we do "A" or "B"?  One side of the scale represents "A" and the other "B".
 
