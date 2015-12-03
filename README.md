@@ -1004,7 +1004,7 @@ System Thinking is one of the tools that I believe is the most powerful and usef
 <br>
 System Thinking has a number of prerequisites, such as a general understanding of how systems work, how to create systems, how to modify a system, how to inspect and evaluate the connections and links between system components, and a good basis in critical thinking.&nbsp;&nbsp;Having the ability to think deductively and inductively is a requirement.<br>
 <br>
-If you have not yet read a book on critical thinking, you should to ensure you have down the basics of the topic.&nbsp;&nbsp;Deductive and inductive thinking, boolean logic, and set logic are primary tools for doing analysis, and any troubleshooting of systems will be significantly improved if you can break things down to terms and evaluate them.<br>
+If you have not yet read a book on critical thinking, you should, to ensure you have down the basics of the topic.&nbsp;&nbsp;Deductive and inductive thinking, boolean logic, and set logic are primary tools for doing analysis, and any troubleshooting of systems will be significantly improved if you can break things down to terms and evaluate them.<br>
 <br>
 How do you use System Thinking?<br>
 <br>
