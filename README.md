@@ -9,7 +9,7 @@ Current Goal: Populate Empty Sections: 243   (Done: 19.5%)
 
 Lines: 2462
 
-Words: 42229
+Words: 42228
 
 
 # Chapter 1: Preface (README.txt)
@@ -2006,7 +2006,7 @@ The thing about "one way to do it" systems that are different than "lots of diff
 <br>
 It is more efficient to configure, manage and have life-cycle support if we have limited the amount of ways we do things.&nbsp;&nbsp;This is a goal for us, in a Production Environment, but we may be forced to fracture things due to time or other resource or environmental restrictions (laws, business goals, technical limitations, etc).<br>
 <br>
-In terms of creating Application Logic, it is easy to separate components of the Application or separate applications that may work in tandem or sequence, or may be linked through a common Data Source, a through a messaging queue, RPC (Remote Procedure Call), or other data transference mechanism.<br>
+In terms of creating Application Logic, it is easy to separate components of the Application or separate applications that may work in tandem or sequence, or may be linked through a common Data Source, through a messaging queue, RPC (Remote Procedure Call), or other data transference mechanism.<br>
 <br>
 There are many ways to do it, but the point is that you can split up personnel to work on different things, and their work can be isolated from each other, only connecting at certain points to do data exchanges. <br>
 <br>
