@@ -1,3 +1,5 @@
 ### [[3.3.2: Creating Axioms from Axes]]
 
+This will be one of the few places in the book that I use an external definition to help us get more clarity.  I used to always lead with dictionary definitions and quotes for things and I still am a fan of both these things, but if I am writing a book about how to think about things and evaluate them for yourself, it doesn't help to constantly source external material as an authority.
+
 
