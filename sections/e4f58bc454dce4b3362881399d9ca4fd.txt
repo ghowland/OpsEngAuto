@@ -2,4 +2,12 @@
 
 Now, we have created a system for being able to prioritize our Attribute Axes that we are using to evaluate our goals.
 
-How do we use these, is it one-size-fits all?  Well, that doesn't sound like 
+How do we use these, is it one-size-fits all?  Well, that doesn't sound like our working definition of Engineering, so that can't be the right answer.
+
+Now, for "How do we prioritize work in Production?", this starts to become more specific, and we can generally use this as a set of priorities.
+
+However, different people do different things in an organization, and these priorities just don't make sense for everyone.
+
+Even in a Production Operations team, once it gets large enough, or if it has special needs, there may be people who do nothing related to the up-time or Availability of Production.
+
+These these people, they still need to understand and agree with, for the purpose of providing proper utility to their organization, the Production Priorities, but they will need 
