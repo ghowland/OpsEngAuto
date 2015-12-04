@@ -1,15 +1,15 @@
 # Operations: Engineering and Automation
 
 
-Total Sections: 303   Populated Sections: 61
-Current Goal: Populate Empty Sections: 242   (Done: 20.1%)
+Total Sections: 304   Populated Sections: 62
+Current Goal: Populate Empty Sections: 242   (Done: 20.4%)
 
 
 <br><br><b>NOTE: This is still an early Work-In-Progress.  It is being written linearly as a First Rough Draft without editing at the moment.  There are many typos and grammatical errors presently.</b>
 
 Lines: 2514
 
-Words: 43544
+Words: 43545
 
 
 # Chapter 1: Preface (README.txt)
@@ -2461,7 +2461,7 @@ There is nothing wrong with these press releases, they are a good thing, as they
 <br>
 This is true, and can be useful.&nbsp;&nbsp;Simply doing what one interprets from their release doesn't even mean that they communicated it properly, or their intent was understood properly, and it is a summarization, so it is only giving a limited insight into the reality behind the post, at best.<br>
 <br>
-Just something to keep in mind.&nbsp;&nbsp;Fashion and Engineering are not compatible in making decisions, and there is a lot of Fashion going on.<br>
+Just something to keep in mind.&nbsp;&nbsp;Fashion and Engineering are not compatible in making decisions, and there is a unfortunately lot of Fashion going on.<br>
 <h2 id=4410772cb808c71ea7621428281fa35c><a href="#4410772cb808c71ea7621428281fa35c">3.4</a>: Evaluating changes.</h2>
 <h3 id=26ab897a0841f617abc1175707de81dd><a href="#26ab897a0841f617abc1175707de81dd">3.4.1</a>: There is no best, except for a certain set of values and priorities, from a limited set of options.</h3>
 <h2 id=9b893b40e08934229116cacf12764a11><a href="#9b893b40e08934229116cacf12764a11">3.5</a>: Understanding Engineering:&nbsp;&nbsp;Environment -> Resources -> Goal -> Actions -> Changed Environment -> Desired Effects?&nbsp;&nbsp;Efficient use of resources?&nbsp;&nbsp;Management of environment?</h2>
