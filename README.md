@@ -2451,7 +2451,7 @@ Why?&nbsp;&nbsp;Because they have no idea that if they actually worked at that o
 <br>
 {{ todo__get_a_couple_phrases_and_pick_a_different_one_could_be_seen_as_sexist }}<br>
 <br>
-No one is going to publicly announce that they are making a mess of their operations, but if their management want them to make press releases (blog posts), then they are going to do that, and do it in a way that makes them look good.<br>
+No one is going to publicly announce that they are making a mess of their operations, but if their management tells them to make press releases (blog posts), then they are going to do that, and do it in a way that makes them look good.<br>
 <br>
 They have an incentive to "spin" things to a positive, regardless of real Engineering going on.<br>
 <br>
