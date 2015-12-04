@@ -9,7 +9,7 @@ Current Goal: Populate Empty Sections: 242   (Done: 20.1%)
 
 Lines: 2514
 
-Words: 43503
+Words: 43544
 
 
 # Chapter 1: Preface (README.txt)
@@ -2453,7 +2453,7 @@ Why?&nbsp;&nbsp;Because they have no idea that if they actually worked at that o
 <br>
 No one is going to publicly announce that they are making a mess of their operations, but if their management tells them to make press releases (blog posts), then they are going to do that, and do it in a way that makes them look good.<br>
 <br>
-They have an incentive to "spin" things to a positive, regardless of real Engineering going on.<br>
+They have an incentive to "spin" things to a positive, regardless of real Engineering going on.&nbsp;&nbsp;They may be doing excellent Engineering, I am also not saying that they are, I am simply saying that we don't have direct experience with this information, and it should be treated as noise, that we can potentially extreme signal from.<br>
 <br>
 So Buyer Beware!&nbsp;&nbsp;Engineering blogs are press releases, and like any press release they are effectively "selling" something, such as how great a place they are to work, or how efficient and intelligent they are.<br>
 <br>
