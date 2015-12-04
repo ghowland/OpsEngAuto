@@ -2449,7 +2449,7 @@ I have been at organizations that made very well received press releases (throug
 <br>
 Why?&nbsp;&nbsp;Because they have no idea that if they actually worked at that organization, they might completely disagree with the statements.<br>
 <br>
-No one is going to tell you that they are making a mess of their operations, but if their management want them to make press releases (blog posts), then they are going to do that, and do it in a way that makes them look good.<br>
+No one is going to publicly announce that they are making a mess of their operations, but if their management want them to make press releases (blog posts), then they are going to do that, and do it in a way that makes them look good.<br>
 <br>
 They have an incentive to "spin" things to a positive, regardless of real Engineering going on.<br>
 <br>
