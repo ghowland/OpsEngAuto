@@ -7,9 +7,9 @@ Current Goal: Populate Empty Sections: 242   (Done: 20.1%)
 
 <br><br><b>NOTE: This is still an early Work-In-Progress.  It is being written linearly as a First Rough Draft without editing at the moment.  There are many typos and grammatical errors presently.</b>
 
-Lines: 2508
+Lines: 2510
 
-Words: 43299
+Words: 43363
 
 
 # Chapter 1: Preface (README.txt)
@@ -2433,7 +2433,9 @@ So I'll just that simply state that reading other organization's Public Relation
 <br>
 Taking it as a data point and deciding whether a given methodology works for your environment, with your resources, is Engineering.<br>
 <br>
-Simply doing something because an Authority has said they do it, and worked well for them, is accepting their Appeal to Authority (a logical fallacy).<br>
+Simply doing something because an Authority has said they do it, and worked well for them, is accepting their Appeal to Authority (a logical fallacy).&nbsp;&nbsp;They don't even need to appeal to anyone, people do the appealing themselves just from seeing the content and knowing that the organization has some credit or prestige.<br>
+<br>
+I have been in far too many meetings where a topic was brought up, and then someone mentioned a blog post from some currently-fashionable-company, and then people just wanted to do what the blog post said.<br>
 <br>
 I refer to this as Fashion Oriented Engineering (FOE) or "Blogineering".<br>
 <br>
