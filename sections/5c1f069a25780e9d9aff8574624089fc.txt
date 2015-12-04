@@ -1,3 +1,17 @@
 ### [[3.8.2: Fashion Based Engineering.  "Blogineering".  real evaluations of the environment, agreement between team on details, moving forward.  How to do it quickly.   Honesty in public relations, be skeptical of the claims of others.  No one will state they are fuckups, but that doesnt mean they arent asked to blog about their operational endeavours anyway.  What works for them may not work for you, apply Axiomatic Engineering principles, decided by you and your team.  Use everyone for source information, but nothing as universally applicable.  It's just another idea, including this one.  In-take, evaluate, match to your environment (synthesize), iterate, evaluate, repeat.]]
 
-this s
+This section is a little tricky for me, because it's a thin line between just gathering information and using it, and "blindly following things" or simply acting out fashions.  These are all highly subjective, and even trying to write up the history of these "Fashion Eras" in technology, most of it seems like it could be valid.
+
+This is the problem with rationalization, and anything can be rationalized.  However, Rationalization and Engineering are not the same thing.
+
+So I'll just that simply reading other organizations Public Relations releases on what they are doing and how they are doing it, is frequently information you cannot validate.
+
+Taking it as a data point and deciding whether a given methodology works for your environment, with your resources, is Engineering.
+
+Simply doing something because an Authority has said they do it, and worked well for them, is accepting their Appeal to Authority (a logical fallacy).
+
+I refer to this as Fashion Oriented Engineering (FOE) or "Blogineering".
+
+Maybe these are good techniques, and if one evaluate them in the way one evaluates anything else as an Engineering decision, then it is not Fashion, it is Engineering.
+
+However, 

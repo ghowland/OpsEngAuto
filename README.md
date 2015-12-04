@@ -1,15 +1,15 @@
 # Operations: Engineering and Automation
 
 
-Total Sections: 302   Populated Sections: 59
-Current Goal: Populate Empty Sections: 243   (Done: 19.5%)
+Total Sections: 302   Populated Sections: 60
+Current Goal: Populate Empty Sections: 242   (Done: 19.9%)
 
 
 <br><br><b>NOTE: This is still an early Work-In-Progress.  It is being written linearly as a First Rough Draft without editing at the moment.  There are many typos and grammatical errors presently.</b>
 
-Lines: 2478
+Lines: 2492
 
-Words: 42780
+Words: 42970
 
 
 # Chapter 1: Preface (README.txt)
@@ -2425,7 +2425,21 @@ They can be written into a Data Source and evaluated by Logic, and they can be g
 This is how I make judgement calls in a "non-personal" way, and I assert that this is a valid way to proceed with making Engineering decisions.<br>
 <h3 id=5c1f069a25780e9d9aff8574624089fc><a href="#5c1f069a25780e9d9aff8574624089fc">3.3.3</a>: FOE: Fashion Oriented Engineering.&nbsp;&nbsp;"Blogineering".&nbsp;&nbsp;real evaluations of the environment, agreement between team on details, moving forward.&nbsp;&nbsp;How to do it quickly.&nbsp;&nbsp; Honesty in public relations, be skeptical of the claims of others.&nbsp;&nbsp;No one will state they are fuckups, but that doesnt mean they arent asked to blog about their operational endeavours anyway.&nbsp;&nbsp;What works for them may not work for you, apply Axiomatic Engineering principles, decided by you and your team.&nbsp;&nbsp;Use everyone for source information, but nothing as universally applicable.&nbsp;&nbsp;It's just another idea, including this one.&nbsp;&nbsp;In-take, evaluate, match to your environment (synthesize), iterate, evaluate, repeat.</h3>
 <br>
-this s<br>
+This section is a little tricky for me, because it's a thin line between just gathering information and using it, and "blindly following things" or simply acting out fashions.&nbsp;&nbsp;These are all highly subjective, and even trying to write up the history of these "Fashion Eras" in technology, most of it seems like it could be valid.<br>
+<br>
+This is the problem with rationalization, and anything can be rationalized.&nbsp;&nbsp;However, Rationalization and Engineering are not the same thing.<br>
+<br>
+So I'll just that simply reading other organizations Public Relations releases on what they are doing and how they are doing it, is frequently information you cannot validate.<br>
+<br>
+Taking it as a data point and deciding whether a given methodology works for your environment, with your resources, is Engineering.<br>
+<br>
+Simply doing something because an Authority has said they do it, and worked well for them, is accepting their Appeal to Authority (a logical fallacy).<br>
+<br>
+I refer to this as Fashion Oriented Engineering (FOE) or "Blogineering".<br>
+<br>
+Maybe these are good techniques, and if one evaluate them in the way one evaluates anything else as an Engineering decision, then it is not Fashion, it is Engineering.<br>
+<br>
+However,<br>
 <h2 id=4410772cb808c71ea7621428281fa35c><a href="#4410772cb808c71ea7621428281fa35c">3.4</a>: Evaluating changes.</h2>
 <h3 id=26ab897a0841f617abc1175707de81dd><a href="#26ab897a0841f617abc1175707de81dd">3.4.1</a>: There is no best, except for a certain set of values and priorities, from a limited set of options.</h3>
 <h2 id=9b893b40e08934229116cacf12764a11><a href="#9b893b40e08934229116cacf12764a11">3.5</a>: Understanding Engineering:&nbsp;&nbsp;Environment -> Resources -> Goal -> Actions -> Changed Environment -> Desired Effects?&nbsp;&nbsp;Efficient use of resources?&nbsp;&nbsp;Management of environment?</h2>
