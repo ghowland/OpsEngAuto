@@ -10,7 +10,7 @@ Taking it as a data point and deciding whether a given methodology works for one
 
 Simply doing something because an Authority has said they do it, and worked well for them, is accepting their Appeal to Authority (a logical fallacy).  They don't even need to appeal to anyone, people do the appealing themselves just from seeing the content and knowing that the organization has some social credit or prestige.
 
-I have been in far too many meetings where a problem was brought up, and then someone mentioned a blog post from some currently-fashionable-company, and then the consensus was just wanted to do what the blog post said.  
+I have been in far too many meetings where a problem was brought up, and then someone mentioned a blog post from some currently-fashionable-company, and then the consensus was to do what the blog post said, without properly evaluating whether it was a good fit for us, or a valid technique in our context.  
 
 This is outsourcing one's infrastructure design and decisions to a party that does not know one's environment, one's resources, one's goals, and was probably not even intentionally telling anyone to follow their path.  This is giving up "agency", or ability to make one's own decisions, based on one's own data and context.
 

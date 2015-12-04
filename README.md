@@ -9,7 +9,7 @@ Current Goal: Populate Empty Sections: 242   (Done: 20.1%)
 
 Lines: 2512
 
-Words: 43414
+Words: 43430
 
 
 # Chapter 1: Preface (README.txt)
@@ -2435,7 +2435,7 @@ Taking it as a data point and deciding whether a given methodology works for one
 <br>
 Simply doing something because an Authority has said they do it, and worked well for them, is accepting their Appeal to Authority (a logical fallacy).&nbsp;&nbsp;They don't even need to appeal to anyone, people do the appealing themselves just from seeing the content and knowing that the organization has some social credit or prestige.<br>
 <br>
-I have been in far too many meetings where a problem was brought up, and then someone mentioned a blog post from some currently-fashionable-company, and then the consensus was just wanted to do what the blog post said.&nbsp;&nbsp;<br>
+I have been in far too many meetings where a problem was brought up, and then someone mentioned a blog post from some currently-fashionable-company, and then the consensus was to do what the blog post said, without properly evaluating whether it was a good fit for us, or a valid technique in our context.&nbsp;&nbsp;<br>
 <br>
 This is outsourcing one's infrastructure design and decisions to a party that does not know one's environment, one's resources, one's goals, and was probably not even intentionally telling anyone to follow their path.&nbsp;&nbsp;This is giving up "agency", or ability to make one's own decisions, based on one's own data and context.<br>
 <br>
