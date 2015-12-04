@@ -1,3 +1,15 @@
 ### [[3.8.2: Fashion Based Engineering.  "Blogineering".  real evaluations of the environment, agreement between team on details, moving forward.  How to do it quickly.   Honesty in public relations, be skeptical of the claims of others.  No one will state they are fuckups, but that doesnt mean they arent asked to blog about their operational endeavours anyway.  What works for them may not work for you, apply Axiomatic Engineering principles, decided by you and your team.  Use everyone for source information, but nothing as universally applicable.  It's just another idea, including this one.  In-take, evaluate, match to your environment (synthesize), iterate, evaluate, repeat.]]
 
+It has been observed over time that the Software Development world is heavily influenced by what is currently fashionable.
 
+I have seen many of these fashion eras come and go, and they are marked by many "memes" which are repeated over and over and direct many conversation points.  These are not bad in themselves, as I myself am advocating coming up with Axioms, and these memes are a lot like this;
+
+Let's review a couple:
+
+- 1980s: "No spaghetti code."  
+
+Procedural programming without "goto" or jumps is advocated.  It's clearly a good idea to minimize jumping around, as it doesn't provide a clear stack for tracing how you got there (since jumping avoids stack changes, or can).
+
+It wasn't bad that people realized that jumping all over code lead to problems, what was a problem was how this limited people's thought into thinking about each problem rationally.
+
+Even today, there are still cases in which jumping is required, such as whenever you program in assembler, because it uses commands like JMP, and it has been argued that in some cases error handling is improved, and 
