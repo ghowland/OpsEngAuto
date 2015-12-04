@@ -9,7 +9,7 @@ Current Goal: Populate Empty Sections: 242   (Done: 20.1%)
 
 Lines: 2512
 
-Words: 43450
+Words: 43460
 
 
 # Chapter 1: Preface (README.txt)
@@ -2445,7 +2445,7 @@ Maybe these are good techniques, and if we evaluate them in the way we evaluate 
 <br>
 However, if one simply says "I read on Famous Company X's blog, they were doing Y.&nbsp;&nbsp;Let's do Y.", this is not Engineering.&nbsp;&nbsp;This is following a fashion trend setter.<br>
 <br>
-I have been at organizations that made very well received press releases (through their engineering blog) that completely mischaracterized what was going on in their environment (from my perspective), and it was well accepted by many others in the industry.<br>
+I have been at organizations that made very well received press releases (through their engineering blog) that completely mischaracterized what was going on in their environment (from my perspective), and it was well accepted by many others in the industry, who did not have any internal insight into those processes.<br>
 <br>
 Why?&nbsp;&nbsp;Because they have no idea that if they actually worked at that organization, they might completely disagree with the statements.<br>
 <br>
