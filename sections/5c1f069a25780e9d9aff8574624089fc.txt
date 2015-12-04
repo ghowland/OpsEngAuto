@@ -16,7 +16,7 @@ This is outsourcing one's infrastructure design and decisions to a party that do
 
 I refer to this as Fashion Oriented Engineering (FOE) or "Blogineering".
 
-Maybe these are good techniques, and if one evaluate them in the way one evaluates anything else as an Engineering decision, then it is not Fashion, it is Engineering.
+Maybe these are good techniques, and if we evaluate them in the way we evaluate everything else as an Engineering decision, then it is not Fashion, it is Engineering.
 
 However, if one simply says "I read on Famous Company X's blog, they were doing Y.  Let's do Y.", this is not Engineering.  This is following a fashion trend setter.
 
