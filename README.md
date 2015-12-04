@@ -7,9 +7,9 @@ Current Goal: Populate Empty Sections: 242   (Done: 20.1%)
 
 <br><br><b>NOTE: This is still an early Work-In-Progress.  It is being written linearly as a First Rough Draft without editing at the moment.  There are many typos and grammatical errors presently.</b>
 
-Lines: 2504
+Lines: 2508
 
-Words: 43187
+Words: 43276
 
 
 # Chapter 1: Preface (README.txt)
@@ -2451,7 +2451,11 @@ They have an incentive to "spin" things to a positive, regardless of real Engine
 <br>
 So Buyer Beware!&nbsp;&nbsp;Engineering blogs are press releases, and like any press release they are effectively "selling" something, such as how great a place they are to work, or how efficient and intelligent they are.<br>
 <br>
-There is nothing wrong with these press releases, they are a good thing, as they share information, and may be very useful.&nbsp;&nbsp;However, they should be taken with a gra<br>
+There is nothing wrong with these press releases, they are a good thing, as they share information, and may be very useful.&nbsp;&nbsp;However, they should be taken as information in the sense of, "Organizating X made a press release where they said Y".<br>
+<br>
+This is true, and can be useful.&nbsp;&nbsp;Simply doing what you interpret from their release doesn't even mean that they communicated it properly, or that you understood their intent properly, and it is a summarization, so it is only giving you a limited insight into the reality behind the post, at best.<br>
+<br>
+Just something to keep in mind.&nbsp;&nbsp;Fashion and Engineering are not compatible in making decisions, and there is a lot of Fashion going on.<br>
 <h2 id=4410772cb808c71ea7621428281fa35c><a href="#4410772cb808c71ea7621428281fa35c">3.4</a>: Evaluating changes.</h2>
 <h3 id=26ab897a0841f617abc1175707de81dd><a href="#26ab897a0841f617abc1175707de81dd">3.4.1</a>: There is no best, except for a certain set of values and priorities, from a limited set of options.</h3>
 <h2 id=9b893b40e08934229116cacf12764a11><a href="#9b893b40e08934229116cacf12764a11">3.5</a>: Understanding Engineering:&nbsp;&nbsp;Environment -> Resources -> Goal -> Actions -> Changed Environment -> Desired Effects?&nbsp;&nbsp;Efficient use of resources?&nbsp;&nbsp;Management of environment?</h2>
