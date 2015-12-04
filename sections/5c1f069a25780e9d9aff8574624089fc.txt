@@ -14,3 +14,6 @@ It wasn't bad that people realized that jumping all over code lead to problems, 
 
 Even today, there are still cases in which jumping is required, such as whenever you program in assembler, because it uses commands like JMP, and it has been argued that in some cases error handling is improved, and in the Linux kernel this exists and does not cause more than social problems.
 
+- 1990s: "Everything should be an Object.  Object Orientation (ala C++) is here to stay."
+
+People went absolutely crazy turning everything into as "IS A" relationship.  Object Orientation is still a useful method of 
