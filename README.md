@@ -9,7 +9,7 @@ Current Goal: Populate Empty Sections: 243   (Done: 20.3%)
 
 Lines: 2514
 
-Words: 43561
+Words: 43567
 
 
 # Chapter 1: Preface (README.txt)
@@ -2455,7 +2455,7 @@ No one is going to publicly announce that they are making a mess of their operat
 <br>
 They have an incentive to "spin" things to a positive outcome, regardless of real Engineering going on, and the effects thereof.&nbsp;&nbsp;They may be doing excellent Engineering, I am also not saying that they are not because I don't have that contextual information, I am simply saying that we don't have direct experience with this information, and it should be treated as noise, that we can potentially extract signal from.<br>
 <br>
-So, Buyer Beware!&nbsp;&nbsp;Engineering blogs are press releases, and like any press release they are effectively "selling" something, such as how great a place they are to work, or how efficient and intelligent they are.<br>
+So, Buyer Beware!&nbsp;&nbsp;Engineering blogs are press releases, in fact all public communications are, and like any press release they are effectively "selling" something, such as how great a place they are to work, or how efficient and intelligent they are.<br>
 <br>
 There is nothing wrong with these press releases, they are a good thing, as they share information, and may be very useful.&nbsp;&nbsp;However, they should be taken as information in the sense of, "Organizating X made a press release where they said Y."<br>
 <br>
