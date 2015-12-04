@@ -9,7 +9,7 @@ Current Goal: Populate Empty Sections: 242   (Done: 20.1%)
 
 Lines: 2512
 
-Words: 43481
+Words: 43484
 
 
 # Chapter 1: Preface (README.txt)
@@ -2447,7 +2447,7 @@ However, if one simply says "I read on Famous Company X's blog, they were doing 
 <br>
 I have been at organizations that made very well received press releases (through their engineering blog) that completely mischaracterized what was going on in their environment (from my perspective), and it was well accepted by many others in the industry.<br>
 <br>
-Why?&nbsp;&nbsp;Because they have no idea that if they actually worked at that organization, they might completely disagree with the statements, because they have more information and could see the chain of events, and the effects of the recommended practice.&nbsp;&nbsp;There are many colloquial phrases such as "putting lipstick on a pig".<br>
+Why?&nbsp;&nbsp;Because they have no idea that if they actually worked at that organization, they might completely disagree with the statements, because they have more information and could see the chain of events, and the effects of the recommended practice.&nbsp;&nbsp;There are many colloquial phrases such as "putting lipstick on a pig" or "polishing .<br>
 <br>
 No one is going to publicly announce that they are making a mess of their operations, but if their management want them to make press releases (blog posts), then they are going to do that, and do it in a way that makes them look good.<br>
 <br>
