@@ -9,7 +9,7 @@ Current Goal: Populate Empty Sections: 242   (Done: 19.9%)
 
 Lines: 2490
 
-Words: 42963
+Words: 42977
 
 
 # Chapter 1: Preface (README.txt)
@@ -2437,7 +2437,7 @@ Procedural programming without "goto" or jumps is advocated.&nbsp;&nbsp;It's cle
 <br>
 It wasn't bad that people realized that jumping all over code lead to problems, what was a problem was how this limited people's thought into thinking about each problem rationally.<br>
 <br>
-Even today, there are still cases in which jumping is required, such as whenever you program in assembler, because it uses commands like JMP, and it has been argued that in some cases error handling is improved, and<br>
+Even today, there are still cases in which jumping is required, such as whenever you program in assembler, because it uses commands like JMP, and it has been argued that in some cases error handling is improved, and in the Linux kernel this exists and does not cause more than social problems.<br>
 <h2 id=4410772cb808c71ea7621428281fa35c><a href="#4410772cb808c71ea7621428281fa35c">3.4</a>: Evaluating changes.</h2>
 <h3 id=26ab897a0841f617abc1175707de81dd><a href="#26ab897a0841f617abc1175707de81dd">3.4.1</a>: There is no best, except for a certain set of values and priorities, from a limited set of options.</h3>
 <h2 id=9b893b40e08934229116cacf12764a11><a href="#9b893b40e08934229116cacf12764a11">3.5</a>: Understanding Engineering:&nbsp;&nbsp;Environment -> Resources -> Goal -> Actions -> Changed Environment -> Desired Effects?&nbsp;&nbsp;Efficient use of resources?&nbsp;&nbsp;Management of environment?</h2>

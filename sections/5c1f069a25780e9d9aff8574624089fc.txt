@@ -12,4 +12,5 @@ Procedural programming without "goto" or jumps is advocated.  It's clearly a goo
 
 It wasn't bad that people realized that jumping all over code lead to problems, what was a problem was how this limited people's thought into thinking about each problem rationally.
 
-Even today, there are still cases in which jumping is required, such as whenever you program in assembler, because it uses commands like JMP, and it has been argued that in some cases error handling is improved, and 
+Even today, there are still cases in which jumping is required, such as whenever you program in assembler, because it uses commands like JMP, and it has been argued that in some cases error handling is improved, and in the Linux kernel this exists and does not cause more than social problems.
+
