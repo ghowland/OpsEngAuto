@@ -7,9 +7,9 @@ Current Goal: Populate Empty Sections: 242   (Done: 19.9%)
 
 <br><br><b>NOTE: This is still an early Work-In-Progress.  It is being written linearly as a First Rough Draft without editing at the moment.  There are many typos and grammatical errors presently.</b>
 
-Lines: 2494
+Lines: 2498
 
-Words: 43060
+Words: 43093
 
 
 # Chapter 1: Preface (README.txt)
@@ -2442,6 +2442,10 @@ Even today, there are still cases in which jumping is required, such as whenever
 - 1990s: "Everything should be an Object.&nbsp;&nbsp;Object Orientation (ala C++) is here to stay."<br>
 <br>
 People went absolutely crazy turning everything into as "is-a" relationship.&nbsp;&nbsp;Object Orientation is still a useful method of creating containers of variables and functions (members and methods), and is useful for when you need instances of these combinations, but people have woken up that taking this too far, as Enterprise Java apps in the 2000s did, created a huge mess while providing little benefit in all their structure.<br>
+<br>
+- 2000s: "Are you using Design Patterns?"<br>
+<br>
+A gold rush started to create Design Patters, which after some time people realized were just common patterns found where a specific language was difficult at<br>
 <h2 id=4410772cb808c71ea7621428281fa35c><a href="#4410772cb808c71ea7621428281fa35c">3.4</a>: Evaluating changes.</h2>
 <h3 id=26ab897a0841f617abc1175707de81dd><a href="#26ab897a0841f617abc1175707de81dd">3.4.1</a>: There is no best, except for a certain set of values and priorities, from a limited set of options.</h3>
 <h2 id=9b893b40e08934229116cacf12764a11><a href="#9b893b40e08934229116cacf12764a11">3.5</a>: Understanding Engineering:&nbsp;&nbsp;Environment -> Resources -> Goal -> Actions -> Changed Environment -> Desired Effects?&nbsp;&nbsp;Efficient use of resources?&nbsp;&nbsp;Management of environment?</h2>
