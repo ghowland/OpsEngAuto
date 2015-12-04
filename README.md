@@ -2457,7 +2457,7 @@ So Buyer Beware!&nbsp;&nbsp;Engineering blogs are press releases, and like any p
 <br>
 There is nothing wrong with these press releases, they are a good thing, as they share information, and may be very useful.&nbsp;&nbsp;However, they should be taken as information in the sense of, "Organizating X made a press release where they said Y".<br>
 <br>
-This is true, and can be useful.&nbsp;&nbsp;Simply doing what you interpret from their release doesn't even mean that they communicated it properly, or that you understood their intent properly, and it is a summarization, so it is only giving you a limited insight into the reality behind the post, at best.<br>
+This is true, and can be useful.&nbsp;&nbsp;Simply doing what one interprets from their release doesn't even mean that they communicated it properly, or that you understood their intent properly, and it is a summarization, so it is only giving you a limited insight into the reality behind the post, at best.<br>
 <br>
 Just something to keep in mind.&nbsp;&nbsp;Fashion and Engineering are not compatible in making decisions, and there is a lot of Fashion going on.<br>
 <h2 id=4410772cb808c71ea7621428281fa35c><a href="#4410772cb808c71ea7621428281fa35c">3.4</a>: Evaluating changes.</h2>
