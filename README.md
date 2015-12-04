@@ -9,7 +9,7 @@ Current Goal: Populate Empty Sections: 242   (Done: 20.1%)
 
 Lines: 2508
 
-Words: 43297
+Words: 43299
 
 
 # Chapter 1: Preface (README.txt)
@@ -2429,7 +2429,7 @@ This section is a little tricky for me, because it's a thin line between just ga
 <br>
 This is the problem with rationalization, and anything can be rationalized.&nbsp;&nbsp;However, Rationalization and Engineering are not the same thing.<br>
 <br>
-So I'll just that simply reading other organizations Public Relations releases on what they are doing and how they are doing it, is frequently information you cannot validate.<br>
+So I'll just that simply state that reading other organizations Public Relations releases on what they are doing and how they are doing it, is frequently information you cannot validate.<br>
 <br>
 Taking it as a data point and deciding whether a given methodology works for your environment, with your resources, is Engineering.<br>
 <br>
