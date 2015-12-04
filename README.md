@@ -9,7 +9,7 @@ Current Goal: Populate Empty Sections: 242   (Done: 20.1%)
 
 Lines: 2512
 
-Words: 43411
+Words: 43412
 
 
 # Chapter 1: Preface (README.txt)
@@ -2433,7 +2433,7 @@ So I'll just that simply state that reading other organization's Public Relation
 <br>
 Taking it as a data point and deciding whether a given methodology works for one's environment, with one's resources, is Engineering.<br>
 <br>
-Simply doing something because an Authority has said they do it, and worked well for them, is accepting their Appeal to Authority (a logical fallacy).&nbsp;&nbsp;They don't even need to appeal to anyone, people do the appealing themselves just from seeing the content and knowing that the organization has some credit or prestige.<br>
+Simply doing something because an Authority has said they do it, and worked well for them, is accepting their Appeal to Authority (a logical fallacy).&nbsp;&nbsp;They don't even need to appeal to anyone, people do the appealing themselves just from seeing the content and knowing that the organization has some social credit or prestige.<br>
 <br>
 I have been in far too many meetings where a problem was brought up, and then someone mentioned a blog post from some currently-fashionable-company, and then people just wanted to do what the blog post said.&nbsp;&nbsp;<br>
 <br>
