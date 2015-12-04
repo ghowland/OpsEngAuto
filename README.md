@@ -9,7 +9,7 @@ Current Goal: Populate Empty Sections: 242   (Done: 20.1%)
 
 Lines: 2512
 
-Words: 43413
+Words: 43411
 
 
 # Chapter 1: Preface (README.txt)
@@ -2425,7 +2425,7 @@ They can be written into a Data Source and evaluated by Logic, and they can be g
 This is how I make judgement calls in a "non-personal" way, and I assert that this is a valid way to proceed with making Engineering decisions.<br>
 <h3 id=5c1f069a25780e9d9aff8574624089fc><a href="#5c1f069a25780e9d9aff8574624089fc">3.3.3</a>: Fashion Oriented Engineering</h3>
 <br>
-This section is a little tricky for me, because it's a thin line between just gathering information and using it, and "blindly following things" or simply acting out fashions.&nbsp;&nbsp;These are all highly subjective, and even trying to write up the history of these "Fashion Eras" in technology, most of it reads like it could be valid.&nbsp;&nbsp;The problem is to the extent any information is valid, for your context, not that the information contains potentially valid information.<br>
+This section is a little tricky for me, because it's a thin line between just gathering information and using it, and "blindly following things" or simply acting out fashions.&nbsp;&nbsp;These are all highly subjective, and trying to write up the history of these "Fashion Eras" in technology mostly reads like it is a valid progression.&nbsp;&nbsp;The problem is to the extent any information is valid, for your context, not that the information contains potentially valid information.<br>
 <br>
 This is the problem with rationalization, and anything can be rationalized.&nbsp;&nbsp;However, Rationalization and Engineering are not the same thing.<br>
 <br>
