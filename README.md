@@ -9,7 +9,7 @@ Current Goal: Populate Empty Sections: 242   (Done: 20.1%)
 
 Lines: 2512
 
-Words: 43430
+Words: 43450
 
 
 # Chapter 1: Preface (README.txt)
@@ -2437,7 +2437,7 @@ Simply doing something because an Authority has said they do it, and worked well
 <br>
 I have been in far too many meetings where a problem was brought up, and then someone mentioned a blog post from some currently-fashionable-company, and then the consensus was to do what the blog post said, without properly evaluating whether it was a good fit for us, or a valid technique in our context.&nbsp;&nbsp;<br>
 <br>
-This is outsourcing one's infrastructure design and decisions to a party that does not know one's environment, one's resources, one's goals, and was probably not even intentionally telling anyone to follow their path.&nbsp;&nbsp;This is giving up "agency", or ability to make one's own decisions, based on one's own data and context.<br>
+This is outsourcing one's infrastructure design and decisions to a party that does not know one's environment, one's resources, one's goals, and was probably not even intentionally telling anyone to follow their path.&nbsp;&nbsp;This is giving up "agency", or ability to make one's own decisions, based on one's own data and context.&nbsp;&nbsp;In fact, discussion against this course-of-action was sometimes seen challenging the legitimacy of the organization who made the press release.<br>
 <br>
 I refer to this as Fashion Oriented Engineering (FOE) or "Blogineering".<br>
 <br>
