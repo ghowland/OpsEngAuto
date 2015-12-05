@@ -7,9 +7,9 @@ Current Goal: Populate Empty Sections: 246   (Done: 20.4%)
 
 <br><br><b>NOTE: This is still an early Work-In-Progress.  It is being written linearly as a First Rough Draft without editing at the moment.  There are many typos and grammatical errors presently.</b>
 
-Lines: 2582
+Lines: 2584
 
-Words: 44818
+Words: 44841
 
 
 # Chapter 1: Preface (README.txt)
@@ -2533,6 +2533,8 @@ This doesn't meant that everything should be parallelized.&nbsp;&nbsp;Firstly, n
 Writing things to work initially in sequence is a faster way to to develop, as the complexity of parallel process communication, locking and other issues can be ignored, and sequential processing is a default for many implementation languages (and all the primary Operational related languages, from any environment I've worked in).<br>
 <br>
 - Finally, I state that even splitting the job across multiple servers, which may allow the sequential processing to have acceptable performance again, is not acceptable, because we are just planning to have this problem again when those N servers have to do "100" servers each, and we are back in the same spot.&nbsp;&nbsp;This method of "throwing hardware at the problem" is frequently not the right move, although there are some special cases where it is the right move, which we will get into later.<br>
+<br>
+The act of taking the same method you use now, and making a change to it that allows it to continue working, but<br>
 <h3 id=72e6204dcea6d95203e9c1a3e0b946d8><a href="#72e6204dcea6d95203e9c1a3e0b946d8">3.4.1</a>: Alignment</h3>
 <h3 id=26ab897a0841f617abc1175707de81dd><a href="#26ab897a0841f617abc1175707de81dd">3.4.2</a>: There is no best, except for a certain set of values and priorities, from a limited set of options.</h3>
 <h2 id=9b893b40e08934229116cacf12764a11><a href="#9b893b40e08934229116cacf12764a11">3.5</a>: Understanding Engineering:&nbsp;&nbsp;Environment -> Resources -> Goal -> Actions -> Changed Environment -> Desired Effects?&nbsp;&nbsp;Efficient use of resources?&nbsp;&nbsp;Management of environment?</h2>

@@ -68,4 +68,4 @@ Writing things to work initially in sequence is a faster way to to develop, as t
 
 - Finally, I state that even splitting the job across multiple servers, which may allow the sequential processing to have acceptable performance again, is not acceptable, because we are just planning to have this problem again when those N servers have to do "100" servers each, and we are back in the same spot.  This method of "throwing hardware at the problem" is frequently not the right move, although there are some special cases where it is the right move, which we will get into later.
 
-
+The act of taking the same method you use now, and making a change to it that allows it to continue working, but 
