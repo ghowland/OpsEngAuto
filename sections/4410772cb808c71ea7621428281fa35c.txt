@@ -10,5 +10,5 @@ Our goal is to improve our performance in doing the deployment.  Currently, we a
 
 The exact mechanisms for copying and deployment are not going to be the focus of this example, and so we won't be evaluating their performance or impacts, because it will complicate the example.  In the real world, of course, these factors are also important, and would have be evaluated independently, and in conjuncture with the rest of the changes.  
 
-It is important that all details are "Aligned" in that they work well together, and perform efficient as a whole (in their sequential and parallel processing), over long periods of time, and under our given resiliency goals.
+It is important that all details are "Aligned" in that they work well together, and perform efficient as a whole (in their sequential and parallel processing), over long periods of time, and under our given resiliency goals.  Alignment is complicated to explain, so I will keep giving examples of it over time, so that you can build up your own understanding of the concept.
 
