@@ -1712,7 +1712,7 @@ There is a fourth "A" that be added {{ todo_forgot_what_this_is_tempoarily_but_i
 <h3 id=e51f755569b88937197a5286a282bf76><a href="#e51f755569b88937197a5286a282bf76">2.6.12</a>: Performance Bench Testing Environment</h3>
 <h3 id=d1a4f057af493912852ac12fc03ca9b3><a href="#d1a4f057af493912852ac12fc03ca9b3">2.6.13</a>: Corporate Environment</h3>
 <h3 id=13670fd1278efaec64988e5172bfe5a2><a href="#13670fd1278efaec64988e5172bfe5a2">2.6.14</a>: Server</h3>
-<h3 id=0f75446224bba09c030dd81e3e0fa4ac><a href="#0f75446224bba09c030dd81e3e0fa4ac">2.6.15</a>: Device or Machine</h3>
+<h3 id=0f75446224bba09c030dd81e3e0fa4ac><a href="#0f75446224bba09c030dd81e3e0fa4ac">2.6.15</a>: Device or Machine or Nodes</h3>
 <h3 id=3d2ece14db911afb11e032b9c3c646b7><a href="#3d2ece14db911afb11e032b9c3c646b7">2.6.16</a>: Humans</h3>
 <br>
 It feels a bit weird when I say or write "Humans", as it's strangely impersonalizing to everyone, I feel.&nbsp;&nbsp;However, it is conveniently clear to differentiate not only from "Not Human", or "Logic Based" or "Software" or whatever, but also clear in the sense that I am not speaking casually about people, but specifically about the type of effects that Humans cause.<br>
