@@ -92,6 +92,6 @@ So, to summarize, our "pull" alternative is:
 
 - N Web servers that can server the static content of our deployment data.
 
-- Some Logic for invoking the "pull request" from the target servers, to the Load Balancer.
+- Some Logic for invoking the "pull request" from the target servers, to the Load Balancer.  We will call this "Pull Logic".
 
--  
+- Some Logic for signaling the target servers that they should invoke the "Pull Logic".  We will this "Deploy Logic", since this invokes the deployment.
