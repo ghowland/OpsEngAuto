@@ -9,7 +9,7 @@ Current Goal: Populate Empty Sections: 246   (Done: 20.4%)
 
 Lines: 2540
 
-Words: 43965
+Words: 43982
 
 
 # Chapter 1: Preface (README.txt)
@@ -2488,7 +2488,7 @@ One method is running the copies on the same single server, but running the copy
 <br>
 There are a number of options for running things in parallel:<br>
 <br>
-- Forking the process, so that there are many processes of SCP running.&nbsp;&nbsp;Forked processes are independent of the process that forked them (they start as clones, and then do their custom thing), and do not have a lot of communication with the parent.<br>
+- Forking the process, so that there are many processes of SCP running.&nbsp;&nbsp;Forked processes are independent of the process that forked them (they start as clones, and then do their custom thing), and do not have a lot of communication with the parent.&nbsp;&nbsp;There are ways to know some things about the program though, so this is a viable option.<br>
 <br>
 - Using a controller program to create Threads, and running the SCP process in the threads (similar to forking, in that there are still 100 (in this case) SCP processes being run, but they are being controlled by a single program, instead of just independently launching.<br>
 <h3 id=72e6204dcea6d95203e9c1a3e0b946d8><a href="#72e6204dcea6d95203e9c1a3e0b946d8">3.4.1</a>: Alignment</h3>
