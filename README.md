@@ -1711,7 +1711,9 @@ There is a fourth "A" that be added {{ todo_forgot_what_this_is_tempoarily_but_i
 <h3 id=42913fa225b25b38eee2478890c7cdc9><a href="#42913fa225b25b38eee2478890c7cdc9">2.6.11</a>: QA Environment</h3>
 <h3 id=e51f755569b88937197a5286a282bf76><a href="#e51f755569b88937197a5286a282bf76">2.6.12</a>: Performance Bench Testing Environment</h3>
 <h3 id=d1a4f057af493912852ac12fc03ca9b3><a href="#d1a4f057af493912852ac12fc03ca9b3">2.6.13</a>: Corporate Environment</h3>
-<h3 id=3d2ece14db911afb11e032b9c3c646b7><a href="#3d2ece14db911afb11e032b9c3c646b7">2.6.14</a>: Humans</h3>
+<h3 id=6251823d5ca4ea9e83abdf3de7c7dd75><a href="#6251823d5ca4ea9e83abdf3de7c7dd75">2.6.14</a>: Server</h3>
+<h3 id=4e0f58d6cf26b1533f569b17674e3c96><a href="#4e0f58d6cf26b1533f569b17674e3c96">2.6.15</a>: Device or Machine</h3>
+<h3 id=3d2ece14db911afb11e032b9c3c646b7><a href="#3d2ece14db911afb11e032b9c3c646b7">2.6.16</a>: Humans</h3>
 <br>
 It feels a bit weird when I say or write "Humans", as it's strangely impersonalizing to everyone, I feel.&nbsp;&nbsp;However, it is conveniently clear to differentiate not only from "Not Human", or "Logic Based" or "Software" or whatever, but also clear in the sense that I am not speaking casually about people, but specifically about the type of effects that Humans cause.<br>
 <br>
@@ -1792,7 +1794,7 @@ This allows us to move away from our standard social communication style, and in
 So while it is weird to type and say, it has a benefit for clarity, which is an important attribute of Engineering.<br>
 <br>
 Also, it will make it easier to relate to your future AI overlords, which will be helpful.&nbsp;&nbsp;("The humans are revolting!", "I know, right?")<br>
-<h3 id=eb72cfe6249ca80ac02d25c50109a4da><a href="#eb72cfe6249ca80ac02d25c50109a4da">2.6.15</a>: Philosophy</h3>
+<h3 id=eb72cfe6249ca80ac02d25c50109a4da><a href="#eb72cfe6249ca80ac02d25c50109a4da">2.6.17</a>: Philosophy</h3>
 <br>
 If you didn't know, there are 2 Greek roots in the word "Philosophy".<br>
 <br>
