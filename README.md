@@ -7,9 +7,9 @@ Current Goal: Populate Empty Sections: 246   (Done: 20.4%)
 
 <br><br><b>NOTE: This is still an early Work-In-Progress.  It is being written linearly as a First Rough Draft without editing at the moment.  There are many typos and grammatical errors presently.</b>
 
-Lines: 2540
+Lines: 2542
 
-Words: 43982
+Words: 44001
 
 
 # Chapter 1: Preface (README.txt)
@@ -2491,6 +2491,8 @@ There are a number of options for running things in parallel:<br>
 - Forking the process, so that there are many processes of SCP running.&nbsp;&nbsp;Forked processes are independent of the process that forked them (they start as clones, and then do their custom thing), and do not have a lot of communication with the parent.&nbsp;&nbsp;There are ways to know some things about the program though, so this is a viable option.<br>
 <br>
 - Using a controller program to create Threads, and running the SCP process in the threads (similar to forking, in that there are still 100 (in this case) SCP processes being run, but they are being controlled by a single program, instead of just independently launching.<br>
+<br>
+Since I want to constrain this example, I won't get into the differences between controlling forked and threaded sub-processes.<br>
 <h3 id=72e6204dcea6d95203e9c1a3e0b946d8><a href="#72e6204dcea6d95203e9c1a3e0b946d8">3.4.1</a>: Alignment</h3>
 <h3 id=26ab897a0841f617abc1175707de81dd><a href="#26ab897a0841f617abc1175707de81dd">3.4.2</a>: There is no best, except for a certain set of values and priorities, from a limited set of options.</h3>
 <h2 id=9b893b40e08934229116cacf12764a11><a href="#9b893b40e08934229116cacf12764a11">3.5</a>: Understanding Engineering:&nbsp;&nbsp;Environment -> Resources -> Goal -> Actions -> Changed Environment -> Desired Effects?&nbsp;&nbsp;Efficient use of resources?&nbsp;&nbsp;Management of environment?</h2>
