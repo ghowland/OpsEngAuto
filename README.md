@@ -7,9 +7,9 @@ Current Goal: Populate Empty Sections: 246   (Done: 20.4%)
 
 <br><br><b>NOTE: This is still an early Work-In-Progress.  It is being written linearly as a First Rough Draft without editing at the moment.  There are many typos and grammatical errors presently.</b>
 
-Lines: 2608
+Lines: 2610
 
-Words: 45394
+Words: 45410
 
 
 # Chapter 1: Preface (README.txt)
@@ -2557,6 +2557,8 @@ So, to summarize, our "pull" alternative is:<br>
 - A Load Balancer server that accepts HTTP requests (also simplifying by not adding in security, made clear by not using HTTPS).<br>
 <br>
 - N Web servers that can server the static content of our deployment data.<br>
+<br>
+- Some Logic for invoking the "pull request" from the target servers, to the Load Balancer.<br>
 <br>
 -<br>
 <h3 id=72e6204dcea6d95203e9c1a3e0b946d8><a href="#72e6204dcea6d95203e9c1a3e0b946d8">3.4.1</a>: Alignment</h3>
