@@ -58,5 +58,6 @@ This could actually apply to a number of different scenarios, not just the one w
 
 All changes come with risk, as you only know the effects of your previous system from your history with it, once you change it you are working with a new system (new state vs. old state), so you may get different effects.  
 
-If your change is implemented ideally, then the effects that change are exactly what you planned and wanted, so everything is OK.  If you get effects you did not want, or did not anticipate, you will likely be created a problem, which may need another change to fix.
+If your change is implemented ideally, then the effects that change are exactly what you planned and wanted, so everything is OK.  If you get effects you did not want, or did not anticipate, you will likely be created a problem, which may need another change to fix.  In cases where it causes an immediate outage or degradation, it will need to be reverted or "rolled-back", if this is possible.
+
 
