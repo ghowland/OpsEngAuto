@@ -66,4 +66,6 @@ This doesn't meant that everything should be parallelized.  Firstly, not everyth
 
 Writing things to work initially in sequence is a faster way to to develop, as the complexity of parallel process communication, locking and other issues can be ignored, and sequential processing is a default for many implementation languages (and all the primary Operational related languages, from any environment I've worked in).
 
+- Finally, I state that even splitting the job across multiple servers, which may allow the sequential processing to have acceptable performance again, is not acceptable, because we are just planning to have this problem again when those N servers have to do "100" servers each, and we are back in the same spot.  This method of "throwing hardware at the problem" is frequently not the right move, although there are some special cases where it is the right move, which we will get into later.
+
 
