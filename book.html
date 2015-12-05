@@ -5,9 +5,9 @@ Current Goal: Populate Empty Sections: 246   (Done: 20.4%)
 
 <br><br><b>NOTE: This is still an early Work-In-Progress.  It is being written linearly as a First Rough Draft without editing at the moment.  There are many typos and grammatical errors presently.</b><br>
 <br>
-Lines: 2592<br>
+Lines: 2600<br>
 <br>
-Words: 45133<br>
+Words: 45350<br>
 <br>
 <h1 id=48152466029dfcb314ccad4d502d1a73><a href="#48152466029dfcb314ccad4d502d1a73">Chapter 1</a>: Preface (README.txt)</h1>
 <br>
@@ -2499,9 +2499,17 @@ However, just because this is going to create a problem in the future, and is wo
 <br>
 Doing things or not doing things should always be evaluated for their Engineering trade-offs, with the business goals and requirements.&nbsp;&nbsp;Refusing to do something that is best for the organization, just because it will cause a problem in the future is also Not Engineering, even though it seems like it is "being a better Engineer", because it is not taking into account the actual environment, which is prioritizing moving fast over avoiding problems.&nbsp;&nbsp;This will create Technical Debt, but may be worth the trade-off, just like creating Financial Debt can.<br>
 <br>
-Ok, so now we have established that one method of solving this problem is to create parallel processing, and we have our Working Axiom:<br>
+Ok, so now we have established that one method of solving this problem is to create parallel processing on the single server, and we have our Working Axiom:<br>
 <br>
 "Once a job that was working sequentially on a single server hits a scaling problem, and needs to be changed for performance, all later implementations of that job will not be re-implemented sequentially, even on more than a single server."<br>
+<br>
+We need at least one more method for this example to be complete, for our purposes (but not for a real world solution), and for that I will choose the method of the target servers all pulling down the deployment themselves.<br>
+<br>
+This creates a "push" (parallel SCP copies) vs. "pull" (target servers pull down data) scenario, so we are comparing data moving in two different direction.<br>
+<br>
+For this example, I will only provide 1 method of "pulling" the deployment data, which will be to use a Load Balancer and web servers behind the Load Balancer.<br>
+<br>
+For all Production services, we should generally always have at least 2 servers for redundancy, in case one of them fails the other is available.&nbsp;&nbsp;Note I say "generally always", which is a contradiction, but we will have to talk about this later.&nbsp;&nbsp;However, for this example, to keep things simple we will just create a single Load Balancer and N web servers behind the Load Balancer.&nbsp;&nbsp;For the example, we could say 1 web server, but since the purpose of Load Balancers is to distribute requests (load), we can say N.&nbsp;&nbsp;Getting into 2 or more Load Balancers has a couple other issues I would want to bring up, so I will avoid it for this example.<br>
 <h3 id=72e6204dcea6d95203e9c1a3e0b946d8><a href="#72e6204dcea6d95203e9c1a3e0b946d8">3.4.1</a>: Alignment</h3>
 <h3 id=26ab897a0841f617abc1175707de81dd><a href="#26ab897a0841f617abc1175707de81dd">3.4.2</a>: There is no best, except for a certain set of values and priorities, from a limited set of options.</h3>
 <h2 id=9b893b40e08934229116cacf12764a11><a href="#9b893b40e08934229116cacf12764a11">3.5</a>: Understanding Engineering:&nbsp;&nbsp;Environment -> Resources -> Goal -> Actions -> Changed Environment -> Desired Effects?&nbsp;&nbsp;Efficient use of resources?&nbsp;&nbsp;Management of environment?</h2>

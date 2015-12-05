@@ -74,8 +74,15 @@ However, just because this is going to create a problem in the future, and is wo
 
 Doing things or not doing things should always be evaluated for their Engineering trade-offs, with the business goals and requirements.  Refusing to do something that is best for the organization, just because it will cause a problem in the future is also Not Engineering, even though it seems like it is "being a better Engineer", because it is not taking into account the actual environment, which is prioritizing moving fast over avoiding problems.  This will create Technical Debt, but may be worth the trade-off, just like creating Financial Debt can.
 
-Ok, so now we have established that one method of solving this problem is to create parallel processing, and we have our Working Axiom:
+Ok, so now we have established that one method of solving this problem is to create parallel processing on the single server, and we have our Working Axiom:
 
 "Once a job that was working sequentially on a single server hits a scaling problem, and needs to be changed for performance, all later implementations of that job will not be re-implemented sequentially, even on more than a single server."
 
+We need at least one more method for this example to be complete, for our purposes (but not for a real world solution), and for that I will choose the method of the target servers all pulling down the deployment themselves.
+
+This creates a "push" (parallel SCP copies) vs. "pull" (target servers pull down data) scenario, so we are comparing data moving in two different direction.
+
+For this example, I will only provide 1 method of "pulling" the deployment data, which will be to use a Load Balancer and web servers behind the Load Balancer.
+
+For all Production services, we should generally always have at least 2 servers for redundancy, in case one of them fails the other is available.  Note I say "generally always", which is a contradiction, but we will have to talk about this later.  However, for this example, to keep things simple we will just create a single Load Balancer and N web servers behind the Load Balancer.  For the example, we could say 1 web server, but since the purpose of Load Balancers is to distribute requests (load), we can say N.  Getting into 2 or more Load Balancers has a couple other issues I would want to bring up, so I will avoid it for this example.
 
