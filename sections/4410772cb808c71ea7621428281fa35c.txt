@@ -54,3 +54,8 @@ Let's review the verbiage quickly to see what caveats I baked in:
 
 This could actually apply to a number of different scenarios, not just the one we are currently discussing, so this is good Axiom material, as we want to be able to apply Axioms generally, so that they are usable or actionable.
 
+- I specify that this axiom is only to be applied once the work hits a problem.  Going around and "fixing" problems that aren't problems is a poor use of resources, as there are likely actual problems that need fixing.  Also, it is creating change in the environment, which may lead to instability or outages.  
+
+All changes come with risk, as you only know the effects of your previous system from your history with it, once you change it you are working with a new system (new state vs. old state), so you may get different effects.  
+
+If your change is implemented ideally, then the effects that change are exactly what you planned and wanted, so everything is OK.  If you get effects you did not want, or did not anticipate, you will likely be created a problem.
