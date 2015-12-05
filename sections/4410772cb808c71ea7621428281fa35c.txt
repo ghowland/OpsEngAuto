@@ -74,4 +74,8 @@ However, just because this is going to create a problem in the future, and is wo
 
 Doing things or not doing things should always be evaluated for their Engineering trade-offs, with the business goals and requirements.  Refusing to do something that is best for the organization, just because it will cause a problem in the future is also Not Engineering, even though it seems like it is "being a better Engineer", because it is not taking into account the actual environment, which is prioritizing moving fast over avoiding problems.  This will create Technical Debt, but may be worth the trade-off, just like creating Financial Debt can.
 
+Ok, so now we have established that one method of solving this problem is to create parallel processing, and we have our Working Axiom:
+
+"Once a job that was working sequentially on a single server hits a scaling problem, and needs to be changed for performance, all later implementations of that job will not be re-implemented sequentially, even on more than a single server."
+
 
