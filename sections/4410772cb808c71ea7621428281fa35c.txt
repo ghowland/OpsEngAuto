@@ -34,4 +34,17 @@ It doesn't matter whether we write our own code to do this forked or thread hand
 
 So we have specified 2 methods running on the same single source server, and performing the work in parallel.
 
-Since we have run into this performance problem by running things sequentially, one thing we will do is say, "Let's not get into this situation again, once our server targets have grown again", and say that 
+Since we have run into this performance problem by running things sequentially, one thing we will do is say, "Let's not get into this situation again, once our server targets have grown again", and say that we are removing the option of using sequential copies again, because it will not scale, and will create work for us again in the future.
+
+Since we just went over how create an Axiom, let's do it now.  However, since we are working with a specific scenario and have not yet looked at all-of-operations together, we shouldn't make this a Universal Axiom, or a Production Axiom.
+
+Instead, let's make it a Working Axiom, or a Temporary Axiom, for the purpose of this problem.
+
+Here goes:
+
+"Once a job that was working sequentially on a single server hits a scaling problem, and needs to be changed for performance, all later implementations of that job will not be re-implemented sequentially, even on more than a single server."
+
+This is a little longer than I like for an Axiom, and it has more caveats than I prefer as well, as I like them simple and straight-forward, always able to be applied.
+
+In this circumstance, we are building a Working Axiom, so it is temporary, and it needs to be precise, so it needs those caveats to fit into our problem space.
+

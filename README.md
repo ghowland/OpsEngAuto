@@ -7,9 +7,9 @@ Current Goal: Populate Empty Sections: 246   (Done: 20.4%)
 
 <br><br><b>NOTE: This is still an early Work-In-Progress.  It is being written linearly as a First Rough Draft without editing at the moment.  There are many typos and grammatical errors presently.</b>
 
-Lines: 2550
+Lines: 2562
 
-Words: 44128
+Words: 44316
 
 
 # Chapter 1: Preface (README.txt)
@@ -2500,7 +2500,19 @@ It doesn't matter whether we write our own code to do this forked or thread hand
 <br>
 So we have specified 2 methods running on the same single source server, and performing the work in parallel.<br>
 <br>
-Since we have run into this performance problem by running things sequentially, one thing we will do is say, "Let's not get into this situation again, once our server targets have grown again", and say that<br>
+Since we have run into this performance problem by running things sequentially, one thing we will do is say, "Let's not get into this situation again, once our server targets have grown again", and say that we are removing the option of using sequential copies again, because it will not scale, and will create work for us again in the future.<br>
+<br>
+Since we just went over how create an Axiom, let's do it now.&nbsp;&nbsp;However, since we are working with a specific scenario and have not yet looked at all-of-operations together, we shouldn't make this a Universal Axiom, or a Production Axiom.<br>
+<br>
+Instead, let's make it a Working Axiom, or a Temporary Axiom, for the purpose of this problem.<br>
+<br>
+Here goes:<br>
+<br>
+"Once a job that was working sequentially on a single server hits a scaling problem, and needs to be changed for performance, all later implementations of that job will not be re-implemented sequentially, even on more than a single server."<br>
+<br>
+This is a little longer than I like for an Axiom, and it has more caveats than I prefer as well, as I like them simple and straight-forward, always able to be applied.<br>
+<br>
+In this circumstance, we are building a Working Axiom, so it is temporary, and it needs to be precise, so it needs those caveats to fit into our problem space.<br>
 <h3 id=72e6204dcea6d95203e9c1a3e0b946d8><a href="#72e6204dcea6d95203e9c1a3e0b946d8">3.4.1</a>: Alignment</h3>
 <h3 id=26ab897a0841f617abc1175707de81dd><a href="#26ab897a0841f617abc1175707de81dd">3.4.2</a>: There is no best, except for a certain set of values and priorities, from a limited set of options.</h3>
 <h2 id=9b893b40e08934229116cacf12764a11><a href="#9b893b40e08934229116cacf12764a11">3.5</a>: Understanding Engineering:&nbsp;&nbsp;Environment -> Resources -> Goal -> Actions -> Changed Environment -> Desired Effects?&nbsp;&nbsp;Efficient use of resources?&nbsp;&nbsp;Management of environment?</h2>
