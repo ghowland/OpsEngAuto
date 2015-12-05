@@ -1,2 +1,4 @@
 ### [[3.5: Evaluating changes.]]
 
+Now that we have established how to set up Attribute Axes, Priorities and create Axioms we can start to look at how to make evaluate changes, before making them and afterwards.
+
