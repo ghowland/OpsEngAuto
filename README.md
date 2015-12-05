@@ -7,9 +7,9 @@ Current Goal: Populate Empty Sections: 246   (Done: 20.4%)
 
 <br><br><b>NOTE: This is still an early Work-In-Progress.  It is being written linearly as a First Rough Draft without editing at the moment.  There are many typos and grammatical errors presently.</b>
 
-Lines: 2600
+Lines: 2608
 
-Words: 45350
+Words: 45394
 
 
 # Chapter 1: Preface (README.txt)
@@ -2551,6 +2551,14 @@ This creates a "push" (parallel SCP copies) vs. "pull" (target servers pull down
 For this example, I will only provide 1 method of "pulling" the deployment data, which will be to use a Load Balancer and web servers behind the Load Balancer.<br>
 <br>
 For all Production services, we should generally always have at least 2 servers for redundancy, in case one of them fails the other is available.&nbsp;&nbsp;Note I say "generally always", which is a contradiction, but we will have to talk about this later.&nbsp;&nbsp;However, for this example, to keep things simple we will just create a single Load Balancer and N web servers behind the Load Balancer.&nbsp;&nbsp;For the example, we could say 1 web server, but since the purpose of Load Balancers is to distribute requests (load), we can say N.&nbsp;&nbsp;Getting into 2 or more Load Balancers has a couple other issues I would want to bring up, so I will avoid it for this example.<br>
+<br>
+So, to summarize, our "pull" alternative is:<br>
+<br>
+- A Load Balancer server that accepts HTTP requests (also simplifying by not adding in security, made clear by not using HTTPS).<br>
+<br>
+- N Web servers that can server the static content of our deployment data.<br>
+<br>
+-<br>
 <h3 id=72e6204dcea6d95203e9c1a3e0b946d8><a href="#72e6204dcea6d95203e9c1a3e0b946d8">3.4.1</a>: Alignment</h3>
 <h3 id=26ab897a0841f617abc1175707de81dd><a href="#26ab897a0841f617abc1175707de81dd">3.4.2</a>: There is no best, except for a certain set of values and priorities, from a limited set of options.</h3>
 <h2 id=9b893b40e08934229116cacf12764a11><a href="#9b893b40e08934229116cacf12764a11">3.5</a>: Understanding Engineering:&nbsp;&nbsp;Environment -> Resources -> Goal -> Actions -> Changed Environment -> Desired Effects?&nbsp;&nbsp;Efficient use of resources?&nbsp;&nbsp;Management of environment?</h2>

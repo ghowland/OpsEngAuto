@@ -86,3 +86,10 @@ For this example, I will only provide 1 method of "pulling" the deployment data,
 
 For all Production services, we should generally always have at least 2 servers for redundancy, in case one of them fails the other is available.  Note I say "generally always", which is a contradiction, but we will have to talk about this later.  However, for this example, to keep things simple we will just create a single Load Balancer and N web servers behind the Load Balancer.  For the example, we could say 1 web server, but since the purpose of Load Balancers is to distribute requests (load), we can say N.  Getting into 2 or more Load Balancers has a couple other issues I would want to bring up, so I will avoid it for this example.
 
+So, to summarize, our "pull" alternative is:
+
+- A Load Balancer server that accepts HTTP requests (also simplifying by not adding in security, made clear by not using HTTPS).
+
+- N Web servers that can server the static content of our deployment data.
+
+- 
