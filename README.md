@@ -7,9 +7,9 @@ Current Goal: Populate Empty Sections: 242   (Done: 20.7%)
 
 <br><br><b>NOTE: This is still an early Work-In-Progress.  It is being written linearly as a First Rough Draft without editing at the moment.  There are many typos and grammatical errors presently.</b>
 
-Lines: 2520
+Lines: 2522
 
-Words: 43626
+Words: 43678
 
 
 # Chapter 1: Preface (README.txt)
@@ -2468,7 +2468,9 @@ Now that we have established how to set up Attribute Axes, Priorities and create
 <br>
 Let's start by creating an example problem, by setting up the environment for it, current state, and our goals (end state).<br>
 <br>
-Let's start with a simple website with<br>
+Let's start with a simple website with some dynamic content, which we are deploying.<br>
+<br>
+Our goal is to improve our performance in doing the deployment.&nbsp;&nbsp;Currently, we are copying the installation files sequentially from a single server, and we have 100 web or application servers which we are copying them to (we will call them "web" servers for simplicity).<br>
 <h3 id=72e6204dcea6d95203e9c1a3e0b946d8><a href="#72e6204dcea6d95203e9c1a3e0b946d8">3.4.1</a>: Alignment</h3>
 <h3 id=26ab897a0841f617abc1175707de81dd><a href="#26ab897a0841f617abc1175707de81dd">3.4.2</a>: There is no best, except for a certain set of values and priorities, from a limited set of options.</h3>
 <h2 id=9b893b40e08934229116cacf12764a11><a href="#9b893b40e08934229116cacf12764a11">3.5</a>: Understanding Engineering:&nbsp;&nbsp;Environment -> Resources -> Goal -> Actions -> Changed Environment -> Desired Effects?&nbsp;&nbsp;Efficient use of resources?&nbsp;&nbsp;Management of environment?</h2>

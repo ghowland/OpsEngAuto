@@ -4,5 +4,9 @@ Now that we have established how to set up Attribute Axes, Priorities and create
 
 Let's start by creating an example problem, by setting up the environment for it, current state, and our goals (end state).
 
-Let's start with a simple website with 
+Let's start with a simple website with some dynamic content, which we are deploying.
+
+Our goal is to improve our performance in doing the deployment.  Currently, we are copying the installation files sequentially from a single server, and we have 100 web or application servers which we are copying them to (we will call them "web" servers for simplicity).
+
+
 
