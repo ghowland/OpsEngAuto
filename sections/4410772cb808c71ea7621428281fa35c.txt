@@ -18,4 +18,10 @@ So, we have a current state:
 
 What are some options that will perform better than running 100 sequential copies?
 
-One method is running the copies on the same single server, but running the copy commands in parallel 
+One method is running the copies on the same single server, but running the copy commands in parallel instead of sequentially.
+
+There are a number of options for running things in parallel:
+
+- Forking the process, so that there are many processes of SCP running.  Forked processes are independent of the process that forked them (they start as clones, and then do their custom thing), and do not have a lot of communication with the parent.
+
+- Using a controller program to create Threads, and running the SCP process in the threads (similar to forking, in that there are still 100 (in this case) SCP processes being run, but they are being controlled by a single program, instead of just independently launching.
