@@ -9,7 +9,7 @@ Current Goal: Populate Empty Sections: 246   (Done: 20.4%)
 
 Lines: 2546
 
-Words: 44066
+Words: 44073
 
 
 # Chapter 1: Preface (README.txt)
@@ -2496,7 +2496,7 @@ Since I want to constrain this example, I won't get into the differences between
 <br>
 {{ todo__describe_forked_vs_threaded_somewhere_else }}<br>
 <br>
-It doesn't matter whether we write our own code to do this forked or thread handling, or we use software someone else made, such as "Orchestration" software which might have agents that run on each target server, and<br>
+It doesn't matter whether we write our own code to do this forked or thread handling, or we use software someone else made, such as "Orchestration" software which might have agents that run on each target server, and perform the copy in it's own way.<br>
 <h3 id=72e6204dcea6d95203e9c1a3e0b946d8><a href="#72e6204dcea6d95203e9c1a3e0b946d8">3.4.1</a>: Alignment</h3>
 <h3 id=26ab897a0841f617abc1175707de81dd><a href="#26ab897a0841f617abc1175707de81dd">3.4.2</a>: There is no best, except for a certain set of values and priorities, from a limited set of options.</h3>
 <h2 id=9b893b40e08934229116cacf12764a11><a href="#9b893b40e08934229116cacf12764a11">3.5</a>: Understanding Engineering:&nbsp;&nbsp;Environment -> Resources -> Goal -> Actions -> Changed Environment -> Desired Effects?&nbsp;&nbsp;Efficient use of resources?&nbsp;&nbsp;Management of environment?</h2>

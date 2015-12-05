@@ -30,4 +30,5 @@ Since I want to constrain this example, I won't get into the differences between
 
 {{ todo__describe_forked_vs_threaded_somewhere_else }}
 
-It doesn't matter whether we write our own code to do this forked or thread handling, or we use software someone else made, such as "Orchestration" software which might have agents that run on each target server, and 
+It doesn't matter whether we write our own code to do this forked or thread handling, or we use software someone else made, such as "Orchestration" software which might have agents that run on each target server, and perform the copy in it's own way.
+
