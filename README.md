@@ -7,9 +7,9 @@ Current Goal: Populate Empty Sections: 246   (Done: 20.4%)
 
 <br><br><b>NOTE: This is still an early Work-In-Progress.  It is being written linearly as a First Rough Draft without editing at the moment.  There are many typos and grammatical errors presently.</b>
 
-Lines: 2530
+Lines: 2534
 
-Words: 43821
+Words: 43861
 
 
 # Chapter 1: Preface (README.txt)
@@ -2480,7 +2480,11 @@ It is important that all details are "Aligned" in that they work well together, 
 <br>
 So, we have a current state:<br>
 <br>
-- Single server<br>
+- Single server, connects to 100 servers over SCP (secure copy) sequentially.<br>
+<br>
+What are some options that will perform better than running 100 sequential copies?<br>
+<br>
+One method is running the copies on the same single server, but running the copy commands in parallel<br>
 <h3 id=72e6204dcea6d95203e9c1a3e0b946d8><a href="#72e6204dcea6d95203e9c1a3e0b946d8">3.4.1</a>: Alignment</h3>
 <h3 id=26ab897a0841f617abc1175707de81dd><a href="#26ab897a0841f617abc1175707de81dd">3.4.2</a>: There is no best, except for a certain set of values and priorities, from a limited set of options.</h3>
 <h2 id=9b893b40e08934229116cacf12764a11><a href="#9b893b40e08934229116cacf12764a11">3.5</a>: Understanding Engineering:&nbsp;&nbsp;Environment -> Resources -> Goal -> Actions -> Changed Environment -> Desired Effects?&nbsp;&nbsp;Efficient use of resources?&nbsp;&nbsp;Management of environment?</h2>

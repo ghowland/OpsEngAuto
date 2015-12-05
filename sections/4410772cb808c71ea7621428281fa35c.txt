@@ -14,4 +14,8 @@ It is important that all details are "Aligned" in that they work well together, 
 
 So, we have a current state:
 
-- Single server 
+- Single server, connects to 100 servers over SCP (secure copy) sequentially.
+
+What are some options that will perform better than running 100 sequential copies?
+
+One method is running the copies on the same single server, but running the copy commands in parallel 
