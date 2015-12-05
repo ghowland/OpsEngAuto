@@ -8,5 +8,3 @@ Let's start with a simple website with some dynamic content, which we are deploy
 
 Our goal is to improve our performance in doing the deployment.  Currently, we are copying the installation files sequentially from a single server, and we have 100 web or application servers which we are copying them to (we will call them "web" servers for simplicity).
 
-
-
