@@ -26,7 +26,7 @@ There are a number of options for running things in parallel:
 
 - Using a controller program to create Threads, and running the SCP process in the threads (similar to forking, in that there are still 100 (in this case) SCP processes being run, but they are being controlled by a single program, instead of just independently launching.
 
-Since I want to constrain this example, I won't get into the differences between controlling forked and threaded sub-processes.
+Since I want to constrain this example, I won't get into the differences between controlling forked and threaded sub-processes, it's enough to know that while they have differences, we can get the results we want out of either of them for this case.
 
 {{ todo__describe_forked_vs_threaded_somewhere_else }}
 

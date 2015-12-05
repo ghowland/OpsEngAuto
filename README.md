@@ -9,7 +9,7 @@ Current Goal: Populate Empty Sections: 246   (Done: 20.4%)
 
 Lines: 2544
 
-Words: 44004
+Words: 44028
 
 
 # Chapter 1: Preface (README.txt)
@@ -2492,7 +2492,7 @@ There are a number of options for running things in parallel:<br>
 <br>
 - Using a controller program to create Threads, and running the SCP process in the threads (similar to forking, in that there are still 100 (in this case) SCP processes being run, but they are being controlled by a single program, instead of just independently launching.<br>
 <br>
-Since I want to constrain this example, I won't get into the differences between controlling forked and threaded sub-processes.<br>
+Since I want to constrain this example, I won't get into the differences between controlling forked and threaded sub-processes, it's enough to know that while they have differences, we can get the results we want out of either of them for this case.<br>
 <br>
 {{ todo__describe_forked_vs_threaded_somewhere_else }}<br>
 <h3 id=72e6204dcea6d95203e9c1a3e0b946d8><a href="#72e6204dcea6d95203e9c1a3e0b946d8">3.4.1</a>: Alignment</h3>
