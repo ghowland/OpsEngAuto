@@ -48,3 +48,9 @@ This is a little longer than I like for an Axiom, and it has more caveats than I
 
 In this circumstance, we are building a Working Axiom, so it is temporary, and it needs to be precise, so it needs those caveats to fit into our problem space.
 
+Let's review the verbiage quickly to see what caveats I baked in:
+
+- I have limited this to implementations that already exist, and were implemented as sequential processing, on a single instance.
+
+This could actually apply to a number of different scenarios, not just the one we are currently discussing, so this is good Axiom material, as we want to be able to apply Axioms generally, so that they are usable or actionable.
+
