@@ -12,3 +12,6 @@ The exact mechanisms for copying and deployment are not going to be the focus of
 
 It is important that all details are "Aligned" in that they work well together, and perform efficient as a whole (in their sequential and parallel processing), over long periods of time, and under our given resiliency goals.  Alignment is complicated to explain, so I will keep giving examples of it over time, so that you can build up your own understanding of the concept, and how to apply the term as I am using it.
 
+So, we have a current state:
+
+- Single server 

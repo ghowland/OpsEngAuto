@@ -7,9 +7,9 @@ Current Goal: Populate Empty Sections: 242   (Done: 20.7%)
 
 <br><br><b>NOTE: This is still an early Work-In-Progress.  It is being written linearly as a First Rough Draft without editing at the moment.  There are many typos and grammatical errors presently.</b>
 
-Lines: 2526
+Lines: 2530
 
-Words: 43812
+Words: 43821
 
 
 # Chapter 1: Preface (README.txt)
@@ -2475,6 +2475,10 @@ Our goal is to improve our performance in doing the deployment.&nbsp;&nbsp;Curre
 The exact mechanisms for copying and deployment are not going to be the focus of this example, and so we won't be evaluating their performance or impacts, because it will complicate the example.&nbsp;&nbsp;In the real world, of course, these factors are also important, and would have be evaluated independently, and in conjuncture with the rest of the changes.&nbsp;&nbsp;<br>
 <br>
 It is important that all details are "Aligned" in that they work well together, and perform efficient as a whole (in their sequential and parallel processing), over long periods of time, and under our given resiliency goals.&nbsp;&nbsp;Alignment is complicated to explain, so I will keep giving examples of it over time, so that you can build up your own understanding of the concept, and how to apply the term as I am using it.<br>
+<br>
+So, we have a current state:<br>
+<br>
+- Single server<br>
 <h3 id=72e6204dcea6d95203e9c1a3e0b946d8><a href="#72e6204dcea6d95203e9c1a3e0b946d8">3.4.1</a>: Alignment</h3>
 <h3 id=26ab897a0841f617abc1175707de81dd><a href="#26ab897a0841f617abc1175707de81dd">3.4.2</a>: There is no best, except for a certain set of values and priorities, from a limited set of options.</h3>
 <h2 id=9b893b40e08934229116cacf12764a11><a href="#9b893b40e08934229116cacf12764a11">3.5</a>: Understanding Engineering:&nbsp;&nbsp;Environment -> Resources -> Goal -> Actions -> Changed Environment -> Desired Effects?&nbsp;&nbsp;Efficient use of resources?&nbsp;&nbsp;Management of environment?</h2>
