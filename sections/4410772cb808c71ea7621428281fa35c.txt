@@ -2,6 +2,6 @@
 
 Now that we have established how to set up Attribute Axes, Priorities and create Axioms we can start to look at how to make evaluate changes, before making them and afterwards.
 
-Let's start by creating an example problem, by setting up the environment for it, current state, and our goals (end state):
+Let's start by creating an example problem, by setting up the environment for it, current state, and our goals (end state).
 
-- 
+Let's start with a simple website with 

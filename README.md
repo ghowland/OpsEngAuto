@@ -9,7 +9,7 @@ Current Goal: Populate Empty Sections: 242   (Done: 20.7%)
 
 Lines: 2520
 
-Words: 43620
+Words: 43626
 
 
 # Chapter 1: Preface (README.txt)
@@ -2466,9 +2466,9 @@ Just something to keep in mind.&nbsp;&nbsp;Fashion and Engineering are not compa
 <br>
 Now that we have established how to set up Attribute Axes, Priorities and create Axioms we can start to look at how to make evaluate changes, before making them and afterwards.<br>
 <br>
-Let's start by creating an example problem, by setting up the environment for it, current state, and our goals (end state):<br>
+Let's start by creating an example problem, by setting up the environment for it, current state, and our goals (end state).<br>
 <br>
--<br>
+Let's start with a simple website with<br>
 <h3 id=72e6204dcea6d95203e9c1a3e0b946d8><a href="#72e6204dcea6d95203e9c1a3e0b946d8">3.4.1</a>: Alignment</h3>
 <h3 id=26ab897a0841f617abc1175707de81dd><a href="#26ab897a0841f617abc1175707de81dd">3.4.2</a>: There is no best, except for a certain set of values and priorities, from a limited set of options.</h3>
 <h2 id=9b893b40e08934229116cacf12764a11><a href="#9b893b40e08934229116cacf12764a11">3.5</a>: Understanding Engineering:&nbsp;&nbsp;Environment -> Resources -> Goal -> Actions -> Changed Environment -> Desired Effects?&nbsp;&nbsp;Efficient use of resources?&nbsp;&nbsp;Management of environment?</h2>
