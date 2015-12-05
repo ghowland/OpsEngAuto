@@ -8,3 +8,7 @@ Let's start with a simple website with some dynamic content, which we are deploy
 
 Our goal is to improve our performance in doing the deployment.  Currently, we are copying the installation files sequentially from a single server, and we have 100 web or application servers which we are copying them to (we will call them "web" servers for simplicity).
 
+The exact mechanisms for copying and deployment are not going to be the focus of this example, and so we won't be evaluating their performance or impacts, because it will complicate the example.  In the real world, of course, these factors are also important, and would have be evaluated independently, and in conjuncture with the rest of the changes.  
+
+It is important that all details are "Aligned" in that they work well together, and perform efficient as a whole (in their sequential and parallel processing), over long periods of time, and under our given resiliency goals.
+
