@@ -60,4 +60,8 @@ All changes come with risk, as you only know the effects of your previous system
 
 If your change is implemented ideally, then the effects that change are exactly what you planned and wanted, so everything is OK.  If you get effects you did not want, or did not anticipate, you will likely be created a problem, which may need another change to fix.  In cases where it causes an immediate outage or degradation, it will need to be reverted or "rolled-back", if this is possible.
 
+- Once a job gets to this "problem" state, we will not create another solution that operates sequentially, as we have proven that for this case of work (job), sequential processing doesn't scale for us.
+
+This doesn't meant that everything should be parallelized.  Firstly, not everything can be run in parallel, as some operations are sequential operations.  If you need to get data, and then format text with it, you can't format the text at the same time you are getting data (in parallel), because you don't have the data yet.  This work requires being run sequentially.  However, if you have to process 100 of these, you may be able to run each of the 100 jobs in parallel, and then internally process them sequentially.
+
 
