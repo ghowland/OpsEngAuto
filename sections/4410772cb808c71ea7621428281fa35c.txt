@@ -68,4 +68,10 @@ Writing things to work initially in sequence is a faster way to to develop, as t
 
 - Finally, I state that even splitting the job across multiple servers, which may allow the sequential processing to have acceptable performance again, is not acceptable, because we are just planning to have this problem again when those N servers have to do "100" servers each, and we are back in the same spot.  This method of "throwing hardware at the problem" is frequently not the right move, although there are some special cases where it is the right move, which we will get into later.
 
-The act of taking the same method you use now, and making a change to it that allows it to continue working, but 
+The act of taking the same method you use now, and making a change to it that allows it to continue working, but with the knowledge that it will stop working again once you have continued growing as you have previously, I sometimes call "burying land mines in your own yard".  This is because you know this will create a problem for you in the future (problems, degradation, outages, etc), but you are doing it anyway.  You have embedded a known problem in your system, and will certainly encounter it again (unless you are going to decline and shut down the organization).
+
+However, just because this is going to create a problem in the future, and is would be best to be avoided, there are circumstances this might be the "right thing to do".  Such as if you are working in a "Startup" organization (very small, moving very fast, not afraid to break things), and the trade offs are worth it.  
+
+Doing things or not doing things should always be evaluated for their Engineering trade-offs, with the business goals and requirements.  Refusing to do something that is best for the organization, just because it will cause a problem in the future is also Not Engineering, even though it seems like it is "being a better Engineer", because it is not taking into account the actual environment, which is prioritizing moving fast over avoiding problems.  This will create Technical Debt, but may be worth the trade-off, just like creating Financial Debt can.
+
+

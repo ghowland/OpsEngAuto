@@ -7,9 +7,9 @@ Current Goal: Populate Empty Sections: 246   (Done: 20.4%)
 
 <br><br><b>NOTE: This is still an early Work-In-Progress.  It is being written linearly as a First Rough Draft without editing at the moment.  There are many typos and grammatical errors presently.</b>
 
-Lines: 2584
+Lines: 2588
 
-Words: 44841
+Words: 45069
 
 
 # Chapter 1: Preface (README.txt)
@@ -2534,7 +2534,11 @@ Writing things to work initially in sequence is a faster way to to develop, as t
 <br>
 - Finally, I state that even splitting the job across multiple servers, which may allow the sequential processing to have acceptable performance again, is not acceptable, because we are just planning to have this problem again when those N servers have to do "100" servers each, and we are back in the same spot.&nbsp;&nbsp;This method of "throwing hardware at the problem" is frequently not the right move, although there are some special cases where it is the right move, which we will get into later.<br>
 <br>
-The act of taking the same method you use now, and making a change to it that allows it to continue working, but<br>
+The act of taking the same method you use now, and making a change to it that allows it to continue working, but with the knowledge that it will stop working again once you have continued growing as you have previously, I sometimes call "burying land mines in your own yard".&nbsp;&nbsp;This is because you know this will create a problem for you in the future (problems, degradation, outages, etc), but you are doing it anyway.&nbsp;&nbsp;You have embedded a known problem in your system, and will certainly encounter it again (unless you are going to decline and shut down the organization).<br>
+<br>
+However, just because this is going to create a problem in the future, and is would be best to be avoided, there are circumstances this might be the "right thing to do".&nbsp;&nbsp;Such as if you are working in a "Startup" organization (very small, moving very fast, not afraid to break things), and the trade offs are worth it.&nbsp;&nbsp;<br>
+<br>
+Doing things or not doing things should always be evaluated for their Engineering trade-offs, with the business goals and requirements.&nbsp;&nbsp;Refusing to do something that is best for the organization, just because it will cause a problem in the future is also Not Engineering, even though it seems like it is "being a better Engineer", because it is not taking into account the actual environment, which is prioritizing moving fast over avoiding problems.&nbsp;&nbsp;This will create Technical Debt, but may be worth the trade-off, just like creating Financial Debt can.<br>
 <h3 id=72e6204dcea6d95203e9c1a3e0b946d8><a href="#72e6204dcea6d95203e9c1a3e0b946d8">3.4.1</a>: Alignment</h3>
 <h3 id=26ab897a0841f617abc1175707de81dd><a href="#26ab897a0841f617abc1175707de81dd">3.4.2</a>: There is no best, except for a certain set of values and priorities, from a limited set of options.</h3>
 <h2 id=9b893b40e08934229116cacf12764a11><a href="#9b893b40e08934229116cacf12764a11">3.5</a>: Understanding Engineering:&nbsp;&nbsp;Environment -> Resources -> Goal -> Actions -> Changed Environment -> Desired Effects?&nbsp;&nbsp;Efficient use of resources?&nbsp;&nbsp;Management of environment?</h2>
