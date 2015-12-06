@@ -9,7 +9,7 @@ Current Goal: Populate Empty Sections: 246   (Done: 20.4%)
 
 Lines: 2623
 
-Words: 45572
+Words: 45581
 
 
 # Chapter 1: Preface (README.txt)
@@ -2567,11 +2567,11 @@ The flow of this Pull system will be:<br>
 <br>
 - The new deployment data is put in place, in whatever way that is done, which is the same for any of our cases.<br>
 <br>
-- Deploy Logic is triggered, by a Human running a script or initiating from a webpage, etc<br>
+- Deploy Logic is triggered, by a Human running a script or initiating from a webpage, etc.<br>
 <br>
-- The Deploy Logic triggers the Pull Logic to get the latest data.&nbsp;&nbsp;This could also be done several ways, but let's take the simplest one of an Agent Model, where the Deploy tells each of the <br>
+- The Deploy Logic triggers the Pull Logic to get the latest data.&nbsp;&nbsp;This could also be done several ways, but let's take the simplest one of an Agent Model, where the Deploy tells each of the web servers it's time to Pull their deployment data.<br>
 <br>
-- The Pull Logic makes an HTTP request to the Load Balancer, which proxies the request to the HTTP server, which responds with the Deployment Data<br>
+- The Pull Logic makes an HTTP request to the Load Balancer, which proxies the request to the HTTP server, which responds with the Deployment Data.<br>
 <br>
 - The standard "local installation" Logic runs on the web server node, which would run in any of our cases.<br>
 <h3 id=72e6204dcea6d95203e9c1a3e0b946d8><a href="#72e6204dcea6d95203e9c1a3e0b946d8">3.4.1</a>: Alignment</h3>
