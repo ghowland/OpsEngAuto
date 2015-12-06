@@ -97,6 +97,3 @@ So, to summarize, our "pull" alternative is:
 - Some Logic for signaling the target servers that they should invoke the "Pull Logic".  We will this "Deploy Logic", since this invokes the deployment.
 
 
-
-......finish this up, pretty long....
-
