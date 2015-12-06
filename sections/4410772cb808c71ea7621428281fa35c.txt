@@ -97,4 +97,10 @@ So, to summarize, our "pull" alternative is:
 - Some Logic for signaling the target servers that they should invoke the "Pull Logic".  We will this "Deploy Logic", since this invokes the deployment.
 
 
+The flow of this Pull system will be:
+
+- The new deployment data is put in place, in whatever way that is done
+- Deploy Logic is triggered, by a Human running a script or initiating from a webpage, etc
+- The Deploy Logic triggers the 
+
 
