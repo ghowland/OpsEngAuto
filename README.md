@@ -7,9 +7,9 @@ Current Goal: Populate Empty Sections: 246   (Done: 20.4%)
 
 <br><br><b>NOTE: This is still an early Work-In-Progress.  It is being written linearly as a First Rough Draft without editing at the moment.  There are many typos and grammatical errors presently.</b>
 
-Lines: 2617
+Lines: 2623
 
-Words: 45517
+Words: 45572
 
 
 # Chapter 1: Preface (README.txt)
@@ -2565,9 +2565,15 @@ So, to summarize, our "pull" alternative is:<br>
 <br>
 The flow of this Pull system will be:<br>
 <br>
-- The new deployment data is put in place, in whatever way that is done<br>
+- The new deployment data is put in place, in whatever way that is done, which is the same for any of our cases.<br>
+<br>
 - Deploy Logic is triggered, by a Human running a script or initiating from a webpage, etc<br>
-- The Deploy Logic triggers the Pull Logic to get the latest data.&nbsp;&nbsp;This could also be done several ways, but let's take the simplest one of an Agent Model, where the Deploy tells each of the<br>
+<br>
+- The Deploy Logic triggers the Pull Logic to get the latest data.&nbsp;&nbsp;This could also be done several ways, but let's take the simplest one of an Agent Model, where the Deploy tells each of the <br>
+<br>
+- The Pull Logic makes an HTTP request to the Load Balancer, which proxies the request to the HTTP server, which responds with the Deployment Data<br>
+<br>
+- The standard "local installation" Logic runs on the web server node, which would run in any of our cases.<br>
 <h3 id=72e6204dcea6d95203e9c1a3e0b946d8><a href="#72e6204dcea6d95203e9c1a3e0b946d8">3.4.1</a>: Alignment</h3>
 <h3 id=26ab897a0841f617abc1175707de81dd><a href="#26ab897a0841f617abc1175707de81dd">3.4.2</a>: There is no best, except for a certain set of values and priorities, from a limited set of options.</h3>
 <h2 id=9b893b40e08934229116cacf12764a11><a href="#9b893b40e08934229116cacf12764a11">3.5</a>: Understanding Engineering:&nbsp;&nbsp;Environment -> Resources -> Goal -> Actions -> Changed Environment -> Desired Effects?&nbsp;&nbsp;Efficient use of resources?&nbsp;&nbsp;Management of environment?</h2>
