@@ -115,3 +115,4 @@ So, now we have established a more scalable Push and a Pull alternative to our s
 First, let's come up with all the Attribute Axes that we care about here, and then let's prioritize them for ranking purposes, and finally we can assign values to all of the Attribute Axes, and then look at what their Prioritization tells us about what our options are.
 
 
+
