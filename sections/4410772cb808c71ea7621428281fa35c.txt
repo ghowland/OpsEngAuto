@@ -110,6 +110,8 @@ The flow of this Pull system will be:
 - The standard "local installation" Logic runs on the web server node, which would run in any of our cases.
 
 
-....still need to finish...
+So, now we have established a more scalable Push and a Pull alternative to our sequential Push mechanism, how should we go about evaluating them?
+
+First, let's come up with all the Attribute Axes that we care about here, and then let's prioritize them for ranking purposes, and finally we can assign values to all of the Attribute Axes, and then look at what their Prioritization tells us about what our options are.
 
 
