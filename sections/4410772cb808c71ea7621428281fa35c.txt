@@ -146,4 +146,8 @@ Since we are looking for Engineering clarity as opposed to "winning" through rhe
 
 So we have a Centralized axis, and Push = 1.0, and Pull = 0.2.  We have one Attribute Axis filled out.
 
+What's another spectrum we can measure here?  Performance is important, since that is why we are doing this exercise.  So let's rate them both:
 
+- Push: N parallel SCP processes start, and copy the tarball or otherwise single-file packaged deployment data to each node.  Starting 100 SCP processes at once can delay things moving as the handshakes are occurring, but once things start up being in a single SCP process versus an HTTP process will only have the encryption as an added factor, which is fairly minimal on modern hardware and can be ignored unless it can be measured to be important.
+
+- Pull: 1 process initiates 100 processes, which make an HTTP request through a load balancer to our HTTP servers.  We never did cover how the 1 process will initiate the 100 processes; if we use SSH to do it, we are literally doing the same thing that the 100 SCP processes of Push would do (since SCP uses SSH), except for the data delivery.
