@@ -7,9 +7,9 @@ Current Goal: Populate Empty Sections: 246   (Done: 20.4%)
 
 <br><br><b>NOTE: This is still an early Work-In-Progress.  It is being written linearly as a First Rough Draft without editing at the moment.  There are many typos and grammatical errors presently.</b>
 
-Lines: 2678
+Lines: 2682
 
-Words: 46833
+Words: 46888
 
 
 # Chapter 1: Preface (README.txt)
@@ -2628,7 +2628,11 @@ Notice I said "Can't Scale vs Can Scale", and not "Not Scalable vs Scalable".&nb
 <br>
 Imagine a deployment system that can handle quickly doing deployments on 100,000 servers.&nbsp;&nbsp;Is this going to be as easy to use, create and maintain as one that can deploy on 300 servers?&nbsp;&nbsp;Probably not, as the mechanisms that will allow it to scale to 100,000 servers probably add in a lot of complexity and will make it difficult to use this system, and to make changes as the business goals change.<br>
 <br>
+So let's review our Push/Pull options on the "Can't Scale" vs "Can Scale" spectrum:<br>
+<br>
 - Push: Runs on a single machine with 100 processes.&nbsp;&nbsp;This only scales up to what this single machine can handle, so at some point we are going to need to move to more than 1 initiating server.&nbsp;&nbsp;So this is only scalable for so long, and then we will need more machines to perform this copy, and we will need a method to initiate all those machines to initiate their copies.<br>
+<br>
+- Pull: Has 2 limited server groups (initiating, load balancing) and 2 scalable server groups (target servers, HTTP static content servers).&nbsp;&nbsp;This has a much better scaling factor, in that our "limited server" groups are actually easy to expand.&nbsp;&nbsp;It is<br>
 <h3 id=72e6204dcea6d95203e9c1a3e0b946d8><a href="#72e6204dcea6d95203e9c1a3e0b946d8">3.4.1</a>: Alignment</h3>
 <h3 id=26ab897a0841f617abc1175707de81dd><a href="#26ab897a0841f617abc1175707de81dd">3.4.2</a>: There is no best, except for a certain set of values and priorities, from a limited set of options.</h3>
 <h2 id=9b893b40e08934229116cacf12764a11><a href="#9b893b40e08934229116cacf12764a11">3.5</a>: Understanding Engineering:&nbsp;&nbsp;Environment -> Resources -> Goal -> Actions -> Changed Environment -> Desired Effects?&nbsp;&nbsp;Efficient use of resources?&nbsp;&nbsp;Management of environment?</h2>
