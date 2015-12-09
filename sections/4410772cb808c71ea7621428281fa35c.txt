@@ -151,3 +151,9 @@ What's another spectrum we can measure here?  Performance is important, since th
 - Push: N parallel SCP processes start, and copy the tarball or otherwise single-file packaged deployment data to each node.  Starting 100 SCP processes at once can delay things moving as the handshakes are occurring, but once things start up being in a single SCP process versus an HTTP process will only have the encryption as an added factor, which is fairly minimal on modern hardware and can be ignored unless it can be measured to be important.
 
 - Pull: 1 process initiates 100 processes, which make an HTTP request through a load balancer to our HTTP servers.  We never did cover how the 1 process will initiate the 100 processes; if we use SSH to do it, we are literally doing the same thing that the 100 SCP processes of Push would do (since SCP uses SSH), except for the data delivery.
+
+All in all, I'm going to round these out to being equivalent, which means between them we can put both their Performance scales at 1.0, which means it is a non-factor.
+
+What about Scalability?  This is another factor like Performance.  We came to this problem because the Sequential Push was too slow.  It was not too slow when we had less than 100 servers, but at 100 servers it is too slow, which makes this a Scalability issue.  So let's rate our methods in terms of Scalability:
+
+- Push: Runs on a single machine with 100 processes.  This only scales up to what this single machine can handle, so

@@ -5,9 +5,9 @@ Current Goal: Populate Empty Sections: 246   (Done: 20.4%)
 
 <br><br><b>NOTE: This is still an early Work-In-Progress.  It is being written linearly as a First Rough Draft without editing at the moment.  There are many typos and grammatical errors presently.</b><br>
 <br>
-Lines: 2666<br>
+Lines: 2672<br>
 <br>
-Words: 46491<br>
+Words: 46600<br>
 <br>
 <h1 id=48152466029dfcb314ccad4d502d1a73><a href="#48152466029dfcb314ccad4d502d1a73">Chapter 1</a>: Preface (README.txt)</h1>
 <br>
@@ -2576,6 +2576,12 @@ What's another spectrum we can measure here?&nbsp;&nbsp;Performance is important
 - Push: N parallel SCP processes start, and copy the tarball or otherwise single-file packaged deployment data to each node.&nbsp;&nbsp;Starting 100 SCP processes at once can delay things moving as the handshakes are occurring, but once things start up being in a single SCP process versus an HTTP process will only have the encryption as an added factor, which is fairly minimal on modern hardware and can be ignored unless it can be measured to be important.<br>
 <br>
 - Pull: 1 process initiates 100 processes, which make an HTTP request through a load balancer to our HTTP servers.&nbsp;&nbsp;We never did cover how the 1 process will initiate the 100 processes; if we use SSH to do it, we are literally doing the same thing that the 100 SCP processes of Push would do (since SCP uses SSH), except for the data delivery.<br>
+<br>
+All in all, I'm going to round these out to being equivalent, which means between them we can put both their Performance scales at 1.0, which means it is a non-factor.<br>
+<br>
+What about Scalability?&nbsp;&nbsp;This is another factor like Performance.&nbsp;&nbsp;We came to this problem because the Sequential Push was too slow.&nbsp;&nbsp;It was not too slow when we had less than 100 servers, but at 100 servers it is too slow, which makes this a Scalability issue.&nbsp;&nbsp;So let's rate our methods in terms of Scalability:<br>
+<br>
+- Push: Runs on a single machine with 100 processes.&nbsp;&nbsp;This only scales up to what this single machine can handle, so<br>
 <h3 id=72e6204dcea6d95203e9c1a3e0b946d8><a href="#72e6204dcea6d95203e9c1a3e0b946d8">3.4.1</a>: Alignment</h3>
 <h3 id=26ab897a0841f617abc1175707de81dd><a href="#26ab897a0841f617abc1175707de81dd">3.4.2</a>: There is no best, except for a certain set of values and priorities, from a limited set of options.</h3>
 <h2 id=9b893b40e08934229116cacf12764a11><a href="#9b893b40e08934229116cacf12764a11">3.5</a>: Understanding Engineering:&nbsp;&nbsp;Environment -> Resources -> Goal -> Actions -> Changed Environment -> Desired Effects?&nbsp;&nbsp;Efficient use of resources?&nbsp;&nbsp;Management of environment?</h2>
