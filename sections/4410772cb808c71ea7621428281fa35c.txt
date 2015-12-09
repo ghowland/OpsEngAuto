@@ -176,3 +176,5 @@ I will rate the Pull option as having a Can Scale value of 0.75.  This is still 
 
 Now, let's come up with another spectrum, which I will call Knowability (as we have used generically before), but will be more specific in this case:  Do we know all target servers got the new code?  Do we know they all installed the new code?  Do we know they are all running the same code?  This is what Knowability will mean for this case.
 
+...tbc....
+
