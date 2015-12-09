@@ -130,5 +130,7 @@ Firstly, we are always Decentralized on our HTTP servers, because we have more t
 
 The question is whether we will make our Source Decentralized (HTTP servers behind load balancers), or our Source Centralized.
 
-There is a slightly different perspective on this already going on with Sequential vs. Parallel execution on a single node.  Parallel execution has a "Decentralized" factor over a 
+There is a slightly different perspective on this already going on with Sequential vs. Parallel execution on a single node.  Parallel execution has a "Decentralized" factor over a sequential execution, which is the Centralization of an execution process.  The differences between running many processes on the same server or running many processes on different servers have many similarities.
+
+
 
