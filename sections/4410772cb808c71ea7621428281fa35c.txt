@@ -136,5 +136,7 @@ Now that we have this Centralization spectrum, let's put our options on the tabl
 
 - Push: Centralized execution of parallel processes.  While there is an element of Decentralization to the Parallel processing vs. sequential, this operates under the black-box of this server, since it is on a single server, it is still a 1-instance system, and so is fully Centralized.  Centralized = 1.0.
 
-- 
+- Pull: We initiate it on a single machine, that contacts 100 machines, those contact 1 machine (Load Balancer), which contacts N machines that serve static HTTP.  This has a back-and-forth in terms of being Centralized as we move from 1-instance to N-instance, back to few-instances (1 Load Balancer), to N-instances (HTTP) again.  However, when we black-box this, the important part is that the 100 machines (N-instances) are requesting their deployment data independently:  this is Decentralized intallation, so Centralization is closer to 0.0, but probably not full 0.0, since there are many centralized steps, let's call it Centralized = 0.2.
+
+
 
