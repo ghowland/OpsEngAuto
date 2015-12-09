@@ -5,9 +5,9 @@ Current Goal: Populate Empty Sections: 246   (Done: 20.4%)
 
 <br><br><b>NOTE: This is still an early Work-In-Progress.  It is being written linearly as a First Rough Draft without editing at the moment.  There are many typos and grammatical errors presently.</b><br>
 <br>
-Lines: 2652<br>
+Lines: 2656<br>
 <br>
-Words: 46048<br>
+Words: 46163<br>
 <br>
 <h1 id=48152466029dfcb314ccad4d502d1a73><a href="#48152466029dfcb314ccad4d502d1a73">Chapter 1</a>: Preface (README.txt)</h1>
 <br>
@@ -2562,6 +2562,10 @@ Now that we have this Centralization spectrum, let's put our options on the tabl
 - Push: Centralized execution of parallel processes.&nbsp;&nbsp;While there is an element of Decentralization to the Parallel processing vs. sequential, this operates under the black-box of this server, since it is on a single server, it is still a 1-instance system, and so is fully Centralized.&nbsp;&nbsp;Centralized = 1.0.<br>
 <br>
 - Pull: We initiate it on a single machine, that contacts 100 machines, those contact 1 machine (Load Balancer), which contacts N machines that serve static HTTP.&nbsp;&nbsp;This has a back-and-forth in terms of being Centralized as we move from 1-instance to N-instance, back to few-instances (1 Load Balancer), to N-instances (HTTP) again.&nbsp;&nbsp;However, when we black-box this, the important part is that the 100 machines (N-instances) are requesting their deployment data independently:&nbsp;&nbsp;this is Decentralized intallation, so Centralization is closer to 0.0, but probably not full 0.0, since there are many centralized steps, let's call it Centralized = 0.2.<br>
+<br>
+Even in creating a simple set of values for comparison on a single Attribute Axes, we found there are many sub-points that could confuse the topic, and be causes for disagreement.&nbsp;&nbsp;I'm able to settle these quickly in this text, because I don't have to have anyone else agree with my assessments, but as soon as you add in other people you quickly get disagreements based on terminology, experience and understanding of the current problem and previous solutions.<br>
+<br>
+This makes this kind of thing essentially an unsolvable problem in terms of communication, and underlines how important it is to try to communicate clearly, like with Prioritized Attribute Axes, as it allows for some semblence of<br>
 <h3 id=72e6204dcea6d95203e9c1a3e0b946d8><a href="#72e6204dcea6d95203e9c1a3e0b946d8">3.4.1</a>: Alignment</h3>
 <h3 id=26ab897a0841f617abc1175707de81dd><a href="#26ab897a0841f617abc1175707de81dd">3.4.2</a>: There is no best, except for a certain set of values and priorities, from a limited set of options.</h3>
 <h2 id=9b893b40e08934229116cacf12764a11><a href="#9b893b40e08934229116cacf12764a11">3.5</a>: Understanding Engineering:&nbsp;&nbsp;Environment -> Resources -> Goal -> Actions -> Changed Environment -> Desired Effects?&nbsp;&nbsp;Efficient use of resources?&nbsp;&nbsp;Management of environment?</h2>
