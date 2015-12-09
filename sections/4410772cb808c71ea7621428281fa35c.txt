@@ -170,3 +170,9 @@ So let's review our Push/Pull options on the "Can't Scale" vs "Can Scale" spectr
 
 So, with this I'm going to assign some values based on my internal experience and understanding of this space.  It would take too much space to go into all the decision points I am making to assign these values.  As an exercise, do your own analysis on this and come up with your own values, and compare them to mine.  Why do you think we came up with different values?  This will happen with every person you work with, if you both have different ideas for how to implement things, so it is a useful exercise.
 
+I will rate the Push option as having a Can Scale value of 0.5.  It can scale, but will start to have problems as the target server count gets bigger.  SCP is not as fast as HTTP, and is not set up to handle as many simultaneous connections.
+
+I will rate the Pull option as having a Can Scale value of 0.75.  This is still not an amazingly scalable architecture, but it has the ability to scale better than the previous one, so I am leaving room for more-scalable solutions, but indicating that it is clearly superior to the Push option in this single Attribute Axis.
+
+Now, let's come up with another spectrum, which I will call Knowability (as we have used generically before), but will be more specific in this case:  Do we know all target servers got the new code?  Do we know they all installed the new code?  Do we know they are all running the same code?  This is what Knowability will mean for this case.
+

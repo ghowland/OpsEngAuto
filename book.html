@@ -5,9 +5,9 @@ Current Goal: Populate Empty Sections: 246   (Done: 20.4%)
 
 <br><br><b>NOTE: This is still an early Work-In-Progress.  It is being written linearly as a First Rough Draft without editing at the moment.  There are many typos and grammatical errors presently.</b><br>
 <br>
-Lines: 2684<br>
+Lines: 2690<br>
 <br>
-Words: 47037<br>
+Words: 47207<br>
 <br>
 <h1 id=48152466029dfcb314ccad4d502d1a73><a href="#48152466029dfcb314ccad4d502d1a73">Chapter 1</a>: Preface (README.txt)</h1>
 <br>
@@ -2594,6 +2594,12 @@ So let's review our Push/Pull options on the "Can't Scale" vs "Can Scale" spectr
 - Pull: Has 2 limited server groups (initiating, load balancing) and 2 scalable server groups (target servers, HTTP static content servers).&nbsp;&nbsp;This has a much better scaling factor, in that our "limited server" groups are actually easy to expand.&nbsp;&nbsp;It is easy to add more Load Balancers, and easy to split up Initiators, as they do a small workload (triggering the deployment fetching Logic on the target nodes).&nbsp;&nbsp;Additionally, since the initiating Logic (Pull) does less work than the copying Logic (Push), we can run more target node initiations from a single Pull-instance server.<br>
 <br>
 So, with this I'm going to assign some values based on my internal experience and understanding of this space.&nbsp;&nbsp;It would take too much space to go into all the decision points I am making to assign these values.&nbsp;&nbsp;As an exercise, do your own analysis on this and come up with your own values, and compare them to mine.&nbsp;&nbsp;Why do you think we came up with different values?&nbsp;&nbsp;This will happen with every person you work with, if you both have different ideas for how to implement things, so it is a useful exercise.<br>
+<br>
+I will rate the Push option as having a Can Scale value of 0.5.&nbsp;&nbsp;It can scale, but will start to have problems as the target server count gets bigger.&nbsp;&nbsp;SCP is not as fast as HTTP, and is not set up to handle as many simultaneous connections.<br>
+<br>
+I will rate the Pull option as having a Can Scale value of 0.75.&nbsp;&nbsp;This is still not an amazingly scalable architecture, but it has the ability to scale better than the previous one, so I am leaving room for more-scalable solutions, but indicating that it is clearly superior to the Push option in this single Attribute Axis.<br>
+<br>
+Now, let's come up with another spectrum, which I will call Knowability (as we have used generically before), but will be more specific in this case:&nbsp;&nbsp;Do we know all target servers got the new code?&nbsp;&nbsp;Do we know they all installed the new code?&nbsp;&nbsp;Do we know they are all running the same code?&nbsp;&nbsp;This is what Knowability will mean for this case.<br>
 <h3 id=72e6204dcea6d95203e9c1a3e0b946d8><a href="#72e6204dcea6d95203e9c1a3e0b946d8">3.4.1</a>: Alignment</h3>
 <h3 id=26ab897a0841f617abc1175707de81dd><a href="#26ab897a0841f617abc1175707de81dd">3.4.2</a>: There is no best, except for a certain set of values and priorities, from a limited set of options.</h3>
 <h2 id=9b893b40e08934229116cacf12764a11><a href="#9b893b40e08934229116cacf12764a11">3.5</a>: Understanding Engineering:&nbsp;&nbsp;Environment -> Resources -> Goal -> Actions -> Changed Environment -> Desired Effects?&nbsp;&nbsp;Efficient use of resources?&nbsp;&nbsp;Management of environment?</h2>
