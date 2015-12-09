@@ -114,5 +114,19 @@ So, now we have established a more scalable Push and a Pull alternative to our s
 
 First, let's come up with all the Attribute Axes that we care about here, and then let's prioritize them for ranking purposes, and finally we can assign values to all of the Attribute Axes, and then look at what their Prioritization tells us about what our options are.
 
+One important concept to always be aware of when designing a solution is Centralization.  Let's create that spectrum:
 
+Decentralized <---> Centralized
+
+On the Decentralized end of the spectrum, things are done on many nodes (machines, servers, etc), and on the Centralized end of the spectrum, things are done in a single place.
+
+The benefits of Centralization are control, and a single point to detect failures and perform control logic.
+
+The liabilities of Centralization, or the benefits of Decentralization, are that there are many nodes, so if a node fails, you only lost 1/N of the total processing capacity, this also can help with performance as many nodes can do more work than a single node.
+
+However, we actually have 2 sides to this Centralization question.
+
+Firstly, we are always Decentralized on our HTTP servers, because we have more than 1 of them, or N of them.  So our Target is already Decentralized.
+
+The question is whether we will make our Source Decentralized (HTTP servers behind load balancers), or 
 

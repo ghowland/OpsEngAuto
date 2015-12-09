@@ -5,9 +5,9 @@ Current Goal: Populate Empty Sections: 246   (Done: 20.4%)
 
 <br><br><b>NOTE: This is still an early Work-In-Progress.  It is being written linearly as a First Rough Draft without editing at the moment.  There are many typos and grammatical errors presently.</b><br>
 <br>
-Lines: 2628<br>
+Lines: 2644<br>
 <br>
-Words: 45654<br>
+Words: 45822<br>
 <br>
 <h1 id=48152466029dfcb314ccad4d502d1a73><a href="#48152466029dfcb314ccad4d502d1a73">Chapter 1</a>: Preface (README.txt)</h1>
 <br>
@@ -2538,6 +2538,22 @@ The flow of this Pull system will be:<br>
 So, now we have established a more scalable Push and a Pull alternative to our sequential Push mechanism, how should we go about evaluating them?<br>
 <br>
 First, let's come up with all the Attribute Axes that we care about here, and then let's prioritize them for ranking purposes, and finally we can assign values to all of the Attribute Axes, and then look at what their Prioritization tells us about what our options are.<br>
+<br>
+One important concept to always be aware of when designing a solution is Centralization.&nbsp;&nbsp;Let's create that spectrum:<br>
+<br>
+Decentralized <---> Centralized<br>
+<br>
+On the Decentralized end of the spectrum, things are done on many nodes (machines, servers, etc), and on the Centralized end of the spectrum, things are done in a single place.<br>
+<br>
+The benefits of Centralization are control, and a single point to detect failures and perform control logic.<br>
+<br>
+The liabilities of Centralization, or the benefits of Decentralization, are that there are many nodes, so if a node fails, you only lost 1/N of the total processing capacity, this also can help with performance as many nodes can do more work than a single node.<br>
+<br>
+However, we actually have 2 sides to this Centralization question.<br>
+<br>
+Firstly, we are always Decentralized on our HTTP servers, because we have more than 1 of them, or N of them.&nbsp;&nbsp;So our Target is already Decentralized.<br>
+<br>
+The question is whether we will make our Source Decentralized (HTTP servers behind load balancers), or<br>
 <h3 id=72e6204dcea6d95203e9c1a3e0b946d8><a href="#72e6204dcea6d95203e9c1a3e0b946d8">3.4.1</a>: Alignment</h3>
 <h3 id=26ab897a0841f617abc1175707de81dd><a href="#26ab897a0841f617abc1175707de81dd">3.4.2</a>: There is no best, except for a certain set of values and priorities, from a limited set of options.</h3>
 <h2 id=9b893b40e08934229116cacf12764a11><a href="#9b893b40e08934229116cacf12764a11">3.5</a>: Understanding Engineering:&nbsp;&nbsp;Environment -> Resources -> Goal -> Actions -> Changed Environment -> Desired Effects?&nbsp;&nbsp;Efficient use of resources?&nbsp;&nbsp;Management of environment?</h2>
