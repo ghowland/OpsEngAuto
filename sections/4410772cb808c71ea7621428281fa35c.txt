@@ -128,5 +128,7 @@ However, we actually have 2 sides to this Centralization question.
 
 Firstly, we are always Decentralized on our HTTP servers, because we have more than 1 of them, or N of them.  So our Target is already Decentralized.
 
-The question is whether we will make our Source Decentralized (HTTP servers behind load balancers), or 
+The question is whether we will make our Source Decentralized (HTTP servers behind load balancers), or our Source Centralized.
+
+There is a slightly different perspective on this already going on with Sequential vs. Parallel execution on a single node.  Parallel execution has a "Decentralized" factor over a 
 

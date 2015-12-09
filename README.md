@@ -7,9 +7,9 @@ Current Goal: Populate Empty Sections: 246   (Done: 20.4%)
 
 <br><br><b>NOTE: This is still an early Work-In-Progress.  It is being written linearly as a First Rough Draft without editing at the moment.  There are many typos and grammatical errors presently.</b>
 
-Lines: 2644
+Lines: 2646
 
-Words: 45822
+Words: 45853
 
 
 # Chapter 1: Preface (README.txt)
@@ -2594,7 +2594,9 @@ However, we actually have 2 sides to this Centralization question.<br>
 <br>
 Firstly, we are always Decentralized on our HTTP servers, because we have more than 1 of them, or N of them.&nbsp;&nbsp;So our Target is already Decentralized.<br>
 <br>
-The question is whether we will make our Source Decentralized (HTTP servers behind load balancers), or<br>
+The question is whether we will make our Source Decentralized (HTTP servers behind load balancers), or our Source Centralized.<br>
+<br>
+There is a slightly different perspective on this already going on with Sequential vs. Parallel execution on a single node.&nbsp;&nbsp;Parallel execution has a "Decentralized" factor over a<br>
 <h3 id=72e6204dcea6d95203e9c1a3e0b946d8><a href="#72e6204dcea6d95203e9c1a3e0b946d8">3.4.1</a>: Alignment</h3>
 <h3 id=26ab897a0841f617abc1175707de81dd><a href="#26ab897a0841f617abc1175707de81dd">3.4.2</a>: There is no best, except for a certain set of values and priorities, from a limited set of options.</h3>
 <h2 id=9b893b40e08934229116cacf12764a11><a href="#9b893b40e08934229116cacf12764a11">3.5</a>: Understanding Engineering:&nbsp;&nbsp;Environment -> Resources -> Goal -> Actions -> Changed Environment -> Desired Effects?&nbsp;&nbsp;Efficient use of resources?&nbsp;&nbsp;Management of environment?</h2>
