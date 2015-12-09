@@ -140,4 +140,8 @@ Now that we have this Centralization spectrum, let's put our options on the tabl
 
 Even in creating a simple set of values for comparison on a single Attribute Axes, we found there are many sub-points that could confuse the topic, and be causes for disagreement.  I'm able to settle these quickly in this text, because I don't have to have anyone else agree with my assessments, but as soon as you add in other people you quickly get disagreements based on terminology, experience and understanding of the current problem and previous solutions.
 
-This makes this kind of thing essentially an unsolvable problem in terms of communication, and underlines how important it is to try to communicate clearly, like with Prioritized Attribute Axes, as it allows for some semblence of 
+This makes this kind of thing essentially an unsolvable problem in terms of communication, and underlines how important it is to try to communicate clearly, like with Prioritized Attribute Axes, as it allows for some resemblance of qualified and quantified discussion, instead of the usual method of making decisions in groups:  who can talk the most, who can talk the loudest, who is better at arguing and the most important, who has the most social capital to spend on "winning" the current discussion.
+
+Since we are looking for Engineering clarity as opposed to "winning" through rhetoric, we must make our best efforts to perform this work clearly, even though as we get into the details of any topic it obviously becomes unclear and could be subjectively argued to mean the opposite thing.  Your experience and discretion will determine what path you go down, so paying attention to the results (effects) of all your actions will need to be your guide in how to make these choices to get effects you desire, and avoid effects you do not.
+
+
