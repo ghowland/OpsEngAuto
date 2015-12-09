@@ -116,7 +116,7 @@ First, let's come up with all the Attribute Axes that we care about here, and th
 
 One important concept to always be aware of when designing a solution is Centralization.  Let's create that spectrum:
 
-Decentralized <---> Centralized
+Decentralized (0.0) <---> Centralized (1.0)
 
 On the Decentralized end of the spectrum, things are done on many nodes (machines, servers, etc), and on the Centralized end of the spectrum, things are done in a single place.
 

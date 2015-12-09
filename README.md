@@ -9,7 +9,7 @@ Current Goal: Populate Empty Sections: 246   (Done: 20.4%)
 
 Lines: 2652
 
-Words: 46046
+Words: 46048
 
 
 # Chapter 1: Preface (README.txt)
@@ -2582,7 +2582,7 @@ First, let's come up with all the Attribute Axes that we care about here, and th
 <br>
 One important concept to always be aware of when designing a solution is Centralization.&nbsp;&nbsp;Let's create that spectrum:<br>
 <br>
-Decentralized <---> Centralized<br>
+Decentralized (0.0) <---> Centralized (1.0)<br>
 <br>
 On the Decentralized end of the spectrum, things are done on many nodes (machines, servers, etc), and on the Centralized end of the spectrum, things are done in a single place.<br>
 <br>
