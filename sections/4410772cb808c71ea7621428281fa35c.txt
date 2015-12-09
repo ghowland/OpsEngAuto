@@ -144,4 +144,6 @@ This makes this kind of thing essentially an unsolvable problem in terms of comm
 
 Since we are looking for Engineering clarity as opposed to "winning" through rhetoric, we must make our best efforts to perform this work clearly, even though as we get into the details of any topic it obviously becomes unclear and could be subjectively argued to mean the opposite thing.  Your experience and discretion will determine what path you go down, so paying attention to the results (effects) of all your actions will need to be your guide in how to make these choices to get effects you desire, and avoid effects you do not.
 
+So we have a Centralized axis, and Push = 1.0, and Pull = 0.2.  We have one Attribute Axis filled out.
+
 
