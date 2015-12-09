@@ -132,5 +132,9 @@ The question is whether we will make our Source Decentralized (HTTP servers behi
 
 There is a slightly different perspective on this already going on with Sequential vs. Parallel execution on a single node.  Parallel execution has a "Decentralized" factor over a sequential execution, which is the Centralization of an execution process.  The differences between running many processes on the same server or running many processes on different servers have many similarities.
 
+Now that we have this Centralization spectrum, let's put our options on the table:
 
+- Push: Centralized execution of parallel processes.  While there is an element of Decentralization to the Parallel processing vs. sequential, this operates under the black-box of this server, since it is on a single server, it is still a 1-instance system, and so is fully Centralized.  Centralized = 1.0.
+
+- 
 
