@@ -7,7 +7,7 @@ Current Goal: Populate Empty Sections: 246   (Done: 20.4%)
 
 <br><br><b>NOTE: This is still an early Work-In-Progress.  It is being written linearly as a First Rough Draft without editing at the moment.  There are many typos and grammatical errors presently.</b>
 
-Lines: 2692
+Lines: 2693
 
 Words: 47208
 
@@ -2641,6 +2641,7 @@ I will rate the Push option as having a Can Scale value of 0.5.&nbsp;&nbsp;It ca
 I will rate the Pull option as having a Can Scale value of 0.75.&nbsp;&nbsp;This is still not an amazingly scalable architecture, but it has the ability to scale better than the previous one, so I am leaving room for more-scalable solutions, but indicating that it is clearly superior to the Push option in this single Attribute Axis.<br>
 <br>
 Now, let's come up with another spectrum, which I will call Knowability (as we have used generically before), but will be more specific in this case:&nbsp;&nbsp;Do we know all target servers got the new code?&nbsp;&nbsp;Do we know they all installed the new code?&nbsp;&nbsp;Do we know they are all running the same code?&nbsp;&nbsp;This is what Knowability will mean for this case.<br>
+<br>
 <br>
 ...tbc....<br>
 <h3 id=72e6204dcea6d95203e9c1a3e0b946d8><a href="#72e6204dcea6d95203e9c1a3e0b946d8">3.4.1</a>: Alignment</h3>
