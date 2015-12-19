@@ -9,7 +9,7 @@ Current Goal: Populate Empty Sections: 246   (Done: 20.4%)
 
 Lines: 2695
 
-Words: 47534
+Words: 47535
 
 
 # Chapter 1: Preface (README.txt)
@@ -555,7 +555,7 @@ Using airport codes, of the airport closest to the location, is a common practic
 <br>
 The example domain of our example organization.&nbsp;&nbsp;The important part here is that it is consistent.<br>
 <br>
-There is a difference between internal names and external names, in that internal names can be kept consistent with the work of the Operations department, but external names are frequently in control of other departments such as Marketing, Business Development, Sales, etc.<br>
+There is a difference between internal names and external names, in that internal names can be kept consistent with the work of the Operations department, but external names are frequently under the control of other departments such as Marketing, Business Development, Sales, etc.<br>
 <br>
 As such, they should be treated differently.&nbsp;&nbsp;Internal names should be rigidly controlled, and external names should come with high recommendations for using naming conventions.&nbsp;&nbsp;You could even provide several different recommendations for external naming conventions, to try to get other departments to constrain themselves and avoiding total naming-anarchy.<br>
 <br>

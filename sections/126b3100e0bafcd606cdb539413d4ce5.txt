@@ -151,7 +151,7 @@ Using airport codes, of the airport closest to the location, is a common practic
 
 The example domain of our example organization.  The important part here is that it is consistent.
 
-There is a difference between internal names and external names, in that internal names can be kept consistent with the work of the Operations department, but external names are frequently in control of other departments such as Marketing, Business Development, Sales, etc.
+There is a difference between internal names and external names, in that internal names can be kept consistent with the work of the Operations department, but external names are frequently under the control of other departments such as Marketing, Business Development, Sales, etc.
 
 As such, they should be treated differently.  Internal names should be rigidly controlled, and external names should come with high recommendations for using naming conventions.  You could even provide several different recommendations for external naming conventions, to try to get other departments to constrain themselves and avoiding total naming-anarchy.
 
