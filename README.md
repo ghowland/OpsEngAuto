@@ -190,7 +190,7 @@ Going to the very basics and working up from there will allow us to develop a co
 
 
 
-<h2 id=ff17d94c0d49aab3e372e47b64b96ea7><a href="#ff17d94c0d49aab3e372e47b64b96ea7">2.1</a>: The differences between Virtual and Physical: Real and Unreal</h2>
+<h2 id=ff17d94c0d49aab3e372e47b64b96ea7><a href="#ff17d94c0d49aab3e372e47b64b96ea7">2.1</a>: The differences between Physical and Virtual: Real and Unreal</h2>
 <br>
 "What is reality?" is a question that is too big and general to be dealt with here, if you want a good introduction on how to understand this from an engineering perspective, you can see Bertrand Russell's book {{ book_russell_reality }}.&nbsp;&nbsp;It does a good job of describing how reality can be determined from our senses, and is a fairly short read (described in about the first 30 pages).&nbsp;&nbsp;You can also take a look on Wikipedia at the philosophical movement, Logical Positivism, which is a useful philosophy for engineers, and is one of the philosophical methodologies I use and reference in this book.<br>
 <br>
