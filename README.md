@@ -9,7 +9,7 @@ Current Goal: Populate Empty Sections: 246   (Done: 20.4%)
 
 Lines: 2695
 
-Words: 47481
+Words: 47495
 
 
 # Chapter 1: Preface (README.txt)
@@ -492,7 +492,7 @@ Then later they or someone else (more likely) created a new set of machines with
 <br>
 This creates problems every time someone tries to work on these machines.&nbsp;&nbsp;Logging into any given machine takes either trial-and-error, memorization, or looking it up.&nbsp;&nbsp;Each of these is inefficient in time and personnel resources, and as the site scales up (more servers, more services), these kinds of time-personnel costs start to become major factors in both how much work can be accomplished in a given period of time, how frequently mistakes are made (not updating all the servers in the same fashion, performing work on the wrong servers), how long it takes to train new employees, and how well any employee really knows the environment.<br>
 <br>
-We are probably in agreement that planned naming conventions is better than unplanned or de facto naming conventions, but we are engineers, and it is not enough to think something is better, we require being able to dissect the issue to see what the components make it up, so that we can build it better for our specific needs.<br>
+We are probably in agreement that planned naming conventions is better than unplanned or de facto naming conventions, but we are engineers, and it is not enough to think something is better, we require being able to dissect the issue to see what the components make it up, so that we can build it better for our specific needs, for any given circumstance, to create the most efficient solution for that specific circumstance.<br>
 <br>
 Let's take a look at the original planned naming convention I gave, and see how we can make it more efficient, since we want it to be our one-and-only naming convention.<br>
 <br>
