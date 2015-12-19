@@ -7,7 +7,7 @@ Current Goal: Populate Empty Sections: 246   (Done: 20.4%)
 
 <br><br><b>NOTE: This is still an early Work-In-Progress.  It is being written linearly as a First Rough Draft without editing at the moment.  There are many typos and grammatical errors presently.</b>
 
-Lines: 2699
+Lines: 2697
 
 Words: 47405
 
@@ -283,9 +283,7 @@ If I believe I have solid information, that I can take action on, I can begin im
 <br>
 How do I know if what I really know is good information?<br>
 <br>
-It should be sourced from my own experiences, or it should be planned to quickly make checking the information so that it becomes part of my personal experience.<br>
-<br>
-Things I have personally experienced, I can say I have knowledge of.&nbsp;&nbsp;<br>
+It should be sourced from my own experiences, or it should be planned to quickly make checking the information so that it becomes part of my personal experience.&nbsp;&nbsp;Things I have personally experienced, I can say I have knowledge of.&nbsp;&nbsp;<br>
 <br>
 Things I have read or heard, or that someone (including myself) just thought up may not be related to the reality of what is going on at the moment.<br>
 <br>
