@@ -9,7 +9,7 @@ Current Goal: Populate Empty Sections: 246   (Done: 20.4%)
 
 Lines: 2695
 
-Words: 47506
+Words: 47534
 
 
 # Chapter 1: Preface (README.txt)
@@ -547,7 +547,7 @@ Common examples:&nbsp;&nbsp;prod, stage, qa, dev, corp, net<br>
 <br>
 - sjc<br>
 <br>
-This is the location of the datacenter the server is in.&nbsp;&nbsp;Whether it is a closet, or a Tier-4 Gold data center, you have assigned a location to it, so no one has to guess.&nbsp;&nbsp;If you are consistent and only put the correct location labels into the hostnames, you will not have confusion over where machines physically reside when this becomes an issue, say for maintenance, repairs, networking changes or migrations.<br>
+This is the location of the datacenter the server is in.&nbsp;&nbsp;Whether it is a closet, or a Tier-4 Gold data center, you have assigned a location to it, so no one has to guess.&nbsp;&nbsp;If you are consistent and only put the correct location labels into the hostnames, you will not have confusion over where machines physically reside when this becomes an issue, say for maintenance, repairs, networking changes or migrations.&nbsp;&nbsp;If you are shutting down a datacenter, you definitely want to know all the machines in that datacenter, so you can migrate their services and not miss anything.<br>
 <br>
 Using airport codes, of the airport closest to the location, is a common practice and a good one.&nbsp;&nbsp;It allows being fairly specific, but not having to debate over whether something is inside this-or-that region.&nbsp;&nbsp;Simply find the closest airport with a 3-letter airport code and use that.&nbsp;&nbsp;It doesn't matter how big the airport is, if it is a registered airport it is guaranteed to be unique and give you a latitude and longitude to the general area in a consistent manner.<br>
 <br>

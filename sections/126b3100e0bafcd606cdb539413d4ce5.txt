@@ -143,7 +143,7 @@ Common examples:  prod, stage, qa, dev, corp, net
 
 - sjc
 
-This is the location of the datacenter the server is in.  Whether it is a closet, or a Tier-4 Gold data center, you have assigned a location to it, so no one has to guess.  If you are consistent and only put the correct location labels into the hostnames, you will not have confusion over where machines physically reside when this becomes an issue, say for maintenance, repairs, networking changes or migrations.
+This is the location of the datacenter the server is in.  Whether it is a closet, or a Tier-4 Gold data center, you have assigned a location to it, so no one has to guess.  If you are consistent and only put the correct location labels into the hostnames, you will not have confusion over where machines physically reside when this becomes an issue, say for maintenance, repairs, networking changes or migrations.  If you are shutting down a datacenter, you definitely want to know all the machines in that datacenter, so you can migrate their services and not miss anything.
 
 Using airport codes, of the airport closest to the location, is a common practice and a good one.  It allows being fairly specific, but not having to debate over whether something is inside this-or-that region.  Simply find the closest airport with a 3-letter airport code and use that.  It doesn't matter how big the airport is, if it is a registered airport it is guaranteed to be unique and give you a latitude and longitude to the general area in a consistent manner.
 
