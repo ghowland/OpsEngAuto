@@ -9,7 +9,7 @@ Current Goal: Populate Empty Sections: 246   (Done: 20.4%)
 
 Lines: 2695
 
-Words: 47405
+Words: 47406
 
 
 # Chapter 1: Preface (README.txt)
@@ -287,7 +287,7 @@ It should be sourced from my own experiences, or it should be planned to quickly
 <br>
 Things I have read or heard, or that someone (including myself) just thought up may not be related to the reality of what is going on at the moment.&nbsp;&nbsp;Actions based on non-personal-experience information are going to yield extremely unreliable results, because the information was not grounded in the circumstances it is being applied to:&nbsp;&nbsp;Reality.<br>
 <br>
-What you experience and work with directly constitutes your actual context:&nbsp;&nbsp;Reality.&nbsp;&nbsp;Information that is not directly related to your context may not be directly applicable.<br>
+What you experience and work with directly constitutes your actual context:&nbsp;&nbsp;Reality.&nbsp;&nbsp;Information that is not directly related to your context may not be directly applicable: Virtual.<br>
 <br>
 Let's create an example, a problem for us to solve.&nbsp;&nbsp;We'll be doing a lot of this during the course of the book, so to get the most out of these I would suggest taking a moment each time one is introduced to try to model it out in your mind, imagine it, draw it out on paper, or do whatever works best for you.&nbsp;&nbsp;I will discuss some of my techniques for doing this as we progress, but please use what you already know and invent new ones any time they occur to you as well, and try them out.<br>
 <br>
