@@ -7,7 +7,7 @@ Current Goal: Populate Empty Sections: 246   (Done: 20.4%)
 
 <br><br><b>NOTE: This is still an early Work-In-Progress.  It is being written linearly as a First Rough Draft without editing at the moment.  There are many typos and grammatical errors presently.</b>
 
-Lines: 2697
+Lines: 2698
 
 Words: 47376
 
@@ -248,6 +248,7 @@ Let's create a quick list of things that are real and virtual, for an immediate 
 - Fonts: Virtual.&nbsp;&nbsp;Data about how ink can be put on a page, or pixels illuminated on a screen.<br>
 - Light emission from monitors: Real.<br>
 - Words and letters written on the monitor: Virtual.&nbsp;&nbsp;These are just patterns we recognize, and are all virtual.&nbsp;&nbsp;The physical properties of them are real, but those are not what we call "words" or "letters", but are instead patterns of photons at different frequencies and intensity.<br>
+<br>
 - "A network": Virtual.&nbsp;&nbsp;It's a concept of something that "networks", or more specifically may be an network IP address (data), that describes the network.<br>
 - Network cables: Real.&nbsp;&nbsp;Physical objects, that carry current.<br>
 - Ethernet protocol: Virtual.&nbsp;&nbsp;A collection of data and logic that describes how to communicate over electrical signals.<br>
