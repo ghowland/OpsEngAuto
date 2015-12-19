@@ -125,7 +125,7 @@ I will call this first part of a naming convention our "Host Class".  So machine
 
 This is our Instance number.  It is the first (or second if starting from 000) machine in in the "web" Host Class.
 
-This has an obvious limit of stopping at 999, and then the naming convention breaks.  Many organizations will never have more than 999 servers of any type, but this is not a reason to fail to plan for the case of scaling past that point.
+This has an obvious limit of stopping at 999, and then the naming convention reaches it's limit.  Many organizations will never have more than 999 servers of any type, but this is not a reason to fail to plan for the case of scaling past that point.
 
 It costs very little to make a good naming convention, and only requires diligence and checking your work to ensure that no one creates names they should not, and it will save much pain in having issues with naming down the line.
 

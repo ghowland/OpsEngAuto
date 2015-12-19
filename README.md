@@ -9,7 +9,7 @@ Current Goal: Populate Empty Sections: 246   (Done: 20.4%)
 
 Lines: 2695
 
-Words: 47501
+Words: 47503
 
 
 # Chapter 1: Preface (README.txt)
@@ -529,7 +529,7 @@ I will call this first part of a naming convention our "Host Class".&nbsp;&nbsp;
 <br>
 This is our Instance number.&nbsp;&nbsp;It is the first (or second if starting from 000) machine in in the "web" Host Class.<br>
 <br>
-This has an obvious limit of stopping at 999, and then the naming convention breaks.&nbsp;&nbsp;Many organizations will never have more than 999 servers of any type, but this is not a reason to fail to plan for the case of scaling past that point.<br>
+This has an obvious limit of stopping at 999, and then the naming convention reaches it's limit.&nbsp;&nbsp;Many organizations will never have more than 999 servers of any type, but this is not a reason to fail to plan for the case of scaling past that point.<br>
 <br>
 It costs very little to make a good naming convention, and only requires diligence and checking your work to ensure that no one creates names they should not, and it will save much pain in having issues with naming down the line.<br>
 <br>
