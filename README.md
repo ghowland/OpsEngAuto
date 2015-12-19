@@ -9,7 +9,7 @@ Current Goal: Populate Empty Sections: 246   (Done: 20.4%)
 
 Lines: 2695
 
-Words: 47474
+Words: 47472
 
 
 # Chapter 1: Preface (README.txt)
@@ -420,7 +420,7 @@ So a spectrum for Control would look like:<br>
 <br>
 De Facto <----> Planned<br>
 <br>
-Planned operations will have strict naming conventions, where all the data required to be derived from a name is embedded in the name, and when new services, products, environments, and other things arrive, they are intelligently inserted into the existing convention, and they do not create new conventions, and they do not arbitrarily add new components or re-use existing components for different purposes.<br>
+Planned operations will have strict naming conventions, where all the data required to be derived from data embedded in the name, and when new services, products, environments, and other things arrive, they are intelligently inserted into the existing convention, and they do not create new conventions, and they do not arbitrarily add new components or re-use existing components for different purposes.<br>
 <br>
 An example of "de facto" naming of hostnames might be like this:<br>
 <br>
