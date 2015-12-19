@@ -54,7 +54,7 @@ Let's create a quick list of things that are real and virtual, for an immediate 
 - Words.  Virtual.
 - Ink on a page: Real.
 - Fonts: Virtual.  Data about how ink can be put on a page, or pixels illuminated on a screen.
-- Light emission from monitors: Real.
+- Light emission from monitors/screens: Real.
 - Words and letters written on the monitor: Virtual.  These are just patterns we recognize, and are all virtual.  The physical properties of them are real, but those are not what we call "words" or "letters", but are instead patterns of photons at different frequencies and intensity.
 - "A network": Virtual.  It's a concept of something that "networks", or more specifically may be an network IP address (data), that describes the network.
 - Network cables: Real.  Physical objects, that carry current.
