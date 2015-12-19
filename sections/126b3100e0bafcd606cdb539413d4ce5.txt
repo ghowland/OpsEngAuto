@@ -16,7 +16,7 @@ So a spectrum for Control would look like:
 
 De Facto <----> Planned
 
-Planned operations will have strict naming conventions, where all the data required to be derived from data embedded in the name, and when new services, products, environments, and other things arrive, they are intelligently inserted into the existing convention, and they do not create new conventions, and they do not arbitrarily add new components or re-use existing components for different purposes.
+Planned operations will have strict naming conventions, where all the data required to be derived from data embedded in the name, and when new services, products, environments, and other things arrive, they are intelligently inserted into the existing convention, and they do not create new conventions (without just cause), and they do not arbitrarily add new components or re-use existing components for different purposes.
 
 An example of "de facto" naming of hostnames might be like this:
 
