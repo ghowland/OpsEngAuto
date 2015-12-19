@@ -9,7 +9,7 @@ Current Goal: Populate Empty Sections: 246   (Done: 20.4%)
 
 Lines: 2695
 
-Words: 47495
+Words: 47501
 
 
 # Chapter 1: Preface (README.txt)
@@ -509,7 +509,7 @@ Let's look at each part of this name:<br>
 <br>
 These are the components that make up this name.&nbsp;&nbsp;Do we have the right components for our current needs?&nbsp;&nbsp;What about our future needs?<br>
 <br>
-One can certainly over-engineer a problem and "prematurely optimize" it against future concerns, but not looking at what is likely to come in the future is on an extreme side of the spectrum for planning for the future.<br>
+One can certainly over-engineer a problem and "prematurely optimize" it against future concerns, but not looking at what is likely to come in the future is on an extreme side of the spectrum for planning for the future.&nbsp;&nbsp;Let's make a spectrum for this:<br>
 <br>
 No Planning <---> Every Detail Planned<br>
 <br>
