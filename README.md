@@ -9,7 +9,7 @@ Current Goal: Populate Empty Sections: 246   (Done: 20.4%)
 
 Lines: 2695
 
-Words: 47478
+Words: 47480
 
 
 # Chapter 1: Preface (README.txt)
@@ -463,7 +463,7 @@ In the list I have just made up, you can tell a number of things about any of th
 <br>
 What general function they provide (web, git, redis).&nbsp;&nbsp;<br>
 <br>
-What location is the server in?&nbsp;&nbsp;SJC and NYC seems to be our options.&nbsp;&nbsp;This is much clearer than "sf", as they are airport codes, and so provide more than city or regional information.<br>
+What location is the server in?&nbsp;&nbsp;SJC and NYC seems to be our options.&nbsp;&nbsp;This is much clearer than "sf", as they are airport codes, and so provide more localized information than city or regional information.<br>
 <br>
 What environment is this used for?&nbsp;&nbsp;Production, staging, QA, corporate?<br>
 <br>
