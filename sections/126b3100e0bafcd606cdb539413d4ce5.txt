@@ -59,7 +59,7 @@ In the list I have just made up, you can tell a number of things about any of th
 
 What general function they provide (web, git, redis).  
 
-What location is the server in?  SJC and NYC seems to be our options.  This is much clearer than "sf", as they are airport codes, and so provide more localized information than city or regional information.
+What location is the server in?  SJC and NYC seems to be our options.  This is much clearer than "sf", as they are airport codes, and so provide more localized information than city or regional information do.
 
 What environment is this used for?  Production, staging, QA, corporate?
 
