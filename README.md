@@ -9,7 +9,7 @@ Current Goal: Populate Empty Sections: 246   (Done: 20.4%)
 
 Lines: 2697
 
-Words: 47376
+Words: 47381
 
 
 # Chapter 1: Preface (README.txt)
@@ -266,7 +266,7 @@ I hope this short list and hopefully not-too-painful fundamental section has lef
 <br>
 If not, please skim it again.&nbsp;&nbsp;You don't need to agree with me on these things, you merely need to understand what I am trying to say clearly to get the information I am trying to convey.<br>
 <br>
-If you ever hit parts that feel wrong to you, or you reject, try to use the mechanism I presented in the preference of: "Geoff says X"<br>
+If you ever hit parts that feel wrong to you, or you reject, try to use the mechanism I presented in the preference, changing what you disagree with to: "Geoff says X"<br>
 <br>
 This means you can take in this information, as "Geoff is saying this to me", without having to update your world-view at this moment to include what I am saying as "the truth", and in fact, I am not asking you to ever do this.&nbsp;&nbsp;This is a communication to hopefully provide you more insight, which will include my perspectives, not as instructions on how you should see the world once you have finished reading this.<br>
 <br>
