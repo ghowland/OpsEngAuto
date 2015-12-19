@@ -18,6 +18,8 @@ Things I have read or heard, or that someone (including myself) just thought up 
 
 Actions based on non-personal-experience information are going to yield extremely unreliable results, because the information was not grounded in the circumstances it is being applied to:  Reality.
 
+What you experience and work with directly constitutes your actual context, reality.  Information that is not directly related to your context may not be directly applicable.
+
 Let's create an example, a problem for us to solve.  We'll be doing a lot of this during the course of the book, so to get the most out of these I would suggest taking a moment each time one is introduced to try to model it out in your mind, imagine it, draw it out on paper, or do whatever works best for you.  I will discuss some of my techniques for doing this as we progress, but please use what you already know and invent new ones any time they occur to you as well, and try them out.
 
 The problem will be a common one:  Alerts are going off on our monitoring system, and tell us that we are having problems with our web servers.
