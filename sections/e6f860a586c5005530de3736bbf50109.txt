@@ -1,6 +1,6 @@
 ### [[2.2.1.2: Alignment takes "vision" and knowledge.  Not something someone new to the process can understand well, because they are new.]]
 
-Another important aspect of operational engineering, and engineering in general, is "alignment".
+Another important aspect of operational engineering, and engineering in general, is "Alignment".
 
 Things must align with each other for their full efficiency to be able to be used.  This is easy to see in the physical world: all sections of a bridge must align with one another, fence parts must be in alignment to be a good fence, and support beams must align with each other to provide continuous support.  Engine linkages must align with transmissions and so on.
 
