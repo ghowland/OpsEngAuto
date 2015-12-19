@@ -9,7 +9,7 @@ Current Goal: Populate Empty Sections: 246   (Done: 20.4%)
 
 Lines: 2695
 
-Words: 47549
+Words: 47553
 
 
 # Chapter 1: Preface (README.txt)
@@ -628,7 +628,7 @@ There is a lot more that could be said on just this example, and we will come ba
 <br>
 Another important aspect of operational engineering, and engineering in general, is "Alignment".<br>
 <br>
-Things must Align with each other for their full efficiency to be able to be used.&nbsp;&nbsp;This is easy to see in the physical world: all sections of a bridge must align with one another, fence parts must be in alignment to be a good fence, and support beams must align with each other to provide continuous support.&nbsp;&nbsp;Engine linkages must align with transmissions and so on.<br>
+Things must Align with each other for their full efficiency to be able to be used.&nbsp;&nbsp;This is easy to see in the physical world: all sections of a bridge must align with one another, fence parts must be in alignment to be a good fence, and support beams must align with each other to provide continuous support in a large building.&nbsp;&nbsp;Engine linkages must align with transmissions and so on.<br>
 <br>
 It is no less important in the virtual world.&nbsp;&nbsp;The entire field of networking is about aligning physical cables and virtual configuration to move frames and packets from source to destination.&nbsp;&nbsp;Databases are about aligning data together so that it can be stored and retrieved efficiently.<br>
 <br>
