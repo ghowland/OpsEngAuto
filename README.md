@@ -9,7 +9,7 @@ Current Goal: Populate Empty Sections: 246   (Done: 20.4%)
 
 Lines: 2693
 
-Words: 47208
+Words: 47298
 
 
 # Chapter 1: Preface (README.txt)
@@ -43,7 +43,7 @@ This book is more about depth than about breadth, and as such we will continue t
 
 
 
-<h2 id=8d921a98a2974ea61b905ce719a9f121><a href="#8d921a98a2974ea61b905ce719a9f121">1.1</a>: Where Ive Been, What Ive Been Doing, Why I Wrote this Book.</h2>
+<h2 id=8d921a98a2974ea61b905ce719a9f121><a href="#8d921a98a2974ea61b905ce719a9f121">1.1</a>: Where Ive Been, What Ive Been Doing, Why I Wrote this Book</h2>
 <br>
 As of this writing (2015), I've been working in the industry for over 20 years, and have been programming for over 30 years.&nbsp;&nbsp;I've written over 1000 programs of varying size (the bulk of them being smaller, and operational in nature), but have also written and deployed PC games, end-user productivity tools, accounting software, end-user websites, as well as a lot of operations related monitoring, alerting, log parsing, configuration and automation logic required for operations work.<br>
 <br>
@@ -66,13 +66,13 @@ With all of these things, it is best to stay results-focused, and look to what y
 <br>
 What is a "Class of Work"?&nbsp;&nbsp;We will look at this in many ways over the course of this book, but we can start by summarizing it as "anything that is done".<br>
 <br>
-This may be a specific thing such as "update a DNS zone file" (text file).&nbsp;&nbsp;When this "Class of Work" is comprehensively automated, then no one will ever again update the text file relating to DNS zones.<br>
+This may be a specific thing such as "update a DNS zone file" (text file).&nbsp;&nbsp;When this "Class of Work" is comprehensively automated, then no one will ever again update the text file relating to DNS zones, but will have to do other work related to DNS still, as only updating the zone file was comprehensively automated.<br>
 <br>
 This could be extended to "configuring DNS", in which case all zone files are automatically generated, the serial numbers are always incremented properly, the configuration files that specify the zones are generated, and all the transfers and tests to ensure that these changes are pushed out into production and contain valid entries are validated and monitored.<br>
 <br>
-This is a "Class of Work" that requires people to do currently, but perhaps only in some areas if it is already partially automated.<br>
+This is a "Class of Work" that requires people to do something currently, but perhaps only in some areas if it is already partially automated.<br>
 <br>
-If you have a service (SaaS, such as a web-site like "DNS Made Easy") that does this for you, then someone still needs to enter the data.&nbsp;&nbsp;The data entry is still a manual process, and part of the Class of Work.<br>
+If you have a service (SaaS, such as a web-site like "DNS Made Easy") that does this for you, then someone still needs to enter the data.&nbsp;&nbsp;The data entry is still a manual process, and part of the total Class of Work relating to DNS.<br>
 <br>
 How would you remove this manual work?&nbsp;&nbsp;It will need to be generated from either a template of hostnames for the type of services being provided, or some other automated mechanism.<br>
 <br>
@@ -80,10 +80,10 @@ When no one has to think about the life-cycle changes or perform manual labor re
 <br>
 Updating the system (code) that manages this Class of Work remains manual labor, as writing logic has not yet been turned into an automatable task, but the regularity of updating the automation logic should happen far less frequently, and is more knowledge-work than data-entry work.<br>
 <br>
-Knowledge work is more stimulating, and known to be something that needs reviews and tests, whereas manual data-entry work is more prone to mistakes, because it is done so regularly that constant vigilance becomes impossible to perform accurately.&nbsp;&nbsp;Mistakes will happen.&nbsp;&nbsp;Eventually someone will make a typo or other data-entry mistake, and it will not be caught in review, and will be pushed out to production.<br>
+Knowledge work is more stimulating, and known to be something that needs reviews and tests, whereas manual data-entry work is more prone to mistakes, because it is done so regularly that constant vigilance becomes impossible to perform accurately.&nbsp;&nbsp;Mistakes will happen, as everyone knows manual work must be inspected tested, and yet this is typically the place that mistakes are made, because testing and inspecting the data itself is a manual process, and also prone to failure.&nbsp;&nbsp;Eventually someone will make a typo or other data-entry mistake, and it will not be caught in review, and will be pushed out to production, and will cause an outage, and may cause loss of revenue or other negative consequences.<br>
 <br>
-With automated logic, these kinds of repetitive data changes and verifications can be done as correctly as the logic specifies, and if it is written correctly, it will be done correctly forever.&nbsp;&nbsp;(Or, until the business goals or infrastructure environment changes, and it must be modified.)<br>
-<h2 id=205420c1274a2b80366e988715cd32f8><a href="#205420c1274a2b80366e988715cd32f8">1.3</a>: Writing in the first-person.&nbsp;&nbsp;I will try to write as much as possible in the first-person, as I am speaking of my opinions, my experiences, etc.&nbsp;&nbsp;I also find that this avoids the tone that can be see as "scolding" or "commanding" in write, as in the second-person "you must do this", etc.&nbsp;&nbsp;When reading speech in the first person, I am more likely to see the information as informative, coming from the writers' perspective, rather than commanding and authoritative, in that this is an instruction or order for you.</h2>
+With automated logic, these kinds of repetitive data changes and verifications can be done as correctly as the logic specifies, and if it is written correctly, it will be done correctly forever.&nbsp;&nbsp;Or, until the business goals or infrastructure environment changes, and it must be modified accordingly.<br>
+<h2 id=205420c1274a2b80366e988715cd32f8><a href="#205420c1274a2b80366e988715cd32f8">1.3</a>: Writing in the first-person.&nbsp;&nbsp;I will try to write as much as possible in the first-person, as I am speaking of my opinions, my experiences, etc.</h2>
 <br>
 You may have noticed, but I am writing quiet frequently in the first person, and will try to keep this consistent as much as possible.<br>
 <br>
@@ -107,7 +107,7 @@ Whether you utilize that information, or make it part of how you make decisions 
 <br>
 There will be quite a bit of this kind of introspection into language and meaning in this book, as it is in part a book on the philosophy of engineering and automation, because this is much more important than common jokes about philosophy majors in college may lead one to believe.<br>
 <br>
-I also find that when writing in the first person, it is less of a commanding or authoritative approach, rather than writing in the second person ("you will then do this") has more opportunities to throw readers off if they disagree, do not want to do that, or are tired of being lectured to.<br>
+I also find that when writing in the first person, it is less of a commanding or authoritative approach, rather than writing in the second person ("you will then do this"), which has more opportunities to throw readers off if they disagree with the statement, do not immediate want to do what is being recommended, or are just tired of being lectured at.&nbsp;&nbsp;All of these are reasonable reasons for avoiding incoming information, and I use my own voice to give it as my own take, to avoid this.<br>
 <br>
 This is a one-way conversation, in that it is a book, but it is meant to be taken as a conversational approach to learning, so that you can grow from it as best is possible, and not merely a display of my knowledge and set of instructions for others to follow.<br>
 <h2 id=8c769f9c732b984ba19311c211e281ab><a href="#8c769f9c732b984ba19311c211e281ab">1.4</a>: Writing Stylistic Conventions</h2>
@@ -136,7 +136,7 @@ When I write code I often like to document things like "Here we are doing this" 
 <br>
 "One's tea is best with slightly sweet biscuits."<br>
 <br>
-It is kind-of the British Royal "we", but in reverse, is the "all encompassing singular", but I write it mostly so if you don't want to accept it is is still easier to digest, because it is directly toward the aether, and not directly at "you" in a tone of command.&nbsp;&nbsp;When I hear people speaking in the British Royal tone-of-language, they use "one" in basically the same way I am using it.&nbsp;&nbsp;I feel this is a way one can make generalizations and advice, without making the statement too-pointed-at-you.<br>
+It is kind-of the British Royal "we", but in reverse, is the "all encompassing singular", but I write it mostly so if you don't want to accept it is is still easier to digest, because it is directly toward the aether, and not directly at "you" in a tone of command.&nbsp;&nbsp;I feel this is a way one can make generalizations and advice, without making the statement too-pointed-at-you.<br>
 <br>
 I will also hyphenate-things-to-make-compound-ideas.&nbsp;&nbsp;This allows words to be read in the sense of "all these things are one thing", and help in any kind of grammatical parsing.&nbsp;&nbsp;As I understand it, not being able to speak German, the German language has "compound nouns", in which many nouns are put together in sequence to form a new word that is a combination of all of these.&nbsp;&nbsp;I think this is a cool method of communication, and these long-chains-of-hyphenated-words are like, that but for any type of word, not just nouns.&nbsp;&nbsp;They create Compound Concepts.<br>
 <br>
@@ -159,7 +159,7 @@ All of this makes a real jumble of what is considered proper English, but I am d
 There is a reason we have poetry, because the intent is to express something beyond the words, and often the structure of normal language communication is broken or modified to relay those intentions through the language, as the language is both the barrier and the medium.<br>
 <br>
 My usage is similar, but is the Poetry of Engineering, as I see it.<br>
-<h2 id=c0288d74f0dd8cb74fcb23af5ce26a0e><a href="#c0288d74f0dd8cb74fcb23af5ce26a0e">1.5</a>: Hopefully, this will provide you with a set of foundational experiences from my expeirence, in which you can use to form your own opinions, methods, philosophies, procedures, axioms, and systems.</h2>
+<h2 id=c0288d74f0dd8cb74fcb23af5ce26a0e><a href="#c0288d74f0dd8cb74fcb23af5ce26a0e">1.5</a>: Hopefully, this will...</h2>
 <br>
 The ultimate goal in this book is that it improves your ability to function as an operational engineer, and to write automation that achieves the results that you want.<br>
 <br>
@@ -174,7 +174,7 @@ One of the major focuses of this book will be to differentiate the real from the
 
 
 
-This may seem like something that is common sense, but I have found wide spread and scale disagreement on in what is real and what is not real, and this creates a lot of communication and planning problems.
+This may seem like something that is common sense, but I have found wide breadth and scale disagreement on in what is real and what is not real, and this creates a lot of communication and planning problems.
 
 
 
@@ -190,7 +190,7 @@ Going to the very basics and working up from there will allow us to develop a co
 
 
 
-<h2 id=ff17d94c0d49aab3e372e47b64b96ea7><a href="#ff17d94c0d49aab3e372e47b64b96ea7">2.1</a>: Focus on the virtual/physical management, specifically around internet and network services, but relatable to other industries.&nbsp;&nbsp;All use cases will be around data centers and networked services.</h2>
+<h2 id=ff17d94c0d49aab3e372e47b64b96ea7><a href="#ff17d94c0d49aab3e372e47b64b96ea7">2.1</a>: The differences between Virtual and Physical: Real and Unreal</h2>
 <br>
 "What is reality?" is a question that is too big and general to be dealt with here, if you want a good introduction on how to understand this from an engineering perspective, you can see Bertrand Russell's book {{ book_russell_reality }}.&nbsp;&nbsp;It does a good job of describing how reality can be determined from our senses, and is a fairly short read (described in about the first 30 pages).&nbsp;&nbsp;You can also take a look on Wikipedia at the philosophical movement, Logical Positivism, which is a useful philosophy for engineers, and is one of the philosophical methodologies I use and reference in this book.<br>
 <br>
@@ -267,7 +267,7 @@ If you ever hit parts that feel wrong to you, or you reject, try to use the mech
 This means you can take in this information, as "Geoff is saying this to me", without having to update your world-view at this moment to include what I am saying as "the truth", and in fact, I am not asking you to ever do this.&nbsp;&nbsp;This is a communication to hopefully provide you more insight, which will include my perspectives, not as instructions on how you should see the world once you have finished reading this.<br>
 <br>
 It is more important that the things I am saying to you are internally consistent (Alignment), than that you agree with my usage and summary of each of them.&nbsp;&nbsp;I am working with more information than I can convey at any given time, and am doing my best to partition this into a small stream of data that can be turned into understandable language.&nbsp;&nbsp;It's a lossy process, at best, but it's the best I am able to do currently.<br>
-<h2 id=75d62671847424a563ec929a890245c5><a href="#75d62671847424a563ec929a890245c5">2.2</a>: I only really know what I myself have experienced.&nbsp;&nbsp;Everything else is hear-say, and while there may be a solid model behind it, I do not actually have experience in the matter, so I cannot trust the information to make solid engineering decisions on.&nbsp;&nbsp;If I have nothing better, I may need to use this as the best course of action, and it may sound like a good thing to try, so I might experiment with it, but I have to recognize that this is an experiment, and so there is a great risk of failure.</h2>
+<h2 id=75d62671847424a563ec929a890245c5><a href="#75d62671847424a563ec929a890245c5">2.2</a>: I only really know what I myself have experienced.</h2>
 <br>
 What do I know?&nbsp;&nbsp;What do I really know?<br>
 <br>

@@ -22,6 +22,6 @@ Whether you utilize that information, or make it part of how you make decisions 
 
 There will be quite a bit of this kind of introspection into language and meaning in this book, as it is in part a book on the philosophy of engineering and automation, because this is much more important than common jokes about philosophy majors in college may lead one to believe.
 
-I also find that when writing in the first person, it is less of a commanding or authoritative approach, rather than writing in the second person ("you will then do this") has more opportunities to throw readers off if they disagree, do not want to do that, or are tired of being lectured to.
+I also find that when writing in the first person, it is less of a commanding or authoritative approach, rather than writing in the second person ("you will then do this"), which has more opportunities to throw readers off if they disagree with the statement, do not immediate want to do what is being recommended, or are just tired of being lectured at.  All of these are reasonable reasons for avoiding incoming information, and I use my own voice to give it as my own take, to avoid this.
 
 This is a one-way conversation, in that it is a book, but it is meant to be taken as a conversational approach to learning, so that you can grow from it as best is possible, and not merely a display of my knowledge and set of instructions for others to follow.

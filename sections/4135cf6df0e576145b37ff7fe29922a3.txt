@@ -10,13 +10,13 @@ With all of these things, it is best to stay results-focused, and look to what y
 
 What is a "Class of Work"?  We will look at this in many ways over the course of this book, but we can start by summarizing it as "anything that is done".
 
-This may be a specific thing such as "update a DNS zone file" (text file).  When this "Class of Work" is comprehensively automated, then no one will ever again update the text file relating to DNS zones.
+This may be a specific thing such as "update a DNS zone file" (text file).  When this "Class of Work" is comprehensively automated, then no one will ever again update the text file relating to DNS zones, but will have to do other work related to DNS still, as only updating the zone file was comprehensively automated.
 
 This could be extended to "configuring DNS", in which case all zone files are automatically generated, the serial numbers are always incremented properly, the configuration files that specify the zones are generated, and all the transfers and tests to ensure that these changes are pushed out into production and contain valid entries are validated and monitored.
 
-This is a "Class of Work" that requires people to do currently, but perhaps only in some areas if it is already partially automated.
+This is a "Class of Work" that requires people to do something currently, but perhaps only in some areas if it is already partially automated.
 
-If you have a service (SaaS, such as a web-site like "DNS Made Easy") that does this for you, then someone still needs to enter the data.  The data entry is still a manual process, and part of the Class of Work.
+If you have a service (SaaS, such as a web-site like "DNS Made Easy") that does this for you, then someone still needs to enter the data.  The data entry is still a manual process, and part of the total Class of Work relating to DNS.
 
 How would you remove this manual work?  It will need to be generated from either a template of hostnames for the type of services being provided, or some other automated mechanism.
 
@@ -24,6 +24,6 @@ When no one has to think about the life-cycle changes or perform manual labor re
 
 Updating the system (code) that manages this Class of Work remains manual labor, as writing logic has not yet been turned into an automatable task, but the regularity of updating the automation logic should happen far less frequently, and is more knowledge-work than data-entry work.
 
-Knowledge work is more stimulating, and known to be something that needs reviews and tests, whereas manual data-entry work is more prone to mistakes, because it is done so regularly that constant vigilance becomes impossible to perform accurately.  Mistakes will happen.  Eventually someone will make a typo or other data-entry mistake, and it will not be caught in review, and will be pushed out to production.
+Knowledge work is more stimulating, and known to be something that needs reviews and tests, whereas manual data-entry work is more prone to mistakes, because it is done so regularly that constant vigilance becomes impossible to perform accurately.  Mistakes will happen, as everyone knows manual work must be inspected tested, and yet this is typically the place that mistakes are made, because testing and inspecting the data itself is a manual process, and also prone to failure.  Eventually someone will make a typo or other data-entry mistake, and it will not be caught in review, and will be pushed out to production, and will cause an outage, and may cause loss of revenue or other negative consequences.
 
-With automated logic, these kinds of repetitive data changes and verifications can be done as correctly as the logic specifies, and if it is written correctly, it will be done correctly forever.  (Or, until the business goals or infrastructure environment changes, and it must be modified.)
+With automated logic, these kinds of repetitive data changes and verifications can be done as correctly as the logic specifies, and if it is written correctly, it will be done correctly forever.  Or, until the business goals or infrastructure environment changes, and it must be modified accordingly.
