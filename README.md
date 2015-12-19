@@ -7,9 +7,9 @@ Current Goal: Populate Empty Sections: 246   (Done: 20.4%)
 
 <br><br><b>NOTE: This is still an early Work-In-Progress.  It is being written linearly as a First Rough Draft without editing at the moment.  There are many typos and grammatical errors presently.</b>
 
-Lines: 2693
+Lines: 2697
 
-Words: 47298
+Words: 47376
 
 
 # Chapter 1: Preface (README.txt)
@@ -244,6 +244,10 @@ Let's create a quick list of things that are real and virtual, for an immediate 
 - Operating System:&nbsp;&nbsp;Virtual.&nbsp;&nbsp;Collection of software and data to make hardware perform operations.<br>
 - Book: Real.<br>
 - Words.&nbsp;&nbsp;Virtual.<br>
+- Ink on a page: Real.<br>
+- Fonts: Virtual.&nbsp;&nbsp;Data about how ink can be put on a page, or pixels illuminated on a screen.<br>
+- Light emission from monitors: Real.<br>
+- Words and letters written on the monitor: Virtual.&nbsp;&nbsp;These are just patterns we recognize, and are all virtual.&nbsp;&nbsp;The physical properties of them are real, but those are not what we call "words" or "letters", but are instead patterns of photons at different frequencies and intensity.<br>
 - "A network": Virtual.&nbsp;&nbsp;It's a concept of something that "networks", or more specifically may be an network IP address (data), that describes the network.<br>
 - Network cables: Real.&nbsp;&nbsp;Physical objects, that carry current.<br>
 - Ethernet protocol: Virtual.&nbsp;&nbsp;A collection of data and logic that describes how to communicate over electrical signals.<br>
