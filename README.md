@@ -463,7 +463,7 @@ In the list I have just made up, you can tell a number of things about any of th
 <br>
 What general function they provide (web, git, redis).&nbsp;&nbsp;<br>
 <br>
-What location is the server in?&nbsp;&nbsp;SJC and NYC seems to be our options.&nbsp;&nbsp;This is much clearer than "sf", as they are airport codes, and so provide more localized information than city or regional information do.<br>
+What location is the server in?&nbsp;&nbsp;SJC and NYC seems to be our options.&nbsp;&nbsp;This is much clearer than "sf", as they are airport codes, and so provide more localized information than city or regional data does.<br>
 <br>
 What environment is this used for?&nbsp;&nbsp;Production, staging, QA, corporate?<br>
 <br>
