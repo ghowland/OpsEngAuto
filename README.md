@@ -321,7 +321,7 @@ Asking the release engineers will give us the hear-say information that whoever 
 <br>
 If they say, "No, no one has pushed any code lately.&nbsp;&nbsp;We won't be doing that until X time", then we will leave that conversation with information that says no new code was recently pushed, and we will have impetus to de-prioritize the possibility of new-bad code being pushed into production causing the monitoring alert.<br>
 <br>
-But is this solid information?&nbsp;&nbsp;They may be the only person who does the code pushes, and so they may be the "definitive" answer on the subject, but what if someone new accidentally did it for some reason?&nbsp;&nbsp;The "definitive" person would not know this, unless they checked, and their information would not be congruous with reality.<br>
+But is this solid information?&nbsp;&nbsp;They may be the only person who does the code pushes, and so they may be the "definitive" answer on the subject, but what if someone new accidentally did it for some reason?&nbsp;&nbsp;The "definitive" person would not know this, unless they checked, and their information would not be congruent with reality.<br>
 <br>
 If we take the second option, and we look for ourselves, then we can see if the timestamps on the files have been updated, or if the log files say that the web or application servers have been reloaded.<br>
 <br>
