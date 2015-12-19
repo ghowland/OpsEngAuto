@@ -9,7 +9,7 @@ Current Goal: Populate Empty Sections: 246   (Done: 20.4%)
 
 Lines: 2695
 
-Words: 47504
+Words: 47505
 
 
 # Chapter 1: Preface (README.txt)
@@ -537,7 +537,7 @@ Scripts are written whose logic may not be able to deal with naming conventions 
 <br>
 - product<br>
 <br>
-This is an example product name for your organization.&nbsp;&nbsp;This should be a short product, project or service name that clearly differentiates it's purpose from other products or projects.&nbsp;&nbsp;Notice in the example I use "product" and "infra" to differentiate the organization's product, which may generate revenue, from the infrastructure servers used to support the product's operational environment.<br>
+This is an example product name for your organization.&nbsp;&nbsp;This should be a short product, project or service name that clearly differentiates it's purpose from other products, projects or services.&nbsp;&nbsp;Notice in the example I use "product" and "infra" to differentiate the organization's product, which may generate revenue, from the infrastructure servers used to support the product's operational environment.<br>
 <br>
 - prod<br>
 <br>
