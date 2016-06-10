@@ -68,7 +68,7 @@ As someone reading this book, this is no surprise to you, but what may be somewh
 
 Some of these symptoms are:
 
-- Not properly staffing their operation teams for the workloads they are required to perform.  Note that it doesn't matter *who* the operation team staff is, Lystem Administrators, Site Reliability Engineers, DevOps, Developers, it doesn't matter.  If they are responsible for the operations of the software and systems, they are the operations team.
+- Not properly staffing their operation teams for the workloads they are required to perform.  Note that it doesn't matter *who* the operation team staff is, System Administrators, Site Reliability Engineers, DevOps, Developers, it doesn't matter.  If they are responsible for the operations of the software and systems, they are the operations team.
 
 - Not giving proper lead times on work that is due, such as finishing a project that the operations team was not notified about, and expecting an immediate release to the public of that project.  Not taking into account either ordering hardware, or configuring systems to support the software.
 
