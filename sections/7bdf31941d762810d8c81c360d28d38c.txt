@@ -85,4 +85,3 @@ Since the organizational structure of organizations is not likely to change, the
 It's debatable on whether their world really changed that much for the better, but there are many distinct differences in the pre-Agile development world, from the post-Agile development world, and it was this change in perspective and discussing it that caused those changes to take effect.
 
 It's also worth noting that the way this change-through-repetition occurs should be done with as much awareness as possible of what is being repeated.  If it is something that will become a dogmatic problem, then that is not a good thing to repeat.  Thing's to repeat should be based on ideas that cause more awareness to the complexities of the present reality and less dogmatic simplicity, which frequently ignores any local data and instead focuses on following idealistic principles.  If a principle sounds too idealistic, it probably is.
-
