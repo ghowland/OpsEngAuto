@@ -78,7 +78,7 @@ Some of these symptoms are:
 
 There are many other symptoms, but these are large enough to illustrate this point.  Other departments have similar complaints with regard to notice ahead-of-time, and schedules.  See any book on Software Development project management for examples close to operations.
 
-This is not a problem that is likely to be solved soon, if every solved, because there are a number of difficult factors that cause it, the primary one being the structure of organizations themselves.  When something is structure a certain way, it will tend to produce certain results, and producing different results is very difficult, and often only temporarily possible.
+This is not a problem that is likely to be solved soon, if ever solved, because there are a number of difficult factors that cause it; the primary one being the structure of organizations themselves.  When something is structure a certain way, it will tend to produce certain results, and producing different results is very difficult, and often only temporarily possible.
 
 Since the organizational structure of organizations is not likely to change, the best hope in making progress here is something akin to the Agile movement in development, where all developers just kept repeating the same things and eventually the management of companies started to be populated with managers who also said the same things, and their world changed.
 
