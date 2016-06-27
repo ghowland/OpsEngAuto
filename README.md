@@ -7,7 +7,7 @@ Current Goal: Populate Empty Sections: 246   (Done: 20.4%)
 
 <br><br><b>NOTE: This is still an early Work-In-Progress.  It is being written linearly as a First Rough Draft without editing at the moment.  There are many typos and grammatical errors presently.</b>
 
-Lines: 2723
+Lines: 2725
 
 Words: 48872
 
@@ -1025,7 +1025,9 @@ You can create your own systems on paper, in your head, you can find software th
 <br>
 How you describe a system is merely a view into the system, and will never cover every aspect of a system, but each change in viewpoint gives a better angle on some information, and a worse angle on others.&nbsp;&nbsp;<br>
 <br>
-Only the actual components of a system describe the system, and any attempt to review the system will only give a partial insight into it, because it is a summary of something else, because a map is not equivalent to the territory it attempts to describe.&nbsp;&nbsp;By "actual components" I mean the things that make up the system are separate than our understanding of them, and our descriptions of them.&nbsp;&nbsp;They exist outside of our information, and so they are not only super-sets to the parts of our information that is accurate (and not related to the portions of our sets of information that are inaccurate), but that they also contain more data than we are aware of, and almost always some data of which we cannot become aware of because of the limitations in our ability to detect some things, and the limits of our knowledge to know to even try to detect them.<br>
+Only the actual components of a system describe the system, and any attempt to review the system will only give a partial insight into it, because it is a summary of something else, because a map is not equivalent to the territory it attempts to describe.&nbsp;&nbsp;<br>
+<br>
+By "actual components" I mean the things that make up the system are separate than our understanding of them, and our descriptions of them.&nbsp;&nbsp;They exist outside of our information, and so they are not only super-sets to the parts of our information that is accurate (and not related to the portions of our sets of information that are inaccurate), but that they also contain more data than we are aware of, and almost always some data of which we cannot become aware of because of the limitations in our ability to detect some things, and the limits of our knowledge to know to even try to detect them.<br>
 <br>
 Systems are tricky in this way, but this is also where their power comes from, because they are not limited by them either, they can be extended in any way you can think of, it it will assist you in your goals.<br>
 <h2 id=61fc96e11d2dd57966d2b5b014f1a2dc><a href="#61fc96e11d2dd57966d2b5b014f1a2dc">2.5</a>: Systemic Thinking</h2>
