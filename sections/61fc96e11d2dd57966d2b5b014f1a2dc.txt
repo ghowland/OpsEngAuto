@@ -37,7 +37,7 @@ When querying the attendee who offered the assertion, they would explain that th
 
 Without any data, this is only speculative relationships due to correlation of information:  notification and outage windows, but no data correlating the outage with the maintenance directly.
 
-While this is a higher-than-unknown-topic-priority topic to collect data on, since there is a time window correlation, all other areas still need to be prioritized to collect information in order to find a direct correlation between the outage and the thing that caused the outage: the Root Cause.
+While this is a higher-than-other-unknown-topic-priority topic to collect data on, since there is a time window correlation, all other areas still need to be prioritized to collect information in order to find a direct correlation between the outage and the thing that caused the outage: the Root Cause.
 
 To elaborate on the prioritization, it may be surprising but the collection of information on the ISP's maintenance should be given less priority than collection from some other sources, even though it is a known likely possible cause.
 
