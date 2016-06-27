@@ -58,7 +58,7 @@ Only the actual components of a system describe the system, and any attempt to r
 
 By "actual components" I mean the things that make up the system are separate than our understanding of them, and our descriptions of them.  They exist outside of our information, and so they are not only super-sets to the parts of our information that are accurate (and not related to the portions of our sets of information that are inaccurate), but that they also contain more data than we are aware of, and almost always some data of which we cannot become aware of because of the limitations in our ability to detect some things, and the limits of our knowledge to know to even try to detect them.
 
-Systems are tricky in this way, but this is also where their power comes from, because they are not limited by them either, they can be extended in any way you can think of, it it will assist you in your goals.
+Systems are tricky in this way, but this is also where their power comes from, because they are not limited by the nature of the actual components; they can be extended in any way you can think of, it it will assist you in your goals.
 
 
 

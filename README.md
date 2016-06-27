@@ -9,7 +9,7 @@ Current Goal: Populate Empty Sections: 246   (Done: 20.4%)
 
 Lines: 2727
 
-Words: 48872
+Words: 48876
 
 
 # Chapter 1: Preface (README.txt)
@@ -1031,7 +1031,7 @@ Only the actual components of a system describe the system, and any attempt to r
 <br>
 By "actual components" I mean the things that make up the system are separate than our understanding of them, and our descriptions of them.&nbsp;&nbsp;They exist outside of our information, and so they are not only super-sets to the parts of our information that are accurate (and not related to the portions of our sets of information that are inaccurate), but that they also contain more data than we are aware of, and almost always some data of which we cannot become aware of because of the limitations in our ability to detect some things, and the limits of our knowledge to know to even try to detect them.<br>
 <br>
-Systems are tricky in this way, but this is also where their power comes from, because they are not limited by them either, they can be extended in any way you can think of, it it will assist you in your goals.<br>
+Systems are tricky in this way, but this is also where their power comes from, because they are not limited by the nature of the actual components; they can be extended in any way you can think of, it it will assist you in your goals.<br>
 <h2 id=61fc96e11d2dd57966d2b5b014f1a2dc><a href="#61fc96e11d2dd57966d2b5b014f1a2dc">2.5</a>: Systemic Thinking</h2>
 <br>
 System Thinking is one of the tools that I believe is the most powerful and useful in our mental toolbox, and could use a lot more of the educational spotlight.&nbsp;&nbsp;In terms of yielding positive results in learning, creating things, and in performing maintenance (in a very general sense), system thinking is one of the most useful tools.<br>
