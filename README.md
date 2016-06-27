@@ -7,9 +7,9 @@ Current Goal: Populate Empty Sections: 246   (Done: 20.4%)
 
 <br><br><b>NOTE: This is still an early Work-In-Progress.  It is being written linearly as a First Rough Draft without editing at the moment.  There are many typos and grammatical errors presently.</b>
 
-Lines: 2709
+Lines: 2711
 
-Words: 48103
+Words: 48208
 
 
 # Chapter 1: Preface (README.txt)
@@ -953,6 +953,8 @@ Achieving business goals is the reason all departments exist, so it is a good th
 In order to handle requests efficiently, the infrastructure must be one that can reasonably be altered to support this requests, and as the business changes in scale, scope, and direction, this takes either a very well put together operational environment that is made to be changed quickly in these manners (possible, but difficult to assemble, and easy to turn less-functional), or it requires time before requests are done, to prepare the environment, or more time after the requests are done to fix the system after the fact.<br>
 <br>
 This is also on a spectrum, so you can't have both extremes as being simultaneously true in the same instance, which means you need to acknowledge, plan for and deal with the trade offs actively both over longer periods of times (quarters, years) and for each request, with an understanding of the scope of each requests potential to make positive or negative impacts on the infrastructure.<br>
+<br>
+What do I mean when I say two extreme's can't be true at the same time for the same instance?&nbsp;&nbsp;Apart from the truism there, what I specifically mean is that an environment that is not flexible must request time to complete requests to stay a healthy environment.&nbsp;&nbsp;And a team that does not have time to complete request appropriately must have a flexible infrastructure to be able to finish requests without "enough time" to change the infrastructure to keep it healthy.&nbsp;&nbsp;So either the team must have time, or the team must not need to have time, in order to keep the infrastructure healthy.<br>
 <br>
 This spectrum is fairly specific, unlike things like "Not Available <--> Available", which is a fairly straight-forward concept to understand in a single topic, this axis' line moves among many topics to create a sliding scale between all of them, in a very limited manner.<br>
 <br>

@@ -18,6 +18,8 @@ In order to handle requests efficiently, the infrastructure must be one that can
 
 This is also on a spectrum, so you can't have both extremes as being simultaneously true in the same instance, which means you need to acknowledge, plan for and deal with the trade offs actively both over longer periods of times (quarters, years) and for each request, with an understanding of the scope of each requests potential to make positive or negative impacts on the infrastructure.
 
+What do I mean when I say two extreme's can't be true at the same time for the same instance?  Apart from the truism there, what I specifically mean is that an environment that is not flexible must request time to complete requests to stay a healthy environment.  And a team that does not have time to complete request appropriately must have a flexible infrastructure to be able to finish requests without "enough time" to change the infrastructure to keep it healthy.  So either the team must have time, or the team must not need to have time, in order to keep the infrastructure healthy.
+
 This spectrum is fairly specific, unlike things like "Not Available <--> Available", which is a fairly straight-forward concept to understand in a single topic, this axis' line moves among many topics to create a sliding scale between all of them, in a very limited manner.
 
 Trade Off Between Team Time and Infrastructure Flexibility For A Healthy Environment:
