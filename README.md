@@ -7,9 +7,9 @@ Current Goal: Populate Empty Sections: 246   (Done: 20.4%)
 
 <br><br><b>NOTE: This is still an early Work-In-Progress.  It is being written linearly as a First Rough Draft without editing at the moment.  There are many typos and grammatical errors presently.</b>
 
-Lines: 2775
+Lines: 2777
 
-Words: 49958
+Words: 50055
 
 
 # Chapter 1: Preface (README.txt)
@@ -1085,7 +1085,9 @@ This tangential aside has already turned into an epic side-quest, but I have add
 <br>
 Programming a computer is done with a programming language (C, Python, Java, etc), programming your mind is done by making physical and chemical-electrical changes to your mind by learning new skills and information, which gives you a larger library of activities you can perform and problems you can solve, which gives you improved ability to accomplish your goals.<br>
 <br>
-Accomplishment of your own goals, in my opinion, is a Primary Life Requirement, and should be an ever-present factor in each decision you make in your life, in order to yield yourself the best results.<br>
+Accomplishment of your own goals, in my opinion, is a Primary Life Requirement, and should be an ever-present factor in each decision you make in your life, in order to yield yourself the best results.&nbsp;&nbsp;Prioritization and other balancing factors between all things is necessary to achieve efficiency, so we can create Models that we believe are oriented towards creating work that is Aligned with our goals, to create the Reality we are attempting to achieve.<br>
+<br>
+As an aside aside, the previous paragraph is an example of attempting to use a Mental Model or doing Auto-Programming or whatever label seems best to apply to it, I don't think there is a good one yet.&nbsp;&nbsp;I created an English version of a descending relationship tree, which is a binary tree of attribute descriptions.<br>
 {{ asside_end }}<br>
 <br>
 {{ todo__recommend_critical_thinking_book }}<br>
