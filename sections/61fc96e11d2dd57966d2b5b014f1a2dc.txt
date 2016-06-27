@@ -8,7 +8,7 @@ I believe Systemic Thinking is one of the most powerful and useful tools in our 
 
 Systemic Thinking has a number of prerequisites, such as a general understanding of how systems work, how to create systems, how to modify a system, how to inspect and evaluate the connections and links between system components, and a good basis in critical thinking.  Having the ability to think deductively and inductively is a fundamental requirement.
 
-If you have not yet read a book on critical thinking, you should, to ensure you have the basic understanding of the topic.  Of course you can fill in this information later now that you know it's something that could benefit you.  There is an infinite amount of information that is possible to learn, so the important thing is to bookmark for the future, and follow up on what is most useful for the current goal in the present.
+If you have not yet read a book on critical thinking, you should, to ensure you have the basic understanding of the topic.  Of course you can fill in this information later now that you know it's something that could benefit you.  There is an infinite amount of information that is possible to learn, so the important thing is to bookmark for the future, and follow up on what is most useful for the current goal to be accomplished in the present.
 
 Deductive and inductive thinking, boolean logic, and set logic are primary tools for doing analysis, and any troubleshooting of systems will be significantly improved if you can break things down to terms and evaluate them.
 
