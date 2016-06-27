@@ -9,7 +9,7 @@ Current Goal: Populate Empty Sections: 246   (Done: 20.4%)
 
 Lines: 2781
 
-Words: 50261
+Words: 50268
 
 
 # Chapter 1: Preface (README.txt)
@@ -1081,7 +1081,7 @@ The reason that it should get lower priority than some other areas of collection
 <br>
 In comparison, if it was not the ISP maintenance that was the Root Cause, then the problem could still be occurring presently, and could be causing degraded service, or potentially failing in a manner that is not being monitored or alerted on, or is going to pass a threshold and begin a new outage soon.<br>
 <br>
-All of this can be found through troubleshooting, using the required skills of Modeling your System against the Reality of the Components in your actual system, and then using that Model to reason about what happened, or what will happen.<br>
+All of this can be found through troubleshooting, using the required skills of Modeling your System against the perceived and summarized Reality of the Components in your actual system, turned into a schema, and then using that Model to reason about what happened, or what will happen.<br>
 <br>
 This tangential aside has already turned into an epic side-quest, but I have additional point to make on the topic of goals.<br>
 <br>
