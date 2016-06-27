@@ -9,7 +9,7 @@ Current Goal: Populate Empty Sections: 246   (Done: 20.4%)
 
 Lines: 2781
 
-Words: 50336
+Words: 50374
 
 
 # Chapter 1: Preface (README.txt)
@@ -1098,7 +1098,7 @@ I created an English version of a descending mechanical-relationship tree, which
 <br>
 How do you use Systemic Thinking?<br>
 <br>
-The first thing to do is to take whatever you are thinking about, and turn it into a system.&nbsp;&nbsp;Anything can be turned into a system, and this system can be as large or small as you need, and can contain any number of components.<br>
+The first thing to do is to take whatever you are thinking about, and turn it into a system.&nbsp;&nbsp;Anything can be turned into a system, and this system can be as large or small as you need, and can contain any number of components.&nbsp;&nbsp;We will start with this system being a set of things that you list.&nbsp;&nbsp;A "set of listed things" is a very basic system, and then anything can be added onto this, making it a more complex system.<br>
 <br>
 Since we, as humans, are limited in the number of things we can think about simultaneously, on a conscious level especially, we need to break things into small groups of related ideas.<br>
 <br>
