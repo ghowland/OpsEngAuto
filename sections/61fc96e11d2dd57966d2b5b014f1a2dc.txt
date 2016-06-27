@@ -15,7 +15,7 @@ If you have not yet read a book on critical thinking, you should, to ensure you 
 {{ asside_begin }}
 There is an infinite amount of information that is possible to learn, so the important thing is to bookmark all new "requirements" for the future, and follow up on what is most useful for the current goal to be accomplished in the present.  
 
-This creates paths for future obstacle clearance, once one encounters an obstacle based on a required skill or set of knowledge, and minimizes disturbances to accomplishing one's current goals, which will always yield the most immediately rewarding results, since they were prioritized as primary objectives.
+This creates paths for future obstacle clearance, once one encounters an obstacle based on a required skill or set of knowledge, and minimizes disturbances to accomplishing one's current goals, which will always yield the most immediately rewarding results, since they were prioritized as objectives.
 
 Deductive and Inductive reasoning, Boolean Logic, and Set Logic are the primary tools for doing analysis, and any troubleshooting of Systems will be significantly improved if you can break things down to terms and evaluate them for correctness against various assertions, as well as whether the assertions are valid or invalid.  
 
