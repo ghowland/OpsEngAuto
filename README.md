@@ -7,9 +7,9 @@ Current Goal: Populate Empty Sections: 246   (Done: 20.4%)
 
 <br><br><b>NOTE: This is still an early Work-In-Progress.  It is being written linearly as a First Rough Draft without editing at the moment.  There are many typos and grammatical errors presently.</b>
 
-Lines: 2737
+Lines: 2739
 
-Words: 49073
+Words: 49158
 
 
 # Chapter 1: Preface (README.txt)
@@ -1034,7 +1034,9 @@ By "actual components" I mean the things that make up the system are separate th
 Systems are tricky in this way, but this is also where their power comes from, because they are not limited by the nature of the actual components; they can be extended in any way you can think of, it it will assist you in your goals.<br>
 <h2 id=61fc96e11d2dd57966d2b5b014f1a2dc><a href="#61fc96e11d2dd57966d2b5b014f1a2dc">2.5</a>: Systemic Thinking</h2>
 <br>
-I'll use "Systemic Thinking" to mean thinking in a way where everything is inside of a system.&nbsp;&nbsp;Systemic Thinking focuses on the relationships between all things in a system, and their mechanical relationships to each other.&nbsp;&nbsp;A system being a set of things you wish to model, to accomplish one or more goals by using the model to understanding mechanically what the effects of a planned action would be.<br>
+I'll use "Systemic Thinking" to mean thinking in a way where everything is inside of a system.&nbsp;&nbsp;Systemic Thinking focuses on the relationships between all things in a system, and their mechanical relationships to each other.&nbsp;&nbsp;A system being a set of things you wish to model, to accomplish one or more goals by using the model to understanding mechanically what the effects of a planned action would be.&nbsp;&nbsp;<br>
+<br>
+The model gives feedback about what the current state of the set of components are, and what the likely state of the set of components will be if an action were to be performed.&nbsp;&nbsp;This also works in reverse to provide information about what happened in the past, by comparing data to the model, which can both improve the model by correcting it against data and Reality, and give information by inspecting the data produced by Reality, and using the Model to explain that Data.<br>
 <br>
 This can be described by a network of black box functions which take inputs, emit outputs, and perform side-effects, totaling the results of anything that exists or doesn't exist.&nbsp;&nbsp;Either way, it can be described as a system, and using this methodology for organizing one's thoughts is "systemic thinking" by my definition here.<br>
 <br>
