@@ -1051,7 +1051,7 @@ There is an infinite amount of information that is possible to learn, so the imp
 <br>
 This creates paths for future obstacle clearance, once one encounters an obstacle based on a required skill or set of knowledge, and minimizes disturbances to accomplishing one's current goals, which will always yield the most immediately rewarding results, since they were prioritized as objectives.<br>
 <br>
-Deductive and Inductive reasoning, Boolean Logic, and Set Logic are the primary tools for doing analysis, and any troubleshooting of Systems will be significantly improved if you can break things down to terms and evaluate them for correctness against various assertions, as well as whether the assertions are valid or invalid.&nbsp;&nbsp;<br>
+Deductive and Inductive Reasoning, Boolean Logic, and Set Logic are the primary tools for doing analysis, and any troubleshooting of Systems will be significantly improved if you can break things down to terms and evaluate them for correctness against various assertions, as well as whether the assertions are valid or invalid.&nbsp;&nbsp;<br>
 <br>
 It is of critical importance that one is able to test the validity of an assertion.&nbsp;&nbsp;Without able to validate or invalidate an assertion against it's test result, one will not know if they are making a decision based on an invalid assumption.<br>
 <br>
