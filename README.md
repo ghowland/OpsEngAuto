@@ -1053,7 +1053,7 @@ This creates paths for future obstacle clearance, once one encounters an obstacl
 <br>
 Deductive and Inductive Reasoning, Boolean Logic, and Set Logic are the primary tools for doing analysis, and any troubleshooting of Systems will be significantly improved if you can break things down to terms and evaluate them for correctness against various assertions, as well as whether the assertions are valid or invalid.&nbsp;&nbsp;<br>
 <br>
-It is of critical importance that one is able to test the validity of an assertion.&nbsp;&nbsp;Without being able to validate or invalidate an assertion against it's test result, one will not know if they are making a decision based on an invalid assumption.<br>
+It is of critical importance that one is able to test the validity of an assertion.&nbsp;&nbsp;Without being able to validate or invalidate an assertion against it's test's result, one will not know if they are making a decision based on an invalid assumption.<br>
 <br>
 For example, if there was an Web Server outage for 30 minutes, and in the outage post-mortem discussion the Root Cause was suggested to be an ISP outage, as it was during the time window their ISP told them they would be doing maintenance.<br>
 <br>
