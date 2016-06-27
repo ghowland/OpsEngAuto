@@ -1034,7 +1034,7 @@ By "actual components" I mean the things that make up the system are separate th
 Systems are tricky in this way, but this is also where their power comes from, because they are not limited by the nature of the actual components; they can be extended in any way you can think of, it it will assist you in your goals.<br>
 <h2 id=61fc96e11d2dd57966d2b5b014f1a2dc><a href="#61fc96e11d2dd57966d2b5b014f1a2dc">2.5</a>: Systemic Thinking</h2>
 <br>
-System Thinking is one of the tools that I believe is the most powerful and useful in our mental toolbox, and could use a lot more of the educational spotlight.&nbsp;&nbsp;In terms of yielding positive results in learning, creating things, and in performing maintenance (in a very general sense), system thinking is one of the most useful tools.<br>
+Systemic Thinking is one of the tools that I believe is the most powerful and useful in our mental toolbox, and could use a lot more of the educational spotlight.&nbsp;&nbsp;In terms of yielding positive results in learning, creating things, and in performing maintenance (in a very general sense), systemic thinking is one of the most useful tools.<br>
 <br>
 System Thinking has a number of prerequisites, such as a general understanding of how systems work, how to create systems, how to modify a system, how to inspect and evaluate the connections and links between system components, and a good basis in critical thinking.&nbsp;&nbsp;Having the ability to think deductively and inductively is a requirement.<br>
 <br>
