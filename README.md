@@ -9,7 +9,7 @@ Current Goal: Populate Empty Sections: 246   (Done: 20.4%)
 
 Lines: 2717
 
-Words: 48463
+Words: 48466
 
 
 # Chapter 1: Preface (README.txt)
@@ -1009,7 +1009,7 @@ For a common example of this, a web server starts to fail, and on inspection the
 <br>
 If you do not rotate logs (or otherwise truncate them), then with any activity at all, it is guaranteed that eventually the available storage will fill up, and any services which might use the storage for writes (such as logging) will fail.<br>
 <br>
-This is a simple system, and indeed anything can be turned into a system.<br>
+This is an example of a simple system, and indeed anything can be turned into a system.<br>
 <br>
 The power of Systems is that they can be created at any time, to describe any thing, provided you are capable of properly black-boxing the components of the system you want to construct.<br>
 <br>
