@@ -7,9 +7,9 @@ Current Goal: Populate Empty Sections: 246   (Done: 20.4%)
 
 <br><br><b>NOTE: This is still an early Work-In-Progress.  It is being written linearly as a First Rough Draft without editing at the moment.  There are many typos and grammatical errors presently.</b>
 
-Lines: 2765
+Lines: 2769
 
-Words: 49699
+Words: 49749
 
 
 # Chapter 1: Preface (README.txt)
@@ -1069,7 +1069,11 @@ If we were in the meeting we could quantify the assertion that this was related 
 <br>
 When querying the attendee who offered the assertion, they would explain that they didn't verify this is the case, but it matches the time frame.&nbsp;&nbsp;We can conclude from this that while this is a possible lead to look for correlating data/evidence, it is not a candidate for Root Cause because there is no data.<br>
 <br>
-Without any data, only speculative relationships due to correlation of information (notification and outage windows, but no data correlating the outage with the maintenance directly), <br>
+Without any data, this is only speculative relationships due to correlation of information (notification and outage windows, but no data correlating the outage with the maintenance directly).<br>
+<br>
+While this is a high-priority topic to collect data on, since there is a time window correlation, all other areas also need to be prioritized to collect information in order to find a direct correlation between the outage and the thing that caused the outage: the Root Cause.<br>
+<br>
+<br>
 <br>
 This tangential aside has already gone on quite long, but I have additional point to make on the topic of goals.<br>
 <br>

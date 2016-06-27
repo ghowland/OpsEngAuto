@@ -35,7 +35,11 @@ If we were in the meeting we could quantify the assertion that this was related 
 
 When querying the attendee who offered the assertion, they would explain that they didn't verify this is the case, but it matches the time frame.  We can conclude from this that while this is a possible lead to look for correlating data/evidence, it is not a candidate for Root Cause because there is no data.
 
-Without any data, only speculative relationships due to correlation of information (notification and outage windows, but no data correlating the outage with the maintenance directly), 
+Without any data, this is only speculative relationships due to correlation of information (notification and outage windows, but no data correlating the outage with the maintenance directly).
+
+While this is a high-priority topic to collect data on, since there is a time window correlation, all other areas also need to be prioritized to collect information in order to find a direct correlation between the outage and the thing that caused the outage: the Root Cause.
+
+
 
 This tangential aside has already gone on quite long, but I have additional point to make on the topic of goals.
 
