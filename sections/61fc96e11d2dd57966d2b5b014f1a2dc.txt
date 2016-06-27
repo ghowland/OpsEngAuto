@@ -1,6 +1,6 @@
 ### [[2.4: Systemic Thinking]]
 
-I'll use "Systemic Thinking" to mean thinking in a way where everything is inside of a system.  Systemic Thinking focuses on the relationships between all things in a system, and their mechanical relationships to each other.
+I'll use "Systemic Thinking" to mean thinking in a way where everything is inside of a system.  Systemic Thinking focuses on the relationships between all things in a system, and their mechanical relationships to each other.  A system being a set of things you wish to model, to accomplish one or more goals by using the model to understanding mechanically what the effects of a planned action would be.
 
 This can be described by a network of black box functions which take inputs, emit outputs, and perform side-effects, totaling the results of anything that exists or doesn't exist.  Either way, it can be described as a system, and using this methodology for organizing one's thoughts is "systemic thinking" by my definition here.
 
