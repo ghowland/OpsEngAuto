@@ -52,7 +52,7 @@ You can create your own systems on paper, in your head, you can find software th
 
 How you describe a system is merely a view into the system, and will never cover every aspect of a system, but each change in viewpoint gives a better angle on some information, and a worse angle on others.  
 
-Only the actual components of a system describe the system, and any attempt to review the system will only give a partial insight into it.  Systems are tricky in this way, but this is also where their power comes from, because they are not limited by them either.
+Only the actual components of a system describe the system, and any attempt to review the system will only give a partial insight into it, because it is a summary of something else, because a map is not equivalent to the territory it attempts to describe.  Systems are tricky in this way, but this is also where their power comes from, because they are not limited by them either.
 
 
 
