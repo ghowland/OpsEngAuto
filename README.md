@@ -7,9 +7,9 @@ Current Goal: Populate Empty Sections: 246   (Done: 20.4%)
 
 <br><br><b>NOTE: This is still an early Work-In-Progress.  It is being written linearly as a First Rough Draft without editing at the moment.  There are many typos and grammatical errors presently.</b>
 
-Lines: 2713
+Lines: 2717
 
-Words: 48282
+Words: 48392
 
 
 # Chapter 1: Preface (README.txt)
@@ -966,7 +966,11 @@ Team Has Time To Manually Perform Requests <---> Infrastructure Is Flexible Enou
 <br>
 This flexibility to be very specific with an axis, and to cross many boundaries of topics provides another benefit to Axiomatic Engineering, which is that "Compare and Contrast" type efforts can be very explicit, and anything that is too complicated to talk about clearly can be turned into these very specific sets of axises, which can than be given numerical values, and compared against each other.<br>
 <br>
-Because the topics are specific, and the numerical values gives your preference (or could be data collected through automation or monitoring) for describing very specific things.&nbsp;&nbsp;If you have related concepts that are specifically explained in separate axises, then the resulting quantified numbers of those axises comparison can give deeper insight to the problem, and can be communicated.<br>
+Because the topics are specific, and the numerical values gives your preference (or could be data collected through automation or monitoring) for describing very specific things.&nbsp;&nbsp;If you have related concepts that are specifically explained in separate axises, then the resulting quantified numbers of those axises comparison can give deeper insight to the problem, and can be communicated accordingly as Engineering oriented, attempting to be as objective as possible on data so complicated it must be subjectively formulated.<br>
+<br>
+This is the problem that we must work to overcome with any engineering field, in that there are too many variables, both known and unknown, to take into account, and to communicate about them is impossible to do accurately, and difficult to even do effectively.&nbsp;&nbsp;<br>
+<br>
+Since know accuracy, perfect accuracy, will be impossible, we must strive for maximum effectiveness, where we get the most value for the least effort, while not using too little effort so that we get the best results possible with the resources we have to use.<br>
 <h2 id=7ef5e6c23b6cb4359f88aea566c255fb><a href="#7ef5e6c23b6cb4359f88aea566c255fb">2.4</a>: What is a System?</h2>
 <br>
 There are a lot of ways the word "system" could be used.&nbsp;&nbsp;We're going to look at a general version of the word first, and then a specific version for our exact purposes afterwards.<br>
