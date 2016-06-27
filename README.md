@@ -9,7 +9,7 @@ Current Goal: Populate Empty Sections: 246   (Done: 20.4%)
 
 Lines: 2779
 
-Words: 50118
+Words: 50125
 
 
 # Chapter 1: Preface (README.txt)
@@ -1057,7 +1057,7 @@ It is of critical importance that one is able to test the validity of an asserti
 <br>
 For example, if there was an Web Server outage for 30 minutes, and in the outage post-mortem discussion the Root Cause was suggested to be an ISP outage, as it was during the time window their ISP told them they would be doing maintenance.<br>
 <br>
-Except, that in this example, that is not the correct cause, as an engineer got an alert on their cell phone that a service was down, they logged into the specified server, saw a mounted volume had no space left on it, they deleted some old log files, and the service started working again.&nbsp;&nbsp;Then they filed a ticket about it.<br>
+Except, that in this example, that is not the correct cause, as an engineer got an alert on their cell phone that a service was down, they logged into the specified server, saw a mounted volume had no space left on it; so they deleted some old log files, and the service started working again.&nbsp;&nbsp;Then they filed a ticket about it and marked it as an outage.<br>
 <br>
 But, in this example, the person who suggested it was the ISP's fault did not read this ticket, and so was giving their best guess at what happened, based on information they had that they thought was relevant.&nbsp;&nbsp;<br>
 <br>
