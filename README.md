@@ -7,9 +7,9 @@ Current Goal: Populate Empty Sections: 246   (Done: 20.4%)
 
 <br><br><b>NOTE: This is still an early Work-In-Progress.  It is being written linearly as a First Rough Draft without editing at the moment.  There are many typos and grammatical errors presently.</b>
 
-Lines: 2745
+Lines: 2751
 
-Words: 49296
+Words: 49358
 
 
 # Chapter 1: Preface (README.txt)
@@ -1051,9 +1051,15 @@ There is an infinite amount of information that is possible to learn, so the imp
 <br>
 This creates paths for future obstacle clearance, once one encounters an obstacle based on a required skill or set of knowledge, and minimizes disturbances to accomplishing your current goals, which will always yield the most immediately rewarding results for you, since you have prioritized them as your primary objective.<br>
 <br>
-Deductive and Inductive reasoning, Boolean Logic, and Set Logic are the primary tools for doing analysis, and any troubleshooting of Systems will be significantly improved if you can break things down to terms and evaluate them.<br>
+Deductive and Inductive reasoning, Boolean Logic, and Set Logic are the primary tools for doing analysis, and any troubleshooting of Systems will be significantly improved if you can break things down to terms and evaluate them for correctness against various assertions, as well as whether the assertions are valid or invalid.&nbsp;&nbsp;<br>
 <br>
-Like programming a computer is done with a programming language (C, Python, Java, etc), programming your mind is done by making physical and chemical-electrical changes to your mind by learning new skills and information, which gives you a larger library of activities you can perform and problems you can solve, which gives you improved ability to accomplish your goals.<br>
+It is of critical importance that one is able to test the validity of an assertion.&nbsp;&nbsp;Without able to validate or invalidate an assertion against it's test result, one will not know if they are making a decision based on an invalid assumption.<br>
+<br>
+For example, if <br>
+<br>
+...segue needed...<br>
+<br>
+Programming a computer is done with a programming language (C, Python, Java, etc), programming your mind is done by making physical and chemical-electrical changes to your mind by learning new skills and information, which gives you a larger library of activities you can perform and problems you can solve, which gives you improved ability to accomplish your goals.<br>
 <br>
 Accomplishment of your own goals, in my opinion, is a Primary Life Requirement, and should be an ever-present factor in each decision you make in your life, in order to yield yourself the best results.<br>
 {{ asside_end }}<br>
