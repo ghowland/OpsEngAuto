@@ -7,9 +7,9 @@ Current Goal: Populate Empty Sections: 246   (Done: 20.4%)
 
 <br><br><b>NOTE: This is still an early Work-In-Progress.  It is being written linearly as a First Rough Draft without editing at the moment.  There are many typos and grammatical errors presently.</b>
 
-Lines: 2697
+Lines: 2699
 
-Words: 47831
+Words: 47897
 
 
 # Chapter 1: Preface (README.txt)
@@ -951,6 +951,8 @@ I have worked in many organizations where the operations team spends nearly all 
 Achieving business goals is the reason all departments exist, so it is a good thing to get the work done, but if it is performed in a manner where the business begins to operate less efficiently over time, and eventually starts to fail frequently, it can cause harm to other business goals, such as customer retention, which effects revenue.&nbsp;&nbsp;So both getting the work done, and getting the work done in a way that improves the ability to do more work in the future are important goals which must coexist in an healthy environment.<br>
 <br>
 In order to handle requests efficiently, the infrastructure must be one that can reasonably be altered to support this requests, and as the business changes in scale, scope, and direction, this takes either a very well put together operational environment that is made to be changed quickly in these manners (possible, but difficult to assemble, and easy to turn less-functional), or it requires time before requests are done, to prepare the environment, or more time after the requests are done to fix the system after the fact.<br>
+<br>
+This is also on a spectrum, so you can't have both extremes as being simulatenously true in the same instance, which means you need to acknowledge, plan for and deal with the trade offs actively both over longer periods of times (quarters, years) and for each request, with an understanding of the scope of each requests potential to make positive or negative impacts on the infrastructure.<br>
 <h2 id=7ef5e6c23b6cb4359f88aea566c255fb><a href="#7ef5e6c23b6cb4359f88aea566c255fb">2.4</a>: What is a System?</h2>
 <br>
 There are a lot of ways the word "system" could be used.&nbsp;&nbsp;We're going to look at a general version of the word first, and then a specific version for our exact purposes afterwards.<br>
