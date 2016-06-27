@@ -9,7 +9,7 @@ Current Goal: Populate Empty Sections: 246   (Done: 20.4%)
 
 Lines: 2717
 
-Words: 48444
+Words: 48445
 
 
 # Chapter 1: Preface (README.txt)
@@ -977,7 +977,7 @@ There are a lot of ways the word "system" could be used.&nbsp;&nbsp;We're going 
 <br>
 When I was growing up and for the first 10 years of my career, operational engineers were called "System Administrators".&nbsp;&nbsp;Today some people use this term derogatorily as lower-level or older style work, and while anyone can have any perspective they'd like, this is not consistent with history.<br>
 <br>
-I was lucky enough to spend some around professional system administrators throughout the 1980s, before I was old enough to work, and I got to see them doing core dumps and reading through the hexadecimal output to find where the problems in their code were, and even fix some problems through a hex editor.&nbsp;&nbsp;I also got to get a bit of their practical advice and viewpoints, and I believe that after 5 or so years of professional operations work the lessons I saw back then started to filter back in to be more conscious rather than subconscious guides and role models.<br>
+I was lucky enough to spend some time around professional system administrators throughout the 1980s, before I was old enough to work, and I got to see them doing core dumps and reading through the hexadecimal output to find where the problems in their code were, and even fix some problems through a hex editor.&nbsp;&nbsp;I also got to get a bit of their practical advice and viewpoints, and I believe that after 5 or so years of professional operations work the lessons I saw back then started to filter back in to be more conscious rather than subconscious guides and role models.<br>
 <br>
 So what is a system?&nbsp;&nbsp;Historically, in the computer industry, a system was often referred to as a single machine with an operating system on it, and the environment that was then configured on top of that to create a working environment.<br>
 <br>
