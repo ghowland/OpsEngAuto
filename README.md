@@ -7,9 +7,9 @@ Current Goal: Populate Empty Sections: 246   (Done: 20.4%)
 
 <br><br><b>NOTE: This is still an early Work-In-Progress.  It is being written linearly as a First Rough Draft without editing at the moment.  There are many typos and grammatical errors presently.</b>
 
-Lines: 2731
+Lines: 2733
 
-Words: 48959
+Words: 48979
 
 
 # Chapter 1: Preface (README.txt)
@@ -1042,7 +1042,9 @@ I believe Systemic Thinking is one of the most powerful and useful tools in our 
 <br>
 Systemic Thinking has a number of prerequisites, such as a general understanding of how systems work, how to create systems, how to modify a system, how to inspect and evaluate the connections and links between system components, and a good basis in critical thinking.&nbsp;&nbsp;Having the ability to think deductively and inductively is a fundamental requirement.<br>
 <br>
-If you have not yet read a book on critical thinking, you should, to ensure you have down the basics of the topic.&nbsp;&nbsp;Deductive and inductive thinking, boolean logic, and set logic are primary tools for doing analysis, and any troubleshooting of systems will be significantly improved if you can break things down to terms and evaluate them.<br>
+If you have not yet read a book on critical thinking, you should, to ensure you have the basic understanding of the topic, but of course you can fill in this information later now that you know it's something that could benefit you.&nbsp;&nbsp;<br>
+<br>
+Deductive and inductive thinking, boolean logic, and set logic are primary tools for doing analysis, and any troubleshooting of systems will be significantly improved if you can break things down to terms and evaluate them.<br>
 <br>
 {{ todo__recommend_critical_thinking_book }}<br>
 <br>
