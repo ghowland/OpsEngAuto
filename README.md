@@ -1053,7 +1053,7 @@ Deductive and Inductive reasoning, Boolean Logic, and Set Logic are the primary 
 <br>
 Like programming a computer is done with a programming language (C, Python, Java, etc), programming your mind is done by making physical and chemical-electrical changes to your mind by learning new skills and information, which gives you a larger library of activities you can perform and problems you can solve, which gives you improved ability to accomplish your goals.<br>
 <br>
-Accomplishment of your own goals, in my opinion, is a Primary Life Requirement, and should be a ever-present factor in each decision you make in your life, in order to yield yourself the best results.<br>
+Accomplishment of your own goals, in my opinion, is a Primary Life Requirement, and should be an ever-present factor in each decision you make in your life, in order to yield yourself the best results.<br>
 {{ asside_end }}<br>
 <br>
 {{ todo__recommend_critical_thinking_book }}<br>
