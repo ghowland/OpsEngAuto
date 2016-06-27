@@ -9,7 +9,7 @@ Current Goal: Populate Empty Sections: 246   (Done: 20.4%)
 
 Lines: 2779
 
-Words: 50127
+Words: 50138
 
 
 # Chapter 1: Preface (README.txt)
@@ -1061,7 +1061,7 @@ Except, that in this example, that is not the correct cause, as an engineer got 
 <br>
 But, in this example, the person who suggested it was the ISP's fault did not read this ticket, and so was giving their best guess as to what happened, based on information they had, that they thought was relevant.&nbsp;&nbsp;<br>
 <br>
-If no one with better information was present in that meeting, then that could very likely be selected as the primary reason for the 30 minute outage, when in actuality, the outage was caused for a different reason, and that reason was dealt with and logged according to standard work principles.<br>
+If no one with better information was present in that meeting, then that could very likely be selected as the primary reason for the 30 minute outage when it is written up as Root Cause; when in actuality, the outage was caused for a different reason, and that reason was fixed and logged according to standard work procedures by the engineer on-call.<br>
 <br>
 Being able to test the validity of an assertion allows us to quantify an assertion against it's subject.<br>
 <br>
