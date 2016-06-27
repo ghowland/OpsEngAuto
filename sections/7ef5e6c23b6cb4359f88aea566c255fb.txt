@@ -40,7 +40,7 @@ This is an example of a simple system, and indeed anything can be turned into a 
 
 The power of Systems is that they can be created at any time, to describe any thing, provided you are capable of properly black-boxing the components of the system you want to construct.
 
-You do not need to constrain yourself to existing systems, that other people have described, even when working with their work which have their own systems already described.  You can create your own systems for your own purposes.
+You do not need to constrain yourself to existing systems, that other people have described, even when working with their work which have their own systems already described and available.  You can create your own systems for your own purposes.
 
 You might create alternative systems to simply understand other people's described systems.  Sometimes it is harder to understand someone else's work than your own, and so creating your own work can illuminate a subject.  
 
