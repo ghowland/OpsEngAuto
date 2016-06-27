@@ -7,9 +7,9 @@ Current Goal: Populate Empty Sections: 246   (Done: 20.4%)
 
 <br><br><b>NOTE: This is still an early Work-In-Progress.  It is being written linearly as a First Rough Draft without editing at the moment.  There are many typos and grammatical errors presently.</b>
 
-Lines: 2761
+Lines: 2765
 
-Words: 49594
+Words: 49699
 
 
 # Chapter 1: Preface (README.txt)
@@ -1065,7 +1065,11 @@ If no one with better information was in that meeting, then that would be most l
 <br>
 Being able to test the validity of an assertion allows us to quantify an assertion against it's subject.<br>
 <br>
-If we were in the meeting we could quantify the assertion that <br>
+If we were in the meeting we could quantify the assertion that this was related to an ISP maintenance notification we received by comparing that to the data known to correlate that assertion with the actual outage. <br>
+<br>
+When querying the attendee who offered the assertion, they would explain that they didn't verify this is the case, but it matches the time frame.&nbsp;&nbsp;We can conclude from this that while this is a possible lead to look for correlating data/evidence, it is not a candidate for Root Cause because there is no data.<br>
+<br>
+Without any data, only speculative relationships due to correlation of information (notification and outage windows, but no data correlating the outage with the maintenance directly), <br>
 <br>
 This tangential aside has already gone on quite long, but I have additional point to make on the topic of goals.<br>
 <br>
