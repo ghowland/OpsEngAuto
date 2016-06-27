@@ -9,7 +9,7 @@ Current Goal: Populate Empty Sections: 246   (Done: 20.4%)
 
 Lines: 2779
 
-Words: 50125
+Words: 50126
 
 
 # Chapter 1: Preface (README.txt)
@@ -1059,7 +1059,7 @@ For example, if there was an Web Server outage for 30 minutes, and in the outage
 <br>
 Except, that in this example, that is not the correct cause, as an engineer got an alert on their cell phone that a service was down, they logged into the specified server, saw a mounted volume had no space left on it; so they deleted some old log files, and the service started working again.&nbsp;&nbsp;Then they filed a ticket about it and marked it as an outage.<br>
 <br>
-But, in this example, the person who suggested it was the ISP's fault did not read this ticket, and so was giving their best guess at what happened, based on information they had that they thought was relevant.&nbsp;&nbsp;<br>
+But, in this example, the person who suggested it was the ISP's fault did not read this ticket, and so was giving their best guess as to what happened, based on information they had, that they thought was relevant.&nbsp;&nbsp;<br>
 <br>
 If no one with better information was in that meeting, then that would be most likely selected as the primary reason for the 30 minute outage, when in actuality, the outage was caused for a different reason, and that reason was dealt with and logged according to standard work principles.<br>
 <br>
