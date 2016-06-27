@@ -964,7 +964,7 @@ Trade Off Between Team Time and Infrastructure Flexibility For A Healthy Environ
 <br>
 Team Has Time To Manually Perform Requests <---> Infrastructure Is Flexible Enough To Take Requests Quickly Without Requiring Significant Team Manual Time<br>
 <br>
-This flexibility to be very specific with an axis, and to cross many boundaries of topics provides another benefit to Axiomatic Engineering, which is that "Contrast and Compare" type efforts can be very explicit, and anything that is too complicated to talk about clearly can be turned into these very specific sets of axises, which can than be given numerical values, and compared against each other.<br>
+This flexibility to be very specific with an axis, and to cross many boundaries of topics provides another benefit to Axiomatic Engineering, which is that "Compare and Contrast" type efforts can be very explicit, and anything that is too complicated to talk about clearly can be turned into these very specific sets of axises, which can than be given numerical values, and compared against each other.<br>
 <br>
 Because the topics are specific, and the numerical values gives your preference (or data if automated values through automatic monitoring collection) for what these very specific things should be, and if you have related concepts that are specifically explained in contrasting axises, then the resulting quantified numbers of those axises can give deeper insight to the problem, and can be communicated.<br>
 <h2 id=7ef5e6c23b6cb4359f88aea566c255fb><a href="#7ef5e6c23b6cb4359f88aea566c255fb">2.4</a>: What is a System?</h2>
