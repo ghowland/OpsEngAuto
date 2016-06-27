@@ -34,7 +34,7 @@ They can trace this backwards and confirm that indeed Z occurred, and Y occurred
 
 For a common example of this, a web server starts to fail, and on inspection the disk is full, and on further inspection no log rotation was configured, and so the web server failing is a mechanical response to the disk filling up, which is a mechanical response to not having logs being rotated.
 
-If you do not rotate logs (or otherwise truncate them), then with any activity at all, it is guaranteed that eventually the available storage will fill up, and any services which might use the disk for writes (such as logging) will fail.
+If you do not rotate logs (or otherwise truncate them), then with any activity at all, it is guaranteed that eventually the available storage will fill up, and any services which might use the storage for writes (such as logging) will fail.
 
 This is a simple system, and indeed anything can be turned into a system.
 
