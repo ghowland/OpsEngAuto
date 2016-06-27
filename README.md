@@ -987,7 +987,7 @@ One of the interesting properties of the word "system" is that all of these thin
 <br>
 A system is an generalized term for a set of interrelated, connected things that can be used together to produce effects.&nbsp;&nbsp;Like anything, it is black-boxable into inputs, outputs and side effects, and has sub-components which can be similarly black-boxed, etc.&nbsp;&nbsp;Systems may contain Real or Virtual components, and may create Real or Virtual effects, and combinations thereof.<br>
 <br>
-So a system is a flexible term, and is something like an "environment" or an "ecosystem" in common usage.<br>
+So, a "system" is a flexible term, and is something like an "environment" or an "ecosystem" in common usage.<br>
 <br>
 I like to think of systems as being somewhat like virtual machines, in the actual sense not in the container operating system sense.&nbsp;&nbsp;A system's connections can be graphed, like a network, and each component and be described by the inputs, outputs and side effects it causes, and may contain many layers of other systems, and may be part of a bigger system.<br>
 <br>
