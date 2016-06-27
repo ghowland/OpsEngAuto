@@ -104,6 +104,6 @@ This is one way that a request event could be processed by a web server.  We can
 
 In the case of a more dynamic system, the web server could proxy the request to an application server, which then makes database calls and performs formatting logic, and then returns a dynamic result instead of a static one.
 
-The importance of Systemic Thinking in this is that there are no gaps.  Every connection that is required is modeled, and if new connections are required, they are added, and the remaining components need to be updated so that the System remains Internally Consistent.
+The importance of Systemic Thinking is that there are no gaps.  Every connection that is required is modeled, and if new connections are required, they are added, and the remaining components need to be updated so that the System remains Internally Consistent.
 
 Internal Consistency is a very important factor in any System, for it to be a properly functioning system, and will be another topic we delve into deeply.  Internal Consistency has similarities to Alignment, where components are aligned with one another for maximum efficiency, but Alignment requires Internal Consistency, where something can be Internally Consistent but not aligned.  In this way Internal Consistency is a super-set of Alignment, in order to be aligned, things must be consistent, but things can be consistent and yet not well-aligned.
