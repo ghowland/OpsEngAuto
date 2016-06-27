@@ -7,7 +7,7 @@ Current Goal: Populate Empty Sections: 246   (Done: 20.4%)
 
 <br><br><b>NOTE: This is still an early Work-In-Progress.  It is being written linearly as a First Rough Draft without editing at the moment.  There are many typos and grammatical errors presently.</b>
 
-Lines: 2717
+Lines: 2719
 
 Words: 48697
 
@@ -1017,7 +1017,9 @@ You do not need to constrain yourself to existing systems, that other people hav
 <br>
 You might create alternative systems to simply understand other people's described systems.&nbsp;&nbsp;Sometimes it is harder to understand someone else's work than your own, and so creating your own work can illuminate a subject.&nbsp;&nbsp;Sometimes just writing down someone else's ideas in your own words provides insight you were previously missing, and allows you to understand the system you are describing, in a way that is more comprehensive or deeper than merely trying to use someone else's system.<br>
 <br>
-As an exercise while you read this book, try to create your own systems based on "the big picture" to understand what is currently being discussed.&nbsp;&nbsp;As new information comes in, update your system to reflect these changes.&nbsp;&nbsp;Attempt to switch from "big picture" to "details" and back again, to deepen your understanding of individual topics and the overall topic.&nbsp;&nbsp;Imaging looking at a forrest, then the leaves of a single tree, then back to the forrest, then looking at a specific leaf on a single tree, then back to the original tree's set of leaves, etc.&nbsp;&nbsp;The information is always a summary of something, whether you are look at specific pieces of summarized information, or larger sections of collected summarized information, you must be able to understand it, and have opinions on it based on your goals.&nbsp;&nbsp;Will it assist your goals?&nbsp;&nbsp;Will it make it harder to complete your goals?<br>
+As an exercise while you read this book, try to create your own systems based on "the big picture" to understand what is currently being discussed.&nbsp;&nbsp;As new information comes in, update your system to reflect these changes.&nbsp;&nbsp;Attempt to switch from "big picture" to "details" and back again, to deepen your understanding of individual topics and the overall topic.&nbsp;&nbsp;<br>
+<br>
+Imaging looking at a forrest, then the leaves of a single tree, then back to the forrest, then looking at a specific leaf on a single tree, then back to the original tree's set of leaves, etc.&nbsp;&nbsp;The information is always a summary of something, whether you are look at specific pieces of summarized information, or larger sections of collected summarized information, you must be able to understand it, and have opinions on it based on your goals.&nbsp;&nbsp;Will it assist your goals?&nbsp;&nbsp;Will it make it harder to complete your goals?<br>
 <br>
 You can do this on paper, in your head, you can find software that helps you create systems quickly (like Mind Map software), or use relational databases to track discrete data.&nbsp;&nbsp;Flow charts are one way to map systems, finite state machines are others ways, behavior trees are another way, but you can also describe them in prose, or doodles or any other way.<br>
 <br>
