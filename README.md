@@ -9,7 +9,7 @@ Current Goal: Populate Empty Sections: 246   (Done: 20.4%)
 
 Lines: 2731
 
-Words: 48964
+Words: 48958
 
 
 # Chapter 1: Preface (README.txt)
@@ -1038,7 +1038,7 @@ I'll use "Systemic Thinking" to mean thinking in a way where everything is insid
 <br>
 This can be described by a network of black box functions which take inputs, emit outputs, and perform side-effects, totaling the results of anything that exists or doesn't exist.&nbsp;&nbsp;Either way, it can be described as a system, and using this methodology for organizing one's thoughts is "systemic thinking" by my definition here.<br>
 <br>
-I believe Systemic Thinking is one of the most powerful and useful tools in our mental toolbox, and could use a lot more of the educational spotlight.&nbsp;&nbsp;In terms of yielding positive results in learning, creating things, and in performing maintenance (in a very general sense, such as troubleshooting), systemic thinking is one of the most useful tools.<br>
+I believe Systemic Thinking is one of the most powerful and useful tools in our mental toolbox, and could use a lot more of the educational spotlight.&nbsp;&nbsp;In terms of yielding positive results in learning, creating things, and in performing maintenance (ex: troubleshooting), systemic thinking is one of the most useful tools.<br>
 <br>
 Systemic Thinking has a number of prerequisites, such as a general understanding of how systems work, how to create systems, how to modify a system, how to inspect and evaluate the connections and links between system components, and a good basis in critical thinking.&nbsp;&nbsp;Having the ability to think deductively and inductively is a requirement.<br>
 <br>
