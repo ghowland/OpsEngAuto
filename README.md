@@ -9,7 +9,7 @@ Current Goal: Populate Empty Sections: 246   (Done: 20.4%)
 
 Lines: 2717
 
-Words: 48405
+Words: 48443
 
 
 # Chapter 1: Preface (README.txt)
@@ -966,7 +966,7 @@ Team Has Time To Manually Perform Requests <---> Infrastructure Is Flexible Enou
 <br>
 This flexibility to be very specific with an axis, and to cross many boundaries of topics provides another benefit to Axiomatic Engineering, which is that "Compare and Contrast" type efforts can be very explicit, and anything that is too complicated to talk about clearly can be turned into these very specific sets of axises, which can than be given numerical values, and compared against each other.<br>
 <br>
-Because the topics are specific, and the numerical values gives your preference (or could be data collected through automation or monitoring) for describing very specific things.&nbsp;&nbsp;If you have related concepts that are specifically explained in separate axises, then the resulting quantified numbers of those axises comparison can give deeper insight to the problem, and can be communicated accordingly as Engineering Oriented Information, separate from normal communication in it's attempt to be precise and descriptive, attempting to be as objective as possible on data so complicated it must be subjectively formulated.<br>
+Because the topics are specific, and the numerical values gives your preference (or could be data collected through automation or monitoring) for describing very specific things.&nbsp;&nbsp;If you have related concepts that are specifically explained in separate axises, then the resulting quantified numbers of those axises comparison can give deeper insight to the problem, and can be communicated accordingly as Engineering Oriented Information, separate from normal communication in it's attempt to be precise and descriptive, attempting to be as objective as possible on data so complicated it must be subjectively formulated.&nbsp;&nbsp;Mathematics are such a notation for dealing with problems in that domain, but these are problems in a different domain, and need a solution as customized for that domain as the mathematics solution is customized for it's domain.<br>
 <br>
 This is the problem that we must work to overcome with any engineering field, in that there are too many variables, both known and unknown, to take into account, and to communicate about them is impossible to do accurately, and difficult to even do effectively.&nbsp;&nbsp;<br>
 <br>
