@@ -7,9 +7,9 @@ Current Goal: Populate Empty Sections: 246   (Done: 20.4%)
 
 <br><br><b>NOTE: This is still an early Work-In-Progress.  It is being written linearly as a First Rough Draft without editing at the moment.  There are many typos and grammatical errors presently.</b>
 
-Lines: 2757
+Lines: 2759
 
-Words: 49515
+Words: 49563
 
 
 # Chapter 1: Preface (README.txt)
@@ -1061,7 +1061,9 @@ Except, for this example this is not the correct cause, as an engineer got an al
 <br>
 But, in this example, the person who suggested it was the ISP's fault did not read this ticket, and so was giving their best guess at what happened, based on information they had that they thought was relevant.&nbsp;&nbsp;<br>
 <br>
-If no one with better information was in that meeting, then that would be most likely selected as the primary <br>
+If no one with better information was in that meeting, then that would be most likely selected as the primary reason for the 30 minute outage, when in actuality, the outage was caused for a different reason, and that reason was dealt with and logged according to standard work principles.<br>
+<br>
+Being able to test the validity of an assertion allows us to quantify an assertion against it's subject.<br>
 <br>
 ...segue needed...<br>
 <br>
