@@ -12,7 +12,7 @@ So a system was sometimes a machine's hardware, an operating system was also a s
 
 One of the interesting properties of the word "system" is that all of these things were and are true.  And all of these things together are also a system.
 
-A system is an generalized term for a set of interrelated, connected things that can be used together to produce effects.  Like anything, it is black-boxable into inputs, outputs and side effects, and has sub-components which can be similarly black-boxed, etc.  Systems may contain Real or Virtual components, and may create Real or Virtual effects.
+A system is an generalized term for a set of interrelated, connected things that can be used together to produce effects.  Like anything, it is black-boxable into inputs, outputs and side effects, and has sub-components which can be similarly black-boxed, etc.  Systems may contain Real or Virtual components, and may create Real or Virtual effects, and combinations thereof.
 
 So a system is a flexible term, and is something like an "environment" or an "ecosystem" in common usage.
 

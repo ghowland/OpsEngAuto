@@ -9,7 +9,7 @@ Current Goal: Populate Empty Sections: 246   (Done: 20.4%)
 
 Lines: 2717
 
-Words: 48461
+Words: 48464
 
 
 # Chapter 1: Preface (README.txt)
@@ -985,7 +985,7 @@ So a system was sometimes a machine's hardware, an operating system was also a s
 <br>
 One of the interesting properties of the word "system" is that all of these things were and are true.&nbsp;&nbsp;And all of these things together are also a system.<br>
 <br>
-A system is an generalized term for a set of interrelated, connected things that can be used together to produce effects.&nbsp;&nbsp;Like anything, it is black-boxable into inputs, outputs and side effects, and has sub-components which can be similarly black-boxed, etc.&nbsp;&nbsp;Systems may contain Real or Virtual components, and may create Real or Virtual effects.<br>
+A system is an generalized term for a set of interrelated, connected things that can be used together to produce effects.&nbsp;&nbsp;Like anything, it is black-boxable into inputs, outputs and side effects, and has sub-components which can be similarly black-boxed, etc.&nbsp;&nbsp;Systems may contain Real or Virtual components, and may create Real or Virtual effects, and combinations thereof.<br>
 <br>
 So a system is a flexible term, and is something like an "environment" or an "ecosystem" in common usage.<br>
 <br>
