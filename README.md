@@ -9,7 +9,7 @@ Current Goal: Populate Empty Sections: 246   (Done: 20.4%)
 
 Lines: 2717
 
-Words: 48463
+Words: 48461
 
 
 # Chapter 1: Preface (README.txt)
@@ -989,7 +989,7 @@ A system is an generalized term for a set of interrelated, connected things that
 <br>
 So, a "system" is a flexible term, and is something like an "environment" or an "ecosystem" in common usage.<br>
 <br>
-I like to think of systems as being somewhat like virtual machines, in the actual sense not in the container operating system sense.&nbsp;&nbsp;A system's connections can be graphed, like a network, and each component and be described by the inputs, outputs and side effects it causes, and may contain many layers of other systems, and may be part of a bigger system.<br>
+I like to think of systems as being somewhat like virtual machines, in the actual sense not in the container-type-operating-system sense.&nbsp;&nbsp;A system's connections can be graphed, like a network, and each component and be described by the inputs, outputs and side effects it causes, and may contain many layers of other systems, and may be part of a bigger system.<br>
 <br>
 Why is any of this important?&nbsp;&nbsp;Because your understanding of how systems works will determine your ability to mentally map the systems that you work with, so that you can think in terms of how those systems function.<br>
 <br>
