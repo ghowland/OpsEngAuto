@@ -9,7 +9,7 @@ Current Goal: Populate Empty Sections: 246   (Done: 20.4%)
 
 Lines: 2783
 
-Words: 50377
+Words: 50378
 
 
 # Chapter 1: Preface (README.txt)
@@ -1134,7 +1134,7 @@ Let's create an event that occurs and exercises these components, as a sequence:
 <br>
 - The end-user's web browser will have received the HTTP response, getting the status code and body of the content, and in this case will display the image to the screen.<br>
 <br>
-This is one way that a request event could be processed by a web server.&nbsp;&nbsp;We can similarly create the model of "the file does not exist", the web server may do something similar, except return a 404 File Not Found static content.<br>
+This is one way that a request event could be processed by a web server.&nbsp;&nbsp;We can similarly create the model of "the file does not exist", the web server may do something similar, except return a 404 File Not Found static content result.<br>
 <br>
 In the case of a more dynamic system, the web server could proxy the request to an application server, which then makes database calls and performs formatting logic, and then returns a dynamic result instead of a static one.<br>
 <br>
