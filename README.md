@@ -9,7 +9,7 @@ Current Goal: Populate Empty Sections: 246   (Done: 20.4%)
 
 Lines: 2713
 
-Words: 48276
+Words: 48274
 
 
 # Chapter 1: Preface (README.txt)
@@ -958,7 +958,7 @@ What do I mean when I say two extreme's can't be true at the same time for the s
 <br>
 Failure to either get enough time per request, or to have an infrastructure that does not take much time per request to remain a healthy environment, will result in an operational environment that becomes unhealthy, and will begin to exhibit the unhealthy signs:&nbsp;&nbsp;Lower Availability, Lower Performance, Lower Correctness, Lower User Satisfaction, Lower Maintainer Satisfaction, Lower Developer Satisfaction, Lower Revenues, Lower Opportunities, Lower Ability To Be Manueverable, etc.<br>
 <br>
-This spectrum is fairly specific, unlike things like "Not Available <--> Available", which is a fairly straight-forward concept to understand in a single topic, this axis' line moves among many topics to create a sliding scale between all of them, in a very limited manner.<br>
+This spectrum is fairly specific, unlike "Not Available <--> Available", which is a fairly straight-forward concept to understand in a single topic, this axis' line moves among many topics to create a sliding scale between all of them, in a very limited manner.<br>
 <br>
 Trade Off Between Team Time and Infrastructure Flexibility For A Healthy Environment:<br>
 <br>
