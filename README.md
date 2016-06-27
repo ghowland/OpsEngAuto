@@ -9,7 +9,7 @@ Current Goal: Populate Empty Sections: 246   (Done: 20.4%)
 
 Lines: 2697
 
-Words: 47754
+Words: 47789
 
 
 # Chapter 1: Preface (README.txt)
@@ -946,7 +946,7 @@ Handling Requests <---> Improving Infrastructure<br>
 <br>
 The more of the operational team's resources (time, people) that are committed to processing requests made from outside the team (other departments, higher management), the less time the team is able to work on improving the infrastructure that exists, including improving the ability to handle the incoming requests in the first place.<br>
 <br>
-I have worked in many organizations where the operations team spends nearly all of their time performing requests, and almost no time improving the infrastructure, and as a result the infrastructure becomes more and more fragile as request after request is done in a manner that is not scalable or supportable, but is required to meet business timelines and direction.<br>
+I have worked in many organizations where the operations team spends nearly all of their time performing requests, and almost no time improving the infrastructure, and as a result the infrastructure becomes more and more fragile as request after request is done in a manner that is not scalable or supportable, but is required to meet business timelines and direction.&nbsp;&nbsp;In this way the Alignment between all elements of the operational environment becomes worse and worse over time as each one-off request is handled specially and the system becomes more "de facto" and less planned.<br>
 <br>
 Achieving business goals is the reason all departments exist, so this is a good thing, in itself, but it can be performed in a manner where the business begins to not operate efficiently, and eventually starts to fail frequently, causing harm to other business goals, such as customer retention, which effects revenue.<br>
 <br>
