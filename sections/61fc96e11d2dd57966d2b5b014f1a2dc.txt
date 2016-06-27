@@ -100,7 +100,7 @@ Let's create an event that occurs and exercises these components, as a sequence:
 
 - The end-user's web browser will have received the HTTP response, getting the status code and body of the content, and in this case will display the image to the screen.
 
-This is one way that a request event could be processed by a web server.  We can similarly create the model of the file does not exist, the web server may do something similar, except return a 404 File Not Found static content.
+This is one way that a request event could be processed by a web server.  We can similarly create the model of "the file does not exist", the web server may do something similar, except return a 404 File Not Found static content.
 
 In the case of a more dynamic system, the web server could proxy the request to an application server, which then makes database calls and performs formatting logic, and then returns a dynamic result instead of a static one.
 
