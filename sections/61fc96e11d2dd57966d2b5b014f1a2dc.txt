@@ -80,7 +80,7 @@ Since we can create a system out of any components, let's decide what our compon
 - A file system that locally contains system files.
 - A file system that locally logs requests and processing.
 
-This is a slice of components involve in web process, and just as I have arbitrarily picked these for this example, you can pick any components you want to build your own systems.  You can continue to refer to the same system over time to get more familiar with all the details of that system, as is important in operational and application documentation, or you can abandon the system as soon as it's immediate purposes are over.  Systems can be used forever or can be completely ephemeral, they are abstractions for reasoning and understanding reality, which remains too detailed and complex for us to directly understand.
+This is a slice of components involved in a web request, and just as I have arbitrarily picked these for this example, you can pick any components you want to build your own systems.  You can continue to refer to the same system over time to get more familiar with all the details of that system, as is important in operational and application documentation, or you can abandon the system as soon as it's immediate purposes are over.  Systems can be used forever or can be completely ephemeral, they are abstractions for reasoning and understanding reality, which remains too detailed and complex for us to directly understand.
 
 Let's create an event that occurs and exercises these components, as a sequence:
 
