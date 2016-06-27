@@ -39,7 +39,7 @@ Without any data, this is only speculative relationships due to correlation of i
 
 While this is a higher-than-other-unknown-topic-priority topic to collect data on, since there is a time window correlation which adds priority, all other areas of the operational environment still need to be prioritized to collect information on, in order to find a direct correlation between the outage and the thing that caused the outage: the Root Cause.  
 
-Prioritization is based on which Components of the Environment are most likely involved with the outage, based on the match between the data monitoring results and what those results would be if a given Component failed.  This description can be called a , or "fingerprint", 
+Prioritization is based on which Components of the Environment are most likely involved with the outage, based on the match between the data collected from monitoring and what those our Model predicts the results would be if a given Component failed, under a given condition.  This description can be called a Component's Model, which serves like a fingerprint to distinguish a that Component interacts with data, which we use to predict future state, or extract information from historical summaries.
 
 To elaborate on the prioritization, it may be surprising but the collection of information on the ISP's maintenance should be given less priority than collection from some other sources, even though it is a known likely possible cause.
 
