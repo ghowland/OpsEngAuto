@@ -7,9 +7,9 @@ Current Goal: Populate Empty Sections: 246   (Done: 20.4%)
 
 <br><br><b>NOTE: This is still an early Work-In-Progress.  It is being written linearly as a First Rough Draft without editing at the moment.  There are many typos and grammatical errors presently.</b>
 
-Lines: 2773
+Lines: 2775
 
-Words: 49913
+Words: 49957
 
 
 # Chapter 1: Preface (README.txt)
@@ -1077,7 +1077,9 @@ To elaborate on the prioritization, it may be surprising but the collection of i
 <br>
 The reason that it should get lower priority than some other places to collect information, is that the maintenance correlation was temporary and a one-time thing, and is already over.&nbsp;&nbsp;So collecting data on the ISP maintenance correlation is going to improve your records of events, and possibly has financial or contractual ramifications, which are important, but are not urgent in terms of time to response, since they are going to take time to process.<br>
 <br>
-In comparison, if it was not the ISP maintenance that was the Root Cause, then the problem could still be occurring presently, and could be causing degraded service, or potentially failing in a manner that is not being monitored or alerted on, or is going to pass a threshold and be<br>
+In comparison, if it was not the ISP maintenance that was the Root Cause, then the problem could still be occurring presently, and could be causing degraded service, or potentially failing in a manner that is not being monitored or alerted on, or is going to pass a threshold and begin a new outage soon.<br>
+<br>
+All of this can be found through troubleshooting, using the required skills of Modeling your System against the Reality of the Components in your actual system, and then using that Model to reason about what happened, or what will happen.<br>
 <br>
 This tangential aside has already gone on quite long, but I have additional point to make on the topic of goals.<br>
 <br>
