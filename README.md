@@ -9,7 +9,7 @@ Current Goal: Populate Empty Sections: 246   (Done: 20.4%)
 
 Lines: 2717
 
-Words: 48462
+Words: 48463
 
 
 # Chapter 1: Preface (README.txt)
@@ -1007,7 +1007,7 @@ They can trace this backwards and confirm that indeed Z occurred, and Y occurred
 <br>
 For a common example of this, a web server starts to fail, and on inspection the disk is full, and on further inspection no log rotation was configured, and so the web server failing is a mechanical response to the disk filling up, which is a mechanical response to not having logs being rotated.<br>
 <br>
-If you do not rotate logs (or otherwise truncate them), then with any activity at all, it is guaranteed that eventually the disk will fill up, and any services which might use the disk for writes (such as logging) will fail.<br>
+If you do not rotate logs (or otherwise truncate them), then with any activity at all, it is guaranteed that eventually the available storage will fill up, and any services which might use the disk for writes (such as logging) will fail.<br>
 <br>
 This is a simple system, and indeed anything can be turned into a system.<br>
 <br>
