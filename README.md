@@ -9,7 +9,7 @@ Current Goal: Populate Empty Sections: 246   (Done: 20.4%)
 
 Lines: 2717
 
-Words: 48443
+Words: 48444
 
 
 # Chapter 1: Preface (README.txt)
@@ -970,7 +970,7 @@ Because the topics are specific, and the numerical values gives your preference 
 <br>
 This is the problem that we must work to overcome with any engineering field, in that there are too many variables, both known and unknown, to take into account, and to communicate about them is impossible to do accurately, and difficult to even do effectively.&nbsp;&nbsp;<br>
 <br>
-Since know accuracy, perfect accuracy, will be impossible, we must strive for maximum effectiveness, where we get the most value for the least effort, while not using too little effort so that we get the best results possible with the resources we have to use.<br>
+Since we know accuracy, perfect accuracy, will be impossible, we must strive for maximum effectiveness, where we get the most value for the least effort, while not using too little effort so that we get the best results possible with the resources we have to use.<br>
 <h2 id=7ef5e6c23b6cb4359f88aea566c255fb><a href="#7ef5e6c23b6cb4359f88aea566c255fb">2.4</a>: What is a System?</h2>
 <br>
 There are a lot of ways the word "system" could be used.&nbsp;&nbsp;We're going to look at a general version of the word first, and then a specific version for our exact purposes afterwards.<br>
