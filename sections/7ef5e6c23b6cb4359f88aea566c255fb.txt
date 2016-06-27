@@ -6,9 +6,9 @@ When I was growing up and for the first 10 years of my career, operational engin
 
 I was lucky enough to spend some time around professional system administrators throughout the 1980s, before I was old enough to work, and I got to see them doing core dumps and reading through the hexadecimal output to find where the problems in their code were, and even fix some problems through a hex editor.  I also got to get a bit of their practical advice and viewpoints, and I believe that after 5 or so years of professional operations work the lessons I saw back then started to filter back in to be more conscious rather than subconscious guides and role models.
 
-So what is a system?  Historically, in the computer industry, a system was often referred to as a single machine with an operating system on it, and the environment that was then configured on top of that to create a working environment.
+So, what is a system?  Historically, in the computer industry, a system was often referred to as a single machine with an operating system on it, and the environment that was then configured on top of that to create a working environment.
 
-So a system was sometimes a machine's hardware, an operating system was also a system, and the eventual configured environment was a system.
+A system was sometimes a machine's hardware, an operating system was also a system, and the eventual configured environment was a system.
 
 One of the interesting properties of the word "system" is that all of these things were and are true.  And all of these things together are also a system.
 
