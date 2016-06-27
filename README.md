@@ -9,7 +9,7 @@ Current Goal: Populate Empty Sections: 246   (Done: 20.4%)
 
 Lines: 2775
 
-Words: 49957
+Words: 49958
 
 
 # Chapter 1: Preface (README.txt)
@@ -1081,7 +1081,7 @@ In comparison, if it was not the ISP maintenance that was the Root Cause, then t
 <br>
 All of this can be found through troubleshooting, using the required skills of Modeling your System against the Reality of the Components in your actual system, and then using that Model to reason about what happened, or what will happen.<br>
 <br>
-This tangential aside has already gone on quite long, but I have additional point to make on the topic of goals.<br>
+This tangential aside has already turned into an epic side-quest, but I have additional point to make on the topic of goals.<br>
 <br>
 Programming a computer is done with a programming language (C, Python, Java, etc), programming your mind is done by making physical and chemical-electrical changes to your mind by learning new skills and information, which gives you a larger library of activities you can perform and problems you can solve, which gives you improved ability to accomplish your goals.<br>
 <br>
