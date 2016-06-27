@@ -872,7 +872,7 @@ The issue here is one of "someone else's problem" (SEP), which comes down to emp
 <br>
 So what we can do is to look to ameliorate this problem as much as we can, by getting ahead of the requests.&nbsp;&nbsp;This means having a process that people can easily follow to getting what they want.<br>
 <br>
-For example, create a limited set of Hardware Specifications that you purchase, for any generation of hardware.&nbsp;&nbsp;The typical basics of this as of 2015 are usually a "utility" class machine, a "relational database" class machine, and a "non-relational database" class machines.<br>
+For example, create a limited set of Hardware Specifications that you purchase, for any generation of hardware.&nbsp;&nbsp;The typical basics of this as of 2015 are usually a "utility" class machine, a "relational database" class machine, and a "non-relational database" class machine.<br>
 <br>
 To simplify what we call a Hardware Specification, let's use the acronym for Stock Keeping Unit (SKU), which is very general.<br>
 <br>
