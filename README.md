@@ -9,7 +9,7 @@ Current Goal: Populate Empty Sections: 246   (Done: 20.4%)
 
 Lines: 2777
 
-Words: 50055
+Words: 50109
 
 
 # Chapter 1: Preface (README.txt)
@@ -1087,7 +1087,7 @@ Programming a computer is done with a programming language (C, Python, Java, etc
 <br>
 Accomplishment of your own goals, in my opinion, is a Primary Life Requirement, and should be an ever-present factor in each decision you make in your life, in order to yield yourself the best results.&nbsp;&nbsp;Prioritization and other balancing factors between all things is necessary to achieve efficiency, so we can create Models that we believe are oriented towards creating work that is Aligned with our goals, to create the Reality we are attempting to achieve.<br>
 <br>
-As an aside aside, the previous paragraph is an example of attempting to use a Mental Model or doing Auto-Programming or whatever label seems best to apply to it, I don't think there is a good one yet.&nbsp;&nbsp;I created an English version of a descending relationship tree, which is a binary tree of attribute descriptions.<br>
+As an aside aside, the previous paragraph is an example of attempting to use a Mental Model or doing Auto-Programming or whatever label seems best to apply to it, I don't think there is a good one yet.&nbsp;&nbsp;I created an English version of a descending relationship tree, which is a binary tree of attribute descriptions.&nbsp;&nbsp;Each element shows hierarchy in terms of the described relationship, and the total space of all the ideas gives a "shape" that the reader can use their own information to populate to give them an idea at a certain "size", given the total "size" of the labels being used and the amount of labels.<br>
 {{ asside_end }}<br>
 <br>
 {{ todo__recommend_critical_thinking_book }}<br>
