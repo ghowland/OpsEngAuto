@@ -9,7 +9,7 @@ Current Goal: Populate Empty Sections: 246   (Done: 20.4%)
 
 Lines: 2739
 
-Words: 49164
+Words: 49200
 
 
 # Chapter 1: Preface (README.txt)
@@ -1047,7 +1047,7 @@ Systemic Thinking has a number of prerequisites, such as a general understanding
 If you have not yet read a book on critical thinking, you should, to ensure you have the basic understanding of the topic.&nbsp;&nbsp;Of course you can fill in this information later now that you know it's something that could benefit you.&nbsp;&nbsp;<br>
 <br>
 {{ asside_begin }}<br>
-There is an infinite amount of information that is possible to learn, so the important thing is to bookmark for the future, and follow up on what is most useful for the current goal to be accomplished in the present.&nbsp;&nbsp;This creates paths for future obstacle clearance, and minimizes disturbances to accomplishing your current goals.<br>
+There is an infinite amount of information that is possible to learn, so the important thing is to bookmark all new "requirements" for the future, and follow up on what is most useful for the current goal to be accomplished in the present.&nbsp;&nbsp;This creates paths for future obstacle clearance (once one encounters an obstacle based on a required skill or set of knowledge), and minimizes disturbances to accomplishing your current goals, which will always yield the most immediately rewarding results for you, since you have made them your current objective.<br>
 <br>
 Deductive and inductive thinking, boolean logic, and set logic are primary tools for doing analysis, and any troubleshooting of systems will be significantly improved if you can break things down to terms and evaluate them.<br>
 {{ asside_end }}<br>
