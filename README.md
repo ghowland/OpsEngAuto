@@ -1067,7 +1067,7 @@ Being able to test the validity of an assertion allows us to quantify an asserti
 <br>
 If we were in the meeting we could quantify the assertion that this was related to an ISP maintenance notification we received by comparing that to the data known to correlate that assertion with the actual outage. <br>
 <br>
-When querying the attendee who offered the assertion, they would explain that they didn't verify this is the case, but it matches the time frame.&nbsp;&nbsp;We can conclude from this that while this is a possible lead to look for correlating data/evidence, it is not a candidate for Root Cause because there is no data.<br>
+When querying the attendee who offered the assertion, they would explain that they didn't verify this was the case, but it matches the time frame.&nbsp;&nbsp;We can conclude from this that while this is a possible lead to look for correlating data/evidence, it is not a candidate for Root Cause because there is no data.<br>
 <br>
 Without any data, this is only speculative relationships due to correlation of information (notification and outage windows, but no data correlating the outage with the maintenance directly).<br>
 <br>
