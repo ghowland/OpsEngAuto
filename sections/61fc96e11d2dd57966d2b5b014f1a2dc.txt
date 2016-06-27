@@ -4,7 +4,7 @@ I'll use "Systemic Thinking" to mean thinking in a way where everything is insid
 
 This can be described by a network of black box functions which take inputs, emit outputs, and perform side-effects, totaling the results of anything that exists or doesn't exist.  Either way, it can be described as a system, and using this methodology for organizing one's thoughts is "systemic thinking" by my definition here.
 
-Systemic Thinking is one of the tools that I believe is the most powerful and useful in our mental toolbox, and could use a lot more of the educational spotlight.  In terms of yielding positive results in learning, creating things, and in performing maintenance (in a very general sense), systemic thinking is one of the most useful tools.
+I believe Systemic Thinking is one of the most powerful and useful tools in our mental toolbox, and could use a lot more of the educational spotlight.  In terms of yielding positive results in learning, creating things, and in performing maintenance (in a very general sense), systemic thinking is one of the most useful tools.
 
 Systemic Thinking has a number of prerequisites, such as a general understanding of how systems work, how to create systems, how to modify a system, how to inspect and evaluate the connections and links between system components, and a good basis in critical thinking.  Having the ability to think deductively and inductively is a requirement.
 
