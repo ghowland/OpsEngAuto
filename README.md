@@ -7,9 +7,9 @@ Current Goal: Populate Empty Sections: 246   (Done: 20.4%)
 
 <br><br><b>NOTE: This is still an early Work-In-Progress.  It is being written linearly as a First Rough Draft without editing at the moment.  There are many typos and grammatical errors presently.</b>
 
-Lines: 2701
+Lines: 2709
 
-Words: 47898
+Words: 48063
 
 
 # Chapter 1: Preface (README.txt)
@@ -954,7 +954,15 @@ In order to handle requests efficiently, the infrastructure must be one that can
 <br>
 This is also on a spectrum, so you can't have both extremes as being simultaneously true in the same instance, which means you need to acknowledge, plan for and deal with the trade offs actively both over longer periods of times (quarters, years) and for each request, with an understanding of the scope of each requests potential to make positive or negative impacts on the infrastructure.<br>
 <br>
- <---><br>
+This spectrum is fairly specific, unlike things like "Not Available <--> Available", which is a fairly straight-forward concept to understand in a single topic, this axis' line moves among many topics to create a sliding scale between all of them, in a very limited manner.<br>
+<br>
+Trade Off Between Team Time and Infrastructure Flexibility For A Healthy Environment:<br>
+<br>
+Team Has Time To Manually Perform Requests <---> Infrastructure Is Flexible Enough To Take Requests Quickly Without Requiring Significant Team Manual Time<br>
+<br>
+This flexibility to be very specific with an axis, and to cross many boundaries of topics provides another benefit to Axiomatic Engineering, which is that "Contrast and Compare" type efforts can be very explicit, and anything that is too complicated to talk about clearly can be turned into these very specific sets of axises, which can than be given numerical values, and compared against each other.<br>
+<br>
+Because the topics are specific, and the numerical values gives your preference (or data if automated values through automatic monitoring collection)<br>
 <h2 id=7ef5e6c23b6cb4359f88aea566c255fb><a href="#7ef5e6c23b6cb4359f88aea566c255fb">2.4</a>: What is a System?</h2>
 <br>
 There are a lot of ways the word "system" could be used.&nbsp;&nbsp;We're going to look at a general version of the word first, and then a specific version for our exact purposes afterwards.<br>
