@@ -9,7 +9,7 @@ Current Goal: Populate Empty Sections: 246   (Done: 20.4%)
 
 Lines: 2781
 
-Words: 50256
+Words: 50259
 
 
 # Chapter 1: Preface (README.txt)
@@ -1075,7 +1075,7 @@ While this is a higher-than-other-unknown-topic-priority topic to collect data o
 <br>
 Prioritization is based on which Components of the Environment are most likely involved with the outage, based on the match between the data collected from monitoring and what those our Model predicts the results would be if a given Component failed, under a given condition.&nbsp;&nbsp;This description can be called a Component's Model, which serves like a fingerprint to distinguish a that Component interacts with data, which we use to predict future state, or extract information from historical summaries.<br>
 <br>
-To elaborate on the prioritization, it may be surprising but the collection of information on the ISP's maintenance should be given less priority than collection from some other sources, even though it is a known likely possible cause.<br>
+To elaborate on a specific item in prioritization, it may be surprising but the collection of information on the ISP's maintenance should be given less priority than collection from some other sources, even though it is a known likely possible cause.<br>
 <br>
 The reason that it should get lower priority than some other places to collect information, is that the maintenance correlation was temporary and a one-time thing, and is already over.&nbsp;&nbsp;So collecting data on the ISP maintenance correlation is going to improve your records of events, and possibly has financial or contractual ramifications, which are important, but are not urgent in terms of time to response, since they are going to take time to process.<br>
 <br>
