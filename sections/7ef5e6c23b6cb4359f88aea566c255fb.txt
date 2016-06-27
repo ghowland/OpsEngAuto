@@ -48,7 +48,9 @@ As an exercise while you read this book, try to create your own systems based on
 
 Imaging looking at a forrest, then the leaves of a single tree, then back to the forrest, then looking at a specific leaf on a single tree, then back to the original tree's set of leaves, etc.  The information is always a summary of something, whether you are look at specific pieces of summarized information, or larger sections of collected summarized information, you must be able to understand it, and have opinions on it based on your goals.  Will it assist your goals?  Will it make it harder to complete your goals?
 
-You can create your own systems on paper, in your head, you can find software that helps you create systems quickly (like Mind Map software), or use relational databases to track discrete data.  Flow charts are one way to map systems, finite state machines are others ways, behavior trees are another way, but you can also describe them in prose, or doodles or any other way.  Experiment, and find ways you enjoy.
+You can create your own systems on paper, in your head, you can find software that helps you create systems quickly (like Mind Map software), or use relational databases to track discrete data.  
+
+Flow charts are one way to map systems, finite state machines are others ways, behavior trees are another way, but you can also describe them in prose, or doodles or any other way.  Experiment, and find ways you enjoy.
 
 How you describe a system is merely a view into the system, and will never cover every aspect of a system, but each change in viewpoint gives a better angle on some information, and a worse angle on others.  
 
