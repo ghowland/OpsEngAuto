@@ -14,7 +14,7 @@ If you have not yet read a book on critical thinking, you should, to ensure you 
 
 {{ asside_begin }}
 {{ NOTE: This is too long for an aside, and is better suited to either being chopped up and put into other sections, or else chopped up and put into a reference section in the appendix. }}
-{{ IDEA: The aside is just a reference to an Appendix chapter, so that it doesnt take up any space or change the pacing of the chapter.  This idea is a winner.  Do this and clean this junk up. }}
+{{ IDEA: The aside is just a reference to an Appendix chapter, so that it doesnt take up any space or change the pacing of the chapter.  This idea is a winner.  Do this and clean this junk up.  The cleanup will require changing the verbiage of this section into stand-alone, so that it can be read without the current context.  This will also help clean up the rambling nature of this section, which rambled ramblingly. }}
 There is an infinite amount of information that is possible to learn, so the important thing is to bookmark all new "requirements" for the future, and follow up on what is most useful for the current goal to be accomplished in the present.  
 
 This creates paths for future obstacle clearance, once one encounters an obstacle based on a required skill or set of knowledge, and minimizes disturbances to accomplishing one's current goals, which will always yield the most immediately rewarding results, since they were prioritized as objectives.
