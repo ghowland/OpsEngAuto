@@ -9,7 +9,7 @@ Current Goal: Populate Empty Sections: 246   (Done: 20.4%)
 
 Lines: 2779
 
-Words: 50119
+Words: 50115
 
 
 # Chapter 1: Preface (README.txt)
@@ -1049,7 +1049,7 @@ If you have not yet read a book on critical thinking, you should, to ensure you 
 {{ asside_begin }}<br>
 There is an infinite amount of information that is possible to learn, so the important thing is to bookmark all new "requirements" for the future, and follow up on what is most useful for the current goal to be accomplished in the present.&nbsp;&nbsp;<br>
 <br>
-This creates paths for future obstacle clearance, once one encounters an obstacle based on a required skill or set of knowledge, and minimizes disturbances to accomplishing your current goals, which will always yield the most immediately rewarding results for you, since you have prioritized them as your primary objective.<br>
+This creates paths for future obstacle clearance, once one encounters an obstacle based on a required skill or set of knowledge, and minimizes disturbances to accomplishing one's current goals, which will always yield the most immediately rewarding results, since they were prioritized as primary objectives.<br>
 <br>
 Deductive and Inductive reasoning, Boolean Logic, and Set Logic are the primary tools for doing analysis, and any troubleshooting of Systems will be significantly improved if you can break things down to terms and evaluate them for correctness against various assertions, as well as whether the assertions are valid or invalid.&nbsp;&nbsp;<br>
 <br>
