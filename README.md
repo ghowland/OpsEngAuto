@@ -9,7 +9,7 @@ Current Goal: Populate Empty Sections: 246   (Done: 20.4%)
 
 Lines: 2761
 
-Words: 49593
+Words: 49594
 
 
 # Chapter 1: Preface (README.txt)
@@ -1067,7 +1067,7 @@ Being able to test the validity of an assertion allows us to quantify an asserti
 <br>
 If we were in the meeting we could quantify the assertion that <br>
 <br>
-This aside has already gone on quite long, but I have additional point to make on the topic of goals.<br>
+This tangential aside has already gone on quite long, but I have additional point to make on the topic of goals.<br>
 <br>
 Programming a computer is done with a programming language (C, Python, Java, etc), programming your mind is done by making physical and chemical-electrical changes to your mind by learning new skills and information, which gives you a larger library of activities you can perform and problems you can solve, which gives you improved ability to accomplish your goals.<br>
 <br>
