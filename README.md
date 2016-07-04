@@ -9,7 +9,7 @@ Current Goal: Populate Empty Sections: 246   (Done: 20.4%)
 
 Lines: 2785
 
-Words: 50552
+Words: 50573
 
 
 # Chapter 1: Preface (README.txt)
@@ -1067,7 +1067,7 @@ If no one with better information was present in that meeting, then that could v
 <br>
 Being able to test the validity of an assertion allows us to qualify an assertion against it's subject.<br>
 <br>
-If we were in the meeting we could qualify the assertion that this was related to an ISP maintenance notification we received by comparing it to the data known to correlate that assertion with the actual outage.<br>
+If we were in the meeting we could qualify the assertion that this was related to an ISP maintenance notification we received by comparing it to the data known to correlate that assertion with the actual outage.&nbsp;&nbsp;Is it valid or invalid, based on the data we have?&nbsp;&nbsp;Is it matched to actual data, or a data-less hypothesis?<br>
 <br>
 When querying the post-mortem meeting attendee who offered the assertion, they would explain that they didn't verify this was the case, but it matches the time frame of the notification.&nbsp;&nbsp;We can conclude from this that while it is a possible lead to look for correlating data/evidence, it is not a candidate for Root Cause yet, because there is no data to support that candidacy.&nbsp;&nbsp;Having no candidates is a valid state to be in, because without supporting data, there can be no valid candidates for Root Cause.<br>
 <br>
