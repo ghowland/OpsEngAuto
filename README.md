@@ -9,7 +9,7 @@ Current Goal: Populate Empty Sections: 246   (Done: 20.4%)
 
 Lines: 2785
 
-Words: 50653
+Words: 50662
 
 
 # Chapter 1: Preface (README.txt)
@@ -1069,7 +1069,7 @@ Being able to test the validity of an assertion allows us to qualify an assertio
 <br>
 If we were in the meeting we could qualify the assertion that this was related to an ISP maintenance notification we received by comparing it to the data known to correlate that assertion with the actual outage.&nbsp;&nbsp;Is it valid or invalid, based on the data we have?&nbsp;&nbsp;Is it matched to actual data, or a data-less hypothesis?&nbsp;&nbsp;Unqualified assertions do not have data to back them up, qualified assertions do have data to back them up.&nbsp;&nbsp;An assertion can be both qualified and wrong, as it can have data that backs it up, but also data that invalidates it as an impossibility, so it is qualified as incorrect, in the same way that if all the data did back it up, then it would be qualified as correct, or some probability thereof if the data is inconclusive.<br>
 <br>
-When querying the post-mortem meeting attendee who offered the assertion, they would explain that they didn't verify this was the case, but it matches the time frame of the notification.&nbsp;&nbsp;We can conclude from this that while it is a possible lead to look for correlating data/evidence, it is not a candidate for Root Cause yet, because there is no data to support that candidacy.&nbsp;&nbsp;Having no candidates is a valid state to be in, because without supporting data, there can be no valid candidates for Root Cause.<br>
+If the the post-mortem meeting attendee who offered the assertion was asked about the qualifying information to their assertion, they would explain that they didn't verify this was the case, but it matches the time frame of the notification.&nbsp;&nbsp;We can conclude from this that while it is a possible lead to look for correlating data/evidence, it is not a candidate for Root Cause yet, because there is no data to support that candidacy.&nbsp;&nbsp;Having no candidates is a valid state to be in, because without supporting data, there can be no valid candidates for Root Cause.<br>
 <br>
 Without any data, this is only speculative relationships due to correlation of information:&nbsp;&nbsp;notification and outage windows, but no data correlating the outage with the maintenance directly.<br>
 <br>
