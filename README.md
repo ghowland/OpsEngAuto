@@ -1065,7 +1065,7 @@ But, in this example, the person who suggested it was the ISP's fault did not re
 <br>
 If no one with better information was present in that meeting, then that could very likely be selected as the primary reason for the 30 minute outage when it is written up as Root Cause; when in actuality, the outage was caused for a different reason, and that reason was fixed and logged according to standard work procedures by the engineer on-call.<br>
 <br>
-Being able to test the validity of an assertion allows us to quantify an assertion against it's subject.<br>
+Being able to test the validity of an assertion allows us to qualify an assertion against it's subject.<br>
 <br>
 If we were in the meeting we could quantify the assertion that this was related to an ISP maintenance notification we received by comparing that to the data known to correlate that assertion with the actual outage. <br>
 <br>
