@@ -9,7 +9,7 @@ Current Goal: Populate Empty Sections: 246   (Done: 20.4%)
 
 Lines: 2793
 
-Words: 51087
+Words: 51090
 
 
 # Chapter 1: Preface (README.txt)
@@ -1202,7 +1202,7 @@ If you cut a piece directly down the middle, creating 2 symmetrical pieces, no p
 <br>
 Similarly if you cut a pie into any configuration, with any number of cuts, whether it is symmetrical, asymmetrical, whether the cuts are vertical, horizontal, diagonal, straight or wavy, the results are the same, in total all the pieces still contain all the original matter of the pie, the difference is only in the distinction of between separate pieces of the pie.<br>
 <br>
-In our philosophical cuts, the structure of the "pie" does not change, unlike a real pie, which deforms with the pressure of cuts, and will turn into a mess.<br>
+In our philosophical cuts, the structure of the "pie" does not change, unlike a real pie, which deforms with the pressure of cuts, and will turn into a mess after enough slicing.<br>
 <br>
 In our virtual "pies" of information, or systems, we can slice any number of times in any direction, and the information remains the same, but on each side of the cut, we have made a division.<br>
 <br>
