@@ -9,7 +9,7 @@ Current Goal: Populate Empty Sections: 246   (Done: 20.4%)
 
 Lines: 2793
 
-Words: 51090
+Words: 51095
 
 
 # Chapter 1: Preface (README.txt)
@@ -1204,7 +1204,7 @@ Similarly if you cut a pie into any configuration, with any number of cuts, whet
 <br>
 In our philosophical cuts, the structure of the "pie" does not change, unlike a real pie, which deforms with the pressure of cuts, and will turn into a mess after enough slicing.<br>
 <br>
-In our virtual "pies" of information, or systems, we can slice any number of times in any direction, and the information remains the same, but on each side of the cut, we have made a division.<br>
+In our virtual "pies" of information, or systems, we can slice any number of times in any direction, and the information remains the same, but on each side of the cut, we have made a division that can be used logically.<br>
 <br>
 For instance, we can look at an Operating System that runs on hardware (like Linux, OS X or Windows), and divide the it into code that runs in "Kernel space" vs code that runs in "User space".<br>
 <br>
