@@ -9,7 +9,7 @@ Current Goal: Populate Empty Sections: 246   (Done: 20.4%)
 
 Lines: 2793
 
-Words: 51034
+Words: 51067
 
 
 # Chapter 1: Preface (README.txt)
@@ -1161,7 +1161,7 @@ For example, one can say something is "Black or White", and then take any concep
 <br>
 By stating your method for determining the color, and your method for assigning into "black or white" camps, you can create a repeatable, inspectable, qualifiable and quantifiable method for working on data.&nbsp;&nbsp;You could create a color value from 0 to 255, and anything 0-127 is in the "Black" camp and anything 128-255 is in the "White" camp, and then additional operations could be performed on them.<br>
 <br>
-Being able to divide things in this way is a useful tool, but it is also a primitive inspection of the information, and in fact creates a frame that excludes almost all data.&nbsp;&nbsp;We all know that "black and white thinking" is simplistic, and the reason is that most of the information (color) is reduced out, when thinking in this way.&nbsp;&nbsp;And yet, it has utility.&nbsp;&nbsp;How can we use this utility, without being negatively effected by the loss of information?<br>
+Being able to divide things in this way is a useful tool, but it is also a primitive inspection of the information, and in fact creates a frame that excludes almost all data.&nbsp;&nbsp;We all know that "black and white thinking" is simplistic, and the reason is that most of the information (color) is reduced out, when thinking in this way.&nbsp;&nbsp;And yet, it has utility.&nbsp;&nbsp;How can we use this utility, without being negatively effected by the loss of information?&nbsp;&nbsp;This is a primary goal in creating Wisdom, which is how to balance something beneficial or detrimental, depending on how it is used, but through Wisdom of it's usage, the results are beneficial.<br>
 <br>
 For instance, in making the split between "Black and White", the frame of reference created ignores that fact that black and white are both colors, which means they are very similar to each other, and much less different from each other than say the word "duck".<br>
 <br>
