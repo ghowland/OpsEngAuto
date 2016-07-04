@@ -1,4 +1,4 @@
-### [[2.4.2: Slicing the pie vs aggregation]]
+### [[2.4.2: Slicing the Pie vs Aggregation]]
 
 In the last section we covered the importance of slicing with the philosopher's knife without losing any information.
 
