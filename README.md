@@ -9,7 +9,7 @@ Current Goal: Populate Empty Sections: 246   (Done: 20.4%)
 
 Lines: 2789
 
-Words: 50770
+Words: 50769
 
 
 # Chapter 1: Preface (README.txt)
@@ -1130,7 +1130,7 @@ Let's create an event that occurs and exercises these components, as a sequence:
 <br>
 - The request performs operations outside of this system (LAN, routing, DNS, etc), but eventually opens a TCP socket to port 80 on the web server.&nbsp;&nbsp;The web server and the end-user now have a persistent session to communicate bidirectionally.<br>
 <br>
-- The end-user requests the URL specified above (broken into URI and Host Header sections), and relays any cookie and browser header information.<br>
+- The end-user requests the URL specified above (broken into URI and Header sections), and relays any cookie and browser header information.<br>
 <br>
 - The web server accepts the input of the request, and goes through a process of routing the request internally, where it matches the domain in the Host Header value to any Host Headers it processes, and then determines if there are any directory modifications to look for the static file.<br>
 <br>
