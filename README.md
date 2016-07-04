@@ -9,7 +9,7 @@ Current Goal: Populate Empty Sections: 246   (Done: 20.4%)
 
 Lines: 2785
 
-Words: 50550
+Words: 50551
 
 
 # Chapter 1: Preface (README.txt)
@@ -1069,7 +1069,7 @@ Being able to test the validity of an assertion allows us to qualify an assertio
 <br>
 If we were in the meeting we could qualify the assertion that this was related to an ISP maintenance notification we received by comparing it to the data known to correlate that assertion with the actual outage.<br>
 <br>
-When querying the attendee who offered the assertion, they would explain that they didn't verify this was the case, but it matches the time frame of the notification.&nbsp;&nbsp;We can conclude from this that while it is a possible lead to look for correlating data/evidence, it is not a candidate for Root Cause yet, because there is no data to support that candidacy.&nbsp;&nbsp;Having no candidates is a valid state to be in, because without supporting data, there can be no valid candidates for Root Cause.<br>
+When querying the meeting attendee who offered the assertion, they would explain that they didn't verify this was the case, but it matches the time frame of the notification.&nbsp;&nbsp;We can conclude from this that while it is a possible lead to look for correlating data/evidence, it is not a candidate for Root Cause yet, because there is no data to support that candidacy.&nbsp;&nbsp;Having no candidates is a valid state to be in, because without supporting data, there can be no valid candidates for Root Cause.<br>
 <br>
 Without any data, this is only speculative relationships due to correlation of information:&nbsp;&nbsp;notification and outage windows, but no data correlating the outage with the maintenance directly.<br>
 <br>
