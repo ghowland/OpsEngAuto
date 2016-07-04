@@ -9,7 +9,7 @@ Current Goal: Populate Empty Sections: 246   (Done: 20.4%)
 
 Lines: 2793
 
-Words: 51068
+Words: 51069
 
 
 # Chapter 1: Preface (README.txt)
@@ -1163,7 +1163,7 @@ By stating your method for determining the color, and your method for assigning 
 <br>
 Being able to divide things in this way is a useful tool, but it is also a primitive inspection of the information, and in fact creates a frame that excludes almost all data.&nbsp;&nbsp;We all know that "black and white thinking" is simplistic, and the reason is that most of the information (color) is reduced out, when thinking in this way.&nbsp;&nbsp;And yet, it has utility.&nbsp;&nbsp;How can we use this utility, without being negatively effected by the loss of information?&nbsp;&nbsp;This is a primary goal in creating Wisdom, which is how to balance something beneficial or detrimental, depending on how it is used, but through Wisdom of it's usage, the results are beneficial.<br>
 <br>
-As an example in making the split between "Black and White", the frame of reference created ignores that fact that black and white are both colors, which means they are very similar to each other, and much less different from each other than say the word "duck".<br>
+As a further example in making the split between "Black and White", the frame of reference created ignores that fact that black and white are both colors, which means they are very similar to each other, and much less different from each other than say the word "duck".<br>
 <br>
 If we took the sets of "Black, White" and "Duck, Goose", we see that black and white have much more in common with each other than duck and goose.&nbsp;&nbsp;Because of this, even though in our first example we contrasted black and white as opposites, they are in fact much more similarly related to each other than many other things.<br>
 <br>
