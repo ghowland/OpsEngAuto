@@ -9,7 +9,7 @@ Current Goal: Populate Empty Sections: 246   (Done: 20.4%)
 
 Lines: 2791
 
-Words: 50862
+Words: 50904
 
 
 # Chapter 1: Preface (README.txt)
@@ -1155,7 +1155,7 @@ One important tool in creating systems is the concept of the "Philosopher's Knif
 <br>
 This is a virtual knife, meant for cutting ideas into sections.<br>
 <br>
-The most basic way of dividing ideas is to split them in half.&nbsp;&nbsp;Bifurcation is the cleanest method of division, as everything in split into one of two possibilities.<br>
+The most basic way of dividing ideas is to split them in half.&nbsp;&nbsp;Bifurcation is the cleanest method of division, as everything in split into one of two possibilities, which allows for using binary methods of organization, such as binary trees for creating hierarchy, or quantifying values so that things can be sorted on an comparative axis, or setting binary flags so that set theory and boolean logic can be used.<br>
 <br>
 For instance, you can say something is "Black or White", and then take any concept and add it into the "Black camp" or the "White camp".&nbsp;&nbsp;This is a basic process of sub-division with things that appear to be opposites.&nbsp;&nbsp;In subtractive light frequencies, black is the absences of color, and white is all of the colors.&nbsp;&nbsp;In additive pigments, black is the combination of all pigments required to absorb all frequencies, and white is the absence of pigments that absorb frequencies, so that the frequencies are refracted and appear to be total spectrum, or white.<br>
 <br>
