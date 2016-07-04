@@ -7,7 +7,7 @@ Current Goal: Populate Empty Sections: 246   (Done: 20.4%)
 
 <br><br><b>NOTE: This is still an early Work-In-Progress.  It is being written linearly as a First Rough Draft without editing at the moment.  There are many typos and grammatical errors presently.</b>
 
-Lines: 2787
+Lines: 2789
 
 Words: 50770
 
@@ -1046,6 +1046,9 @@ Systemic Thinking has a number of prerequisites, such as a general understanding
 <br>
 If you have not yet read a book on critical thinking, you should, to ensure you have the basic understanding of the topic.&nbsp;&nbsp;Of course you can fill in this information later now that you know it's something that could benefit you.&nbsp;&nbsp;<br>
 <br>
+{{ todo__recommend_critical_thinking_book }}<br>
+<br>
+<br>
 {{ asside_begin }}<br>
 {{ NOTE: This is too long for an aside, and is better suited to either being chopped up and put into other sections, or else chopped up and put into a reference section in the appendix. }}<br>
 {{ IDEA: The aside is just a reference to an Appendix chapter, so that it doesnt take up any space or change the pacing of the chapter.&nbsp;&nbsp;This idea is a winner.&nbsp;&nbsp;Do this and clean this junk up.&nbsp;&nbsp;The cleanup will require changing the verbiage of this section into stand-alone, so that it can be read without the current context.&nbsp;&nbsp;This will also help clean up the rambling nature of this section, which rambled ramblingly. }}<br>
@@ -1098,7 +1101,6 @@ And, as an aside to this aside, the previous paragraph is an example of attempti
 I created an English version of a descending mechanical-relationship tree, which Im defining as a tree of attribute descriptions which are related to each other by description of any input, output or side-effects.&nbsp;&nbsp;Each element shows hierarchy in terms of the described relationship, and the total space of all the ideas gives a "shape" that the reader can use their own information to populate to give them an idea at a certain "size", given the total "size" of the labels being used and the amount of labels and relationships, with bias towards their personal experience.&nbsp;&nbsp;This is a type of "Information Spatial Reasoning" in that they can use the resulting model to compare it against other models to see where they overlap or do not overlap in the space of all the contained ideas and information.<br>
 {{ asside_end }}<br>
 <br>
-{{ todo__recommend_critical_thinking_book }}<br>
 <br>
 How do you use Systemic Thinking?<br>
 <br>
