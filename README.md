@@ -9,7 +9,7 @@ Current Goal: Populate Empty Sections: 246   (Done: 20.4%)
 
 Lines: 2787
 
-Words: 50765
+Words: 50768
 
 
 # Chapter 1: Preface (README.txt)
@@ -1081,7 +1081,7 @@ Prioritization is based on which Components of the Environment are most likely i
 <br>
 To elaborate on a specific item in prioritization: it is important that the collection of information on the ISP's maintenance should be given less priority than collection from some other sources, even though it is a known-likely-possible-cause.&nbsp;&nbsp;It has elevated priority over the set of all places to gather information, because of the time correlation, but must be ranked according to the total set of indicators, not just that one indicator.<br>
 <br>
-The reason that it should get lower priority than some other areas of collection is that the maintenance correlation was temporary and a one-time thing, and is already over.&nbsp;&nbsp;So, collecting data on the ISP maintenance correlation is going to improve your records of events, and possibly has financial or contractual ramifications, which are important, but are not urgent in terms of time to response, since they are going to take time to process, on the order of weeks, or Quarters.&nbsp;&nbsp;This is an event that can be reacted to at lower priority, because it is over and non-recurring in nature.<br>
+The reason that it should get lower priority than some other areas of collection is that the maintenance correlation was temporary and a one-time thing, and is already over.&nbsp;&nbsp;So, collecting data on the ISP maintenance correlation is going to improve your records of events, and possibly has financial or contractual ramifications, which are important, but are not urgent in terms of time to response, since they are going to take time to process, on the order of weeks, or Quarters.&nbsp;&nbsp;This is an event that can be reacted to at lower priority, because it is over and non-recurring in nature (vendor scheduled maintenance).<br>
 <br>
 In comparison, if it was not the ISP maintenance that was the Root Cause, then the problem could still be occurring presently, and could be causing degraded service, or potentially failing in a manner that is not being monitored or alerted on, or is going to pass a threshold and begin a new outage soon.<br>
 <br>
