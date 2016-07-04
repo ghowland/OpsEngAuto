@@ -9,7 +9,7 @@ Current Goal: Populate Empty Sections: 246   (Done: 20.4%)
 
 Lines: 2789
 
-Words: 50769
+Words: 50768
 
 
 # Chapter 1: Preface (README.txt)
@@ -1132,7 +1132,7 @@ Let's create an event that occurs and exercises these components, as a sequence:
 <br>
 - The end-user requests the URL specified above (broken into URI and Header sections), and relays any cookie and browser header information.<br>
 <br>
-- The web server accepts the input of the request, and goes through a process of routing the request internally, where it matches the domain in the Host Header value to any Host Headers it processes, and then determines if there are any directory modifications to look for the static file.<br>
+- The web server accepts the input of the request, and goes through a process of routing the request internally, where it matches the domain in the Host Header value to any Headers it processes, and then determines if there are any directory modifications to look for the static file.<br>
 <br>
 - Having determined what the path of the static file is on the local file system, if the file exists, the web server opens the file, reads it, and relays the data into the content section of the HTTP response.&nbsp;&nbsp;After relaying the contents, it closes the file, creates a successful HTTP status code, and returns the results.&nbsp;&nbsp;In this case we will assume that HTTP keep-alive is not enabled, and the HTTP server will close the connection afterwards.<br>
 <br>
