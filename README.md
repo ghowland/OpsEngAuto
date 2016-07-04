@@ -9,7 +9,7 @@ Current Goal: Populate Empty Sections: 246   (Done: 20.4%)
 
 Lines: 2793
 
-Words: 51073
+Words: 51086
 
 
 # Chapter 1: Preface (README.txt)
@@ -1200,7 +1200,7 @@ No matter how you slice a pie, the amount of pie has not been reduced.<br>
 <br>
 If you cut a piece directly down the middle, creating 2 symmetrical pieces, no pie is lost.&nbsp;&nbsp;You have 2 pieces that compose the entire pie before slicing.<br>
 <br>
-Similarly if you cut a pie into any configuration, with any number of cuts, whether it is symmetrical, asymmetrical, whether the cuts are vertical, horizontal, diagonal, straight or wavy, the results are the same, in total all the pieces still contain all the original matter of the pie.<br>
+Similarly if you cut a pie into any configuration, with any number of cuts, whether it is symmetrical, asymmetrical, whether the cuts are vertical, horizontal, diagonal, straight or wavy, the results are the same, in total all the pieces still contain all the original matter of the pie, the difference is only in the distinction of between pieces of the pie.<br>
 <br>
 In our philosophical cuts, the structure of the "pie" does not change, unlike a real pie, which deforms with the pressure of cuts, and will turn into a mess.<br>
 <br>
