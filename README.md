@@ -1192,7 +1192,7 @@ I was able to slice this process into the layer's I chose, because I wanted to d
 We can take the exact same example process, and re-slice it any way we want, and the events would be the same, but the information we look at, and how we inspect it would be different.&nbsp;&nbsp;The system has not changed, the actions that occur in reality did not change, the results did not change, the inputs, outputs and side-effects did not change, and yet we are able to look at the problem in a completely different way, and take different lessons and gather different information from it.<br>
 <h3 id=1f4b194d8569136439831f483c38a264><a href="#1f4b194d8569136439831f483c38a264">2.5.2</a>: Slicing the pie vs aggregation</h3>
 <br>
-In the last section we covered the importance of slicing with the philosopher's knife without losing any information.<br>
+In the last section we covered the importance of slicing with the Philosopher's Knife without losing any information.<br>
 <br>
 One easy way of thinking about this is that you are cutting up a pie with the philosopher's knife.<br>
 <br>
