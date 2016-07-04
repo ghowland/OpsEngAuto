@@ -2,7 +2,7 @@
 
 In the last section we covered the importance of slicing with the Philosopher's Knife without losing any information.
 
-One easy way of thinking about this is that you are cutting up a pie with the philosopher's knife.
+One easy way of thinking about this is that you are cutting up a pie with the Philosopher's Knife.
 
 No matter how you slice a pie, the amount of pie has not been reduced.
 
