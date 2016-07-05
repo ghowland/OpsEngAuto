@@ -9,7 +9,7 @@ Current Goal: Populate Empty Sections: 246   (Done: 20.4%)
 
 Lines: 2793
 
-Words: 51192
+Words: 51238
 
 
 # Chapter 1: Preface (README.txt)
@@ -1206,9 +1206,9 @@ In our philosophical cuts, the structure of the "pie" does not change, unlike a 
 <br>
 In our virtual "pies" of information, or systems, we can slice any number of times in any direction, and the information remains the same, but on each side of the cut, we have made a division that can be used logically.&nbsp;&nbsp;Essentially, the Model of our System is the progression of cuts, and the total set of cuts as it relates to the system.&nbsp;&nbsp;Each cut is an "axis", which divides along a boolean of "is X" or "is not X" relating to the cut X.<br>
 <br>
-For instance, we can look at an Operating System that runs on hardware (like Linux, OS X or Windows), and divide the it into code that runs in "Kernel space" vs code that runs in "User space".&nbsp;&nbsp;We could call this the "Kernel space cut", to determine "Is Kernel space?" vs "Is not Kernel space?", or we could bifurcate it as "Kernel/User" to explicitly state the 2 sides, instead of only explicitly stating 1 side, and the other is simply what-isn't-part-of-the-explicitly-stated-piece.<br>
+For instance, we can look at an Operating System that runs on hardware (like Linux, OS X or Windows), and divide the it into code that runs in "Kernel space" vs code that runs in "User space".&nbsp;&nbsp;We could call this the "Kernel space cut", to determine "Is Kernel space?" vs "Is not Kernel space?", or we could bifurcate it as "Kernel/User" to explicitly state the 2 sides, instead of only explicitly stating 1 side, and the other is simply what-isn't-part-of-the-explicitly-stated-piece.&nbsp;&nbsp;If you already know there can only be 2 options, you can use explicitly naming both sides, if you aren't sure there are 2 and only 2 options, then use naming 1 side and leave "everything else" for the other side.<br>
 <br>
-This divides all code that is executed from the operating system.&nbsp;&nbsp;We can take the same system, and make a cut between "firmware" (code that executes from BIOS and other places closer to hardware) and "software", which is executed from RAM on the main CPU.<br>
+Dividing between Kernel and User space splits all code that is executed from the operating system.&nbsp;&nbsp;We can take the same system, and make a cut between "firmware" (code that executes from BIOS and other places closer to hardware) and "software", which is executed from RAM on the main CPU.<br>
 <br>
 Whether we have divided by "Kernel vs User" or "Firmware vs Software", nothing about the system has changed, we have simply decided to cut the pie in a different place, and we can then use this division for some sort of useful inspection.<br>
 <br>
