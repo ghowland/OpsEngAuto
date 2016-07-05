@@ -9,7 +9,7 @@ Current Goal: Populate Empty Sections: 246   (Done: 20.4%)
 
 Lines: 2793
 
-Words: 51395
+Words: 51410
 
 
 # Chapter 1: Preface (README.txt)
@@ -1220,7 +1220,7 @@ As we get deeper into the topics of Engineering Axioms and automation, we will s
 <br>
 The reason for this is the difference between a comprehensive system (correctly sliced with the Philosopher's Knife), and an aggregated system, which is not built as a complete system is aggregated from components, and is not built using a whole system and "pie-slicing".&nbsp;&nbsp;The difference is an Aggregated System is built from components, like bricks from the ground up.&nbsp;&nbsp;As bricks are needed, bricks are laid down, if there is a gap, it can be filled in.&nbsp;&nbsp;In comparison the Comprehensive System exists in total from the beginning, although it is Virtual as it exists as a concept, it exists in totality, where the concept of the Aggregate System does not exist in totality, and only what we currently know and track of it (with our component-bricks) is tracked or can be said to exist.<br>
 <br>
-The problem with aggregated "systems" is that they not always in jeopardy of becoming not-internally-consistent, and they can never be complete.&nbsp;&nbsp;Due to being "aggregated" into creation, where one piece is created, and then another piece, and then the two are put together, and then a change is made, and then a new piece is added, you get the result of not having a "complete pie" when it is resembled.&nbsp;&nbsp;<br>
+The problem with aggregated "systems" is that they not always in jeopardy of becoming not-internally-consistent, and they can never be complete.&nbsp;&nbsp;Due to being "aggregated" into creation, where one piece is created, and then another piece, and then the two are put together, and then a change is made, and then a new piece is added, you get the result of not having a "complete pie" when it is assembled, as the only pieces that were tracked were those that we happened to work with.&nbsp;&nbsp;<br>
 <br>
 Aggregated systems have a tendency towards not being internally consistent, and Comprehensive (Slicing the Pie) systems have a tendency towards being internally consistent.&nbsp;&nbsp;Just because you have a Comprehensive (Slicing the Pie) system, does not mean you cannot create an a situation where it isn't internally consistent, but as it is reviewed and worked on (under the Slicing-The-Pie mechanism), it will be revealed as to where and why an internal-consistency-error was created.&nbsp;&nbsp;In an aggregated system this is much more difficult, because things are only related to their adjacent neighbors through their connections, and did not come out of a comprehensive system from the beginning.<br>
 <br>
