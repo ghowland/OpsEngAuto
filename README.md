@@ -9,7 +9,7 @@ Current Goal: Populate Empty Sections: 246   (Done: 20.4%)
 
 Lines: 2793
 
-Words: 51502
+Words: 51507
 
 
 # Chapter 1: Preface (README.txt)
@@ -1240,7 +1240,7 @@ As of 2015, I do not know of any operational environments which work in a manner
 <br>
 Part of the purpose of this book is to provide a path for others to understand these differences, so that paths can be built to allow us to create these comprehensive and complete systems, and to manage them accordingly, to get the benefits which they provide.<br>
 <br>
-We know the benefits and fallbacks of the aggregation system, though without comparing them to another method it is merely the de facto operations of all environments.&nbsp;&nbsp;Making a change requires both defining the goals we want to achieve, and the current state of things, to know what is required to make a change to get to our goals.<br>
+We know the benefits and fallbacks of the aggregation system, though without comparing them to another method it is merely the de facto operations of all environments, making it hard to inspect.&nbsp;&nbsp;Making a change requires both defining the goals we want to achieve, and the current state of things, to know what is required to make a change to get to our goals.<br>
 <h3 id=f32b593542b3562df78d89693543c0fe><a href="#f32b593542b3562df78d89693543c0fe">2.5.3</a>: Systemic Thinking.&nbsp;&nbsp;Philosophers Knife.&nbsp;&nbsp;Slicing the pie vs Aggregation.&nbsp;&nbsp;Completeness, ease of understanding, ease of building, life-cycle maintenance.&nbsp;&nbsp;Where do you spend your time?</h3>
 <br>
 So far we've gone over the general definition of a system, and created some examples, and looked at how to slice components of a system up to leave the system intact, but able to looked at from different perspectives, and to separate out different components.<br>

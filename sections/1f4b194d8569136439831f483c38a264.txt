@@ -48,4 +48,4 @@ As of 2015, I do not know of any operational environments which work in a manner
 
 Part of the purpose of this book is to provide a path for others to understand these differences, so that paths can be built to allow us to create these comprehensive and complete systems, and to manage them accordingly, to get the benefits which they provide.
 
-We know the benefits and fallbacks of the aggregation system, though without comparing them to another method it is merely the de facto operations of all environments.  Making a change requires both defining the goals we want to achieve, and the current state of things, to know what is required to make a change to get to our goals.
+We know the benefits and fallbacks of the aggregation system, though without comparing them to another method it is merely the de facto operations of all environments, making it hard to inspect.  Making a change requires both defining the goals we want to achieve, and the current state of things, to know what is required to make a change to get to our goals.
