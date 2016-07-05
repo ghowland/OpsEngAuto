@@ -26,7 +26,7 @@ For purposes of discussion and illustration we can be fairly fluid about our def
 
 As we get deeper into the topics of Engineering Axioms and automation, we will see that while this can be used fluidly, the ability to use it deterministically, in a repeatable pattern, across many topics, becomes of paramount importance.
 
-The reason for this is the difference between a comprehensive system (correctly sliced with the Philosopher's Knife), and an aggregated system (imagine building something up from bricks, instead of slicing an existing pie), which is built not as a complete system that is sliced into pieces of the pie that can be put together to form the whole, but is aggregated from components.
+The reason for this is the difference between a comprehensive system (correctly sliced with the Philosopher's Knife), and an aggregated system (imagine building something up from bricks, instead of slicing an existing pie), which is not built as a complete system is aggregated from components, and is not built using a whole system and "pie-slicing".
 
 The problem with aggregated "systems" is that they not always in jeopardy of becoming not-internally-consistent.  Due to being "aggregated" into creation, where one piece is created, and then another piece, and then the two are put together, and then a change is made, and then a new piece is added, you get the result of not having a "complete pie" when it is resembled.  
 
