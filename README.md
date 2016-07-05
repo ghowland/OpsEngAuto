@@ -9,7 +9,7 @@ Current Goal: Populate Empty Sections: 246   (Done: 20.4%)
 
 Lines: 2793
 
-Words: 51465
+Words: 51469
 
 
 # Chapter 1: Preface (README.txt)
@@ -1236,7 +1236,7 @@ With the Aggregate model (which is a system, but not in the "Systemic Thinking" 
 <br>
 The Aggregate model does not have the attributes, and so gives a different result, which is not a Comprehensive result, but a "de facto" result.&nbsp;&nbsp;The Aggregate is "what we did", but does not include planning inside of it's own structure, because it is simply a map of work performed.&nbsp;&nbsp;The Comprehensive model includes both the entirety of the structure (all things we know of in the system), and where we have performed work to solve problems inside this system-space.<br>
 <br>
-As of 2015, I do not know of any operational environments which work in a manner that is consistent with "slicing the pie" vs aggregation.&nbsp;&nbsp;I will explain this assertion as we get more into details, but this puts the use of systemic thinking in an operational environment into a purely "mythical" state at the moment.<br>
+As of 2015, I do not know of any operational environments which work in a manner that is consistent with "slicing the pie", I only know of aggregation environments.&nbsp;&nbsp;I will explain this assertion as we get more into details, but this puts the use of systemic thinking in an operational environment into a purely "mythical" state at the moment.<br>
 <br>
 Part of the purpose of this book is to provide a path for others to understand these differences, so that paths can be built to allow us to create these comprehensive and complete systems, and to manage them accordingly, to get the benefits which they provide.<br>
 <br>
