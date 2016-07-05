@@ -9,7 +9,7 @@ Current Goal: Populate Empty Sections: 246   (Done: 20.4%)
 
 Lines: 2795
 
-Words: 51571
+Words: 51578
 
 
 # Chapter 1: Preface (README.txt)
@@ -1253,7 +1253,7 @@ Firstly, if one cannot understand something in detail for one's self, then it wi
 <br>
 Once one has an understanding for one's self, then the ability to communicate effectively about the topic becomes a possibility.&nbsp;&nbsp;If I don't understand a topic thoroughly, I will have a very hard time having a thorough discussion of that topic with someone else, in fact I believe this is impossible to do.&nbsp;&nbsp;I must have a thorough and comprehensive understanding myself if I wish to be able to communicate with someone else with clarity.&nbsp;&nbsp;They will have a different understanding than I do, even if we use the same Model descriptions, because we have different experiences and information, but the Model and System view I make and understand myself gives me a map to try to make analogues against when conversing with others.<br>
 <br>
-Through the power of using systems and the Philosopher's Knife, and black-boxing, I can take topics I do not comprehensively understand, and transform them into topics I do comprehensively understand, under a given Model.<br>
+Through the power of using systems and the Philosopher's Knife, and black-boxing, I can take topics I do not comprehensively understand, and transform them into topics I do comprehensively understand, using a Model I have devised as a mechanism for understanding.<br>
 <br>
 By reducing a system or component to it's Inputs, Outputs and known Side-Effects, I can clearly talk about what is going on as it relates to other systems or components.&nbsp;&nbsp;<br>
 <br>
