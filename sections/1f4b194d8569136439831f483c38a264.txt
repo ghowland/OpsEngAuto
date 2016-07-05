@@ -4,7 +4,7 @@ In the last section we covered the importance of slicing with the Philosopher's 
 
 One easy way of thinking about this is that you are cutting up a pie with the Philosopher's Knife.
 
-No matter how you slice a pie, the amount of pie has not been reduced, there is only a different number of pieces.  1 piece before the cut, 2 pieces after the cut, etc, but the total amount of pie remains the same.
+No matter how you slice a pie, the amount of pie has not been reduced, there is only a different number of pieces.
 
 If you cut a piece directly down the middle, creating 2 symmetrical pieces, no pie is lost.  You have 2 pieces that compose the entire pie before slicing.
 

@@ -9,7 +9,7 @@ Current Goal: Populate Empty Sections: 246   (Done: 20.4%)
 
 Lines: 2793
 
-Words: 51123
+Words: 51103
 
 
 # Chapter 1: Preface (README.txt)
@@ -1196,7 +1196,7 @@ In the last section we covered the importance of slicing with the Philosopher's 
 <br>
 One easy way of thinking about this is that you are cutting up a pie with the Philosopher's Knife.<br>
 <br>
-No matter how you slice a pie, the amount of pie has not been reduced, there is only a different number of pieces.&nbsp;&nbsp;1 piece before the cut, 2 pieces after the cut, etc, but the total amount of pie remains the same.<br>
+No matter how you slice a pie, the amount of pie has not been reduced, there is only a different number of pieces.<br>
 <br>
 If you cut a piece directly down the middle, creating 2 symmetrical pieces, no pie is lost.&nbsp;&nbsp;You have 2 pieces that compose the entire pie before slicing.<br>
 <br>
