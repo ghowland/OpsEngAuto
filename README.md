@@ -9,7 +9,7 @@ Current Goal: Populate Empty Sections: 246   (Done: 20.4%)
 
 Lines: 2793
 
-Words: 51250
+Words: 51305
 
 
 # Chapter 1: Preface (README.txt)
@@ -1212,7 +1212,7 @@ Dividing between Kernel and User space splits all code that is executed by the o
 <br>
 Whether we have divided by "Kernel vs User" or "Firmware vs Software", nothing about the system has changed, we have simply decided to cut the pie in a different place, and we can then use this division for some sort of useful inspection.<br>
 <br>
-Cuts can be layered on top of each other, like dividing into Firmware/Software, and then dividing Software into Kernel/User space, and could continue to be divided, such as dividing User space into shared library code vs. application local code.&nbsp;&nbsp;Share library code will be executed by more than one application, and is stored in a .so or .dll type file, and application code will be stored in a program's ELF or EXE formatted binary file.<br>
+Cuts can be layered on top of each other, like dividing into Firmware/Software, and then dividing Software into Kernel/User space, and could continue to be divided, such as dividing User space into shared library code vs. application local code.&nbsp;&nbsp;Share library code will be executed by more than one application, and is stored in a .so or .dll type file, and application code will be stored in a program's ELF or EXE formatted binary file.&nbsp;&nbsp;This type of layered cutting creates a structure like a binary-space partition tree (BSP tree), if you want to model it that way, or can be seen as a list of boolean axes, or could be used in any other way you want to model data if you have a different goal for your visualization.<br>
 <br>
 For purposes of discussion and illustration we can be fairly fluid about our definitions, and decisions on where to slice, because they are throw-away examples, and exist only for as long as they are useful to us.<br>
 <br>
