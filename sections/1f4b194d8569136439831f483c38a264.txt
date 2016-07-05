@@ -44,7 +44,7 @@ With the Aggregate model (which is a system, but not in the "Systemic Thinking" 
 
 The Aggregate model does not have the attributes, and so gives a different result, which is not a Comprehensive result, but a "de facto" result.  The Aggregate is "what we did", but does not include planning inside of it's own structure, because it is simply a map of work performed.  The Comprehensive model includes both the entirety of the structure (all things we know of in the system), and where we have performed work to solve problems inside this system-space.
 
-As of 2015, I do not know of any operational environments which work in a manner that is consistent with "slicing the pie", I only know of aggregation environments.  I will explain this assertion as we get more into details, but this puts the use of systemic thinking in an operational environment into a purely "mythical" state at the moment.
+As of 2015, I do not know of any operational environments which work in a manner that is consistent with "slicing the pie", I only know of aggregation environments.  I will explain this assertion as we get more into details, but this puts the use of systemic thinking in an operational environment into a purely "mythical" state at the moment.  Something I hope to change with writing this book, and sometime I hope to pass on as a valid tool for Engineering, and a valid goal where it will help your engineering projects.
 
 Part of the purpose of this book is to provide a path for others to understand these differences, so that paths can be built to allow us to create these comprehensive and complete systems, and to manage them accordingly, to get the benefits which they provide.
 
