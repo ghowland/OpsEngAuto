@@ -50,4 +50,4 @@ Part of the purpose of this book is to provide a path for others to understand t
 
 We know the benefits and fallbacks of the aggregation system, though without comparing them to another method it is merely the de facto operations of all environments, making it hard to inspect as there is nothing different to compare it to.  
 
-Making a change requires both defining the goals we want to achieve, and the current state of things, to know what is required to make a change to get to our goals.
+Making a change requires both defining the goals we want to achieve, and the current state of things, so we know what is required to make a change to get to our goals.
