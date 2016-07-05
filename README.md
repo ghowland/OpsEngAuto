@@ -1,15 +1,15 @@
 # Operations: Engineering and Automation
 
 
-Total Sections: 310   Populated Sections: 63
-Current Goal: Populate Empty Sections: 247   (Done: 20.3%)
+Total Sections: 310   Populated Sections: 64
+Current Goal: Populate Empty Sections: 246   (Done: 20.6%)
 
 
 <br><br><b>NOTE: This is still an early Work-In-Progress.  It is being written linearly as a First Rough Draft without editing at the moment.  There are many typos and grammatical errors presently.</b>
 
-Lines: 2795
+Lines: 2799
 
-Words: 51578
+Words: 51651
 
 
 # Chapter 1: Preface (README.txt)
@@ -1269,6 +1269,10 @@ This is the type of leverage that these tools provide, and when we get into the 
 <br>
 The short-comings of aggregated systems, versus comprehensive systemic systems is not yet clear, but as we define our terms more concretely, and begin to use them to deconstruct on operational environment, and then put it back together again, while keeping track of everything, we will see how aggregated systems are incapable of performing this task, while whole-systems always provide an accurate representation, if they are viewed with accuracy.<br>
 <h3 id=dadc2661d50f3cdb6efb0378f9c6803d><a href="#dadc2661d50f3cdb6efb0378f9c6803d">2.5.4</a>: Inputs, Outputs and Side-Effects: A Virtual Mechanism</h3>
+<br>
+I talk about the qualities of "Inputs, Outputs and Side-Effects" enough that I've decided to label them as something that can be discussed in themselves.<br>
+<br>
+I will call something that takes Inputs, gives Outputs, and produces Side-Effects a "Universal Machine", because it is a type of machine (performs work, mechanistically).&nbsp;&nbsp;It may be a deterministic machine or non-deterministic (introduces randomness, or other factors which cause different Outputs or Side-Effects with the same Inputs.<br>
 <h2 id=da54e5ab11aae5fc49994945cb3bc9a8><a href="#da54e5ab11aae5fc49994945cb3bc9a8">2.6</a>: Terminology</h2>
 <br>
 Congratulations!&nbsp;&nbsp;You've made it to the second beginning of the book, where we go over the definitions of terminology we will be using.<br>
