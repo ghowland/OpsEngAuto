@@ -20,7 +20,7 @@ One aspect of manual workflow generally goes:
 
 - They test the file with the DNS software's configuration file validation
 
-- If the test passes, they reload the DNS zone file into the server.
+- If the test passes, they reload the DNS zone file into the server
 
 - Then they tell the Slave DNS servers (other machines that reference this Master machine's DNS service to get records), and tell them to do a zone transfer.  This might also be configured to happen automatically on the Zone file changing, through the Master DNS server's software (although there are some reliability problems with this, in practice)
 
