@@ -7,7 +7,7 @@ Current Goal: Populate Empty Sections: 246   (Done: 20.6%)
 
 <br><br><b>NOTE: This is still an early Work-In-Progress.  It is being written linearly as a First Rough Draft without editing at the moment.  There are many typos and grammatical errors presently.</b>
 
-Lines: 2819
+Lines: 2815
 
 Words: 52668
 
@@ -1709,13 +1709,9 @@ Unknowable&nbsp;&nbsp;<--->&nbsp;&nbsp;Knowable<br>
 <br>
 We briefly defined Class of Work in the beginning of the book, but let's take a slightly deeper look at what it means.<br>
 <br>
-Initially I just said it was "anything that is done", and this is true but perhaps "work" work suffice to say that, and everyone would understand.<br>
+Initially I just said it was "anything that is done", and this is true but perhaps "work" work suffice to say that, and everyone would understand.&nbsp;&nbsp;However, there is more depth we can gain from looking at it deeper.<br>
 <br>
-However, there is more depth we can gain from looking at it deeper.<br>
-<br>
-I initially used the example of automating the DNS zone file updating.<br>
-<br>
-If you aren't familiar with DNS zone files, they are text files look like this:<br>
+I initially used the example of automating the DNS zone file updating.&nbsp;&nbsp;If you aren't familiar with DNS zone files, they are text files look like this:<br>
 <br>
 {{ example_dns_zone_file }}<br>
 <br>
