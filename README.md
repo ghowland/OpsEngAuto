@@ -1721,7 +1721,7 @@ One aspect of manual workflow generally goes:<br>
 <br>
 - Someone goes to the server that hosts the DNS Master files (the host people use to make edits on, and where the changes will be disseminated)<br>
 <br>
-- That add the line with the hostname fragment, and the "A" for address record, and the IP address<br>
+- They add the line with the hostname fragment, and the "A" for address record, and the IP address<br>
 <br>
 - They update the serial number of the zone file (so the DNS software knows the file has been changed)<br>
 <br>
