@@ -9,7 +9,7 @@ Current Goal: Populate Empty Sections: 246   (Done: 20.6%)
 
 Lines: 2819
 
-Words: 52504
+Words: 52502
 
 
 # Chapter 1: Preface (README.txt)
@@ -1538,7 +1538,7 @@ Knowable Virtual thing <---> Unknowable Virtual thing<br>
 <br>
 We're going to build a little forest of terms and spectrums (or axes) over the course of the book, because once we have clear terms like this, we can use them in different ways than if they were still more vague, and less specific.&nbsp;&nbsp;Once they are specific, they become tools, which we can use to help us perform work.<br>
 <br>
-Terms such as these can have specific properties, which contract with other terms, such as Knowable Virtual Data vs. Unknowable Virtual Data.&nbsp;&nbsp;We already have at least 1 property between these things that we can use in any algorithm as something that is clearly understood.<br>
+When we give terms specific properties, which contrast with other terms, such as Knowable Virtual Data vs. Unknowable Virtual Data.&nbsp;&nbsp;We already have at least 1 property between these things that we can use in any algorithm as something that is clearly understood.<br>
 <br>
 Over time we will build up a toolset of these, so that we can communicate about incredibly complicated topics, and reason about them efficiently and clearly.<br>
 <br>
