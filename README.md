@@ -9,7 +9,7 @@ Current Goal: Populate Empty Sections: 246   (Done: 20.6%)
 
 Lines: 2819
 
-Words: 52656
+Words: 52657
 
 
 # Chapter 1: Preface (README.txt)
@@ -1657,7 +1657,7 @@ And then you can make a change to that Data, which does not violate any of the c
 <br>
 Logic is not actually tied to Data in that same way that Data can be tied to itself (through constraints).&nbsp;&nbsp;In a database, let's use an abstract general SQL database with transactions for this case, we can insert a valid row into database table, and all the constraint tests are made in the transactional commit process, and the data is stored correctly.<br>
 <br>
-When the Logic next tries to access this data, it finds the new table row, and it goes about it's normal logic, which has always worked before, but this time the data it receives is not something the Logic accounted for.<br>
+When the Logic next tries to access this data, it finds the new table row, and it goes about it's normal operational logic, which has always worked before, but this time the data it receives is not something the Logic accounted for.<br>
 <br>
 Say you have a field that is an unsigned integer, so it goes from 0 to some very large amount (it depends on implementation, so I will leave it vague), and the Logic expects that this data is in the range of 0 to 100.<br>
 <br>
