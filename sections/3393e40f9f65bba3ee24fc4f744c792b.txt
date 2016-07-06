@@ -18,6 +18,8 @@ As I will cover in more detail later on, there are 3 cases you should account fo
 
 - Infinite instances of something.  As soon as you move beyond "one instance" (or one-thing), you move into the realm of many-things.  If you think you can move to "just two" or "just three" you are not taking into account all of history which shows continual sub-division and growth in all things that are not "shutting down".  "infinite instances" may currently be at a count of "2", but in order to handle the growth that will eventually come, it should be implemented as an N-instance, or infinite instance system.
 
+Differentiating between "instances" and "counts of things" can be a little tricky, and seem subjective, but it is because it is fulfilling a goal of understanding whether we have duplication of "service providers", or not.  This is all in the context of "distributed systems", if that helps to make this language introspection easier to understand.
+
 These differentiates can be seen in the phase:
 
 "0, 1, Infinity.  There is no 2."

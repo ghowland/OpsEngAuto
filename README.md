@@ -7,9 +7,9 @@ Current Goal: Populate Empty Sections: 246   (Done: 20.6%)
 
 <br><br><b>NOTE: This is still an early Work-In-Progress.  It is being written linearly as a First Rough Draft without editing at the moment.  There are many typos and grammatical errors presently.</b>
 
-Lines: 2815
+Lines: 2817
 
-Words: 52410
+Words: 52465
 
 
 # Chapter 1: Preface (README.txt)
@@ -1445,6 +1445,8 @@ As I will cover in more detail later on, there are 3 cases you should account fo
 - One instance of something.&nbsp;&nbsp;This is when you have one thing that you use; it is the centralization of a service.&nbsp;&nbsp;There may still be a pair of machines (Master/Slave) supporting this one-thing, and there may be more than a pair, but if there is logically a "single instance" of the thing, then it is a "one instance" though the instance may be made up of many pieces to create the single-whole.<br>
 <br>
 - Infinite instances of something.&nbsp;&nbsp;As soon as you move beyond "one instance" (or one-thing), you move into the realm of many-things.&nbsp;&nbsp;If you think you can move to "just two" or "just three" you are not taking into account all of history which shows continual sub-division and growth in all things that are not "shutting down".&nbsp;&nbsp;"infinite instances" may currently be at a count of "2", but in order to handle the growth that will eventually come, it should be implemented as an N-instance, or infinite instance system.<br>
+<br>
+Differentiating between "instances" and "counts of things" can be a little tricky, and seem subjective, but it is because it is fulfilling a goal of understanding whether we have duplication of "service providers", or not.&nbsp;&nbsp;This is all in the context of "distributed systems", if that helps to make this language introspection easier to understand.<br>
 <br>
 These differentiates can be seen in the phase:<br>
 <br>
