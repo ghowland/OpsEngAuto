@@ -4,7 +4,7 @@ Now that we have established that collectively, Virtual Data, which I will just 
 
 And we have established that collectively Logic is Unknowable, even though components of it may be knowable, we can use this information to set up a hierarchy, which we can use to build more robust engineering solutions.
 
-If Data is Knowable, and Logic is Knowable, then we should base our actions on our Data, and treat that as the supreme truth.  Our Logic is not less important because of this, as it serves the same role as it would if Logic was King, and reigned supreme over Data.
+If Data is comprehensively Knowable, and Logic is comprehensively Unknowable, then we should base our actions on our Data, and treat that as the supreme truth.  Our Logic is not less important because of this, as it serves the same role as it would if Logic was King, and reigned supreme over Data.
 
 However, knowing that we can treat Data as the most important thing in our operational environment means that we will always first focus on the data being correct, and then secondarily we will look at how the Logic interacts with the Data, with an careful watch that the Logic does not do anything to the Data that would cause us problems.
 
