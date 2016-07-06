@@ -9,7 +9,7 @@ Current Goal: Populate Empty Sections: 246   (Done: 20.6%)
 
 Lines: 2815
 
-Words: 52659
+Words: 52671
 
 
 # Chapter 1: Preface (README.txt)
@@ -1732,7 +1732,7 @@ One aspect of manual workflow generally goes:<br>
 - Then they tell the Slave DNS servers (other machines that reference this Master machine's DNS service to get records), and tell them to do a zone transfer.&nbsp;&nbsp;This might also be configured to happen automatically on the Zone file being reloaded, through the Master DNS server's software<br>
 <br>
 <br>
-These steps might take a person 10-15 minutes to perform, on an individual basis, and slightly longer to implement for larger changes.<br>
+These steps might take a person 10-15 minutes to perform, on an individual basis, and slightly longer to implement for larger changes, or in larger environments where there are more tests or more templating.<br>
 <br>
 Sometimes it is a problem that people just forget to do this, although since the new machines wont have DNS names, people will only be able to reference them by IP address, so usually the problem is quickly remedied.<br>
 <br>
