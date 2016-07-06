@@ -9,7 +9,7 @@ Current Goal: Populate Empty Sections: 246   (Done: 20.6%)
 
 Lines: 2815
 
-Words: 52707
+Words: 52710
 
 
 # Chapter 1: Preface (README.txt)
@@ -1744,7 +1744,7 @@ These problems are usually caught quickly, as things will fail and alert, if mon
 <br>
 Humans making manual entry mistakes are simply unavoidable.&nbsp;&nbsp;As the population of humans doing manual work increases, and the amount of work each human does increases, so will the amount of failures.&nbsp;&nbsp;This is compounded with any special conditions, where there is a standard process, but special cases exist which must be manually maintained either without automated testing, or with insufficient testing.<br>
 <br>
-Some failures only show up when multiple mistakes occur, so the original set-up problem may have occurred days, weeks or months before, but the secondary mistake triggers that mistake, making it very difficult to troubleshoot.<br>
+Some failures only show up when multiple mistakes occur, so the original set-up problem may have been occurring for days, weeks or months before, but the secondary mistake triggers the initial mistake, making it very difficult to troubleshoot.<br>
 <br>
 The "second mistake" may not have even been a mistake at all, and on inspection it is found that it looks correct, so it is put back in, and the failure occurs again.&nbsp;&nbsp;<br>
 <br>
