@@ -9,7 +9,7 @@ Current Goal: Populate Empty Sections: 246   (Done: 20.6%)
 
 Lines: 2819
 
-Words: 52657
+Words: 52656
 
 
 # Chapter 1: Preface (README.txt)
@@ -1655,7 +1655,7 @@ You can have perfectly consistent and correct Data, with all constraints active,
 <br>
 And then you can make a change to that Data, which does not violate any of the comprehensive consistency validation tests, and yet afterwards the Logic fails against the Data.&nbsp;&nbsp;How?<br>
 <br>
-Logic is not actually tied to Data in that same way that Data can be tied to itself (through constraints).&nbsp;&nbsp;In a database, let's use an abstract general SQL database with transactions for this case, we can insert a valid row into database table, and all the constraint tests are made in the transactional commit process, and the data is stored through correctly.<br>
+Logic is not actually tied to Data in that same way that Data can be tied to itself (through constraints).&nbsp;&nbsp;In a database, let's use an abstract general SQL database with transactions for this case, we can insert a valid row into database table, and all the constraint tests are made in the transactional commit process, and the data is stored correctly.<br>
 <br>
 When the Logic next tries to access this data, it finds the new table row, and it goes about it's normal logic, which has always worked before, but this time the data it receives is not something the Logic accounted for.<br>
 <br>
