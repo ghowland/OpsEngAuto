@@ -9,7 +9,7 @@ Current Goal: Populate Empty Sections: 246   (Done: 20.6%)
 
 Lines: 2819
 
-Words: 52497
+Words: 52517
 
 
 # Chapter 1: Preface (README.txt)
@@ -1542,7 +1542,7 @@ We create a language tool when we give terms specific properties, which allow us
 <br>
 Over time we will build up a toolset of these, so that we can communicate about incredibly complicated topics, and reason about them efficiently and clearly.<br>
 <br>
-As an exercise, try to come up with some of your own terms.&nbsp;&nbsp;Once you have an understanding of how to create terms for yourself, <br>
+As an exercise, try to come up with some of your own terms.&nbsp;&nbsp;Once you have an understanding of how to create terms for yourself, you can use this to create things you understand completely, because you made up the terms you are working with.<br>
 <br>
 If you can, great, write them down and add more to that list as you think of more, and it will start your own set of terminology in which you can reason with, having more understanding of it than my terminology, which I have created.<br>
 <br>
