@@ -41,7 +41,7 @@ To make the assertion as briefly as I can:
 
 1. Data is what you know at a given time.  This is useful forever.  It could be useful hundreds of years for now, for the same reasons it is for us today (using it to configure things), or strictly for historical or analytical purposes.  Data has essentially no "death" or time where it becomes invalid or unusable, as a general resource.  
 
-Not to say Data cannot be corrupted, or be invalid to our purposes, but it remains valid as a source of information even if it is corrupted (though perhaps not actionable for our immediate use, and degraded utility due to corruption).
+Not to say Data cannot be corrupted, or be invalid to our purposes, but it remains valid as a source of information even if it is corrupted (though perhaps not actionable for our immediate use, and degraded utility and trustworthiness due to corruption).
 
 2. Logic is the codification of goals.  What we want to occur is processed through Logic.  Because of this, Logic has a number of environmental factors that work in some conditions, but there are many states where Logic cannot be used, except if it is seen as "Data" and is no longer executable.
 
