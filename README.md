@@ -7,9 +7,9 @@ Current Goal: Populate Empty Sections: 246   (Done: 20.6%)
 
 <br><br><b>NOTE: This is still an early Work-In-Progress.  It is being written linearly as a First Rough Draft without editing at the moment.  There are many typos and grammatical errors presently.</b>
 
-Lines: 2811
+Lines: 2813
 
-Words: 52067
+Words: 52082
 
 
 # Chapter 1: Preface (README.txt)
@@ -1285,6 +1285,8 @@ A Universal Machine can be defined as you want it, and can be applied to anythin
 Any process, physical or non-physical (informational, virtual, etc), can be defined by it's Inputs, Outputs and Side-Effects, so this creates an interface we can use at any time, for any reason, and we can reason about Universal Machines based on their interfaces, separate from the work that they actually perform.<br>
 <br>
 The linkages between Universal Machines will follow the same rules, irregardless of the type of Inputs, Outputs and Side-Effects being worked on.&nbsp;&nbsp;By making a distinct type of unit we can refer to by the label Universal Machine, we can always drop into the method of talking about a component. or service, or physical machine, or any type of thing, and how it operates in a chain or process of events.<br>
+<br>
+{{ note: Should I create an acronym for this?&nbsp;&nbsp;I/O/SE? IOSE?&nbsp;&nbsp;Might be useful. }}<br>
 <h2 id=da54e5ab11aae5fc49994945cb3bc9a8><a href="#da54e5ab11aae5fc49994945cb3bc9a8">2.6</a>: Terminology</h2>
 <br>
 Congratulations!&nbsp;&nbsp;You've made it to the second beginning of the book, where we go over the definitions of terminology we will be using.<br>

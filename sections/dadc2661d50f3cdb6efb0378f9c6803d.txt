@@ -13,3 +13,5 @@ A Universal Machine can be defined as you want it, and can be applied to anythin
 Any process, physical or non-physical (informational, virtual, etc), can be defined by it's Inputs, Outputs and Side-Effects, so this creates an interface we can use at any time, for any reason, and we can reason about Universal Machines based on their interfaces, separate from the work that they actually perform.
 
 The linkages between Universal Machines will follow the same rules, irregardless of the type of Inputs, Outputs and Side-Effects being worked on.  By making a distinct type of unit we can refer to by the label Universal Machine, we can always drop into the method of talking about a component. or service, or physical machine, or any type of thing, and how it operates in a chain or process of events.
+
+{{ note: Should I create an acronym for this?  I/O/SE? IOSE?  Might be useful. }}
