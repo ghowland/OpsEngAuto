@@ -1559,7 +1559,7 @@ This problem is essentially that is impossible to know if a program is every goi
 <br>
 However, Logic also has many Knowable Virtual elements to it, because as in our example of "X = 5", this is a statement that can be made in Logic.<br>
 <br>
-Additionally, just like in our example we can use the Logic itself to inspect this, or we can externally inspect the Logic using a debugger, and we can verify the data, and it is Knowlable Virtual Data.<br>
+Additionally, just like in our example we can use the Logic itself to inspect this, or we can externally inspect the Logic using a debugger, and we can verify the data, and it is Knowable Virtual Data.<br>
 <br>
 So, while Logic contains some properties that are Unknowable (the halting problem being one example), it also contains properties that are Knowable, and the Unknowable does not stop us or hinder us in any way from gaining full access to the Knowable.&nbsp;&nbsp;<br>
 <br>
