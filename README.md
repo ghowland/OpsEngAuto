@@ -9,7 +9,7 @@ Current Goal: Populate Empty Sections: 246   (Done: 20.6%)
 
 Lines: 2815
 
-Words: 52674
+Words: 52675
 
 
 # Chapter 1: Preface (README.txt)
@@ -1734,7 +1734,7 @@ One aspect of manual workflow generally goes:<br>
 <br>
 These steps might take a person 10-15 minutes to perform, on an individual basis, and slightly longer to implement for larger changes, or in larger environments where there are more tests or more templating.<br>
 <br>
-Sometimes it is a problem that people just forget to do one of the steps, but, since the new host wont have DNS names, people will only be able to reference them by IP address, so usually the problem is quickly remedied.<br>
+Sometimes it is a problem that people just forget to do one of the steps, but, since the new host wont have a DNS name, it will only be able to reference them by IP address, so usually this problem is quickly remedied.<br>
 <br>
 A larger problem is that people can type things incorrectly, and while the validation tests find some problems, they will not find correctly formatted zone or configuration files, which have bad data in them.<br>
 <br>
