@@ -9,7 +9,7 @@ Current Goal: Populate Empty Sections: 246   (Done: 20.6%)
 
 Lines: 2815
 
-Words: 52232
+Words: 52226
 
 
 # Chapter 1: Preface (README.txt)
@@ -1372,7 +1372,7 @@ To make the assertion as briefly as I can:<br>
 <br>
 Not to say Data cannot be corrupted, or be invalid to our purposes, but it remains valid as a source of information even if it is corrupted (though perhaps not actionable for our immediate use, and degraded utility and trustworthiness due to corruption).<br>
 <br>
-Even corrupt data is potentially usable to give us some information (statistics about what was not corrupted), but corrupt Code/Logic should not be executed, unless it is an sealed-off environment, as it may perform destructive actions. Another difference between Data and Logic.<br>
+Even corrupt data is potentially usable to give us some information (statistics about what was not corrupted), but corrupt Code/Logic should not be executed, unless it is an sealed-off environment, as it may perform destructive actions.<br>
 <br>
 2. Logic is the codification of goals.&nbsp;&nbsp;What we want to occur is processed through Logic.&nbsp;&nbsp;Because of this, Logic has a number of environmental factors that work in some conditions, but there are many states where Logic cannot be used, except if it is seen as "Data" and is no longer executable.<br>
 <br>
