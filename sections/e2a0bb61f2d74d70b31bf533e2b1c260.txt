@@ -12,7 +12,7 @@ One aspect of manual workflow generally goes:
 
 - A new host is created, and needs a name matched to it's IP address (an address "A" record)
 
-- Someone goes to the server that hosts the DNS Master files (the host people use to make edits on, and where the changes will be diseminated)
+- Someone goes to the server that hosts the DNS Master files (the host people use to make edits on, and where the changes will be disseminated)
 
 - That add the line with the hostname fragment, and the "A" for address record, and the IP address
 
