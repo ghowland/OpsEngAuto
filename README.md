@@ -9,7 +9,7 @@ Current Goal: Populate Empty Sections: 246   (Done: 20.6%)
 
 Lines: 2815
 
-Words: 52310
+Words: 52354
 
 
 # Chapter 1: Preface (README.txt)
@@ -1402,7 +1402,7 @@ A more likely scenario is that the organizational goals have changed.<br>
 <br>
 Goals change frequently, and so requirements change frequently, and Logic is codification of requirements.&nbsp;&nbsp;Once you have different goals, it is very unlikely that the code that worked for the previous goals will still work with the new goals.&nbsp;&nbsp;This happens every time new commits are made to a source code repository, the actions the old code performed are now changes, and new actions happen.&nbsp;&nbsp;The old-code's action's results are no longer desired, because we have upgraded them to the new-code's action's results.&nbsp;&nbsp;The old-code is deprecated and should no longer be run, that Logic is expired.<br>
 <br>
-The conditions for when the same Logic will give correct results once you goals have changed is when that Logic is being used as a "tool" or "utility", in which case it operates on data to perform it's actions.<br>
+The conditions for when the same Logic will give correct results once you goals have changed is when that Logic is being used as a "tool" or "utility", in which case it operates on data to perform it's actions.&nbsp;&nbsp;The Logic performs a primitive function, and so it can escape being outdated as soon as your goals change, because of the limited nature of it's actions, and it's intent being a general purpose tool, rather than a specific tool to implement your goals.<br>
 <br>
 This accounts for the long-life span of Unix-style environments, which are historically largely made up of software that performs generalized operations against a set of data.&nbsp;&nbsp;That data might resides in a file, a database or be given by user input on the command-line or through a series of prompts.&nbsp;&nbsp;<br>
 <br>
