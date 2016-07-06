@@ -44,7 +44,7 @@ Over time we will build up a toolset of these, so that we can communicate about 
 
 As an exercise, try to come up with some of your own terms.  Once you have an understanding of how to create terms for yourself, you can use this to create things you understand completely, because you made up the terms you are working with.
 
-If you can, great, write them down and add more to that list as you think of more, and it will start your own set of terminology in which you can reason with, having more understanding of it than my terminology, which I have created.
+If you can, great, write them down and add more to that list as you think of them.  Over time, you will start your own set of terminology in which you can reason with, having more understanding of it than my terminology, which I have created.  Like I'm doing here, you will have to define your terms for other people, or translate your terms into language they already understand, but it is important that you have a clear understanding for yourself, which creating your own terms helps with.
 
 If you can't think of any now, that's not a problem, but if any come to mind in the future, write them down, and over time more and more may start to come to you.
 
