@@ -9,7 +9,7 @@ Current Goal: Populate Empty Sections: 246   (Done: 20.6%)
 
 Lines: 2815
 
-Words: 52367
+Words: 52383
 
 
 # Chapter 1: Preface (README.txt)
@@ -1436,7 +1436,7 @@ For instance having to control 200 web servers will be a Distributed service of 
 <br>
 This usage stems from a single web server being able to do the same thing as 200 web servers (configured in the same manner), but the "load" is "distributed" across the 200 web servers, making this a distributed network service.<br>
 <br>
-The reason for being very general in this usage is that it provides a comparison point between single-unit processing system and a multi-unit processing system.<br>
+The reason for being very general in this usage is that it provides a comparison point between single-unit processing system and a multi-unit processing system, which is the core of the problem and benefit: there are more things doing the thing.<br>
 <br>
 As I will cover in more detail later on, there are 3 cases you should account for in operations:<br>
 <br>
