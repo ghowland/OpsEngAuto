@@ -9,7 +9,7 @@ Current Goal: Populate Empty Sections: 246   (Done: 20.6%)
 
 Lines: 2811
 
-Words: 51945
+Words: 51944
 
 
 # Chapter 1: Preface (README.txt)
@@ -1272,7 +1272,7 @@ The short-comings of aggregated systems, versus comprehensive systemic systems i
 That isn't circular logic, is it simply the result of "Garbage In-Garbage Out".&nbsp;&nbsp;If one can't view a topic accurately, one cannot expect to perform work to meet goals accurately.<br>
 <h3 id=dadc2661d50f3cdb6efb0378f9c6803d><a href="#dadc2661d50f3cdb6efb0378f9c6803d">2.5.4</a>: Inputs, Outputs and Side-Effects: A Virtual Mechanism</h3>
 <br>
-I talk about the qualities of "Inputs, Outputs and Side-Effects" enough that I've decided to label them as something that can be discussed in themselves.<br>
+I talk about the qualities of "Inputs, Outputs and Side-Effects" enough that I've decided to label them as something that can be discussed directly.<br>
 <br>
 I will call something that takes Inputs, gives Outputs, and produces Side-Effects a "Universal Machine", because it is a type of machine (performs work, mechanistically).&nbsp;&nbsp;It may be a deterministic machine or non-deterministic (introduces randomness, or other factors which cause different Outputs or Side-Effects with the same Inputs.<br>
 <br>
