@@ -9,7 +9,7 @@ Current Goal: Populate Empty Sections: 246   (Done: 20.6%)
 
 Lines: 2815
 
-Words: 52732
+Words: 52742
 
 
 # Chapter 1: Preface (README.txt)
@@ -1746,7 +1746,7 @@ Humans making manual entry mistakes are simply unavoidable.&nbsp;&nbsp;As the po
 <br>
 Some failures only show up when multiple mistakes occur, so the original set-up problem may have been occurring for days, weeks or months before, but the secondary mistake triggers the initial mistake, making it harder to troubleshoot as the recent change doesn't seem to impact the part that is now broken (but did).<br>
 <br>
-The "delayed failure" may not have even been a mistake at all, and after reverting that change and inspecting the configuration, it might be found that it looks correct, so it is put back in, and the failure occurs again.<br>
+The "delayed failure" may not have even been a mistake at all, and after reverting that change and inspecting the configuration, it might be found that it looks correct, so it is put back in, and the failure occurs again because the error requires two places to cause the failure.<br>
 <br>
 This is a component of Alignment, which I mentioned in the beginning of the book, but we haven't referenced in a while.<br>
 <br>
