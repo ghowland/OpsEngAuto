@@ -9,7 +9,7 @@ Current Goal: Populate Empty Sections: 246   (Done: 20.6%)
 
 Lines: 2809
 
-Words: 51907
+Words: 51905
 
 
 # Chapter 1: Preface (README.txt)
@@ -1265,7 +1265,7 @@ For instance, in our web request and logging examples, we have determined that w
 <br>
 From this we can create a policy that requires all services to have log rotation or truncating configured for any software before it is put into active service.&nbsp;&nbsp;We can go over the results we will achieve without this, and determine that are not the results that we want, and come up with a test for whether this is enacted on a given server to ensure that we have done this work, and have protected ourselves from this deterministic outcome.<br>
 <br>
-This is the type of leverage that these tools provide, and when we get into the details of automating an entire operational environment, through it's life-cycles, with change management and ensuring that all things are internally consistent, and well-aligned, to accomplish our goals, we will find that without these tools for clear and consistent "breaking things apart" and "putting them back together again" without losing any information, we will not be able to get comprehensive coverage without this.<br>
+This is the type of leverage that these tools provide, and when we get into the details of automating an entire operational environment, through it's life-cycles, with change management and ensuring that all things are internally consistent, and well-aligned, to accomplish our goals, we will find that without these tools for clear and consistent "breaking things apart" and "putting them back together again" without losing any information, we will not be able to get comprehensive coverage.<br>
 <br>
 The short-comings of aggregated systems, versus comprehensive systemic systems is not yet clear, but as we define our terms more concretely, and begin to use them to deconstruct on operational environment, and then put it back together again, while keeping track of everything, we will see how aggregated systems are incapable of performing this task, while whole-systems always provide an accurate representation, if they are viewed with accuracy.<br>
 <h3 id=dadc2661d50f3cdb6efb0378f9c6803d><a href="#dadc2661d50f3cdb6efb0378f9c6803d">2.5.4</a>: Inputs, Outputs and Side-Effects: A Virtual Mechanism</h3>
