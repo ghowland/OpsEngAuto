@@ -9,7 +9,7 @@ Current Goal: Populate Empty Sections: 246   (Done: 20.6%)
 
 Lines: 2819
 
-Words: 52578
+Words: 52577
 
 
 # Chapter 1: Preface (README.txt)
@@ -1565,7 +1565,7 @@ So, while Logic contains some properties that are Unknowable (the halting proble
 <br>
 This puts Logic in a murky place on a spectrum of Knowlable to Unknowable, but that's OK!<br>
 <br>
-What we need to do in this instance is simply break up what Logic is, and look at each of the components on the spectrum, and we will have a correct view into it.<br>
+What we need to do in this instance is slice up what Logic is, and look at each of the components on the spectrum, and we will have a correct view into it.<br>
 <br>
 So, that would look like:<br>
 <br>
