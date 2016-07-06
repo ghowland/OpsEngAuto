@@ -9,7 +9,7 @@ Current Goal: Populate Empty Sections: 246   (Done: 20.6%)
 
 Lines: 2819
 
-Words: 52631
+Words: 52630
 
 
 # Chapter 1: Preface (README.txt)
@@ -1626,7 +1626,7 @@ And we have established that collectively Logic is Unknowable, even though compo
 <br>
 If Data is comprehensively Knowable, and Logic is comprehensively Unknowable, then we should base our actions on our Data, and treat that as the supreme truth.&nbsp;&nbsp;Our Logic is not less important because of this, as it serves the same role as it would if Logic was King, and reigned supreme over Data.&nbsp;&nbsp;One thing must have precedence over the other, because in real-world prioritization things cannot be equal.&nbsp;&nbsp;There is always a preference, and it is usually by a wide-margin, due to the limitation of resources.<br>
 <br>
-However, knowing that we can treat Data as the most important thing in our operational environment means that we will always first focus on the data being correct, and then secondarily we will look at how the Logic interacts with the Data, with an careful watch that the Logic does not do anything to the Data that would cause us problems.<br>
+Knowing that we can treat Data as the most important thing in our operational environment means that we will always first focus on the data being correct, and then secondarily we will look at how the Logic interacts with the Data, with an careful watch that the Logic does not do anything to the Data that would cause us problems.<br>
 <br>
 Of course, you don't have to have any of this kind of analysis to know that you should not corrupt your data with your code, but this is the path I have taken to understanding where to place priorities, and how to approach working, and they have served me well.&nbsp;&nbsp;I hope to prove after we have gotten through this introductory phase, into the details phase, and finally into going over implementation, how these fundamentals are truly critical to building large, robust, resilient, controllable, manageable operational automation environments.<br>
 <br>
