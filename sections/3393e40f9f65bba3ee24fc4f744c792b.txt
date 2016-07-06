@@ -8,7 +8,7 @@ For instance having to control 200 web servers will be a Distributed service of 
 
 This usage stems from a single web server being able to do the same thing as 200 web servers (configured in the same manner), but the "load" is "distributed" across the 200 web servers, making this a distributed network service.
 
-The reason for being very general in this usage is that it provides a comparison point between single processing system and a distributed processing system.
+The reason for being very general in this usage is that it provides a comparison point between single-unit processing system and a multi-unit processing system.
 
 As I will cover in more detail later on, there are 3 cases you should account for in operations:
 
