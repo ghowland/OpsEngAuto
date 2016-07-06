@@ -9,7 +9,7 @@ Current Goal: Populate Empty Sections: 246   (Done: 20.6%)
 
 Lines: 2811
 
-Words: 51944
+Words: 51951
 
 
 # Chapter 1: Preface (README.txt)
@@ -1274,7 +1274,7 @@ That isn't circular logic, is it simply the result of "Garbage In-Garbage Out".&
 <br>
 I talk about the qualities of "Inputs, Outputs and Side-Effects" enough that I've decided to label them as something that can be discussed directly.<br>
 <br>
-I will call something that takes Inputs, gives Outputs, and produces Side-Effects a "Universal Machine", because it is a type of machine (performs work, mechanistically).&nbsp;&nbsp;It may be a deterministic machine or non-deterministic (introduces randomness, or other factors which cause different Outputs or Side-Effects with the same Inputs.<br>
+I will call something that takes Inputs, gives Outputs, and produces Side-Effects a "Universal Machine", because it is a type of machine (performs work, mechanistically), and can be applied in any situation.&nbsp;&nbsp;It may be a deterministic machine or non-deterministic (introduces randomness, or other factors which cause different Outputs or Side-Effects with the same Inputs.<br>
 <br>
 A Universal Machine, by our definition here, can take any inputs and return any outputs, and create any side-effects, whether they are Real or Virtual, it doesn't matter.<br>
 <br>
