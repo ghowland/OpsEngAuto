@@ -9,7 +9,7 @@ Current Goal: Populate Empty Sections: 246   (Done: 20.6%)
 
 Lines: 2815
 
-Words: 52261
+Words: 52252
 
 
 # Chapter 1: Preface (README.txt)
@@ -1398,7 +1398,7 @@ These are lower-level types of problems that Logic has, and why, unless it is ru
 <br>
 There are some exceptions to this, such as code that ran on very old versions of Windows, and has had fixes installed throughout Windows versions up until the modern times to allow this code to still work.&nbsp;&nbsp;These are the minority of cases though.<br>
 <br>
-A more likely (who runs multi-decade old code frequently, for business purposes?) scenario is that the organizational goals have changed.<br>
+A more likely scenario is that the organizational goals have changed.<br>
 <br>
 Goals change frequently, and so requirements change frequently, and Logic is codification of requirements.&nbsp;&nbsp;Once you have different goals, it is very unlikely that the code that worked for the previous goals will still work with the new goals.<br>
 <br>
