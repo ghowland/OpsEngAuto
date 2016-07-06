@@ -12,7 +12,7 @@ Through the power of using systems and the Philosopher's Knife, and black-boxing
 
 By reducing a system or component to it's Inputs, Outputs and known Side-Effects, I can clearly talk about what is going on as it relates to other systems or components.  
 
-If I can come to an agreement on terms and what the Inputs, Outputs and Side-Effects are for the given systems/components we are talking about, we have a much higher likelihood of coming to consensus on what we are talking about, and will be less likely to be talking about completely different things, while we are trying to communicate about a problem, or a solution, or whatever.
+If we can come to an agreement on terms and what the Inputs, Outputs and Side-Effects are for the given systems/components we are talking about, we have a much higher likelihood of coming to consensus on what we are talking about, and will be less likely to be talking about completely different things, while we are trying to communicate about a problem, or a solution, or whatever.
 
 Additionally, once we can create a system out of any environment and events, we can begin to Model that system so that we can come up with procedures on what we should do in different circumstances.
 
