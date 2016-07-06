@@ -9,7 +9,7 @@ Current Goal: Populate Empty Sections: 246   (Done: 20.6%)
 
 Lines: 2819
 
-Words: 52666
+Words: 52668
 
 
 # Chapter 1: Preface (README.txt)
@@ -1667,7 +1667,7 @@ Whose problem is this, Data or Logic?<br>
 <br>
 It is a shared problem with between the two, because the Data contains valid data based off the database software constraint system (0 to 4 billion), and the the Logic is only handling 0 to 100, and so a failure has been entered between the two, even though the Data was correctly inserted into the database, under the database's constraint system.<br>
 <br>
-There are many ways to approach this problem.&nbsp;&nbsp;Databases frequently have code that you can put into the database to execute at certain times, which could validate the values and enforce only numbers 0-100 are put in them.<br>
+There are many ways to approach this problem.&nbsp;&nbsp;Databases frequently have code that you can put into the database to execute at certain times (ie. pre-commit), which could validate the values and enforce only numbers 0-100 are put in them.<br>
 <br>
 There are some problems with this, in the long term you have probably tied yourself to this database platform for a very long time, whether you want to be or not, because after all of that Logic is put into the database to validate the Data, it would take a large effort to re-create it all correctly in another database's methods, and those methods may not be fully compatible, in that you can't do everything in the target database that you could do in the original database.<br>
 <br>
