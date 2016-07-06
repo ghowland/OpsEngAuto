@@ -7,9 +7,9 @@ Current Goal: Populate Empty Sections: 246   (Done: 20.6%)
 
 <br><br><b>NOTE: This is still an early Work-In-Progress.  It is being written linearly as a First Rough Draft without editing at the moment.  There are many typos and grammatical errors presently.</b>
 
-Lines: 2817
+Lines: 2819
 
-Words: 52484
+Words: 52488
 
 
 # Chapter 1: Preface (README.txt)
@@ -1467,6 +1467,8 @@ I'll just say that like other terms meant for this book, I will be using Real an
 <br>
 If this seems vague, please review {{ section_ff17d94c0d49aab3e372e47b64b96ea7 }} again, as the specific use of these terms for the purposes of this book is important for understanding what I'm trying to convey.<br>
 <p id=031f037060d88ef98ae42ae359b42dd0><b><a href="#031f037060d88ef98ae42ae359b42dd0">2.6.5.1</a>: Be clear about the differences:&nbsp;&nbsp;Physical (Real), Logical (Virtual), Data (Virtual)</b></p>
+<br>
+{{ todo: ... }}<br>
 <br>
 Since I think we have a clear working definition for the terms Real and Virtual, we start to do some comparisons between them and see what other things are different.<br>
 <br>
