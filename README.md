@@ -9,7 +9,7 @@ Current Goal: Populate Empty Sections: 246   (Done: 20.6%)
 
 Lines: 2819
 
-Words: 52597
+Words: 52625
 
 
 # Chapter 1: Preface (README.txt)
@@ -1624,7 +1624,7 @@ Now that we have established that collectively, Virtual Data, which I will just 
 <br>
 And we have established that collectively Logic is Unknowable, even though components of it may be knowable, we can use this information to set up a hierarchy, which we can use to build more robust engineering solutions.<br>
 <br>
-If Data is comprehensively Knowable, and Logic is comprehensively Unknowable, then we should base our actions on our Data, and treat that as the supreme truth.&nbsp;&nbsp;Our Logic is not less important because of this, as it serves the same role as it would if Logic was King, and reigned supreme over Data.<br>
+If Data is comprehensively Knowable, and Logic is comprehensively Unknowable, then we should base our actions on our Data, and treat that as the supreme truth.&nbsp;&nbsp;Our Logic is not less important because of this, as it serves the same role as it would if Logic was King, and reigned supreme over Data.&nbsp;&nbsp;One thing must have precedence over the other, because in real-world prioritization things cannot be equal.&nbsp;&nbsp;There is always a preference, and it is usually by a wide-margin.<br>
 <br>
 However, knowing that we can treat Data as the most important thing in our operational environment means that we will always first focus on the data being correct, and then secondarily we will look at how the Logic interacts with the Data, with an careful watch that the Logic does not do anything to the Data that would cause us problems.<br>
 <br>
