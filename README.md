@@ -9,7 +9,7 @@ Current Goal: Populate Empty Sections: 246   (Done: 20.6%)
 
 Lines: 2819
 
-Words: 52667
+Words: 52668
 
 
 # Chapter 1: Preface (README.txt)
@@ -1669,7 +1669,7 @@ It is a shared problem with between the two, because the Data contains valid dat
 <br>
 There are many ways to approach this problem.&nbsp;&nbsp;Databases frequently have code that you can put into the database to execute at certain times (ie. user defined constraints), which could validate the values and enforce only numbers 0-100 are put in them.<br>
 <br>
-There are some problems with this, you will have probably tied yourself to this database platform for a very long time, whether you want to be or not, because after all of that Logic is put into the database to validate the Data, it would take a large effort to re-create it all correctly in another database's methods, and those methods may not be fully compatible, in that you can't do everything in the target database that you could do in the original database.<br>
+There are some problems with this, you will have probably tied yourself to this database platform for a very long time, whether you want to be or not, because after all of that Logic is put into the database to validate the Data, it would take a large effort to re-create it all correctly in another database software's methods, and those methods may not be fully compatible, in that you can't do everything in the target database that you could do in the original database.<br>
 <br>
 That is a manageable problem, however, as it deals with timescales of years, and is likely worth of the cost-benefit tradeoff.<br>
 <br>
