@@ -9,7 +9,7 @@ Current Goal: Populate Empty Sections: 246   (Done: 20.6%)
 
 Lines: 2815
 
-Words: 52761
+Words: 52765
 
 
 # Chapter 1: Preface (README.txt)
@@ -1760,7 +1760,7 @@ The Alignment in question for our original "DNS zone entry is removed" is this:<
 <br>
 What was the Alignment here?<br>
 <br>
-The Alignment was that the web server required the DNS server to have the name of the database server, so that it could make a connection to it.&nbsp;&nbsp;This is 1 layer of Alignment, as the web server needed the DNS server to contact the DB server.<br>
+The Alignment was that the web server required the DNS server to have the name of the database server, so that it could make a connection to it.&nbsp;&nbsp;This is 1 layer of Alignment, as the web server needed the DNS server (the requirement) to contact the DB server (the goal).<br>
 <br>
 This is a very simple case of Alignment, but it servers the point for an initial example, which is that without Alignment, things do not work, or do not work efficiently.<br>
 <br>
