@@ -1762,7 +1762,7 @@ What was the Alignment here?<br>
 <br>
 The Alignment was that the web server required the DNS server to have the name of the database server, so that it could make a connection to it.&nbsp;&nbsp;This is 1 layer of Alignment, as the web server needed the DNS server (the requirement) to contact the DB server (the goal).<br>
 <br>
-This is a very simple case of Alignment, but it serves the point for an initial example, which is that without Alignment, things do not work, or do not work efficiently.<br>
+This is a very simple case of Alignment, but it makes the point for an initial example, which is that without Alignment, things do not work, or do not work efficiently.<br>
 <br>
 Efficiency is a metric that has to do with "functioning, but not as well as we would like, or could be", and so is a more complex topic than something that does not function, which is fairly clear cut.<br>
 <br>
