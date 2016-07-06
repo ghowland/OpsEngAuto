@@ -9,7 +9,7 @@ Current Goal: Populate Empty Sections: 246   (Done: 20.6%)
 
 Lines: 2813
 
-Words: 52082
+Words: 52090
 
 
 # Chapter 1: Preface (README.txt)
@@ -1291,7 +1291,7 @@ The linkages between Universal Machines will follow the same rules, irregardless
 <br>
 Congratulations!&nbsp;&nbsp;You've made it to the second beginning of the book, where we go over the definitions of terminology we will be using.<br>
 <br>
-I thought it was important to give a bunch of background on what we were going to talk about before we got to the definitions, because my terminology definitions may be quite different than how you already think of these terms.<br>
+I thought it was important to give a bunch of background on what we were going to talk about before we got to the definitions, because my terminology definitions may be quite different than how you already think of these terms, as you may have already begun to see.<br>
 <br>
 For the purposes of this book, please accept my definitions as I will use them in this book.&nbsp;&nbsp;If it helps you can mentally append "Geoff is saying he means X when he says Y in this book", if the terminologies conflict too much with your existing use of the words.<br>
 <br>
