@@ -16,7 +16,7 @@ So, while Logic contains some properties that are Unknowable (the halting proble
 
 This puts Logic in a murky place on a spectrum of Knowable to Unknowable, but that's OK!
 
-What we need to do in this instance is slice up what Logic is, and look at each of the components on the spectrum, and we will have a correct view into it.
+What we need to do in this instance is slice up what Logic is, and look at each of the components on the spectrum, and we will have a correct view into it.  Whenever you have a compound problem, you can slice it into simpler components to better understand it.
 
 So, that would look like:
 
