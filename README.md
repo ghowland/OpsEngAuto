@@ -9,7 +9,7 @@ Current Goal: Populate Empty Sections: 246   (Done: 20.6%)
 
 Lines: 2819
 
-Words: 52641
+Words: 52650
 
 
 # Chapter 1: Preface (README.txt)
@@ -1637,7 +1637,7 @@ When working with Data, is it required that certain constraints are met.&nbsp;&n
 <br>
 There are methods for forcing this to not be allowed in many database software's schema configuration, using constraints and foreign keys, etc.<br>
 <br>
-In an Operational Automation environment it is likely that the data sets will stay small enough that you can work with these constraints enabled (without performance problems), and the changes are important enough to deal with the performance hit the constraints provide anyway.&nbsp;&nbsp;So, I recommend leaving them on, and letting the database software manage enforcement of constraints.<br>
+In an Operational Automation environment it is likely that the data sets will stay small enough that you can work with these constraints enabled (without performance problems), and the changes are important enough to deal with the performance hit the constraints provide anyway.&nbsp;&nbsp;So, I recommend using software constraints when possible, and letting the database software manage enforcement of constraints to keep your operational configuration data consistent.<br>
 <br>
 If you find yourself in a place where constraints are causing a real performance problem, and are not working, I suggest only turning off the constraints that are the problem points, and leaving the rest of them enabled.<br>
 <br>
