@@ -47,7 +47,7 @@ Even corrupt data is potentially usable to give us some information (statistics 
 
 2. Logic is the codification of goals.  What we want to occur is processed through Logic.  Because of this, Logic has a number of environmental factors that work in some conditions, but there are many states where Logic cannot be used, except if it is seen as "Data" and is no longer executable.
 
-Logic requires a valid environment to run on.  Logic created to run on Linux will not run on Windows, or OS X, without being re-compiled, or being somehow universally compiled.
+Logic requires a valid environment to run on.  Logic created to run on Linux will not run on Windows, or OS X, without being re-compiled (and perhaps "ported"), or being somehow universally compiled.
 
 Logic expects certain environmental requirements to exist.  It may expect to run in a certain directory structure, which contains certain files, formatted a certain way, and containing specifically formatted data.
 

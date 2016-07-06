@@ -9,7 +9,7 @@ Current Goal: Populate Empty Sections: 246   (Done: 20.6%)
 
 Lines: 2815
 
-Words: 52226
+Words: 52229
 
 
 # Chapter 1: Preface (README.txt)
@@ -1376,7 +1376,7 @@ Even corrupt data is potentially usable to give us some information (statistics 
 <br>
 2. Logic is the codification of goals.&nbsp;&nbsp;What we want to occur is processed through Logic.&nbsp;&nbsp;Because of this, Logic has a number of environmental factors that work in some conditions, but there are many states where Logic cannot be used, except if it is seen as "Data" and is no longer executable.<br>
 <br>
-Logic requires a valid environment to run on.&nbsp;&nbsp;Logic created to run on Linux will not run on Windows, or OS X, without being re-compiled, or being somehow universally compiled.<br>
+Logic requires a valid environment to run on.&nbsp;&nbsp;Logic created to run on Linux will not run on Windows, or OS X, without being re-compiled (and perhaps "ported"), or being somehow universally compiled.<br>
 <br>
 Logic expects certain environmental requirements to exist.&nbsp;&nbsp;It may expect to run in a certain directory structure, which contains certain files, formatted a certain way, and containing specifically formatted data.<br>
 <br>
