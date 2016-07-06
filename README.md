@@ -9,7 +9,7 @@ Current Goal: Populate Empty Sections: 246   (Done: 20.6%)
 
 Lines: 2811
 
-Words: 51979
+Words: 52009
 
 
 # Chapter 1: Preface (README.txt)
@@ -1278,7 +1278,7 @@ I will call something that takes Inputs, gives Outputs, and produces Side-Effect
 <br>
 A Universal Machine, by our definition here, can take any inputs and return any outputs, and create any side-effects, whether they are Real or Virtual, it doesn't matter.&nbsp;&nbsp;The important aspect is that there is a definition of the interface, so that the understanding can be brought about from just looking at Inputs, Outputs and Side-Effects.<br>
 <br>
-Additionally, how you define a Universal Machine can change based on your goals.&nbsp;&nbsp;If you are trying to track information as input, and information as output, and yet track real physical changes as side-effects, this is one way of defining a machine.&nbsp;&nbsp;In a different way, for the same situation, you could define physical inputs, and physical outputs, and information-based side-effects (data that has changed).<br>
+Additionally, how you define a Universal Machine can change based on your goals.&nbsp;&nbsp;If you are trying to track information as input, and information as output, and yet track real physical changes as side-effects, this is one way of defining a machine.&nbsp;&nbsp;In a different way, for the same situation, you could define physical inputs, and physical outputs, and information-based side-effects (data that has changed).&nbsp;&nbsp;Any combination is usable.&nbsp;&nbsp;In the Operations world, generally we are dealing with informational inputs, outputs and side-effects, as physical changes are usually outside of our area of immediate concerns.<br>
 <br>
 A Universal Machine can be defined as you want it, and can be applied to anything, like a system, and a Universal Machine is a System, but it is a System that is defined as having Inputs, Outputs and Side-Effects.<br>
 <br>
