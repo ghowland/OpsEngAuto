@@ -9,7 +9,7 @@ Current Goal: Populate Empty Sections: 246   (Done: 20.6%)
 
 Lines: 2819
 
-Words: 52656
+Words: 52657
 
 
 # Chapter 1: Preface (README.txt)
@@ -1653,7 +1653,7 @@ Well, it turns out this is another area where Logic provides a fundamental weakn
 <br>
 You can have perfectly consistent and correct Data, with all constraints active, and have Logic that works perfectly well with all of the current data.<br>
 <br>
-And then you can make a change to that Data, which does not violate any of the comprehensive validation tests, and yet afterwards the Logic fails against the Data.&nbsp;&nbsp;How?<br>
+And then you can make a change to that Data, which does not violate any of the comprehensive consistency validation tests, and yet afterwards the Logic fails against the Data.&nbsp;&nbsp;How?<br>
 <br>
 Logic is not actually tied to Data in that same way that Data can be tied to itself.&nbsp;&nbsp;In a database, let's use an abstract general SQL database with transactions for this case, we can insert a row into database table, that is perfectly valid, and all the tests are made in the transactional commit process, and the data is put through correctly.<br>
 <br>
