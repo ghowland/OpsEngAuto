@@ -9,7 +9,7 @@ Current Goal: Populate Empty Sections: 246   (Done: 20.6%)
 
 Lines: 2813
 
-Words: 52182
+Words: 52188
 
 
 # Chapter 1: Preface (README.txt)
@@ -1370,7 +1370,7 @@ To make the assertion as briefly as I can:<br>
 <br>
 1. Data is what you know at a given time.&nbsp;&nbsp;This is useful forever.&nbsp;&nbsp;It could be useful hundreds of years for now, for the same reasons it is for us today (using it to configure things), or strictly for historical or analytical purposes.&nbsp;&nbsp;Data has essentially no "death" or time where it becomes invalid or unusable, as a general resource.&nbsp;&nbsp;<br>
 <br>
-Not to say Data cannot be corrupted, or be invalid to our purposes, but it remains valid as a source of information even if it is corrupted (though perhaps not actionable for our immediate use).<br>
+Not to say Data cannot be corrupted, or be invalid to our purposes, but it remains valid as a source of information even if it is corrupted (though perhaps not actionable for our immediate use, and degraded utility due to corruption).<br>
 <br>
 2. Logic is the codification of goals.&nbsp;&nbsp;What we want to occur is processed through Logic.&nbsp;&nbsp;Because of this, Logic has a number of environmental factors that work in some conditions, but there are many states where Logic cannot be used, except if it is seen as "Data" and is no longer executable.<br>
 <br>
