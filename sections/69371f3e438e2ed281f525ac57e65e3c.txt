@@ -57,7 +57,7 @@ Logic has dependencies.  It runs on a given "platform", and does not run if the 
 
 Data needs a place to reside (ex: database, file system, etc), but it does not require a specific environment, it could be stored in a YAML format, JSON format, in a relational database, a flat file with comma or colon separation, as raw blocks on a device, or any type of format or storage system at all.
 
-The methods to access the Data can change, but the Data itself can remain the same.
+The methods to access the Data can change, but the Data itself will remain the same.
 
 In order for Logic to run in a different environment, it is likely going to need changes.  Some programming languages offer cross platform execute, via being run by an interpreter or virtual machine executor which was natively compiled to the target operating system.
 
