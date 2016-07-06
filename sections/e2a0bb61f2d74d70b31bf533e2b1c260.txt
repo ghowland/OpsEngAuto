@@ -53,7 +53,7 @@ The Alignment in question for our original "DNS zone entry is removed" is this:
 
 What was the Alignment here?
 
-The Alignment was that the web server required the DNS server to have the name of the database server, so that it could make a connection to it.
+The Alignment was that the web server required the DNS server to have the name of the database server, so that it could make a connection to it.  This is 1 layer of Alignment, as the web server needed the DNS server to contact the DB server.
 
 This is a very simple case of Alignment, but it servers the point for an initial example, which is that without Alignment, things do not work, or do not work efficiently.
 
