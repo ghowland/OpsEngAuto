@@ -51,7 +51,7 @@ Logic requires a valid environment to run on.  Logic created to run on Linux wil
 
 Logic expects certain environmental requirements to exist.  It may expect to run in a certain directory structure, which contains certain files, formatted a certain way, and containing specifically formatted data.
 
-Or Logic could require access to network services which must exist for it to properly work.  
+Logic could require access to network services which must exist for it to properly work.  
 
 Logic has dependencies.  It runs on a given "platform", and does not run on other platforms.
 

@@ -9,7 +9,7 @@ Current Goal: Populate Empty Sections: 246   (Done: 20.6%)
 
 Lines: 2815
 
-Words: 52229
+Words: 52228
 
 
 # Chapter 1: Preface (README.txt)
@@ -1380,7 +1380,7 @@ Logic requires a valid environment to run on.&nbsp;&nbsp;Logic created to run on
 <br>
 Logic expects certain environmental requirements to exist.&nbsp;&nbsp;It may expect to run in a certain directory structure, which contains certain files, formatted a certain way, and containing specifically formatted data.<br>
 <br>
-Or Logic could require access to network services which must exist for it to properly work.&nbsp;&nbsp;<br>
+Logic could require access to network services which must exist for it to properly work.&nbsp;&nbsp;<br>
 <br>
 Logic has dependencies.&nbsp;&nbsp;It runs on a given "platform", and does not run on other platforms.<br>
 <br>
