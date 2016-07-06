@@ -9,7 +9,7 @@ Current Goal: Populate Empty Sections: 246   (Done: 20.6%)
 
 Lines: 2819
 
-Words: 52650
+Words: 52657
 
 
 # Chapter 1: Preface (README.txt)
@@ -1665,7 +1665,7 @@ If the data entered is actually 5000, and the Logic expected it to never be more
 <br>
 Whose problem is this, Data or Logic?<br>
 <br>
-It is a shared problem with between the two, because the Data contains valid data (0 to 4 billion), and the the Logic is only handling 0 to 100, and so a failure has been entered between the two, even though the Data is correct.<br>
+It is a shared problem with between the two, because the Data contains valid data based off the database software constraint system (0 to 4 billion), and the the Logic is only handling 0 to 100, and so a failure has been entered between the two, even though the Data is correct.<br>
 <br>
 There are many ways to approach this problem.&nbsp;&nbsp;Databases frequently have code that you can put into the database to execute at certain times, which could validate the values and enforce only numbers 0-100 are put in them.<br>
 <br>
