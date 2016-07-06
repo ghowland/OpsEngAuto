@@ -9,7 +9,7 @@ Current Goal: Populate Empty Sections: 246   (Done: 20.6%)
 
 Lines: 2817
 
-Words: 52481
+Words: 52484
 
 
 # Chapter 1: Preface (README.txt)
@@ -1463,7 +1463,7 @@ I will cover this concept in full detail later on, because it is critical to und
 <br>
 I won't go through the explanation that I made in {{ section_ff17d94c0d49aab3e372e47b64b96ea7 }} again here, as I think we covered the differences between what I meant by real and un-real, or virtual there.<br>
 <br>
-I'll just say that like other this-book-only terms, I will be using Real and Virtual as proper nouns to describe things I mean to be having physical properties as Real, and things that do not have physical properties are Virtual.<br>
+I'll just say that like other terms meant for this book, I will be using Real and Virtual as proper nouns to describe things I mean to be having physical properties as Real, and things that do not have physical properties are Virtual.<br>
 <br>
 If this seems vague, please review {{ section_ff17d94c0d49aab3e372e47b64b96ea7 }} again, as the specific use of these terms for the purposes of this book is important for understanding what I'm trying to convey.<br>
 <p id=031f037060d88ef98ae42ae359b42dd0><b><a href="#031f037060d88ef98ae42ae359b42dd0">2.6.5.1</a>: Be clear about the differences:&nbsp;&nbsp;Physical (Real), Logical (Virtual), Data (Virtual)</b></p>
