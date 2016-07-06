@@ -9,7 +9,7 @@ Current Goal: Populate Empty Sections: 246   (Done: 20.6%)
 
 Lines: 2815
 
-Words: 52675
+Words: 52677
 
 
 # Chapter 1: Preface (README.txt)
@@ -1738,7 +1738,7 @@ Sometimes it is a problem that people just forget to do one of the steps, but, s
 <br>
 A larger problem is that people can type things incorrectly, and while the validation tests find some problems, they will not find correctly formatted zone or configuration files, which have incorrect data in them.<br>
 <br>
-If a line that used to exist was removed, then very shortly afterwards services that referred to that previously-existing DNS name will start to fail, as the name no longer resolves.<br>
+If a line that used to exist was removed, then immediately afterward reloading services that referred to that previously-existing DNS name will start to fail, as the name no longer exists or resolves.<br>
 <br>
 These problems are usually caught quickly, as things will fail and alert, if monitoring is set up properly, but there was just an outage, and revenue may have been lost, or other negative consequences for an organization.<br>
 <br>
