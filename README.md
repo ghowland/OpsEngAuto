@@ -9,7 +9,7 @@ Current Goal: Populate Empty Sections: 246   (Done: 20.6%)
 
 Lines: 2817
 
-Words: 52465
+Words: 52466
 
 
 # Chapter 1: Preface (README.txt)
@@ -1454,7 +1454,7 @@ These differences can be seen in the phase:<br>
 <br>
 Make this an internal meme for yourself, and watch as things start to make more sense in terms of problems with scaling.&nbsp;&nbsp;When a number larger than 1-instance is introduced, you will eventually see that number grow, and sub-divide into different domains.<br>
 <br>
-Having a 1-instance system is incredibly difficult.&nbsp;&nbsp;Pressures will continually be applied to grow into an N-system, and it will take work and perseverance to keep a 1-instance system at 1-instance.<br>
+Having a 1-instance system is incredibly difficult.&nbsp;&nbsp;Pressures will continually be applied to grow into an N-instance system, and it will take work and perseverance to keep a 1-instance system at 1-instance.<br>
 <br>
 0-instance systems, when not just the identity of "we don't do that here", come from efficiencies.&nbsp;&nbsp;This is when a 1-instance or N-instance system has been replaced in such a way that the work does not need to specifically occur, and yet the goals are still achieved.&nbsp;&nbsp;If this sounds a lot like what I referred to as "removing Classes of Work", it is because it is exactly that.<br>
 <br>
