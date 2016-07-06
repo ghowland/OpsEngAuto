@@ -9,7 +9,7 @@ Current Goal: Populate Empty Sections: 246   (Done: 20.6%)
 
 Lines: 2815
 
-Words: 52766
+Words: 52773
 
 
 # Chapter 1: Preface (README.txt)
@@ -1762,7 +1762,7 @@ What was the Alignment here?<br>
 <br>
 The Alignment was that the web server required the DNS server to have the name of the database server, so that it could make a connection to it.&nbsp;&nbsp;This is 1 layer of Alignment, as the web server needed the DNS server (the requirement) to contact the DB server (the goal).<br>
 <br>
-This is a very simple case of Alignment, but it makes the point for an initial example, which is that without Alignment, things either do not work, or do not work efficiently.<br>
+This is a very simple case of Alignment, but it makes the point for an initial example, which is that without Alignment, things either do not work, or do not work efficiently.&nbsp;&nbsp;In the above case, things stopped working.<br>
 <br>
 Efficiency is a metric that has to do with "functioning, but not as well as we would like, or could be", and so is a more complex topic than something that does not function, which is fairly clear cut.<br>
 <br>
