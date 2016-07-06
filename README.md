@@ -1448,7 +1448,7 @@ As I will cover in more detail later on, there are 3 cases you should account fo
 <br>
 Differentiating between "instances" and "counts of things" can be a little tricky, and seem subjective, but it is because it is fulfilling a goal of understanding whether we have duplication of "service providers", or not.&nbsp;&nbsp;This is all in the context of "distributed systems", if that helps to make this language introspection easier to understand.<br>
 <br>
-These differentiates can be seen in the phase:<br>
+These differences can be seen in the phase:<br>
 <br>
 "0, 1, Infinity.&nbsp;&nbsp;There is no 2."<br>
 <br>
