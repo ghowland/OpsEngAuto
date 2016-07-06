@@ -9,7 +9,7 @@ Current Goal: Populate Empty Sections: 246   (Done: 20.6%)
 
 Lines: 2817
 
-Words: 52469
+Words: 52481
 
 
 # Chapter 1: Preface (README.txt)
@@ -1458,7 +1458,7 @@ Having a 1-instance system is incredibly difficult.&nbsp;&nbsp;Pressures will co
 <br>
 0-instance systems, when not just the identity of "we don't do that here", are created from efficiencies in automation.&nbsp;&nbsp;This is when a 1-instance or N-instance system has been replaced in such a way that the work does not need to specifically occur, and yet the goals are still achieved.&nbsp;&nbsp;If this sounds a lot like what I referred to as "removing Classes of Work", it is because it is exactly that.<br>
 <br>
-I will cover this concept in full detail later on, because it is critical to understanding how scaling works in practice.<br>
+I will cover this concept in full detail later on, because it is critical to understanding how scaling works in practice, but takes a bit more background before accomplishing it can be discussed.<br>
 <h3 id=a709b239027a030b1a2dc4d500e49a24><a href="#a709b239027a030b1a2dc4d500e49a24">2.6.5</a>: Real/Virtual.&nbsp;&nbsp;Strict definitions.</h3>
 <br>
 I won't go through the explanation that I made in {{ section_ff17d94c0d49aab3e372e47b64b96ea7 }} again here, as I think we covered the differences between what I meant by real and un-real, or virtual there.<br>
