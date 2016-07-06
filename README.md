@@ -9,7 +9,7 @@ Current Goal: Populate Empty Sections: 246   (Done: 20.6%)
 
 Lines: 2815
 
-Words: 52233
+Words: 52241
 
 
 # Chapter 1: Preface (README.txt)
@@ -1382,7 +1382,7 @@ Logic expects certain environmental requirements to exist.&nbsp;&nbsp;It may exp
 <br>
 Logic could require access to network services which must exist and be reachable and authenticatable for it to work properly.<br>
 <br>
-Logic has dependencies.&nbsp;&nbsp;It runs on a given "platform", and does not run on other platforms.<br>
+Logic has dependencies.&nbsp;&nbsp;It runs on a given "platform", and does not run if the supported "platform" is not available as it's execution environment.<br>
 <br>
 Data needs a place to reside (ex: database, file system, etc), but it does not require a specific environment, it could be stored in a YAML format, JSON format, in a relational database, a flat file with comma or colon separation, or any type of format or storage system at all.<br>
 <br>
