@@ -16,7 +16,7 @@ If we can come to an agreement on terms and what the Inputs, Outputs and Side-Ef
 
 Additionally, once we can create a system out of any environment and events, we can begin to Model that system so that we can come up with procedures on what we should do under different circumstances.
 
-For instance, in our web request and logging examples, we have determined that without log rotation we will in time fill up the storage, and fail to be able to take more requests (and log their results), and so we are sure to have failures on any active systems where this is the case.
+For instance, in our web request and logging examples, we have determined that without log rotation we will in time fill up available storage, and fail to be able to take more requests (and log their results), and so we are sure to have failures on any active systems where this is the case.
 
 From this we can create a policy that requires all services to have log rotation or truncating configured for any software before it is put into active service.  We can go over the results we will achieve without this, and determine that are not the results that we want, and come up with a test for whether this is enacted on a given server to ensure that we have done this work, and have protected ourselves from this deterministic outcome.
 
