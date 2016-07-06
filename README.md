@@ -1717,7 +1717,7 @@ I initially used the example of automating the DNS zone file updating.&nbsp;&nbs
 <br>
 One aspect of manual workflow generally goes:<br>
 <br>
-- A new system is created, and needs a name matched to it's IP address (an address "A" record)<br>
+- A new host is created, and needs a name matched to it's IP address (an address "A" record)<br>
 <br>
 - Someone goes to the server that hosts the DNS Master files (the machine people use to make edits on, and where the changes will be diseminated)<br>
 <br>
