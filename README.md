@@ -9,7 +9,7 @@ Current Goal: Populate Empty Sections: 246   (Done: 20.6%)
 
 Lines: 2819
 
-Words: 52646
+Words: 52650
 
 
 # Chapter 1: Preface (README.txt)
@@ -1659,7 +1659,7 @@ Logic is not actually tied to Data in that same way that Data can be tied to its
 <br>
 When the Logic next tries to access this data, it finds the new table row, and it goes about it's normal operational logic, which has always worked before, but this time the data it receives is not something the Logic accounted for.<br>
 <br>
-For instance, you have a field that is an unsigned integer, so it goes from 0 to 4 billion, and the Logic expects that this data is in the range of 0 to 100.<br>
+For instance, you have a field that is an unsigned integer in the database software, so it goes from 0 to 4 billion, and the Logic expects that this data is in the range of 0 to 100.<br>
 <br>
 If the data entered is actually 5000, and the Logic expected it to never be more than 100, then the Logic will do something incorrect, perhaps making something that shouldn't be 50 times larger, such as memory allocations of a Java Virtual Machine, which might fail and cause a service to not start on the next attempt.<br>
 <br>
