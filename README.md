@@ -7,9 +7,9 @@ Current Goal: Populate Empty Sections: 246   (Done: 20.6%)
 
 <br><br><b>NOTE: This is still an early Work-In-Progress.  It is being written linearly as a First Rough Draft without editing at the moment.  There are many typos and grammatical errors presently.</b>
 
-Lines: 2809
+Lines: 2811
 
-Words: 51915
+Words: 51945
 
 
 # Chapter 1: Preface (README.txt)
@@ -1268,6 +1268,8 @@ From this we can create a policy that requires all services to have log rotation
 This is the type of leverage that these tools provide, and when we get into the details of automating an entire operational environment, through it's life-cycles, with change management and ensuring that all things are internally consistent, and well-aligned, to accomplish our goals, we will find that without these tools for clear and consistent "breaking things apart" and "putting them back together again" without losing any information, we will not be able to get comprehensive coverage without being able to communicate at this level of detail.<br>
 <br>
 The short-comings of aggregated systems, versus comprehensive systemic systems is not yet clear, but as we define our terms more concretely, and begin to use them to deconstruct on operational environment, and then put it back together again, while keeping track of everything, we will see how aggregated systems are incapable of performing this task, while whole-systems always lean-towards an accurate representation, if they are viewed with accuracy.<br>
+<br>
+That isn't circular logic, is it simply the result of "Garbage In-Garbage Out".&nbsp;&nbsp;If you can't view a topic accurately, you cannot expect to perform work to meet goals accurately.<br>
 <h3 id=dadc2661d50f3cdb6efb0378f9c6803d><a href="#dadc2661d50f3cdb6efb0378f9c6803d">2.5.4</a>: Inputs, Outputs and Side-Effects: A Virtual Mechanism</h3>
 <br>
 I talk about the qualities of "Inputs, Outputs and Side-Effects" enough that I've decided to label them as something that can be discussed in themselves.<br>

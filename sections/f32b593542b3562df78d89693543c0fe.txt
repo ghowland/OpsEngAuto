@@ -24,3 +24,4 @@ This is the type of leverage that these tools provide, and when we get into the 
 
 The short-comings of aggregated systems, versus comprehensive systemic systems is not yet clear, but as we define our terms more concretely, and begin to use them to deconstruct on operational environment, and then put it back together again, while keeping track of everything, we will see how aggregated systems are incapable of performing this task, while whole-systems always lean-towards an accurate representation, if they are viewed with accuracy.
 
+That isn't circular logic, is it simply the result of "Garbage In-Garbage Out".  If you can't view a topic accurately, you cannot expect to perform work to meet goals accurately.
