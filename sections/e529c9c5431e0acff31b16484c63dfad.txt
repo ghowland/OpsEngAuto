@@ -42,7 +42,7 @@ We create a language tool when we give terms specific properties, which allow us
 
 Over time we will build up a toolset of these, so that we can communicate about incredibly complicated topics, and reason about them efficiently and clearly.
 
-As an exercise, can you come up with any terms off the top of your head now that you understand well enough to define in these ways?  Through your own definitions, and understanding, as I am doing here?
+As an exercise, try to come up with some of your own terms.  Once you have an understanding of how to create terms for yourself, 
 
 If you can, great, write them down and add more to that list as you think of more, and it will start your own set of terminology in which you can reason with, having more understanding of it than my terminology, which I have created.
 
