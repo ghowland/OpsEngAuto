@@ -1388,7 +1388,7 @@ Data needs a place to reside (ex: database, file system, etc), but it does not r
 <br>
 The methods to access the Data can change, but the Data itself will remain the same.<br>
 <br>
-In order for Logic to run in a different environment, it is likely going to need changes.&nbsp;&nbsp;Some programming languages offer cross platform execute, via being run by an interpreter or virtual machine executor which was natively compiled to the target operating system.<br>
+In order for Logic to run in a different environment, it is likely going to need changes.&nbsp;&nbsp;Some programming languages offer cross platform execution, via being run by an interpreter or virtual machine executor which was natively compiled to the target operating system.<br>
 <br>
 However, there are still many places that Logic may not be able to work cross-platform without changes, such as moving from Linux to Windows there is a difference in how Windows access some storage, because it uses "Drive Letters" as device targets, and Unix-style operating systems use a single directory hierarchy.<br>
 <br>
