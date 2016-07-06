@@ -4,3 +4,12 @@ I talk about the qualities of "Inputs, Outputs and Side-Effects" enough that I'v
 
 I will call something that takes Inputs, gives Outputs, and produces Side-Effects a "Universal Machine", because it is a type of machine (performs work, mechanistically).  It may be a deterministic machine or non-deterministic (introduces randomness, or other factors which cause different Outputs or Side-Effects with the same Inputs.
 
+A Universal Machine, by our definition here, can take any inputs and return any outputs, and create any side-effects, whether they are Real or Virtual, it doesn't matter.
+
+Additionally, how you define a Universal Machine can change based on your goals.  If you are trying to track information as input, and information as output, and yet track real physical changes as side-effects, this is one way of defining a machine.  In a different way, for the same situation, you could define physical inputs, and physical outputs, and information-based side-effects (data that has changed).
+
+A Universal Machine can be defined as you want it, and can be applied to anything, like a system, and a Universal Machine is a System, but it is a System that is defined as having Inputs, Outputs and Side-Effects.
+
+Any process, physical or non-physical (informational, virtual, etc), can be defined by it's Inputs, Outputs and Side-Effects, so this creates an interface we can use at any time, for any reason, and we can reason about Universal Machines based on their interfaces, separate from the work that they actually perform.
+
+The linkages between Universal Machines will follow the same rules, irregardless of the type of Inputs, Outputs and Side-Effects being worked on.  
