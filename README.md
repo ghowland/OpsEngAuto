@@ -9,7 +9,7 @@ Current Goal: Populate Empty Sections: 246   (Done: 20.6%)
 
 Lines: 2819
 
-Words: 52594
+Words: 52595
 
 
 # Chapter 1: Preface (README.txt)
@@ -1575,7 +1575,7 @@ So, that would look like:<br>
 I leave off calling them directly Knowable and Unknowable, because Logic can be tricky, and there can be tricky things done inside logic, and perhaps in some circumstances this means that variables are not completely knowable, and there might be circumstances where we have a high confidence that a program will halt, like this pseudo-code:<br>
 <br>
 {{ start_code }}<br>
-main()<br>
+int main()<br>
 {<br>
 &nbsp;&nbsp;return 1;<br>
 }<br>

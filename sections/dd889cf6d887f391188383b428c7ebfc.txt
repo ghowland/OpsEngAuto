@@ -26,7 +26,7 @@ So, that would look like:
 I leave off calling them directly Knowable and Unknowable, because Logic can be tricky, and there can be tricky things done inside logic, and perhaps in some circumstances this means that variables are not completely knowable, and there might be circumstances where we have a high confidence that a program will halt, like this pseudo-code:
 
 {{ start_code }}
-main()
+int main()
 {
   return 1;
 }
