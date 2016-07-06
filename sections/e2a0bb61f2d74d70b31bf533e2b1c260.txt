@@ -37,7 +37,7 @@ These problems are usually caught quickly, as things will fail and alert, if mon
 
 Humans making manual entry mistakes are simply unavoidable.  As the population of humans doing manual work increases, and the amount of work each human does increases, so will the amount of failures.  This is compounded with any special conditions, where there is a standard process, but special cases exist which must be manually maintained either without automated testing, or with insufficient testing.
 
-Some failures only show up when multiple mistakes occur, so the original set-up problem may have been occurring for days, weeks or months before, but the secondary mistake triggers the initial mistake, making it very difficult to troubleshoot.
+Some failures only show up when multiple mistakes occur, so the original set-up problem may have been occurring for days, weeks or months before, but the secondary mistake triggers the initial mistake, making it harder to troubleshoot as the recent change doesn't seem to impact the part that is now broken (but did).
 
 The "second mistake" may not have even been a mistake at all, and on inspection it is found that it looks correct, so it is put back in, and the failure occurs again.  
 
