@@ -1406,7 +1406,7 @@ The conditions for when the same Logic will give correct results once you goals 
 <br>
 This accounts for the long-life span of Unix-style environments, which are historically largely made up of software that performs generalized operations against a set of data.&nbsp;&nbsp;That data might resides in a file, a database or be given by user input on the command-line, piping through input streams, or through a series of prompts.&nbsp;&nbsp;<br>
 <br>
-In these "tool" type of Logic, it is the data that tells the Logic how to achieve a goal, and so again the Data gains primacy over the Logic in being the key element.<br>
+In these "tool" types of Logic, it is the data that tells the Logic how to achieve a goal, and so again the Data gains primacy over the Logic in being the key element.<br>
 <br>
 For our purposes, in automating an operational environment, we will be extending this "tool" type processing greatly, so that we create a large pool of interconnected data, and then create Logic that works against this data to achieve the goals we want.<br>
 <br>
