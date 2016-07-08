@@ -34,4 +34,5 @@ Inside of a Tier 2 environment (and maybe Tier 3), there will be special resourc
 
 For these special resources they may need additional sub-environmental security zones, such as internal DMZs (ie: "de-militarized zones", which is like a security "draw-bridge" or "fire-wall" area).  
 
-This could also be external DMZs, which are used for services that take 
+This could also be external DMZs, which are used for services that take external requests which may be considered "more dangerous" or otherwise having a different security posture requirement, which is placed into a separate special area of the network.  This allows for example a place to put a file-server that is accessible by partners or vendors, but if compromised does not give privileged access into the Production network.
+
