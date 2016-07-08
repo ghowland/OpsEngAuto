@@ -9,7 +9,7 @@ Current Goal: Populate Empty Sections: 248   (Done: 21.5%)
 
 Lines: 2885
 
-Words: 54213
+Words: 54214
 
 
 # Chapter 1: Preface (README.txt)
@@ -1986,7 +1986,7 @@ Philosophy is more angled like:<br>
 <br>
 Philosophy is about depth, and the ability to inspect things from different angles, and while it may appear on the surface (and is sometimes explicitly stated) that it is trying to "define the way things are", in actuality the Philosophical inspection never ends (Infinitely Recursive in All Dimensions), and so it does not have the ability to ever define things "the way they are", because it can't stop defining things.<br>
 <br>
-This is a "Machine" in which we know it will never halt.&nbsp;&nbsp;There is no final exit or return from Philosophy, it is a rabbit hole that never ends, and goes as deep as you are willing to look, and the detail expands to meet any closer inspection.&nbsp;&nbsp;What is true from one perspective, or frame of values, is false from another.&nbsp;&nbsp;It's flexibility to reframe data is infinite.<br>
+This is a "Machine" in which we can know it will never halt.&nbsp;&nbsp;There is no final exit or return from Philosophy, it is a rabbit hole that never ends, and goes as deep as you are willing to look, and the detail expands to meet any closer inspection.&nbsp;&nbsp;What is true from one perspective, or frame of values, is false from another.&nbsp;&nbsp;It's flexibility to reframe data is infinite.<br>
 <br>
 This is do to "Why?"&nbsp;&nbsp;Why?&nbsp;&nbsp;Why?&nbsp;&nbsp;Why?&nbsp;&nbsp;Why?&nbsp;&nbsp;...<br>
 <br>
