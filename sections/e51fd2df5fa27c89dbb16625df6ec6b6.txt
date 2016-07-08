@@ -14,7 +14,7 @@ Some qualities of a Data Source:
 
 - Constraints on the value of the data that is put into specific fields in the data.  For instance, in a relational database a field in table may be of type "integer" and will not allow alphabet characters, special characters, or real numbers (decimal precision) to be inserted.
 
-- Persistence: So that the data is saved, and if the power is turned off to the system storing the data, when the machine restarts the data will still be available.  There may be corruption here, unless the Data Source also offers a Consistency guarantee.  Persistence simply means that things can be discontinuous (losing power is one method to lose continuity of the service), but will still exist.
+- Persistence: So that the data is saved, and if the power is turned off to the system storing the data, when the machine restarts the data will still be available.  There may be corruption here, unless the Data Source also offers a Consistency guarantee.  Persistence simply means that things can be discontinuous (losing power is one method to lose continuity of the service), but the data will still exist.
 
 - Consistency: Ensures that the data does not become corrupted in any failure situations.  These situations might be the program being terminated un-cleanly, and it might use something like a journal to keep track of previous changes, and will replay this journal to ensure that recently changed data is the same as in the journal.  
 
