@@ -2955,19 +2955,23 @@ Apparently there is some kind of statistical slant I have to writing a certain n
 <h3 id=fb473bfadfe142c63f22f088a56d5977><a href="#fb473bfadfe142c63f22f088a56d5977">7.10.8</a>: Capacity Planning.&nbsp;&nbsp;When will you run out of:&nbsp;&nbsp;Disk? RAM?&nbsp;&nbsp;CPU? Connections?&nbsp;&nbsp;etc</h3>
 <p id=0c6c6113cb02a2a1ff6e897237e5402b><b><a href="#0c6c6113cb02a2a1ff6e897237e5402b">7.10.8.1</a>: Resources of our services.&nbsp;&nbsp;Network Loadbalancer has N potential connections, and we can determine that by a MAX check on how much its done, and where it has produced failures after MAX_WORKING values have been breached.&nbsp;&nbsp;Might not be the LB though, just correlation.</b></p>
 <h3 id=a6e21acd13a2849ee9c611451ba8b30a><a href="#a6e21acd13a2849ee9c611451ba8b30a">7.10.9</a>: Access Control.&nbsp;&nbsp;Authorization to do work.</h3>
-<h3 id=e3cba7be54f69ef1b2d51192e0ef633e><a href="#e3cba7be54f69ef1b2d51192e0ef633e">7.10.10</a>: Deployments, as separate from Config</h3>
-<p id=f05b48f95386109c5c79cfc128fc44e3><b><a href="#f05b48f95386109c5c79cfc128fc44e3">7.10.10.1</a>: Code deploy</b></p>
-<p id=1d1be487a8a4d497425c60ca93d25285><b><a href="#1d1be487a8a4d497425c60ca93d25285">7.10.10.2</a>: Data/Schema deploy</b></p>
-<p id=f08b1ca1ab0f2290f2a2c3b8b8b97ffc><b><a href="#f08b1ca1ab0f2290f2a2c3b8b8b97ffc">7.10.10.2.1</a>: When tied together.&nbsp;&nbsp;Ways to avoid problems, ways to increase problems.</b></p>
-<p id=ed24cd5011374fb609ff91ea5d18cc17><b><a href="#ed24cd5011374fb609ff91ea5d18cc17">7.10.10.2.2</a>: Lifetimes, rate of change, etc</b></p>
-<p id=88ff2ffdc4b027db0a400a53602c0063><b><a href="#88ff2ffdc4b027db0a400a53602c0063">7.10.10.2.3</a>: Service up/down.&nbsp;&nbsp;In/out of LB.&nbsp;&nbsp;(Active)</b></p>
-<h3 id=938f106673899a434d955e75ed15a20a><a href="#938f106673899a434d955e75ed15a20a">7.10.11</a>: Network config and planning</h3>
-<p id=95c64ed20fa4a1dbb04c67f0aea42b82><b><a href="#95c64ed20fa4a1dbb04c67f0aea42b82">7.10.11.1</a>: VLANs.&nbsp;&nbsp;Hidden systems, ensure not old IPs (collisions)</b></p>
-<p id=19579404710a661869e4eea32f5e1c96><b><a href="#19579404710a661869e4eea32f5e1c96">7.10.11.1.1</a>: Can defer their use until that HW is proven to not use that IP anymore.&nbsp;&nbsp;Like its in Escrow.&nbsp;&nbsp;Once really released, it can be re-used.&nbsp;&nbsp; Nice.</b></p>
-<p id=8307c8ed240946f143913fa06d1021f4><b><a href="#8307c8ed240946f143913fa06d1021f4">7.10.11.2</a>: LOM IPs stay with the hardware.&nbsp;&nbsp;DHCP timeouts, etc.&nbsp;&nbsp;Server IPs stay with "ServerInstance" (OSInstance)</b></p>
-<h3 id=203ffd1d4778494bd7a2556c2a0ac90e><a href="#203ffd1d4778494bd7a2556c2a0ac90e">7.10.12</a>: VM Provisioning.&nbsp;&nbsp;Hybrid.</h3>
-<h3 id=f7ae4f5ab54c3927652049bdcf35e555><a href="#f7ae4f5ab54c3927652049bdcf35e555">7.10.13</a>: Self Service tools.</h3>
-<h3 id=276b07fae87391ca794e8587e972cf4e><a href="#276b07fae87391ca794e8587e972cf4e">7.10.14</a>: How to plan to do this in your existing environment.&nbsp;&nbsp;A map from:&nbsp;&nbsp;Here -> There.</h3>
+<h3 id=becd8bbe6534ed50063f3c3345ad5e51><a href="#becd8bbe6534ed50063f3c3345ad5e51">7.10.10</a>: Security zones</h3>
+<p id=6ed06f2275ddd84dd98eb2bdea49c011><b><a href="#6ed06f2275ddd84dd98eb2bdea49c011">7.10.10.1</a>: Environments and Security Zones</b></p>
+<p id=d6deb64dba22f963c4a9b01b99beecb8><b><a href="#d6deb64dba22f963c4a9b01b99beecb8">7.10.10.2</a>: Tiered Security Zones</b></p>
+<p id=70a1fe53dd9bfa2e1dea47c2e80559ff><b><a href="#70a1fe53dd9bfa2e1dea47c2e80559ff">7.10.10.3</a>: Security Zones Inside Environments</b></p>
+<h3 id=e3cba7be54f69ef1b2d51192e0ef633e><a href="#e3cba7be54f69ef1b2d51192e0ef633e">7.10.11</a>: Deployments, as separate from Config</h3>
+<p id=f05b48f95386109c5c79cfc128fc44e3><b><a href="#f05b48f95386109c5c79cfc128fc44e3">7.10.11.1</a>: Code deploy</b></p>
+<p id=1d1be487a8a4d497425c60ca93d25285><b><a href="#1d1be487a8a4d497425c60ca93d25285">7.10.11.2</a>: Data/Schema deploy</b></p>
+<p id=f08b1ca1ab0f2290f2a2c3b8b8b97ffc><b><a href="#f08b1ca1ab0f2290f2a2c3b8b8b97ffc">7.10.11.2.1</a>: When tied together.&nbsp;&nbsp;Ways to avoid problems, ways to increase problems.</b></p>
+<p id=ed24cd5011374fb609ff91ea5d18cc17><b><a href="#ed24cd5011374fb609ff91ea5d18cc17">7.10.11.2.2</a>: Lifetimes, rate of change, etc</b></p>
+<p id=88ff2ffdc4b027db0a400a53602c0063><b><a href="#88ff2ffdc4b027db0a400a53602c0063">7.10.11.2.3</a>: Service up/down.&nbsp;&nbsp;In/out of LB.&nbsp;&nbsp;(Active)</b></p>
+<h3 id=938f106673899a434d955e75ed15a20a><a href="#938f106673899a434d955e75ed15a20a">7.10.12</a>: Network config and planning</h3>
+<p id=95c64ed20fa4a1dbb04c67f0aea42b82><b><a href="#95c64ed20fa4a1dbb04c67f0aea42b82">7.10.12.1</a>: VLANs.&nbsp;&nbsp;Hidden systems, ensure not old IPs (collisions)</b></p>
+<p id=19579404710a661869e4eea32f5e1c96><b><a href="#19579404710a661869e4eea32f5e1c96">7.10.12.1.1</a>: Can defer their use until that HW is proven to not use that IP anymore.&nbsp;&nbsp;Like its in Escrow.&nbsp;&nbsp;Once really released, it can be re-used.&nbsp;&nbsp; Nice.</b></p>
+<p id=8307c8ed240946f143913fa06d1021f4><b><a href="#8307c8ed240946f143913fa06d1021f4">7.10.12.2</a>: LOM IPs stay with the hardware.&nbsp;&nbsp;DHCP timeouts, etc.&nbsp;&nbsp;Server IPs stay with "ServerInstance" (OSInstance)</b></p>
+<h3 id=203ffd1d4778494bd7a2556c2a0ac90e><a href="#203ffd1d4778494bd7a2556c2a0ac90e">7.10.13</a>: VM Provisioning.&nbsp;&nbsp;Hybrid.</h3>
+<h3 id=f7ae4f5ab54c3927652049bdcf35e555><a href="#f7ae4f5ab54c3927652049bdcf35e555">7.10.14</a>: Self Service tools.</h3>
+<h3 id=276b07fae87391ca794e8587e972cf4e><a href="#276b07fae87391ca794e8587e972cf4e">7.10.15</a>: How to plan to do this in your existing environment.&nbsp;&nbsp;A map from:&nbsp;&nbsp;Here -> There.</h3>
 <h2 id=dc9b1c51ebd041941929fe8845a2c78e><a href="#dc9b1c51ebd041941929fe8845a2c78e">7.11</a>: States of machines:&nbsp;&nbsp;Unknown, Unprovisioned/Spare, Provisioned-Inactive, Active, In Maintenance, Transition-To X State, Broken, Fixed (waitig to be Unprovisioned/Spare)</h2>
 <h1 id=f29b1b5e9117d17e39cd445a87499cde><a href="#f29b1b5e9117d17e39cd445a87499cde">Chapter 8</a>: How to Implement the OpsDB in your Current Environment</h1>
 <h2 id=4e188beb6a9e453253679bb857ac7767><a href="#4e188beb6a9e453253679bb857ac7767">8.1</a>: The OSI layer for getting things done:</h2>
