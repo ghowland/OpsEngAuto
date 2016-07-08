@@ -37,7 +37,11 @@ Operational Logic is responsible for:
 - Monitoring and notification of Operational and Application state
 - Solving operational failures
 
-Applications are made to provide end-users with correct results, and have an expectation that the operational environment is working correctly to do so.  This is a natural prioritization, and not an incorrect one.
+Applications are made to provide end-users with:
+
+- Correct results, per the Application
+
+, and have an expectation that the operational environment is working correctly to do so.  This is a natural prioritization, and not an incorrect one.
 
 For example, say there are a pair of relational databases in a Master/Slave configuration, and the Master node fails, because of the priorities for Application Logic, generally the application will just fail until the Master/Slave designators (floating IP address or DNS name change, or from another directory-style service).  
 
