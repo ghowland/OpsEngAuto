@@ -28,7 +28,7 @@ Example: A operational software is written which will execute remote code on hos
 
 Don't misunderstand me and construe that I am criticizing Application Logic or their developers, and praising Operational Logic or their developers; they each have different goals, and so will produce works that have different results because of this.
 
-The differences between Application and Operational Logic are due to priorities and responsibilities.
+The differences between Application and Operational Logic are due to differences in priorities and responsibilities.
 
 Operations is responsible for infrastructure working, and is responsible for solving operational failures.  Applications are made to provide end-users with correct results, and have an expectation that the operational environment is working correctly to do so.  This is a natural prioritization, and not an incorrect one.
 
