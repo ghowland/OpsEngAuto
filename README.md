@@ -7,9 +7,9 @@ Current Goal: Populate Empty Sections: 248   (Done: 21.5%)
 
 <br><br><b>NOTE: This is still an early Work-In-Progress.  It is being written linearly as a First Rough Draft without editing at the moment.  There are many typos and grammatical errors presently.</b>
 
-Lines: 2898
+Lines: 2900
 
-Words: 54500
+Words: 54543
 
 
 # Chapter 1: Preface (README.txt)
@@ -2132,6 +2132,8 @@ These would be "Application Logic" in this terminology, as I'm using it.<br>
 The main difference is Resiliency and Minimal Dependencies, and these have a number of sub-parts.&nbsp;&nbsp;Some examples:<br>
 <br>
 - Application Logic requires that the environment that it runs in be configured, or the Logic will fail, and often will fall non-gracefully.&nbsp;&nbsp;How gracefully it fails generally has to do with how "mature" the Logic is, in terms of it's life cycle.<br>
+<br>
+Example: An application server is started without a required configuration file in a specific directory, so the application server program exits with a status code of 127 and output to STDERR "Cannot open file: /path/to/file".&nbsp;&nbsp;This is reasonable for an Application server, because <br>
 <br>
 - Operational Logic is built to support infrastructure, with the knowledge that the infrastructure components are going to fail, and the Operational Logic needs to not only recognize the failures, but needs to continue to work in whatever ways are still available.&nbsp;&nbsp;<br>
 <br>
