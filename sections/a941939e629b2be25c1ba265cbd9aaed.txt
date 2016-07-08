@@ -14,7 +14,7 @@ For instance, in a Production web serving environment, you frequently have "Appl
 
 These would be "Application Logic" in this terminology, as I'm using it.
 
-So, what is the difference between Application Logic and Operational Logic?
+**What is the difference between Application Logic and Operational Logic?**
 
 The main difference is Resiliency and Minimal Dependencies, and these have a number of parts.  Some examples:
 

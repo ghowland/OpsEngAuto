@@ -9,7 +9,7 @@ Current Goal: Populate Empty Sections: 248   (Done: 21.5%)
 
 Lines: 2898
 
-Words: 54501
+Words: 54500
 
 
 # Chapter 1: Preface (README.txt)
@@ -2127,7 +2127,7 @@ For instance, in a Production web serving environment, you frequently have "Appl
 <br>
 These would be "Application Logic" in this terminology, as I'm using it.<br>
 <br>
-So, what is the difference between Application Logic and Operational Logic?<br>
+**What is the difference between Application Logic and Operational Logic?**<br>
 <br>
 The main difference is Resiliency and Minimal Dependencies, and these have a number of parts.&nbsp;&nbsp;Some examples:<br>
 <br>
