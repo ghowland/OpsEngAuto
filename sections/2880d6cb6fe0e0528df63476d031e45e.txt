@@ -20,11 +20,11 @@ This follows the "AAA" process of: Authenticate, Authorize, Audit.
 
 In brief:
 
-Authentication is determining who someone is.
+ - Authentication is determining who someone is.
 
-Authorization is determining if they are allowed to do what they are trying to do.
+ - Authorization is determining if they are allowed to do what they are trying to do.
 
-Auditing is logging everything that happens, so that it can be reviewed.
+ - Auditing is logging everything that happens, so that it can be reviewed.
 
 
 There is a fourth "A" that be added {{ todo_forgot_what_this_is_tempoarily_but_i_wrote_about_it_years_ago }}

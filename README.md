@@ -9,7 +9,7 @@ Current Goal: Populate Empty Sections: 248   (Done: 21.3%)
 
 Lines: 2885
 
-Words: 54090
+Words: 54093
 
 
 # Chapter 1: Preface (README.txt)
@@ -1847,11 +1847,11 @@ This follows the "AAA" process of: Authenticate, Authorize, Audit.<br>
 <br>
 In brief:<br>
 <br>
-Authentication is determining who someone is.<br>
+ - Authentication is determining who someone is.<br>
 <br>
-Authorization is determining if they are allowed to do what they are trying to do.<br>
+ - Authorization is determining if they are allowed to do what they are trying to do.<br>
 <br>
-Auditing is logging everything that happens, so that it can be reviewed.<br>
+ - Auditing is logging everything that happens, so that it can be reviewed.<br>
 <br>
 <br>
 There is a fourth "A" that be added {{ todo_forgot_what_this_is_tempoarily_but_i_wrote_about_it_years_ago }}<br>
