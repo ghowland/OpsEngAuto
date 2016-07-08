@@ -1781,7 +1781,7 @@ Some qualities of a Data Source:<br>
 <br>
 - Constraints on the structure of the data (such as not being able to insert arbitrary fields).&nbsp;&nbsp;This would be a strict "schema" (schematic), as opposed to a "document" style which allows any type of modifications in the values of a record.<br>
 <br>
-- Constraints on the value of the data that is put into specific fields in the data.&nbsp;&nbsp;For instance, in a relational database a field in table may be of type "integer" and will not allow alphabet characters, special characters, or real numbers (floating point) to be inserted.<br>
+- Constraints on the value of the data that is put into specific fields in the data.&nbsp;&nbsp;For instance, in a relational database a field in table may be of type "integer" and will not allow alphabet characters, special characters, or real numbers (decimal precision) to be inserted.<br>
 <br>
 - Persistence: So that the data is saved, and is the power is turned off to the system where the data is, when the machine restarts the data will still be available.&nbsp;&nbsp;There may be corruption here, unless the Data Source also offers a Consistency guarantee.<br>
 <br>
