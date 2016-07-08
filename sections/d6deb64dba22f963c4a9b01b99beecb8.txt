@@ -22,4 +22,16 @@ Partners are a mix between contractors, consultants and vendors.  They may be a 
 
 This is a statement of a basic operational environment.  Where are you?  What are you allowed to do here?
 
-Described thoroughly here {{ section_ }}
+Described thoroughly here: {{ section_10c0b236af1081d0c601a87fb274211c }}
+
+- Tier 3: Location level.  Specific datacenter in a Tier 2 environment.
+
+Inside of a Production Environment, you might be in Data Center #1, which may have some different rules from Data Center #2, because the build-outs were done at different times, or different resources are located in each of them.
+
+- Tier 4: Resource level.
+
+Inside of a Tier 2 environment (and maybe Tier 3), there will be special resources, such as a database that stores Personal Identification Information (PII), or credit card information (PCI), etc.
+
+For these special resources they may need additional sub-environmental security zones, such as internal DMZs (ie: "de-militarized zones", which is like a security "draw-bridge" or "fire-wall" area).  
+
+This could also be external DMZs, which are used for services that take 

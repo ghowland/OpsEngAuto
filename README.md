@@ -7,9 +7,9 @@ Current Goal: Populate Empty Sections: 248   (Done: 21.3%)
 
 <br><br><b>NOTE: This is still an early Work-In-Progress.  It is being written linearly as a First Rough Draft without editing at the moment.  There are many typos and grammatical errors presently.</b>
 
-Lines: 2866
+Lines: 2878
 
-Words: 53857
+Words: 53984
 
 
 # Chapter 1: Preface (README.txt)
@@ -3053,7 +3053,19 @@ Partners are a mix between contractors, consultants and vendors.&nbsp;&nbsp;They
 <br>
 This is a statement of a basic operational environment.&nbsp;&nbsp;Where are you?&nbsp;&nbsp;What are you allowed to do here?<br>
 <br>
-Described thoroughly here {{ section_ }}<br>
+Described thoroughly here: {{ section_10c0b236af1081d0c601a87fb274211c }}<br>
+<br>
+- Tier 3: Location level.&nbsp;&nbsp;Specific datacenter in a Tier 2 environment.<br>
+<br>
+Inside of a Production Environment, you might be in Data Center #1, which may have some different rules from Data Center #2, because the build-outs were done at different times, or different resources are located in each of them.<br>
+<br>
+- Tier 4: Resource level.<br>
+<br>
+Inside of a Tier 2 environment (and maybe Tier 3), there will be special resources, such as a database that stores Personal Identification Information (PII), or credit card information (PCI), etc.<br>
+<br>
+For these special resources they may need additional sub-environmental security zones, such as internal DMZs (ie: "de-militarized zones", which is like a security "draw-bridge" or "fire-wall" area).&nbsp;&nbsp;<br>
+<br>
+This could also be external DMZs, which are used for services that take<br>
 <p id=70a1fe53dd9bfa2e1dea47c2e80559ff><b><a href="#70a1fe53dd9bfa2e1dea47c2e80559ff">7.10.10.3</a>: Security Zones Inside Environments</b></p>
 <h3 id=e3cba7be54f69ef1b2d51192e0ef633e><a href="#e3cba7be54f69ef1b2d51192e0ef633e">7.10.11</a>: Deployments, as separate from Config</h3>
 <p id=f05b48f95386109c5c79cfc128fc44e3><b><a href="#f05b48f95386109c5c79cfc128fc44e3">7.10.11.1</a>: Code deploy</b></p>
