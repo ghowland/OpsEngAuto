@@ -9,7 +9,7 @@ Current Goal: Populate Empty Sections: 248   (Done: 21.5%)
 
 Lines: 2887
 
-Words: 54239
+Words: 54253
 
 
 # Chapter 1: Preface (README.txt)
@@ -2027,7 +2027,7 @@ What are we excluding when we only look at effects?<br>
 <br>
 Initially, we are excluding our value judgements, our goals, our history, culture, feelings, wants and desires, and anything else, so that we can focus on dealing with "what changed?" or "what will change?", and detailing these effects (changes) qualitatively and quantitatively, where possible for each.<br>
 <br>
-This allows us to go beyond whatever limitations we might be currently bound by, if we don't apply them to the situation before we have enumerated and started to evaluate all of the effects, not merely the effects we want to focus on.<br>
+This allows us to go beyond whatever limitations we might be currently bound by, in terms of our perspective or awareness.&nbsp;&nbsp;If we don't apply our bias to the situation before we have enumerated and started to evaluate all of the effects, we are likely to find additional effects from the one's we inherent to our goals.<br>
 <br>
 In terms of getting coverage like "all of something", we are obviously talking about potentially a lot of data and too much to grasp at any time, and this is where Systemic Thinking and Slicing the Pie come into effect, in that we can box these effects into groups, to be inspected in more detail as needed, or viewed from farther away, and seen with less detail, or Specificity.<br>
 <br>
