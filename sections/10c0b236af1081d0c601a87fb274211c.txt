@@ -1,3 +1,13 @@
 ### [[2.6.9: Operational Environments]]
 
+Any place where any operating is going on is an "operational environment".  This could be on your desk, or in your closet, or in a data center, or across a number of data centers across the world.  The size and location of the operational environments is not what defines an Operational Environment.
+
+What defines an Operational Environment is the purpose you wish to achieve with it.
+
+Often it can be useful to think of an Operational Environment as a Security Zone.  You allow certain people to make certain requests in each security zone.
+
+For example, on your laptop or desktop machines, you probably only allow yourself, and perhaps your Corporate IT department, to execute software or make configuration changes to the single machine in these environments.
+
+If we move to a Quality Assurance (QA) environment, we may allow all QA engineers to make data changes, and software pushes to these machines, but we only allow certain operations staff to have administrative access, and make system-level changes, so all of the systems stay in a similar state.
+
 
