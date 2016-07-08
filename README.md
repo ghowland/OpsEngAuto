@@ -9,7 +9,7 @@ Current Goal: Populate Empty Sections: 248   (Done: 21.5%)
 
 Lines: 2915
 
-Words: 54757
+Words: 54805
 
 
 # Chapter 1: Preface (README.txt)
@@ -2154,7 +2154,7 @@ Applications are made to provide end-users with:<br>
 <br>
 - Correct and timely results, for a given Application<br>
 <br>
-Application Logic has an expectation that the operational environment is working correctly, and so error detection and handling is typically rudimentary, and output and results are intended for Application experts.&nbsp;&nbsp;This is a natural prioritization, and not an incorrect one.<br>
+Application Logic has an expectation that the operational environment is working correctly, and so error detection and handling is typically rudimentary, and output and results are intended for Application experts.&nbsp;&nbsp;This is a natural prioritization, and not an incorrect one.&nbsp;&nbsp;Only organization that have grown large enough that the long-tail problems are causing them noticeable impact should attempt to prioritize making Application Logic to be more robust, like Operational Logic, though Application Logic design can take many lessons from Operational Logic design for very cheap or equivalent cost.<br>
 <br>
 For example, say there are a pair of relational databases in a Master/Slave configuration, and the Master node fails, because of the priorities for Application Logic, generally the application will just fail until the Master/Slave designators (floating IP address or DNS name change, or from another directory-style service).&nbsp;&nbsp;<br>
 <br>
