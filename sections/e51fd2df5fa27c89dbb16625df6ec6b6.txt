@@ -2,7 +2,7 @@
 
 Since we'll be talking about Data quite a bit, I will be referring to any mechanism that stores Data as a "Data Source".
 
-This could be a database, a YAML file, a variable in a JavaScript that came from a JSON RPC request, it doesn't matter.  There is a location that stores data, and we interact with it to get data and store the data.
+This could be a database, a YAML file, a variable in a JavaScript web page that came from a JSON RPC request, it doesn't matter.  There is a location that stores data, and we interact with it to get data and store the data.
 
 The Data Source may be persistent, or it may be temporary (such as Javascript data in a web page).  These are secondary properties, as the primary property of a Data Source is access to the data.
 
