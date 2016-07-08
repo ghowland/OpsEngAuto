@@ -9,7 +9,7 @@ Current Goal: Populate Empty Sections: 248   (Done: 21.3%)
 
 Lines: 2885
 
-Words: 54095
+Words: 54097
 
 
 # Chapter 1: Preface (README.txt)
@@ -1903,7 +1903,7 @@ Then let's say on the Specificity scale of 1.0 (Specific) to 0.0 (General), we h
 Because we need to be specific, I am going to make up some details about the Atomicity of the thing in question, which I will use a database for:<br>
 <br>
 {{ start_quote }}<br>
-This database provides limited atomic transactions.&nbsp;&nbsp;Transactions are accepted, and written into a journal file, which is flushed to disk periodically, but not in sync with the transaction being written, for performance.&nbsp;&nbsp;The means that in certain circumstances a transaction may be partially written onto the disk.<br>
+This database provides limited atomic transactions.&nbsp;&nbsp;Transactions are accepted, and written into a journal file, which is flushed to disk periodically, but not in sync with the transaction being considered successfully completed, for performance.&nbsp;&nbsp;The means that in certain circumstances a transaction may be partially written onto the disk.<br>
 {{ end_quote }}<br>
 <br>
 So, this terrible database accepts things as Transactions, and journals the transactions, but it doesn't flush the journal Atomically, so you might have partial transactions on the disk.&nbsp;&nbsp;This is actually always potentially true, since a power failure could cause a partial transfer, in some hardware configurations.<br>
