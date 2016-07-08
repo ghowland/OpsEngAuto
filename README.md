@@ -9,7 +9,7 @@ Current Goal: Populate Empty Sections: 248   (Done: 21.5%)
 
 Lines: 2887
 
-Words: 54290
+Words: 54291
 
 
 # Chapter 1: Preface (README.txt)
@@ -2033,7 +2033,7 @@ In terms of getting coverage like "all of something", we are obviously talking a
 <br>
 Again, this ability to scale in or out from details, is an important skill that needs to be developed and applied to get a good grasp on what is going on in any given situation.&nbsp;&nbsp;Without this, one is going to be "stuck" with the view from one's current perspective, which may be inconsistent through different circumstances, giving one inconsistent results even when it seems like one's perspective is remaining the same.&nbsp;&nbsp;One can't see the same things under different environments, because there are different things to see.&nbsp;&nbsp;One's perspective should always adapt to the problem at hand, and the environment and resources involved.<br>
 <br>
-I like to give examples with every topic I introduce, but I don't think it's the right time to go into an example deeply on this, so we will just touch the surface of an example we will delve into deeply soon.<br>
+I like to give examples with every topic I introduce, but I don't think it's the right time to go into a deeper example on this topic, so we will just touch the surface of an example we will delve into deeper soon.<br>
 <br>
 How can we use Pragmatism to get better results?<br>
 <br>
