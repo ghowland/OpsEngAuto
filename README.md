@@ -9,7 +9,7 @@ Current Goal: Populate Empty Sections: 248   (Done: 21.5%)
 
 Lines: 2887
 
-Words: 54252
+Words: 54250
 
 
 # Chapter 1: Preface (README.txt)
@@ -2029,7 +2029,7 @@ Initially, we are excluding our value judgements, our goals, our history, cultur
 <br>
 This allows us to go beyond whatever limitations we might be currently bound by, in terms of our perspective or awareness.&nbsp;&nbsp;If we don't apply our bias to the situation before we have enumerated and started to evaluate all of the effects, we are likely to find additional effects from the one's inherent to our goals.<br>
 <br>
-In terms of getting coverage like "all of something", we are obviously talking about potentially a lot of data and too much to grasp at any time, and this is where Systemic Thinking and Slicing the Pie come into effect, in that we can box these effects into groups, to be inspected in more detail as needed, or viewed from farther away, and seen with less detail, or Specificity.<br>
+In terms of getting coverage like "all of something", we are obviously talking about potentially a lot of data and too much to grasp at any time, and this is where Systemic Thinking and Slicing the Pie come into effect.&nbsp;&nbsp;We can box these effects into groups, to be inspected in more detail as needed, or viewed from farther away, and seen with less detail, or Specificity.<br>
 <br>
 Again, this ability to scale in or out from details, is an important skill that needs to be developed and applied to get a good grasp on what is going on.&nbsp;&nbsp;Without this, one is going to be "stuck" with the view from one's current perspective, which may change under different circumstances, giving one inconsistent results even from one's primary point of view.<br>
 <br>
