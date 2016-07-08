@@ -7,9 +7,9 @@ Current Goal: Populate Empty Sections: 248   (Done: 21.5%)
 
 <br><br><b>NOTE: This is still an early Work-In-Progress.  It is being written linearly as a First Rough Draft without editing at the moment.  There are many typos and grammatical errors presently.</b>
 
-Lines: 2896
+Lines: 2898
 
-Words: 54483
+Words: 54498
 
 
 # Chapter 1: Preface (README.txt)
@@ -2119,7 +2119,9 @@ In my opinion, there is, and it is a big difference.&nbsp;&nbsp;It doesn't need 
 <br>
 I see this changing more in the future, as distributed programming environments not only become normal, as they are are now, but that we start to get generational levels of experience in the field.&nbsp;&nbsp;Generation Levels of Experience is required because there are many lessons to be learned, and then summarized, and then classified, and then come up with procedures for handling, and then generationally iterate on all of this, and this work has barely begun.<br>
 <br>
-I will call non-Operational Logic "Application Logic", even though it may not strictly fit your definition of what an Application is, since it changes under different contexts.<br>
+I will call non-Operational Logic "Application Logic", even though it may not strictly fit your definition of what an Application is, since it changes under different contexts.&nbsp;&nbsp;If we we're to put this on an axis, we could call it:<br>
+<br>
+Application&nbsp;&nbsp;<---><br>
 <br>
 For instance, in a Production web serving environment, you frequently have "Application Servers" which might run Java Tomcat, JBoss, or Ruby of Rails, or a Python, or other Logic required for producing dynamic web content.<br>
 <br>

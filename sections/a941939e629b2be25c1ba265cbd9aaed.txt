@@ -6,7 +6,9 @@ In my opinion, there is, and it is a big difference.  It doesn't need to exist, 
 
 I see this changing more in the future, as distributed programming environments not only become normal, as they are are now, but that we start to get generational levels of experience in the field.  Generation Levels of Experience is required because there are many lessons to be learned, and then summarized, and then classified, and then come up with procedures for handling, and then generationally iterate on all of this, and this work has barely begun.
 
-I will call non-Operational Logic "Application Logic", even though it may not strictly fit your definition of what an Application is, since it changes under different contexts.
+I will call non-Operational Logic "Application Logic", even though it may not strictly fit your definition of what an Application is, since it changes under different contexts.  If we we're to put this on an axis, we could call it:
+
+Application  <--->
 
 For instance, in a Production web serving environment, you frequently have "Application Servers" which might run Java Tomcat, JBoss, or Ruby of Rails, or a Python, or other Logic required for producing dynamic web content.
 
