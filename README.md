@@ -9,7 +9,7 @@ Current Goal: Populate Empty Sections: 248   (Done: 21.5%)
 
 Lines: 2885
 
-Words: 54211
+Words: 54214
 
 
 # Chapter 1: Preface (README.txt)
@@ -1984,7 +1984,7 @@ Philosophy is more angled like:<br>
 <br>
 - Why am I doing this?&nbsp;&nbsp;What are my goals?&nbsp;&nbsp;How can I define them precisely?&nbsp;&nbsp;Is my entire team in agreement with this, as an intention?&nbsp;&nbsp;Are we able to communicate effectively, ensuring that we understand each other and can work together efficiently?&nbsp;&nbsp;How would we know if this is true, and we are succeeding?&nbsp;&nbsp;How can we measure that success, and compare it to the goals we wanted to achieve before we started?<br>
 <br>
-Philosophy is about depth, and the ability to inspect things from different angles, and while it may appear on the surface (and is sometimes explicitly stated) that it is trying to "define the way things are", in actuality the Philosophical inspection never ends (Infinitely Recursive), and so it does not have the ability to ever define things "the way they are", because it can't stop defining things.<br>
+Philosophy is about depth, and the ability to inspect things from different angles, and while it may appear on the surface (and is sometimes explicitly stated) that it is trying to "define the way things are", in actuality the Philosophical inspection never ends (Infinitely Recursive in All Dimensions), and so it does not have the ability to ever define things "the way they are", because it can't stop defining things.<br>
 <br>
 This is a "Turing Machine" in which we know it will never halt.&nbsp;&nbsp;There is no final exit or return from Philosophy, it is a rabbit hole that never ends, and goes as deep as you are willing to look, and the detail expands to meet any closer inspection.&nbsp;&nbsp;What is true from one perspective, or frame of values, is false from another.&nbsp;&nbsp;It's flexibility to reframe data is infinite.<br>
 <br>
