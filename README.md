@@ -9,7 +9,7 @@ Current Goal: Populate Empty Sections: 248   (Done: 21.5%)
 
 Lines: 2915
 
-Words: 54821
+Words: 54828
 
 
 # Chapter 1: Preface (README.txt)
@@ -2158,7 +2158,7 @@ Application Logic has an expectation that the operational environment is working
 <br>
 As an example, say there are a pair of relational databases in a Master/Slave configuration, and the Master node fails, because of the priorities for Application Logic, generally the application will just fail until the Master/Slave designators are updated to promote the Slave to Master (updated as moving a floating IP address or DNS name or IP record change, or from another directory-style service).<br>
 <br>
-There are some good reasons why Application Logic currently behaves this way.&nbsp;&nbsp;The first is that it takes extra Logic to determine what should happen if the primary database server goes away, and this will be (eventually) taken care of by the Operations team, through manual intervention or automation.<br>
+There are some good reasons why Application Logic currently behaves this way.&nbsp;&nbsp;The first is that it takes extra Logic to determine what should happen if the primary database server goes away, and this will be (eventually, very short term, minutes to an hour) taken care of by the Operations team, through manual intervention or automation.<br>
 <br>
 Some classes of databases have a multi-node approach from the beginning, to make these types of events less frequent, since a server can go down, but others will be up, and the Application can talk to any of them.&nbsp;&nbsp;These databases still have failure cases though, and so the results can up being the same depending on the type of failure.<br>
 <br>
