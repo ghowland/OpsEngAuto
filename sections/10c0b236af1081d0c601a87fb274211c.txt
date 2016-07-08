@@ -10,4 +10,10 @@ For example, on your laptop or desktop machines, you probably only allow yoursel
 
 If we move to a Quality Assurance (QA) environment, we may allow all QA engineers to make data changes, and software pushes to these machines, but we only allow certain operations staff to have administrative access, and make system-level changes, so all of the systems stay in a similar state.  We generally don't want any external access to a QA environment, but we might allow whitelisted access for some partner companies who either provide us services, or who are doing integration with your developers.
 
-Looking at a Production Environment, we would want to have much more auditing, and restrictive access of who could login to servers and make changes.  We also all
+Looking at a Production Environment, we would want to have much more auditing, and restrictive access of who could login to servers and make changes.  We also all do allow external access from our customers, who could be anyone located anywhere, and may allow un-authenticated (guest) access to our services.
+
+Operational Environments, and their corresponding view as a Security Zone, is an important consideration any time you are performing Operational work.  Where are you doing this work?  What are the goals?  What are the rules and restrictions?  Who gets access, and what are they allowed to do?  
+
+How do we ensure all of this stays consistent?  How do we maintain this, make changes, and automate regularly occurring processes?  What about monitoring and alerting on things we care about?
+
+All of these will change every time you change what Operational Environment classification you are currently in.

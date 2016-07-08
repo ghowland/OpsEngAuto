@@ -7,9 +7,9 @@ Current Goal: Populate Empty Sections: 246   (Done: 20.9%)
 
 <br><br><b>NOTE: This is still an early Work-In-Progress.  It is being written linearly as a First Rough Draft without editing at the moment.  There are many typos and grammatical errors presently.</b>
 
-Lines: 2833
+Lines: 2839
 
-Words: 53277
+Words: 53394
 
 
 # Chapter 1: Preface (README.txt)
@@ -1818,7 +1818,13 @@ For example, on your laptop or desktop machines, you probably only allow yoursel
 <br>
 If we move to a Quality Assurance (QA) environment, we may allow all QA engineers to make data changes, and software pushes to these machines, but we only allow certain operations staff to have administrative access, and make system-level changes, so all of the systems stay in a similar state.&nbsp;&nbsp;We generally don't want any external access to a QA environment, but we might allow whitelisted access for some partner companies who either provide us services, or who are doing integration with your developers.<br>
 <br>
-Looking at a Production Environment, we would want to have much more auditing, and restrictive access of who could login to servers and make changes.&nbsp;&nbsp;We also all<br>
+Looking at a Production Environment, we would want to have much more auditing, and restrictive access of who could login to servers and make changes.&nbsp;&nbsp;We also all do allow external access from our customers, who could be anyone located anywhere, and may allow un-authenticated (guest) access to our services.<br>
+<br>
+Operational Environments, and their corresponding view as a Security Zone, is an important consideration any time you are performing Operational work.&nbsp;&nbsp;Where are you doing this work?&nbsp;&nbsp;What are the goals?&nbsp;&nbsp;What are the rules and restrictions?&nbsp;&nbsp;Who gets access, and what are they allowed to do?&nbsp;&nbsp;<br>
+<br>
+How do we ensure all of this stays consistent?&nbsp;&nbsp;How do we maintain this, make changes, and automate regularly occurring processes?&nbsp;&nbsp;What about monitoring and alerting on things we care about?<br>
+<br>
+All of these will change every time you change what Operational Environment classification you are currently in.<br>
 <p id=2880d6cb6fe0e0528df63476d031e45e><b><a href="#2880d6cb6fe0e0528df63476d031e45e">2.6.9.1</a>: Production Environment</b></p>
 <br>
 There are a couple different environments which we will be framing our discussions in, so let's get some strict definitions for them, starting with the most important, Production.<br>
