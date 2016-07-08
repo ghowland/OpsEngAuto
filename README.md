@@ -9,7 +9,7 @@ Current Goal: Populate Empty Sections: 248   (Done: 21.5%)
 
 Lines: 2915
 
-Words: 54890
+Words: 54892
 
 
 # Chapter 1: Preface (README.txt)
@@ -2162,7 +2162,7 @@ There are some good reasons why Application Logic currently behaves this way.&nb
 <br>
 Some classes of databases have a multi-node approach from the beginning, to make these types of events less frequent, since a server can go down, but others will be up, and the Application can talk to any of them.&nbsp;&nbsp;These databases still have failure cases though, and so the results can end up being the same depending on the type of failure, in terms of non-Availability due to database failures.<br>
 <br>
-Part of the "extra Logic" is that Applications are meant to serve end-users, and the time put into making this extra resiliency is often prioritized to go into making additional or improved features.&nbsp;&nbsp;Whether you agree or disagree that this should be the priority, it often is the priority, and it serves us well to accept Reality, and work within it's confines.&nbsp;&nbsp;If we want to change this, we need to change the priorities by showing more value given with a different priority.&nbsp;&nbsp;Difficult, but possible.<br>
+Part of the "extra Logic" is that Applications are meant to serve end-users, and the time put into making this extra resiliency is often prioritized to go into making additional or improved features.&nbsp;&nbsp;Whether you agree or disagree that this should be the priority, it often is the priority, and it serves us well to accept Reality, and work within it's confines.&nbsp;&nbsp;If we want to change this, we need to change the priorities by showing more value given with a different priority.&nbsp;&nbsp;This is difficult, but possible.<br>
 <br>
 Additional to the Logic required to handle failures, is that Application code needs to be very stable for-it's-own-purposes, and adding in this kind of Logic means that during failures more cases may be found that could be handled, which means more changes to the Logic surrounding database access, which means more change/churn, and this leads to more potential bugs.&nbsp;&nbsp;Specifically the kind of bugs that have data access requests failing, which is someone no one wants.<br>
 <br>
