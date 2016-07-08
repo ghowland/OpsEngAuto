@@ -7,9 +7,9 @@ Current Goal: Populate Empty Sections: 248   (Done: 21.5%)
 
 <br><br><b>NOTE: This is still an early Work-In-Progress.  It is being written linearly as a First Rough Draft without editing at the moment.  There are many typos and grammatical errors presently.</b>
 
-Lines: 2900
+Lines: 2902
 
-Words: 54561
+Words: 54704
 
 
 # Chapter 1: Preface (README.txt)
@@ -2136,6 +2136,8 @@ The main difference is Resiliency and Minimal Dependencies, and these have a num
 Example: An application server is started without a required configuration file in a specific directory, so the application server program exits with a status code of 127 and output to STDERR "Cannot open file: /path/to/file".&nbsp;&nbsp;This is reasonable for an Application server, because it needs to be completely and correctly configured for it to return the correct results to a client.<br>
 <br>
 - Operational Logic is built to support infrastructure, with the knowledge that the infrastructure components are going to fail, and the Operational Logic needs to not only recognize the failures, but needs to continue to work in whatever ways are still available.&nbsp;&nbsp;<br>
+<br>
+Example: A operational software is written which will execute remote code on hosts, for the purposes of managing Application state.&nbsp;&nbsp;The remote programs which are executed will modify the Application's state, so that clients will receive different information after the state change.&nbsp;&nbsp;If the operational software cannot update the Application, perhaps because a file is missing (similar to the Application Logic example above), the Operational Logic cannot simply exit with an error code and message.&nbsp;&nbsp;It cannot complete it's task correctly, but instead must continue to run, and create a local and remote log of the failure, with any additional environmental data that is required to help troubleshoot this problem, and then proper staff must be notified of this failure, and potentially other servers must be updated accordingly (rolled back, or different update), to account for the failure to update this Application state.<br>
 <br>
 Don't misunderstand me in that I am criticizing Application Logic developers, and praising Operational Logic developers, they have different goals, and so will product works that have different results because of this.<br>
 <br>
