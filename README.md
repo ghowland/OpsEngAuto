@@ -1966,7 +1966,7 @@ http://harmful.cat-v.org/people/basic-laws-of-human-stupidity/<br>
 <br>
 These start to illustrate the differences between Intelligence and Wisdom, to me, and will hopefully (over the course of the material) become clearer and useful to you as well.<br>
 <br>
-So Philosophy is the "love of wisdom", and I love wisdom, so I take it for that.&nbsp;&nbsp;I orient myself on "Applied Philosophy", which is using Philosophy in a way in which that I can achieve results (internally and externally) and not merely as a way to win arguments at dinner parties, or making witty comments that end with "Do you want fries with that?".&nbsp;&nbsp;<br>
+So Philosophy is the "love of wisdom", and I love wisdom, so I take it for that.&nbsp;&nbsp;I orient myself on "Applied Philosophy", which is using Philosophy in a way in which that I can achieve results (internally and externally) and not merely as a way to win arguments at dinner parties, or making witty comments that end with "Do you want fries with that?".<br>
 <br>
 Another purpose of Philosophy is to be a structure around the question, "Why?"<br>
 <br>
