@@ -9,7 +9,7 @@ Current Goal: Populate Empty Sections: 246   (Done: 20.6%)
 
 Lines: 2815
 
-Words: 52793
+Words: 52799
 
 
 # Chapter 1: Preface (README.txt)
@@ -1779,7 +1779,7 @@ Some qualities of a Data Source:<br>
 <br>
 - Access to data.&nbsp;&nbsp;Get it, set it.&nbsp;&nbsp;This is mandatory, all others are optional.<br>
 <br>
-- Constraints on the structure of the data (such as not being able to insert arbitrary fields).&nbsp;&nbsp;This would be a strict "schema" (schematic), as opposed to a "document" style which allows any type of modifications.<br>
+- Constraints on the structure of the data (such as not being able to insert arbitrary fields).&nbsp;&nbsp;This would be a strict "schema" (schematic), as opposed to a "document" style which allows any type of modifications in the values of a record.<br>
 <br>
 - Constraints on the value of the data that is put into specific fields in the data.&nbsp;&nbsp;For instance, in a relational database a field in table may be of type "integer" and will not allow alphabet characters, special characters, or real numbers (floating point) to be inserted.<br>
 <br>
