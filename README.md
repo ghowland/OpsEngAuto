@@ -1896,7 +1896,7 @@ This is actually the exact same technique I am using to write this book, as I ha
 <br>
 Let's do one of these now:<br>
 <br>
-For the Atomicity value, let's say on a scale of 1.0 (Atomic) to 0.0 (Not Atomic), we have an Atomicity value of 0.25, or not very Atomic, but having some Atomic characterics.&nbsp;&nbsp;<br>
+For the Atomicity value, let's say on a scale of 1.0 (Atomic) to 0.0 (Not Atomic), we have an Atomicity value of 0.25, or not very Atomic, but having some Atomic characteristics.&nbsp;&nbsp;<br>
 <br>
 Then let's say on the Specificity scale of 1.0 (Specific) to 0.0 (General), we have an Specificity value of 0.75, or fairly specific.<br>
 <br>
