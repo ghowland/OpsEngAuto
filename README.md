@@ -9,7 +9,7 @@ Current Goal: Populate Empty Sections: 248   (Done: 21.5%)
 
 Lines: 2915
 
-Words: 54756
+Words: 54757
 
 
 # Chapter 1: Preface (README.txt)
@@ -2154,7 +2154,7 @@ Applications are made to provide end-users with:<br>
 <br>
 - Correct and timely results, for a given Application<br>
 <br>
-Application Logic has an expectation that the operational environment is working correctly, and so error detection and handling is typically rudimentary, and output and results are intended for experts.&nbsp;&nbsp;This is a natural prioritization, and not an incorrect one.<br>
+Application Logic has an expectation that the operational environment is working correctly, and so error detection and handling is typically rudimentary, and output and results are intended for Application experts.&nbsp;&nbsp;This is a natural prioritization, and not an incorrect one.<br>
 <br>
 For example, say there are a pair of relational databases in a Master/Slave configuration, and the Master node fails, because of the priorities for Application Logic, generally the application will just fail until the Master/Slave designators (floating IP address or DNS name change, or from another directory-style service).&nbsp;&nbsp;<br>
 <br>
