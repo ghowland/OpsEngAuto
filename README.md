@@ -9,7 +9,7 @@ Current Goal: Populate Empty Sections: 248   (Done: 21.3%)
 
 Lines: 2885
 
-Words: 54205
+Words: 54209
 
 
 # Chapter 1: Preface (README.txt)
@@ -1927,7 +1927,7 @@ What if we had a Specific value of 1.0, instead of 0.75?<br>
 <br>
 We would have to specify the entire code, every line, and it would need to be idealistically correct (or actual implementation), and we would have to specify all environment requirements.&nbsp;&nbsp;Why?&nbsp;&nbsp;Because we are 100% Specificity at 1.0.&nbsp;&nbsp;This means absolutely everything must be specified, if this spectrum or axis is to have real meaning.<br>
 <br>
-Taking this into account, maybe my example using 0.75 for that level of specificity isn't nearly detailed or specific enough, but on first introduction 0.75 sounds like "pretty specific", where 0.5 sounds "half specific, half vague", and I wanted to be detailed enough to get real implementation points across, but also not too long for pacing.&nbsp;&nbsp;Only after thinking about what 100% Specificity would really mean does 0.75 seem too high.&nbsp;&nbsp;<br>
+Taking this into account, maybe my example using 0.75 for that level of specificity isn't nearly detailed or specific enough, but on first introduction 0.75 sounds like "pretty specific", where 0.5 sounds "half specific, half vague", and I wanted to be detailed enough to get real implementation points across, but also not too long for pacing.&nbsp;&nbsp;Only after thinking about what 100% Specificity would really mean does 0.75 seem too high for our previous example.<br>
 <br>
 This is yet another tool for performing evaluations, by making one example, and rating it, and then making another (or a series of others) example, and rating that, and going back and re-rating the first example, then the second again, and finally creating examples of the most extreme situation you can imagine at both ends of the spectrum (being 0.0 and 1.0), and then re-evaluating the middle ones again.&nbsp;&nbsp;This is a method for getting a numerical sense of an information space.<br>
 <br>
