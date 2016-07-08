@@ -4,7 +4,7 @@ Since we'll be talking about Data quite a bit, I will be referring to any mechan
 
 This could be a database, a YAML file, a variable in a JavaScript web page that came from a JSON RPC request, it doesn't matter.  There is a location that stores data, and we interact with it to get data and store the data.
 
-The Data Source may be persistent, or it may be temporary (such as Javascript data in a web page).  It may be transactionally safe, or thread-unsafe to update.  These are secondary properties, as the primary property of a Data Source is access to the data.
+The Data Source may be persistent, or it may be temporary (such as Javascript data in a web page).  It may be transactionally safe, or unsafe to update in treads.  These are secondary properties, as the primary property of a Data Source is access to the data.
 
 Some qualities of a Data Source:
 
