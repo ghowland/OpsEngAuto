@@ -1875,7 +1875,7 @@ Generalization&nbsp;&nbsp;<----->&nbsp;&nbsp;Specificity<br>
 <br>
 Now we have an axis on which we can slide a variable across, to be more or less specific, and it can be tuned in the way we want it, for every circumstance that is possible.<br>
 <br>
-In addition to this, we can add in another topic, such as "Atomicity" that we spoke of previously.<br>
+In addition to this, we can add in another topic, such as "Atomicity" which I wrote about previously.<br>
 <br>
 We can be extremely specific in our discussion of Atomicity, or we can be extremely General, or somewhere in between, in the spectrum, along the axis.&nbsp;&nbsp;I will use this method of multiple examples mixed together to provide a richer tapestry for these ideas to be expressed in, as the book goes on.&nbsp;&nbsp;These are tools for communicating more deeply than not, another spectrum or axis, which can be applied.<br>
 <br>
