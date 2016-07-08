@@ -9,7 +9,7 @@ Current Goal: Populate Empty Sections: 248   (Done: 21.3%)
 
 Lines: 2885
 
-Words: 54109
+Words: 54119
 
 
 # Chapter 1: Preface (README.txt)
@@ -1906,7 +1906,7 @@ Because we need to be specific, I am going to make up some details about the Ato
 This database provides limited atomic transactions.&nbsp;&nbsp;Transactions are accepted, and written into a journal file, which is flushed to disk periodically, but not in sync with the transaction being considered successfully completed, for performance.&nbsp;&nbsp;The means that in certain circumstances a transaction may be partially written onto the journal file disk, and in these cases recent data writes can be lost.<br>
 {{ end_quote }}<br>
 <br>
-So, this terrible database accepts things as Transactions, and journals the transactions, but it doesn't flush the journal Atomically, so you might have partial transactions on the disk.&nbsp;&nbsp;This is actually always potentially true, since a power failure could cause a partial transfer, in some hardware configurations.<br>
+So, this terrible database accepts things as Transactions, and journals the transactions, but it doesn't flush the journal as part of the transaction success criteria to make it Atomic, so you might have partial transactions on the disk.&nbsp;&nbsp;This is actually always potentially true, since a power failure could cause a partial transfer, in some hardware configurations.<br>
 <br>
 In practice, modern controllers accept a queue of IO requests, and can do some optimizations on them, depending on the construction of the storage medium (what type of disk/etc), and so flushing merely pushes more things onto this queue, and if you cant put more things into the queue, you have already maxed out your throughput in this configuration.<br>
 <br>
