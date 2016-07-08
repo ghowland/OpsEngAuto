@@ -9,7 +9,7 @@ Current Goal: Populate Empty Sections: 246   (Done: 20.9%)
 
 Lines: 2839
 
-Words: 53424
+Words: 53453
 
 
 # Chapter 1: Preface (README.txt)
@@ -1827,7 +1827,7 @@ How do we ensure all of this stays consistent?&nbsp;&nbsp;How do we maintain thi
 All of these will change every time you change what Operational Environment classification you are in.<br>
 <p id=2880d6cb6fe0e0528df63476d031e45e><b><a href="#2880d6cb6fe0e0528df63476d031e45e">2.6.9.1</a>: Production Environment</b></p>
 <br>
-The most important environment for any given system is the "Production" environment.&nbsp;&nbsp;This is the environment in which the organization makes their revenue (ex: online service), or interfaces with their customers (ex: informational service), or creates their product (ex: manufacturing).&nbsp;&nbsp;"Production" comes from "product", as in a "production line" which in an assembly line that produces an end-good product.<br>
+The most important environment for any given system is the "Production" environment.&nbsp;&nbsp;This is the environment in which the organization makes their revenue (ex: online service), or interfaces with their customers (ex: informational service), or creates their product (ex: manufacturing).&nbsp;&nbsp;"Production" comes from "product", as in a "production line" which in an assembly line that produces an end-good product, it has the meaning of the "end of the line" in terms of an organization producing a good or service, which will then be distributed and may be sold.<br>
 <br>
 The Production Environment, which I will mostly just be calling "Production", is the place that the critical operations of your organization takes place.<br>
 <br>
