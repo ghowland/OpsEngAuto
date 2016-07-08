@@ -8,7 +8,7 @@ Without summarization and generalization, we would spend so much time getting to
 
 Shouldn't there be a spectrum for this?  Let's make one:
 
-Specificity  <----->  Generalization
+Generalization  <----->  Specificity
 
 Now we have an axis on which we can slide a variable across, to be more or less specific, and it can be tuned in the way we want it, for every circumstance that is possible.
 
