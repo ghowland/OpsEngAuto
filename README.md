@@ -7,9 +7,9 @@ Current Goal: Populate Empty Sections: 246   (Done: 20.6%)
 
 <br><br><b>NOTE: This is still an early Work-In-Progress.  It is being written linearly as a First Rough Draft without editing at the moment.  There are many typos and grammatical errors presently.</b>
 
-Lines: 2817
+Lines: 2821
 
-Words: 52862
+Words: 53018
 
 
 # Chapter 1: Preface (README.txt)
@@ -1796,6 +1796,10 @@ There are different Consistency guarantees, and while Consistency means "will no
 Transactional changes are made sequentially, and cannot interrupt each other.&nbsp;&nbsp;Furthermore they verify the consistency of the entire exchange, and not simply each statement, which allows more precise validation of referential integrity as well as being able to make changes that would be constraint violations if done one-at-a-time, but which are consistent when done together in a transaction.<br>
 <br>
 - Replication: This allows copies to be made of the data to at least 1 other instance of the Data Source implementation, for example a SQL server could incrementally copy it's journal file from itself to another machine, which then applies the journal.&nbsp;&nbsp;If the original machine goes down, the replication target machine will have an update-to-date version of the database, up to the latest journal entry it received.<br>
+<br>
+Replication might be after-the-fact replication, so a transaction completes on a Master DB, and then the Slave DB will get the same transaction request moments later, after the latest bytes of the journal file has been copied over to the Slave, and the replication agent re-runs the remote transaction statements on the local database.<br>
+<br>
+Replication might also be in lock-step with the Master, so a server that gets a write request will complete it on itself, and then wait for 1 or more other replication servers, based on a "quorum" number.&nbsp;&nbsp;If the quorum is two (2), then at least 2 servers must have this transaction committed before the client requesting the transaction is told that it was successful.&nbsp;&nbsp;This method is much slower in terms of returning a result to a user, but is safer in that the information is persisted on multiple server's storage, in case a corruption-level failure happens on the original server.<br>
 <br>
 There are many other properties to Data Sources, so this is not meant to be an exhaustive list, but a brief coverage of some elements we can associate with the label Data Source, which may or may not exist in a given implementation you may use.<br>
 <br>
