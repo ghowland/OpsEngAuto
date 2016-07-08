@@ -9,7 +9,7 @@ Current Goal: Populate Empty Sections: 246   (Done: 20.6%)
 
 Lines: 2815
 
-Words: 52783
+Words: 52792
 
 
 # Chapter 1: Preface (README.txt)
@@ -1773,7 +1773,7 @@ Since we'll be talking about Data quite a bit, I will be referring to any mechan
 <br>
 This could be a database, a YAML file, a variable in a JavaScript web page that came from a JSON RPC request, it doesn't matter.&nbsp;&nbsp;There is a location that stores data, and we interact with it to get data and store the data.<br>
 <br>
-The Data Source may be persistent, or it may be temporary (such as Javascript data in a web page).&nbsp;&nbsp;These are secondary properties, as the primary property of a Data Source is access to the data.<br>
+The Data Source may be persistent, or it may be temporary (such as Javascript data in a web page).&nbsp;&nbsp;It may be transactionally safe, or thread-unsafe to update.&nbsp;&nbsp;These are secondary properties, as the primary property of a Data Source is access to the data.<br>
 <br>
 Some qualities of a Data Source:<br>
 <br>
