@@ -7,9 +7,9 @@ Current Goal: Populate Empty Sections: 248   (Done: 21.5%)
 
 <br><br><b>NOTE: This is still an early Work-In-Progress.  It is being written linearly as a First Rough Draft without editing at the moment.  There are many typos and grammatical errors presently.</b>
 
-Lines: 2892
+Lines: 2894
 
-Words: 54298
+Words: 54380
 
 
 # Chapter 1: Preface (README.txt)
@@ -2084,6 +2084,8 @@ Whether Engineering is applied to building a bridge, a canal, a sky scraper, bak
 - It has certain resources (universally time, almost always money, and also almost always people<br>
 - It might be soil conditions, and logistics of getting materials from Point A to Point B, or whatever)<br>
 - It has specifically desired effects, such as a set of interlocking canal segments of the Panama Canal, or a sky-scraper buildings ability to stay erect under it's own enormous weight and support and movement of the soil, or the digital and physical equivalents in server operations.<br>
+<br>
+Regardless of the topic or domain, the initial approach to engineering a problem is the same.&nbsp;&nbsp;Determine the environment and resources in play, determine the requirements of meeting our goal, determine the actions that can be taken to fulfill those requirements, create a plan to perform the actions, evaluate the plan's methods of implementation, risks, etc, implement the plan, evaluate the implementation, whether we met our success criteria, and update the documentation based on the new state of the environment and resources.<br>
 <h3 id=2ee66e2e591f559bcad84f3a294d732a><a href="#2ee66e2e591f559bcad84f3a294d732a">3.1.1</a>: A brief interlude on the Strengths and Weaknesses of Metaphors</h3>
 <br>
 There is a trade-off on Metaphors, and it has to do with expert-knowledge and accuracy.<br>
