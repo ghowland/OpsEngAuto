@@ -9,7 +9,7 @@ Current Goal: Populate Empty Sections: 248   (Done: 21.5%)
 
 Lines: 2902
 
-Words: 54705
+Words: 54707
 
 
 # Chapter 1: Preface (README.txt)
@@ -2139,7 +2139,7 @@ Example: An application server is started without a required configuration file 
 <br>
 Example: A operational software is written which will execute remote code on hosts, for the purposes of managing Application state.&nbsp;&nbsp;The remote programs which are executed will modify the Application's state, so that clients will receive different information after the state change.&nbsp;&nbsp;If the operational software cannot update the Application, perhaps because a file is missing (similar to the Application Logic example above), the Operational Logic cannot simply exit with an error code and message.&nbsp;&nbsp;It cannot complete it's task correctly, but instead must continue to run, and create a local and remote log of the failure, with any additional environmental data that is required to help troubleshoot this problem, and then proper staff must be notified of this failure, and potentially other servers must be updated accordingly (rolled back, or different update), to account for the failure to update this Application state.<br>
 <br>
-Don't misunderstand me and construe that I am criticizing Application Logic developers, and praising Operational Logic developers, they have different goals, and so will product works that have different results because of this.<br>
+Don't misunderstand me and construe that I am criticizing Application Logic or their developers, and praising Operational Logic developers, they have different goals, and so will product works that have different results because of this.<br>
 <br>
 It mostly has to do with priorities and responsibility.&nbsp;&nbsp;Operations is responsible for infrastructure working, and is responsible for solving operational failures.&nbsp;&nbsp;Applications are made to provide end-users with correct results, and have an expectation that the operational environment is working correctly to do so.&nbsp;&nbsp;This is a natural prioritization, and not an incorrect one.<br>
 <br>
