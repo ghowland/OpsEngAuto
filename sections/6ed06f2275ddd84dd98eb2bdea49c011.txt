@@ -1,3 +1,5 @@
 ### [[7.10.10.1: Environments and Security Zones]]
 
 
+Environments are natural Security Zones, because we have a goal in mind for everything inside an Environment, so everything has a similar base set of Security Requirements, and therefore a Security Posture that is required.
+

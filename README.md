@@ -1,15 +1,15 @@
 # Operations: Engineering and Automation
 
 
-Total Sections: 315   Populated Sections: 65
-Current Goal: Populate Empty Sections: 250   (Done: 20.6%)
+Total Sections: 315   Populated Sections: 66
+Current Goal: Populate Empty Sections: 249   (Done: 21.0%)
 
 
 <br><br><b>NOTE: This is still an early Work-In-Progress.  It is being written linearly as a First Rough Draft without editing at the moment.  There are many typos and grammatical errors presently.</b>
 
-Lines: 2839
+Lines: 2842
 
-Words: 53449
+Words: 53484
 
 
 # Chapter 1: Preface (README.txt)
@@ -3026,6 +3026,9 @@ Apparently there is some kind of statistical slant I have to writing a certain n
 <h3 id=a6e21acd13a2849ee9c611451ba8b30a><a href="#a6e21acd13a2849ee9c611451ba8b30a">7.10.9</a>: Access Control.&nbsp;&nbsp;Authorization to do work.</h3>
 <h3 id=becd8bbe6534ed50063f3c3345ad5e51><a href="#becd8bbe6534ed50063f3c3345ad5e51">7.10.10</a>: Security zones</h3>
 <p id=6ed06f2275ddd84dd98eb2bdea49c011><b><a href="#6ed06f2275ddd84dd98eb2bdea49c011">7.10.10.1</a>: Environments and Security Zones</b></p>
+<br>
+<br>
+Environments are natural Security Zones, because we have a goal in mind for everything inside an Environment, so everything has a similar base set of Security Requirements, and therefore a Security Posture that is required.<br>
 <p id=d6deb64dba22f963c4a9b01b99beecb8><b><a href="#d6deb64dba22f963c4a9b01b99beecb8">7.10.10.2</a>: Tiered Security Zones</b></p>
 <p id=70a1fe53dd9bfa2e1dea47c2e80559ff><b><a href="#70a1fe53dd9bfa2e1dea47c2e80559ff">7.10.10.3</a>: Security Zones Inside Environments</b></p>
 <h3 id=e3cba7be54f69ef1b2d51192e0ef633e><a href="#e3cba7be54f69ef1b2d51192e0ef633e">7.10.11</a>: Deployments, as separate from Config</h3>
