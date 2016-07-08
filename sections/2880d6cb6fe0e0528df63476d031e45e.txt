@@ -1,6 +1,6 @@
 ### [[2.6.8: Production]]
 
-There are a couple different environments which we will be framing our discussions in, so let's get some strict definitions for them, starting with the most important, Production.
+The most important environment for any given system is the "Production" environment.  This is the environment in which the organization makes their revenue (ex: online service), or interfaces with their customers (ex: informational service), or creates their product (ex: manufacturing)
 
 The Production Environment, which I will mostly just be calling "Production", is the place that the critical operations of your organization takes place.
 
