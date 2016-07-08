@@ -7,7 +7,7 @@ Current Goal: Populate Empty Sections: 248   (Done: 21.5%)
 <br>
 Lines: 2915<br>
 <br>
-Words: 54875<br>
+Words: 54881<br>
 <br>
 <h1 id=48152466029dfcb314ccad4d502d1a73><a href="#48152466029dfcb314ccad4d502d1a73">Chapter 1</a>: Preface (README.txt)</h1>
 <br>
@@ -2117,7 +2117,7 @@ Application Logic has an expectation that the operational environment is working
 <br>
 As an example, say there are a pair of relational databases in a Master/Slave configuration, and the Master node fails, because of the priorities for Application Logic, generally the application will just fail until the Master/Slave designators are updated to promote the Slave to Master (updated as moving a floating IP address or DNS name or IP record change, or from another directory-style service).<br>
 <br>
-There are some good reasons why Application Logic currently behaves this way.&nbsp;&nbsp;The first is that it takes extra Logic to determine what should happen if the primary database server goes away, and this will be (very short term, "several minutes, or under an hour") taken care of by the Operations team, through manual intervention or automation.&nbsp;&nbsp;This allows the Application developers to focus on revenue oriented features, while the Operations team deals with the relatively rare occasions when there is a fail-over event.&nbsp;&nbsp;This model becomes less desirable as businesses scale up, but is the normal model for smaller or newer businesses.<br>
+There are some good reasons why Application Logic currently behaves this way.&nbsp;&nbsp;The first is that it takes extra Logic to determine what should happen if the primary database server goes away, and this will be (very short term, "several minutes, or under an hour") taken care of by the Operations team, through manual intervention or automation.&nbsp;&nbsp;This allows the Application developers to focus on revenue oriented features, while the Operations team deals with the relatively rare occasions when there is a fail-over event.&nbsp;&nbsp;This model becomes less desirable as businesses scale up, but is the normal model for smaller or newer businesses, even though it has obvious deficiencies.<br>
 <br>
 Some classes of databases have a multi-node approach from the beginning, to make these types of events less frequent, since a server can go down, but others will be up, and the Application can talk to any of them.&nbsp;&nbsp;These databases still have failure cases though, and so the results can up being the same depending on the type of failure.<br>
 <br>
