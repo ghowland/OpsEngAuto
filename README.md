@@ -7,9 +7,9 @@ Current Goal: Populate Empty Sections: 248   (Done: 21.3%)
 
 <br><br><b>NOTE: This is still an early Work-In-Progress.  It is being written linearly as a First Rough Draft without editing at the moment.  There are many typos and grammatical errors presently.</b>
 
-Lines: 2850
+Lines: 2858
 
-Words: 53580
+Words: 53704
 
 
 # Chapter 1: Preface (README.txt)
@@ -3038,6 +3038,14 @@ Let's make a map of what tiers we could have in security zones.<br>
 The first tier will simply be a boolean of whether a person is a member of the organization in question.&nbsp;&nbsp;"Do you work for us?"<br>
 <br>
 This is a basic question of insider vs. outsider.&nbsp;&nbsp;This tier can have additional children tiers for all departments and groups in an organization, as wall as professional rank, such as Vice President (VP) vs. Engineer will be two different levels of tiered security in the employee category.<br>
+<br>
+This has blurred lines for Contractors, Consultants, Vendors and Partners.<br>
+<br>
+Contractors are paid as work-for-hire "employees", without the employee benefits.&nbsp;&nbsp;This is usually focused on individuals that are contracted for work, but sometimes is a separate organization who is contracted (usually for lower level work, or non-core services).&nbsp;&nbsp;Contractors will usually have similar access to employees at their same level, with perhaps some additional restrictions to making changes or seeing sensitive information.<br>
+<br>
+Consultants are short-term or contracted for specific work, and often for informational work, rather than manual labor type work (including technical manual labor, like writing code in this).<br>
+<br>
+Vendors are organizations who sell software, hardware or services to an organization, and are not associated with any individuals.&nbsp;&nbsp;Vendors are generally not considered<br>
 <p id=70a1fe53dd9bfa2e1dea47c2e80559ff><b><a href="#70a1fe53dd9bfa2e1dea47c2e80559ff">7.10.10.3</a>: Security Zones Inside Environments</b></p>
 <h3 id=e3cba7be54f69ef1b2d51192e0ef633e><a href="#e3cba7be54f69ef1b2d51192e0ef633e">7.10.11</a>: Deployments, as separate from Config</h3>
 <p id=f05b48f95386109c5c79cfc128fc44e3><b><a href="#f05b48f95386109c5c79cfc128fc44e3">7.10.11.1</a>: Code deploy</b></p>
