@@ -6,8 +6,8 @@ What defines an Operational Environment is the purpose you wish to achieve with 
 
 Often it can be useful to think of an Operational Environment as a Security Zone.  You allow certain people to make certain requests in each security zone.
 
-For example, on your laptop or desktop machines, you probably only allow yourself, and perhaps your Corporate IT department, to execute software or make configuration changes to the single machine in these environments.
+For example, on your laptop or desktop machines, you probably only allow yourself, and perhaps your Corporate IT department, to execute software or make configuration changes to the single machine in these environments.  We don't want people on the internet connecting to our personal machines, so we will want to restrict any external connections.
 
-If we move to a Quality Assurance (QA) environment, we may allow all QA engineers to make data changes, and software pushes to these machines, but we only allow certain operations staff to have administrative access, and make system-level changes, so all of the systems stay in a similar state.
+If we move to a Quality Assurance (QA) environment, we may allow all QA engineers to make data changes, and software pushes to these machines, but we only allow certain operations staff to have administrative access, and make system-level changes, so all of the systems stay in a similar state.  We generally don't want any external access to a QA environment, but we might allow whitelisted access for some partner companies who either provide us services, or who are doing integration with your developers.
 
-
+Looking at a Production Environment, we would want to have much more auditing, and restrictive access of who could login to servers and make changes.  We also all

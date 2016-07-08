@@ -7,9 +7,9 @@ Current Goal: Populate Empty Sections: 246   (Done: 20.9%)
 
 <br><br><b>NOTE: This is still an early Work-In-Progress.  It is being written linearly as a First Rough Draft without editing at the moment.  There are many typos and grammatical errors presently.</b>
 
-Lines: 2831
+Lines: 2833
 
-Words: 53194
+Words: 53277
 
 
 # Chapter 1: Preface (README.txt)
@@ -1814,9 +1814,11 @@ What defines an Operational Environment is the purpose you wish to achieve with 
 <br>
 Often it can be useful to think of an Operational Environment as a Security Zone.&nbsp;&nbsp;You allow certain people to make certain requests in each security zone.<br>
 <br>
-For example, on your laptop or desktop machines, you probably only allow yourself, and perhaps your Corporate IT department, to execute software or make configuration changes to the single machine in these environments.<br>
+For example, on your laptop or desktop machines, you probably only allow yourself, and perhaps your Corporate IT department, to execute software or make configuration changes to the single machine in these environments.&nbsp;&nbsp;We don't want people on the internet connecting to our personal machines, so we will want to restrict any external connections.<br>
 <br>
-If we move to a Quality Assurance (QA) environment, we may allow all QA engineers to make data changes, and software pushes to these machines, but we only allow certain operations staff to have administrative access, and make system-level changes, so all of the systems stay in a similar state.<br>
+If we move to a Quality Assurance (QA) environment, we may allow all QA engineers to make data changes, and software pushes to these machines, but we only allow certain operations staff to have administrative access, and make system-level changes, so all of the systems stay in a similar state.&nbsp;&nbsp;We generally don't want any external access to a QA environment, but we might allow whitelisted access for some partner companies who either provide us services, or who are doing integration with your developers.<br>
+<br>
+Looking at a Production Environment, we would want to have much more auditing, and restrictive access of who could login to servers and make changes.&nbsp;&nbsp;We also all<br>
 <p id=2880d6cb6fe0e0528df63476d031e45e><b><a href="#2880d6cb6fe0e0528df63476d031e45e">2.6.9.1</a>: Production Environment</b></p>
 <br>
 There are a couple different environments which we will be framing our discussions in, so let's get some strict definitions for them, starting with the most important, Production.<br>
