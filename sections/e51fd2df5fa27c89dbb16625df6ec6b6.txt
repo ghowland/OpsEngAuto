@@ -20,6 +20,8 @@ Some qualities of a Data Source:
 
 To be safe, the journal is written to and flushed to disk before the changes are made in the database, so if anything the internal database data is consistent with the previous changes, and only new journal entries need to be applied.
 
+There are different Consistency guarantees, and while Consistency means "will not become corrupted", there are usually many methods with which data could become corrupted, but the Consistency provisions attempt to solve those problems through various Logical steps.
+
 - Transactions: Multiple changes, such as in different tables, or multiple rows in the same table, can be applied all-at-once, in an "atomic" fashion, which means that it "cannot be split further" (Atomicity), and being the smallest-type-of-action, it is guaranteed to either not-have-started, or finished completely, before another action takes place.  
 
 Transactional changes are made sequentially, and cannot interrupt each other.  Furthermore they verify the consistency of the entire exchange, and not simply each statement, which allows more precise validation of referential integrity as well as being able to make changes that would be constraint violations if done one-at-a-time, but which are consistent when done together in a transaction.

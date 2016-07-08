@@ -7,9 +7,9 @@ Current Goal: Populate Empty Sections: 246   (Done: 20.6%)
 
 <br><br><b>NOTE: This is still an early Work-In-Progress.  It is being written linearly as a First Rough Draft without editing at the moment.  There are many typos and grammatical errors presently.</b>
 
-Lines: 2815
+Lines: 2817
 
-Words: 52823
+Words: 52860
 
 
 # Chapter 1: Preface (README.txt)
@@ -1788,6 +1788,8 @@ Some qualities of a Data Source:<br>
 - Consistency: Ensures that the data does not become corrupted in any failure situations.&nbsp;&nbsp;These situations might be the program being terminated un-cleanly, and it might use something like a journal to keep track of previous changes, and will replay this journal to ensure that recently changed data is the same as in the journal.&nbsp;&nbsp;<br>
 <br>
 To be safe, the journal is written to and flushed to disk before the changes are made in the database, so if anything the internal database data is consistent with the previous changes, and only new journal entries need to be applied.<br>
+<br>
+There are different Consistency guarantees, and while Consistency means "will not become corrupted", there are usually many methods with which data could become corrupted, but the Consistency provisions attempt to solve those problems through various Logical steps.<br>
 <br>
 - Transactions: Multiple changes, such as in different tables, or multiple rows in the same table, can be applied all-at-once, in an "atomic" fashion, which means that it "cannot be split further" (Atomicity), and being the smallest-type-of-action, it is guaranteed to either not-have-started, or finished completely, before another action takes place.&nbsp;&nbsp;<br>
 <br>
