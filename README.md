@@ -1785,7 +1785,7 @@ Some qualities of a Data Source:<br>
 <br>
 - Persistence: So that the data is saved, and if the power is turned off to the system storing the data, when the machine restarts the data will still be available.&nbsp;&nbsp;There may be corruption here, unless the Data Source also offers a Consistency guarantee.&nbsp;&nbsp;Persistence simply means that things can be discontinuous (losing power is one method to lose continuity of the service), but the data will still exist.<br>
 <br>
-- Consistency: Ensures that the data does not become corrupted in any failure situations.&nbsp;&nbsp;These situations might be the program being terminated un-cleanly, and it might use something like a journal to keep track of previous changes, and will replay this journal to ensure that recently changed data is the same as in the journal.&nbsp;&nbsp;<br>
+- Consistency: Ensures that the data does not become corrupted in any failure situations.&nbsp;&nbsp;These situations might be the program being terminated un-cleanly, and it might use something like a journal to keep track of on-going changes, and will replay this journal to ensure that recently changed data is the same as in the journal.&nbsp;&nbsp;<br>
 <br>
 To be safe, the journal is written to and flushed to disk before the "changes are made" in the database, so if anything the internal database data is consistent with the previous changes, and only new journal entries need to be applied.<br>
 <br>
