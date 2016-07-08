@@ -9,7 +9,7 @@ Current Goal: Populate Empty Sections: 248   (Done: 21.5%)
 
 Lines: 2915
 
-Words: 54739
+Words: 54741
 
 
 # Chapter 1: Preface (README.txt)
@@ -2152,7 +2152,7 @@ Operational Logic is responsible for:<br>
 <br>
 Applications are made to provide end-users with:<br>
 <br>
-- Correct results, per the Application<br>
+- Correct and timely results, per the Application<br>
 <br>
 , and have an expectation that the operational environment is working correctly to do so.&nbsp;&nbsp;This is a natural prioritization, and not an incorrect one.<br>
 <br>
