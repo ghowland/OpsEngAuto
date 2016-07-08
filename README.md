@@ -9,7 +9,7 @@ Current Goal: Populate Empty Sections: 248   (Done: 21.5%)
 
 Lines: 2915
 
-Words: 54808
+Words: 54814
 
 
 # Chapter 1: Preface (README.txt)
@@ -2156,7 +2156,7 @@ Applications are made to provide end-users with:<br>
 <br>
 Application Logic has an expectation that the operational environment is working correctly, and so error detection and handling is typically rudimentary, and output and results are intended for Application experts.&nbsp;&nbsp;This is a natural prioritization, and not an incorrect one.&nbsp;&nbsp;Only organization that have grown large enough that the long-tail problems are causing them noticeable impact should attempt to prioritize making Application Logic to be more robust, like Operational Logic, though Application Logic design can take many lessons from Operational Logic design for very cheap or equivalent cost.<br>
 <br>
-As an example, say there are a pair of relational databases in a Master/Slave configuration, and the Master node fails, because of the priorities for Application Logic, generally the application will just fail until the Master/Slave designators are updated (floating IP address or DNS name change, or from another directory-style service).&nbsp;&nbsp;<br>
+As an example, say there are a pair of relational databases in a Master/Slave configuration, and the Master node fails, because of the priorities for Application Logic, generally the application will just fail until the Master/Slave designators are updated to promote the Slave to Master (floating IP address or DNS name change, or from another directory-style service).&nbsp;&nbsp;<br>
 <br>
 There are some good reasons why Application Logic currently behaves this way.&nbsp;&nbsp;The first is that it takes extra Logic to determine what should happen if the primary database server goes away, and this will be (eventually) taken care of by the Operations team, through manual intervention or automation.<br>
 <br>
