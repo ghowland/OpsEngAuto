@@ -36,3 +36,10 @@ For these special resources they may need additional sub-environmental security 
 
 This could also be external DMZs, which are used for services that take external requests which may be considered "more dangerous" or otherwise having a different security posture requirement, which is placed into a separate special area of the network.  This allows for example a place to put a file-server that is accessible by partners or vendors, but if compromised does not give privileged access into the Production network.
 
+Roughly these 4 tiers break down into:
+
+- Authentication, authorization:  "Are you one of us?"
+- Operational Environment:  "What do we want to happen at this point?"
+- Specific Location:  "What do we do in this location that is special?"
+- Resource specific: "Is the specific resource in question special?"
+

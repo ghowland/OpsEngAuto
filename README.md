@@ -7,9 +7,9 @@ Current Goal: Populate Empty Sections: 248   (Done: 21.3%)
 
 <br><br><b>NOTE: This is still an early Work-In-Progress.  It is being written linearly as a First Rough Draft without editing at the moment.  There are many typos and grammatical errors presently.</b>
 
-Lines: 2878
+Lines: 2885
 
-Words: 54040
+Words: 54090
 
 
 # Chapter 1: Preface (README.txt)
@@ -3066,6 +3066,13 @@ Inside of a Tier 2 environment (and maybe Tier 3), there will be special resourc
 For these special resources they may need additional sub-environmental security zones, such as internal DMZs (ie: "de-militarized zones", which is like a security "draw-bridge" or "fire-wall" area).&nbsp;&nbsp;<br>
 <br>
 This could also be external DMZs, which are used for services that take external requests which may be considered "more dangerous" or otherwise having a different security posture requirement, which is placed into a separate special area of the network.&nbsp;&nbsp;This allows for example a place to put a file-server that is accessible by partners or vendors, but if compromised does not give privileged access into the Production network.<br>
+<br>
+Roughly these 4 tiers break down into:<br>
+<br>
+- Authentication, authorization:&nbsp;&nbsp;"Are you one of us?"<br>
+- Operational Environment:&nbsp;&nbsp;"What do we want to happen at this point?"<br>
+- Specific Location:&nbsp;&nbsp;"What do we do in this location that is special?"<br>
+- Resource specific: "Is the specific resource in question special?"<br>
 <p id=70a1fe53dd9bfa2e1dea47c2e80559ff><b><a href="#70a1fe53dd9bfa2e1dea47c2e80559ff">7.10.10.3</a>: Security Zones Inside Environments</b></p>
 <h3 id=e3cba7be54f69ef1b2d51192e0ef633e><a href="#e3cba7be54f69ef1b2d51192e0ef633e">7.10.11</a>: Deployments, as separate from Config</h3>
 <p id=f05b48f95386109c5c79cfc128fc44e3><b><a href="#f05b48f95386109c5c79cfc128fc44e3">7.10.11.1</a>: Code deploy</b></p>
