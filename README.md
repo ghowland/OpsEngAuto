@@ -9,7 +9,7 @@ Current Goal: Populate Empty Sections: 248   (Done: 21.3%)
 
 Lines: 2850
 
-Words: 53578
+Words: 53580
 
 
 # Chapter 1: Preface (README.txt)
@@ -3033,7 +3033,7 @@ Environments are natural Security Zones, because we have a goal in mind for ever
 <br>
 Let's make a map of what tiers we could have in security zones.<br>
 <br>
-- Tier 1: Member of the organization.&nbsp;&nbsp;Employee?<br>
+- Tier 1: Member of the organization.&nbsp;&nbsp;Employee or outsider?<br>
 <br>
 The first tier will simply be a boolean of whether a person is a member of the organization in question.&nbsp;&nbsp;"Do you work for us?"<br>
 <br>
