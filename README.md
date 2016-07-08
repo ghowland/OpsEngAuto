@@ -7,9 +7,9 @@ Current Goal: Populate Empty Sections: 248   (Done: 21.5%)
 
 <br><br><b>NOTE: This is still an early Work-In-Progress.  It is being written linearly as a First Rough Draft without editing at the moment.  There are many typos and grammatical errors presently.</b>
 
-Lines: 2910
+Lines: 2911
 
-Words: 54725
+Words: 54734
 
 
 # Chapter 1: Preface (README.txt)
@@ -2147,6 +2147,7 @@ Operational Logic is responsible for:<br>
 <br>
 - Infrastructure configuration and on-going maintenance<br>
 - Configuring Application services and maintenance assistance<br>
+- Monitoring and notification of Operational and Application state<br>
 - Solving operational failures<br>
 <br>
 Applications are made to provide end-users with correct results, and have an expectation that the operational environment is working correctly to do so.&nbsp;&nbsp;This is a natural prioritization, and not an incorrect one.<br>
