@@ -9,7 +9,7 @@ Current Goal: Populate Empty Sections: 248   (Done: 21.5%)
 
 Lines: 2896
 
-Words: 54439
+Words: 54441
 
 
 # Chapter 1: Preface (README.txt)
@@ -2115,7 +2115,7 @@ The goal of communication is the exchange of ideas, and it is important to alway
 <br>
 Is there a difference between Logic that is written for Operations automation and Logic that is written for non-Operations?<br>
 <br>
-In my opinion, there is, and it is a big difference.&nbsp;&nbsp;It doesn't need to exist, but it does exist, and they are not mildly different, but extremely different, at present (2015).<br>
+In my opinion, there is, and it is a big difference.&nbsp;&nbsp;It doesn't need to exist, but it does exist, and they are not mildly different, but extremely different, at present ({{ CURRENT_YEAR }}).<br>
 <br>
 I see this changing more in the future, as distributed programming environments not only become normal, as they are are now, but that we start to get generational levels of experience in the field.<br>
 <br>
