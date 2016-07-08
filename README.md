@@ -2021,7 +2021,7 @@ This has nothing to do with Pragmatism, as Pragmatism has no concern for the amo
 <br>
 This also covers another topic that causes confusion, which is "side-effects", and although this is useful in language to denote things that occurred that may not have been part of the "main" or "center" (hence, "side"), in truth all things are simply effects.&nbsp;&nbsp;Whether they are in the "center" or the "side" is based on your perspective, and is likely to cause partial blindness in evaluation when they are separated, instead of being seen as a single set of effects.&nbsp;&nbsp;Some effects you intended, some effects you did not intend, but they are all equally effects of the action.<br>
 <br>
-Grouping everything into only one single pool of "effects" is the better way to do this, when you prioritize for accuracy and clarity, because you are not trying to push anything to the "side-lines" and are seeing all effects as being caused by your action, and thus will evaluate that action more comprehensively.<br>
+Grouping everything into only one single pool of "effects" is the better way to do this.&nbsp;&nbsp;When you prioritize for accuracy and clarity, because you are not trying to push anything to the "side-lines" and are seeing all effects as being caused by your action, and thus will evaluate that action more comprehensively.<br>
 <br>
 What are we excluding when we only look at effects?<br>
 <br>
