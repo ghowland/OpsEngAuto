@@ -1,15 +1,15 @@
 # Operations: Engineering and Automation
 
 
-Total Sections: 315   Populated Sections: 67
-Current Goal: Populate Empty Sections: 248   (Done: 21.3%)
+Total Sections: 316   Populated Sections: 68
+Current Goal: Populate Empty Sections: 248   (Done: 21.5%)
 
 
 <br><br><b>NOTE: This is still an early Work-In-Progress.  It is being written linearly as a First Rough Draft without editing at the moment.  There are many typos and grammatical errors presently.</b>
 
 Lines: 2885
 
-Words: 54209
+Words: 54210
 
 
 # Chapter 1: Preface (README.txt)
@@ -1954,7 +1954,7 @@ Wisdom is gained from experience, and has to do with the breadth and depth of in
 <br>
 Intelligence I look at in very different perspective, which is "making an action that yields beneficial results for all parties involved."<br>
 <br>
-This is not a common definition of Intelligence, but it has a rigid definition, and comes from a brilliant article written by Carlo M. Cipolla, a professor of Economics at UC Berkeley, and is one of the greatest things I have ever read, and quite literally changed my life.&nbsp;&nbsp;I saw the world differently after having ingested it, and am much better for it.<br>
+This is not a common definition of Intelligence, but it has a rigid definition, and comes from a brilliant article written by Carlo M. Cipolla, a professor of Economics at UC Berkeley, and is one of the greatest things I have ever read, and quite literally changed my life.&nbsp;&nbsp;I saw the world differently after having ingested it, and am the much better for it.<br>
 <br>
 The article is entitled "The Basic Laws of Human Stupidity", and while it's title and subject matter focus on "Stupidity" (anti-Intelligence), it's real function for me was to qualitatively and quantitatively define what intelligence is.&nbsp;&nbsp;He puts it on a 2D graph, and charts it, and allows for pinpointing different kinds of Intelligent and Anti-Intelligent actions.&nbsp;&nbsp;Try not to let the negative sounding name cause you to avoid this information, it is a very important set of thoughts he has encoded there-in.<br>
 <br>
