@@ -18,7 +18,7 @@ Some qualities of a Data Source:
 
 - Consistency: Ensures that the data does not become corrupted in any failure situations.  These situations might be the program being terminated un-cleanly, and it might use something like a journal to keep track of previous changes, and will replay this journal to ensure that recently changed data is the same as in the journal.  
 
-To be safe, the journal is written to and flushed to disk before the changes are made in the database, so if anything the internal database data is consistent with the previous changes, and only new journal entries need to be applied.
+To be safe, the journal is written to and flushed to disk before the "changes are made" in the database, so if anything the internal database data is consistent with the previous changes, and only new journal entries need to be applied.
 
 There are different Consistency guarantees, and while Consistency means "will not become corrupted", there are usually many methods with which data could become corrupted, but the Consistency provisions attempt to solve those problems through various Logical steps.
 
