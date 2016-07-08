@@ -44,6 +44,8 @@ Philosophy is about depth, and the ability to inspect things from different angl
 
 This is a "Machine" in which we can know it will never halt.  There is no final exit or return from Philosophy, it is a rabbit hole that never ends, and goes as deep as you are willing to look, and the detail expands to meet any closer inspection.  What is true from one perspective, or frame of values, is false from another.  It's flexibility to reframe data is infinite.
 
+{{ todo: Cleanup needed immediately below. }}
+
 This is do to "Why?"  Why?  Why?  Why?  Why?  ...
 
 I think Philosophy has a bad-wrap these days, and I hope to show, if only in a thin slice, that there is a way to use Philosophical ideas in a practical way to add clarity and improved performance in your life and work.
