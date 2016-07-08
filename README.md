@@ -9,7 +9,7 @@ Current Goal: Populate Empty Sections: 248   (Done: 21.3%)
 
 Lines: 2885
 
-Words: 54144
+Words: 54198
 
 
 # Chapter 1: Preface (README.txt)
@@ -1908,7 +1908,7 @@ This database provides limited atomic transactions.&nbsp;&nbsp;Transactions are 
 <br>
 So, this terrible database accepts things as Transactions, and journals the transactions, but it doesn't flush the journal as part of the transaction success criteria to make it Atomic, so you might have partial transactions written on the disk.&nbsp;&nbsp;This is actually always potentially true, since a power failure could cause a partial transfer, in some hardware configurations, but the difference is that a successful result would already be returned to the client, even though the write will later fail to complete.<br>
 <br>
-In practice, modern controllers accept a queue of IO requests, and can do some optimizations on them, depending on the construction of the storage medium (what type of disk/etc), and so flushing merely pushes more things onto this queue, and if you cant put more things into the queue, you have already maxed out your throughput in this configuration.<br>
+In practice, modern controllers accept a queue of IO requests, and can do some optimizations on them, depending on the construction of the storage medium (what type of disk/etc), and so flushing merely pushes more things onto this queue, and if you cant put more things into the queue, you have already maxed out your throughput in this configuration.&nbsp;&nbsp;Unless the queue has a battery backup to complete operations in case of primary power failure, than power failure will always potentially cause writes to fail that you think were accepted.&nbsp;&nbsp;Unless you force your OS to not complete writes until the storage device has ensured it was written (which has a performance penalty).<br>
 <br>
 In this case, it is possible that the queue can take more total IO requests if they are batched, and for a given workload and hardware specification, you may need to do this.&nbsp;&nbsp;Moving on.<br>
 <br>
