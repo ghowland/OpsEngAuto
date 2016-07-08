@@ -2125,7 +2125,7 @@ Application Logic&nbsp;&nbsp;<----->&nbsp;&nbsp;Operational Logic<br>
 <br>
 For instance, in a Production web serving environment, you frequently have "Application Servers" which might run Java Tomcat, JBoss, or Ruby on Rails, or a Python, or other Logic required for producing dynamic web content.<br>
 <br>
-These would be "Application" Logic in this terminology, as I'm using it.<br>
+These would be "Application Logic" in this terminology, as I'm using it.<br>
 <br>
 So, what is the difference between Application Logic and Operational Logic?<br>
 <br>
