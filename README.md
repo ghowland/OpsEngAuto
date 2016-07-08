@@ -9,7 +9,7 @@ Current Goal: Populate Empty Sections: 248   (Done: 21.5%)
 
 Lines: 2894
 
-Words: 54388
+Words: 54387
 
 
 # Chapter 1: Preface (README.txt)
@@ -2108,7 +2108,7 @@ This can also be a useful tool in determining if you understood someone correctl
 <br>
 The "Expert's Curse" is a real thing, and doesn't just ruin movie plots ("We are 10 digits into hacking the mainframe password, but they are using 49-bit encryption, so it will take two more hours.&nbsp;&nbsp;You need it done in 10 minutes?&nbsp;&nbsp;We'll make it happen."), but also can ruin the intention of any type of alternative explanation, which is trying to expand on an idea in a hand-wavy-kind-of-way.<br>
 <br>
-This is an attempt to get you to use more information than what is being provided, which you already internally know, instead of explicitly providing all the information.&nbsp;&nbsp;People have amazing inherent skills great at filling in this information, and while this works best in spoken conversations (say, where you could finish the other person's sentence), metaphors are an attempt to do that explicitly by providing a non-related but comparable reference.<br>
+This is an attempt to get you to use more information than what is being provided, which you already internally know, instead of explicitly providing all the information.&nbsp;&nbsp;People have amazing inherent skills at filling in this information, and while this works best in spoken conversations (say, where you could finish the other person's sentence), metaphors are an attempt to do that explicitly by providing a non-related but comparable reference.<br>
 <h2 id=a941939e629b2be25c1ba265cbd9aaed><a href="#a941939e629b2be25c1ba265cbd9aaed">3.2</a>: Difference between Application and Operational Logic</h2>
 <br>
 Is there a difference between Logic that is written for Operations automation and Logic that is written for non-Operations?<br>
