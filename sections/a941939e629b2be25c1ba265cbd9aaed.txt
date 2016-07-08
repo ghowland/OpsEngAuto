@@ -57,4 +57,4 @@ While I think with better education, and better base-libraries we can solve thes
 
 Another thing that Operational Logic needs to do, is to simply have more information about the operational environment.  Seems like common sense, but since we are building from the foundations, it is necessary to state the details.  Without meta information about the environment, Operational Logic will not be able to make the same kind of decisions that a Human performing Manual changes would have access to.
 
-As we get into what it takes to construct Operational Logic the brief description I have given here will be born out by many more details and along many more axes, to determine how these things are different, but for now it is sufficient that we can see that they are indeed different things.
+As we get into what it takes to construct Operational Logic the brief description I have given here will be born out by many more details and along many more axes, which will give better insight into  how these things are different, but for now it is sufficient that we can see that Application and Operational Logic are indeed different things.

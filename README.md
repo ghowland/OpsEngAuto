@@ -9,7 +9,7 @@ Current Goal: Populate Empty Sections: 248   (Done: 21.5%)
 
 Lines: 2915
 
-Words: 54995
+Words: 55002
 
 
 # Chapter 1: Preface (README.txt)
@@ -2170,7 +2170,7 @@ While I think with better education, and better base-libraries we can solve thes
 <br>
 Another thing that Operational Logic needs to do, is to simply have more information about the operational environment.&nbsp;&nbsp;Seems like common sense, but since we are building from the foundations, it is necessary to state the details.&nbsp;&nbsp;Without meta information about the environment, Operational Logic will not be able to make the same kind of decisions that a Human performing Manual changes would have access to.<br>
 <br>
-As we get into what it takes to construct Operational Logic the brief description I have given here will be born out by many more details and along many more axes, to determine how these things are different, but for now it is sufficient that we can see that they are indeed different things.<br>
+As we get into what it takes to construct Operational Logic the brief description I have given here will be born out by many more details and along many more axes, which will give better insight into&nbsp;&nbsp;how these things are different, but for now it is sufficient that we can see that Application and Operational Logic are indeed different things.<br>
 <h3 id=1e13f344d1ae44173a1f9532c809f6b1><a href="#1e13f344d1ae44173a1f9532c809f6b1">3.2.1</a>: Many applications and services.&nbsp;&nbsp;One Operational environment</h3>
 <br>
 Another difference between Operational Logic and Application Logic has to do with the nature of their environments.<br>
