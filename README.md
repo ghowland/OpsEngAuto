@@ -2145,7 +2145,7 @@ The differences between Application and Operational Logic are due to differences
 <br>
 Operational Logic is responsible for:<br>
 <br>
-- Infrastructure configuration and continued maintenance<br>
+- Infrastructure configuration and on-going maintenance<br>
 - Configuring Application services<br>
 - Solving operational failures<br>
 <br>
