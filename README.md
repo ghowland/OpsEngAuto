@@ -9,7 +9,7 @@ Current Goal: Populate Empty Sections: 248   (Done: 21.5%)
 
 Lines: 2896
 
-Words: 54487
+Words: 54483
 
 
 # Chapter 1: Preface (README.txt)
@@ -2117,7 +2117,7 @@ Is there a difference between Logic that is written for Operations automation an
 <br>
 In my opinion, there is, and it is a big difference.&nbsp;&nbsp;It doesn't need to exist, but it does exist, and they are not mildly different, but extremely different, at present ({{ CURRENT_YEAR }}).<br>
 <br>
-I see this changing more in the future, as distributed programming environments not only become normal, as they are are now, but that we start to get generational levels of experience in the field.&nbsp;&nbsp;Generation Levels of Experience is required because there are many lessons to be learned, and then summarized, and then classified, and then come up with procedures for handling, and then generationally iterate on all of this, and this work has barely begun, as of this writing.<br>
+I see this changing more in the future, as distributed programming environments not only become normal, as they are are now, but that we start to get generational levels of experience in the field.&nbsp;&nbsp;Generation Levels of Experience is required because there are many lessons to be learned, and then summarized, and then classified, and then come up with procedures for handling, and then generationally iterate on all of this, and this work has barely begun.<br>
 <br>
 I will call non-Operational Logic "Application Logic", even though it may not strictly fit your definition of what an Application is, since it changes under different contexts.<br>
 <br>
