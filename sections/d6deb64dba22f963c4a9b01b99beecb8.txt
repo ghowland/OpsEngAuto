@@ -1,3 +1,9 @@
 ### [[7.10.10.2: Tiered Security Zones]]
 
+Let's make a map of what tiers we could have in security zones.
 
+- Tier 1: Member of the organization.  Employee?
+
+The first tier will simply be a boolean of whether a person is a member of the organization in question.  "Do you work for us?"
+
+This is a basic question of insider vs. outsider.  This tier can have additional children tiers for all departments and groups in an organization, as wall as professional rank, such as Vice President (VP) vs. Engineer will be two different levels of tiered security in the employee category.
