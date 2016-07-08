@@ -12,6 +12,8 @@ This has blurred lines for Contractors, Consultants, Vendors and Partners.
 
 Contractors are paid as work-for-hire "employees", without the employee benefits.  This is usually focused on individuals that are contracted for work, but sometimes is a separate organization who is contracted (usually for lower level work, or non-core services).  Contractors will usually have similar access to employees at their same level, with perhaps some additional restrictions to making changes or seeing sensitive information.
 
-Consultants are short-term or contracted for specific work, and often for informational work, rather than manual labor type work (including technical manual labor, like writing code in this).
+Consultants are short-term or contracted for specific work, and often for informational work, rather than manual labor type work (including technical manual labor, like writing code in this).  Consultants are often given very limited access to a company's data and resources, as they have a specific task to perform which does not need general employee-level access.
 
-Vendors are organizations who sell software, hardware or services to an organization, and are not associated with any individuals.  Vendors are generally not considered 
+Vendors are organizations who sell software, hardware or services to an organization, and are not associated with any individuals.  Vendors are generally not given any access to data or resources, except in the case of special technical support investigations, which are rare and may still not be allowed by organizations who are serious about security.
+
+Partners are a mix between contractors, consultants and vendors.  They may be a Vendor, which is making a co-sponsored project with your organization, and so they need limited access to all relevant project data and may need resource access to test integration.  Partner employees may be given contractor or consultant level access, depending on the partnership goals and time lines.
