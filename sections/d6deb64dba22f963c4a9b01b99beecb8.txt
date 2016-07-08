@@ -17,3 +17,9 @@ Consultants are short-term or contracted for specific work, and often for inform
 Vendors are organizations who sell software, hardware or services to an organization, and are not associated with any individuals.  Vendors are generally not given any access to data or resources, except in the case of special technical support investigations, which are rare and may still not be allowed by organizations who are serious about security.
 
 Partners are a mix between contractors, consultants and vendors.  They may be a Vendor, which is making a co-sponsored project with your organization, and so they need limited access to all relevant project data and may need resource access to test integration.  Partner employees may be given contractor or consultant level access, depending on the partnership goals and time lines.
+
+- Tier 2: Environment level.  Production, staging, QA, development?
+
+This is a statement of a basic operational environment.  Where are you?  What are you allowed to do here?
+
+Described thoroughly here {{ section_ }}
