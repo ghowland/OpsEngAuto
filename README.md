@@ -2143,7 +2143,7 @@ Don't misunderstand me and construe that I am criticizing Application Logic or t
 <br>
 The differences between Application and Operational Logic are due to differences in priorities and responsibilities.<br>
 <br>
-Operation Logic is responsible for infrastructure working, and is responsible for solving operational failures.&nbsp;&nbsp;Applications are made to provide end-users with correct results, and have an expectation that the operational environment is working correctly to do so.&nbsp;&nbsp;This is a natural prioritization, and not an incorrect one.<br>
+Operational Logic is responsible for infrastructure working, and is responsible for solving operational failures.&nbsp;&nbsp;Applications are made to provide end-users with correct results, and have an expectation that the operational environment is working correctly to do so.&nbsp;&nbsp;This is a natural prioritization, and not an incorrect one.<br>
 <br>
 For example, say there are a pair of relational databases in a Master/Slave configuration, and the Master node fails, because of the priorities for Application Logic, generally the application will just fail until the Master/Slave designators (floating IP address or DNS name change, or from another directory-style service).&nbsp;&nbsp;<br>
 <br>
