@@ -16,4 +16,4 @@ Operational Environments, and their corresponding view as a Security Zone, is an
 
 How do we ensure all of this stays consistent?  How do we maintain this, make changes, and automate regularly occurring processes?  What about monitoring and alerting on things we care about?
 
-All of these will change every time you change what Operational Environment classification you are currently in.
+All of these will change every time you change what Operational Environment classification you are in.
