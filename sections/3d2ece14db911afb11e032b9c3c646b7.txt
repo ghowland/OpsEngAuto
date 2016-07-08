@@ -25,7 +25,7 @@ I ended up writing these "Right to Left" in terms of the subject being in a full
 
 Now that we have these two axes, which we could use in the Cartesian coordinate system, we can plot a point on it, and then create text that describes that point.  This is a sort of generative tool, in which one can use one's knowledge of an information space to generate any amount of specific data.
 
-If you are familiar with any sort of procedural generation, this yields the same kind of effect that Perlin or Simplex Noise allowed in procedural generation, in that because the pattern remained consistent whether viewed from "from away" or "up close", procedurally generated content (images, models, clouds, cities, whatever) could scale to "infinite" detail, either looking at the "big picture" or with a magnifying glass.
+If you are familiar with any sort of procedural generation, this yields the same kind of effect that Perlin or Simplex Noise allowed in procedural generation, in that because the pattern remained consistent whether viewed from "from away" or "up close".  Procedurally generated content (images, models, clouds, cities, whatever) could scale to "infinite" detail, either looking at the "big picture" or with a magnifying glass.
 
 In the same way, this generative tool of mapping axes to an information space, and then using your own understanding of that space to extrapolate what text would describe that point in those axes' space.  
 
