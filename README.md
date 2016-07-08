@@ -9,7 +9,7 @@ Current Goal: Populate Empty Sections: 248   (Done: 21.5%)
 
 Lines: 2898
 
-Words: 54498
+Words: 54501
 
 
 # Chapter 1: Preface (README.txt)
@@ -2121,7 +2121,7 @@ I see this changing more in the future, as distributed programming environments 
 <br>
 I will call non-Operational Logic "Application Logic", even though it may not strictly fit your definition of what an Application is, since it changes under different contexts.&nbsp;&nbsp;If we we're to put this on an axis, we could call it:<br>
 <br>
-Application&nbsp;&nbsp;<-----><br>
+Application Logic&nbsp;&nbsp;<----->&nbsp;&nbsp;Operational Logic<br>
 <br>
 For instance, in a Production web serving environment, you frequently have "Application Servers" which might run Java Tomcat, JBoss, or Ruby of Rails, or a Python, or other Logic required for producing dynamic web content.<br>
 <br>
