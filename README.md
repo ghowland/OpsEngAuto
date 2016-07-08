@@ -9,7 +9,7 @@ Current Goal: Populate Empty Sections: 248   (Done: 21.3%)
 
 Lines: 2885
 
-Words: 54198
+Words: 54205
 
 
 # Chapter 1: Preface (README.txt)
@@ -1910,7 +1910,7 @@ So, this terrible database accepts things as Transactions, and journals the tran
 <br>
 In practice, modern controllers accept a queue of IO requests, and can do some optimizations on them, depending on the construction of the storage medium (what type of disk/etc), and so flushing merely pushes more things onto this queue, and if you cant put more things into the queue, you have already maxed out your throughput in this configuration.&nbsp;&nbsp;Unless the queue has a battery backup to complete operations in case of primary power failure, than power failure will always potentially cause writes to fail that you think were accepted.&nbsp;&nbsp;Unless you force your OS to not complete writes until the storage device has ensured it was written (which has a performance penalty).<br>
 <br>
-In this case, it is possible that the queue can take more total IO requests if they are batched, and for a given workload and hardware specification, you may need to do this.&nbsp;&nbsp;Moving on.<br>
+In this case, it is possible that the queue can take more total IO requests if they are batched, and for a given workload and hardware specification, you may need to do this, understanding the performance to consistency trade offs.&nbsp;&nbsp;Moving on.<br>
 <br>
 <br>
 What if we had a Specific value of 0.0, instead of 0.75?<br>
