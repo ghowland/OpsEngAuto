@@ -2129,7 +2129,7 @@ These would be "Application Logic" in this terminology, as I'm using it.<br>
 <br>
 **What is the difference between Application Logic and Operational Logic?**<br>
 <br>
-The main difference is Resiliency and Minimal Dependencies, and these have a number of parts.&nbsp;&nbsp;Some examples:<br>
+The main difference is Resiliency and Minimal Dependencies, and these have a number of sub-parts.&nbsp;&nbsp;Some examples:<br>
 <br>
 - Application Logic requires that the environment that it runs in be configured, or the Logic will fail, and often will fall non-gracefully.&nbsp;&nbsp;How gracefully it fails generally has to do with how "mature" the Logic is, in terms of it's life cycle.<br>
 <br>
