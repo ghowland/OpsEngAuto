@@ -1998,7 +1998,7 @@ Transitioning back to Wisdom (Note to self: Awesome segue!):<br>
 <br>
 One simple way to see Wisdom is "good ideas".<br>
 <br>
-To keep things simple and say, "I love good ideas", is why I love and heavily utilitize methods of philosophy.&nbsp;&nbsp;I make use of different kinds of philosophies in my own ways, I take their definitions and interpret them in my own meanings, and I mix and match pieces wherever I need to, as configurable tools to be used in understanding the problem I have at hand, and manipulating them into what I what I want it to become, to get the results I want.<br>
+To keep things simple and say, "I love good ideas", is why I love and heavily utilitize methods of philosophy.&nbsp;&nbsp;I make use of different kinds of philosophies in my own ways, I take their definitions and interpret them in my own meanings, and I mix and match pieces wherever I need to, as configurable tools to be used in understanding the problem I have at hand, and manipulating them into what I what I want them to become, to get the results I want.<br>
 <br>
 This is what philosophy is an element of, for me, and in this book, it will be how I will go about using it, and referencing it.<br>
 <h2 id=af1f8c9950e296d130a668076e4ba88b><a href="#af1f8c9950e296d130a668076e4ba88b">2.7</a>: The Philosophy of Pragmatism</h2>
