@@ -2035,7 +2035,7 @@ Again, this ability to scale in or out from details, is an important skill that 
 <br>
 I like to give examples with every topic I introduce, but I don't think it's the right time to go into a deeper example on this topic, so we will just touch the surface of an example we will soon delve into deeper.<br>
 <br>
-How can we use Pragmatism to get better results?<br>
+**How can we use Pragmatism to get better results?**<br>
 <br>
 For instance, one thing that we are concerned about greatly in Production Operations is "up-time", which is the Availability of our services.<br>
 <br>
