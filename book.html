@@ -7,7 +7,7 @@ Current Goal: Populate Empty Sections: 248   (Done: 21.5%)
 <br>
 Lines: 2915<br>
 <br>
-Words: 54806<br>
+Words: 54808<br>
 <br>
 <h1 id=48152466029dfcb314ccad4d502d1a73><a href="#48152466029dfcb314ccad4d502d1a73">Chapter 1</a>: Preface (README.txt)</h1>
 <br>
@@ -2115,7 +2115,7 @@ Applications are made to provide end-users with:<br>
 <br>
 Application Logic has an expectation that the operational environment is working correctly, and so error detection and handling is typically rudimentary, and output and results are intended for Application experts.&nbsp;&nbsp;This is a natural prioritization, and not an incorrect one.&nbsp;&nbsp;Only organization that have grown large enough that the long-tail problems are causing them noticeable impact should attempt to prioritize making Application Logic to be more robust, like Operational Logic, though Application Logic design can take many lessons from Operational Logic design for very cheap or equivalent cost.<br>
 <br>
-As an example, say there are a pair of relational databases in a Master/Slave configuration, and the Master node fails, because of the priorities for Application Logic, generally the application will just fail until the Master/Slave designators (floating IP address or DNS name change, or from another directory-style service).&nbsp;&nbsp;<br>
+As an example, say there are a pair of relational databases in a Master/Slave configuration, and the Master node fails, because of the priorities for Application Logic, generally the application will just fail until the Master/Slave designators are updated (floating IP address or DNS name change, or from another directory-style service).&nbsp;&nbsp;<br>
 <br>
 There are some good reasons why Application Logic currently behaves this way.&nbsp;&nbsp;The first is that it takes extra Logic to determine what should happen if the primary database server goes away, and this will be (eventually) taken care of by the Operations team, through manual intervention or automation.<br>
 <br>
