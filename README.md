@@ -9,7 +9,7 @@ Current Goal: Populate Empty Sections: 248   (Done: 21.8%)
 
 Lines: 2933
 
-Words: 55244
+Words: 55245
 
 
 # Chapter 1: Preface (README.txt)
@@ -2925,7 +2925,7 @@ If we did not automate a solution, we would need to show up (as a human), and se
 <br>
 When we pre-solve a problem, we are figuring out in advance how to detect a problem, how to "see it" with monitoring data collection, and creating troubleshooting logic (testing the environment) to determine how to solve a given set of problems.<br>
 <br>
-If we are comprehensive about which problems can occur, and we are comprehensive about what states the problems may contain, it is possible to Black Box an entire set of problems so that they can be solved with Logic instead of Humans.<br>
+If we are comprehensive about describing which problems can occur, and we are comprehensive about what states the problems may contain, it is possible to Black Box an entire set of problems so that they can be solved with Logic instead of Humans.<br>
 <br>
 This is what makes the elimination of Classes of Work possible.<br>
 <br>
