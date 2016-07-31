@@ -1,15 +1,15 @@
 # Operations: Engineering and Automation
 
 
-Total Sections: 319   Populated Sections: 70
-Current Goal: Populate Empty Sections: 249   (Done: 21.9%)
+Total Sections: 319   Populated Sections: 71
+Current Goal: Populate Empty Sections: 248   (Done: 22.3%)
 
 
 <br><br><b>NOTE: This is still an early Work-In-Progress.  It is being written linearly as a First Rough Draft without editing at the moment.  There are many typos and grammatical errors presently.</b>
 
-Lines: 2942
+Lines: 2946
 
-Words: 55353
+Words: 55389
 
 
 # Chapter 1: Preface (README.txt)
@@ -3292,6 +3292,10 @@ So we can tune the discussion to any parameter for both this spectrum, and any r
 <br>
 My point was mostly that we should not lose out on efficiency, if we desire efficiency, because we also desire commonality.&nbsp;&nbsp;As they have a spectrum between them.&nbsp;&nbsp;(Almost anything can be put with anything else into a spectrum, like two points making a line segment, so I'm not drawing from any specific examples here, more in idea-space)<br>
 <h2 id=013f970372d2f2259b0f133564b0c04a><a href="#013f970372d2f2259b0f133564b0c04a">9.9</a>: The Similarities of All Code</h2>
+<br>
+Explain how all code is similar, and all programs are implementing 95%+ the same functionality, and 5%- unique functionality.<br>
+<br>
+Explain how to take this apart and put it back together again, and how to apply it.<br>
 <h2 id=822a93e6d35a5d2173bda4a30b16591b><a href="#822a93e6d35a5d2173bda4a30b16591b">9.10</a>: Releasing the poison</h2>
 <br>
 This is the only non-Operations advice that I will give in this book, because I think it is the most important non-technical advice I can give, and it has to do with inter-human communication and inter-human relationships.<br>

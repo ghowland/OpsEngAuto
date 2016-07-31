@@ -1,3 +1,5 @@
 ### [[9.9: The Similarities of All Code]]
 
+Explain how all code is similar, and all programs are implementing 95%+ the same functionality, and 5%- unique functionality.
 
+Explain how to take this apart and put it back together again, and how to apply it.
