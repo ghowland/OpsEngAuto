@@ -1,3 +1,19 @@
 ### [[4.6.1: Pre-Solving Problems]]
 
+What are we doing when we automate?
 
+We are pre-solving problems.
+
+If we did not automate a solution, we would need to show up (as a human), and see what needs to be done, and then do it.
+
+When we pre-solve a problem, we are figuring out in advance how to see a problem, how to "see it" with monitoring data collection and troubleshooting logic (testing the environment) to determine how to solve a given set of problems.
+
+If we are comprehensive about which problems can occur, and we are comprehensive about what states the problems may contain, it is possible to Black Box an entire set of problems so that they can be solved with Logic instead of Humans.
+
+This is what makes the elimination of Classes of Work possible.
+
+Through understanding our environments and using systemic thinking and the Slicing The Pie technique to ensure we have comprehensive coverage of anything we are looking at, we can pre-solve problems by going through all their states.
+
+In testing our solutions, we will find mistakes and incorrect assumptions we have made, and over time Reality will inform us of additional mistakes, incorrect assumptions and also context's we were not aware of, or did not prioritized.
+
+As these new areas are added to our awareness, and we prioritize them we will continue to slice the pie into more sections which allow us to cope with these problems and pre-solve them as well.
