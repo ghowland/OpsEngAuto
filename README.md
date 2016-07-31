@@ -2941,7 +2941,7 @@ This is what makes the elimination of Classes of Work possible.<br>
 <br>
 Through understanding our environments and using systemic thinking and the Slicing The Pie technique to ensure we have comprehensive coverage of anything we are looking at, we can pre-solve problems by going through all their states.<br>
 <br>
-In testing our solutions, we will find mistakes and incorrect assumptions we have made, and over time Reality will inform us of additional mistakes, incorrect assumptions and also contexts we were not aware of, or did not prioritized.<br>
+In testing our solutions, we will find mistakes and incorrect assumptions we have made, and over time Reality will inform us of additional mistakes, incorrect assumptions and also contexts we were not aware of, or did not prioritize.<br>
 <br>
 As these new areas are added to our awareness, and we prioritize them we will continue to slice the pie into more sections which allow us to cope with these problems and pre-solve them as well.<br>
 <h2 id=18279c1b25b35838b531d26379bf8feb><a href="#18279c1b25b35838b531d26379bf8feb">4.7</a>: Total elimination of manual work.&nbsp;&nbsp;How to remove classes of work from being necessary.</h2>
