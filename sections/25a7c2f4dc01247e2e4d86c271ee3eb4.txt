@@ -1,3 +1,11 @@
 ### [[3.5.1.8: Types of Complexity]]
 
+There are a number of different kinds of complexity that we have to cope with while performing Engineering tasks.  Let's enumerate them so we can refer to them explicitly, instead of clumping them all together as "complexity" or having to describe them each time.
+
+Each of these types of complexity also represent a spectrum or axis, as we only think of complexity as something heads toward 1.0, while things closer to 0.0 on the axis are seen as simple.
+
+This means that any issue can be evaluated on all types of complexity, to get a better understanding of it's total "complexity shape".
+
+- Large-scale Complexity
+- Detail Complexity
 

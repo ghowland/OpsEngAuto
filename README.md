@@ -1,15 +1,15 @@
 # Operations: Engineering and Automation
 
 
-Total Sections: 318   Populated Sections: 69
-Current Goal: Populate Empty Sections: 249   (Done: 21.7%)
+Total Sections: 318   Populated Sections: 70
+Current Goal: Populate Empty Sections: 248   (Done: 22.0%)
 
 
 <br><br><b>NOTE: This is still an early Work-In-Progress.  It is being written linearly as a First Rough Draft without editing at the moment.  There are many typos and grammatical errors presently.</b>
 
-Lines: 2933
+Lines: 2942
 
-Words: 55245
+Words: 55353
 
 
 # Chapter 1: Preface (README.txt)
@@ -2837,6 +2837,15 @@ Now, let's come up with another spectrum, which I will call Knowability (as we h
 <p id=cd0b3e19dbeb9aa7495f50e8b3698932><b><a href="#cd0b3e19dbeb9aa7495f50e8b3698932">3.5.1.7.1</a>: Named servers (1-1), position and datacenter are known.&nbsp;&nbsp;Utilty is anonymous server, not anonymous location, position unknown, location known.&nbsp;&nbsp;Cloud is anonymous name and location.&nbsp;&nbsp;You dont care what server in a DC it is, or what DC it is in.</b></p>
 <p id=cc126bbb155f6cf8bd48d01908206040><b><a href="#cc126bbb155f6cf8bd48d01908206040">3.5.1.7.1.1</a>: What do you have to care about?&nbsp;&nbsp;The exact machine?&nbsp;&nbsp;The DC in general?&nbsp;&nbsp;Nothing, only that the service is reachable, and it can be reachable from anywhere?</b></p>
 <p id=25a7c2f4dc01247e2e4d86c271ee3eb4><b><a href="#25a7c2f4dc01247e2e4d86c271ee3eb4">3.5.1.8</a>: Types of Complexity</b></p>
+<br>
+There are a number of different kinds of complexity that we have to cope with while performing Engineering tasks.&nbsp;&nbsp;Let's enumerate them so we can refer to them explicitly, instead of clumping them all together as "complexity" or having to describe them each time.<br>
+<br>
+Each of these types of complexity also represent a spectrum or axis, as we only think of complexity as something heads toward 1.0, while things closer to 0.0 on the axis are seen as simple.<br>
+<br>
+This means that any issue can be evaluated on all types of complexity, to get a better understanding of it's total "complexity shape".<br>
+<br>
+- Large-scale Complexity<br>
+- Detail Complexity<br>
 <h2 id=b897d8c3f141f288841664b42ade8068><a href="#b897d8c3f141f288841664b42ade8068">3.6</a>: Code management.&nbsp;&nbsp;How to canary.&nbsp;&nbsp;How to test.&nbsp;&nbsp;Vagrant and virtual testing.</h2>
 <h2 id=44e191e4a8799ec4d8239c53a915b728><a href="#44e191e4a8799ec4d8239c53a915b728">3.7</a>: Perfect is the enemy of done.&nbsp;&nbsp;Worse is better.&nbsp;&nbsp;How much safety can you afford?</h2>
 <h3 id=d98cb46eb6a0d64a68131fa80be27a81><a href="#d98cb46eb6a0d64a68131fa80be27a81">3.7.1</a>: Quality is never #1, utility is.&nbsp;&nbsp;Once it's "good enough", it is abandoned for higher priority things.</h3>
