@@ -9,7 +9,7 @@ Current Goal: Populate Empty Sections: 248   (Done: 22.5%)
 
 Lines: 2960
 
-Words: 55560
+Words: 55561
 
 
 # Chapter 1: Preface (README.txt)
@@ -3300,7 +3300,7 @@ Explain how to take this apart and put it back together again, and how to apply 
 <br>
 {{ todo__needs_editing__maybe_moved_into_another_section }}<br>
 <br>
-Removing the real-worldness of things always makes them easier to abstract, and also makes them unequipped to solve real-world problems as-is.<br>
+Removing the real-worldness of things always makes them easier to abstract, and also makes them unequipped to solve any real-world problems as-is.<br>
 <br>
 Many times when the real-world problem is finally solved with the non-real-worldness-based abstracted solution, the fit is not a good one, because the abstracted solution factored out critical elements of the problem, and now the problem is solved less efficiently, and in some cases too inefficiently.<br>
 <br>
