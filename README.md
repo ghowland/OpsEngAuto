@@ -3296,7 +3296,8 @@ My point was mostly that we should not lose out on efficiency, if we desire effi
 Explain how all code is similar, and all programs are implementing 95%+ the same functionality, and 5%- unique functionality.<br>
 <br>
 Explain how to take this apart and put it back together again, and how to apply it.<br>
-<h2 id=822a93e6d35a5d2173bda4a30b16591b><a href="#822a93e6d35a5d2173bda4a30b16591b">9.10</a>: Releasing the poison</h2>
+<h2 id=5ac173696667f68ef9bd32089e41e060><a href="#5ac173696667f68ef9bd32089e41e060">9.10</a>: Penalties of Over-Abstraction</h2>
+<h2 id=822a93e6d35a5d2173bda4a30b16591b><a href="#822a93e6d35a5d2173bda4a30b16591b">9.11</a>: Releasing the poison</h2>
 <br>
 This is the only non-Operations advice that I will give in this book, because I think it is the most important non-technical advice I can give, and it has to do with inter-human communication and inter-human relationships.<br>
 <br>
