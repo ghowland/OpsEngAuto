@@ -3302,7 +3302,7 @@ Explain how to take this apart and put it back together again, and how to apply 
 <br>
 Removing the real-worldness of things always makes them easier to abstract, and also makes them unequipped to solve any real-world problems as-is.<br>
 <br>
-Many times when the real-world problem is finally solved with the non-real-worldness-based abstracted solution, the fit is not a good one, because the abstracted solution factored out critical elements of the problem, and now the problem is solved less efficiently, and in some cases too inefficiently.<br>
+Many times when a real-world problem is finally solved with the non-real-worldness-based abstracted solution, the fit is not a good one, because the abstracted solution factored out critical elements of the problem, and now the problem is solved less efficiently, and in some cases too inefficiently.<br>
 <br>
 It yields better results to design a solution to an exact problem, so that you can solve it as efficiently as possible, and then abstract the solution into two split abstracted and real-world components.<br>
 <br>
