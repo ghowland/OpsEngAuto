@@ -1,15 +1,15 @@
 # Operations: Engineering and Automation
 
 
-Total Sections: 326   Populated Sections: 76
-Current Goal: Populate Empty Sections: 250   (Done: 23.3%)
+Total Sections: 326   Populated Sections: 77
+Current Goal: Populate Empty Sections: 249   (Done: 23.6%)
 
 
 <br><br><b>NOTE: This is still an early Work-In-Progress.  It is being written linearly as a First Rough Draft without editing at the moment.  There are many typos and grammatical errors presently.</b>
 
-Lines: 3025
+Lines: 3030
 
-Words: 56880
+Words: 56908
 
 
 # Chapter 1: Preface (README.txt)
@@ -3255,6 +3255,11 @@ This is where the UMCs and UMCRs come into play.<br>
 <br>
 Your logical OpsDB for controlling your system is a UMC, and your other OpsDB for meeting your other goals is another UMC, and the UMCRs connect them and allow them to work together, with their different views, but in complementary and non-conflicting ways.<br>
 <h2 id=2829f790c87aab7f136a97f515a3c8d0><a href="#2829f790c87aab7f136a97f515a3c8d0">9.4</a>: N-M-... Layer Systems</h2>
+<br>
+<br>
+Give examples of how we would need different systems that work together, and brief mappings between them.<br>
+<br>
+Use things like physical infrastructure, gas or electrical delivery grids, etc.<br>
 
 # Chapter 10: General Advice
 

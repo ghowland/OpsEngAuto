@@ -1,3 +1,7 @@
 ### [[9.4: N-M-... Layer Systems]]
 
 
+Give examples of how we would need different systems that work together, and brief mappings between them.
+
+Use things like physical infrastructure, gas or electrical delivery grids, etc.
+
