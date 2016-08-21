@@ -3476,6 +3476,7 @@ This, however, does not mean that I ignore problems because "problems are negati
 I don't recommend trying to phrase problems as opportunities all the time, because it leads to sounding unrealistic, but if you look at them positively, they really are opportunities that one can take advantage of to greater or lesser degrees to get greater or lesser benefits, if one can view them appropriately, and work with the knowledge gained from that vision into their nature.<br>
 <br>
 I think this methodology this has been very good for me, and recommend spending some time to think about this, and how it intersects with your life, and who you are, and if you can think of ways that bring about similar improvements in your own life, which can make working with other people more enjoyable and efficient, and brings you more happiness, contentment and a more fulfilling life with more accomplishments and friends.<br>
+<h2 id=44f9bf60bb151279b7142342746370b4><a href="#44f9bf60bb151279b7142342746370b4">11.12</a>: Randomly Collected Spectrums</h2>
 
 # Chapter 12: Everywhere.  Throughout the book.
 
