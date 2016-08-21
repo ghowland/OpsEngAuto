@@ -8,4 +8,14 @@ Why would I broadly declare this to be true?  Because for any given "best" solut
 
 Why would I broadly state that this is tantamount to Not Thinking?  Because if one does not take into account one's specific environment, requirements, resources and goals into consideration in making plans for action, than what is one doing?
 
-It is following a recipe, without checking if the recipe will even give you what you want.  Do you even know what you want?  Probably only vaguely if you want to follow someone else's Best Practices, because you are leaving all the decision making as to what the effects of the system will be up to someone who doesn't know you, your circumstances, your environment, your requirements, your resoureces or your goals.
+It is following a recipe, without checking if the recipe will even give you what you want.  Do you even know what you want?  Probably only vaguely if you want to follow someone else's Best Practices, because you are leaving all the decision making as to what the effects of the system will be up to someone who doesn't know you, your circumstances, your environment, your requirements, your resources or your goals.
+
+Does leaving all that up to someone who doesn't know any of those things sound like Good Thinking to you?  It does not to me, which is why I stated this section's title as I did.
+
+Reading over the "Best Practices" of others is not in any way bad, and one should try to collect up all the ways that people are doing things, or at least all the major archetypes of those methods, so that one has a good perspective of external activity to help guide one's own decision.
+
+But, then one should make one's decision based on your own environment, your own understanding of your resources, your own understanding of your requirements, your own understanding of your goals, and in this way you can tailor any external or internally created methodology to meet those needs, and because you thought about it yourself, whenever you discover something is inefficient you have the tools to re-design the solution to meet the new problem and solve it.
+
+If you are simply following someone else's recipe, you are unequipped to change the recipe, because none of the thinking about how to build and apply the recipe were your own, so changes will be not mapped to all the issues I mentioned.  Often people are more likely to just switch to a different recipe, which they see as a New Silver Bullet, because the last one didn't work.
+
+Repeating this process wastes time and other resources, and you give up all the opportunity you could have been leveraging if you had made your own plans, because you could make smaller changes since you well-understood all the components and decisions.
