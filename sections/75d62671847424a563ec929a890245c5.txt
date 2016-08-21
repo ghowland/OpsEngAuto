@@ -26,7 +26,7 @@ A group of people forms up to deal with the alerts, and immediately several thin
 
 - Maybe there was a bad code push?
 - Maybe the logs have filled up the disks?
-- Maybe There is a DDOS or other hacking attack occurring?
+- Maybe there is a DDOS or other hacking attack occurring?
 - Maybe someone is doing work on it, and forgot to tell anyone and made a mistake?
 
 All of these are possible, and while some are more likely than others, and could be used to prioritize where we start looking, the question remains:  What do we know?
