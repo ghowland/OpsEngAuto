@@ -1,15 +1,15 @@
 # Operations: Engineering and Automation
 
 
-Total Sections: 325   Populated Sections: 73
-Current Goal: Populate Empty Sections: 252   (Done: 22.5%)
+Total Sections: 325   Populated Sections: 74
+Current Goal: Populate Empty Sections: 251   (Done: 22.8%)
 
 
 <br><br><b>NOTE: This is still an early Work-In-Progress.  It is being written linearly as a First Rough Draft without editing at the moment.  There are many typos and grammatical errors presently.</b>
 
-Lines: 2976
+Lines: 2984
 
-Words: 55831
+Words: 56013
 
 
 # Chapter 1: Preface (README.txt)
@@ -3224,6 +3224,14 @@ One would have to track less data, and do the same or more work to create a bett
 
 <h2 id=89e9cad9ead3a66e01d0bae846f5659b><a href="#89e9cad9ead3a66e01d0bae846f5659b">9.1</a>: Universal Machines as infinite recursive abstraction</h2>
 <h2 id=46ed9a6f00444101408c655cfb39cf12><a href="#46ed9a6f00444101408c655cfb39cf12">9.2</a>: Single Layer Systems</h2>
+<br>
+The entire "OpsDB" as it has been presented in this book can be considered a single "context" or "layer" system because it was created so that all pieces were equal, relational, and shared a place with each other under concepts like Don't Repeat Yourself (DRY), and other methodologies so that there would not be overlaying contexts.<br>
+<br>
+This would be different in a situation where an existing legacy system already existed, and the OpsDB was created in parallel, and they both had to share their work.<br>
+<br>
+However, in this last case it is unlikely you would want to create two UMCs, because the OpsDB will become the dominant system, and the legacy system will be deprecated, so there is no reason to spend the time mapping between them with UMs.<br>
+<br>
+If both systems were required, because of some requirement, and you wanted to maintain the different contexts independently, but wanted them to work together, or through each other's interfaces (so that there was a single-operator for any given task), then a sub-set of UMCRs would be required to map the two contexts together.<br>
 <h2 id=29b43af5a912570685fa7d00e13a1509><a href="#29b43af5a912570685fa7d00e13a1509">9.3</a>: Multi-Layer Systems</h2>
 <h2 id=2829f790c87aab7f136a97f515a3c8d0><a href="#2829f790c87aab7f136a97f515a3c8d0">9.4</a>: N-M-... Layer Systems</h2>
 

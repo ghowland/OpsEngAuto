@@ -1,3 +1,10 @@
 ### [[9.2: Single Layer Systems]]
 
+The entire "OpsDB" as it has been presented in this book can be considered a single "context" or "layer" system because it was created so that all pieces were equal, relational, and shared a place with each other under concepts like Don't Repeat Yourself (DRY), and other methodologies so that there would not be overlaying contexts.
+
+This would be different in a situation where an existing legacy system already existed, and the OpsDB was created in parallel, and they both had to share their work.
+
+However, in this last case it is unlikely you would want to create two UMCs, because the OpsDB will become the dominant system, and the legacy system will be deprecated, so there is no reason to spend the time mapping between them with UMs.
+
+If both systems were required, because of some requirement, and you wanted to maintain the different contexts independently, but wanted them to work together, or through each other's interfaces (so that there was a single-operator for any given task), then a sub-set of UMCRs would be required to map the two contexts together.
 
