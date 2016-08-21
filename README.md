@@ -1,15 +1,15 @@
 # Operations: Engineering and Automation
 
 
-Total Sections: 341   Populated Sections: 78
-Current Goal: Populate Empty Sections: 263   (Done: 22.9%)
+Total Sections: 341   Populated Sections: 79
+Current Goal: Populate Empty Sections: 262   (Done: 23.2%)
 
 
 <br><br><b>NOTE: This is still an early Work-In-Progress.  It is being written linearly as a First Rough Draft without editing at the moment.  There are many typos and grammatical errors presently.</b>
 
-Lines: 3032
+Lines: 3043
 
-Words: 56953
+Words: 57064
 
 
 # Chapter 1: Preface (README.txt)
@@ -3477,6 +3477,17 @@ I don't recommend trying to phrase problems as opportunities all the time, becau
 <br>
 I think this methodology this has been very good for me, and recommend spending some time to think about this, and how it intersects with your life, and who you are, and if you can think of ways that bring about similar improvements in your own life, which can make working with other people more enjoyable and efficient, and brings you more happiness, contentment and a more fulfilling life with more accomplishments and friends.<br>
 <h2 id=44f9bf60bb151279b7142342746370b4><a href="#44f9bf60bb151279b7142342746370b4">11.12</a>: Randomly Collected Spectrums</h2>
+<br>
+Spectrums I thought of, but have not yet placed in a particular part of the book.<br>
+<br>
+<br>
+Spectrum: Caring<br>
+<br>
+Shame <=====> Pride<br>
+<br>
+Without caring about things, one cannot feel shame over bad actions, nor price in good actions.&nbsp;&nbsp;This is an effect of having an environment where the care-takers do not care about their environment, only about getting through another day.<br>
+<br>
+When you care, you will avoid creating Shame for yourself and others.&nbsp;&nbsp;When you care, you will try to perform actions you and others can be Proud of.&nbsp;&nbsp;These are good things, because they will form as a compass, pointing in the direction you want to go towards and away from.<br>
 
 # Chapter 12: Everywhere.  Throughout the book.
 
