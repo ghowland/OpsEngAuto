@@ -8,3 +8,5 @@ However, in this last case it is unlikely you would want to create two UMCs, bec
 
 If both systems were required, because of some requirement, and you wanted to maintain the different contexts independently, but wanted them to work together, or through each other's interfaces (so that there was a single-operator for any given task), then a sub-set of UMCRs would be required to map the two contexts together.
 
+Generally, you will want to aim for a single-layer system because it is simpler, and requires less work to design and maintain, but if you find that you must have more complexity or complicated systems because of your requirements, then you can use the UM/UMC/UMCR methods to recursively cover all the differences between them in a comprehensive manner, if you implement the interfaces accurately.
+
