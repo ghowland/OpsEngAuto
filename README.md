@@ -1,15 +1,15 @@
 # Operations: Engineering and Automation
 
 
-Total Sections: 340   Populated Sections: 77
-Current Goal: Populate Empty Sections: 263   (Done: 22.6%)
+Total Sections: 340   Populated Sections: 78
+Current Goal: Populate Empty Sections: 262   (Done: 22.9%)
 
 
 <br><br><b>NOTE: This is still an early Work-In-Progress.  It is being written linearly as a First Rough Draft without editing at the moment.  There are many typos and grammatical errors presently.</b>
 
-Lines: 3030
+Lines: 3032
 
-Words: 56908
+Words: 56952
 
 
 # Chapter 1: Preface (README.txt)
@@ -2973,6 +2973,8 @@ As these new areas are added to our awareness, and we prioritize them we will co
 
 # Chapter 5: Components of Engineering
 
+
+In previous sections on Engineering I went over the philosophy and balance of engineering, and now I will break things into distinct components that we deal with, how they are related to each other, and how they fit into the overall toolbox of Engineering.
 
 
 

@@ -1,3 +1,4 @@
 ### [[Chapter 5: Components of Engineering]]
 
+In previous sections on Engineering I went over the philosophy and balance of engineering, and now I will break things into distinct components that we deal with, how they are related to each other, and how they fit into the overall toolbox of Engineering.
 
