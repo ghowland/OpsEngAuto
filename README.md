@@ -414,7 +414,7 @@ This is often seen in naming conventions that change frequently, or that you cou
 <br>
 The maintenance work to keeping many hardware configurations versus a limited number (say 2-4 unique hardware specifications per generation of hardware purchases), will mean many more problems have to be solved in upgrading software, and many more security and firmware upgrades will need to be tested.&nbsp;&nbsp;It can easily create a situation that either requires many people to support, or more likely it is not worth the cost of actively supporting everything, and so support is only assigned when a high priority problem arises to keep personnel costs down.<br>
 <br>
-"De facto" just means "In reality", but in common terms it means "the way things happens", like "this is what we have yielded from our low-coordinated efforts".<br>
+"De facto" just means "In reality", but in common terms it means "the way things happens", like "this is what has been created from our low-coordinated efforts".<br>
 <br>
 So a spectrum for Control would look like:<br>
 <br>
