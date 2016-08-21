@@ -193,6 +193,21 @@
     - **** Use this DAG lookup to go into YAML, DBs, etc.  Schema Man can allow this.  Can use sub-searches like globs (domain.thing.*.field) and translate that into SQL or whatever for more advanced usage.                                                                                                                                                                                                                                                                                                       [[9d4135ad596f06c4521954e1f4b1e02f]]
 
 
+- Components of Engineering
+  - Requirements
+  - Resources
+  - Goals
+  - Logic
+  - Environments
+  - Processes
+    - Adding Features
+    - Fixing Bugs
+    - Improving Efficiency
+    - Performing Maintenance
+    - Designing a New Version of a System
+    - Replacing a System
+    - Depricating a System
+
 - Components of Operational Environments                                                                                                                                                                                                                                                                                                                                                                                                                                                                             [[c7d09987966fac8e597c767f5ccc87b1]]
   - Troubleshooting                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  [[e0456dfc4344813c454b2832f721d7cc]]
 
@@ -387,7 +402,7 @@
   - The benefits of "vanilla" use of tools.  Less upkeep.  Only change what you strictly need to change.  Spend time optimizing only in critical areas.  Reduce things that need to be manually maintained.                                                                                                                                                                                                                                                                                                          [[5ca3d14cd4988a84227bb91b9f59650b]]
 
   - "Lowest Common Denominator" problem                                                                                                                                                                                                                                                                                                                                                                                                                                                                              [[cc2951537c1aa0cd251fbda6639f2b8f]]
-    - "Best Practices" Means Not-Thinking
+    - "Best Practices" Means Not-Thinking                                                                                                                                                                                                                                                                                                                                                                                                                                                                            [[e5829271e6cfb5927f3a4d4aec1b10df]]
   
   - The Similarities of All Code                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     [[013f970372d2f2259b0f133564b0c04a]]
   - Penalties of Over-Abstraction                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    [[5ac173696667f68ef9bd32089e41e060]]

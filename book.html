@@ -2922,104 +2922,118 @@ As these new areas are added to our awareness, and we prioritize them we will co
 <h2 id=8e5a823181660693663ac9171ea437f7><a href="#8e5a823181660693663ac9171ea437f7">4.21</a>: Compare Pyramid vs Mesh (p2p).&nbsp;&nbsp;Pros and cons.</h2>
 <h2 id=52c5a2714542df457a2f43133a312847><a href="#52c5a2714542df457a2f43133a312847">4.22</a>: Introduce the dotted notation as a universal naming convention, for lookups, it can universally address any type of DAG data:&nbsp;&nbsp; domain.sub.thing.11.field.subfield.11.arrayfield.20.subsubfield</h2>
 <h3 id=9d4135ad596f06c4521954e1f4b1e02f><a href="#9d4135ad596f06c4521954e1f4b1e02f">4.22.1</a>: **** Use this DAG lookup to go into YAML, DBs, etc.&nbsp;&nbsp;Schema Man can allow this.&nbsp;&nbsp;Can use sub-searches like globs (domain.thing.*.field) and translate that into SQL or whatever for more advanced usage.</h3>
-<h1 id=c7d09987966fac8e597c767f5ccc87b1><a href="#c7d09987966fac8e597c767f5ccc87b1">Chapter 5</a>: Components of Operational Environments</h1>
-<h2 id=e0456dfc4344813c454b2832f721d7cc><a href="#e0456dfc4344813c454b2832f721d7cc">5.1</a>: Troubleshooting</h2>
-<h1 id=8cc8b2f0bfa6589d99890048c5a43c53><a href="#8cc8b2f0bfa6589d99890048c5a43c53">Chapter 6</a>: Components of Automation Environments</h1>
-<h2 id=a26d014573a051d21bf35b17d0eda041><a href="#a26d014573a051d21bf35b17d0eda041">6.1</a>: The process of building this system in your organization.</h2>
-<h3 id=87e63ce8f2071f53f8805c0cd6fc706e><a href="#87e63ce8f2071f53f8805c0cd6fc706e">6.1.1</a>: Collect all unique data in one place.&nbsp;&nbsp;Ensure it is accurate by checking against reality, and combing through it manually to see if things line up, spot checking and automation checking every one by script.</h3>
-<h3 id=f36abc40f33f81d73b6b8fd94bc37ff3><a href="#f36abc40f33f81d73b6b8fd94bc37ff3">6.1.2</a>: Things that are unique to you, vs things that are general to everyone.</h3>
-<p id=0623d9b6199fbeb9e183439df55431b9><b><a href="#0623d9b6199fbeb9e183439df55431b9">6.1.2.1</a>: FQDNs, IPs, HW specs, OS specs, configuration variables, specific workflow and stuff.</b></p>
-<h2 id=7007cad30eb5ca34743dbc74ecb214d6><a href="#7007cad30eb5ca34743dbc74ecb214d6">6.2</a>: Imaging vs re-building from scratch</h2>
-<h3 id=5016b7b3143e119640e94393d4b76590><a href="#5016b7b3143e119640e94393d4b76590">6.2.1</a>: Correctness, up-to-date, vs speed.</h3>
-<h2 id=206e9c61bb5ef53bbded00a8c8964b9e><a href="#206e9c61bb5ef53bbded00a8c8964b9e">6.3</a>: *** The Progression of an Automation System:&nbsp;&nbsp;Walk through all the stages **</h2>
-<h3 id=6dab388a16ed3d77edcd61d24e22f562><a href="#6dab388a16ed3d77edcd61d24e22f562">6.3.1</a>: These shouldnt be an order so much, as people can take different routes.&nbsp;&nbsp; How to evaluate each of these spectrums/axis of data, scalars, would be good.</h3>
-<h3 id=d7b7edd2b384d2fb2aa8ae8da1767599><a href="#d7b7edd2b384d2fb2aa8ae8da1767599">6.3.2</a>: Manual everything</h3>
-<h3 id=1451f4580715a78839eb3ada548626a9><a href="#1451f4580715a78839eb3ada548626a9">6.3.3</a>: Kickstarts and auto config&nbsp;&nbsp;(AWS gets you here)</h3>
-<h3 id=1c20fb798339d70263c0b78365f27f78><a href="#1c20fb798339d70263c0b78365f27f78">6.3.4</a>: Sys configuration tools, Monitoring, Centralized Logging, etc.&nbsp;&nbsp;Normal sys admin process.</h3>
-<h3 id=8744736462545259d69fc1e0eacdc78a><a href="#8744736462545259d69fc1e0eacdc78a">6.3.5</a>: Issue tracking systems, change management ticket systems.</h3>
-<p id=611430f5641a791eec9fda109deaecde><b><a href="#611430f5641a791eec9fda109deaecde">6.3.5.1</a>: Good to have different CMS for tickets, because your ops logic will change, but its more useful to track the CMS data right in the ops db for a real record of things, because it lists the complete workloads.</b></p>
-<h3 id=1fc55849153c719e757bb6cba8124d73><a href="#1fc55849153c719e757bb6cba8124d73">6.3.6</a>: Databases for assets, inventory, etc</h3>
-<h2 id=4f78d48397b0d75399cddbac6661aa4f><a href="#4f78d48397b0d75399cddbac6661aa4f">6.4</a>: * The more sources of authoritative data, the more data drift and non-alignment between the data (fields tracking similar but non-matching things, naming differences, not able to point to same primary keys, etc)</h2>
-<h2 id=c60e4b0680418499aa5840cafca907a5><a href="#c60e4b0680418499aa5840cafca907a5">6.5</a>: Data survives longer than code/logic, business logic stays all the time, but the assets described in the DB remain the same, even if they are used differently, and different meta-data is stored about them.</h2>
-<h1 id=d1c3b3ce411392c0865b2c0b7a26cdc6><a href="#d1c3b3ce411392c0865b2c0b7a26cdc6">Chapter 7</a>: The OpsDB</h1>
-<h2 id=64bbdc8ed0e1e42739b42a4fc419e08e><a href="#64bbdc8ed0e1e42739b42a4fc419e08e">7.1</a>: What is it?</h2>
-<h3 id=6d85b906bd9d454887125ebb31840c17><a href="#6d85b906bd9d454887125ebb31840c17">7.1.1</a>: Your OpsDB is the desires and actionable knowledge of your company.&nbsp;&nbsp;Everything inside it can be acted upon, it is better global information than any single person can have, so it is the best communication mechanism for a system that has multiple people with their own information (all companies over 1 employee).&nbsp;&nbsp;Synchronizes information, makes transactional.</h3>
-<h3 id=f9918b64d4f419d98d2f8342088bea27><a href="#f9918b64d4f419d98d2f8342088bea27">7.1.2</a>: Setting realistic expectations for this project will be one of your biggest challenges.&nbsp;&nbsp;Once the premise is understood, it is difficult to stop "magical" thinking about the project, as the intention is to solve all solvable problems, people see it as a magic machine.</h3>
-<h3 id=3140a4b8520344ef6af72c4b6709e379><a href="#3140a4b8520344ef6af72c4b6709e379">7.1.3</a>: It is a system or "machine" that can be used to solve all problems, in that it is a centralized database and method for acting against that data.&nbsp;&nbsp;That is immediately a universal set of tools, because every piece of software is data with a method for acting against it.</h3>
-<h2 id=febf95c8835573c89a43474f25043f21><a href="#febf95c8835573c89a43474f25043f21">7.2</a>: Data Driven Design:&nbsp;&nbsp;My methodology.&nbsp;&nbsp;Start with the data, work from there.&nbsp;&nbsp;Testing against data is key.</h2>
-<h3 id=addcf00c3304307ee3ec5717fab5c768><a href="#addcf00c3304307ee3ec5717fab5c768">7.2.1</a>: Separate data changing logic from non-data changing logic.&nbsp;&nbsp;This is like the Model/Controller separation, but is different because it is about any type of action, not just GUI-like actions.</h3>
-<h3 id=63ca29ecfdbd33f8b82529d48bf7e2f6><a href="#63ca29ecfdbd33f8b82529d48bf7e2f6">7.2.2</a>: Work systems.&nbsp;&nbsp;Distributed Job schedulers.</h3>
-<h3 id=b9188413cc8c6606506e014873b6b930><a href="#b9188413cc8c6606506e014873b6b930">7.2.3</a>: Collection of data:&nbsp;&nbsp;Events (logs/etc), Time Series, Config State (md5sum, etc), Active/Live State (up/down)</h3>
-<h3 id=727550ddb6653e016e1496f196e288ac><a href="#727550ddb6653e016e1496f196e288ac">7.2.4</a>: Data Driven Development.&nbsp;&nbsp;My methodology.</h3>
-<p id=c2f8690440b17c7c50567db20222ffe1><b><a href="#c2f8690440b17c7c50567db20222ffe1">7.2.4.1</a>: Start with data.&nbsp;&nbsp;Fo over all features as represented in data.</b></p>
-<h2 id=f233ed09310a458264d313be344b885a><a href="#f233ed09310a458264d313be344b885a">7.3</a>: The Data (base)</h2>
-<h3 id=b81585e0fda170c7250649704866ac0a><a href="#b81585e0fda170c7250649704866ac0a">7.3.1</a>: Modeling off of reality.&nbsp;&nbsp;Logical ideas change all the time, business decisions and directions change all the time, staff changes regularly, reality will hold true, but it's perceived differently by everyone.&nbsp;&nbsp;Still trying to map to reality gives the most common information to the most people who will work with it, and a common method of communication, and is therefore better than not.</h3>
-<h2 id=eb0781821183170b505cc3d53ed8f810><a href="#eb0781821183170b505cc3d53ed8f810">7.4</a>: Naming conventions.&nbsp;&nbsp;Set them and try to abide by them consistently.&nbsp;&nbsp;This will determine how frequently things must be looked up to be used, for someone familiar with the sytem.&nbsp;&nbsp;Python vs PHP.</h2>
-<h2 id=88eefb88d8bdddb29a06e49470b741b5><a href="#88eefb88d8bdddb29a06e49470b741b5">7.5</a>: My rules:&nbsp;&nbsp;No plurals in data (code is ok), strict lookup methods, limit methods of relationality.&nbsp;&nbsp;DAG lookups, with normalized relations in data (not-DAG, has cycles, data doesnt have a direction when there are cycles, the search could start anywhere).</h2>
-<h2 id=580a184d5471cd2ae0aa2951fafffcee><a href="#580a184d5471cd2ae0aa2951fafffcee">7.6</a>: What tools you will need to manage this data.&nbsp;&nbsp; Problems with ORM, problems with non-ORMs.&nbsp;&nbsp;The tools chosen will determine the level of automatability.</h2>
-<h2 id=af2c0408d1a232656d0845019e4790ef><a href="#af2c0408d1a232656d0845019e4790ef">7.7</a>: Building the logic system.</h2>
-<h3 id=c587a72562db2e142ed7bce6ba82c2fb><a href="#c587a72562db2e142ed7bce6ba82c2fb">7.7.1</a>: Ensuring uniqueness of elements that require guarantees.</h3>
-<h3 id=d02f1a4ff1c843265bfaa4d20accf4d0><a href="#d02f1a4ff1c843265bfaa4d20accf4d0">7.7.2</a>: Infrastructure.&nbsp;&nbsp;Pre-Services.</h3>
-<h3 id=37233edbc6bbf446d6353f066766b5d4><a href="#37233edbc6bbf446d6353f066766b5d4">7.7.3</a>: Configuration of Services.</h3>
-<h3 id=06bfc3797691d54fdd6e34c13c4e2ec3><a href="#06bfc3797691d54fdd6e34c13c4e2ec3">7.7.4</a>: Monitoring of Services.</h3>
-<h3 id=e01a2cff836d04f498744d984298c363><a href="#e01a2cff836d04f498744d984298c363">7.7.5</a>: Life-Cycle Management of services.</h3>
-<h2 id=2e7bd70786c580dcfbd4a9115bf0bb8f><a href="#2e7bd70786c580dcfbd4a9115bf0bb8f">7.8</a>: The layers of an automation system:</h2>
-<h3 id=63b722744987837de93cab18cb980051><a href="#63b722744987837de93cab18cb980051">7.8.1</a>: Description of environment</h3>
-<h3 id=cd394f4051b52bbe62e5ebb2cd8310ff><a href="#cd394f4051b52bbe62e5ebb2cd8310ff">7.8.2</a>: Provisioning</h3>
-<p id=3ccd753ebf4dc31d41da2ddd58d657d6><b><a href="#3ccd753ebf4dc31d41da2ddd58d657d6">7.8.2.1</a>: One-Time configuration</b></p>
-<p id=2ea0777930172d51b11974c4b9870340><b><a href="#2ea0777930172d51b11974c4b9870340">7.8.2.2</a>: Continuous Configuration</b></p>
-<p id=60fee5b4808b14ad3b519f3642b92ba9><b><a href="#60fee5b4808b14ad3b519f3642b92ba9">7.8.2.3</a>: State management</b></p>
-<p id=8959758dbd6b6f3cf8506033ed26a74e><b><a href="#8959758dbd6b6f3cf8506033ed26a74e">7.8.2.4</a>: One-time actions (manual state control of distributed systems)</b></p>
-<p id=b7738190443498e5389dd4bb606b3213><b><a href="#b7738190443498e5389dd4bb606b3213">7.8.2.5</a>: Maintenance actions (taking offline)</b></p>
-<p id=dc1141d3dbdaed262a31451319e4a0d6><b><a href="#dc1141d3dbdaed262a31451319e4a0d6">7.8.2.6</a>: Marking broken HW, fixing HW, migrating OS positions.</b></p>
-<p id=dadcbabed40306c7ac679c0ce0715aca><b><a href="#dadcbabed40306c7ac679c0ce0715aca">7.8.2.7</a>: What stays the same, what changes?&nbsp;&nbsp;IPs for LOM on HW.&nbsp;&nbsp;IPs for OSes on virtual.</b></p>
-<p id=47628abed8e1db8e9ed815f84bb4d116><b><a href="#47628abed8e1db8e9ed815f84bb4d116">7.8.2.8</a>: Tracking N things.&nbsp;&nbsp;Primaries vs. position.&nbsp;&nbsp;Ordered lists are the best?</b></p>
-<h2 id=c5e3fc0965c2fdd764070ce7089ab03e><a href="#c5e3fc0965c2fdd764070ce7089ab03e">7.9</a>: How to "translate" data changes, making many changes at once, like matrix multiplication.&nbsp;&nbsp;Changing from Puppet to Salt, etc.</h2>
-<h2 id=1431f5a1f11b9fb451cc24ff2fee85c5><a href="#1431f5a1f11b9fb451cc24ff2fee85c5">7.10</a>: How to Build your own OpsDB.&nbsp;&nbsp;What you need:</h2>
-<h3 id=9853534dc81b1e9e41d72d4363f0a542><a href="#9853534dc81b1e9e41d72d4363f0a542">7.10.1</a>: View (Webpage, API)</h3>
-<h3 id=276746c8ba1e2809eb7df2308d002381><a href="#276746c8ba1e2809eb7df2308d002381">7.10.2</a>: DB Backend</h3>
-<p id=ff326af388f41f4924ffad21eb1dfed3><b><a href="#ff326af388f41f4924ffad21eb1dfed3">7.10.2.1</a>: Method for safely making changes to data</b></p>
-<p id=036106589f472c34b5d06d007dea3f2b><b><a href="#036106589f472c34b5d06d007dea3f2b">7.10.2.1.1</a>: Versioning, Change Management</b></p>
-<p id=1cdc99a3dfdde59fb854db0175cb63c4><b><a href="#1cdc99a3dfdde59fb854db0175cb63c4">7.10.2.1.1.1</a>: Roll backs</b></p>
-<p id=c49dd8f1c6c2c694c834e61f716fb0fa><b><a href="#c49dd8f1c6c2c694c834e61f716fb0fa">7.10.2.1.1.2</a>: Pre-Post Commits</b></p>
-<p id=0e83ef919a005decfa42731ac7f54b07><b><a href="#0e83ef919a005decfa42731ac7f54b07">7.10.2.1.1.3</a>: Locking, to stop problematic race conditions</b></p>
-<p id=019b9ff6745a81e4c068d893c7f13852><b><a href="#019b9ff6745a81e4c068d893c7f13852">7.10.2.1.1.3.1</a>: Channeled locking, to limit domains of locks</b></p>
-<p id=80bc1f096de2420328753be58a57dceb><b><a href="#80bc1f096de2420328753be58a57dceb">7.10.2.1.1.3.1.1</a>: Size of domain, and rate of change and lock duration determine requirements</b></p>
-<p id=5d14c394196a168616acd71cd98b3e1d><b><a href="#5d14c394196a168616acd71cd98b3e1d">7.10.2.1.2</a>: Single choke point for DB changes</b></p>
-<p id=b0cb8e8e7ef02730d62e746be34c4735><b><a href="#b0cb8e8e7ef02730d62e746be34c4735">7.10.2.1.2.1</a>: Web/API all use the same code, so different paths give different results.</b></p>
-<p id=f17e11f935b8c1a4aa11102e9f73223e><b><a href="#f17e11f935b8c1a4aa11102e9f73223e">7.10.2.1.2.2</a>: Role users (scripts) can auto-commit changes, but should go through same process, because needed for auditing, troubleshooting, and maintaining integrity and pre/post-commit logic</b></p>
-<h3 id=540cf17fe6e0e04bd037e55d7ce2f5ce><a href="#540cf17fe6e0e04bd037e55d7ce2f5ce">7.10.3</a>: Pull method, to gather data.&nbsp;&nbsp;Time Series, Logs, State/Configs, Events, etc</h3>
-<p id=c4337517e5ddb7098a69ab9ea06a54fe><b><a href="#c4337517e5ddb7098a69ab9ea06a54fe">7.10.3.1</a>: Creates Global Authority DB</b></p>
-<p id=a12e034abf7648e012dba8f6624f26f3><b><a href="#a12e034abf7648e012dba8f6624f26f3">7.10.3.1.1</a>: Can be distributed, if sync. is strong</b></p>
-<p id=462d69372dfef02a563fa6444c55cd24><b><a href="#462d69372dfef02a563fa6444c55cd24">7.10.3.1.1.1</a>: Need Transactions on all pieces of total DB, so that things are changed in block fastion, all this way, then all that way.&nbsp;&nbsp;Keeping alignment.&nbsp;&nbsp;(Like a shot in Pool, game.&nbsp;&nbsp;Stick and balls must line up to make it into the pocket.)</b></p>
-<p id=277518558b3f7c13c97da337398a3239><b><a href="#277518558b3f7c13c97da337398a3239">7.10.3.1.1.2</a>: Will come later in the process, in the "How to implement" section</b></p>
-<p id=dc439f9efa60e2ef3a3b7a76233e90b4><b><a href="#dc439f9efa60e2ef3a3b7a76233e90b4">7.10.3.1.2</a>: Selective Replication.&nbsp;&nbsp;Will have local and global portions.&nbsp;&nbsp; Easy to separate instances (2 MySQL instances) so taht there is a Global DB (replicated from Master) and a Local DB, pulled from Local, which replicates to Master.</b></p>
-<p id=36da14c0258aed53bb129e50b7540c0b><b><a href="#36da14c0258aed53bb129e50b7540c0b">7.10.3.1.2.1</a>: In this scenario, the Master will need to have N instances, where N is the number of sub-masters, so it can replicate.&nbsp;&nbsp;Then it will pull and integrate this data into it's own global system, and then synthesize.</b></p>
-<p id=8a7a7c7b2388bd544de92c5e305fac1b><b><a href="#8a7a7c7b2388bd544de92c5e305fac1b">7.10.3.1.2.1.1</a>: This Global pull-integrate-synthesize is then replicated out everywhere, and is the REAL data that can be acted upon.&nbsp;&nbsp;It has met all constraints and has a view into everything</b></p>
-<p id=acd4663d59d1c72e97ec62dfc8144a85><b><a href="#acd4663d59d1c72e97ec62dfc8144a85">7.10.3.1.2.1.1.1</a>: Some Logic can run off of Local data, because it is locally concerned.&nbsp;&nbsp;When Logic needs to act on Global data, its obvious it needs to be correct and current global data.&nbsp;&nbsp;Intelligence.</b></p>
-<p id=bed7228195793a630892b855fc99a256><b><a href="#bed7228195793a630892b855fc99a256">7.10.3.1.2.2</a>: Collection is local.&nbsp;&nbsp;Work from Global.</b></p>
-<p id=87f7c87b586607ad6a5f02b42dbc6fd9><b><a href="#87f7c87b586607ad6a5f02b42dbc6fd9">7.10.3.1.2.2.1</a>: How to work on partitioon?</b></p>
-<p id=d7f9ae8a09db2ce495f7b9c3de1765c2><b><a href="#d7f9ae8a09db2ce495f7b9c3de1765c2">7.10.3.1.2.2.1.1</a>: Can use local data for N time, until is stale.&nbsp;&nbsp;Logic can decide how stale the data can be, can have Rules for lag time allowances.</b></p>
-<h3 id=a00ef370998cbb3006289af9b995a5b9><a href="#a00ef370998cbb3006289af9b995a5b9">7.10.4</a>: Orchestration.&nbsp;&nbsp;Remote Execution.&nbsp;&nbsp;Seall the loop and check.&nbsp;&nbsp;Post-Provisioning will need to run commands to check that things really worked.&nbsp;&nbsp;Same as any other type of action. Do the action, get the result, but then go check and make sure it worked.&nbsp;&nbsp;Check again to see if it failed after some time.&nbsp;&nbsp;Ensure another action hasnt caused this (acted on the same Resource)</h3>
-<h3 id=db268b9d5648f3cf17247aa4466aca44><a href="#db268b9d5648f3cf17247aa4466aca44">7.10.5</a>: Config Management.&nbsp;&nbsp;Make known changes on a system.&nbsp;&nbsp;It should be in "X state"</h3>
-<h3 id=0a8618fa5985ed1fdc24f110dc27c026><a href="#0a8618fa5985ed1fdc24f110dc27c026">7.10.6</a>: State Management.</h3>
-<p id=8b695cbf41a4ec0c65cc346d3f4ec397><b><a href="#8b695cbf41a4ec0c65cc346d3f4ec397">7.10.6.1</a>: OS Level</b></p>
-<p id=13c2c758c5deddeef82f376abc18fd9d><b><a href="#13c2c758c5deddeef82f376abc18fd9d">7.10.6.2</a>: Service level (dealing with the execution of services, and proper functionoining of the service)</b></p>
-<p id=c4dcd142e927de912d9547bc2fdc0b04><b><a href="#c4dcd142e927de912d9547bc2fdc0b04">7.10.6.3</a>: Running-Service level (dealing with things inside a running service.&nbsp;&nbsp;This is a user of the service, instead of a controller, but it is an "administrative" type of use)</b></p>
-<h3 id=dd58ffaa4ecbdac2411f233050464747><a href="#dd58ffaa4ecbdac2411f233050464747">7.10.7</a>: Work Scheduling</h3>
-<p id=a70b03745f8075613c39c401fa6ebb3c><b><a href="#a70b03745f8075613c39c401fa6ebb3c">7.10.7.1</a>: Global cron jobs, etc.</b></p>
-<p id=1ba95b39f638a0a938fe583f13451394><b><a href="#1ba95b39f638a0a938fe583f13451394">7.10.7.1.1</a>: In maint?&nbsp;&nbsp;Is right machine (master/slave/role/etc)?&nbsp;&nbsp;Dont take down prod.</b></p>
-<p id=b0daa3658be541aa293ab0b9ded206da><b><a href="#b0daa3658be541aa293ab0b9ded206da">7.10.7.1.2</a>: Dont ignore failures of jobs.&nbsp;&nbsp;Keep logs for auditing, so we know what happened, and what it happened for troubleshooting and Root Cause Analysis.</b></p>
-<p id=0044ef67424877e39c1ba3c6053e8c31><b><a href="#0044ef67424877e39c1ba3c6053e8c31">7.10.7.1.3</a>: Track times for analysis to determine failures of scale-performance changes</b></p>
-<h3 id=fb473bfadfe142c63f22f088a56d5977><a href="#fb473bfadfe142c63f22f088a56d5977">7.10.8</a>: Capacity Planning.&nbsp;&nbsp;When will you run out of:&nbsp;&nbsp;Disk? RAM?&nbsp;&nbsp;CPU? Connections?&nbsp;&nbsp;etc</h3>
-<p id=0c6c6113cb02a2a1ff6e897237e5402b><b><a href="#0c6c6113cb02a2a1ff6e897237e5402b">7.10.8.1</a>: Resources of our services.&nbsp;&nbsp;Network Loadbalancer has N potential connections, and we can determine that by a MAX check on how much its done, and where it has produced failures after MAX_WORKING values have been breached.&nbsp;&nbsp;Might not be the LB though, just correlation.</b></p>
-<h3 id=a6e21acd13a2849ee9c611451ba8b30a><a href="#a6e21acd13a2849ee9c611451ba8b30a">7.10.9</a>: Access Control.&nbsp;&nbsp;Authorization to do work.</h3>
-<h3 id=becd8bbe6534ed50063f3c3345ad5e51><a href="#becd8bbe6534ed50063f3c3345ad5e51">7.10.10</a>: Security zones</h3>
-<p id=6ed06f2275ddd84dd98eb2bdea49c011><b><a href="#6ed06f2275ddd84dd98eb2bdea49c011">7.10.10.1</a>: Environments and Security Zones</b></p>
+<h1 id=230d688c06a173497e3b37d2dbf99199><a href="#230d688c06a173497e3b37d2dbf99199">Chapter 5</a>: Components of Engineering</h1>
+<h2 id=9d57ceec05645c59d6f2075d9f0010f6><a href="#9d57ceec05645c59d6f2075d9f0010f6">5.1</a>: Requirements</h2>
+<h2 id=2ba77efca2a265edd1324d3bd9428fe9><a href="#2ba77efca2a265edd1324d3bd9428fe9">5.2</a>: Resources</h2>
+<h2 id=3acfea5cb34700d7f57c71c7e91a56f1><a href="#3acfea5cb34700d7f57c71c7e91a56f1">5.3</a>: Goals</h2>
+<h2 id=02777f4142c6f5eb7965e29b23cb99d0><a href="#02777f4142c6f5eb7965e29b23cb99d0">5.4</a>: Logic</h2>
+<h2 id=448c60cae646ed5fb663c0e80f3ac6cc><a href="#448c60cae646ed5fb663c0e80f3ac6cc">5.5</a>: Environments</h2>
+<h2 id=2cf2c8956445474303f9b37fdb3b3b4f><a href="#2cf2c8956445474303f9b37fdb3b3b4f">5.6</a>: Processes</h2>
+<h3 id=3031549e01eccd24655c465ee066c55a><a href="#3031549e01eccd24655c465ee066c55a">5.6.1</a>: Adding Features</h3>
+<h3 id=ac8f07d1f42734da546748635a0468ec><a href="#ac8f07d1f42734da546748635a0468ec">5.6.2</a>: Fixing Bugs</h3>
+<h3 id=a892022d31a6ce8da3a2963df04f98d6><a href="#a892022d31a6ce8da3a2963df04f98d6">5.6.3</a>: Improving Efficiency</h3>
+<h3 id=21af229194fd859b177ed5ffc69d3e53><a href="#21af229194fd859b177ed5ffc69d3e53">5.6.4</a>: Performing Maintenance</h3>
+<h3 id=8d11cc51c9df4be833ccd1ded438597e><a href="#8d11cc51c9df4be833ccd1ded438597e">5.6.5</a>: Designing a New Version of a System</h3>
+<h3 id=3b22dfec3a78e7c005242ec53c1fb0d6><a href="#3b22dfec3a78e7c005242ec53c1fb0d6">5.6.6</a>: Replacing a System</h3>
+<h3 id=e55ae25922d8e9ed603a00ac583a5a95><a href="#e55ae25922d8e9ed603a00ac583a5a95">5.6.7</a>: Depricating a System</h3>
+<h1 id=c7d09987966fac8e597c767f5ccc87b1><a href="#c7d09987966fac8e597c767f5ccc87b1">Chapter 6</a>: Components of Operational Environments</h1>
+<h2 id=e0456dfc4344813c454b2832f721d7cc><a href="#e0456dfc4344813c454b2832f721d7cc">6.1</a>: Troubleshooting</h2>
+<h1 id=8cc8b2f0bfa6589d99890048c5a43c53><a href="#8cc8b2f0bfa6589d99890048c5a43c53">Chapter 7</a>: Components of Automation Environments</h1>
+<h2 id=a26d014573a051d21bf35b17d0eda041><a href="#a26d014573a051d21bf35b17d0eda041">7.1</a>: The process of building this system in your organization.</h2>
+<h3 id=87e63ce8f2071f53f8805c0cd6fc706e><a href="#87e63ce8f2071f53f8805c0cd6fc706e">7.1.1</a>: Collect all unique data in one place.&nbsp;&nbsp;Ensure it is accurate by checking against reality, and combing through it manually to see if things line up, spot checking and automation checking every one by script.</h3>
+<h3 id=f36abc40f33f81d73b6b8fd94bc37ff3><a href="#f36abc40f33f81d73b6b8fd94bc37ff3">7.1.2</a>: Things that are unique to you, vs things that are general to everyone.</h3>
+<p id=0623d9b6199fbeb9e183439df55431b9><b><a href="#0623d9b6199fbeb9e183439df55431b9">7.1.2.1</a>: FQDNs, IPs, HW specs, OS specs, configuration variables, specific workflow and stuff.</b></p>
+<h2 id=7007cad30eb5ca34743dbc74ecb214d6><a href="#7007cad30eb5ca34743dbc74ecb214d6">7.2</a>: Imaging vs re-building from scratch</h2>
+<h3 id=5016b7b3143e119640e94393d4b76590><a href="#5016b7b3143e119640e94393d4b76590">7.2.1</a>: Correctness, up-to-date, vs speed.</h3>
+<h2 id=206e9c61bb5ef53bbded00a8c8964b9e><a href="#206e9c61bb5ef53bbded00a8c8964b9e">7.3</a>: *** The Progression of an Automation System:&nbsp;&nbsp;Walk through all the stages **</h2>
+<h3 id=6dab388a16ed3d77edcd61d24e22f562><a href="#6dab388a16ed3d77edcd61d24e22f562">7.3.1</a>: These shouldnt be an order so much, as people can take different routes.&nbsp;&nbsp; How to evaluate each of these spectrums/axis of data, scalars, would be good.</h3>
+<h3 id=d7b7edd2b384d2fb2aa8ae8da1767599><a href="#d7b7edd2b384d2fb2aa8ae8da1767599">7.3.2</a>: Manual everything</h3>
+<h3 id=1451f4580715a78839eb3ada548626a9><a href="#1451f4580715a78839eb3ada548626a9">7.3.3</a>: Kickstarts and auto config&nbsp;&nbsp;(AWS gets you here)</h3>
+<h3 id=1c20fb798339d70263c0b78365f27f78><a href="#1c20fb798339d70263c0b78365f27f78">7.3.4</a>: Sys configuration tools, Monitoring, Centralized Logging, etc.&nbsp;&nbsp;Normal sys admin process.</h3>
+<h3 id=8744736462545259d69fc1e0eacdc78a><a href="#8744736462545259d69fc1e0eacdc78a">7.3.5</a>: Issue tracking systems, change management ticket systems.</h3>
+<p id=611430f5641a791eec9fda109deaecde><b><a href="#611430f5641a791eec9fda109deaecde">7.3.5.1</a>: Good to have different CMS for tickets, because your ops logic will change, but its more useful to track the CMS data right in the ops db for a real record of things, because it lists the complete workloads.</b></p>
+<h3 id=1fc55849153c719e757bb6cba8124d73><a href="#1fc55849153c719e757bb6cba8124d73">7.3.6</a>: Databases for assets, inventory, etc</h3>
+<h2 id=4f78d48397b0d75399cddbac6661aa4f><a href="#4f78d48397b0d75399cddbac6661aa4f">7.4</a>: * The more sources of authoritative data, the more data drift and non-alignment between the data (fields tracking similar but non-matching things, naming differences, not able to point to same primary keys, etc)</h2>
+<h2 id=c60e4b0680418499aa5840cafca907a5><a href="#c60e4b0680418499aa5840cafca907a5">7.5</a>: Data survives longer than code/logic, business logic stays all the time, but the assets described in the DB remain the same, even if they are used differently, and different meta-data is stored about them.</h2>
+<h1 id=d1c3b3ce411392c0865b2c0b7a26cdc6><a href="#d1c3b3ce411392c0865b2c0b7a26cdc6">Chapter 8</a>: The OpsDB</h1>
+<h2 id=64bbdc8ed0e1e42739b42a4fc419e08e><a href="#64bbdc8ed0e1e42739b42a4fc419e08e">8.1</a>: What is it?</h2>
+<h3 id=6d85b906bd9d454887125ebb31840c17><a href="#6d85b906bd9d454887125ebb31840c17">8.1.1</a>: Your OpsDB is the desires and actionable knowledge of your company.&nbsp;&nbsp;Everything inside it can be acted upon, it is better global information than any single person can have, so it is the best communication mechanism for a system that has multiple people with their own information (all companies over 1 employee).&nbsp;&nbsp;Synchronizes information, makes transactional.</h3>
+<h3 id=f9918b64d4f419d98d2f8342088bea27><a href="#f9918b64d4f419d98d2f8342088bea27">8.1.2</a>: Setting realistic expectations for this project will be one of your biggest challenges.&nbsp;&nbsp;Once the premise is understood, it is difficult to stop "magical" thinking about the project, as the intention is to solve all solvable problems, people see it as a magic machine.</h3>
+<h3 id=3140a4b8520344ef6af72c4b6709e379><a href="#3140a4b8520344ef6af72c4b6709e379">8.1.3</a>: It is a system or "machine" that can be used to solve all problems, in that it is a centralized database and method for acting against that data.&nbsp;&nbsp;That is immediately a universal set of tools, because every piece of software is data with a method for acting against it.</h3>
+<h2 id=febf95c8835573c89a43474f25043f21><a href="#febf95c8835573c89a43474f25043f21">8.2</a>: Data Driven Design:&nbsp;&nbsp;My methodology.&nbsp;&nbsp;Start with the data, work from there.&nbsp;&nbsp;Testing against data is key.</h2>
+<h3 id=addcf00c3304307ee3ec5717fab5c768><a href="#addcf00c3304307ee3ec5717fab5c768">8.2.1</a>: Separate data changing logic from non-data changing logic.&nbsp;&nbsp;This is like the Model/Controller separation, but is different because it is about any type of action, not just GUI-like actions.</h3>
+<h3 id=63ca29ecfdbd33f8b82529d48bf7e2f6><a href="#63ca29ecfdbd33f8b82529d48bf7e2f6">8.2.2</a>: Work systems.&nbsp;&nbsp;Distributed Job schedulers.</h3>
+<h3 id=b9188413cc8c6606506e014873b6b930><a href="#b9188413cc8c6606506e014873b6b930">8.2.3</a>: Collection of data:&nbsp;&nbsp;Events (logs/etc), Time Series, Config State (md5sum, etc), Active/Live State (up/down)</h3>
+<h3 id=727550ddb6653e016e1496f196e288ac><a href="#727550ddb6653e016e1496f196e288ac">8.2.4</a>: Data Driven Development.&nbsp;&nbsp;My methodology.</h3>
+<p id=c2f8690440b17c7c50567db20222ffe1><b><a href="#c2f8690440b17c7c50567db20222ffe1">8.2.4.1</a>: Start with data.&nbsp;&nbsp;Fo over all features as represented in data.</b></p>
+<h2 id=f233ed09310a458264d313be344b885a><a href="#f233ed09310a458264d313be344b885a">8.3</a>: The Data (base)</h2>
+<h3 id=b81585e0fda170c7250649704866ac0a><a href="#b81585e0fda170c7250649704866ac0a">8.3.1</a>: Modeling off of reality.&nbsp;&nbsp;Logical ideas change all the time, business decisions and directions change all the time, staff changes regularly, reality will hold true, but it's perceived differently by everyone.&nbsp;&nbsp;Still trying to map to reality gives the most common information to the most people who will work with it, and a common method of communication, and is therefore better than not.</h3>
+<h2 id=eb0781821183170b505cc3d53ed8f810><a href="#eb0781821183170b505cc3d53ed8f810">8.4</a>: Naming conventions.&nbsp;&nbsp;Set them and try to abide by them consistently.&nbsp;&nbsp;This will determine how frequently things must be looked up to be used, for someone familiar with the sytem.&nbsp;&nbsp;Python vs PHP.</h2>
+<h2 id=88eefb88d8bdddb29a06e49470b741b5><a href="#88eefb88d8bdddb29a06e49470b741b5">8.5</a>: My rules:&nbsp;&nbsp;No plurals in data (code is ok), strict lookup methods, limit methods of relationality.&nbsp;&nbsp;DAG lookups, with normalized relations in data (not-DAG, has cycles, data doesnt have a direction when there are cycles, the search could start anywhere).</h2>
+<h2 id=580a184d5471cd2ae0aa2951fafffcee><a href="#580a184d5471cd2ae0aa2951fafffcee">8.6</a>: What tools you will need to manage this data.&nbsp;&nbsp; Problems with ORM, problems with non-ORMs.&nbsp;&nbsp;The tools chosen will determine the level of automatability.</h2>
+<h2 id=af2c0408d1a232656d0845019e4790ef><a href="#af2c0408d1a232656d0845019e4790ef">8.7</a>: Building the logic system.</h2>
+<h3 id=c587a72562db2e142ed7bce6ba82c2fb><a href="#c587a72562db2e142ed7bce6ba82c2fb">8.7.1</a>: Ensuring uniqueness of elements that require guarantees.</h3>
+<h3 id=d02f1a4ff1c843265bfaa4d20accf4d0><a href="#d02f1a4ff1c843265bfaa4d20accf4d0">8.7.2</a>: Infrastructure.&nbsp;&nbsp;Pre-Services.</h3>
+<h3 id=37233edbc6bbf446d6353f066766b5d4><a href="#37233edbc6bbf446d6353f066766b5d4">8.7.3</a>: Configuration of Services.</h3>
+<h3 id=06bfc3797691d54fdd6e34c13c4e2ec3><a href="#06bfc3797691d54fdd6e34c13c4e2ec3">8.7.4</a>: Monitoring of Services.</h3>
+<h3 id=e01a2cff836d04f498744d984298c363><a href="#e01a2cff836d04f498744d984298c363">8.7.5</a>: Life-Cycle Management of services.</h3>
+<h2 id=2e7bd70786c580dcfbd4a9115bf0bb8f><a href="#2e7bd70786c580dcfbd4a9115bf0bb8f">8.8</a>: The layers of an automation system:</h2>
+<h3 id=63b722744987837de93cab18cb980051><a href="#63b722744987837de93cab18cb980051">8.8.1</a>: Description of environment</h3>
+<h3 id=cd394f4051b52bbe62e5ebb2cd8310ff><a href="#cd394f4051b52bbe62e5ebb2cd8310ff">8.8.2</a>: Provisioning</h3>
+<p id=3ccd753ebf4dc31d41da2ddd58d657d6><b><a href="#3ccd753ebf4dc31d41da2ddd58d657d6">8.8.2.1</a>: One-Time configuration</b></p>
+<p id=2ea0777930172d51b11974c4b9870340><b><a href="#2ea0777930172d51b11974c4b9870340">8.8.2.2</a>: Continuous Configuration</b></p>
+<p id=60fee5b4808b14ad3b519f3642b92ba9><b><a href="#60fee5b4808b14ad3b519f3642b92ba9">8.8.2.3</a>: State management</b></p>
+<p id=8959758dbd6b6f3cf8506033ed26a74e><b><a href="#8959758dbd6b6f3cf8506033ed26a74e">8.8.2.4</a>: One-time actions (manual state control of distributed systems)</b></p>
+<p id=b7738190443498e5389dd4bb606b3213><b><a href="#b7738190443498e5389dd4bb606b3213">8.8.2.5</a>: Maintenance actions (taking offline)</b></p>
+<p id=dc1141d3dbdaed262a31451319e4a0d6><b><a href="#dc1141d3dbdaed262a31451319e4a0d6">8.8.2.6</a>: Marking broken HW, fixing HW, migrating OS positions.</b></p>
+<p id=dadcbabed40306c7ac679c0ce0715aca><b><a href="#dadcbabed40306c7ac679c0ce0715aca">8.8.2.7</a>: What stays the same, what changes?&nbsp;&nbsp;IPs for LOM on HW.&nbsp;&nbsp;IPs for OSes on virtual.</b></p>
+<p id=47628abed8e1db8e9ed815f84bb4d116><b><a href="#47628abed8e1db8e9ed815f84bb4d116">8.8.2.8</a>: Tracking N things.&nbsp;&nbsp;Primaries vs. position.&nbsp;&nbsp;Ordered lists are the best?</b></p>
+<h2 id=c5e3fc0965c2fdd764070ce7089ab03e><a href="#c5e3fc0965c2fdd764070ce7089ab03e">8.9</a>: How to "translate" data changes, making many changes at once, like matrix multiplication.&nbsp;&nbsp;Changing from Puppet to Salt, etc.</h2>
+<h2 id=1431f5a1f11b9fb451cc24ff2fee85c5><a href="#1431f5a1f11b9fb451cc24ff2fee85c5">8.10</a>: How to Build your own OpsDB.&nbsp;&nbsp;What you need:</h2>
+<h3 id=9853534dc81b1e9e41d72d4363f0a542><a href="#9853534dc81b1e9e41d72d4363f0a542">8.10.1</a>: View (Webpage, API)</h3>
+<h3 id=276746c8ba1e2809eb7df2308d002381><a href="#276746c8ba1e2809eb7df2308d002381">8.10.2</a>: DB Backend</h3>
+<p id=ff326af388f41f4924ffad21eb1dfed3><b><a href="#ff326af388f41f4924ffad21eb1dfed3">8.10.2.1</a>: Method for safely making changes to data</b></p>
+<p id=036106589f472c34b5d06d007dea3f2b><b><a href="#036106589f472c34b5d06d007dea3f2b">8.10.2.1.1</a>: Versioning, Change Management</b></p>
+<p id=1cdc99a3dfdde59fb854db0175cb63c4><b><a href="#1cdc99a3dfdde59fb854db0175cb63c4">8.10.2.1.1.1</a>: Roll backs</b></p>
+<p id=c49dd8f1c6c2c694c834e61f716fb0fa><b><a href="#c49dd8f1c6c2c694c834e61f716fb0fa">8.10.2.1.1.2</a>: Pre-Post Commits</b></p>
+<p id=0e83ef919a005decfa42731ac7f54b07><b><a href="#0e83ef919a005decfa42731ac7f54b07">8.10.2.1.1.3</a>: Locking, to stop problematic race conditions</b></p>
+<p id=019b9ff6745a81e4c068d893c7f13852><b><a href="#019b9ff6745a81e4c068d893c7f13852">8.10.2.1.1.3.1</a>: Channeled locking, to limit domains of locks</b></p>
+<p id=80bc1f096de2420328753be58a57dceb><b><a href="#80bc1f096de2420328753be58a57dceb">8.10.2.1.1.3.1.1</a>: Size of domain, and rate of change and lock duration determine requirements</b></p>
+<p id=5d14c394196a168616acd71cd98b3e1d><b><a href="#5d14c394196a168616acd71cd98b3e1d">8.10.2.1.2</a>: Single choke point for DB changes</b></p>
+<p id=b0cb8e8e7ef02730d62e746be34c4735><b><a href="#b0cb8e8e7ef02730d62e746be34c4735">8.10.2.1.2.1</a>: Web/API all use the same code, so different paths give different results.</b></p>
+<p id=f17e11f935b8c1a4aa11102e9f73223e><b><a href="#f17e11f935b8c1a4aa11102e9f73223e">8.10.2.1.2.2</a>: Role users (scripts) can auto-commit changes, but should go through same process, because needed for auditing, troubleshooting, and maintaining integrity and pre/post-commit logic</b></p>
+<h3 id=540cf17fe6e0e04bd037e55d7ce2f5ce><a href="#540cf17fe6e0e04bd037e55d7ce2f5ce">8.10.3</a>: Pull method, to gather data.&nbsp;&nbsp;Time Series, Logs, State/Configs, Events, etc</h3>
+<p id=c4337517e5ddb7098a69ab9ea06a54fe><b><a href="#c4337517e5ddb7098a69ab9ea06a54fe">8.10.3.1</a>: Creates Global Authority DB</b></p>
+<p id=a12e034abf7648e012dba8f6624f26f3><b><a href="#a12e034abf7648e012dba8f6624f26f3">8.10.3.1.1</a>: Can be distributed, if sync. is strong</b></p>
+<p id=462d69372dfef02a563fa6444c55cd24><b><a href="#462d69372dfef02a563fa6444c55cd24">8.10.3.1.1.1</a>: Need Transactions on all pieces of total DB, so that things are changed in block fastion, all this way, then all that way.&nbsp;&nbsp;Keeping alignment.&nbsp;&nbsp;(Like a shot in Pool, game.&nbsp;&nbsp;Stick and balls must line up to make it into the pocket.)</b></p>
+<p id=277518558b3f7c13c97da337398a3239><b><a href="#277518558b3f7c13c97da337398a3239">8.10.3.1.1.2</a>: Will come later in the process, in the "How to implement" section</b></p>
+<p id=dc439f9efa60e2ef3a3b7a76233e90b4><b><a href="#dc439f9efa60e2ef3a3b7a76233e90b4">8.10.3.1.2</a>: Selective Replication.&nbsp;&nbsp;Will have local and global portions.&nbsp;&nbsp; Easy to separate instances (2 MySQL instances) so taht there is a Global DB (replicated from Master) and a Local DB, pulled from Local, which replicates to Master.</b></p>
+<p id=36da14c0258aed53bb129e50b7540c0b><b><a href="#36da14c0258aed53bb129e50b7540c0b">8.10.3.1.2.1</a>: In this scenario, the Master will need to have N instances, where N is the number of sub-masters, so it can replicate.&nbsp;&nbsp;Then it will pull and integrate this data into it's own global system, and then synthesize.</b></p>
+<p id=8a7a7c7b2388bd544de92c5e305fac1b><b><a href="#8a7a7c7b2388bd544de92c5e305fac1b">8.10.3.1.2.1.1</a>: This Global pull-integrate-synthesize is then replicated out everywhere, and is the REAL data that can be acted upon.&nbsp;&nbsp;It has met all constraints and has a view into everything</b></p>
+<p id=acd4663d59d1c72e97ec62dfc8144a85><b><a href="#acd4663d59d1c72e97ec62dfc8144a85">8.10.3.1.2.1.1.1</a>: Some Logic can run off of Local data, because it is locally concerned.&nbsp;&nbsp;When Logic needs to act on Global data, its obvious it needs to be correct and current global data.&nbsp;&nbsp;Intelligence.</b></p>
+<p id=bed7228195793a630892b855fc99a256><b><a href="#bed7228195793a630892b855fc99a256">8.10.3.1.2.2</a>: Collection is local.&nbsp;&nbsp;Work from Global.</b></p>
+<p id=87f7c87b586607ad6a5f02b42dbc6fd9><b><a href="#87f7c87b586607ad6a5f02b42dbc6fd9">8.10.3.1.2.2.1</a>: How to work on partitioon?</b></p>
+<p id=d7f9ae8a09db2ce495f7b9c3de1765c2><b><a href="#d7f9ae8a09db2ce495f7b9c3de1765c2">8.10.3.1.2.2.1.1</a>: Can use local data for N time, until is stale.&nbsp;&nbsp;Logic can decide how stale the data can be, can have Rules for lag time allowances.</b></p>
+<h3 id=a00ef370998cbb3006289af9b995a5b9><a href="#a00ef370998cbb3006289af9b995a5b9">8.10.4</a>: Orchestration.&nbsp;&nbsp;Remote Execution.&nbsp;&nbsp;Seall the loop and check.&nbsp;&nbsp;Post-Provisioning will need to run commands to check that things really worked.&nbsp;&nbsp;Same as any other type of action. Do the action, get the result, but then go check and make sure it worked.&nbsp;&nbsp;Check again to see if it failed after some time.&nbsp;&nbsp;Ensure another action hasnt caused this (acted on the same Resource)</h3>
+<h3 id=db268b9d5648f3cf17247aa4466aca44><a href="#db268b9d5648f3cf17247aa4466aca44">8.10.5</a>: Config Management.&nbsp;&nbsp;Make known changes on a system.&nbsp;&nbsp;It should be in "X state"</h3>
+<h3 id=0a8618fa5985ed1fdc24f110dc27c026><a href="#0a8618fa5985ed1fdc24f110dc27c026">8.10.6</a>: State Management.</h3>
+<p id=8b695cbf41a4ec0c65cc346d3f4ec397><b><a href="#8b695cbf41a4ec0c65cc346d3f4ec397">8.10.6.1</a>: OS Level</b></p>
+<p id=13c2c758c5deddeef82f376abc18fd9d><b><a href="#13c2c758c5deddeef82f376abc18fd9d">8.10.6.2</a>: Service level (dealing with the execution of services, and proper functionoining of the service)</b></p>
+<p id=c4dcd142e927de912d9547bc2fdc0b04><b><a href="#c4dcd142e927de912d9547bc2fdc0b04">8.10.6.3</a>: Running-Service level (dealing with things inside a running service.&nbsp;&nbsp;This is a user of the service, instead of a controller, but it is an "administrative" type of use)</b></p>
+<h3 id=dd58ffaa4ecbdac2411f233050464747><a href="#dd58ffaa4ecbdac2411f233050464747">8.10.7</a>: Work Scheduling</h3>
+<p id=a70b03745f8075613c39c401fa6ebb3c><b><a href="#a70b03745f8075613c39c401fa6ebb3c">8.10.7.1</a>: Global cron jobs, etc.</b></p>
+<p id=1ba95b39f638a0a938fe583f13451394><b><a href="#1ba95b39f638a0a938fe583f13451394">8.10.7.1.1</a>: In maint?&nbsp;&nbsp;Is right machine (master/slave/role/etc)?&nbsp;&nbsp;Dont take down prod.</b></p>
+<p id=b0daa3658be541aa293ab0b9ded206da><b><a href="#b0daa3658be541aa293ab0b9ded206da">8.10.7.1.2</a>: Dont ignore failures of jobs.&nbsp;&nbsp;Keep logs for auditing, so we know what happened, and what it happened for troubleshooting and Root Cause Analysis.</b></p>
+<p id=0044ef67424877e39c1ba3c6053e8c31><b><a href="#0044ef67424877e39c1ba3c6053e8c31">8.10.7.1.3</a>: Track times for analysis to determine failures of scale-performance changes</b></p>
+<h3 id=fb473bfadfe142c63f22f088a56d5977><a href="#fb473bfadfe142c63f22f088a56d5977">8.10.8</a>: Capacity Planning.&nbsp;&nbsp;When will you run out of:&nbsp;&nbsp;Disk? RAM?&nbsp;&nbsp;CPU? Connections?&nbsp;&nbsp;etc</h3>
+<p id=0c6c6113cb02a2a1ff6e897237e5402b><b><a href="#0c6c6113cb02a2a1ff6e897237e5402b">8.10.8.1</a>: Resources of our services.&nbsp;&nbsp;Network Loadbalancer has N potential connections, and we can determine that by a MAX check on how much its done, and where it has produced failures after MAX_WORKING values have been breached.&nbsp;&nbsp;Might not be the LB though, just correlation.</b></p>
+<h3 id=a6e21acd13a2849ee9c611451ba8b30a><a href="#a6e21acd13a2849ee9c611451ba8b30a">8.10.9</a>: Access Control.&nbsp;&nbsp;Authorization to do work.</h3>
+<h3 id=becd8bbe6534ed50063f3c3345ad5e51><a href="#becd8bbe6534ed50063f3c3345ad5e51">8.10.10</a>: Security zones</h3>
+<p id=6ed06f2275ddd84dd98eb2bdea49c011><b><a href="#6ed06f2275ddd84dd98eb2bdea49c011">8.10.10.1</a>: Environments and Security Zones</b></p>
 <br>
 <br>
 Environments are natural Security Zones, because we have a goal in mind for everything inside an Environment, so everything has a similar base set of Security Requirements, and therefore a Security Posture that is required.<br>
-<p id=d6deb64dba22f963c4a9b01b99beecb8><b><a href="#d6deb64dba22f963c4a9b01b99beecb8">7.10.10.2</a>: Tiered Security Zones</b></p>
+<p id=d6deb64dba22f963c4a9b01b99beecb8><b><a href="#d6deb64dba22f963c4a9b01b99beecb8">8.10.10.2</a>: Tiered Security Zones</b></p>
 <br>
 Let's make a map of what tiers we could have in security zones.<br>
 <br>
@@ -3063,48 +3077,48 @@ Roughly these 4 tiers break down into:<br>
 - Operational Environment:&nbsp;&nbsp;"What do we want to happen at this point?"<br>
 - Specific Location:&nbsp;&nbsp;"What do we do in this location that is special?"<br>
 - Resource specific: "Is the specific resource in question special?"<br>
-<p id=70a1fe53dd9bfa2e1dea47c2e80559ff><b><a href="#70a1fe53dd9bfa2e1dea47c2e80559ff">7.10.10.3</a>: Security Zones Inside Environments</b></p>
-<h3 id=e3cba7be54f69ef1b2d51192e0ef633e><a href="#e3cba7be54f69ef1b2d51192e0ef633e">7.10.11</a>: Deployments, as separate from Config</h3>
-<p id=f05b48f95386109c5c79cfc128fc44e3><b><a href="#f05b48f95386109c5c79cfc128fc44e3">7.10.11.1</a>: Code deploy</b></p>
-<p id=1d1be487a8a4d497425c60ca93d25285><b><a href="#1d1be487a8a4d497425c60ca93d25285">7.10.11.2</a>: Data/Schema deploy</b></p>
-<p id=f08b1ca1ab0f2290f2a2c3b8b8b97ffc><b><a href="#f08b1ca1ab0f2290f2a2c3b8b8b97ffc">7.10.11.2.1</a>: When tied together.&nbsp;&nbsp;Ways to avoid problems, ways to increase problems.</b></p>
-<p id=ed24cd5011374fb609ff91ea5d18cc17><b><a href="#ed24cd5011374fb609ff91ea5d18cc17">7.10.11.2.2</a>: Lifetimes, rate of change, etc</b></p>
-<p id=88ff2ffdc4b027db0a400a53602c0063><b><a href="#88ff2ffdc4b027db0a400a53602c0063">7.10.11.2.3</a>: Service up/down.&nbsp;&nbsp;In/out of LB.&nbsp;&nbsp;(Active)</b></p>
-<h3 id=938f106673899a434d955e75ed15a20a><a href="#938f106673899a434d955e75ed15a20a">7.10.12</a>: Network config and planning</h3>
-<p id=95c64ed20fa4a1dbb04c67f0aea42b82><b><a href="#95c64ed20fa4a1dbb04c67f0aea42b82">7.10.12.1</a>: VLANs.&nbsp;&nbsp;Hidden systems, ensure not old IPs (collisions)</b></p>
-<p id=19579404710a661869e4eea32f5e1c96><b><a href="#19579404710a661869e4eea32f5e1c96">7.10.12.1.1</a>: Can defer their use until that HW is proven to not use that IP anymore.&nbsp;&nbsp;Like its in Escrow.&nbsp;&nbsp;Once really released, it can be re-used.&nbsp;&nbsp; Nice.</b></p>
-<p id=8307c8ed240946f143913fa06d1021f4><b><a href="#8307c8ed240946f143913fa06d1021f4">7.10.12.2</a>: LOM IPs stay with the hardware.&nbsp;&nbsp;DHCP timeouts, etc.&nbsp;&nbsp;Server IPs stay with "ServerInstance" (OSInstance)</b></p>
-<h3 id=203ffd1d4778494bd7a2556c2a0ac90e><a href="#203ffd1d4778494bd7a2556c2a0ac90e">7.10.13</a>: VM Provisioning.&nbsp;&nbsp;Hybrid.</h3>
-<h3 id=f7ae4f5ab54c3927652049bdcf35e555><a href="#f7ae4f5ab54c3927652049bdcf35e555">7.10.14</a>: Self Service tools.</h3>
-<h3 id=276b07fae87391ca794e8587e972cf4e><a href="#276b07fae87391ca794e8587e972cf4e">7.10.15</a>: How to plan to do this in your existing environment.&nbsp;&nbsp;A map from:&nbsp;&nbsp;Here -> There.</h3>
-<h2 id=dc9b1c51ebd041941929fe8845a2c78e><a href="#dc9b1c51ebd041941929fe8845a2c78e">7.11</a>: States of machines:&nbsp;&nbsp;Unknown, Unprovisioned/Spare, Provisioned-Inactive, Active, In Maintenance, Transition-To X State, Broken, Fixed (waitig to be Unprovisioned/Spare)</h2>
-<h1 id=f29b1b5e9117d17e39cd445a87499cde><a href="#f29b1b5e9117d17e39cd445a87499cde">Chapter 8</a>: How to Implement the OpsDB in your Current Environment</h1>
-<h2 id=4e188beb6a9e453253679bb857ac7767><a href="#4e188beb6a9e453253679bb857ac7767">8.1</a>: The OSI layer for getting things done:</h2>
-<h3 id=458b9365b935744307dce791d0f73ea6><a href="#458b9365b935744307dce791d0f73ea6">8.1.1</a>: Physical.&nbsp;&nbsp;Real world things.</h3>
-<p id=7543ac663d8be861d64b607357cbc148><b><a href="#7543ac663d8be861d64b607357cbc148">8.1.1.1</a>: People are always required for real world things, because robots arent good enough yet.&nbsp;&nbsp;Physical must manage physical.</b></p>
-<h3 id=a782fd2d1471fc65afd9abcdc78c14ed><a href="#a782fd2d1471fc65afd9abcdc78c14ed">8.1.2</a>: Configuration.&nbsp;&nbsp;How real world things are configured.</h3>
-<p id=719bc5f15fa7d54e8a67977bf0901094><b><a href="#719bc5f15fa7d54e8a67977bf0901094">8.1.2.1</a>: Logical.</b></p>
-<h3 id=6331cb83195fd5b2bd738c89abc4ec84><a href="#6331cb83195fd5b2bd738c89abc4ec84">8.1.3</a>: State.&nbsp;&nbsp;How real world things are managed.</h3>
-<p id=719bc5f15fa7d54e8a67977bf0901094><b><a href="#719bc5f15fa7d54e8a67977bf0901094">8.1.3.1</a>: Logical.</b></p>
-<h3 id=b53ddf4dc4025191a641f212d24e1be3><a href="#b53ddf4dc4025191a641f212d24e1be3">8.1.4</a>: Automation.&nbsp;&nbsp;How software can manage configuration and state.</h3>
-<p id=32f7e1e930dc786f657dc6a88b1bbde3><b><a href="#32f7e1e930dc786f657dc6a88b1bbde3">8.1.4.1</a>: Automation ends where people begin.&nbsp;&nbsp;If you have no automation, the people manage the config and state.</b></p>
-<p id=95e40183969996603b8e5e3425a932c4><b><a href="#95e40183969996603b8e5e3425a932c4">8.1.4.2</a>: Automation is the control of logical devices and state.&nbsp;&nbsp;It does not control Physical devices, but does control their state.&nbsp;&nbsp;(Even in the case of directing a physical robot, the automation updates state, and it takes something physical (motors, servos, cogs) to make the physical thing move.)</b></p>
-<h3 id=173c2bec1142197f6757fcb7d4a8dbbf><a href="#173c2bec1142197f6757fcb7d4a8dbbf">8.1.5</a>: Process (and Procedures).&nbsp;&nbsp;How people work around the lower levels.</h3>
-<h3 id=8e203f62002cbf6f27b191f991da6f30><a href="#8e203f62002cbf6f27b191f991da6f30">8.1.6</a>: Policy.&nbsp;&nbsp;Dictates how processes can be implemented.&nbsp;&nbsp;Policies may be directly contradicting Process, such as "No one is allowed to X", while a process requires a person to do exactly that.</h3>
-<h3 id=7fdcde9fe4218f5aa5a0a40cc5501fbd><a href="#7fdcde9fe4218f5aa5a0a40cc5501fbd">8.1.7</a>: Business...&nbsp;&nbsp;Business goals</h3>
-<h3 id=9fe2a787f3e54166e4252165680a59d2><a href="#9fe2a787f3e54166e4252165680a59d2">8.1.8</a>: Political.&nbsp;&nbsp;The realities of the business goals, determined by how well people will work together to achieve them.</h3>
-<h3 id=3ff1735de8bc414c4f645abe641ad297><a href="#3ff1735de8bc414c4f645abe641ad297">8.1.9</a>: Financial...&nbsp;&nbsp;Financial reality, approved or not.&nbsp;&nbsp;Timing.&nbsp;&nbsp;Delays.</h3>
-<h3 id=b982d3de81bba13dd46914991650f426><a href="#b982d3de81bba13dd46914991650f426">8.1.10</a>: Legal...&nbsp;&nbsp;Hard stop, must change direction if told by legal.</h3>
-<h2 id=3f2cc3566a84cad0a234647ab1300021><a href="#3f2cc3566a84cad0a234647ab1300021">8.2</a>: Planning for projects in the real world</h2>
-<h3 id=236e9bb833a610161cfbaaba9e6bb6fe><a href="#236e9bb833a610161cfbaaba9e6bb6fe">8.2.1</a>: The end-date comes first.&nbsp;&nbsp;Whether you have any say in that is only occassionally true, even if you are asked how long it will take.</h3>
-<h3 id=cba0d1f4cdd7b395395d6b34e6523e97><a href="#cba0d1f4cdd7b395395d6b34e6523e97">8.2.2</a>: Things will interrupt your work that were not planned for in the time estimates, and this will mean less work gets done</h3>
-<h3 id=c7eec3bac3f711b65028b49170529559><a href="#c7eec3bac3f711b65028b49170529559">8.2.3</a>: You will have normal duties to attend to, this will interrupt things getting done</h3>
-<h3 id=c2a0b4944f0d52aaec4ba066f1860790><a href="#c2a0b4944f0d52aaec4ba066f1860790">8.2.4</a>: Meetings.&nbsp;&nbsp;Whether you enjoy them, are ambivalent, or dislike them, they are going to occur and take time.</h3>
-<h3 id=05c0e353e04741273d56999b7e33a595><a href="#05c0e353e04741273d56999b7e33a595">8.2.5</a>: Mental-Context-switching cost.&nbsp;&nbsp;Ramp up time.</h3>
-<p id=d14a0f795ad0930b2ab59e40ff6742b4><b><a href="#d14a0f795ad0930b2ab59e40ff6742b4">8.2.5.1</a>: Know what kind of work you are going to start, and pick the best time to do so.&nbsp;&nbsp;If it needs more ramp-up time, then pick a block where you are less likely to be interrupted.</b></p>
-<p id=ca064b32d34547ac269d1b85fa693e6d><b><a href="#ca064b32d34547ac269d1b85fa693e6d">8.2.5.2</a>: Break your open time periods into "units" of 30 minutes or 2 hours or whatever you can have contiguously, and see what you can FINISH in that time.&nbsp;&nbsp;It is easy to lose days/weeks to getting little changes made, but not moving ahead in terms of usable progress.</b></p>
-<p id=ae9af424cff9e20bb4d775d699db9e81><b><a href="#ae9af424cff9e20bb4d775d699db9e81">8.2.5.2.1</a>: When each time block arrives, try to get what you can finish, and hopefully test and put into place, in that 1 session.&nbsp;&nbsp;This isnt possible for some work, because it's too big, so break that into stages that can fit into one of these time blocks.&nbsp;&nbsp;A simple method, would be: write it in 1, test it in another, and finally deploy it in the 3rd.</b></p>
-<h1 id=acd67121b3e38e33d9807cbb82a33ca5><a href="#acd67121b3e38e33d9807cbb82a33ca5">Chapter 9</a>: Planet Scale Automation</h1>
+<p id=70a1fe53dd9bfa2e1dea47c2e80559ff><b><a href="#70a1fe53dd9bfa2e1dea47c2e80559ff">8.10.10.3</a>: Security Zones Inside Environments</b></p>
+<h3 id=e3cba7be54f69ef1b2d51192e0ef633e><a href="#e3cba7be54f69ef1b2d51192e0ef633e">8.10.11</a>: Deployments, as separate from Config</h3>
+<p id=f05b48f95386109c5c79cfc128fc44e3><b><a href="#f05b48f95386109c5c79cfc128fc44e3">8.10.11.1</a>: Code deploy</b></p>
+<p id=1d1be487a8a4d497425c60ca93d25285><b><a href="#1d1be487a8a4d497425c60ca93d25285">8.10.11.2</a>: Data/Schema deploy</b></p>
+<p id=f08b1ca1ab0f2290f2a2c3b8b8b97ffc><b><a href="#f08b1ca1ab0f2290f2a2c3b8b8b97ffc">8.10.11.2.1</a>: When tied together.&nbsp;&nbsp;Ways to avoid problems, ways to increase problems.</b></p>
+<p id=ed24cd5011374fb609ff91ea5d18cc17><b><a href="#ed24cd5011374fb609ff91ea5d18cc17">8.10.11.2.2</a>: Lifetimes, rate of change, etc</b></p>
+<p id=88ff2ffdc4b027db0a400a53602c0063><b><a href="#88ff2ffdc4b027db0a400a53602c0063">8.10.11.2.3</a>: Service up/down.&nbsp;&nbsp;In/out of LB.&nbsp;&nbsp;(Active)</b></p>
+<h3 id=938f106673899a434d955e75ed15a20a><a href="#938f106673899a434d955e75ed15a20a">8.10.12</a>: Network config and planning</h3>
+<p id=95c64ed20fa4a1dbb04c67f0aea42b82><b><a href="#95c64ed20fa4a1dbb04c67f0aea42b82">8.10.12.1</a>: VLANs.&nbsp;&nbsp;Hidden systems, ensure not old IPs (collisions)</b></p>
+<p id=19579404710a661869e4eea32f5e1c96><b><a href="#19579404710a661869e4eea32f5e1c96">8.10.12.1.1</a>: Can defer their use until that HW is proven to not use that IP anymore.&nbsp;&nbsp;Like its in Escrow.&nbsp;&nbsp;Once really released, it can be re-used.&nbsp;&nbsp; Nice.</b></p>
+<p id=8307c8ed240946f143913fa06d1021f4><b><a href="#8307c8ed240946f143913fa06d1021f4">8.10.12.2</a>: LOM IPs stay with the hardware.&nbsp;&nbsp;DHCP timeouts, etc.&nbsp;&nbsp;Server IPs stay with "ServerInstance" (OSInstance)</b></p>
+<h3 id=203ffd1d4778494bd7a2556c2a0ac90e><a href="#203ffd1d4778494bd7a2556c2a0ac90e">8.10.13</a>: VM Provisioning.&nbsp;&nbsp;Hybrid.</h3>
+<h3 id=f7ae4f5ab54c3927652049bdcf35e555><a href="#f7ae4f5ab54c3927652049bdcf35e555">8.10.14</a>: Self Service tools.</h3>
+<h3 id=276b07fae87391ca794e8587e972cf4e><a href="#276b07fae87391ca794e8587e972cf4e">8.10.15</a>: How to plan to do this in your existing environment.&nbsp;&nbsp;A map from:&nbsp;&nbsp;Here -> There.</h3>
+<h2 id=dc9b1c51ebd041941929fe8845a2c78e><a href="#dc9b1c51ebd041941929fe8845a2c78e">8.11</a>: States of machines:&nbsp;&nbsp;Unknown, Unprovisioned/Spare, Provisioned-Inactive, Active, In Maintenance, Transition-To X State, Broken, Fixed (waitig to be Unprovisioned/Spare)</h2>
+<h1 id=f29b1b5e9117d17e39cd445a87499cde><a href="#f29b1b5e9117d17e39cd445a87499cde">Chapter 9</a>: How to Implement the OpsDB in your Current Environment</h1>
+<h2 id=4e188beb6a9e453253679bb857ac7767><a href="#4e188beb6a9e453253679bb857ac7767">9.1</a>: The OSI layer for getting things done:</h2>
+<h3 id=458b9365b935744307dce791d0f73ea6><a href="#458b9365b935744307dce791d0f73ea6">9.1.1</a>: Physical.&nbsp;&nbsp;Real world things.</h3>
+<p id=7543ac663d8be861d64b607357cbc148><b><a href="#7543ac663d8be861d64b607357cbc148">9.1.1.1</a>: People are always required for real world things, because robots arent good enough yet.&nbsp;&nbsp;Physical must manage physical.</b></p>
+<h3 id=a782fd2d1471fc65afd9abcdc78c14ed><a href="#a782fd2d1471fc65afd9abcdc78c14ed">9.1.2</a>: Configuration.&nbsp;&nbsp;How real world things are configured.</h3>
+<p id=719bc5f15fa7d54e8a67977bf0901094><b><a href="#719bc5f15fa7d54e8a67977bf0901094">9.1.2.1</a>: Logical.</b></p>
+<h3 id=6331cb83195fd5b2bd738c89abc4ec84><a href="#6331cb83195fd5b2bd738c89abc4ec84">9.1.3</a>: State.&nbsp;&nbsp;How real world things are managed.</h3>
+<p id=719bc5f15fa7d54e8a67977bf0901094><b><a href="#719bc5f15fa7d54e8a67977bf0901094">9.1.3.1</a>: Logical.</b></p>
+<h3 id=b53ddf4dc4025191a641f212d24e1be3><a href="#b53ddf4dc4025191a641f212d24e1be3">9.1.4</a>: Automation.&nbsp;&nbsp;How software can manage configuration and state.</h3>
+<p id=32f7e1e930dc786f657dc6a88b1bbde3><b><a href="#32f7e1e930dc786f657dc6a88b1bbde3">9.1.4.1</a>: Automation ends where people begin.&nbsp;&nbsp;If you have no automation, the people manage the config and state.</b></p>
+<p id=95e40183969996603b8e5e3425a932c4><b><a href="#95e40183969996603b8e5e3425a932c4">9.1.4.2</a>: Automation is the control of logical devices and state.&nbsp;&nbsp;It does not control Physical devices, but does control their state.&nbsp;&nbsp;(Even in the case of directing a physical robot, the automation updates state, and it takes something physical (motors, servos, cogs) to make the physical thing move.)</b></p>
+<h3 id=173c2bec1142197f6757fcb7d4a8dbbf><a href="#173c2bec1142197f6757fcb7d4a8dbbf">9.1.5</a>: Process (and Procedures).&nbsp;&nbsp;How people work around the lower levels.</h3>
+<h3 id=8e203f62002cbf6f27b191f991da6f30><a href="#8e203f62002cbf6f27b191f991da6f30">9.1.6</a>: Policy.&nbsp;&nbsp;Dictates how processes can be implemented.&nbsp;&nbsp;Policies may be directly contradicting Process, such as "No one is allowed to X", while a process requires a person to do exactly that.</h3>
+<h3 id=7fdcde9fe4218f5aa5a0a40cc5501fbd><a href="#7fdcde9fe4218f5aa5a0a40cc5501fbd">9.1.7</a>: Business...&nbsp;&nbsp;Business goals</h3>
+<h3 id=9fe2a787f3e54166e4252165680a59d2><a href="#9fe2a787f3e54166e4252165680a59d2">9.1.8</a>: Political.&nbsp;&nbsp;The realities of the business goals, determined by how well people will work together to achieve them.</h3>
+<h3 id=3ff1735de8bc414c4f645abe641ad297><a href="#3ff1735de8bc414c4f645abe641ad297">9.1.9</a>: Financial...&nbsp;&nbsp;Financial reality, approved or not.&nbsp;&nbsp;Timing.&nbsp;&nbsp;Delays.</h3>
+<h3 id=b982d3de81bba13dd46914991650f426><a href="#b982d3de81bba13dd46914991650f426">9.1.10</a>: Legal...&nbsp;&nbsp;Hard stop, must change direction if told by legal.</h3>
+<h2 id=3f2cc3566a84cad0a234647ab1300021><a href="#3f2cc3566a84cad0a234647ab1300021">9.2</a>: Planning for projects in the real world</h2>
+<h3 id=236e9bb833a610161cfbaaba9e6bb6fe><a href="#236e9bb833a610161cfbaaba9e6bb6fe">9.2.1</a>: The end-date comes first.&nbsp;&nbsp;Whether you have any say in that is only occassionally true, even if you are asked how long it will take.</h3>
+<h3 id=cba0d1f4cdd7b395395d6b34e6523e97><a href="#cba0d1f4cdd7b395395d6b34e6523e97">9.2.2</a>: Things will interrupt your work that were not planned for in the time estimates, and this will mean less work gets done</h3>
+<h3 id=c7eec3bac3f711b65028b49170529559><a href="#c7eec3bac3f711b65028b49170529559">9.2.3</a>: You will have normal duties to attend to, this will interrupt things getting done</h3>
+<h3 id=c2a0b4944f0d52aaec4ba066f1860790><a href="#c2a0b4944f0d52aaec4ba066f1860790">9.2.4</a>: Meetings.&nbsp;&nbsp;Whether you enjoy them, are ambivalent, or dislike them, they are going to occur and take time.</h3>
+<h3 id=05c0e353e04741273d56999b7e33a595><a href="#05c0e353e04741273d56999b7e33a595">9.2.5</a>: Mental-Context-switching cost.&nbsp;&nbsp;Ramp up time.</h3>
+<p id=d14a0f795ad0930b2ab59e40ff6742b4><b><a href="#d14a0f795ad0930b2ab59e40ff6742b4">9.2.5.1</a>: Know what kind of work you are going to start, and pick the best time to do so.&nbsp;&nbsp;If it needs more ramp-up time, then pick a block where you are less likely to be interrupted.</b></p>
+<p id=ca064b32d34547ac269d1b85fa693e6d><b><a href="#ca064b32d34547ac269d1b85fa693e6d">9.2.5.2</a>: Break your open time periods into "units" of 30 minutes or 2 hours or whatever you can have contiguously, and see what you can FINISH in that time.&nbsp;&nbsp;It is easy to lose days/weeks to getting little changes made, but not moving ahead in terms of usable progress.</b></p>
+<p id=ae9af424cff9e20bb4d775d699db9e81><b><a href="#ae9af424cff9e20bb4d775d699db9e81">9.2.5.2.1</a>: When each time block arrives, try to get what you can finish, and hopefully test and put into place, in that 1 session.&nbsp;&nbsp;This isnt possible for some work, because it's too big, so break that into stages that can fit into one of these time blocks.&nbsp;&nbsp;A simple method, would be: write it in 1, test it in another, and finally deploy it in the 3rd.</b></p>
+<h1 id=acd67121b3e38e33d9807cbb82a33ca5><a href="#acd67121b3e38e33d9807cbb82a33ca5">Chapter 10</a>: Planet Scale Automation</h1>
 <br>
 [Placeholder for the time being, just to briefly explain]<br>
 <br>
@@ -3121,8 +3135,8 @@ Does this need to be taken to it's extreme with a full-mesh mapping?&nbsp;&nbsp;
 It is only important that we have a mechanism for how to link the different layers we will eventually end up creating together under a scalable and simple system, which this is.&nbsp;&nbsp;I believe there is probably no simpler system that can be invented to describe this set of complex relationships together, because there is a minimal set of data being tracked.<br>
 <br>
 One would have to track less data, and do the same or more work to create a better effect, so I can state I believe this is currently an optimal solution for the present understanding of how we could scale to full-mesh style sizes of Planet Scale Automation.<br>
-<h2 id=89e9cad9ead3a66e01d0bae846f5659b><a href="#89e9cad9ead3a66e01d0bae846f5659b">9.1</a>: Universal Machines as infinite recursive abstraction</h2>
-<h2 id=46ed9a6f00444101408c655cfb39cf12><a href="#46ed9a6f00444101408c655cfb39cf12">9.2</a>: Single Layer Systems</h2>
+<h2 id=89e9cad9ead3a66e01d0bae846f5659b><a href="#89e9cad9ead3a66e01d0bae846f5659b">10.1</a>: Universal Machines as infinite recursive abstraction</h2>
+<h2 id=46ed9a6f00444101408c655cfb39cf12><a href="#46ed9a6f00444101408c655cfb39cf12">10.2</a>: Single Layer Systems</h2>
 <br>
 The entire "OpsDB" as it has been presented in this book can be considered a single "context" or "layer" system because it was created so that all pieces were equal, relational, and shared a place with each other under concepts like Don't Repeat Yourself (DRY), and other methodologies so that there would not be overlaying contexts.<br>
 <br>
@@ -3133,7 +3147,7 @@ However, in this last case it is unlikely you would want to create two UMCs, bec
 If both systems were required, because of some requirement, and you wanted to maintain the different contexts independently, but wanted them to work together, or through each other's interfaces (so that there was a single-operator for any given task), then a sub-set of UMCRs would be required to map the two contexts together.<br>
 <br>
 Generally, you will want to aim for a single-layer system because it is simpler, and requires less work to design and maintain, but if you find that you must have more complexity or complicated systems because of your requirements, then you can use the UM/UMC/UMCR methods to recursively cover all the differences between them in a comprehensive manner, if you implement the interfaces accurately.<br>
-<h2 id=29b43af5a912570685fa7d00e13a1509><a href="#29b43af5a912570685fa7d00e13a1509">9.3</a>: Multi-Layer Systems</h2>
+<h2 id=29b43af5a912570685fa7d00e13a1509><a href="#29b43af5a912570685fa7d00e13a1509">10.3</a>: Multi-Layer Systems</h2>
 <br>
 <br>
 If comprehensive automation systems can be created as a Single-Layer System, than why would we ever need Multi-Layer Systems?<br>
@@ -3153,31 +3167,31 @@ So, how can they all work together, in a way where things don't break, and they 
 This is where the UMCs and UMCRs come into play.<br>
 <br>
 Your logical OpsDB for controlling your system is a UMC, and your other OpsDB for meeting your other goals is another UMC, and the UMCRs connect them and allow them to work together, with their different views, but in complementary and non-conflicting ways.<br>
-<h2 id=2829f790c87aab7f136a97f515a3c8d0><a href="#2829f790c87aab7f136a97f515a3c8d0">9.4</a>: N-M-... Layer Systems</h2>
+<h2 id=2829f790c87aab7f136a97f515a3c8d0><a href="#2829f790c87aab7f136a97f515a3c8d0">10.4</a>: N-M-... Layer Systems</h2>
 <br>
 <br>
 Give examples of how we would need different systems that work together, and brief mappings between them.<br>
 <br>
 Use things like physical infrastructure, gas or electrical delivery grids, etc.<br>
-<h1 id=8f30bab91d5d799be311db56d7e9dda4><a href="#8f30bab91d5d799be311db56d7e9dda4">Chapter 10</a>: General Advice</h1>
-<h2 id=0a605e177cdf62b2e4fd820e73cbecf7><a href="#0a605e177cdf62b2e4fd820e73cbecf7">10.1</a>: Go over code reviews, and config reviews.</h2>
-<h3 id=a720022abaff2d1c9e31daf42dc94dee><a href="#a720022abaff2d1c9e31daf42dc94dee">10.1.1</a>: *** Mark this as my personal opinion.&nbsp;&nbsp;Not as something provable.&nbsp;&nbsp;This is color. ***</h3>
-<h3 id=3519e134dd26a81e963ccf09964c8a88><a href="#3519e134dd26a81e963ccf09964c8a88">10.1.2</a>: Normal pitfalls.&nbsp;&nbsp;Dont really check, "Yes Stamp".</h3>
-<p id=7cfef0cbf3e4fb479b3309647eb17ca6><b><a href="#7cfef0cbf3e4fb479b3309647eb17ca6">10.1.2.1</a>: Too style oriented.&nbsp;&nbsp;Enforcing a style is important in some areas, but less important in others.&nbsp;&nbsp;It is better to keep a team cohevsive to know these differences, so that on some things you are strict (variable naming) and on other things you are flexible (commenting style).&nbsp;&nbsp;People write prose more personally than they name variables, and variables have to be used by many people, whereas the message in a comment in based on the author's mental state when they wrote it, which is very subjective, and people have very different styles.</b></p>
-<p id=3caece8edc80e43f05cec661ae0cf2f7><b><a href="#3caece8edc80e43f05cec661ae0cf2f7">10.1.2.1.1</a>: I recommend allowing people to have their own unique style in areas that will not harm the ease-of-use and resiliency/robustness of the Logic, and strictness on naming conventions, and basic formatting (indentation)</b></p>
-<p id=8923934b9a6ece208968c72ceb0460c4><b><a href="#8923934b9a6ece208968c72ceb0460c4">10.1.2.1.1.1</a>: Strictness can be kept inside individual projects, with a general theme to a department or company.&nbsp;&nbsp;These are degrees to each of this which will make actually working with other people nicer, while</b></p>
-<h2 id=fa154a30257b81d67d9e7c7114d4c549><a href="#fa154a30257b81d67d9e7c7114d4c549">10.2</a>: Root Cause Analysis write ups.</h2>
-<h3 id=57a8fb171628609c4f4a074359da7864><a href="#57a8fb171628609c4f4a074359da7864">10.2.1</a>: How to not bullshit these.&nbsp;&nbsp;Dont lie.&nbsp;&nbsp;Dont criticize every failure, because failures WILL happen.&nbsp;&nbsp;The only way to avoid them is to REMOVE the CLASS OF WORK.</h3>
-<h2 id=676e5f44878bdde31c3379f2c69b98ae><a href="#676e5f44878bdde31c3379f2c69b98ae">10.3</a>: Create a set of Checklists.</h2>
-<h3 id=508068aefcdc803e5f88092d9cafbbf5><a href="#508068aefcdc803e5f88092d9cafbbf5">10.3.1</a>: Automation Spectrum</h3>
-<h3 id=47245b1f66b268d9bf3e915e19d7106e><a href="#47245b1f66b268d9bf3e915e19d7106e">10.3.2</a>: Automation Layers</h3>
-<p id=4d89acb0c6cf7d6c14c7c9925ffee864><b><a href="#4d89acb0c6cf7d6c14c7c9925ffee864">10.3.2.1</a>: Sub-Components of layers.&nbsp;&nbsp;How well are they implemented, 1-5 scale or something</b></p>
-<h3 id=10909577585a58647fbb1902112b6ab3><a href="#10909577585a58647fbb1902112b6ab3">10.3.3</a>: Talk about how to make your own checklists and scales.&nbsp;&nbsp;This is flexible, not dogmatic.&nbsp;&nbsp;The important part is that we can communicate what we are talking about, in a way where multiple individuals and groups can agree, allowing us to work successfully together.</h3>
-<h2 id=0109e0d4643177fefe7ccc3fe1c7a872><a href="#0109e0d4643177fefe7ccc3fe1c7a872">10.4</a>: Self-evaluation?&nbsp;&nbsp;How to evaluate your actions, how to make plans to improve.</h2>
-<h2 id=90ee09235d729b6403260561482812a7><a href="#90ee09235d729b6403260561482812a7">10.5</a>: Introduce the Basic Laws of Human Stupidity.&nbsp;&nbsp;Not meant as insult or joke, but as quantitative method of determining the intelligence of an action.&nbsp;&nbsp;This is the model I will use in this book.</h2>
-<h2 id=7f0428bc4e8fd20bc8ddd31b00ea1d75><a href="#7f0428bc4e8fd20bc8ddd31b00ea1d75">10.6</a>: Journmanship, apprenticeship.&nbsp;&nbsp;What we are missing.&nbsp;&nbsp;Valuing experience.&nbsp;&nbsp;Im old, of course thats my take.</h2>
-<h2 id=5ca3d14cd4988a84227bb91b9f59650b><a href="#5ca3d14cd4988a84227bb91b9f59650b">10.7</a>: The benefits of "vanilla" use of tools.&nbsp;&nbsp;Less upkeep.&nbsp;&nbsp;Only change what you strictly need to change.&nbsp;&nbsp;Spend time optimizing only in critical areas.&nbsp;&nbsp;Reduce things that need to be manually maintained.</h2>
-<h2 id=cc2951537c1aa0cd251fbda6639f2b8f><a href="#cc2951537c1aa0cd251fbda6639f2b8f">10.8</a>: "Lowest Common Denominator" problem</h2>
+<h1 id=8f30bab91d5d799be311db56d7e9dda4><a href="#8f30bab91d5d799be311db56d7e9dda4">Chapter 11</a>: General Advice</h1>
+<h2 id=0a605e177cdf62b2e4fd820e73cbecf7><a href="#0a605e177cdf62b2e4fd820e73cbecf7">11.1</a>: Go over code reviews, and config reviews.</h2>
+<h3 id=a720022abaff2d1c9e31daf42dc94dee><a href="#a720022abaff2d1c9e31daf42dc94dee">11.1.1</a>: *** Mark this as my personal opinion.&nbsp;&nbsp;Not as something provable.&nbsp;&nbsp;This is color. ***</h3>
+<h3 id=3519e134dd26a81e963ccf09964c8a88><a href="#3519e134dd26a81e963ccf09964c8a88">11.1.2</a>: Normal pitfalls.&nbsp;&nbsp;Dont really check, "Yes Stamp".</h3>
+<p id=7cfef0cbf3e4fb479b3309647eb17ca6><b><a href="#7cfef0cbf3e4fb479b3309647eb17ca6">11.1.2.1</a>: Too style oriented.&nbsp;&nbsp;Enforcing a style is important in some areas, but less important in others.&nbsp;&nbsp;It is better to keep a team cohevsive to know these differences, so that on some things you are strict (variable naming) and on other things you are flexible (commenting style).&nbsp;&nbsp;People write prose more personally than they name variables, and variables have to be used by many people, whereas the message in a comment in based on the author's mental state when they wrote it, which is very subjective, and people have very different styles.</b></p>
+<p id=3caece8edc80e43f05cec661ae0cf2f7><b><a href="#3caece8edc80e43f05cec661ae0cf2f7">11.1.2.1.1</a>: I recommend allowing people to have their own unique style in areas that will not harm the ease-of-use and resiliency/robustness of the Logic, and strictness on naming conventions, and basic formatting (indentation)</b></p>
+<p id=8923934b9a6ece208968c72ceb0460c4><b><a href="#8923934b9a6ece208968c72ceb0460c4">11.1.2.1.1.1</a>: Strictness can be kept inside individual projects, with a general theme to a department or company.&nbsp;&nbsp;These are degrees to each of this which will make actually working with other people nicer, while</b></p>
+<h2 id=fa154a30257b81d67d9e7c7114d4c549><a href="#fa154a30257b81d67d9e7c7114d4c549">11.2</a>: Root Cause Analysis write ups.</h2>
+<h3 id=57a8fb171628609c4f4a074359da7864><a href="#57a8fb171628609c4f4a074359da7864">11.2.1</a>: How to not bullshit these.&nbsp;&nbsp;Dont lie.&nbsp;&nbsp;Dont criticize every failure, because failures WILL happen.&nbsp;&nbsp;The only way to avoid them is to REMOVE the CLASS OF WORK.</h3>
+<h2 id=676e5f44878bdde31c3379f2c69b98ae><a href="#676e5f44878bdde31c3379f2c69b98ae">11.3</a>: Create a set of Checklists.</h2>
+<h3 id=508068aefcdc803e5f88092d9cafbbf5><a href="#508068aefcdc803e5f88092d9cafbbf5">11.3.1</a>: Automation Spectrum</h3>
+<h3 id=47245b1f66b268d9bf3e915e19d7106e><a href="#47245b1f66b268d9bf3e915e19d7106e">11.3.2</a>: Automation Layers</h3>
+<p id=4d89acb0c6cf7d6c14c7c9925ffee864><b><a href="#4d89acb0c6cf7d6c14c7c9925ffee864">11.3.2.1</a>: Sub-Components of layers.&nbsp;&nbsp;How well are they implemented, 1-5 scale or something</b></p>
+<h3 id=10909577585a58647fbb1902112b6ab3><a href="#10909577585a58647fbb1902112b6ab3">11.3.3</a>: Talk about how to make your own checklists and scales.&nbsp;&nbsp;This is flexible, not dogmatic.&nbsp;&nbsp;The important part is that we can communicate what we are talking about, in a way where multiple individuals and groups can agree, allowing us to work successfully together.</h3>
+<h2 id=0109e0d4643177fefe7ccc3fe1c7a872><a href="#0109e0d4643177fefe7ccc3fe1c7a872">11.4</a>: Self-evaluation?&nbsp;&nbsp;How to evaluate your actions, how to make plans to improve.</h2>
+<h2 id=90ee09235d729b6403260561482812a7><a href="#90ee09235d729b6403260561482812a7">11.5</a>: Introduce the Basic Laws of Human Stupidity.&nbsp;&nbsp;Not meant as insult or joke, but as quantitative method of determining the intelligence of an action.&nbsp;&nbsp;This is the model I will use in this book.</h2>
+<h2 id=7f0428bc4e8fd20bc8ddd31b00ea1d75><a href="#7f0428bc4e8fd20bc8ddd31b00ea1d75">11.6</a>: Journmanship, apprenticeship.&nbsp;&nbsp;What we are missing.&nbsp;&nbsp;Valuing experience.&nbsp;&nbsp;Im old, of course thats my take.</h2>
+<h2 id=5ca3d14cd4988a84227bb91b9f59650b><a href="#5ca3d14cd4988a84227bb91b9f59650b">11.7</a>: The benefits of "vanilla" use of tools.&nbsp;&nbsp;Less upkeep.&nbsp;&nbsp;Only change what you strictly need to change.&nbsp;&nbsp;Spend time optimizing only in critical areas.&nbsp;&nbsp;Reduce things that need to be manually maintained.</h2>
+<h2 id=cc2951537c1aa0cd251fbda6639f2b8f><a href="#cc2951537c1aa0cd251fbda6639f2b8f">11.8</a>: "Lowest Common Denominator" problem</h2>
 <br>
 In response to: http://euphoricus.blogspot.com/2015/11/everybody-is-doing-tdd-take-two.html<br>
 <br>
@@ -3263,7 +3277,7 @@ This is the full-spectrum of analysis:&nbsp;&nbsp;From complete abstraction to c
 So we can tune the discussion to any parameter for both this spectrum, and any related axioms for determining the results of the work that we wish to get through our efforts.<br>
 <br>
 My point was mostly that we should not lose out on efficiency, if we desire efficiency, because we also desire commonality.&nbsp;&nbsp;As they have a spectrum between them.&nbsp;&nbsp;(Almost anything can be put with anything else into a spectrum, like two points making a line segment, so I'm not drawing from any specific examples here, more in idea-space)<br>
-<h3 id=e5829271e6cfb5927f3a4d4aec1b10df><a href="#e5829271e6cfb5927f3a4d4aec1b10df">10.8.1</a>: "Best Practices" Means Not-Thinking</h3>
+<h3 id=e5829271e6cfb5927f3a4d4aec1b10df><a href="#e5829271e6cfb5927f3a4d4aec1b10df">11.8.1</a>: "Best Practices" Means Not-Thinking</h3>
 <br>
 Everyone wants to know a "good" way to do something, or better yet a "better" way of doing something, or best yet, the "best" way of doing something.<br>
 <br>
@@ -3284,12 +3298,12 @@ But, then one should make one's decision based on your own environment, your own
 If you are simply following someone else's recipe, you are unequipped to change the recipe, because none of the thinking about how to build and apply the recipe were your own, so changes will be not mapped to all the issues I mentioned.&nbsp;&nbsp;Often people are more likely to just switch to a different recipe, which they see as a New Silver Bullet, because the last one didn't work.<br>
 <br>
 Repeating this process wastes time and other resources, and you give up all the opportunity you could have been leveraging if you had made your own plans, because you could make smaller changes since you well-understood all the components and decisions.<br>
-<h2 id=013f970372d2f2259b0f133564b0c04a><a href="#013f970372d2f2259b0f133564b0c04a">10.9</a>: The Similarities of All Code</h2>
+<h2 id=013f970372d2f2259b0f133564b0c04a><a href="#013f970372d2f2259b0f133564b0c04a">11.9</a>: The Similarities of All Code</h2>
 <br>
 Explain how all code is similar, and all programs are implementing 95%+ the same functionality, and 5%- unique functionality.<br>
 <br>
 Explain how to take this apart and put it back together again, and how to apply it.<br>
-<h2 id=5ac173696667f68ef9bd32089e41e060><a href="#5ac173696667f68ef9bd32089e41e060">10.10</a>: Penalties of Over-Abstraction</h2>
+<h2 id=5ac173696667f68ef9bd32089e41e060><a href="#5ac173696667f68ef9bd32089e41e060">11.10</a>: Penalties of Over-Abstraction</h2>
 <br>
 {{ todo__needs_editing__maybe_moved_into_another_section }}<br>
 <br>
@@ -3304,7 +3318,7 @@ Then you know the abstracted version solves a problem efficiently, because it's 
 If it worked for this problem efficiently, there are likely other problems that can also make highly efficient or sufficiently efficient use of the abstracted solution as well.<br>
 <br>
 This is obviously something that can be logically proved if someone wanted to spend the effort.<br>
-<h2 id=822a93e6d35a5d2173bda4a30b16591b><a href="#822a93e6d35a5d2173bda4a30b16591b">10.11</a>: Releasing the poison</h2>
+<h2 id=822a93e6d35a5d2173bda4a30b16591b><a href="#822a93e6d35a5d2173bda4a30b16591b">11.11</a>: Releasing the poison</h2>
 <br>
 This is the only non-Operations advice that I will give in this book, because I think it is the most important non-technical advice I can give, and it has to do with inter-human communication and inter-human relationships.<br>
 <br>
@@ -3345,5 +3359,5 @@ This, however, does not mean that I ignore problems because "problems are negati
 I don't recommend trying to phrase problems as opportunities all the time, because it leads to sounding unrealistic, but if you look at them positively, they really are opportunities that one can take advantage of to greater or lesser degrees to get greater or lesser benefits, if one can view them appropriately, and work with the knowledge gained from that vision into their nature.<br>
 <br>
 I think this methodology this has been very good for me, and recommend spending some time to think about this, and how it intersects with your life, and who you are, and if you can think of ways that bring about similar improvements in your own life, which can make working with other people more enjoyable and efficient, and brings you more happiness, contentment and a more fulfilling life with more accomplishments and friends.<br>
-<h1 id=b500db550875850c9465ae27e6e63daa><a href="#b500db550875850c9465ae27e6e63daa">Chapter 11</a>: Everywhere.&nbsp;&nbsp;Throughout the book.</h1>
-<h2 id=a7df76e3e33c3832af992a160d248f3b><a href="#a7df76e3e33c3832af992a160d248f3b">11.1</a>: Have "Wouldnt it be nice?" sections, where I posit what would be improvements I have yet to experience.&nbsp;&nbsp;Coming to terms, agreeing on the foundational details, agreeing on the axioms, agreeing on how to relate data to the axioms.&nbsp;&nbsp;Agreeing on how to act against axioms.&nbsp;&nbsp;With these done, we can work much better as a team, and discuss them.</h2>
+<h1 id=b500db550875850c9465ae27e6e63daa><a href="#b500db550875850c9465ae27e6e63daa">Chapter 12</a>: Everywhere.&nbsp;&nbsp;Throughout the book.</h1>
+<h2 id=a7df76e3e33c3832af992a160d248f3b><a href="#a7df76e3e33c3832af992a160d248f3b">12.1</a>: Have "Wouldnt it be nice?" sections, where I posit what would be improvements I have yet to experience.&nbsp;&nbsp;Coming to terms, agreeing on the foundational details, agreeing on the axioms, agreeing on how to relate data to the axioms.&nbsp;&nbsp;Agreeing on how to act against axioms.&nbsp;&nbsp;With these done, we can work much better as a team, and discuss them.</h2>
