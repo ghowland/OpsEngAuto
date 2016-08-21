@@ -357,6 +357,11 @@
         - When each time block arrives, try to get what you can finish, and hopefully test and put into place, in that 1 session.  This isnt possible for some work, because it's too big, so break that into stages that can fit into one of these time blocks.  A simple method, would be: write it in 1, test it in another, and finally deploy it in the 3rd.                                                                                                                                                    [[ae9af424cff9e20bb4d775d699db9e81]]
 
 
+- Planet Scale Automation
+  - Universal Machines as infinite recursive abstraction
+  - Single Layer Systems
+  - Multi-Layer Systems
+  - N-M-... Layer Systems
 - General Advice                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     [[8f30bab91d5d799be311db56d7e9dda4]]
 
   - Go over code reviews, and config reviews.                                                                                                                                                                                                                                                                                                                                                                                                                                                                        [[0a605e177cdf62b2e4fd820e73cbecf7]]
@@ -384,7 +389,7 @@
   - "Lowest Common Denominator" problem                                                                                                                                                                                                                                                                                                                                                                                                                                                                              [[cc2951537c1aa0cd251fbda6639f2b8f]]
   
   - The Similarities of All Code                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     [[013f970372d2f2259b0f133564b0c04a]]
-  - Penalties of Over-Abstraction
+  - Penalties of Over-Abstraction                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    [[5ac173696667f68ef9bd32089e41e060]]
   
   - Releasing the poison                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             [[822a93e6d35a5d2173bda4a30b16591b]]
 
