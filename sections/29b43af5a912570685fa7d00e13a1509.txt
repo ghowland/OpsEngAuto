@@ -9,4 +9,12 @@ The reason is that OpsDB is taking a look at the data from a strictly virtual pe
 
 But, if one wants to automation an entire Planet's worth of infrastructure, then one is going to have to take many different perspectives than the one we have settled on for the OpsDB.
 
-There will be many different views of these systems, which are in themselves just as valid as the OpsDB view, but do not 
+There will be many different views of these systems, which are in themselves just as valid as the OpsDB view, but do not mesh well with the intent of the OpsDB layout as I have described it here.
+
+In essence, these will be new OpsDBs, written in the same method as the OpsDB I have laid out, but with very different goals and requirements, so that the current OpsDB has it's purpose, and so do these additional supplementary OpsDBs.
+
+So, how can they all work together, in a way where things don't break, and they don't fight over resources (race conditions), and their different views of the systems, can be integrated together.
+
+This is where the UMCs and UMCRs come into play.
+
+Your logical OpsDB for controlling your system is a UMC, and your other OpsDB for meeting your other goals is another UMC, and the UMCRs connect them and allow them to work together, with their different views, but in complementary and non-conflicting ways.

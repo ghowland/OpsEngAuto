@@ -7,9 +7,9 @@ Current Goal: Populate Empty Sections: 250   (Done: 23.3%)
 
 <br><br><b>NOTE: This is still an early Work-In-Progress.  It is being written linearly as a First Rough Draft without editing at the moment.  There are many typos and grammatical errors presently.</b>
 
-Lines: 3017
+Lines: 3025
 
-Words: 56738
+Words: 56880
 
 
 # Chapter 1: Preface (README.txt)
@@ -3245,7 +3245,15 @@ The reason is that OpsDB is taking a look at the data from a strictly virtual pe
 <br>
 But, if one wants to automation an entire Planet's worth of infrastructure, then one is going to have to take many different perspectives than the one we have settled on for the OpsDB.<br>
 <br>
-There will be many different views of these systems, which are in themselves just as valid as the OpsDB view, but do not<br>
+There will be many different views of these systems, which are in themselves just as valid as the OpsDB view, but do not mesh well with the intent of the OpsDB layout as I have described it here.<br>
+<br>
+In essence, these will be new OpsDBs, written in the same method as the OpsDB I have laid out, but with very different goals and requirements, so that the current OpsDB has it's purpose, and so do these additional supplementary OpsDBs.<br>
+<br>
+So, how can they all work together, in a way where things don't break, and they don't fight over resources (race conditions), and their different views of the systems, can be integrated together.<br>
+<br>
+This is where the UMCs and UMCRs come into play.<br>
+<br>
+Your logical OpsDB for controlling your system is a UMC, and your other OpsDB for meeting your other goals is another UMC, and the UMCRs connect them and allow them to work together, with their different views, but in complementary and non-conflicting ways.<br>
 <h2 id=2829f790c87aab7f136a97f515a3c8d0><a href="#2829f790c87aab7f136a97f515a3c8d0">9.4</a>: N-M-... Layer Systems</h2>
 
 # Chapter 10: General Advice
