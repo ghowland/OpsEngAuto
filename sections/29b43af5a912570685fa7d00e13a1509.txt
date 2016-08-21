@@ -1,3 +1,12 @@
 ### [[9.3: Multi-Layer Systems]]
 
 
+If comprehensive automation systems can be created as a Single-Layer System, than why would we ever need Multi-Layer Systems?
+
+Why can't OpsDB scale into a Planet Scale Automation system without UMCs and UMCRs?
+
+The reason is that OpsDB is taking a look at the data from a strictly virtual perspective.  It maps to physical devices, hardware and physical locations of things, and other physical attributes and issues, but it is primarily a logical system for controlling logical elements, which simply map to physical elements.
+
+But, if one wants to automation an entire Planet's worth of infrastructure, then one is going to have to take many different perspectives than the one we have settled on for the OpsDB.
+
+There will be many different views of these systems, which are in themselves just as valid as the OpsDB view, but do not 
