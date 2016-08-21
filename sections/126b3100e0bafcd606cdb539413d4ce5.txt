@@ -65,7 +65,7 @@ What environment is this used for?  Production, staging, QA, corporate?
 
 What instance number of the service is this?  001, 010?  
 
-In addition, the instance numbers are always written in the same format, providing a standard for where to start a new service:  001 (or 000, if you prefer computer counting)
+In addition, the instance numbers are always written in the same format, providing a standard for where to start a new service:  001 (or 000, if you prefer cardinal counting)
 
 The planned naming convention can scale significantly, while keeping a pattern that fits any of the machines, new or old.  Selecting the proper format for naming hosts is so important, because it is a direct factor in Control.
 

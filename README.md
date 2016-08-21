@@ -469,7 +469,7 @@ What environment is this used for?&nbsp;&nbsp;Production, staging, QA, corporate
 <br>
 What instance number of the service is this?&nbsp;&nbsp;001, 010?&nbsp;&nbsp;<br>
 <br>
-In addition, the instance numbers are always written in the same format, providing a standard for where to start a new service:&nbsp;&nbsp;001 (or 000, if you prefer computer counting)<br>
+In addition, the instance numbers are always written in the same format, providing a standard for where to start a new service:&nbsp;&nbsp;001 (or 000, if you prefer cardinal counting)<br>
 <br>
 The planned naming convention can scale significantly, while keeping a pattern that fits any of the machines, new or old.&nbsp;&nbsp;Selecting the proper format for naming hosts is so important, because it is a direct factor in Control.<br>
 <br>
