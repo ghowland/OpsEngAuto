@@ -1,15 +1,15 @@
 # Operations: Engineering and Automation
 
 
-Total Sections: 325   Populated Sections: 72
-Current Goal: Populate Empty Sections: 253   (Done: 22.2%)
+Total Sections: 325   Populated Sections: 73
+Current Goal: Populate Empty Sections: 252   (Done: 22.5%)
 
 
 <br><br><b>NOTE: This is still an early Work-In-Progress.  It is being written linearly as a First Rough Draft without editing at the moment.  There are many typos and grammatical errors presently.</b>
 
-Lines: 2960
+Lines: 2976
 
-Words: 55567
+Words: 55831
 
 
 # Chapter 1: Preface (README.txt)
@@ -3182,6 +3182,40 @@ Roughly these 4 tiers break down into:<br>
 <p id=ae9af424cff9e20bb4d775d699db9e81><b><a href="#ae9af424cff9e20bb4d775d699db9e81">8.2.5.2.1</a>: When each time block arrives, try to get what you can finish, and hopefully test and put into place, in that 1 session.&nbsp;&nbsp;This isnt possible for some work, because it's too big, so break that into stages that can fit into one of these time blocks.&nbsp;&nbsp;A simple method, would be: write it in 1, test it in another, and finally deploy it in the 3rd.</b></p>
 
 # Chapter 9: Planet Scale Automation
+
+
+[Placeholder for the time being, just to briefly explain]
+
+
+
+UM = Function + Side Effects = A method for describing any individual action
+
+
+
+UMC = Universal Machine Context.  A label for a set of UMs.  These are actions that are all related to each other, so all UMs in a UMC can be said to be on the same "layer".
+
+
+
+UMCR = UMC Relationship.  A mapping from either an input, output or effect, from one UMC UM to another UMC UM.  This is described *as* a UM.  The set of all UMCRs between two UMCs is itself a UMC.  The UMC of the relationship between the two UMCs.
+
+
+
+In this way, all functions can be mapped, for any "context" or "layer", and then all contexts/layers can be mapped, and then all relationships between all contexts and layers can be mapped.
+
+
+
+Does this need to be taken to it's extreme with a full-mesh mapping?  No.
+
+
+
+It is only important that we have a mechanism for how to link the different layers we will eventually end up creating together under a scalable and simple system, which this is.  I believe there is probably no simpler system that can be invented to describe this set of complex relationships together, because there is a minimal set of data being tracked.
+
+
+
+One would have to track less data, and do the same or more work to create a better effect, so I can state I believe this is currently an optimal solution for the present understanding of how we could scale to full-mesh style sizes of Planet Scale Automation.
+
+
+
 
 
 

@@ -1,13 +1,13 @@
 <h1>Operations: Engineering and Automation</h1>
-Total Sections: 325   Populated Sections: 72
-Current Goal: Populate Empty Sections: 253   (Done: 22.2%)
+Total Sections: 325   Populated Sections: 73
+Current Goal: Populate Empty Sections: 252   (Done: 22.5%)
 
 
 <br><br><b>NOTE: This is still an early Work-In-Progress.  It is being written linearly as a First Rough Draft without editing at the moment.  There are many typos and grammatical errors presently.</b><br>
 <br>
-Lines: 2960<br>
+Lines: 2976<br>
 <br>
-Words: 55567<br>
+Words: 55831<br>
 <br>
 <h1 id=48152466029dfcb314ccad4d502d1a73><a href="#48152466029dfcb314ccad4d502d1a73">Chapter 1</a>: Preface (README.txt)</h1>
 <br>
@@ -3105,6 +3105,22 @@ Roughly these 4 tiers break down into:<br>
 <p id=ca064b32d34547ac269d1b85fa693e6d><b><a href="#ca064b32d34547ac269d1b85fa693e6d">8.2.5.2</a>: Break your open time periods into "units" of 30 minutes or 2 hours or whatever you can have contiguously, and see what you can FINISH in that time.&nbsp;&nbsp;It is easy to lose days/weeks to getting little changes made, but not moving ahead in terms of usable progress.</b></p>
 <p id=ae9af424cff9e20bb4d775d699db9e81><b><a href="#ae9af424cff9e20bb4d775d699db9e81">8.2.5.2.1</a>: When each time block arrives, try to get what you can finish, and hopefully test and put into place, in that 1 session.&nbsp;&nbsp;This isnt possible for some work, because it's too big, so break that into stages that can fit into one of these time blocks.&nbsp;&nbsp;A simple method, would be: write it in 1, test it in another, and finally deploy it in the 3rd.</b></p>
 <h1 id=acd67121b3e38e33d9807cbb82a33ca5><a href="#acd67121b3e38e33d9807cbb82a33ca5">Chapter 9</a>: Planet Scale Automation</h1>
+<br>
+[Placeholder for the time being, just to briefly explain]<br>
+<br>
+UM = Function + Side Effects = A method for describing any individual action<br>
+<br>
+UMC = Universal Machine Context.&nbsp;&nbsp;A label for a set of UMs.&nbsp;&nbsp;These are actions that are all related to each other, so all UMs in a UMC can be said to be on the same "layer".<br>
+<br>
+UMCR = UMC Relationship.&nbsp;&nbsp;A mapping from either an input, output or effect, from one UMC UM to another UMC UM.&nbsp;&nbsp;This is described *as* a UM.&nbsp;&nbsp;The set of all UMCRs between two UMCs is itself a UMC.&nbsp;&nbsp;The UMC of the relationship between the two UMCs.<br>
+<br>
+In this way, all functions can be mapped, for any "context" or "layer", and then all contexts/layers can be mapped, and then all relationships between all contexts and layers can be mapped.<br>
+<br>
+Does this need to be taken to it's extreme with a full-mesh mapping?&nbsp;&nbsp;No.<br>
+<br>
+It is only important that we have a mechanism for how to link the different layers we will eventually end up creating together under a scalable and simple system, which this is.&nbsp;&nbsp;I believe there is probably no simpler system that can be invented to describe this set of complex relationships together, because there is a minimal set of data being tracked.<br>
+<br>
+One would have to track less data, and do the same or more work to create a better effect, so I can state I believe this is currently an optimal solution for the present understanding of how we could scale to full-mesh style sizes of Planet Scale Automation.<br>
 <h2 id=89e9cad9ead3a66e01d0bae846f5659b><a href="#89e9cad9ead3a66e01d0bae846f5659b">9.1</a>: Universal Machines as infinite recursive abstraction</h2>
 <h2 id=46ed9a6f00444101408c655cfb39cf12><a href="#46ed9a6f00444101408c655cfb39cf12">9.2</a>: Single Layer Systems</h2>
 <h2 id=29b43af5a912570685fa7d00e13a1509><a href="#29b43af5a912570685fa7d00e13a1509">9.3</a>: Multi-Layer Systems</h2>
