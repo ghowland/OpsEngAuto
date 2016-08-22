@@ -7,3 +7,14 @@ If not, please refresh your memory quickly here, because it's about to become ve
 
 In order to make efficient use of our resources, we must understand our resources, in as much depth as possible, in as many categories as possible, for our given cost-benefit requirements, to meet our goals.  So, we want to know "almost everything about everything", while trying to minimize that into as few things as possible, because keeping track of more things is more work than keeping track of less things, and so is more efficient.
 
+The most important thing to know about our Environment is the "Present State".  This is the current state of affairs, for everything, as it actually is.  Reality.
+
+When we previously inspected Knowability, as a concept, we stated that "reality is not truly knowable", because there is so much about any physical thing that we simply cannot measure.
+
+So, what we have left is what we can measure, and with these things we will attempt to "know the present".
+
+Knowing the "past" is as simple as having snapshots of your "present" still available after time.  So any data that is Versioned, or stored in a Time Series, can be used to compare against the Present or other Past snapshots.
+
+We can think of any of these time slices, moments in time, as a "snapshot" of all the data of our Environment.  With all these data points from "now" and the past, we can understand where we came from and where we are.
+
+We can further extrapolate, by various statistical means, projections of how things will be over time.  Some things we extrapolate are valid, and useful information, other things we can extrapolate, but they are actually invalid, in that while the mathematics used to calculate them may be valid, the application of that processing against the given data set, for our desired results is not a valid combination.  This is important to know, as you can predict so
