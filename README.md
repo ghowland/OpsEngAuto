@@ -9,7 +9,7 @@ Current Goal: Populate Empty Sections: 258   (Done: 25.0%)
 
 Lines: 3341
 
-Words: 62260
+Words: 62261
 
 
 # Chapter 1: Preface (README.txt)
@@ -51,7 +51,7 @@ As of this writing (2016), I've been working in the industry for over 20 years, 
 <br>
 Some names of places I've worked, named where you may know them, and grouped as industries where it's unlikely:<br>
 <br>
-Google, VMWare, Netflix, Cisco, Pacific Telesis, Lawrence Livermore Labs, Mobile Game Companies, PC Game Industry, Mortgage Industry, Financial Security Industry, Internet Startups (SaaS and end-user websites)<br>
+Google, VMWare, Netflix, LinkedIn, Cisco, Pacific Telesis, Lawrence Livermore Labs, Mobile Game Companies, PC Game Industry, Mortgage Industry, Financial Security Industry, Internet Startups (SaaS and end-user websites)<br>
 <br>
 You can see my abbrieviated job history at LinkedIn:<br>
 <br>
