@@ -13,7 +13,7 @@ Personnel Time is the time that any given person has to perform work.  For insta
 
 Money is obviously a limited resource as it is a scalar/number.  At any time an organization will have a value for available capital, and another value of available credit, and potentially options for creating more capital (sales/etc) or credit (new lines/etc).  These are all limited resources, and running out of money is almost exclusively the only reason organizations cease to exist, or are otherwise "abandoned".
 
-Hardware is essentially a "platform" for performing work.  We can lump buildings, facilities, hardware-infrastructure, and all other kinds of things into this that are essentially "things we buy with money, that we then own and have to manage".
+Hardware is essentially a "platform" for performing work.  We can lump buildings, facilities, hardware-infrastructure, and all other kinds of things into this that are essentially "things we buy/rent with money, that we then 'own' and have to manage".
 
 Apart from these things there are of course other categories, such as Software that we buy (like Hardware), but these days you can run your entire organization on Free Open Source Software (FOSS) and many companies do just that, operating as well or better than those who pay for software.  So, Software is fairly subjective in terms of being a resource like Hardware, as without Hardware we do not have any place to run FOSS or commercial software, and so we cannot operate.
 
