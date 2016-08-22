@@ -28,7 +28,7 @@ However, if we restate the question as, "How many disks do I need to have in sto
 
 This is a very different question, because it deals with a population of disk devices, not a single disk device.  Across a population this statistical analysis becomes valid, and it will remain statistically-true, as long as the numbers you give it are accurate and correlate properly, which becomes more true as the population size increases, and as you can improve correlating relationships.
 
-So, with the Physical hardware and other Real things, we cannot know everything, but with Virtual things: Data and Logic, we can know everything.
+So, with the Physical hardware and other Real things, we cannot know everything, but with Virtual things, Data and Logic, we can know everything.
 
 We can gather the exact values for each of the things we wish to know, and we can store them exactly as how they live in the real world, or can digest them so that we store a reference or reference count, or we can do anything else we want with them, because they are Virtual, we can know them completely.
 
