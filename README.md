@@ -7,9 +7,9 @@ Current Goal: Populate Empty Sections: 259   (Done: 24.7%)
 
 <br><br><b>NOTE: This is still an early Work-In-Progress.  It is being written linearly as a First Rough Draft without editing at the moment.  There are many typos and grammatical errors presently.</b>
 
-Lines: 3307
+Lines: 3311
 
-Words: 61667
+Words: 61713
 
 
 # Chapter 1: Preface (README.txt)
@@ -3079,6 +3079,10 @@ So, with the Physical hardware and other Real things, we cannot know everything,
 We can gather the exact values for each of the things we wish to know, and we can store them exactly as how they live in the real world, or can digest them so that we store a reference or reference count, or we can do anything else we want with them, because they are Virtual, we can know them completely.<br>
 <br>
 Only the Knowability scale, Virtual information is Knowable at 1.0: Completely Knowable.<br>
+<br>
+Thought experiment: What do you currently know about your own environment?&nbsp;&nbsp;What don't you know?&nbsp;&nbsp;What did you think you knew before you read this, but changed your mind as you read?<br>
+<br>
+How can you use this perspective to improve your efficient use of your resources?<br>
 <p id=6f4678a0c1cc447ce97cf330abb63e6d><b><a href="#6f4678a0c1cc447ce97cf330abb63e6d">3.5.1.2</a>: Modeling</b></p>
 <p id=1e2f1485f11d72e7cc37ce72c7de6775><b><a href="#1e2f1485f11d72e7cc37ce72c7de6775">3.5.1.2.1</a>: Black-Boxing the World</b></p>
 <p id=86a667264372ca24826a809f97ed36b8><b><a href="#86a667264372ca24826a809f97ed36b8">3.5.1.3</a>: Algorithms</b></p>
