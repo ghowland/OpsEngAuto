@@ -3017,7 +3017,7 @@ How would you summarize it in a sentence, as I have?&nbsp;&nbsp;How does your su
 Brevity allows for a type of clarity which details do not provide, as details allow for a type of clarity which brevity does not provide.&nbsp;&nbsp;They are the extremes of the scale of all valid information.<br>
 <br>
 Feel free to share your personal summaries with me, I am happy to hear how others view things, and expand my own understanding accordingly.<br>
-<h3 id=dd4d43fb90d90e89b351e98d3788a97c><a href="#dd4d43fb90d90e89b351e98d3788a97c">3.5.1</a>: The use of resources</h3>
+<h3 id=dd4d43fb90d90e89b351e98d3788a97c><a href="#dd4d43fb90d90e89b351e98d3788a97c">3.5.1</a>: The Use of Resources</h3>
 <p id=9ed589a4467b296c2ea9dbb09ae0f49d><b><a href="#9ed589a4467b296c2ea9dbb09ae0f49d">3.5.1.1</a>: Evaluate the environment.&nbsp;&nbsp;Know the present.&nbsp;&nbsp;Real vs. virtual/logical.</b></p>
 <p id=6f4678a0c1cc447ce97cf330abb63e6d><b><a href="#6f4678a0c1cc447ce97cf330abb63e6d">3.5.1.2</a>: Modeling.&nbsp;&nbsp;Creating models to understand.&nbsp;&nbsp;Creating models to control.&nbsp;&nbsp;Not the same.</b></p>
 <p id=1e2f1485f11d72e7cc37ce72c7de6775><b><a href="#1e2f1485f11d72e7cc37ce72c7de6775">3.5.1.2.1</a>: Black boxing the world.&nbsp;&nbsp;Pragmatism and effect driven models.&nbsp;&nbsp;Input, Output, Side-Effects.</b></p>
