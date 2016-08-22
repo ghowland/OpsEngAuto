@@ -9,7 +9,7 @@ Current Goal: Populate Empty Sections: 258   (Done: 25.0%)
 
 Lines: 3339
 
-Words: 62224
+Words: 62222
 
 
 # Chapter 1: Preface (README.txt)
@@ -35,7 +35,7 @@ I will be covering a large arena of information, and I will try to present a coh
 
 
 
-This book's format is meant to be read from start to finish.  It starts off more general, and very philosophical, setting up terminology and scenarios.  Then will become more specific as we get into implementation details.  Finally, it will go back to being more general as we discuss how to implement in your current environment.
+This book's format is meant to be read from start to finish.  It starts off more general, and philosophical, setting up terminology and direction.  Then it becomes more specific as we work towards implementation.  Finally, it will go back to being more general as we discuss how to implement in your current environment.
 
 
 
