@@ -1,5 +1,7 @@
 ### [[1.2: The promise of automation is removing classes of work, while you get the desired results]]
 
+"The promise of automation is removing classes of work, while you consistently get the desired results."
+
 At this point, everyone knows that automation is a necessary thing.  It wasn't always this way.  I spent much of my career trying to automate things and getting strong pushback from both management and peers (starting around 1996).  
 
 These days people usually have some aspects of automation, and are comfortable with those, so it is only the areas that they do not yet have experience which are hard to get implemented.  A major impetus in writing this book is to resolve those problems, by making the concepts better publicized and hopefully well understood.

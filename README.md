@@ -7,9 +7,9 @@ Current Goal: Populate Empty Sections: 258   (Done: 25.0%)
 
 <br><br><b>NOTE: This is still an early Work-In-Progress.  It is being written linearly as a First Rough Draft without editing at the moment.  There are many typos and grammatical errors presently.</b>
 
-Lines: 3341
+Lines: 3343
 
-Words: 62261
+Words: 62277
 
 
 # Chapter 1: Preface (README.txt)
@@ -57,6 +57,8 @@ You can see my abbrieviated job history at LinkedIn:<br>
 <br>
 https://www.linkedin.com/in/ghowland<br>
 <h2 id=4135cf6df0e576145b37ff7fe29922a3><a href="#4135cf6df0e576145b37ff7fe29922a3">1.2</a>: The promise of automation is removing classes of work</h2>
+<br>
+"The promise of automation is removing classes of work, while you consistently get the desired results."<br>
 <br>
 At this point, everyone knows that automation is a necessary thing.&nbsp;&nbsp;It wasn't always this way.&nbsp;&nbsp;I spent much of my career trying to automate things and getting strong pushback from both management and peers (starting around 1996).&nbsp;&nbsp;<br>
 <br>
