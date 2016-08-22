@@ -7,9 +7,9 @@ Current Goal: Populate Empty Sections: 260   (Done: 24.4%)
 
 <br><br><b>NOTE: This is still an early Work-In-Progress.  It is being written linearly as a First Rough Draft without editing at the moment.  There are many typos and grammatical errors presently.</b>
 
-Lines: 3260
+Lines: 3266
 
-Words: 60723
+Words: 60890
 
 
 # Chapter 1: Preface (README.txt)
@@ -3031,6 +3031,12 @@ Overall Time is like calendar time.&nbsp;&nbsp;Things can take a month, or the m
 Personnel Time is the time that any given person has to perform work.&nbsp;&nbsp;For instance, in an example job an engineer may have 40 hours of time to potentially perform work in a week.&nbsp;&nbsp;Over a month that is 160 hours of potential time.&nbsp;&nbsp;This is also a limited resource, and while organizations can make this flexible by paying more (hourly/bonuses/etc) or by asking for the person to simply give more time (unpaid overtime/death marches/etc), it still mostly remains a very limited resource.<br>
 <br>
 Money is obviously a limited resource as it is a scalar.&nbsp;&nbsp;At any time an organization will have a value for available capital, and another value of available credit, and potentially options for creating more capital (sales/etc) or credit (new lines/etc).&nbsp;&nbsp;These are all limited resources, and running out of money is almost exclusively the only reason organizations cease to exist, or are otherwise "abandoned".<br>
+<br>
+Hardware is essentially a "platform" for performing work.&nbsp;&nbsp;We can lump buildings, facilities, hardware-infrastructure, and all other kinds of things into this that are essentially "things we buy with money, that we then own and have to manage".<br>
+<br>
+Apart from these things there are of course other categories, such as Software that we buy (like Hardware), but these days you can run your entire organization on Free Open Source Software (FOSS) and many companies do just that, operating as well or better than those who pay for software.&nbsp;&nbsp;So, Software is fairly subjective in terms of being a resource like Hardware, as without Hardware we do not have any place to run FOSS or commercial software, and so we cannot operate.<br>
+<br>
+Additionally, engineering companies often create their own software, and this is required for managing your own operational environments, as there will be somethings that are unique about your organization, even if you try to make it as generic as possible, from the software-infrastructure side of things.<br>
 <p id=9ed589a4467b296c2ea9dbb09ae0f49d><b><a href="#9ed589a4467b296c2ea9dbb09ae0f49d">3.5.1.1</a>: Evaluate the environment.&nbsp;&nbsp;Know the present.&nbsp;&nbsp;Real vs. virtual/logical.</b></p>
 <p id=6f4678a0c1cc447ce97cf330abb63e6d><b><a href="#6f4678a0c1cc447ce97cf330abb63e6d">3.5.1.2</a>: Modeling</b></p>
 <p id=1e2f1485f11d72e7cc37ce72c7de6775><b><a href="#1e2f1485f11d72e7cc37ce72c7de6775">3.5.1.2.1</a>: Black-Boxing the World</b></p>
