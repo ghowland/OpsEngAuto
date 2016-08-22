@@ -156,7 +156,7 @@ Even if you have a very similar usage of language as mine, the ideas I am expres
 <br>
 I am mostly writing in a tone of conversation, and so will jump around more than if this was a text book.&nbsp;&nbsp;This is certainly not a text book, and should not be read as such.&nbsp;&nbsp;It should be read more like a novel, as I am attempting to perform "Mentoring", and so am building up ideas and referencing them repeatedly in a type of planned sequence.<br>
 <br>
-If you jump to a section, and find it extremely confusing, it is likely because ideas were introduced and specified in a previous section, and their immediate usage (without that previous information) may seem very alien indeed.<br>
+If you jump to a section, and find it oddly confusing, it is likely because ideas were introduced and specified in a previous section, and their immediate usage (without that previous information) may seem very alien indeed.<br>
 <br>
 This is a trade-off between writing styles, and for this work I have chosen this style as the one I think will yield the best results for the audience most-likely to be able to intake this information and make use of it.&nbsp;&nbsp;That is only a guess, but I have to pick a methodology and stick with it.<br>
 <br>
