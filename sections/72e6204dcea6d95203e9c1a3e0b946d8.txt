@@ -29,3 +29,19 @@ Firstly, when we think of a ceiling, we think of it generally as having an even 
 If one of our boards is only 1 foot in height, then for part of our ceiling, we know we will not be able to reside underneath it, as there is not much space.  This does not sound like a very good ceiling.
 
 This means, that we can reduce the "efficiency" of the ceiling we are proposing, because the ceiling is qualitatively "not good" from our definitions (goals) of what a ceiling should be.
+
+Now, if qualitatively we wanted a flat ceiling above our heads, then this sloping ceiling is also "less good", and if we we're satisfied with a sloping ceiling, but require that it only slope in 1 dimension, then these heights of beams are also producing a qualitatively "less good" ceiling.
+
+That covers some qualitative issues, but what about quantitatively?
+
+There are several factors we can immediately state for quantitative measurements, such as:
+
+- Vertical Weight bearing:  How much weight could be placed on the ceiling/roof, before the structure collapses?  You can imagine snow, if you need a concrete example.  As snow accumulates, the structure bears mode weight through the supporting beams, and is at risk of changing structure and eventually collapsing as this weight is delivered over time.  Even unweighted by extra material, the material in the beams and ceiling board themselves have weight and will over time degrade, so this is always a factor.
+
+- Lateral force stability:  How much horizontal or lateral force can be applied to this structure, before it collapses?  Is it equal in all directions?  How stable is it in terms of falling on one of it's sides?  Etc.
+
+Let's start with just these two factors, though there are many many more than can be applied, even in this trivial example.
+
+
+
+
