@@ -9,7 +9,7 @@ Current Goal: Populate Empty Sections: 260   (Done: 24.0%)
 
 Lines: 3197
 
-Words: 59998
+Words: 60017
 
 
 # Chapter 1: Preface (README.txt)
@@ -2961,7 +2961,7 @@ When you think of "best", it does not immediately call into mind the same questi
 <br>
 And yet, from our inspection earlier we see that "best" means a very limited set of scenarios, do we know that we described the scenarios accurately?&nbsp;&nbsp;If the "best" is based on a limited set of scenarios, and we described anything inaccurately in the description of our scenario, than very likely we chose the wrong "best".<br>
 <br>
-In comparison with "better", we have to be more explicit.&nbsp;&nbsp;Our language compels us to describe the "better attributes" explicitly, and begs that we also describe the "worse attributes" in comparison.&nbsp;&nbsp;"Best" does not beg that we describe the "worse", because we don't care about the worst methodology or worst design.<br>
+In comparison with "better", we have to be more explicit.&nbsp;&nbsp;Our language compels us to describe the "better attributes" explicitly, and begs that we also describe the "worse attributes" in comparison.&nbsp;&nbsp;"Best" does not beg that we describe the "worse", because we don't care about the worst methodology or worst design.&nbsp;&nbsp;Our minds enjoy the relationships of extremes.&nbsp;&nbsp;"Better" leads to "more good" and "less good"; "Best" leads to "worst".<br>
 <br>
 But in both "best" and "better" we do care about their peer results, but "best" claims to have no peers, while "better" usually implies there are competing peers.<br>
 <br>
