@@ -7,9 +7,9 @@ Current Goal: Populate Empty Sections: 262   (Done: 23.2%)
 
 <br><br><b>NOTE: This is still an early Work-In-Progress.  It is being written linearly as a First Rough Draft without editing at the moment.  There are many typos and grammatical errors presently.</b>
 
-Lines: 3047
+Lines: 3057
 
-Words: 57254
+Words: 57492
 
 
 # Chapter 1: Preface (README.txt)
@@ -586,7 +586,17 @@ When we hit "sjc10" we have changed the number of total characters for this sect
 <br>
 This makes it more dynamic, yet still scalable, and so has preference over sjc01 or sjc001, which account for limited growth (100 possibilities), or a large growth (1000 possibilities), but which are immediately more wasteful, mostly in terms of parsing and typing for humans.&nbsp;&nbsp;This is the tradeoff being made here each time we choose to prepend zeros, or choose not to.<br>
 <br>
-What about "product", is it likely to grow in count too?&nbsp;&nbsp;No, there is not necessarily a requirement for this.&nbsp;&nbsp;If a new product does come out that is called "product2", then it is still differentiated from "product", and while it shares the same look and feel as the datacenter location scaling problem, it is actually a different type of scaling, because each of these products is unique and naming them is a business-customer function, not an engineering-infrastructure function.<br>
+What about "product", is it likely to grow in count too?&nbsp;&nbsp;No, there is not necessarily a requirement for this.&nbsp;&nbsp;If a new product does come out that is called "product2", then it is still differentiated from "product", and while it shares the same look and feel as the datacenter location scaling problem, it is actually a different type of scaling, because each of these products is unique and naming them is a business-customer function, not an engineering-infrastructure function.&nbsp;&nbsp;We will simply shorten the name into an "alias" that is engineering-infrastructure friendly, and also to avoid any renaming that the product line goes through.<br>
+<br>
+{{ aside }}<br>
+Often marketing and sales departments will rename a product many times, both before it is launched, and after it is launched, and sometimes "newer versions" of the same product will be renamed, and "older versions" may have the same old name, or also change names.<br>
+<br>
+All of this name changing is an important part of Sales, Marketing, Branding, etc, but it has nothing to do with engineering or operations.&nbsp;&nbsp;In fact, it is completely against our interests to change the name, ever.&nbsp;&nbsp;No matter what happens outside the company, the internal name should not change, because the costs associated with internal name changes are high, and rewards of internal name changes are essentially non-existent.<br>
+<br>
+People from outside the Engineering and Operations departments may not share these values, but they are not tasked with performing actions in the engineering or operational realms, so their opinions are valid for themselves, but carry no engineering weight.<br>
+<br>
+As such, I recommend making internal engineering names that are unrelated to the product names.&nbsp;&nbsp;They can be related informally, such as one happened to use the name of the original project as the name, and we simply keep that name as the internal name, even if later on it sounds silly or <br>
+{{ end: aside }}<br>
 <br>
 This is likely to be controversial, as it is difficult to back up with solid data quickly, so we will cover how to differentiate data like this later to keep the pace moving along.<br>
 <br>
