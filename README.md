@@ -9,7 +9,7 @@ Current Goal: Populate Empty Sections: 262   (Done: 23.2%)
 
 Lines: 3047
 
-Words: 57236
+Words: 57254
 
 
 # Chapter 1: Preface (README.txt)
@@ -586,7 +586,7 @@ When we hit "sjc10" we have changed the number of total characters for this sect
 <br>
 This makes it more dynamic, yet still scalable, and so has preference over sjc01 or sjc001, which account for limited growth (100 possibilities), or a large growth (1000 possibilities), but which are immediately more wasteful, mostly in terms of parsing and typing for humans.&nbsp;&nbsp;This is the tradeoff being made here each time we choose to prepend zeros, or choose not to.<br>
 <br>
-What about "product", is it likely to grow in count too?&nbsp;&nbsp;No, there is not necessarily a requirement for this.&nbsp;&nbsp;If a new product does come out that is called "product2", then it is still differentiated from "product", and while it shares the same look and feel as the datacenter location scaling problem, it is actually a different type of scaling.<br>
+What about "product", is it likely to grow in count too?&nbsp;&nbsp;No, there is not necessarily a requirement for this.&nbsp;&nbsp;If a new product does come out that is called "product2", then it is still differentiated from "product", and while it shares the same look and feel as the datacenter location scaling problem, it is actually a different type of scaling, because each of these products is unique and naming them is a business-customer function, not an engineering-infrastructure function.<br>
 <br>
 This is likely to be controversial, as it is difficult to back up with solid data quickly, so we will cover how to differentiate data like this later to keep the pace moving along.<br>
 <br>
