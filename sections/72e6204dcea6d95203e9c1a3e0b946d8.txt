@@ -1,3 +1,7 @@
 ### [[3.4.1: Alignment]]
 
+Alignment is one of the most important concepts of building efficient systems.
+
+Any system can be described in a number of ways, but let us consider a system that is described as nodes and links between them, or edges, so that can be describe a system as a Graph.
+
 
