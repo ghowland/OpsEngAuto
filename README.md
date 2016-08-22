@@ -9,7 +9,7 @@ Current Goal: Populate Empty Sections: 259   (Done: 24.3%)
 
 Lines: 3217
 
-Words: 60107
+Words: 60110
 
 
 # Chapter 1: Preface (README.txt)
@@ -2972,9 +2972,9 @@ Can you think of a single thing you currently describe and think about as "best"
 <br>
 I've said before that I think Engineering is:<br>
 <br>
-{{ insert__engineering_defintion }}<br>
-<br>
+{{ definition__engineering_begin }}<br>
 "The efficient use of resources to meet requirements to sufficiently satisfy your goals."<br>
+{{ definition__engineering_end }}<br>
 <br>
 Let's break this down in a way where we can understand Engineering as a process.<br>
 <br>

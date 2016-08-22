@@ -2,9 +2,9 @@
 
 I've said before that I think Engineering is:
 
-{{ insert__engineering_defintion }}
-
+{{ definition__engineering_begin }}
 "The efficient use of resources to meet requirements to sufficiently satisfy your goals."
+{{ definition__engineering_end }}
 
 Let's break this down in a way where we can understand Engineering as a process.
 
