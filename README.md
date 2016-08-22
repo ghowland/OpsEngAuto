@@ -1,15 +1,15 @@
 # Operations: Engineering and Automation
 
 
-Total Sections: 341   Populated Sections: 80
-Current Goal: Populate Empty Sections: 261   (Done: 23.5%)
+Total Sections: 341   Populated Sections: 81
+Current Goal: Populate Empty Sections: 260   (Done: 23.8%)
 
 
 <br><br><b>NOTE: This is still an early Work-In-Progress.  It is being written linearly as a First Rough Draft without editing at the moment.  There are many typos and grammatical errors presently.</b>
 
-Lines: 3133
+Lines: 3136
 
-Words: 58980
+Words: 59023
 
 
 # Chapter 1: Preface (README.txt)
@@ -2914,6 +2914,9 @@ In environments where I work, I see this constantly.&nbsp;&nbsp;Almost every exi
 <br>
 While we want to have Globally Efficient Alignment, if you find yourself in an environment where there is poor global efficiency, then you must start with a single project that has good Local Alignment efficiency, and attempt to branch out from there, creating either new Local efficiencies, or leveraging your now-existing good Local Alignment to create larger and larger inter-connected efficient systems, which can eventually replace the older less-aligned and less-efficient systems.<br>
 <h3 id=26ab897a0841f617abc1175707de81dd><a href="#26ab897a0841f617abc1175707de81dd">3.4.2</a>: There is no best, except for a certain set of values and priorities, from a limited set of options.</h3>
+<br>
+<br>
+Best is a concept that is poorly understood in our culture.&nbsp;&nbsp;It is frequently used, but rarely clarified, because it's vagueness gives it rhetorical power, but in engineering this is simply a logical fallacy that leads us to poor choices and low efficiency.<br>
 <h2 id=9b893b40e08934229116cacf12764a11><a href="#9b893b40e08934229116cacf12764a11">3.5</a>: Understanding Engineering:&nbsp;&nbsp;Environment -> Resources -> Goal -> Actions -> Changed Environment -> Desired Effects?&nbsp;&nbsp;Efficient use of resources?&nbsp;&nbsp;Management of environment?</h2>
 <h3 id=dd4d43fb90d90e89b351e98d3788a97c><a href="#dd4d43fb90d90e89b351e98d3788a97c">3.5.1</a>: The use of resources (overall time, people time, money, hardware, etc) to create desired effects, for a given environment.</h3>
 <p id=9ed589a4467b296c2ea9dbb09ae0f49d><b><a href="#9ed589a4467b296c2ea9dbb09ae0f49d">3.5.1.1</a>: Evaluate the environment.&nbsp;&nbsp;Know the present.&nbsp;&nbsp;Real vs. virtual/logical.</b></p>

@@ -1,3 +1,5 @@
 ### [[3.5.1: There is no best, except for a certain set of values and priorities, from a limited set of options.]]
 
 
+Best is a concept that is poorly understood in our culture.  It is frequently used, but rarely clarified, because it's vagueness gives it rhetorical power, but in engineering this is simply a logical fallacy that leads us to poor choices and low efficiency.
+
