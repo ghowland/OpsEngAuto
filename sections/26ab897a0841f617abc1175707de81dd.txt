@@ -20,7 +20,7 @@ This set of properties took it's shape through a line-of-reasoning, instead of e
 
 In engineering we are not generally interested in the "worst" outcome as a result, except when we need to brainstorm in finding potential problems to pre-solve against in coming up with our failure matrix for our services/etc.
 
-Determining "worst" solutions is using the methodologies for "best" in reverse quantities.
+Determining "worst" solutions is using the methodologies for "best" in reverse quantitative comparisons.
 
 In my view, this makes it clear that best/worst are a very small subset of options, and those options are highly detailed to one's exact environment, requirement, resources and goals.
 

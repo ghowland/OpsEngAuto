@@ -9,7 +9,7 @@ Current Goal: Populate Empty Sections: 260   (Done: 23.8%)
 
 Lines: 3187
 
-Words: 59936
+Words: 59937
 
 
 # Chapter 1: Preface (README.txt)
@@ -2935,7 +2935,7 @@ This set of properties took it's shape through a line-of-reasoning, instead of e
 <br>
 In engineering we are not generally interested in the "worst" outcome as a result, except when we need to brainstorm in finding potential problems to pre-solve against in coming up with our failure matrix for our services/etc.<br>
 <br>
-Determining "worst" solutions is using the methodologies for "best" in reverse quantities.<br>
+Determining "worst" solutions is using the methodologies for "best" in reverse quantitative comparisons.<br>
 <br>
 In my view, this makes it clear that best/worst are a very small subset of options, and those options are highly detailed to one's exact environment, requirement, resources and goals.<br>
 <br>
