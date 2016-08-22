@@ -7,9 +7,9 @@ Current Goal: Populate Empty Sections: 259   (Done: 24.7%)
 
 <br><br><b>NOTE: This is still an early Work-In-Progress.  It is being written linearly as a First Rough Draft without editing at the moment.  There are many typos and grammatical errors presently.</b>
 
-Lines: 3310
+Lines: 3316
 
-Words: 61713
+Words: 61822
 
 
 # Chapter 1: Preface (README.txt)
@@ -3078,6 +3078,12 @@ So, with the Physical hardware and other Real things, we cannot know everything,
 We can gather the exact values for each of the things we wish to know, and we can store them exactly as how they live in the real world, or can digest them so that we store a reference or reference count, or we can do anything else we want with them, because they are Virtual, we can know them completely.<br>
 <br>
 Only the Knowability scale, Virtual information is Knowable at 1.0: Completely Knowable.<br>
+<br>
+An important note about "now".&nbsp;&nbsp;You can never know things in the truly "Now" state, because all information arrives to you in a delayed fashion.&nbsp;&nbsp;It took time for the information to travel from it's source, to you.<br>
+<br>
+In terms of Monitoring, this means that all time series collected data, and other collected data, is aged.&nbsp;&nbsp;It has an age, that is older than 0 seconds, in which that information was "accurate-as-of-Now", but the "now" that you are looking at is actually old information.<br>
+<br>
+The only requirement is that this information is "new enough" to be considered "now", but it is never truly Now that you are looking at.<br>
 <br>
 Thought experiment: What do you currently know about your own environment?&nbsp;&nbsp;What don't you know?&nbsp;&nbsp;What did you think you knew before you read this, but changed your mind as you read?<br>
 <br>
