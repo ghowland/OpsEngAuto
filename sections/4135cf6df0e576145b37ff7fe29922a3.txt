@@ -10,7 +10,7 @@ The issues I find these days are not that people do not want comprehensive autom
 
 With all of these things, it is best to stay results-focused, and look to what you want to achieve out of automation, and in my opinion the ultimate goal should be: "removing classes of work".
 
-What is a "Class of Work"?  We will look at this in many ways over the course of this book, but we can start by summarizing it as "anything that is done".
+What is a "Class of Work"?  We will look at this in many ways over the course of this book, but we can start by summarizing it as: "anything that is done".
 
 This may be a specific thing such as "update a DNS zone file" (text file).  When this "Class of Work" is comprehensively automated, then no one will ever again update the text file relating to DNS zones, but will have to do other work related to DNS still, as only updating the zone file was comprehensively automated.
 
