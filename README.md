@@ -7,9 +7,9 @@ Current Goal: Populate Empty Sections: 258   (Done: 25.0%)
 
 <br><br><b>NOTE: This is still an early Work-In-Progress.  It is being written linearly as a First Rough Draft without editing at the moment.  There are many typos and grammatical errors presently.</b>
 
-Lines: 3339
+Lines: 3341
 
-Words: 62239
+Words: 62259
 
 
 # Chapter 1: Preface (README.txt)
@@ -39,9 +39,11 @@ This book's format is meant to be read from start to finish.  It starts off more
 
 
 
-This book is more about depth than breadth, and as such we will continue to come back to examples over and over again, looking at them in different ways, to give a deeper understanding of all the components that make them up.  This is in contrast to many books that are meant to describe an array of information and give you a broader understanding of how to work and how to use them specifically.
+This book is more about depth than breadth, and as such we will continue to come back to examples over and over again, looking at them in different ways, to give a deeper understanding of all the components that make them up.  This is again in contrast to many books that are meant to describe an array of information and give you a broader understanding of how they work and how to use them specifically.
 
 
+
+This book is meant to improve your ability to reason and efficient create solutions in the operational engineering space.
 
 <h2 id=8d921a98a2974ea61b905ce719a9f121><a href="#8d921a98a2974ea61b905ce719a9f121">1.1</a>: Where Ive Been, What Ive Been Doing, Why I Wrote this Book</h2>
 <br>
