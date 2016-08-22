@@ -7,9 +7,9 @@ Current Goal: Populate Empty Sections: 259   (Done: 24.3%)
 
 <br><br><b>NOTE: This is still an early Work-In-Progress.  It is being written linearly as a First Rough Draft without editing at the moment.  There are many typos and grammatical errors presently.</b>
 
-Lines: 3225
+Lines: 3241
 
-Words: 60173
+Words: 60395
 
 
 # Chapter 1: Preface (README.txt)
@@ -2997,6 +2997,22 @@ Do these Actions have the Desired Effects?<br>
 Did we make efficient use of our Resources?<br>
 <br>
 How efficiently can we manage our environment?&nbsp;&nbsp;What is it like day-to-day operating what we have built?<br>
+<br>
+With the above sequence and prose description of that sequence, we have a starting place to understand what Engineering is.&nbsp;&nbsp;It's something we do, it's something that produces results we may or may not want.&nbsp;&nbsp;It changes things.<br>
+<br>
+These are all things that can be said to describe Engineering, and shine lights on it's different surfaces, which show different things to different people, coming from different viewpoints.<br>
+<br>
+Engineering is multi-faceted to an amazing degree, so we will have to describe it repeatedly in vague terms to cloak it in an overall shape that provides better understanding.<br>
+<br>
+Like Local vs Global Alignment, Engineering can be understood in a small or shallow manner well Locally, but when compared against other descriptions which are equally accurate, they do not seem to Align well.<br>
+<br>
+It is only through creating many Local descriptions which Align well, and combine together into a Global network of descriptions that Align well, that we can create a real understanding of what Engineering is.<br>
+<br>
+What does Engineering mean to you?<br>
+<br>
+How would you summarize it in a sentence, as I have?&nbsp;&nbsp;How does your summary differ from mine?&nbsp;&nbsp;What advantages do you see in your summary over mine?<br>
+<br>
+Feel free to share your personal summaries with me, I am happy to hear how others view things, and expand my own understanding accordinly.<br>
 <h3 id=dd4d43fb90d90e89b351e98d3788a97c><a href="#dd4d43fb90d90e89b351e98d3788a97c">3.5.1</a>: The use of resources (overall time, people time, money, hardware, etc) to create desired effects, for a given environment.</h3>
 <p id=9ed589a4467b296c2ea9dbb09ae0f49d><b><a href="#9ed589a4467b296c2ea9dbb09ae0f49d">3.5.1.1</a>: Evaluate the environment.&nbsp;&nbsp;Know the present.&nbsp;&nbsp;Real vs. virtual/logical.</b></p>
 <p id=6f4678a0c1cc447ce97cf330abb63e6d><b><a href="#6f4678a0c1cc447ce97cf330abb63e6d">3.5.1.2</a>: Modeling.&nbsp;&nbsp;Creating models to understand.&nbsp;&nbsp;Creating models to control.&nbsp;&nbsp;Not the same.</b></p>

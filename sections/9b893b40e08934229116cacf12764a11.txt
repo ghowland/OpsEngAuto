@@ -28,3 +28,18 @@ Did we make efficient use of our Resources?
 
 How efficiently can we manage our environment?  What is it like day-to-day operating what we have built?
 
+With the above sequence and prose description of that sequence, we have a starting place to understand what Engineering is.  It's something we do, it's something that produces results we may or may not want.  It changes things.
+
+These are all things that can be said to describe Engineering, and shine lights on it's different surfaces, which show different things to different people, coming from different viewpoints.
+
+Engineering is multi-faceted to an amazing degree, so we will have to describe it repeatedly in vague terms to cloak it in an overall shape that provides better understanding.
+
+Like Local vs Global Alignment, Engineering can be understood in a small or shallow manner well Locally, but when compared against other descriptions which are equally accurate, they do not seem to Align well.
+
+It is only through creating many Local descriptions which Align well, and combine together into a Global network of descriptions that Align well, that we can create a real understanding of what Engineering is.
+
+What does Engineering mean to you?
+
+How would you summarize it in a sentence, as I have?  How does your summary differ from mine?  What advantages do you see in your summary over mine?
+
+Feel free to share your personal summaries with me, I am happy to hear how others view things, and expand my own understanding accordinly.
