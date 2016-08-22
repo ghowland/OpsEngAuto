@@ -2990,7 +2990,7 @@ If we wanted to make a sequence from general-to-specific in terms of honing in o
 - Efficient use of resources?&nbsp;&nbsp;<br>
 - Management of environment?<br>
 <br>
-We start with an Environment, in which we have Resources, and we have some kind of Requirements, which apply to some Goal(s), so we perform some Actions, which change the environment.<br>
+We start with an Environment, in which we have Resources, and we have some kind of Requirements, which apply to some Goal(s), so we perform some Actions, which change the Environment.<br>
 <br>
 Do these Actions have the Desired Effects?<br>
 <br>
