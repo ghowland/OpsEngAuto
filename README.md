@@ -7,9 +7,9 @@ Current Goal: Populate Empty Sections: 260   (Done: 23.8%)
 
 <br><br><b>NOTE: This is still an early Work-In-Progress.  It is being written linearly as a First Rough Draft without editing at the moment.  There are many typos and grammatical errors presently.</b>
 
-Lines: 3165
+Lines: 3167
 
-Words: 59581
+Words: 59601
 
 
 # Chapter 1: Preface (README.txt)
@@ -2946,6 +2946,8 @@ As such, there can be no such thing as "Best Practices" (see section {{ section_
 In this book, I try to define for you, roughly, my Practice, for how to do engineering and operations.&nbsp;&nbsp;I am trying to provide deep insight into how these things work, as I see them, and how I manipulate them to achieve results I desire, and how you can learn from my work and create your own.<br>
 <br>
 Be careful with the language you use casually to describe things like "The Best Way To Do Something", in your giving or receiving of information, because the results you receive from taking those words at anywhere near their value may be far from the suggested-reality those words relayed to you.<br>
+<br>
+"Best" has a powerful symbolic meaning to us.&nbsp;&nbsp;Use it very carefully, or pay the consequences for wielding power poorly.<br>
 <h2 id=9b893b40e08934229116cacf12764a11><a href="#9b893b40e08934229116cacf12764a11">3.5</a>: Understanding Engineering:&nbsp;&nbsp;Environment -> Resources -> Goal -> Actions -> Changed Environment -> Desired Effects?&nbsp;&nbsp;Efficient use of resources?&nbsp;&nbsp;Management of environment?</h2>
 <h3 id=dd4d43fb90d90e89b351e98d3788a97c><a href="#dd4d43fb90d90e89b351e98d3788a97c">3.5.1</a>: The use of resources (overall time, people time, money, hardware, etc) to create desired effects, for a given environment.</h3>
 <p id=9ed589a4467b296c2ea9dbb09ae0f49d><b><a href="#9ed589a4467b296c2ea9dbb09ae0f49d">3.5.1.1</a>: Evaluate the environment.&nbsp;&nbsp;Know the present.&nbsp;&nbsp;Real vs. virtual/logical.</b></p>
