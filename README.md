@@ -9,7 +9,7 @@ Current Goal: Populate Empty Sections: 260   (Done: 23.8%)
 
 Lines: 3187
 
-Words: 59935
+Words: 59936
 
 
 # Chapter 1: Preface (README.txt)
@@ -2933,7 +2933,7 @@ What are some properties of "best"?<br>
 <br>
 This set of properties took it's shape through a line-of-reasoning, instead of enumerating things that were visible without reasoning, but both methods of defining properties are acceptable (simply remember how you came to them, in case they need re-evaluation).<br>
 <br>
-In engineering we are not generally interested in the "worst" outcome as a result, but we need to brainstorm in finding potential problems to pre-solve against in coming up with our failure matrix for our services/etc.<br>
+In engineering we are not generally interested in the "worst" outcome as a result, except when we need to brainstorm in finding potential problems to pre-solve against in coming up with our failure matrix for our services/etc.<br>
 <br>
 Determining "worst" solutions is using the methodologies for "best" in reverse quantities.<br>
 <br>
