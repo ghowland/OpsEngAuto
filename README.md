@@ -7,9 +7,9 @@ Current Goal: Populate Empty Sections: 260   (Done: 23.8%)
 
 <br><br><b>NOTE: This is still an early Work-In-Progress.  It is being written linearly as a First Rough Draft without editing at the moment.  There are many typos and grammatical errors presently.</b>
 
-Lines: 3181
+Lines: 3187
 
-Words: 59824
+Words: 59935
 
 
 # Chapter 1: Preface (README.txt)
@@ -2961,7 +2961,13 @@ When you think of "best" it does not immediately call into mind the same questio
 <br>
 And yet, from our inspection earlier we see that "best" means a very limited set of scenarios, do we know that we described the scenarios accurately?&nbsp;&nbsp;If the "best" is based on a limited set of scenarios, and we got anything wrong in our description of our scenario, than very likely we chose the wrong "best".<br>
 <br>
-In comparison with "better", we have to be more explicit.&nbsp;&nbsp;Our language compels us to describe the "better attributes" explicitly, and begs that we also describe the "worse attributes" in comparison.&nbsp;&nbsp;"Best" does not beg that we describe the "worse", beca<br>
+In comparison with "better", we have to be more explicit.&nbsp;&nbsp;Our language compels us to describe the "better attributes" explicitly, and begs that we also describe the "worse attributes" in comparison.&nbsp;&nbsp;"Best" does not beg that we describe the "worse", because we don't care about the worst result.<br>
+<br>
+But in both "best" and "better" we do care about their peer results, but "best" claims to have no peers, while "better" usually implies there are competing peers.<br>
+<br>
+Thought exercise:&nbsp;&nbsp;In what circumstances currently do you use the term "best"?&nbsp;&nbsp;When applying my critique above, what strikes you as something you need to think about more in terms of "best" or "better"?<br>
+<br>
+Can you think of a single thing you currently describe and think about as "best" that it would be better to reframe as "better"?&nbsp;&nbsp;What tangible benefits could this immediately bring you, from this change in your thinking and decision making abilities?<br>
 <h2 id=9b893b40e08934229116cacf12764a11><a href="#9b893b40e08934229116cacf12764a11">3.5</a>: Understanding Engineering:&nbsp;&nbsp;Environment -> Resources -> Goal -> Actions -> Changed Environment -> Desired Effects?&nbsp;&nbsp;Efficient use of resources?&nbsp;&nbsp;Management of environment?</h2>
 <h3 id=dd4d43fb90d90e89b351e98d3788a97c><a href="#dd4d43fb90d90e89b351e98d3788a97c">3.5.1</a>: The use of resources (overall time, people time, money, hardware, etc) to create desired effects, for a given environment.</h3>
 <p id=9ed589a4467b296c2ea9dbb09ae0f49d><b><a href="#9ed589a4467b296c2ea9dbb09ae0f49d">3.5.1.1</a>: Evaluate the environment.&nbsp;&nbsp;Know the present.&nbsp;&nbsp;Real vs. virtual/logical.</b></p>

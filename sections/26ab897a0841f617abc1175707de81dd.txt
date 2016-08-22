@@ -46,4 +46,10 @@ When you think of "best" it does not immediately call into mind the same questio
 
 And yet, from our inspection earlier we see that "best" means a very limited set of scenarios, do we know that we described the scenarios accurately?  If the "best" is based on a limited set of scenarios, and we got anything wrong in our description of our scenario, than very likely we chose the wrong "best".
 
-In comparison with "better", we have to be more explicit.  Our language compels us to describe the "better attributes" explicitly, and begs that we also describe the "worse attributes" in comparison.  "Best" does not beg that we describe the "worse", beca
+In comparison with "better", we have to be more explicit.  Our language compels us to describe the "better attributes" explicitly, and begs that we also describe the "worse attributes" in comparison.  "Best" does not beg that we describe the "worse", because we don't care about the worst result.
+
+But in both "best" and "better" we do care about their peer results, but "best" claims to have no peers, while "better" usually implies there are competing peers.
+
+Thought exercise:  In what circumstances currently do you use the term "best"?  When applying my critique above, what strikes you as something you need to think about more in terms of "best" or "better"?
+
+Can you think of a single thing you currently describe and think about as "best" that it would be better to reframe as "better"?  What tangible benefits could this immediately bring you, from this change in your thinking and decision making abilities?
