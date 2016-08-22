@@ -7,9 +7,9 @@ Current Goal: Populate Empty Sections: 259   (Done: 24.7%)
 
 <br><br><b>NOTE: This is still an early Work-In-Progress.  It is being written linearly as a First Rough Draft without editing at the moment.  There are many typos and grammatical errors presently.</b>
 
-Lines: 3291
+Lines: 3301
 
-Words: 61331
+Words: 61548
 
 
 # Chapter 1: Preface (README.txt)
@@ -3062,7 +3062,17 @@ Knowing the "past" is as simple as having snapshots of your "present" still avai
 <br>
 We can think of any of these time slices, moments in time, as a "snapshot" of all the data of our Environment.&nbsp;&nbsp;With all these data points from "now" and the past, we can understand where we came from and where we are.<br>
 <br>
-We can further extrapolate, by various statistical means, projections of how things will be over time.&nbsp;&nbsp;Some things we extrapolate are valid, and useful information, other things we can extrapolate, but they are actually invalid, in that while the mathematics used to calculate them may be valid, the application of that processing against the given data set, for our desired results is not a valid combination.&nbsp;&nbsp;This is important to know, as you can predict so<br>
+We can further extrapolate, by various statistical means, projections of how things will be over time.&nbsp;&nbsp;Some things we extrapolate are valid, and useful information, other things we can extrapolate, but they are actually invalid, in that while the mathematics used to calculate them may be valid, the application of that processing against the given data set, for our desired results is not a valid combination.&nbsp;&nbsp;<br>
+<br>
+This is important to know, as you can predict somethings, such as "How many hard disks do we expect to fail next month?", but you cannot predict other things such as "Will this specific hard drive in this specific machine, fail next month?".&nbsp;&nbsp;No amount of statistical analysis can answer a useful boolean value there, and a non-boolean result is not something you can reliably make a decision on in that case.<br>
+<br>
+For example, for a given machine and hard disk device, will knowing it's manufacturing lot number, with the known MTBFs (Mean Time Between Failures), and the lifespan of the system, and the usage of the disk (IOPS over time), be able to determine if you must replace that exact hard disk device, in the next month?<br>
+<br>
+No.&nbsp;&nbsp;That specific hard disk device could fail in the next second, or could last another 5 years, you cannot give an actionable answer to this question.<br>
+<br>
+However, if we restate the question as, "How many disks do I need to have in stock, in order to replace the number of disks in all of my systems that are likely to fail in the next month?"<br>
+<br>
+This is a very different question, because it deals with a population of disk devices, not a single disk device.&nbsp;&nbsp;Across a population these statistical analysis becomes valid, and it will remain statistically-true<br>
 <p id=6f4678a0c1cc447ce97cf330abb63e6d><b><a href="#6f4678a0c1cc447ce97cf330abb63e6d">3.5.1.2</a>: Modeling</b></p>
 <p id=1e2f1485f11d72e7cc37ce72c7de6775><b><a href="#1e2f1485f11d72e7cc37ce72c7de6775">3.5.1.2.1</a>: Black-Boxing the World</b></p>
 <p id=86a667264372ca24826a809f97ed36b8><b><a href="#86a667264372ca24826a809f97ed36b8">3.5.1.3</a>: Algorithms</b></p>
