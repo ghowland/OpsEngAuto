@@ -9,7 +9,7 @@ Current Goal: Populate Empty Sections: 260   (Done: 24.4%)
 
 Lines: 3270
 
-Words: 60944
+Words: 60943
 
 
 # Chapter 1: Preface (README.txt)
@@ -3030,7 +3030,7 @@ Overall Time is like calendar time.&nbsp;&nbsp;Things can take hours, or a month
 <br>
 Personnel Time is the time that any given person has to perform work.&nbsp;&nbsp;For instance, in an example job an engineer may have 40 hours of time to potentially perform work in a week.&nbsp;&nbsp;Over a month that is 160 hours of potential time.&nbsp;&nbsp;This is also a limited resource, and while organizations can make this flexible by paying more (hourly/bonuses/etc) or by asking for the person to simply give more time (unpaid overtime/death marches/etc), it still mostly remains a very limited resource.<br>
 <br>
-Money is obviously a limited resource as it is a scalar number.&nbsp;&nbsp;At any time an organization will have a value for available capital, and another value of available credit, and potentially options for creating more capital (sales/etc) or credit (new lines/etc).&nbsp;&nbsp;These are all limited resources, and running out of money is almost exclusively the only reason organizations cease to exist, or are otherwise "abandoned".<br>
+Money is obviously a limited resource as it is a scalar/number.&nbsp;&nbsp;At any time an organization will have a value for available capital, and another value of available credit, and potentially options for creating more capital (sales/etc) or credit (new lines/etc).&nbsp;&nbsp;These are all limited resources, and running out of money is almost exclusively the only reason organizations cease to exist, or are otherwise "abandoned".<br>
 <br>
 Hardware is essentially a "platform" for performing work.&nbsp;&nbsp;We can lump buildings, facilities, hardware-infrastructure, and all other kinds of things into this that are essentially "things we buy with money, that we then own and have to manage".<br>
 <br>
