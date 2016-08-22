@@ -7,9 +7,9 @@ Current Goal: Populate Empty Sections: 262   (Done: 23.2%)
 
 <br><br><b>NOTE: This is still an early Work-In-Progress.  It is being written linearly as a First Rough Draft without editing at the moment.  There are many typos and grammatical errors presently.</b>
 
-Lines: 3043
+Lines: 3045
 
-Words: 57064
+Words: 57218
 
 
 # Chapter 1: Preface (README.txt)
@@ -581,6 +581,8 @@ If you only have 1 data center, then you know.&nbsp;&nbsp;But what if you get a 
 If you name the second data center "sjc2" and the first was "sjc", you now have a naming convention discrepency.&nbsp;&nbsp;You previously had 3 letters, now you have 3 letters and 1 number.&nbsp;&nbsp;This can create parsing problems in scripts, and is inconsistent when you type names.&nbsp;&nbsp;As you grow in number of data centers in the SJC area, you will have more problems when "sjc3" and "sjc4" are consistent, but the original "sjc" is not.<br>
 <br>
 If you know that something is likely to grow in count, then you should start with a numerical indicator from the beginning.<br>
+<br>
+When we hit "sjc10" we have changed the number of total characters for this section, which we are trying to avoid in other areas, but the number of characters has changed in a deterministic manner, so we can deal with it efficiently and it still scales.&nbsp;&nbsp;The original 3 letter airport code still stays 3 characters, and the attached number is parsed as a normal number would be.&nbsp;&nbsp;The string is also split on periods ("."), so everything remains very regular, and whether you account for this scaling change in your original code or not, it is a small addition in logic up-front, and a modest change to logic at-scaling-time.&nbsp;&nbsp;This makes it more dynamic, yet still scalable, and so has preference over sjc01 or sjc001, which account for limited growth (99/100 possibilities), or a large growth (999/1000 possibilities), but which are immediately more wasteful, mostly in terms of parsing and typing for humans.<br>
 <br>
 What about "product", is it likely to grow in count too?&nbsp;&nbsp;No, there is not necessarily a requirement for this.&nbsp;&nbsp;If a new product does come out that is called "product2", then it is still differentiated from "product", and while it shares the same look and feel as the datacenter location scaling problem, it is actually a different type of scaling.<br>
 <br>
