@@ -1,3 +1,8 @@
 ### [[3.10.1.2: Modeling.  Creating models to understand.  Creating models to control.  Not the same.]]
 
+To create a Model of something, is to try to "map" it some way.  Models can be made in any way you can think of, but typical models are things like:
 
+- Data Schemas, such as in a relational database.
+- Graphs, nodes and edges which define a sort of topology.
+- Flow Charts, State Machines and other process diagrams.
+- 

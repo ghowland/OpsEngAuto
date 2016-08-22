@@ -1,15 +1,15 @@
 # Operations: Engineering and Automation
 
 
-Total Sections: 344   Populated Sections: 86
-Current Goal: Populate Empty Sections: 258   (Done: 25.0%)
+Total Sections: 344   Populated Sections: 87
+Current Goal: Populate Empty Sections: 257   (Done: 25.3%)
 
 
 <br><br><b>NOTE: This is still an early Work-In-Progress.  It is being written linearly as a First Rough Draft without editing at the moment.  There are many typos and grammatical errors presently.</b>
 
-Lines: 3347
+Lines: 3354
 
-Words: 62322
+Words: 62383
 
 
 # Chapter 1: Preface (README.txt)
@@ -3099,6 +3099,13 @@ Thought experiment: What do you currently know about your own environment?&nbsp;
 <br>
 How can you use this perspective to improve your efficient use of your resources?<br>
 <p id=6f4678a0c1cc447ce97cf330abb63e6d><b><a href="#6f4678a0c1cc447ce97cf330abb63e6d">3.5.1.2</a>: Modeling</b></p>
+<br>
+To create a Model of something, is to try to "map" it some way.&nbsp;&nbsp;Models can be made in any way you can think of, but typical models are things like:<br>
+<br>
+- Data Schemas, such as in a relational database.<br>
+- Graphs, nodes and edges which define a sort of topology.<br>
+- Flow Charts, State Machines and other process diagrams.<br>
+-<br>
 <p id=1e2f1485f11d72e7cc37ce72c7de6775><b><a href="#1e2f1485f11d72e7cc37ce72c7de6775">3.5.1.2.1</a>: Black-Boxing the World</b></p>
 <p id=86a667264372ca24826a809f97ed36b8><b><a href="#86a667264372ca24826a809f97ed36b8">3.5.1.3</a>: Algorithms</b></p>
 <p id=c5cff688b2a25a6cc5ab3c0301d86a54><b><a href="#c5cff688b2a25a6cc5ab3c0301d86a54">3.5.1.4</a>: Centralized vs. Decentralized</b></p>
