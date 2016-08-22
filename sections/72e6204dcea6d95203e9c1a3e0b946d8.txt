@@ -4,4 +4,10 @@ Alignment is one of the most important concepts of building efficient systems.
 
 Any system can be described in a number of ways, but let us consider a system that is described as nodes and links between them, or edges, so that can be describe a system as a Graph.
 
+Any point of interest in the system can be described as a node, and the connections between these points of interest are our links or edges.
+
+Let us first consider a physical building structure, like a house, but we will simplify it into a wooden ceiling (flat board of equal width and length, and a small height) and 4 posts of wood to put the ceiling on top of.  You can consider the wooden posts to be "4x4 inch" beams or other material.
+
+Now, in this example the purpose of the beams is to lift the ceiling board into the air, and keep it there.  So the beams function as support for the ceiling.  This defines the terms needed to start inspecting the concept of Alignment.
+
 

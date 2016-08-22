@@ -7,9 +7,9 @@ Current Goal: Populate Empty Sections: 261   (Done: 23.5%)
 
 <br><br><b>NOTE: This is still an early Work-In-Progress.  It is being written linearly as a First Rough Draft without editing at the moment.  There are many typos and grammatical errors presently.</b>
 
-Lines: 3065
+Lines: 3071
 
-Words: 57719
+Words: 57845
 
 
 # Chapter 1: Preface (README.txt)
@@ -2845,6 +2845,12 @@ Now, let's come up with another spectrum, which I will call Knowability (as we h
 Alignment is one of the most important concepts of building efficient systems.<br>
 <br>
 Any system can be described in a number of ways, but let us consider a system that is described as nodes and links between them, or edges, so that can be describe a system as a Graph.<br>
+<br>
+Any point of interest in the system can be described as a node, and the connections between these points of interest are our links or edges.<br>
+<br>
+Let us first consider a physical building structure, like a house, but we will simplify it into a wooden ceiling (flat board of equal width and length, and a small height) and 4 posts of wood to put the ceiling on top of.&nbsp;&nbsp;You can consider the wooden posts to be "4x4 inch" beams or other material.<br>
+<br>
+Now, in this example the purpose of the beams is to lift the ceiling board into the air, and keep it there.&nbsp;&nbsp;So the beams function as support for the ceiling.&nbsp;&nbsp;This defines the terms needed to start inspecting the concept of Alignment.<br>
 <h3 id=26ab897a0841f617abc1175707de81dd><a href="#26ab897a0841f617abc1175707de81dd">3.4.2</a>: There is no best, except for a certain set of values and priorities, from a limited set of options.</h3>
 <h2 id=9b893b40e08934229116cacf12764a11><a href="#9b893b40e08934229116cacf12764a11">3.5</a>: Understanding Engineering:&nbsp;&nbsp;Environment -> Resources -> Goal -> Actions -> Changed Environment -> Desired Effects?&nbsp;&nbsp;Efficient use of resources?&nbsp;&nbsp;Management of environment?</h2>
 <h3 id=dd4d43fb90d90e89b351e98d3788a97c><a href="#dd4d43fb90d90e89b351e98d3788a97c">3.5.1</a>: The use of resources (overall time, people time, money, hardware, etc) to create desired effects, for a given environment.</h3>
