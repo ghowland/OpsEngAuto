@@ -9,7 +9,7 @@ Current Goal: Populate Empty Sections: 259   (Done: 24.7%)
 
 Lines: 3316
 
-Words: 61833
+Words: 61840
 
 
 # Chapter 1: Preface (README.txt)
@@ -3071,7 +3071,7 @@ No.&nbsp;&nbsp;That specific hard disk device could fail in the next second, or 
 <br>
 However, if we restate the question as, "How many disks do I need to have in stock, in order to replace the number of disks in all of my systems that are likely to fail in the next month?"<br>
 <br>
-This is a very different question, because it deals with a population of disk devices, not a single disk device.&nbsp;&nbsp;Across a population this statistical analysis becomes valid, and it will remain statistically-true, as long as the numbers you give it are accurate and correlate properly, which becomes more true as the population size increases.<br>
+This is a very different question, because it deals with a population of disk devices, not a single disk device.&nbsp;&nbsp;Across a population this statistical analysis becomes valid, and it will remain statistically-true, as long as the numbers you give it are accurate and correlate properly, which becomes more true as the population size increases, and as you can improve correlating relationships.<br>
 <br>
 So, with the Physical hardware and other Real things, we cannot know everything, but with Virtual things: Data and Logic, we can know everything.<br>
 <br>
