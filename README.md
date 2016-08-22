@@ -2945,7 +2945,7 @@ As such, there can be no such thing as "Best Practices" (see section {{ section_
 <br>
 In this book, I try to define for you, roughly, my Practice, for how to do engineering and operations.&nbsp;&nbsp;I am trying to provide deep insight into how these things work, as I see them, and how I manipulate them to achieve results I desire, and how you can learn from my work and help with improving your own methods.<br>
 <br>
-Be careful with the language you use casually to describe things like "The Best Way To Do Something", in your giving or receiving of information, because the results you receive from taking those words at anywhere near their value may be far from the suggested-reality those words relayed to you.<br>
+Be careful with the language you use casually to describe things like "The Best Way To Do Something", in your giving or receiving of information, because the results you receive from taking those words at anywhere near their face-value may be far from the suggested-reality those words relayed to you.<br>
 <br>
 "Best" has a powerful symbolic meaning to us.&nbsp;&nbsp;Use it very carefully, or pay the consequences for wielding power poorly.<br>
 <br>
