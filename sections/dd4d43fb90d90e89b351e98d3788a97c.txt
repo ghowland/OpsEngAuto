@@ -1,3 +1,14 @@
 ### [[3.10.1: The use of resources (overall time, people time, money, hardware, etc) to create desired effects, for a given environment.]]
 
+For our purposes, Resources can be summarized to the short list of:
 
+- Overall Time
+- Personnel Time
+- Money
+- Hardware
+
+Overall Time is like calendar time.  Things can take a month, or the month of March goes by, or something is a quarter of a year.  This is all "overall" time.  It speaks to time passing, which you cannot do-over, making it a limited resource.  This is heavily tied to Money, which is why the saying "Time is money" has a logical truth to it, since salaries, rent and loans must all be paid at distinct time periods, so this is a very important concept for organizations.
+
+Personnel Time is the time that any given person has to perform work.  For instance, in an example job an engineer may have 40 hours of time to potentially perform work in a week.  Over a month that is 160 hours of potential time.  This is also a limited resource, and while organizations can make this flexible by paying more (hourly/bonuses/etc) or by asking for the person to simply give more time (unpaid overtime/death marches/etc), it still mostly remains a very limited resource.
+
+Money is obviously a limited 

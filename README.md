@@ -1,15 +1,15 @@
 # Operations: Engineering and Automation
 
 
-Total Sections: 344   Populated Sections: 83
-Current Goal: Populate Empty Sections: 261   (Done: 24.1%)
+Total Sections: 344   Populated Sections: 84
+Current Goal: Populate Empty Sections: 260   (Done: 24.4%)
 
 
 <br><br><b>NOTE: This is still an early Work-In-Progress.  It is being written linearly as a First Rough Draft without editing at the moment.  There are many typos and grammatical errors presently.</b>
 
-Lines: 3247
+Lines: 3260
 
-Words: 60466
+Words: 60663
 
 
 # Chapter 1: Preface (README.txt)
@@ -3018,6 +3018,19 @@ Brevity allows for a type of clarity which details do not provide, as details al
 <br>
 Feel free to share your personal summaries with me, I am happy to hear how others view things, and expand my own understanding accordingly.<br>
 <h3 id=dd4d43fb90d90e89b351e98d3788a97c><a href="#dd4d43fb90d90e89b351e98d3788a97c">3.5.1</a>: The Use of Resources</h3>
+<br>
+For our purposes, Resources can be summarized to the short list of:<br>
+<br>
+- Overall Time<br>
+- Personnel Time<br>
+- Money<br>
+- Hardware<br>
+<br>
+Overall Time is like calendar time.&nbsp;&nbsp;Things can take a month, or the month of March goes by, or something is a quarter of a year.&nbsp;&nbsp;This is all "overall" time.&nbsp;&nbsp;It speaks to time passing, which you cannot do-over, making it a limited resource.&nbsp;&nbsp;This is heavily tied to Money, which is why the saying "Time is money" has a logical truth to it, since salaries, rent and loans must all be paid at distinct time periods, so this is a very important concept for organizations.<br>
+<br>
+Personnel Time is the time that any given person has to perform work.&nbsp;&nbsp;For instance, in an example job an engineer may have 40 hours of time to potentially perform work in a week.&nbsp;&nbsp;Over a month that is 160 hours of potential time.&nbsp;&nbsp;This is also a limited resource, and while organizations can make this flexible by paying more (hourly/bonuses/etc) or by asking for the person to simply give more time (unpaid overtime/death marches/etc), it still mostly remains a very limited resource.<br>
+<br>
+Money is obviously a limited<br>
 <p id=9ed589a4467b296c2ea9dbb09ae0f49d><b><a href="#9ed589a4467b296c2ea9dbb09ae0f49d">3.5.1.1</a>: Evaluate the environment.&nbsp;&nbsp;Know the present.&nbsp;&nbsp;Real vs. virtual/logical.</b></p>
 <p id=6f4678a0c1cc447ce97cf330abb63e6d><b><a href="#6f4678a0c1cc447ce97cf330abb63e6d">3.5.1.2</a>: Modeling</b></p>
 <p id=1e2f1485f11d72e7cc37ce72c7de6775><b><a href="#1e2f1485f11d72e7cc37ce72c7de6775">3.5.1.2.1</a>: Black-Boxing the World</b></p>
