@@ -9,7 +9,7 @@ Current Goal: Populate Empty Sections: 259   (Done: 24.7%)
 
 Lines: 3316
 
-Words: 61832
+Words: 61833
 
 
 # Chapter 1: Preface (README.txt)
@@ -3067,7 +3067,7 @@ This is important to know, as you can predict somethings, such as "How many hard
 <br>
 For example, for a given machine and hard disk device, will knowing it's manufacturing lot number, with the known MTBFs (Mean Time Between Failures), and the lifespan of the system, and the usage of the disk (IOPS over time), be able to determine if you must replace that exact hard disk device, in the next month?<br>
 <br>
-No.&nbsp;&nbsp;That specific hard disk device could fail in the next second, or could last another 5 years, you cannot give an actionable answer to this question.<br>
+No.&nbsp;&nbsp;That specific hard disk device could fail in the next second, or could last another 5 years, you cannot give a valid actionable answer to this question.<br>
 <br>
 However, if we restate the question as, "How many disks do I need to have in stock, in order to replace the number of disks in all of my systems that are likely to fail in the next month?"<br>
 <br>
