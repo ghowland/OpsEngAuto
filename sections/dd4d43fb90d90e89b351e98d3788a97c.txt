@@ -21,6 +21,6 @@ Additionally, engineering companies often create their own software, and this is
 
 Finally, even commercial software requires configuration, troubleshooting, maintenance, etc, so in comparison with do-it-yourself style software, the difference is only in Personnel Time and Money, and it may well be cheaper to do it either way, depending on your unique situation and goals.
 
-How you use resources, will determine the efficiency in the interactions between them, and the overall level of quality and quantity of work that you can perform, which will impact the success of your goals, and the success of your organization.
+How you use resources will determine the efficiency in the interactions between them, and the overall level of quality and quantity of work that you can perform, which will impact the success of your goals, and the success of your organization.
 
 Using resources efficiency is of prime importance for any Engineer.
