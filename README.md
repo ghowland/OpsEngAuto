@@ -9,7 +9,7 @@ Current Goal: Populate Empty Sections: 259   (Done: 24.7%)
 
 Lines: 3318
 
-Words: 61876
+Words: 61892
 
 
 # Chapter 1: Preface (README.txt)
@@ -3077,7 +3077,7 @@ So, with the Physical hardware and other Real things, we cannot know everything,
 <br>
 We can gather the exact values for each of the things we wish to know, and we can store them exactly as how they live in the real world, or can digest them so that we store a reference or as a reference count, or we can do anything else we want with them, because they are Virtual, we can know them completely.<br>
 <br>
-And, since we are also inspecting the Physical things with Logic, which is Virtual, we only data Virtual output (Data) from our Logic, so all we know are Virtual things, not Real physical things.<br>
+And, since we are also inspecting the Physical things with Logic, which is Virtual, we only data Virtual output (Data) from our Logic, so all we know are Virtual things, not Real physical things.&nbsp;&nbsp;We can use the virtual knowledge to extrapolate about the physical knowledge we cannot reach directly.<br>
 <br>
 Only the Knowability scale, Virtual information is Knowable at 1.0: Completely Knowable.<br>
 <br>
