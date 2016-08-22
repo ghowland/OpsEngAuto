@@ -3061,7 +3061,7 @@ Knowing the "past" is as simple as having snapshots of your "present" still avai
 <br>
 We can think of any of these time slices, or moments-in-time, as a "Snapshot" of all the data of our Environment.&nbsp;&nbsp;With all these data points from "now" and the past, we can understand where we came from and where we are.<br>
 <br>
-We can further extrapolate, by various statistical means, projections of how things will be over time.&nbsp;&nbsp;Some things we extrapolate are valid, and useful information, other things we can extrapolate, but they are actually invalid, in that while the mathematics used to calculate them may be valid, the application of that processing against the given data set, for our desired results is not a valid combination.&nbsp;&nbsp;<br>
+We can further extrapolate, by various statistical means, projections of how things will be over time.&nbsp;&nbsp;Some things we extrapolate are valid, and useful information.&nbsp;&nbsp;Other things we can extrapolate, but they are actually invalid, in that while the mathematics used to calculate them may be valid, the application of that processing against the given data set, for our desired results is not a valid combination.&nbsp;&nbsp;<br>
 <br>
 This is important to know, as you can predict somethings, such as "How many hard disks do we expect to fail next month?", but you cannot predict other things such as "Will this specific hard drive in this specific machine, fail next month?".&nbsp;&nbsp;No amount of statistical analysis can answer a useful boolean value there, and a non-boolean result is not something you can reliably make a decision on in that case.<br>
 <br>
