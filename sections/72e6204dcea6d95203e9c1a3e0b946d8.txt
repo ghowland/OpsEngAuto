@@ -50,6 +50,14 @@ If the beams are connected to the ceiling at an angle, such as they allow for a 
 
 This can be calculated as quantifiably less efficient than beams that are all the same height, such as all being 10 feet in height.
 
-In the same way as this physical example yields different qualitative and quantitative 
+In the same way as this physical example yields different qualitative and quantitative results with only the variance of heights of the boards, so every virtual difference yields different qualitative and quantitative results with every change.
 
+Some virtual differences may yield "essentially the same results", for your level of interest in those results, but the results will always be different with different values.
 
+This is why you must understand your own environment, requirements, resources and goals for yourself, in as deep and accurate manner as possible, so that you can understand what these small differences will yield.
+
+This is an example of "local alignment", because we were only looking at: 1 ceiling, 4 beams, 1 goal (ceiling is efficient), 1 force (gravity).
+
+No problem we ever deal with in life is this restricted.  Even for our above example, we will have to deal with weather (wetness, heat), biological (mold, termites), and many other factors for a real world "just a ceiling" problem, which massively complicate what "building an efficient ceiling out of 1 board and 4 beams" looks like.
+
+In our modern Operational environments, we 
