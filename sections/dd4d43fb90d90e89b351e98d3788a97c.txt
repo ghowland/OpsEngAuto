@@ -19,3 +19,6 @@ Apart from these things there are of course other categories, such as Software t
 
 Additionally, engineering companies often create their own software, and this is required for managing your own operational environments, as there will be somethings that are unique about your organization, even if you try to make it as generic as possible, from the software-infrastructure side of things.
 
+How you use resources, will determine the efficiency in the interactions between them, and the overall level of quality and quantity of work that you can perform, which will impact the success of your goals, and the success of your organization.
+
+Using resources efficiency is of prime importance for any Engineer.
