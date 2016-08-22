@@ -2973,7 +2973,7 @@ Can you think of a single thing you currently describe and think about as "best"
 I've said before that I think Engineering is:<br>
 <br>
 {{ definition_begin__engineering }}<br>
-"The efficient use of resources to meet requirements which sufficiently satisfy your goals."<br>
+"The efficient use of resources that meet requirements which sufficiently satisfy your goals."<br>
 {{ definition_end__engineering }}<br>
 <br>
 Let's break this down in a way where we can understand Engineering as a process.<br>

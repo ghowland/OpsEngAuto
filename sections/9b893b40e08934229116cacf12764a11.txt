@@ -3,7 +3,7 @@
 I've said before that I think Engineering is:
 
 {{ definition_begin__engineering }}
-"The efficient use of resources to meet requirements which sufficiently satisfy your goals."
+"The efficient use of resources that meet requirements which sufficiently satisfy your goals."
 {{ definition_end__engineering }}
 
 Let's break this down in a way where we can understand Engineering as a process.
