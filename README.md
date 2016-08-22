@@ -9,7 +9,7 @@ Current Goal: Populate Empty Sections: 258   (Done: 25.0%)
 
 Lines: 3339
 
-Words: 62184
+Words: 62183
 
 
 # Chapter 1: Preface (README.txt)
@@ -31,7 +31,7 @@ What I hope you will gain from my perspective is a new foundation you can use as
 
 
 
-I will be covering a very large arena of information, so I will try to present a coherent picture, even though I cannot go into full details on every aspect, as it covers too many disciplines.
+I will be covering a large arena of information, so I will try to present a coherent picture, even though I cannot go into full details on every aspect, as it covers too many disciplines.
 
 
 
