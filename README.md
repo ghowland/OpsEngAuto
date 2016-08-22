@@ -9,7 +9,7 @@ Current Goal: Populate Empty Sections: 259   (Done: 24.3%)
 
 Lines: 3243
 
-Words: 60398
+Words: 60399
 
 
 # Chapter 1: Preface (README.txt)
@@ -3008,7 +3008,7 @@ Engineering is multi-faceted to an amazing degree, so we will have to describe i
 <br>
 Like Local vs Global Alignment, Engineering can be understood in a small or shallow manner well Locally, but when compared against other descriptions which are equally accurate, they do not seem to Align well.<br>
 <br>
-It is only through creating many Local descriptions which Align well, and combine together into a Global network of descriptions that Align well, that we can create a real understanding of what Engineering is.<br>
+It is only through creating many Local descriptions which Align well, and combine together into a Global network of descriptions which all Align well, that we can create a real understanding of what Engineering is.<br>
 <br>
 What does Engineering mean to you?<br>
 <br>
