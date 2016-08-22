@@ -8,7 +8,7 @@ These days people usually have some aspects of automation, and are comfortable w
 
 The issues I find these days are not that people do not want comprehensive automation, but that there is not a clear understanding on what comprehensive automation entails, what it takes to build, how things will change once it is in place, and how the life-cycle of operations changes accordingly.
 
-With all of these things, it is best to stay results-focused, and look to what you want to achieve out of automation, and in my opinion the ultimate goal should be "removing classes of work".
+With all of these things, it is best to stay results-focused, and look to what you want to achieve out of automation, and in my opinion the ultimate goal should be: "removing classes of work".
 
 What is a "Class of Work"?  We will look at this in many ways over the course of this book, but we can start by summarizing it as "anything that is done".
 
