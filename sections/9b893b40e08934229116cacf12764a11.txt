@@ -26,7 +26,7 @@ Do these Actions have the Desired Effects?
 
 Did we make efficient use of our Resources?
 
-How efficiently can we manage our environment?  What is it like day-to-day operating what we have built?
+How efficiently can we manage our Environment?  What is it like day-to-day operating what we have built?
 
 With the above sequence and prose description of that sequence, we have a starting place to understand what Engineering is.  It's something we do, it's something that produces results we may or may not want.  It changes things.
 
