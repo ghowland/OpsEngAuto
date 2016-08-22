@@ -7,9 +7,9 @@ Current Goal: Populate Empty Sections: 259   (Done: 24.3%)
 
 <br><br><b>NOTE: This is still an early Work-In-Progress.  It is being written linearly as a First Rough Draft without editing at the moment.  There are many typos and grammatical errors presently.</b>
 
-Lines: 3241
+Lines: 3243
 
-Words: 60395
+Words: 60398
 
 
 # Chapter 1: Preface (README.txt)
@@ -2997,6 +2997,8 @@ Do these Actions have the Desired Effects?<br>
 Did we make efficient use of our Resources?<br>
 <br>
 How efficiently can we manage our Environment?&nbsp;&nbsp;What is it like day-to-day operating what we have built?<br>
+<br>
+{{ break }}<br>
 <br>
 With the above sequence and prose description of that sequence, we have a starting place to understand what Engineering is.&nbsp;&nbsp;It's something we do, it's something that produces results we may or may not want.&nbsp;&nbsp;It changes things.<br>
 <br>

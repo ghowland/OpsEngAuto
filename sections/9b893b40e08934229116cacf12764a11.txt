@@ -28,6 +28,8 @@ Did we make efficient use of our Resources?
 
 How efficiently can we manage our Environment?  What is it like day-to-day operating what we have built?
 
+{{ break }}
+
 With the above sequence and prose description of that sequence, we have a starting place to understand what Engineering is.  It's something we do, it's something that produces results we may or may not want.  It changes things.
 
 These are all things that can be said to describe Engineering, and shine lights on it's different surfaces, which show different things to different people, coming from different viewpoints.
