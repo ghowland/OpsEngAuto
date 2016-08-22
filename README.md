@@ -3050,7 +3050,7 @@ This means that any issue can be evaluated on all types of complexity, to get a 
 <h2 id=ac39699dc841781b49de6156b7d47f07><a href="#ac39699dc841781b49de6156b7d47f07">3.9</a>: Skill Ladders</h2>
 <h3 id=8c334623a47643e18e33479feebf5bed><a href="#8c334623a47643e18e33479feebf5bed">3.9.1</a>: Graphing Skills</h3>
 <h3 id=5e25a809a807106b545adb208a4fa99d><a href="#5e25a809a807106b545adb208a4fa99d">3.9.2</a>: Understanding Your Own Ladder</h3>
-<h2 id=291d5132845ea58ade7ea580866bf0f6><a href="#291d5132845ea58ade7ea580866bf0f6">3.10</a>: When to use statistics.&nbsp;&nbsp;When they are applicable, when they are not.</h2>
+<h2 id=291d5132845ea58ade7ea580866bf0f6><a href="#291d5132845ea58ade7ea580866bf0f6">3.10</a>: When to use Statistics</h2>
 <br>
 <br>
 <br>
