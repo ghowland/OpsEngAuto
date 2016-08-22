@@ -9,7 +9,7 @@ Current Goal: Populate Empty Sections: 258   (Done: 25.0%)
 
 Lines: 3339
 
-Words: 62182
+Words: 62183
 
 
 # Chapter 1: Preface (README.txt)
@@ -23,7 +23,7 @@ What I hope to impart here is a view into how I see operations, and how I automa
 
 
 
-In the case of this book, "operations" means "networked operations", "server operations", "datacenter operations", "production operations", all rolled into one term.  The field is both specific and non-specific, as operations can mean other things, but these fields are what I'm referring to.
+In the case of this book, "operations" means "networked operations", "server operations", "datacenter operations", "production operations", all rolled into one term.  The name is both specific and non-specific, as operations can mean other things, but these specific fields are what I'm referring to.
 
 
 

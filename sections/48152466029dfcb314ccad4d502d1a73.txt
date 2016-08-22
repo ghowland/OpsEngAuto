@@ -4,7 +4,7 @@ What will you get out of this book?  Why read it?
 
 What I hope to impart here is a view into how I see operations, and how I automate operations.
 
-In the case of this book, "operations" means "networked operations", "server operations", "datacenter operations", "production operations", all rolled into one term.  The field is both specific and non-specific, as operations can mean other things, but these fields are what I'm referring to.
+In the case of this book, "operations" means "networked operations", "server operations", "datacenter operations", "production operations", all rolled into one term.  The name is both specific and non-specific, as operations can mean other things, but these specific fields are what I'm referring to.
 
 What I hope you will gain from my perspective is a new foundation you can use as a point of reference to build your own operations experiences from, whether you are already an experienced operations engineer or new to the field. 
 
