@@ -9,7 +9,7 @@ Current Goal: Populate Empty Sections: 260   (Done: 23.8%)
 
 Lines: 3187
 
-Words: 59937
+Words: 59938
 
 
 # Chapter 1: Preface (README.txt)
@@ -2943,7 +2943,7 @@ As such, there can be no such thing as "Best Practices" (see section {{ section_
 <br>
 "Best Practices" are useful to read as case-studies that someone is claiming a method worked well for them, and they can recommend it as a potentially useful method, but since this goes against our own understanding of what "best" really means, these should be reworded as "An Example Implementation", not a "Best Practice", as it is neither Best nor a Practice, since Practice connotes a deeper level of understanding that is provided than the very thin layer of a "recipe" and some case-study information.<br>
 <br>
-In this book, I try to define for you, roughly, my Practice, for how to do engineering and operations.&nbsp;&nbsp;I am trying to provide deep insight into how these things work, as I see them, and how I manipulate them to achieve results I desire, and how you can learn from my work and create your own.<br>
+In this book, I try to define for you, roughly, my Practice, for how to do engineering and operations.&nbsp;&nbsp;I am trying to provide deep insight into how these things work, as I see them, and how I manipulate them to achieve results I desire, and how you can learn from my work and help with creating own.<br>
 <br>
 Be careful with the language you use casually to describe things like "The Best Way To Do Something", in your giving or receiving of information, because the results you receive from taking those words at anywhere near their value may be far from the suggested-reality those words relayed to you.<br>
 <br>
