@@ -3097,7 +3097,7 @@ Apparently there is some kind of statistical slant I have to writing a certain n
 <p id=9362cba32d5a5c9dd234aecef27564d4><b><a href="#9362cba32d5a5c9dd234aecef27564d4">3.11.1.1</a>: Text and data and the purpose of the tools.</b></p>
 <p id=e122b3c42185ad60077b1cc58c7f1f22><b><a href="#e122b3c42185ad60077b1cc58c7f1f22">3.11.1.2</a>: Explain DNS, DHCP, etc replacement</b></p>
 <p id=957ddd798c6271497229ea774b39e478><b><a href="#957ddd798c6271497229ea774b39e478">3.11.1.2.1</a>: zones, subnets, etc</b></p>
-<h2 id=27893ca25e6be2dd440c59fcc7aa321e><a href="#27893ca25e6be2dd440c59fcc7aa321e">3.12</a>: Name spaces.&nbsp;&nbsp;Different kinds, diff uses, diff formats.&nbsp;&nbsp;One of the 2 hard problems (+ off by 1)</h2>
+<h2 id=27893ca25e6be2dd440c59fcc7aa321e><a href="#27893ca25e6be2dd440c59fcc7aa321e">3.12</a>: Name spaces</h2>
 
 # Chapter 4: Automation Philosophy and Methodology in Operations
 
