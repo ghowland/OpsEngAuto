@@ -1,15 +1,15 @@
 # Operations: Engineering and Automation
 
 
-Total Sections: 341   Populated Sections: 81
-Current Goal: Populate Empty Sections: 260   (Done: 23.8%)
+Total Sections: 342   Populated Sections: 82
+Current Goal: Populate Empty Sections: 260   (Done: 24.0%)
 
 
 <br><br><b>NOTE: This is still an early Work-In-Progress.  It is being written linearly as a First Rough Draft without editing at the moment.  There are many typos and grammatical errors presently.</b>
 
-Lines: 3187
+Lines: 3197
 
-Words: 59941
+Words: 59995
 
 
 # Chapter 1: Preface (README.txt)
@@ -3633,6 +3633,16 @@ Without caring about things, one cannot feel shame over bad actions, nor price i
 <br>
 When you care, you will avoid creating Shame for yourself and others.&nbsp;&nbsp;When you care, you will try to perform actions you and others can be Proud of.&nbsp;&nbsp;These are good things, because they will form as a compass, pointing in the direction you want to go towards and away from.<br>
 <h2 id=52c0b5a8fe454c355a43001dcfc72c08><a href="#52c0b5a8fe454c355a43001dcfc72c08">11.13</a>: How To Make A Decision</h2>
+<br>
+Describe how to make a decision immediately based on data.<br>
+<br>
+How to decide when you need more data.<br>
+<br>
+How to decide when you have enough data.<br>
+<br>
+How to make an immediate decision when you have enough data.<br>
+<br>
+How you can explain your decision based on the data you had to others.&nbsp;&nbsp;Charting, graphing, etc.<br>
 
 # Chapter 12: Everywhere.  Throughout the book.
 
