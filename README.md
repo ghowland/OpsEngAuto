@@ -9,7 +9,7 @@ Current Goal: Populate Empty Sections: 259   (Done: 24.7%)
 
 Lines: 3318
 
-Words: 61892
+Words: 61907
 
 
 # Chapter 1: Preface (README.txt)
@@ -3081,7 +3081,7 @@ And, since we are also inspecting the Physical things with Logic, which is Virtu
 <br>
 On the Knowability spectrum, Virtual information is Knowable at 1.0: Completely Knowable.<br>
 <br>
-An important note about "now".&nbsp;&nbsp;You can never know things in the truly "Now" state, because all information arrives to you in a delayed fashion.&nbsp;&nbsp;It took time for the information to travel from it's source, to you.<br>
+An important note about "now".&nbsp;&nbsp;You can never know things in the truly "Now" state, because all information arrives to you in a delayed fashion.&nbsp;&nbsp;It took time for the information to travel from it's source, to you.&nbsp;&nbsp;Whether this is via network packets, or light, or any other method of information propagation.<br>
 <br>
 In terms of Monitoring, this means that all time series collected data, and other collected data, is aged.&nbsp;&nbsp;It has an age, that is older than 0 seconds, in which that information was "accurate-as-of-Now", but the "now" that you are looking at is actually old information.<br>
 <br>
