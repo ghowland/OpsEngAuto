@@ -3057,7 +3057,7 @@ When we previously inspected Knowability, as a concept, we stated that "reality 
 <br>
 So, what we have left is what we can measure, and with these things we will attempt to "know the present".<br>
 <br>
-Knowing the "past" is as simple as having snapshots of your "present" still available after time.&nbsp;&nbsp;So any data that is Versioned, or stored in a Time Series, can be used to compare against the Present or other Past Snapshots.<br>
+Knowing the "past" is as simple as having snapshots of your "present" still available after time.&nbsp;&nbsp;So any data that is Versioned, or stored in a Time Series, can be used to compared against the Present or other Past Snapshots.<br>
 <br>
 We can think of any of these time slices, moments in time, as a "Snapshot" of all the data of our Environment.&nbsp;&nbsp;With all these data points from "now" and the past, we can understand where we came from and where we are.<br>
 <br>
