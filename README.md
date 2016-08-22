@@ -7,9 +7,9 @@ Current Goal: Populate Empty Sections: 260   (Done: 23.8%)
 
 <br><br><b>NOTE: This is still an early Work-In-Progress.  It is being written linearly as a First Rough Draft without editing at the moment.  There are many typos and grammatical errors presently.</b>
 
-Lines: 3161
+Lines: 3165
 
-Words: 59454
+Words: 59581
 
 
 # Chapter 1: Preface (README.txt)
@@ -2941,7 +2941,11 @@ In my view, this makes it clear that best/worst are a very small subset of optio
 <br>
 As such, there can be no such thing as "Best Practices" (see section {{ section__e5829271e6cfb5927f3a4d4aec1b10df }} for details), because these are generalized solutions, for generalized environments, generalized resources available, and generalized goals.<br>
 <br>
-"Best Practices" are useful to read as case-studies that someone is claiming a method worked well for them, and they can recommend it as a potentially useful method, but since this goes against our own understanding of what "best" really means, these should be reworded as "An Example Implementation", not a "Best Practice", as it is neither Best nor a Practice, since Practice connotes<br>
+"Best Practices" are useful to read as case-studies that someone is claiming a method worked well for them, and they can recommend it as a potentially useful method, but since this goes against our own understanding of what "best" really means, these should be reworded as "An Example Implementation", not a "Best Practice", as it is neither Best nor a Practice, since Practice connotes a deeper level of understanding that is provided than the very thin layer of a "recipe" and some case-study information.<br>
+<br>
+In this book, I try to define for you, roughly, my Practice, for how to do engineering and operations.&nbsp;&nbsp;I am trying to provide deep insight into how these things work, as I see them, and how I manipulate them to achieve results I desire, and how you can learn from my work and create your own.<br>
+<br>
+Be careful with the language you use casually to describe things like "The Best Way To Do Something", in your giving or receiving of information, because the results you receive from taking those words at anywhere near their value may be far from the suggested-reality those words relayed to you.<br>
 <h2 id=9b893b40e08934229116cacf12764a11><a href="#9b893b40e08934229116cacf12764a11">3.5</a>: Understanding Engineering:&nbsp;&nbsp;Environment -> Resources -> Goal -> Actions -> Changed Environment -> Desired Effects?&nbsp;&nbsp;Efficient use of resources?&nbsp;&nbsp;Management of environment?</h2>
 <h3 id=dd4d43fb90d90e89b351e98d3788a97c><a href="#dd4d43fb90d90e89b351e98d3788a97c">3.5.1</a>: The use of resources (overall time, people time, money, hardware, etc) to create desired effects, for a given environment.</h3>
 <p id=9ed589a4467b296c2ea9dbb09ae0f49d><b><a href="#9ed589a4467b296c2ea9dbb09ae0f49d">3.5.1.1</a>: Evaluate the environment.&nbsp;&nbsp;Know the present.&nbsp;&nbsp;Real vs. virtual/logical.</b></p>
