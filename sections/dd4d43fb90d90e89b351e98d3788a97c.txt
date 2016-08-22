@@ -23,4 +23,4 @@ Finally, even commercial software requires configuration, troubleshooting, maint
 
 How you use resources will determine the efficiency in the interactions between them, and the overall level of quality and quantity of work that you can perform, which will impact the success of your goals, and the success of your organization.
 
-Using resources efficiency is of prime importance for any Engineer.
+Using resources efficiently is of prime importance for any Engineer.
