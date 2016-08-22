@@ -9,7 +9,7 @@ Current Goal: Populate Empty Sections: 259   (Done: 24.7%)
 
 Lines: 3318
 
-Words: 61940
+Words: 61933
 
 
 # Chapter 1: Preface (README.txt)
@@ -3047,7 +3047,7 @@ Using resources efficiently is of prime importance for any Engineer.<br>
 <br>
 Do you remember the term "Knowability", which I introduced towards the beginning of the book?<br>
 <br>
-If not, please refresh your memory quickly here, because it's about to become very useful:&nbsp;&nbsp;{{ section__knowability }}<br>
+If not, please refresh your memory quickly here:&nbsp;&nbsp;{{ section__knowability }}<br>
 <br>
 In order to make efficient use of our resources, we must understand our resources, in as much depth as possible, in as many categories as possible, for our given cost-benefit requirements, to meet our goals.&nbsp;&nbsp;So, we want to know "almost everything about everything", while trying to minimize that into as few things as possible, because keeping track of more things is more work than keeping track of less things, and so is less efficient.<br>
 <br>
