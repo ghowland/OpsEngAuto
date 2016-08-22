@@ -9,7 +9,7 @@ Current Goal: Populate Empty Sections: 259   (Done: 24.7%)
 
 Lines: 3316
 
-Words: 61822
+Words: 61833
 
 
 # Chapter 1: Preface (README.txt)
@@ -3053,7 +3053,7 @@ In order to make efficient use of our resources, we must understand our resource
 <br>
 The most important thing to know about our Environment is the "Present State".&nbsp;&nbsp;This is the current state of affairs, for everything, as it actually is.&nbsp;&nbsp;Reality.<br>
 <br>
-When we previously inspected Knowability, as a concept, we stated that "reality is not truly knowable", because there is so much about any physical thing that we simply cannot measure.<br>
+When we previously inspected Knowability, as a concept, we stated that "reality is not truly knowable", because there is so much about any physical thing that we simply cannot measure, and we run everything on Hardware, which is a physical thing.<br>
 <br>
 So, what we have left is what we can measure, and with these things we will attempt to "know the present".<br>
 <br>

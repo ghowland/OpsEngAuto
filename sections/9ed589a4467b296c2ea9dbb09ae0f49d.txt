@@ -8,7 +8,7 @@ In order to make efficient use of our resources, we must understand our resource
 
 The most important thing to know about our Environment is the "Present State".  This is the current state of affairs, for everything, as it actually is.  Reality.
 
-When we previously inspected Knowability, as a concept, we stated that "reality is not truly knowable", because there is so much about any physical thing that we simply cannot measure.
+When we previously inspected Knowability, as a concept, we stated that "reality is not truly knowable", because there is so much about any physical thing that we simply cannot measure, and we run everything on Hardware, which is a physical thing.
 
 So, what we have left is what we can measure, and with these things we will attempt to "know the present".
 
