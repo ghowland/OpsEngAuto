@@ -26,7 +26,7 @@ No.  That specific hard disk device could fail in the next second, or could last
 
 However, if we restate the question as, "How many disks do I need to have in stock, in order to replace the number of disks in all of my systems that are likely to fail in the next month?"
 
-This is a very different question, because it deals with a population of disk devices, not a single disk device.  Across a population these statistical analysis becomes valid, and it will remain statistically-true, as long as the numbers you give it are accurate and correlate properly, which becomes more true as the population size increases.
+This is a very different question, because it deals with a population of disk devices, not a single disk device.  Across a population this statistical analysis becomes valid, and it will remain statistically-true, as long as the numbers you give it are accurate and correlate properly, which becomes more true as the population size increases.
 
 So, with the Physical hardware and other Real things, we cannot know everything, but with Virtual things: Data and Logic, we can know everything.
 
