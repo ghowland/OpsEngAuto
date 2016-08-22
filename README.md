@@ -7,9 +7,9 @@ Current Goal: Populate Empty Sections: 257   (Done: 25.3%)
 
 <br><br><b>NOTE: This is still an early Work-In-Progress.  It is being written linearly as a First Rough Draft without editing at the moment.  There are many typos and grammatical errors presently.</b>
 
-Lines: 3365
+Lines: 3380
 
-Words: 62608
+Words: 62809
 
 
 # Chapter 1: Preface (README.txt)
@@ -3116,7 +3116,22 @@ This is because all data can be describes as collections of fields (tables), wit
 <br>
 Once a relational schema is created, for the clearest expression of the schema, then the schema can be "de-normalized" and otherwise "un-spun" so that it can fit into non-relational databases, such as column-oriented or time series databases.&nbsp;&nbsp;These databases have advantages for some access patterns (such as mostly-inserting data), but their schema is less expressive due to this optimization, so it is best to first understand it's model through a relational schema.<br>
 <br>
-Relational schemas can also be written as programming language "structs", or data primitives, and extended into Classes (Object Oriented style "structs")<br>
+Relational schemas can also be written as programming language "structs", or data primitives, and extended into Classes (Object Oriented style "structs").&nbsp;&nbsp;This may seem like looking at things in a skewed way, but you can look at these data structures from any direction to get a better understanding of them.<br>
+<br>
+There are two primary reasons to create Models:<br>
+<br>
+- Creating Models to better understand a topic.<br>
+- Creating Models to control a set of resources.<br>
+<br>
+Models made for learning are about providing insight, and different ways of looking at data, and are beyond being documentation are generally disposable, ephemeral, and prone to becoming out of date.<br>
+<br>
+For a given Environment, a Model can provide understanding, through creating a summary of the system trying to be understood.&nbsp;&nbsp;A model like this can be given variables and used to calculate probabilities, and perform analysis to aide in making decisions.<br>
+<br>
+This is a very different thing from a Model that is created in order to control resources.<br>
+<br>
+A Model created to control resources will share many things with Models made for understanding, in that it is also a summary of the system, but unlike a Model for understanding, a Model for control is built to last potentially for the lifetime of the resources and beyond.<br>
+<br>
+Models for control are intended to make operating an Environment<br>
 <p id=1e2f1485f11d72e7cc37ce72c7de6775><b><a href="#1e2f1485f11d72e7cc37ce72c7de6775">3.5.1.2.1</a>: Black-Boxing the World</b></p>
 <p id=86a667264372ca24826a809f97ed36b8><b><a href="#86a667264372ca24826a809f97ed36b8">3.5.1.3</a>: Algorithms</b></p>
 <p id=c5cff688b2a25a6cc5ab3c0301d86a54><b><a href="#c5cff688b2a25a6cc5ab3c0301d86a54">3.5.1.4</a>: Centralized vs. Decentralized</b></p>

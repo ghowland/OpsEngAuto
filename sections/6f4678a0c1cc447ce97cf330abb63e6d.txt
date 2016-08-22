@@ -16,5 +16,19 @@ This is because all data can be describes as collections of fields (tables), wit
 
 Once a relational schema is created, for the clearest expression of the schema, then the schema can be "de-normalized" and otherwise "un-spun" so that it can fit into non-relational databases, such as column-oriented or time series databases.  These databases have advantages for some access patterns (such as mostly-inserting data), but their schema is less expressive due to this optimization, so it is best to first understand it's model through a relational schema.
 
-Relational schemas can also be written as programming language "structs", or data primitives, and extended into Classes (Object Oriented style "structs")
+Relational schemas can also be written as programming language "structs", or data primitives, and extended into Classes (Object Oriented style "structs").  This may seem like looking at things in a skewed way, but you can look at these data structures from any direction to get a better understanding of them.
 
+There are two primary reasons to create Models:
+
+- Creating Models to better understand a topic.
+- Creating Models to control a set of resources.
+
+Models made for learning are about providing insight, and different ways of looking at data, and are beyond being documentation are generally disposable, ephemeral, and prone to becoming out of date.
+
+For a given Environment, a Model can provide understanding, through creating a summary of the system trying to be understood.  A model like this can be given variables and used to calculate probabilities, and perform analysis to aide in making decisions.
+
+This is a very different thing from a Model that is created in order to control resources.
+
+A Model created to control resources will share many things with Models made for understanding, in that it is also a summary of the system, but unlike a Model for understanding, a Model for control is built to last potentially for the lifetime of the resources and beyond.
+
+Models for control are intended to make operating an Environment 
