@@ -9,7 +9,7 @@ Current Goal: Populate Empty Sections: 262   (Done: 23.2%)
 
 Lines: 3061
 
-Words: 57671
+Words: 57670
 
 
 # Chapter 1: Preface (README.txt)
@@ -610,7 +610,7 @@ This provides 2 methods of scaling.&nbsp;&nbsp;For Host Classes that merely coll
 <br>
 This would look like:&nbsp;&nbsp;web-2-001.product.prod.sjc1.domain.com<br>
 <br>
-However, many services have a more interesting use case for this number than simply going rolling over at 1000, which is separating sets of machines that hold related information.&nbsp;&nbsp;Consider these names:<br>
+However, many services have a more interesting use case for this number than simply rolling over at 1000, which is separating sets of machines that hold related information.&nbsp;&nbsp;Consider these names:<br>
 <br>
 - redis-1-001.product.prod.sjc1.domain.com<br>
 - redis-1-002.product.prod.sjc1.domain.com<br>
