@@ -66,4 +66,8 @@ If you can extrapolate out the ability to understand Alignment for our "simple c
 
 In future sections I will go into how Non-Local Alignment is one of the bigger problems we have to deal with in modern organizations today, because even good Local Alignment may yield poor Non-Local Alignment, as two or more sub-systems are working together in a larger integrated system, and while they may be locally efficient, they are not globally efficient.
 
+With this in mind, spend some time thinking now about environments you have worked in which had services whose poor Alignment lead to problems.  This might mean that one inefficient service blocked more-efficient services from being created because of the overlap they would have, and that the existing service was seen as "Good Enough", even though it blocked progress and improvements due to inefficiently being Aligned to the future-good-state that you would like to create.
 
+In environments where I work, I see this constantly.  Almost every existing project is created inefficiently, and causes us to be blocked from moving forward to more efficient services (in that area and others) due to the inefficient designs of the existing services.  Can you see this inefficiency in your own environment?
+
+While we want to have Globally Efficient Alignment, if you find yourself in an environment where there is poor global efficiency, then you must start with a single project that has good Local Alignment efficiency, and attempt to branch out from there, creating either new Local efficiencies, or leveraging your now-existing good Local Alignment to create larger and larger inter-connected efficient systems, which can eventually replace the older less-aligned and less-efficient systems.
