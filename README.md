@@ -43,7 +43,7 @@ This book is more about depth than breadth, and as such we will continue to come
 
 
 
-This book is meant to improve your ability to reason and efficient create solutions in the operational engineering space.
+This book is meant to improve your ability to reason and efficiently create solutions in the operational engineering space.
 
 <h2 id=8d921a98a2974ea61b905ce719a9f121><a href="#8d921a98a2974ea61b905ce719a9f121">1.1</a>: Where Ive Been, What Ive Been Doing, Why I Wrote this Book</h2>
 <br>
