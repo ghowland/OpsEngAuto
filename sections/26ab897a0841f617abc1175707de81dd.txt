@@ -36,7 +36,7 @@ Be careful with the language you use casually to describe things like "The Best 
 
 A better way to think of things is using the term "better".
 
-Better is always a comparison between 2 distinct things.  Best is often only discussing 1 thing, and lumps everything else into the second category: not-the-best.
+Better is always a comparison between two distinct things.  Best is often only discussing 1 thing, and lumps everything else into the second category: not-the-best.
 
 "Better" specifies two things, and it is known that "everything else" is not being considered at the moment, and so it not being discarded at the moment.  "Best" discards everything but the "best" immediately.
 
