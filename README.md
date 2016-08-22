@@ -2968,7 +2968,7 @@ In both "best" and "better" we do care about their peer results, but "best" clai
 Thought exercise:&nbsp;&nbsp;In what circumstances currently do you use the term "best"?&nbsp;&nbsp;When applying my critique above, what strikes you as something you need to think about more in terms of "best" or "better"?<br>
 <br>
 Can you think of a single thing you currently describe and think about as "best" that it would be better to reframe as "better"?&nbsp;&nbsp;What tangible benefits could this immediately bring you, from this change in your thinking and decision making abilities?<br>
-<h2 id=9b893b40e08934229116cacf12764a11><a href="#9b893b40e08934229116cacf12764a11">3.5</a>: Understanding Engineering:&nbsp;&nbsp;Environment -> Resources -> Goal -> Actions -> Changed Environment -> Desired Effects?&nbsp;&nbsp;Efficient use of resources?&nbsp;&nbsp;Management of environment?</h2>
+<h2 id=9b893b40e08934229116cacf12764a11><a href="#9b893b40e08934229116cacf12764a11">3.5</a>: Understanding Engineering</h2>
 <br>
 I've said before that I think Engineering is:<br>
 <br>
