@@ -9,7 +9,7 @@ Current Goal: Populate Empty Sections: 258   (Done: 25.0%)
 
 Lines: 3339
 
-Words: 62183
+Words: 62184
 
 
 # Chapter 1: Preface (README.txt)
@@ -27,7 +27,7 @@ In the case of this book, "operations" means "networked operations", "server ope
 
 
 
-What I hope you will gain from my perspective is a new foundation you can use as a point of reference to build your own operations experiences from, whether you are already an experienced operations engineer or new to the field. 
+What I hope you will gain from my perspective is a new foundation you can use as a plane of reference to improve your own operational mindset and practices, whether you are already an experienced operations engineer or new to the field. 
 
 
 
