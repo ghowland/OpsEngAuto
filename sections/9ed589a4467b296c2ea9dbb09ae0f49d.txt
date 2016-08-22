@@ -4,7 +4,7 @@ Do you remember the term "Knowability", which I introduced towards the beginning
 
 If not, please refresh your memory quickly here, because it's about to become very useful:  {{ section__knowability }}
 
-In order to make efficient use of our resources, we must understand our resources, in as much depth as possible, in as many categories as possible, for our given cost-benefit requirements, to meet our goals.  So, we want to know "almost everything about everything", while trying to minimize that into as few things as possible, because keeping track of more things is more work than keeping track of less things, and so is more efficient.
+In order to make efficient use of our resources, we must understand our resources, in as much depth as possible, in as many categories as possible, for our given cost-benefit requirements, to meet our goals.  So, we want to know "almost everything about everything", while trying to minimize that into as few things as possible, because keeping track of more things is more work than keeping track of less things, and so is less efficient.
 
 The most important thing to know about our Environment is the "Present State".  This is the current state of affairs, for everything, as it actually is.  Reality.
 
