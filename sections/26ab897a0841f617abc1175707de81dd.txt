@@ -1,5 +1,17 @@
 ### [[3.5.1: There is no best, except for a certain set of values and priorities, from a limited set of options.]]
 
-
 Best is a concept that is poorly understood in our culture.  It is frequently used, but rarely clarified, because it's vagueness gives it rhetorical power, but in engineering this is simply a logical fallacy that leads us to poor choices and low efficiency.
 
+In order to take a term like "best" and use it in a manner that allows us to make good choices and have high efficiency, we must understand what other properties "best" has, besides just being "the best".
+
+What are some properties of "best"?
+
+- There is only one of them.  Only 1 thing can be "the best".
+
+- Something cannot be "the best" for a great number of circumstances, because as the circumstances (variables) change, then what is "best" will also change.
+
+- This creates an inverse ratio between the numbers of circumstances a methodology can be applied in, and the efficiency of the results for those circumstances.  This can be extended by allowing for any given set of circumstances (variables) to be repeated over and over.  The repetition will cause some of the variables to fluctuate (time itself being in constant fluctuation, others being contextual yet still being classified as being processed in the "same general manner").
+
+- The inverse ratio suggests that for any given circumstance, there is one-and-only-one "best" answer, and potentially a small set of "close-enough-in-quantitative-results" class of answers that competes with the local-maximum of the "best" answer.
+
+- Changing any of the requirements, resources or goals significantly will 
