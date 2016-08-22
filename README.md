@@ -2921,7 +2921,7 @@ With this in mind, spend some time thinking now about environments you have work
 In environments where I work, I see this constantly.&nbsp;&nbsp;Almost every existing project is created inefficiently, and causes us to be blocked from moving forward to more efficient services (in that area and others) due to the inefficient designs of the existing services.&nbsp;&nbsp;Can you see this inefficiency in your own environment?<br>
 <br>
 While we want to have Globally Efficient Alignment, if you find yourself in an environment where there is poor global efficiency, then you must start with a single project that has good Local Alignment efficiency, and attempt to branch out from there, creating either new Local efficiencies, or leveraging your now-existing good Local Alignment to create larger and larger inter-connected efficient systems, which can eventually replace the older less-aligned and less-efficient systems.<br>
-<h3 id=26ab897a0841f617abc1175707de81dd><a href="#26ab897a0841f617abc1175707de81dd">3.4.2</a>: There is no best, except for a certain set of values and priorities, from a limited set of options.</h3>
+<h3 id=26ab897a0841f617abc1175707de81dd><a href="#26ab897a0841f617abc1175707de81dd">3.4.2</a>: The Problem with the "Best"</h3>
 <br>
 Best is a concept that is poorly understood in our culture.&nbsp;&nbsp;It is frequently used, but rarely clarified, because it's vagueness gives it rhetorical power, but in engineering this is simply a logical fallacy that leads us to poor choices and low efficiency.<br>
 <br>
