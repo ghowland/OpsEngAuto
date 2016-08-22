@@ -3137,7 +3137,7 @@ In contrast, a Model for understanding does not need to be highly synchronized, 
 <br>
 Creating Models for understanding has a lot of documentation that already exists about it, and there are many mature areas of study that currently exist for this.<br>
 <br>
-Creating Models for control does have some good examples in the wild, and some that are taught in mature areas of study, but I am of the opinion that we still do not have much documentation in this area, so I will do my best to describe how I do this effectively, quickly, and how to get good results every time.<br>
+Creating Models for control does have some good examples in the wild, and some that are taught in mature areas of study, but I am of the opinion that we still do not have much documentation in this area, so I will do my best to describe how I do this effectively, quickly, and how I get good results every time.<br>
 <p id=1e2f1485f11d72e7cc37ce72c7de6775><b><a href="#1e2f1485f11d72e7cc37ce72c7de6775">3.5.1.2.1</a>: Black-Boxing the World</b></p>
 <p id=86a667264372ca24826a809f97ed36b8><b><a href="#86a667264372ca24826a809f97ed36b8">3.5.1.3</a>: Algorithms</b></p>
 <p id=c5cff688b2a25a6cc5ab3c0301d86a54><b><a href="#c5cff688b2a25a6cc5ab3c0301d86a54">3.5.1.4</a>: Centralized vs. Decentralized</b></p>
