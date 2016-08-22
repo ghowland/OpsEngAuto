@@ -9,7 +9,7 @@ Current Goal: Populate Empty Sections: 260   (Done: 23.8%)
 
 Lines: 3187
 
-Words: 59940
+Words: 59941
 
 
 # Chapter 1: Preface (README.txt)
@@ -2951,7 +2951,7 @@ Be careful with the language you use casually to describe things like "The Best 
 <br>
 A better way to think of things is using the term "better".<br>
 <br>
-Better is always a comparison between 2 distinct things.&nbsp;&nbsp;Best is often only discussing 1 thing, and lumps everything else into the second category.<br>
+Better is always a comparison between 2 distinct things.&nbsp;&nbsp;Best is often only discussing 1 thing, and lumps everything else into the second category: not-the-best.<br>
 <br>
 "Better" specifies 2 things, and it is known that "everything else" is not being considered at the moment, and so it not being discarded at the moment.&nbsp;&nbsp;"Best" discards everything but the "best" immediately.<br>
 <br>
