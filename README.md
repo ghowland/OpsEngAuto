@@ -9,7 +9,7 @@ Current Goal: Populate Empty Sections: 259   (Done: 24.7%)
 
 Lines: 3318
 
-Words: 61914
+Words: 61940
 
 
 # Chapter 1: Preface (README.txt)
@@ -3085,7 +3085,7 @@ An important note about "now".&nbsp;&nbsp;You can never know things in the truly
 <br>
 In terms of Monitoring, this means that all time series collected data, and other collected data, is aged.&nbsp;&nbsp;It has an age that is older than 0 seconds, in which that information was "accurate-as-of-Now", but the "now" that you are looking at is actually aged information.<br>
 <br>
-The only requirement is that this information is "new enough" to be considered "now", but it is never truly "Now" that you are looking at.<br>
+The only requirement is that this information is "new enough" to be considered "now", but it is never truly "Now" that you are looking at.&nbsp;&nbsp;This is important to keep in mind, since different decisions require a different level of "freshness" of data, to be a decision made from valid data.<br>
 <br>
 Thought experiment: What do you currently know about your own environment?&nbsp;&nbsp;What don't you know?&nbsp;&nbsp;What did you think you knew before you read this, but changed your mind as you read?<br>
 <br>
