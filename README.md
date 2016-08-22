@@ -1261,7 +1261,7 @@ Part of the purpose of this book is to provide a path for others to understand t
 We know the benefits and fallbacks of the aggregation system, though without comparing them to another method it is merely the de facto operations of all environments, making it hard to inspect as there is nothing different to compare it to.&nbsp;&nbsp;<br>
 <br>
 Making a change requires both defining the goals we want to achieve, and the current state of things, so we know what is required to make a change to get closer to our goals.<br>
-<h3 id=f32b593542b3562df78d89693543c0fe><a href="#f32b593542b3562df78d89693543c0fe">2.5.3</a>: Systemic Thinking.&nbsp;&nbsp;Philosophers Knife.&nbsp;&nbsp;Slicing the pie vs Aggregation.&nbsp;&nbsp;Completeness, ease of understanding, ease of building, life-cycle maintenance.&nbsp;&nbsp;Where do you spend your time?</h3>
+<h3 id=f32b593542b3562df78d89693543c0fe><a href="#f32b593542b3562df78d89693543c0fe">2.5.3</a>: Systemic Thinking</h3>
 <br>
 So far we've gone over the general definition of a system, and created some examples, and looked at how to slice components of a system up to leave the system intact, but able to looked at from different perspectives, and to separate out different components.<br>
 <br>
