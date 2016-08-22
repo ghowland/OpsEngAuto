@@ -7,9 +7,9 @@ Current Goal: Populate Empty Sections: 257   (Done: 25.3%)
 
 <br><br><b>NOTE: This is still an early Work-In-Progress.  It is being written linearly as a First Rough Draft without editing at the moment.  There are many typos and grammatical errors presently.</b>
 
-Lines: 3386
+Lines: 3388
 
-Words: 62988
+Words: 63007
 
 
 # Chapter 1: Preface (README.txt)
@@ -3138,6 +3138,8 @@ In contrast, a Model for understanding does not need to be highly synchronized, 
 Creating Models for understanding has a lot of documentation that already exists about it, and there are many mature areas of study that currently exist for this.<br>
 <br>
 Creating Models for control does have some good examples in the wild, and some that are taught in mature areas of study, but I am of the opinion that we still do not have much documentation in this area, so I will do my best to describe how I do this effectively, quickly, and how I get good results every time.<br>
+<br>
+Modeling is a core skill in Engineering, so if you do not already consider yourself a proficient modeler, then<br>
 <p id=1e2f1485f11d72e7cc37ce72c7de6775><b><a href="#1e2f1485f11d72e7cc37ce72c7de6775">3.5.1.2.1</a>: Black-Boxing the World</b></p>
 <p id=86a667264372ca24826a809f97ed36b8><b><a href="#86a667264372ca24826a809f97ed36b8">3.5.1.3</a>: Algorithms</b></p>
 <p id=c5cff688b2a25a6cc5ab3c0301d86a54><b><a href="#c5cff688b2a25a6cc5ab3c0301d86a54">3.5.1.4</a>: Centralized vs. Decentralized</b></p>
