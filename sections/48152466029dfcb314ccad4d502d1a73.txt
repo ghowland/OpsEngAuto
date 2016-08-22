@@ -8,7 +8,7 @@ In the case of this book, "operations" means "networked operations", "server ope
 
 What I hope you will gain from my perspective is a new foundation you can use as a plane of reference to improve your own operational mindset and practices, whether you are already an experienced operations engineer or new to the field. 
 
-I will be covering a large arena of information, and I will try to present a coherent picture, though each section must unfortunately be left incomplete as each section is only a small part of the larger picture I am trying to make clear.
+I will be covering a large arena of information, and I will try to present a coherent picture, though each section must unfortunately be left incomplete as each section is only a small part of the larger picture I am trying to make clear.  This is in contrast to many technical books which explain things clearly in each section before moving on, because their content is able to be defined and explained in each given section.
 
 This book's format is meant to be read from start to finish.  It starts off more general, and very philosophical, setting up terminology and scenarios.  Then will become more specific as we get into implementation details.  Finally, it will go back to being more general as we discuss how to implement in your current environment.
 

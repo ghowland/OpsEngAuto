@@ -9,7 +9,7 @@ Current Goal: Populate Empty Sections: 258   (Done: 25.0%)
 
 Lines: 3339
 
-Words: 62192
+Words: 62224
 
 
 # Chapter 1: Preface (README.txt)
@@ -31,7 +31,7 @@ What I hope you will gain from my perspective is a new foundation you can use as
 
 
 
-I will be covering a large arena of information, and I will try to present a coherent picture, though each section must unfortunately be left incomplete as each section is only a small part of the larger picture I am trying to make clear.
+I will be covering a large arena of information, and I will try to present a coherent picture, though each section must unfortunately be left incomplete as each section is only a small part of the larger picture I am trying to make clear.  This is in contrast to many technical books which explain things clearly in each section before moving on, because their content is able to be defined and explained in each given section.
 
 
 
