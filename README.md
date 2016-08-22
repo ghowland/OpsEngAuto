@@ -7,9 +7,9 @@ Current Goal: Populate Empty Sections: 261   (Done: 24.1%)
 
 <br><br><b>NOTE: This is still an early Work-In-Progress.  It is being written linearly as a First Rough Draft without editing at the moment.  There are many typos and grammatical errors presently.</b>
 
-Lines: 3245
+Lines: 3247
 
-Words: 60444
+Words: 60466
 
 
 # Chapter 1: Preface (README.txt)
@@ -3682,6 +3682,8 @@ Shame <=====> Pride<br>
 Without caring about things, one cannot feel shame over bad actions, nor pride in good actions.&nbsp;&nbsp;This is an effect of having an environment where the care-takers do not care about their environment, only about getting through another day.<br>
 <br>
 When you care, you will avoid creating Shame for yourself and others.&nbsp;&nbsp;When you care, you will try to perform actions you and others can be Proud of.&nbsp;&nbsp;These are good things, because they will form as a compass, pointing in the direction you want to go towards and away from.<br>
+<br>
+If your assessments are in Alignment with Reality, then you have high assurance that you are creating a better Environment for yourself.<br>
 <h2 id=52c0b5a8fe454c355a43001dcfc72c08><a href="#52c0b5a8fe454c355a43001dcfc72c08">11.13</a>: How To Make A Decision</h2>
 <br>
 Describe how to make a decision immediately based on data.<br>
