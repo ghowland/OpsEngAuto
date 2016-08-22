@@ -31,4 +31,10 @@ This is a very different thing from a Model that is created in order to control 
 
 A Model created to control resources will share many things with Models made for understanding, in that it is also a summary of the system, but unlike a Model for understanding, a Model for control is built to last potentially for the lifetime of the resources and beyond.
 
-Models for control are intended to make operating an Environment 
+Models for control are intended to make operating an Environment better by allowing inspection of state and control through the model.  A Control Model must be absolutely accurate, and have highly synchronized coordination with the Environment itself, or it risks becoming out-of-sync, and unable to Control the Environment.
+
+In contrast, a Model for understanding does not need to be highly synchronized, or absolutely accurate, because it only needs to be "good enough" to provide the required insight.  More accurate and more synchronization can assist in providing better accuracy, but less accuracy might be sufficient depending on your goals for better understanding.
+
+Creating Models for understanding has a lot of documentation that already exists about it, and there are many mature areas of study that currently exist for this.
+
+Creating Models for control does have some good examples in the wild, and some that are taught in mature areas of study, but 
