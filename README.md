@@ -7,9 +7,9 @@ Current Goal: Populate Empty Sections: 260   (Done: 24.4%)
 
 <br><br><b>NOTE: This is still an early Work-In-Progress.  It is being written linearly as a First Rough Draft without editing at the moment.  There are many typos and grammatical errors presently.</b>
 
-Lines: 3270
+Lines: 3272
 
-Words: 60943
+Words: 60986
 
 
 # Chapter 1: Preface (README.txt)
@@ -3036,7 +3036,9 @@ Hardware is essentially a "platform" for performing work.&nbsp;&nbsp;We can lump
 <br>
 Apart from these things there are of course other categories, such as Software that we buy (like Hardware), but these days you can run your entire organization on Free Open Source Software (FOSS) and many companies do just that, operating as well or better than those who pay for software.&nbsp;&nbsp;So, Software is fairly subjective in terms of being a resource like Hardware, as without Hardware we do not have any place to run FOSS or commercial software, and so we cannot operate.<br>
 <br>
-Additionally, engineering companies often create their own software, and this is required for managing your own operational environments, as there will be somethings that are unique about your organization, even if you try to make it as generic as possible, from the software-infrastructure side of things.<br>
+Additionally, engineering companies often create their own software, and this is required for managing your own operational environments, as there will be somethings that are unique about your organization, even if you try to make it as generic as possible, from the software-infrastructure side of things.&nbsp;&nbsp;<br>
+<br>
+Finally, even commercial software requires configuration, troubleshooting, maintenance, etc, so in comparison with do-it-yourself style software, the difference is only in Personnel Time and Money, and it may well be cheaper to do it either way, depending on your unique situation and goals.<br>
 <br>
 How you use resources, will determine the efficiency in the interactions between them, and the overall level of quality and quantity of work that you can perform, which will impact the success of your goals, and the success of your organization.<br>
 <br>
