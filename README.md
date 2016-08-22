@@ -3041,7 +3041,7 @@ Additionally, engineering companies often create their own software, and this is
 How you use resources, will determine the efficiency in the interactions between them, and the overall level of quality and quantity of work that you can perform, which will impact the success of your goals, and the success of your organization.<br>
 <br>
 Using resources efficiency is of prime importance for any Engineer.<br>
-<p id=9ed589a4467b296c2ea9dbb09ae0f49d><b><a href="#9ed589a4467b296c2ea9dbb09ae0f49d">3.5.1.1</a>: Evaluate the environment.&nbsp;&nbsp;Know the present.&nbsp;&nbsp;Real vs. Virtual</b></p>
+<p id=9ed589a4467b296c2ea9dbb09ae0f49d><b><a href="#9ed589a4467b296c2ea9dbb09ae0f49d">3.5.1.1</a>: Evaluate the environment.&nbsp;&nbsp;Know the present.&nbsp;&nbsp;Real vs. Virtual.</b></p>
 <p id=6f4678a0c1cc447ce97cf330abb63e6d><b><a href="#6f4678a0c1cc447ce97cf330abb63e6d">3.5.1.2</a>: Modeling</b></p>
 <p id=1e2f1485f11d72e7cc37ce72c7de6775><b><a href="#1e2f1485f11d72e7cc37ce72c7de6775">3.5.1.2.1</a>: Black-Boxing the World</b></p>
 <p id=86a667264372ca24826a809f97ed36b8><b><a href="#86a667264372ca24826a809f97ed36b8">3.5.1.3</a>: Algorithms</b></p>
