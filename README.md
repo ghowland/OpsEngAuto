@@ -9,7 +9,7 @@ Current Goal: Populate Empty Sections: 258   (Done: 25.0%)
 
 Lines: 3347
 
-Words: 62317
+Words: 62316
 
 
 # Chapter 1: Preface (README.txt)
@@ -182,7 +182,7 @@ One of the foundational goals of this book will be to differentiate the real fro
 
 
 
-This may seem like something that is common sense, but I have found wide breadth and scale disagreement on in what is real and what is not real, and this creates a lot of communication and planning problems.
+This may seem like something that is common sense, but I have found wide breadth and scale disagreement on what is real and what is not real, and this creates a lot of communication and planning problems.
 
 
 
