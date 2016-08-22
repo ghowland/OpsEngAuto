@@ -7,9 +7,9 @@ Current Goal: Populate Empty Sections: 259   (Done: 24.7%)
 
 <br><br><b>NOTE: This is still an early Work-In-Progress.  It is being written linearly as a First Rough Draft without editing at the moment.  There are many typos and grammatical errors presently.</b>
 
-Lines: 3316
+Lines: 3318
 
-Words: 61842
+Words: 61876
 
 
 # Chapter 1: Preface (README.txt)
@@ -3076,6 +3076,8 @@ This is a very different question, because it deals with a population of disk de
 So, with the Physical hardware and other Real things, we cannot know everything, but with Virtual things, Data and Logic, we can know everything.<br>
 <br>
 We can gather the exact values for each of the things we wish to know, and we can store them exactly as how they live in the real world, or can digest them so that we store a reference or as a reference count, or we can do anything else we want with them, because they are Virtual, we can know them completely.<br>
+<br>
+And, since we are also inspecting the Physical things with Logic, which is Virtual, we only data Virtual output (Data) from our Logic, so all we know are Virtual things, not Real physical things.<br>
 <br>
 Only the Knowability scale, Virtual information is Knowable at 1.0: Completely Knowable.<br>
 <br>
