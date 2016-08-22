@@ -7,9 +7,9 @@ Current Goal: Populate Empty Sections: 261   (Done: 23.5%)
 
 <br><br><b>NOTE: This is still an early Work-In-Progress.  It is being written linearly as a First Rough Draft without editing at the moment.  There are many typos and grammatical errors presently.</b>
 
-Lines: 3123
+Lines: 3127
 
-Words: 58619
+Words: 58781
 
 
 # Chapter 1: Preface (README.txt)
@@ -2902,7 +2902,11 @@ This is an example of "local alignment", because we were only looking at: 1 ceil
 <br>
 No problem we ever deal with in life is this restricted.&nbsp;&nbsp;Even for our above example, we will have to deal with weather (wetness, heat), biological (mold, termites), and many other factors for a real world "just a ceiling" problem, which massively complicate what "building an efficient ceiling out of 1 board and 4 beams" looks like.<br>
 <br>
-In our modern Operational environments, we<br>
+In our modern Operational environments, we have hundreds of sub-goals, and thousands of instances of software, and millions of instances of data, even in small environments, all of which have different access patterns and reliability requirements.<br>
+<br>
+If you can extrapolate out the ability to understand Alignment for our "simple ceiling" problem, and can extrude from that the importance of understanding Alignment in our much more complex and complicated real world environments, then you will see why I am maintaining that Alignment is one of the cores of Engineering, and that it is one of the first questions we must always ask in any kind of design related inquiry.<br>
+<br>
+In future sections I will go into how Non-Local Alignment is one of the bigger problems we have to deal with in modern organizations today, because even good Local Alignment may yield poor Non-Local Alignment, as two or more sub-systems are working together in a larger integrated system, and while they may be locally efficient, they are not globally efficient.<br>
 <h3 id=26ab897a0841f617abc1175707de81dd><a href="#26ab897a0841f617abc1175707de81dd">3.4.2</a>: There is no best, except for a certain set of values and priorities, from a limited set of options.</h3>
 <h2 id=9b893b40e08934229116cacf12764a11><a href="#9b893b40e08934229116cacf12764a11">3.5</a>: Understanding Engineering:&nbsp;&nbsp;Environment -> Resources -> Goal -> Actions -> Changed Environment -> Desired Effects?&nbsp;&nbsp;Efficient use of resources?&nbsp;&nbsp;Management of environment?</h2>
 <h3 id=dd4d43fb90d90e89b351e98d3788a97c><a href="#dd4d43fb90d90e89b351e98d3788a97c">3.5.1</a>: The use of resources (overall time, people time, money, hardware, etc) to create desired effects, for a given environment.</h3>

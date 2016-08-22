@@ -60,4 +60,10 @@ This is an example of "local alignment", because we were only looking at: 1 ceil
 
 No problem we ever deal with in life is this restricted.  Even for our above example, we will have to deal with weather (wetness, heat), biological (mold, termites), and many other factors for a real world "just a ceiling" problem, which massively complicate what "building an efficient ceiling out of 1 board and 4 beams" looks like.
 
-In our modern Operational environments, we 
+In our modern Operational environments, we have hundreds of sub-goals, and thousands of instances of software, and millions of instances of data, even in small environments, all of which have different access patterns and reliability requirements.
+
+If you can extrapolate out the ability to understand Alignment for our "simple ceiling" problem, and can extrude from that the importance of understanding Alignment in our much more complex and complicated real world environments, then you will see why I am maintaining that Alignment is one of the cores of Engineering, and that it is one of the first questions we must always ask in any kind of design related inquiry.
+
+In future sections I will go into how Non-Local Alignment is one of the bigger problems we have to deal with in modern organizations today, because even good Local Alignment may yield poor Non-Local Alignment, as two or more sub-systems are working together in a larger integrated system, and while they may be locally efficient, they are not globally efficient.
+
+
