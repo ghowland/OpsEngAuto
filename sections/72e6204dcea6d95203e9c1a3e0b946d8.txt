@@ -42,6 +42,14 @@ There are several factors we can immediately state for quantitative measurements
 
 Let's start with just these two factors, though there are many many more than can be applied, even in this trivial example.
 
+In the case of the beams with 10, 8, 6, and 1 feet in height, if they are mounted vertically under the structure, which provides the maximum resistance to gravity (a vertical force), then only or 3 of these beams will ever touch the ground at any time, for any given combination of their placement.
 
+This is obviously an inefficient design for keeping up a ceiling.
+
+If the beams are connected to the ceiling at an angle, such as they allow for a "flat" ceiling (equal height from the ground in all parts), then the ceiling will only be 1 foot high, and the longer boards will be connected at very steep angles, which will provide less resistance to the gravity force pressing down on the ceiling and beams.
+
+This can be calculated as quantifiably less efficient than beams that are all the same height, such as all being 10 feet in height.
+
+In the same way as this physical example yields different qualitative and quantitative 
 
 
