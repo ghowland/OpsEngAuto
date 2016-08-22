@@ -9,7 +9,7 @@ Current Goal: Populate Empty Sections: 258   (Done: 25.0%)
 
 Lines: 3347
 
-Words: 62283
+Words: 62280
 
 
 # Chapter 1: Preface (README.txt)
@@ -144,7 +144,7 @@ When I write code I often like to document things like "Here we are doing this" 
 <br>
 "One's tea is best with slightly sweet biscuits."<br>
 <br>
-It is kind-of the British Royal "we", but in reverse, is the "all encompassing singular", but I write it mostly so if you don't want to accept it is is still easier to digest, because it is directly toward the aether, and not directly at "you" in a tone of command.&nbsp;&nbsp;I feel this is a way one can make generalizations and advice, without making the statement too-pointed-at-you.<br>
+It is kind-of the British Royal "we", as the "all encompassing singular", but I write it mostly so if you don't want to accept it is is still easier to digest, because it is directly toward the aether, and not directly at "you" in a tone of command.&nbsp;&nbsp;I feel this is a way one can make generalizations and advice, without making the statement too-pointed-at-you.<br>
 <br>
 I will also hyphenate-things-to-make-compound-ideas.&nbsp;&nbsp;This allows words to be read in the sense of "all these things are one thing", and help in any kind of grammatical parsing.&nbsp;&nbsp;As I understand it, not being able to speak German, the German language has "compound nouns", in which many nouns are put together in sequence to form a new word that is a combination of all of these.&nbsp;&nbsp;I think this is a cool method of communication, and these long-chains-of-hyphenated-words are like, that but for any type of word, not just nouns.&nbsp;&nbsp;They create Compound Concepts.<br>
 <br>
