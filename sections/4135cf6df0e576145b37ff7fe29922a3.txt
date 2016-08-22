@@ -18,7 +18,7 @@ This could be extended to "configuring DNS", in which case all zone files are au
 
 This is a "Class of Work" that requires people to do something currently, but perhaps only in some areas if it is already partially automated.
 
-If you have a service (SaaS, such as a web-site like "DNS Made Easy") that does this for you, then someone still needs to enter the data.  The data entry is still a manual process, and part of the total Class of Work relating to DNS.
+If you have a service (SaaS, such as a web-site like "DNS Made Easy") that does this for you, then someone still needs to enter the data.  The data entry is still a manual process, and part of the total Class of Work relating to updating DNS.
 
 How would you remove this manual work?  It will need to be generated from either a template of hostnames for the type of services being provided, or some other automated mechanism.
 
