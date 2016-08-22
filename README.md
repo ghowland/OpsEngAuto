@@ -9,7 +9,7 @@ Current Goal: Populate Empty Sections: 260   (Done: 24.4%)
 
 Lines: 3270
 
-Words: 60941
+Words: 60943
 
 
 # Chapter 1: Preface (README.txt)
@@ -3026,7 +3026,7 @@ For our purposes, Resources can be summarized to the short list of:<br>
 - Money<br>
 - Hardware<br>
 <br>
-Overall Time is like calendar time.&nbsp;&nbsp;Things can take a month, or the month of March goes by, or something is a quarter of a year.&nbsp;&nbsp;This is all "overall" time.&nbsp;&nbsp;It speaks to time passing, which you cannot do-over, making it a limited resource.&nbsp;&nbsp;This is heavily tied to Money, which is why the saying "Time is money" has a logical truth to it, since salaries, rent and loans must all be paid at distinct time periods, so this is a very important concept for organizations.<br>
+Overall Time is like calendar time.&nbsp;&nbsp;Things can take hours, or a month, or the month of March goes by, or something is a quarter of a year.&nbsp;&nbsp;This is all "overall" time.&nbsp;&nbsp;It speaks to time passing, which you cannot do-over, making it a limited resource.&nbsp;&nbsp;This is heavily tied to Money, which is why the saying "Time is money" has a logical truth to it, since salaries, rent and loans must all be paid at distinct time periods, so this is a very important concept for organizations.<br>
 <br>
 Personnel Time is the time that any given person has to perform work.&nbsp;&nbsp;For instance, in an example job an engineer may have 40 hours of time to potentially perform work in a week.&nbsp;&nbsp;Over a month that is 160 hours of potential time.&nbsp;&nbsp;This is also a limited resource, and while organizations can make this flexible by paying more (hourly/bonuses/etc) or by asking for the person to simply give more time (unpaid overtime/death marches/etc), it still mostly remains a very limited resource.<br>
 <br>
