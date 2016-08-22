@@ -7,9 +7,9 @@ Current Goal: Populate Empty Sections: 257   (Done: 25.3%)
 
 <br><br><b>NOTE: This is still an early Work-In-Progress.  It is being written linearly as a First Rough Draft without editing at the moment.  There are many typos and grammatical errors presently.</b>
 
-Lines: 3361
+Lines: 3365
 
-Words: 62484
+Words: 62608
 
 
 # Chapter 1: Preface (README.txt)
@@ -3112,7 +3112,11 @@ If you were to Model your Operational Environment with each method you could, so
 <br>
 Out all of these, the most fundamental type of modeling is the Data Schema model, and the Relational data schema model is the most comprehensive way to model this data.<br>
 <br>
-This is because all data can be describes as collections of fields (tables), with relationships between them (inter-table field constraints)<br>
+This is because all data can be describes as collections of fields (tables), with relationships between them (inter-table field constraints).&nbsp;&nbsp;Graphs, flow charts, and all other types of models can be described textually through a schema, and these schemas can be put into databases such as MySQL, PostgreSQL, Oracle, sqlite, etc.<br>
+<br>
+Once a relational schema is created, for the clearest expression of the schema, then the schema can be "de-normalized" and otherwise "un-spun" so that it can fit into non-relational databases, such as column-oriented or time series databases.&nbsp;&nbsp;These databases have advantages for some access patterns (such as mostly-inserting data), but their schema is less expressive due to this optimization, so it is best to first understand it's model through a relational schema.<br>
+<br>
+Relational schemas can also be written as programming language "structs", or data primitives, and extended into Classes (Object Oriented style "structs")<br>
 <p id=1e2f1485f11d72e7cc37ce72c7de6775><b><a href="#1e2f1485f11d72e7cc37ce72c7de6775">3.5.1.2.1</a>: Black-Boxing the World</b></p>
 <p id=86a667264372ca24826a809f97ed36b8><b><a href="#86a667264372ca24826a809f97ed36b8">3.5.1.3</a>: Algorithms</b></p>
 <p id=c5cff688b2a25a6cc5ab3c0301d86a54><b><a href="#c5cff688b2a25a6cc5ab3c0301d86a54">3.5.1.4</a>: Centralized vs. Decentralized</b></p>
