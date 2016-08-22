@@ -54,7 +54,7 @@ Google, VMWare, Netflix, Cisco, Pacific Telesis, Lawrence Livermore Labs, Mobile
 You can see my abbrieviated job history at LinkedIn:<br>
 <br>
 https://www.linkedin.com/in/ghowland<br>
-<h2 id=4135cf6df0e576145b37ff7fe29922a3><a href="#4135cf6df0e576145b37ff7fe29922a3">1.2</a>: The promise of automation is removing classes of work, while you get the desired results</h2>
+<h2 id=4135cf6df0e576145b37ff7fe29922a3><a href="#4135cf6df0e576145b37ff7fe29922a3">1.2</a>: The promise of automation is removing classes of work, while you consistently get the desired results</h2>
 <br>
 At this point, everyone knows that automation is a necessary thing.&nbsp;&nbsp;It wasn't always this way.&nbsp;&nbsp;I spent much of my career trying to automate things and getting strong pushback from both management and peers (starting around 1996).&nbsp;&nbsp;<br>
 <br>
