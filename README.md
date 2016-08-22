@@ -91,7 +91,7 @@ Mistakes will happen, as everyone knows manual work must be manually inspected a
 Eventually someone will make a typo or other data-entry mistake, and it will not be caught in review, and will be pushed out to production, and will cause an outage, and may cause loss of revenue or other negative consequences.<br>
 <br>
 With automated logic, these kinds of repetitive data changes and verifications can be done as correctly as the logic specifies, and if it is written correctly, it will be done correctly forever.&nbsp;&nbsp;Or, until the business goals or infrastructure environment changes, and it must be modified accordingly.<br>
-<h2 id=205420c1274a2b80366e988715cd32f8><a href="#205420c1274a2b80366e988715cd32f8">1.3</a>: Writing in the First-Person</h2>
+<h2 id=205420c1274a2b80366e988715cd32f8><a href="#205420c1274a2b80366e988715cd32f8">1.3</a>: Writing in the First-Person and Other Oddities</h2>
 <br>
 You may have noticed, but I am writing quiet frequently in the first person, and will try to keep this consistent as much as possible.<br>
 <br>
