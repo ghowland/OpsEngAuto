@@ -1,6 +1,5 @@
 ### [[3.10.1.1: Evaluate the environment.  Know the present.  Real vs. virtual/logical.]]
 
-
 Do you remember the term "Knowability", which I introduced towards the beginning of the book?
 
 If not, please refresh your memory quickly here, because it's about to become very useful:  {{ section__knowability }}

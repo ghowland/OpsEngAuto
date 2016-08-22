@@ -7,7 +7,7 @@ Current Goal: Populate Empty Sections: 259   (Done: 24.7%)
 
 <br><br><b>NOTE: This is still an early Work-In-Progress.  It is being written linearly as a First Rough Draft without editing at the moment.  There are many typos and grammatical errors presently.</b>
 
-Lines: 3311
+Lines: 3310
 
 Words: 61713
 
@@ -3044,7 +3044,6 @@ How you use resources will determine the efficiency in the interactions between 
 <br>
 Using resources efficiently is of prime importance for any Engineer.<br>
 <p id=9ed589a4467b296c2ea9dbb09ae0f49d><b><a href="#9ed589a4467b296c2ea9dbb09ae0f49d">3.5.1.1</a>: Evaluate the environment.&nbsp;&nbsp;Know the present.&nbsp;&nbsp;Real vs. Virtual.</b></p>
-<br>
 <br>
 Do you remember the term "Knowability", which I introduced towards the beginning of the book?<br>
 <br>
