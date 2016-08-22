@@ -7,9 +7,9 @@ Current Goal: Populate Empty Sections: 259   (Done: 24.7%)
 
 <br><br><b>NOTE: This is still an early Work-In-Progress.  It is being written linearly as a First Rough Draft without editing at the moment.  There are many typos and grammatical errors presently.</b>
 
-Lines: 3301
+Lines: 3307
 
-Words: 61548
+Words: 61667
 
 
 # Chapter 1: Preface (README.txt)
@@ -3072,7 +3072,13 @@ No.&nbsp;&nbsp;That specific hard disk device could fail in the next second, or 
 <br>
 However, if we restate the question as, "How many disks do I need to have in stock, in order to replace the number of disks in all of my systems that are likely to fail in the next month?"<br>
 <br>
-This is a very different question, because it deals with a population of disk devices, not a single disk device.&nbsp;&nbsp;Across a population these statistical analysis becomes valid, and it will remain statistically-true<br>
+This is a very different question, because it deals with a population of disk devices, not a single disk device.&nbsp;&nbsp;Across a population these statistical analysis becomes valid, and it will remain statistically-true, as long as the numbers you give it are accurate and correlate properly, which becomes more true as the population size increases.<br>
+<br>
+So, with the Physical hardware and other Real things, we cannot know everything, but with Virtual things: Data and Logic, we can know everything.<br>
+<br>
+We can gather the exact values for each of the things we wish to know, and we can store them exactly as how they live in the real world, or can digest them so that we store a reference or reference count, or we can do anything else we want with them, because they are Virtual, we can know them completely.<br>
+<br>
+Only the Knowability scale, Virtual information is Knowable at 1.0: Completely Knowable.<br>
 <p id=6f4678a0c1cc447ce97cf330abb63e6d><b><a href="#6f4678a0c1cc447ce97cf330abb63e6d">3.5.1.2</a>: Modeling</b></p>
 <p id=1e2f1485f11d72e7cc37ce72c7de6775><b><a href="#1e2f1485f11d72e7cc37ce72c7de6775">3.5.1.2.1</a>: Black-Boxing the World</b></p>
 <p id=86a667264372ca24826a809f97ed36b8><b><a href="#86a667264372ca24826a809f97ed36b8">3.5.1.3</a>: Algorithms</b></p>
