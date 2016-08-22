@@ -11,4 +11,5 @@ Overall Time is like calendar time.  Things can take a month, or the month of Ma
 
 Personnel Time is the time that any given person has to perform work.  For instance, in an example job an engineer may have 40 hours of time to potentially perform work in a week.  Over a month that is 160 hours of potential time.  This is also a limited resource, and while organizations can make this flexible by paying more (hourly/bonuses/etc) or by asking for the person to simply give more time (unpaid overtime/death marches/etc), it still mostly remains a very limited resource.
 
-Money is obviously a limited 
+Money is obviously a limited resource as it is a scalar.  At any time an organization will have a value for available capital, and another value of available credit, and potentially options for creating more capital (sales/etc) or credit (new lines/etc).  These are all limited resources, and running out of money is almost exclusively the only reason organizations cease to exist, or are otherwise "abandoned".
+
