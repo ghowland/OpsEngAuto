@@ -3047,7 +3047,7 @@ This means that any issue can be evaluated on all types of complexity, to get a 
 <h3 id=222b0da1a677c8319df0b5742703e46f><a href="#222b0da1a677c8319df0b5742703e46f">3.8.1</a>: Monitoring</h3>
 <h3 id=5e9a4e088d8a4899a4a8579fec56b098><a href="#5e9a4e088d8a4899a4a8579fec56b098">3.8.2</a>: Spectrums</h3>
 <p id=2cda0e85947b37088449bf5d24291155><b><a href="#2cda0e85947b37088449bf5d24291155">3.8.2.1</a>: Comparisons</b></p>
-<h2 id=ac39699dc841781b49de6156b7d47f07><a href="#ac39699dc841781b49de6156b7d47f07">3.9</a>: Explain the skill ladders.&nbsp;&nbsp;Infinitely many ladder, infinity tall ladders.&nbsp;&nbsp;In each area you need to advance and learn, and as you do more ladders are climbed</h2>
+<h2 id=ac39699dc841781b49de6156b7d47f07><a href="#ac39699dc841781b49de6156b7d47f07">3.9</a>: Skill Ladders</h2>
 <h3 id=8c334623a47643e18e33479feebf5bed><a href="#8c334623a47643e18e33479feebf5bed">3.9.1</a>: Show it like a Graph:&nbsp;&nbsp;mwMmwnUvMMm, ups and downs in different areas.&nbsp;&nbsp;How to test yourself, understanding your skills.&nbsp;&nbsp;Completition of projects as proof of skill, etc.</h3>
 <h3 id=5e25a809a807106b545adb208a4fa99d><a href="#5e25a809a807106b545adb208a4fa99d">3.9.2</a>: Know that no one else can know your ladder positions, though they can attempt to estimate, and people are always trying to determine pecking order between themselves and other people, and often to change the pecking order by politics and power.</h3>
 <h2 id=291d5132845ea58ade7ea580866bf0f6><a href="#291d5132845ea58ade7ea580866bf0f6">3.10</a>: When to use statistics.&nbsp;&nbsp;When they are applicable, when they are not.</h2>
