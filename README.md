@@ -2957,7 +2957,7 @@ Better is always a comparison between two distinct things.&nbsp;&nbsp;Best is of
 <br>
 "Better" immediately leads to questions such as, "Why is it better?&nbsp;&nbsp;In what way is better?&nbsp;&nbsp;And, in what ways is it worse?"<br>
 <br>
-When you think of "best" it does not immediately call into mind the same questions, because the power of the symbol of "best" is that there are no competitors, it is the best.<br>
+When you think of "best". it does not immediately call into mind the same questions, because the power of the symbol of "best" is that there are no competitors, it is the best.<br>
 <br>
 And yet, from our inspection earlier we see that "best" means a very limited set of scenarios, do we know that we described the scenarios accurately?&nbsp;&nbsp;If the "best" is based on a limited set of scenarios, and we got anything wrong in our description of our scenario, than very likely we chose the wrong "best".<br>
 <br>
