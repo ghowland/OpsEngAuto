@@ -756,7 +756,7 @@ Since the organizational structure of organizations is not likely to change, the
 It's debatable on whether their world really changed that much for the better, but there are many distinct differences in the pre-Agile development world, from the post-Agile development world, and it was this change in perspective and discussing it that caused those changes to take effect.<br>
 <br>
 It's also worth noting that the way this change-through-repetition occurs should be done with as much awareness as possible of what is being repeated.&nbsp;&nbsp;If it is something that will become a dogmatic problem, then that is not a good thing to repeat.&nbsp;&nbsp;Thing's to repeat should be based on ideas that cause more awareness to the complexities of the present reality and less dogmatic simplicity, which frequently ignores any local data and instead focuses on following idealistic principles.&nbsp;&nbsp;If a principle sounds too idealistic, it probably is.<br>
-<p id=5bc4c817bd8491f2de4fcd4fa234cca9><b><a href="#5bc4c817bd8491f2de4fcd4fa234cca9">2.3.2.1</a>: Their ability to stay online and available and provide their service is what keeps them making money.&nbsp;&nbsp;How is this not a core-service?</b></p>
+<p id=5bc4c817bd8491f2de4fcd4fa234cca9><b><a href="#5bc4c817bd8491f2de4fcd4fa234cca9">2.3.2.1</a>: How is this not a core-service?</b></p>
 <br>
 One concept that organizations have a pretty good grasp on is "core services".&nbsp;&nbsp;They understand there are some services that they cannot outsource to other organizations and remain an efficient operation.<br>
 <br>
