@@ -3042,7 +3042,7 @@ This means that any issue can be evaluated on all types of complexity, to get a 
 - Detail Complexity<br>
 <h2 id=b897d8c3f141f288841664b42ade8068><a href="#b897d8c3f141f288841664b42ade8068">3.6</a>: Code management</h2>
 <h2 id=44e191e4a8799ec4d8239c53a915b728><a href="#44e191e4a8799ec4d8239c53a915b728">3.7</a>: Perfect is the enemy of done</h2>
-<h3 id=d98cb46eb6a0d64a68131fa80be27a81><a href="#d98cb46eb6a0d64a68131fa80be27a81">3.7.1</a>: Quality is never #1, utility is</h3>
+<h3 id=d98cb46eb6a0d64a68131fa80be27a81><a href="#d98cb46eb6a0d64a68131fa80be27a81">3.7.1</a>: Quality is never #1; Utility is</h3>
 <h2 id=53ee284612b4d4678a26814fc2442067><a href="#53ee284612b4d4678a26814fc2442067">3.8</a>: Troubleshooting</h2>
 <h3 id=222b0da1a677c8319df0b5742703e46f><a href="#222b0da1a677c8319df0b5742703e46f">3.8.1</a>: Monitoring</h3>
 <h3 id=5e9a4e088d8a4899a4a8579fec56b098><a href="#5e9a4e088d8a4899a4a8579fec56b098">3.8.2</a>: Spectrums</h3>
