@@ -7,9 +7,9 @@ Current Goal: Populate Empty Sections: 260   (Done: 23.8%)
 
 <br><br><b>NOTE: This is still an early Work-In-Progress.  It is being written linearly as a First Rough Draft without editing at the moment.  There are many typos and grammatical errors presently.</b>
 
-Lines: 3149
+Lines: 3151
 
-Words: 59227
+Words: 59280
 
 
 # Chapter 1: Preface (README.txt)
@@ -2929,7 +2929,9 @@ What are some properties of "best"?<br>
 <br>
 - The inverse ratio suggests that for any given circumstance, there is one-and-only-one "best" answer, and potentially a small set of "close-enough-in-quantitative-results" class of answers that competes with the local-maximum of the "best" answer.<br>
 <br>
-- Changing any of the requirements, resources or goals significantly will<br>
+- Changing any of the requirements, resources or goals significantly will almost assuredly change which given solution is the "best" answer to the new problem.<br>
+<br>
+This set of properties took it's shape through a line-of-reasoning, instead of enumerating things that were visible without reasoning, but both methods of defining properties are acceptable (simply remember how you came to them, in case they need re-evaluation).<br>
 <h2 id=9b893b40e08934229116cacf12764a11><a href="#9b893b40e08934229116cacf12764a11">3.5</a>: Understanding Engineering:&nbsp;&nbsp;Environment -> Resources -> Goal -> Actions -> Changed Environment -> Desired Effects?&nbsp;&nbsp;Efficient use of resources?&nbsp;&nbsp;Management of environment?</h2>
 <h3 id=dd4d43fb90d90e89b351e98d3788a97c><a href="#dd4d43fb90d90e89b351e98d3788a97c">3.5.1</a>: The use of resources (overall time, people time, money, hardware, etc) to create desired effects, for a given environment.</h3>
 <p id=9ed589a4467b296c2ea9dbb09ae0f49d><b><a href="#9ed589a4467b296c2ea9dbb09ae0f49d">3.5.1.1</a>: Evaluate the environment.&nbsp;&nbsp;Know the present.&nbsp;&nbsp;Real vs. virtual/logical.</b></p>
