@@ -9,7 +9,7 @@ Current Goal: Populate Empty Sections: 259   (Done: 24.3%)
 
 Lines: 3243
 
-Words: 60408
+Words: 60433
 
 
 # Chapter 1: Preface (README.txt)
@@ -3012,7 +3012,7 @@ It is only through creating many Local descriptions which Align well, and combin
 <br>
 What does Engineering mean to you?<br>
 <br>
-How would you summarize it in a sentence, as I have?&nbsp;&nbsp;How does your summary differ from mine?&nbsp;&nbsp;What advantages do you see in your summary over mine?&nbsp;&nbsp;Can you make a denser and more correct description?<br>
+How would you summarize it in a sentence, as I have?&nbsp;&nbsp;How does your summary differ from mine?&nbsp;&nbsp;What advantages do you see in your summary over mine?&nbsp;&nbsp;Can you make a denser and more correct description?&nbsp;&nbsp;Brevity allows for a type of clarity which details do not provide, as details allow for a type of clarity which brevity does not provide.<br>
 <br>
 Feel free to share your personal summaries with me, I am happy to hear how others view things, and expand my own understanding accordingly.<br>
 <h3 id=dd4d43fb90d90e89b351e98d3788a97c><a href="#dd4d43fb90d90e89b351e98d3788a97c">3.5.1</a>: The use of resources (overall time, people time, money, hardware, etc) to create desired effects, for a given environment.</h3>
