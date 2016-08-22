@@ -3024,10 +3024,12 @@ Feel free to share your personal summaries with me, I am happy to hear how other
 <p id=86a667264372ca24826a809f97ed36b8><b><a href="#86a667264372ca24826a809f97ed36b8">3.5.1.3</a>: Algorithms</b></p>
 <p id=c5cff688b2a25a6cc5ab3c0301d86a54><b><a href="#c5cff688b2a25a6cc5ab3c0301d86a54">3.5.1.4</a>: Centralized vs. Decentralized</b></p>
 <p id=5fa11c75ac5e5ee842071b89611bd9ac><b><a href="#5fa11c75ac5e5ee842071b89611bd9ac">3.5.1.5</a>: Distribute Systems</b></p>
-<p id=1a38d9aa40613994ccbc55d3bd80aac3><b><a href="#1a38d9aa40613994ccbc55d3bd80aac3">3.5.1.6</a>: Distributed Data.&nbsp;&nbsp;Where is the good data?&nbsp;&nbsp;Where is the active data?&nbsp;&nbsp;Are they the same?</b></p>
-<p id=4f692dac9d4a18060c7ed7ab3c560bea><b><a href="#4f692dac9d4a18060c7ed7ab3c560bea">3.5.1.7</a>: Utility vs. Cloud vs. Old-School:&nbsp;&nbsp;On Demand vs. Full Anonymous vs One-Off.</b></p>
-<p id=cd0b3e19dbeb9aa7495f50e8b3698932><b><a href="#cd0b3e19dbeb9aa7495f50e8b3698932">3.5.1.7.1</a>: Named servers (1-1), position and datacenter are known.&nbsp;&nbsp;Utilty is anonymous server, not anonymous location, position unknown, location known.&nbsp;&nbsp;Cloud is anonymous name and location.&nbsp;&nbsp;You dont care what server in a DC it is, or what DC it is in.</b></p>
-<p id=cc126bbb155f6cf8bd48d01908206040><b><a href="#cc126bbb155f6cf8bd48d01908206040">3.5.1.7.1.1</a>: What do you have to care about?&nbsp;&nbsp;The exact machine?&nbsp;&nbsp;The DC in general?&nbsp;&nbsp;Nothing, only that the service is reachable, and it can be reachable from anywhere?</b></p>
+<p id=1a38d9aa40613994ccbc55d3bd80aac3><b><a href="#1a38d9aa40613994ccbc55d3bd80aac3">3.5.1.6</a>: Distributed Data</b></p>
+<p id=4f692dac9d4a18060c7ed7ab3c560bea><b><a href="#4f692dac9d4a18060c7ed7ab3c560bea">3.5.1.7</a>: Utility vs. Cloud vs. Old-School</b></p>
+<p id=cd0b3e19dbeb9aa7495f50e8b3698932><b><a href="#cd0b3e19dbeb9aa7495f50e8b3698932">3.5.1.7.1</a>: Old-School</b></p>
+<p id=b4df504c277c470cd0ad26990e1ae72e><b><a href="#b4df504c277c470cd0ad26990e1ae72e">3.5.1.7.2</a>: Utility</b></p>
+<p id=a69a4ba83c5494ef7dba4d5ef550c7cd><b><a href="#a69a4ba83c5494ef7dba4d5ef550c7cd">3.5.1.7.3</a>: Cloud</b></p>
+<p id=cc126bbb155f6cf8bd48d01908206040><b><a href="#cc126bbb155f6cf8bd48d01908206040">3.5.1.7.4</a>: What do you have to care about?</b></p>
 <p id=25a7c2f4dc01247e2e4d86c271ee3eb4><b><a href="#25a7c2f4dc01247e2e4d86c271ee3eb4">3.5.1.8</a>: Types of Complexity</b></p>
 <br>
 There are a number of different kinds of complexity that we have to cope with while performing Engineering tasks.&nbsp;&nbsp;Let's enumerate them so we can refer to them explicitly, instead of clumping them all together as "complexity" or having to describe them each time.<br>
