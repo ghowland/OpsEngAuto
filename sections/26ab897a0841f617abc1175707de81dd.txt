@@ -24,4 +24,6 @@ Determining "worst" solutions is using the methodologies for "best" in reverse q
 
 In my view, this makes it clear that best/worst are a very small subset of options, and those options are highly detailed to one's exact environment, requirement, resources and goals.
 
-As such, there can be no such thing as "Best Practices" 
+As such, there can be no such thing as "Best Practices" (see section {{ section__e5829271e6cfb5927f3a4d4aec1b10df }} for details), because these are generalized solutions, for generalized environments, generalized resources available, and generalized goals.
+
+"Best Practices" are useful to read as case-studies that someone is claiming a method worked well for them, and they can recommend it as a potentially useful method, but since this goes against our own understanding of what "best" really means, these should be reworded as "An Example Implementation", not a "Best Practice", as it is neither Best nor a Practice, since Practice connotes 
