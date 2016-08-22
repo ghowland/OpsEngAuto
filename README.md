@@ -3019,9 +3019,9 @@ Brevity allows for a type of clarity which details do not provide, as details al
 Feel free to share your personal summaries with me, I am happy to hear how others view things, and expand my own understanding accordingly.<br>
 <h3 id=dd4d43fb90d90e89b351e98d3788a97c><a href="#dd4d43fb90d90e89b351e98d3788a97c">3.5.1</a>: The Use of Resources</h3>
 <p id=9ed589a4467b296c2ea9dbb09ae0f49d><b><a href="#9ed589a4467b296c2ea9dbb09ae0f49d">3.5.1.1</a>: Evaluate the environment.&nbsp;&nbsp;Know the present.&nbsp;&nbsp;Real vs. virtual/logical.</b></p>
-<p id=6f4678a0c1cc447ce97cf330abb63e6d><b><a href="#6f4678a0c1cc447ce97cf330abb63e6d">3.5.1.2</a>: Modeling.&nbsp;&nbsp;Creating models to understand.&nbsp;&nbsp;Creating models to control.&nbsp;&nbsp;Not the same.</b></p>
-<p id=1e2f1485f11d72e7cc37ce72c7de6775><b><a href="#1e2f1485f11d72e7cc37ce72c7de6775">3.5.1.2.1</a>: Black boxing the world.&nbsp;&nbsp;Pragmatism and effect driven models.&nbsp;&nbsp;Input, Output, Side-Effects.</b></p>
-<p id=86a667264372ca24826a809f97ed36b8><b><a href="#86a667264372ca24826a809f97ed36b8">3.5.1.3</a>: Algorithms: Idempotency, Sequence,</b></p>
+<p id=6f4678a0c1cc447ce97cf330abb63e6d><b><a href="#6f4678a0c1cc447ce97cf330abb63e6d">3.5.1.2</a>: Modeling</b></p>
+<p id=1e2f1485f11d72e7cc37ce72c7de6775><b><a href="#1e2f1485f11d72e7cc37ce72c7de6775">3.5.1.2.1</a>: Black-Boxing the World</b></p>
+<p id=86a667264372ca24826a809f97ed36b8><b><a href="#86a667264372ca24826a809f97ed36b8">3.5.1.3</a>: Algorithms</b></p>
 <p id=c5cff688b2a25a6cc5ab3c0301d86a54><b><a href="#c5cff688b2a25a6cc5ab3c0301d86a54">3.5.1.4</a>: Centralized vs. Decentralized.&nbsp;&nbsp;Push vs Pull, when is it centralized?&nbsp;&nbsp;Do you want tight control, or loose control?&nbsp;&nbsp;Both have their effects.&nbsp;&nbsp;People typically want tight control, or the effects of tight control (knowledge that it worked).</b></p>
 <p id=5fa11c75ac5e5ee842071b89611bd9ac><b><a href="#5fa11c75ac5e5ee842071b89611bd9ac">3.5.1.5</a>: Distribute Systems.&nbsp;&nbsp;Many node problems.</b></p>
 <p id=1a38d9aa40613994ccbc55d3bd80aac3><b><a href="#1a38d9aa40613994ccbc55d3bd80aac3">3.5.1.6</a>: Distributed Data.&nbsp;&nbsp;Where is the good data?&nbsp;&nbsp;Where is the active data?&nbsp;&nbsp;Are they the same?</b></p>
