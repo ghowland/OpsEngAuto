@@ -402,7 +402,7 @@ For instance, one aspect of Control is, "Do we have enough time to do the work w
 If we do not have control over our schedules, and work is required to be done before it can be done to our satisfaction of "good work", then we do not have control over this, and we will see problems arise from this fact.<br>
 <br>
 There are many other aspects of Control that we will look at, and I will make more cases on why I believe this is the central tenet of Operations and why understanding what you do have good control over, and do not have good control over is very valuable and actionable information.<br>
-<p id=126b3100e0bafcd606cdb539413d4ce5><b><a href="#126b3100e0bafcd606cdb539413d4ce5">2.3.1.1</a>: "De facto" ops vs. "planned/controlled" ops</b></p>
+<p id=126b3100e0bafcd606cdb539413d4ce5><b><a href="#126b3100e0bafcd606cdb539413d4ce5">2.3.1.1</a>: "De facto" Ops vs. "Planned/Controlled" Ops</b></p>
 <br>
 If Control is the central tenet of Operations, what is the opposite side of the spectrum?&nbsp;&nbsp;Uncontrolled operations?<br>
 <br>
