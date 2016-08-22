@@ -9,7 +9,7 @@ Current Goal: Populate Empty Sections: 258   (Done: 25.0%)
 
 Lines: 3343
 
-Words: 62276
+Words: 62279
 
 
 # Chapter 1: Preface (README.txt)
@@ -84,7 +84,7 @@ When no one has to think about the life-cycle changes or perform manual labor re
 <br>
 Updating the system (code) that manages this Class of Work remains manual labor, as writing logic has not yet been turned into an automatable task, but the regularity of updating the automation logic should happen far less frequently, and is more knowledge-work than data-entry work.<br>
 <br>
-Knowledge work is more stimulating, and known to be something that needs reviews and tests, whereas manual data-entry work is more prone to mistakes, because it is done so regularly that constant vigilance becomes impossible to perform accurately.&nbsp;&nbsp;Mistakes will happen, as everyone knows manual work must be inspected tested, and yet this is typically the place that mistakes are made, because testing and inspecting the data itself is a manual process, and also prone to failure.&nbsp;&nbsp;Eventually someone will make a typo or other data-entry mistake, and it will not be caught in review, and will be pushed out to production, and will cause an outage, and may cause loss of revenue or other negative consequences.<br>
+Knowledge work is more stimulating, and known to be something that needs reviews and tests, whereas manual data-entry work is more prone to mistakes, because it is done so regularly that constant vigilance becomes impossible to perform accurately.&nbsp;&nbsp;Mistakes will happen, as everyone knows manual work must be manually inspected and automatically tested, and yet this is typically the place that mistakes are made, because testing and inspecting the data itself is a manual process, and also prone to failure.&nbsp;&nbsp;Eventually someone will make a typo or other data-entry mistake, and it will not be caught in review, and will be pushed out to production, and will cause an outage, and may cause loss of revenue or other negative consequences.<br>
 <br>
 With automated logic, these kinds of repetitive data changes and verifications can be done as correctly as the logic specifies, and if it is written correctly, it will be done correctly forever.&nbsp;&nbsp;Or, until the business goals or infrastructure environment changes, and it must be modified accordingly.<br>
 <h2 id=205420c1274a2b80366e988715cd32f8><a href="#205420c1274a2b80366e988715cd32f8">1.3</a>: Writing in the First-Person</h2>
