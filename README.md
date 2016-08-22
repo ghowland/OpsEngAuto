@@ -7,9 +7,9 @@ Current Goal: Populate Empty Sections: 259   (Done: 24.3%)
 
 <br><br><b>NOTE: This is still an early Work-In-Progress.  It is being written linearly as a First Rough Draft without editing at the moment.  There are many typos and grammatical errors presently.</b>
 
-Lines: 3215
+Lines: 3217
 
-Words: 60104
+Words: 60107
 
 
 # Chapter 1: Preface (README.txt)
@@ -2971,6 +2971,8 @@ Can you think of a single thing you currently describe and think about as "best"
 <h2 id=9b893b40e08934229116cacf12764a11><a href="#9b893b40e08934229116cacf12764a11">3.5</a>: Understanding Engineering:&nbsp;&nbsp;Environment -> Resources -> Goal -> Actions -> Changed Environment -> Desired Effects?&nbsp;&nbsp;Efficient use of resources?&nbsp;&nbsp;Management of environment?</h2>
 <br>
 I've said before that I think Engineering is:<br>
+<br>
+{{ insert__engineering_defintion }}<br>
 <br>
 "The efficient use of resources to meet requirements to sufficiently satisfy your goals."<br>
 <br>
