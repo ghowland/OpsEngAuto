@@ -1,15 +1,15 @@
 # Operations: Engineering and Automation
 
 
-Total Sections: 344   Populated Sections: 85
-Current Goal: Populate Empty Sections: 259   (Done: 24.7%)
+Total Sections: 344   Populated Sections: 86
+Current Goal: Populate Empty Sections: 258   (Done: 25.0%)
 
 
 <br><br><b>NOTE: This is still an early Work-In-Progress.  It is being written linearly as a First Rough Draft without editing at the moment.  There are many typos and grammatical errors presently.</b>
 
-Lines: 3318
+Lines: 3339
 
-Words: 61933
+Words: 62182
 
 
 # Chapter 1: Preface (README.txt)
@@ -3511,6 +3511,27 @@ One would have to track less data, and do the same or more work to create a bett
 
 
 <h2 id=89e9cad9ead3a66e01d0bae846f5659b><a href="#89e9cad9ead3a66e01d0bae846f5659b">10.1</a>: Universal Machines as infinite recursive abstraction</h2>
+<br>
+<br>
+[Fill out...]<br>
+<br>
+How this works:&nbsp;&nbsp;<br>
+<br>
+UMCs are different "Pies" in the "Slicing the Pie" concept, but they are all the same "Pie".<br>
+<br>
+So you can slice the same Pie up in one UMC.<br>
+<br>
+Then in another UMC you make different slices to the same pie.<br>
+<br>
+This is why UMCs and UMCRs are needed, in that you still only have "One Pie", but you want to track one Set-Of-Slice from another Set-Of-Slices, and then map the relationships between all the sliced pieces and stuff.<br>
+<br>
+This is obvious when you think about Planetary Scale.<br>
+<br>
+We only have 1 Planet we are dealing with (for now, and then its the same thing all over, no change for Universal Scale Automation, or Multi-Versal Scale Automation), or whatever).<br>
+<br>
+We have 1 Planet now, and we can slice that pie up in lots of ways.&nbsp;&nbsp;But do we really think that a single "set" of slices will be good enough to describe automating the entire planet?<br>
+<br>
+Of course not, we have so many different viewpoints on things that we will need many "contexts" into this, which is exactly what UMCs are.&nbsp;&nbsp;They are the mappings to contexts, of all the ways of seeing the "slice-the-pie" method of understanding and controlling something, as big as a Planet/Universe/etc, and also being able to map with deterministic and accurate precious between those different contexts, with the best information available to you to do so (since some concepts may not map cleanly, and results will be accordingly "less good").<br>
 <h2 id=46ed9a6f00444101408c655cfb39cf12><a href="#46ed9a6f00444101408c655cfb39cf12">10.2</a>: Single Layer Systems</h2>
 <br>
 The entire "OpsDB" as it has been presented in this book can be considered a single "context" or "layer" system because it was created so that all pieces were equal, relational, and shared a place with each other under concepts like Don't Repeat Yourself (DRY), and other methodologies so that there would not be overlaying contexts.<br>
