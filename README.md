@@ -9,7 +9,7 @@ Current Goal: Populate Empty Sections: 258   (Done: 25.0%)
 
 Lines: 3343
 
-Words: 62277
+Words: 62275
 
 
 # Chapter 1: Preface (README.txt)
@@ -64,7 +64,7 @@ At this point, everyone knows that automation is a necessary thing.&nbsp;&nbsp;I
 <br>
 These days people usually have some aspects of automation, and are comfortable with those, so it is only the areas that they do not yet have experience which are hard to get implemented.&nbsp;&nbsp;A major impetus in writing this book is to resolve those problems, by making the concepts better publicized and hopefully well understood.<br>
 <br>
-The issues I find these days are not that people do not want comprehensive automation, but that there is not a clear understanding on what comprehensive automation entails, what it takes to build, how things will change once it is in place, and how the life-cycle of operations changes to modify it.<br>
+The issues I find these days are not that people do not want comprehensive automation, but that there is not a clear understanding on what comprehensive automation entails, what it takes to build, how things will change once it is in place, and how the life-cycle of operations changes accordingly.<br>
 <br>
 With all of these things, it is best to stay results-focused, and look to what you want to achieve out of automation, and in my opinion the ultimate goal should be "removing classes of work".<br>
 <br>
