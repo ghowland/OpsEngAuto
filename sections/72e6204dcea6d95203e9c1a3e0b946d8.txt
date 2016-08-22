@@ -10,4 +10,22 @@ Let us first consider a physical building structure, like a house, but we will s
 
 Now, in this example the purpose of the beams is to lift the ceiling board into the air, and keep it there.  So the beams function as support for the ceiling.  This defines the terms needed to start inspecting the concept of Alignment.
 
+How can we begin to measure Alignment?  Let's make up a scale.
 
+Alignment Efficiency
+
+Least Efficient <=====> Most Efficient
+
+Here is a basic scale of efficiency, going from least to most, which is pretty vague.
+
+Let's start throwing some more variables in and seeing how this immediately becomes more interesting as a concept that I am claiming is a core concept of Engineering.
+
+Let's assign different heights to the beams.  Lets say the beams are:  10 foot in height, 8 foot in height, 6 foot in height, 1 foot in height.
+
+How efficient are these heights of beams at keeping a ceiling raised above the ground?
+
+Firstly, when we think of a ceiling, we think of it generally as having an even height, or having some sort of stylistically (or functionally) changing height, but always we think of a ceiling as something we could be underneath.
+
+If one of our boards is only 1 foot in height, then for part of our ceiling, we know we will not be able to reside underneath it, as there is not much space.  This does not sound like a very good ceiling.
+
+This means, that we can reduce the "efficiency" of the ceiling we are proposing, because the ceiling is qualitatively "not good" from our definitions (goals) of what a ceiling should be.
