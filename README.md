@@ -1723,7 +1723,7 @@ Any ambiguity or aspects that remain not-perfectly-knowable need to count agains
 To set up the spectrum, it looks like this:<br>
 <br>
 Unknowable&nbsp;&nbsp;<--->&nbsp;&nbsp;Knowable<br>
-<h3 id=e2a0bb61f2d74d70b31bf533e2b1c260><a href="#e2a0bb61f2d74d70b31bf533e2b1c260">2.6.7</a>: Class of Work: a specific type of work that is done, may be domain specific or general across the company</h3>
+<h3 id=e2a0bb61f2d74d70b31bf533e2b1c260><a href="#e2a0bb61f2d74d70b31bf533e2b1c260">2.6.7</a>: Class of Work</h3>
 <br>
 We briefly defined Class of Work in the beginning of the book, but let's take a slightly deeper look at what it means.<br>
 <br>
