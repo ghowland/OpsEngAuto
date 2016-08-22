@@ -2,7 +2,14 @@
 
 To create a Model of something, is to try to "map" it some way.  Models can be made in any way you can think of, but typical models are things like:
 
-- Data Schemas, such as in a relational database.
-- Graphs, nodes and edges which define a sort of topology.
-- Flow Charts, State Machines and other process diagrams.
-- 
+- Data Schemas: such as in a relational database.
+- Graphs: nodes and edges which define a sort of topology.
+- Flow Charts, State Machines, Entity Relationship Maps, and other process diagrams.
+
+Each type of Model is meant to provide the ability to simulate something, such as your Operational Environment.  
+
+If you were to Model your Operational Environment with each method you could, some of the data would overlap between model-types, and some of the data would be unique per model-type.
+
+Out all of these, the most fundamental type of modeling is the Data Schema model, and the Relational data schema model is the most comprehensive way to model this data.
+
+This is because all data can be describes as collections of fields (tables), with relationships between them (inter-table field constraints)

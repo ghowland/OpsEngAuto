@@ -7,9 +7,9 @@ Current Goal: Populate Empty Sections: 257   (Done: 25.3%)
 
 <br><br><b>NOTE: This is still an early Work-In-Progress.  It is being written linearly as a First Rough Draft without editing at the moment.  There are many typos and grammatical errors presently.</b>
 
-Lines: 3354
+Lines: 3361
 
-Words: 62383
+Words: 62484
 
 
 # Chapter 1: Preface (README.txt)
@@ -3102,10 +3102,17 @@ How can you use this perspective to improve your efficient use of your resources
 <br>
 To create a Model of something, is to try to "map" it some way.&nbsp;&nbsp;Models can be made in any way you can think of, but typical models are things like:<br>
 <br>
-- Data Schemas, such as in a relational database.<br>
-- Graphs, nodes and edges which define a sort of topology.<br>
-- Flow Charts, State Machines and other process diagrams.<br>
--<br>
+- Data Schemas: such as in a relational database.<br>
+- Graphs: nodes and edges which define a sort of topology.<br>
+- Flow Charts, State Machines, Entity Relationship Maps, and other process diagrams.<br>
+<br>
+Each type of Model is meant to provide the ability to simulate something, such as your Operational Environment.&nbsp;&nbsp;<br>
+<br>
+If you were to Model your Operational Environment with each method you could, some of the data would overlap between model-types, and some of the data would be unique per model-type.<br>
+<br>
+Out all of these, the most fundamental type of modeling is the Data Schema model, and the Relational data schema model is the most comprehensive way to model this data.<br>
+<br>
+This is because all data can be describes as collections of fields (tables), with relationships between them (inter-table field constraints)<br>
 <p id=1e2f1485f11d72e7cc37ce72c7de6775><b><a href="#1e2f1485f11d72e7cc37ce72c7de6775">3.5.1.2.1</a>: Black-Boxing the World</b></p>
 <p id=86a667264372ca24826a809f97ed36b8><b><a href="#86a667264372ca24826a809f97ed36b8">3.5.1.3</a>: Algorithms</b></p>
 <p id=c5cff688b2a25a6cc5ab3c0301d86a54><b><a href="#c5cff688b2a25a6cc5ab3c0301d86a54">3.5.1.4</a>: Centralized vs. Decentralized</b></p>
