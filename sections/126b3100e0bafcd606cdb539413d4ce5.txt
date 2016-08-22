@@ -185,7 +185,7 @@ This makes it more dynamic, yet still scalable, and so has preference over sjc01
 What about "product", is it likely to grow in count too?  No, there is not necessarily a requirement for this.  If a new product does come out that is called "product2", then it is still differentiated from "product", and while it shares the same look and feel as the datacenter location scaling problem, it is actually a different type of scaling, because each of these products is unique and naming them is a business-customer function, not an engineering-infrastructure function.  We will simply shorten the name into an "alias" that is engineering-infrastructure friendly, and also to avoid any renaming that the product line goes through.
 
 {{ aside_begin }}
-Often marketing and sales departments will rename a product many times, both before it is launched, and after it is launched, and sometimes "newer versions" of the same product will be renamed, and "older versions" may have the same old name, or also change names.
+Often marketing and sales departments will rename a product many times, both before it is launched, and after it is launched, and sometimes "newer versions" of the same product will be renamed, and "older versions" may have the same old name, or may also change names.
 
 All of this name changing is an important part of Sales, Marketing, Branding, etc, but it has nothing to do with engineering or operations.  In fact, it is completely against our interests to change the name, ever.  No matter what happens outside the company, the internal name should not change, because the costs associated with internal name changes are high, and rewards of internal name changes are essentially non-existent.
 
