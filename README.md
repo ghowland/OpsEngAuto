@@ -3090,7 +3090,7 @@ This is a topic that apparently works very well with statistical analysis, and t
 <br>
 Apparently there is some kind of statistical slant I have to writing a certain number of words a day, a certain number of sections a day, and so on.<br>
 <h3 id=18ddda391b891bf36f9b2387380f5e67><a href="#18ddda391b891bf36f9b2387380f5e67">3.10.1</a>: Across many things: Appliable</h3>
-<h3 id=967dc75f17be743f5b44485436fceff2><a href="#967dc75f17be743f5b44485436fceff2">3.10.2</a>: For a given thing: Not Applicable.</h3>
+<h3 id=967dc75f17be743f5b44485436fceff2><a href="#967dc75f17be743f5b44485436fceff2">3.10.2</a>: For a given thing: Not Applicable</h3>
 <h3 id=feb605a9dd85dcc6e0d371d023dea881><a href="#feb605a9dd85dcc6e0d371d023dea881">3.10.3</a>: Exercises</h3>
 <h2 id=2d543cb2a0bfd85b80eacbcb10cf77b2><a href="#2d543cb2a0bfd85b80eacbcb10cf77b2">3.11</a>: How to select:&nbsp;&nbsp;Frameworks, Libs, Software Tools</h2>
 <h3 id=17c8887cbd04084bc3b75f577132b78e><a href="#17c8887cbd04084bc3b75f577132b78e">3.11.1</a>: Many stand alone tools will end up being replaced.</h3>
