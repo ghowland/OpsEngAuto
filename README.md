@@ -1,15 +1,15 @@
 # Operations: Engineering and Automation
 
 
-Total Sections: 344   Populated Sections: 84
-Current Goal: Populate Empty Sections: 260   (Done: 24.4%)
+Total Sections: 344   Populated Sections: 85
+Current Goal: Populate Empty Sections: 259   (Done: 24.7%)
 
 
 <br><br><b>NOTE: This is still an early Work-In-Progress.  It is being written linearly as a First Rough Draft without editing at the moment.  There are many typos and grammatical errors presently.</b>
 
-Lines: 3272
+Lines: 3279
 
-Words: 60986
+Words: 61094
 
 
 # Chapter 1: Preface (README.txt)
@@ -3044,6 +3044,13 @@ How you use resources will determine the efficiency in the interactions between 
 <br>
 Using resources efficiency is of prime importance for any Engineer.<br>
 <p id=9ed589a4467b296c2ea9dbb09ae0f49d><b><a href="#9ed589a4467b296c2ea9dbb09ae0f49d">3.5.1.1</a>: Evaluate the environment.&nbsp;&nbsp;Know the present.&nbsp;&nbsp;Real vs. Virtual.</b></p>
+<br>
+<br>
+Do you remember the term "Knowability", which I introduced towards the beginning of the book?<br>
+<br>
+If not, please refresh your memory quickly here, because it's about to become very useful:&nbsp;&nbsp;{{ section__knowability }}<br>
+<br>
+In order to make efficient use of our resources, we must understand our resources, in as much depth as possible, in as many categories as possible, for our given cost-benefit requirements, to meet our goals.&nbsp;&nbsp;So, we want to know "almost everything about everything", while trying to minimize that into as few things as possible, because keeping track of more things is more work than keeping track of less things, and so is more efficient.<br>
 <p id=6f4678a0c1cc447ce97cf330abb63e6d><b><a href="#6f4678a0c1cc447ce97cf330abb63e6d">3.5.1.2</a>: Modeling</b></p>
 <p id=1e2f1485f11d72e7cc37ce72c7de6775><b><a href="#1e2f1485f11d72e7cc37ce72c7de6775">3.5.1.2.1</a>: Black-Boxing the World</b></p>
 <p id=86a667264372ca24826a809f97ed36b8><b><a href="#86a667264372ca24826a809f97ed36b8">3.5.1.3</a>: Algorithms</b></p>
