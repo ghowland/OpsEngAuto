@@ -917,7 +917,7 @@ This can also be done for:<br>
 - Accessing production machines:&nbsp;&nbsp;You should have a security policy that can be applied in a standard way to all requests.&nbsp;&nbsp;Do you allow root logins?&nbsp;&nbsp;Root escalation?&nbsp;&nbsp;Sudo?&nbsp;&nbsp;Role accounts?&nbsp;&nbsp;Copying data to machines?&nbsp;&nbsp; You should write each of these things down, and where you do not allow something, you should have a method for how to accomplish that goal in a manner that is consistent with your security policy.&nbsp;&nbsp;If you do not do this, people will just work around your enforcements and create many messes as everyone does it slightly differently.<br>
 <br>
 It is unlikely that people who perform different roles will start to become empathetic that the work done in others' roles really does take expertise and time, since we have so much history of people not having this empathy, but we can do things to try to bridge these gaps by being aware of them and tuning our behaviors accordingly.<br>
-<p id=565cd0fce08c8934484649d6a9f5b105><b><a href="#565cd0fce08c8934484649d6a9f5b105">2.3.2.1.1.1.1.1</a>: Everyone doing everything themselves is great for a boot-strap project, but just does not work in a Mission-Critical environment.&nbsp;&nbsp;Launch NASA rocket with newbies running things?&nbsp;&nbsp;No, experience is needed for precision and taking into account All The Things.</b></p>
+<p id=565cd0fce08c8934484649d6a9f5b105><b><a href="#565cd0fce08c8934484649d6a9f5b105">2.3.2.1.1.1.1.1</a>: Everyone doing everything themselves is...</b></p>
 <br>
 One important component of all operational environments is standardization.&nbsp;&nbsp;At the extreme end of that spectrum would be uniformity and at the other extreme everything is unique:<br>
 <br>
@@ -952,7 +952,7 @@ Black boxes are an appropriate level for a group to be able to discuss alignment
 This is to allow people and sub-teams autonomy of action, as centralized planning cannot deal with all details and all contingencies efficiently, while still allowing a larger centralized inspection of the black boxes, to achieve a total operational system alignment.<br>
 <br>
 There's a lot involve in this, and we will be going into more depth as we move from philosophy and general issues into implementation.<br>
-<p id=e08a32902b4d3960b8ee560f8851f34f><b><a href="#e08a32902b4d3960b8ee560f8851f34f">2.3.2.1.1.1.1.2</a>: Balance to this.&nbsp;&nbsp;What can be self-service, and what cant.&nbsp;&nbsp;PaaS for production, IaaS for development and Ops usage.</b></p>
+<p id=e08a32902b4d3960b8ee560f8851f34f><b><a href="#e08a32902b4d3960b8ee560f8851f34f">2.3.2.1.1.1.1.2</a>: What can be self-service, and what cant</b></p>
 <br>
 One goal for an operations team that has decided they want to get the benefits of comprehensive automation is to provide more and more self-service tools to the departments they support.<br>
 <br>
