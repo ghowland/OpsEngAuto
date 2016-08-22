@@ -39,4 +39,4 @@ Creating Models for understanding has a lot of documentation that already exists
 
 Creating Models for control does have some good examples in the wild, and some that are taught in mature areas of study, but I am of the opinion that we still do not have much documentation in this area, so I will do my best to describe how I do this effectively, quickly, and how I get good results every time.
 
-Modeling is a core skill in Engineering, so if you do not already consider yourself a proficient modeler, then 
+Modeling is a core skill in Engineering, so if you do not already consider yourself a proficient modeler, you should take any attempt to start creating more models when opportunities arise, as practice improves all skills.
