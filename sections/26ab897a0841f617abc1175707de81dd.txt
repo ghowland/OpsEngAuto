@@ -22,3 +22,6 @@ In engineering we are not generally interested in the "worst" outcome as a resul
 
 Determining "worst" solutions is using the methodologies for "best" in reverse quantities.
 
+In my view, this makes it clear that best/worst are a very small subset of options, and those options are highly detailed to one's exact environment, requirement, resources and goals.
+
+As such, there can be no such thing as "Best Practices" 

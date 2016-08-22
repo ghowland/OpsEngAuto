@@ -7,9 +7,9 @@ Current Goal: Populate Empty Sections: 260   (Done: 23.8%)
 
 <br><br><b>NOTE: This is still an early Work-In-Progress.  It is being written linearly as a First Rough Draft without editing at the moment.  There are many typos and grammatical errors presently.</b>
 
-Lines: 3155
+Lines: 3159
 
-Words: 59328
+Words: 59369
 
 
 # Chapter 1: Preface (README.txt)
@@ -2936,6 +2936,10 @@ This set of properties took it's shape through a line-of-reasoning, instead of e
 In engineering we are not generally interested in the "worst" outcome as a result, but we need to brainstorm in finding potential problems to pre-solve against in coming up with our failure matrix for our services/etc.<br>
 <br>
 Determining "worst" solutions is using the methodologies for "best" in reverse quantities.<br>
+<br>
+In my view, this makes it clear that best/worst are a very small subset of options, and those options are highly detailed to one's exact environment, requirement, resources and goals.<br>
+<br>
+As such, there can be no such thing as "Best Practices"<br>
 <h2 id=9b893b40e08934229116cacf12764a11><a href="#9b893b40e08934229116cacf12764a11">3.5</a>: Understanding Engineering:&nbsp;&nbsp;Environment -> Resources -> Goal -> Actions -> Changed Environment -> Desired Effects?&nbsp;&nbsp;Efficient use of resources?&nbsp;&nbsp;Management of environment?</h2>
 <h3 id=dd4d43fb90d90e89b351e98d3788a97c><a href="#dd4d43fb90d90e89b351e98d3788a97c">3.5.1</a>: The use of resources (overall time, people time, money, hardware, etc) to create desired effects, for a given environment.</h3>
 <p id=9ed589a4467b296c2ea9dbb09ae0f49d><b><a href="#9ed589a4467b296c2ea9dbb09ae0f49d">3.5.1.1</a>: Evaluate the environment.&nbsp;&nbsp;Know the present.&nbsp;&nbsp;Real vs. virtual/logical.</b></p>
