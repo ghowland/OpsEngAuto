@@ -5,4 +5,8 @@ There are lots of important Algorithms in Engineering, they are Virtual and are 
 - Searching for data: Finding things based on some matching criteria
 - Sorting data: Ordering data based on some sorting criteria
 - Coordination: Locking, reference counting, signaling other coordination style actions
-- 
+- Encoding/Decoding: Encryption, compression, encapsulation, and other wrap/unwrap style actions
+
+
+
+

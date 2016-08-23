@@ -9,7 +9,7 @@ Current Goal: Populate Empty Sections: 255   (Done: 25.9%)
 
 Lines: 3409
 
-Words: 63277
+Words: 63286
 
 
 # Chapter 1: Preface (README.txt)
@@ -3162,7 +3162,7 @@ There are lots of important Algorithms in Engineering, they are Virtual and are 
 - Searching for data: Finding things based on some matching criteria<br>
 - Sorting data: Ordering data based on some sorting criteria<br>
 - Coordination: Locking, reference counting, signaling other coordination style actions<br>
--<br>
+- Encoding/Decoding: Encryption, compression, encapsulation, and other wrap/unwrap style actions<br>
 <p id=c5cff688b2a25a6cc5ab3c0301d86a54><b><a href="#c5cff688b2a25a6cc5ab3c0301d86a54">3.5.1.4</a>: Centralized vs. Decentralized</b></p>
 <p id=5fa11c75ac5e5ee842071b89611bd9ac><b><a href="#5fa11c75ac5e5ee842071b89611bd9ac">3.5.1.5</a>: Distributed Systems</b></p>
 <p id=1a38d9aa40613994ccbc55d3bd80aac3><b><a href="#1a38d9aa40613994ccbc55d3bd80aac3">3.5.1.6</a>: Distributed Data</b></p>
