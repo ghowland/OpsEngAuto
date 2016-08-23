@@ -42,4 +42,15 @@ At the end of the function running, we always have this directory, with the corr
 
 This is a basic example of what Idempotency can mean in a Operational Engineering environment.  This property can be used in many places to ensure that we always get a single result, without conditional changes.  It either works, and we get what we expect, or it fails and we know there is a problem (such as lack of permissions to make the changes).  These are both desirable states, because both success and failure meet the Idempotent criteria we set forth.
 
-In comparison to an Algorithmic Property is an Algorithm, such as 
+In comparison to an Algorithmic Property is an Algorithm, such as "Iterating Over a Sequence".
+
+We could combine the previous example with this, to create Logic that will ensure a number of directories exist.
+
+For example, consider this YAML data that lists YAML paths for our above ensure_directory_exists function:
+
+{{{ code_begin }}}
+ensure_directory_exists:
+  - /Users/ghowland/projects/idempotent/dirs/OpsEngAuto_sections.yaml
+  - /Users/ghowland/projects/idempotent/dirs/OpsEngAuto_sections.yaml
+{{{ code_end }}}
+
