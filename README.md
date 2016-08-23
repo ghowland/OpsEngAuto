@@ -7,9 +7,9 @@ Current Goal: Populate Empty Sections: 255   (Done: 25.9%)
 
 <br><br><b>NOTE: This is still an early Work-In-Progress.  It is being written linearly as a First Rough Draft without editing at the moment.  There are many typos and grammatical errors presently.</b>
 
-Lines: 3469
+Lines: 3471
 
-Words: 63775
+Words: 63809
 
 
 # Chapter 1: Preface (README.txt)
@@ -3223,6 +3223,8 @@ for path in paths:<br>
 {{{ code_end }}}<br>
 <br>
 This code assumes a LoadYaml() and EnsureDirectoryExistsIdempotentFunction() exist for convenience, and do what they say they do.&nbsp;&nbsp;This will iterate over our list of YAML files that contain our directory data, to Idempotently ensure exist.<br>
+<br>
+Over the course of the coming chapters we will introduce many Algorithmic Properties which give us good results in Operations, and we will compare when to use them, and how to use them efficiently.<br>
 <p id=c5cff688b2a25a6cc5ab3c0301d86a54><b><a href="#c5cff688b2a25a6cc5ab3c0301d86a54">3.5.1.4</a>: Centralized vs. Decentralized</b></p>
 <p id=5fa11c75ac5e5ee842071b89611bd9ac><b><a href="#5fa11c75ac5e5ee842071b89611bd9ac">3.5.1.5</a>: Distributed Systems</b></p>
 <p id=1a38d9aa40613994ccbc55d3bd80aac3><b><a href="#1a38d9aa40613994ccbc55d3bd80aac3">3.5.1.6</a>: Distributed Data</b></p>

@@ -67,3 +67,4 @@ for path in paths:
 
 This code assumes a LoadYaml() and EnsureDirectoryExistsIdempotentFunction() exist for convenience, and do what they say they do.  This will iterate over our list of YAML files that contain our directory data, to Idempotently ensure exist.
 
+Over the course of the coming chapters we will introduce many Algorithmic Properties which give us good results in Operations, and we will compare when to use them, and how to use them efficiently.
