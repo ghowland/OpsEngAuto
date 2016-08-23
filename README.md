@@ -3237,7 +3237,7 @@ Over the course of the coming chapters we will introduce many Algorithmic Proper
 TODO:&nbsp;&nbsp;Push vs Pull, when is it centralized?&nbsp;&nbsp;Do you want tight control, or loose control?&nbsp;&nbsp;Both have their effects.&nbsp;&nbsp;People typically want tight control, or the effects of tight control (knowledge that it worked).<br>
 <p id=5fa11c75ac5e5ee842071b89611bd9ac><b><a href="#5fa11c75ac5e5ee842071b89611bd9ac">3.5.1.5</a>: Distributed Systems</b></p>
 <p id=1a38d9aa40613994ccbc55d3bd80aac3><b><a href="#1a38d9aa40613994ccbc55d3bd80aac3">3.5.1.6</a>: Distributed Data</b></p>
-<p id=4f692dac9d4a18060c7ed7ab3c560bea><b><a href="#4f692dac9d4a18060c7ed7ab3c560bea">3.5.1.7</a>: Cloud vs. Utility vs. Fixed Hardware</b></p>
+<p id=4f692dac9d4a18060c7ed7ab3c560bea><b><a href="#4f692dac9d4a18060c7ed7ab3c560bea">3.5.1.7</a>: Hardware: Cloud vs. Utility vs. Fixed</b></p>
 <p id=cd0b3e19dbeb9aa7495f50e8b3698932><b><a href="#cd0b3e19dbeb9aa7495f50e8b3698932">3.5.1.7.1</a>: Fixed Hardware</b></p>
 <p id=b4df504c277c470cd0ad26990e1ae72e><b><a href="#b4df504c277c470cd0ad26990e1ae72e">3.5.1.7.2</a>: Utility Hardware</b></p>
 <p id=a69a4ba83c5494ef7dba4d5ef550c7cd><b><a href="#a69a4ba83c5494ef7dba4d5ef550c7cd">3.5.1.7.3</a>: Cloud Hardware</b></p>
