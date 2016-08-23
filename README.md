@@ -9,7 +9,7 @@ Current Goal: Populate Empty Sections: 255   (Done: 25.9%)
 
 Lines: 3407
 
-Words: 63257
+Words: 63266
 
 
 # Chapter 1: Preface (README.txt)
@@ -3157,10 +3157,10 @@ Using modeling, by way of Pragmatism, through the Universal Machine interface, w
 Later, I will go over how to actually do this, but for now I just wanted to point out what our currently defined terminology and tools allow us to do, which is quite a lot.<br>
 <p id=86a667264372ca24826a809f97ed36b8><b><a href="#86a667264372ca24826a809f97ed36b8">3.5.1.3</a>: Algorithms</b></p>
 <br>
-There are lots of important Algorithms in Engineering, they are Virtual and are usually in the categories of:<br>
+There are lots of important Algorithms in Engineering, they are Virtual and are frequently constrained to these types of things:<br>
 <br>
 - Searching for data: Finding things based on some matching criteria<br>
-- Sorting data:<br>
+- Sorting data: Ordering data based on some sorting criteria<br>
 <p id=c5cff688b2a25a6cc5ab3c0301d86a54><b><a href="#c5cff688b2a25a6cc5ab3c0301d86a54">3.5.1.4</a>: Centralized vs. Decentralized</b></p>
 <p id=5fa11c75ac5e5ee842071b89611bd9ac><b><a href="#5fa11c75ac5e5ee842071b89611bd9ac">3.5.1.5</a>: Distributed Systems</b></p>
 <p id=1a38d9aa40613994ccbc55d3bd80aac3><b><a href="#1a38d9aa40613994ccbc55d3bd80aac3">3.5.1.6</a>: Distributed Data</b></p>

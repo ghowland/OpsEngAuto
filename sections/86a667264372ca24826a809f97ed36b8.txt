@@ -1,6 +1,8 @@
 ### [[3.10.1.3: Algorithms: Idempotency, Sequence,]]
 
-There are lots of important Algorithms in Engineering, they are Virtual and are usually in the categories of:
+There are lots of important Algorithms in Engineering, they are Virtual and are frequently constrained to these types of things:
 
 - Searching for data: Finding things based on some matching criteria
-- Sorting data: 
+- Sorting data: Ordering data based on some sorting criteria
+
+
