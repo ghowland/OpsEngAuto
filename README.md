@@ -7,9 +7,9 @@ Current Goal: Populate Empty Sections: 256   (Done: 25.8%)
 
 <br><br><b>NOTE: This is still an early Work-In-Progress.  It is being written linearly as a First Rough Draft without editing at the moment.  There are many typos and grammatical errors presently.</b>
 
-Lines: 3471
+Lines: 3478
 
-Words: 63809
+Words: 63853
 
 
 # Chapter 1: Preface (README.txt)
@@ -3147,6 +3147,13 @@ Once we accept that anything can be modeled, then we can go about modeling every
 Remember the introduction to Pragmatism?&nbsp;&nbsp;If not, check here:&nbsp;&nbsp;{{ section__pragmatism }}<br>
 <br>
 Using Pragmatism, we can evaluate anything on only the effects that they cause.&nbsp;&nbsp;These effects can be turned into schema, as can any additional data needed to model the effects.<br>
+<br>
+When modeling for Operations, there are 2 main areas of modeling:<br>
+<br>
+- Model Reality: Describe what exists.<br>
+- Model Effects: Describe what happens.<br>
+<br>
+We'll cover these in detail later as we go over the OpsDB, which is all about doing both of these things.<br>
 <br>
 Remember the "Universal Machine" concept?&nbsp;&nbsp;If not, check here:&nbsp;&nbsp;{{ section_um }}<br>
 <br>

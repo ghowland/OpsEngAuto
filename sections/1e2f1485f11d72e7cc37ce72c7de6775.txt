@@ -6,6 +6,13 @@ Remember the introduction to Pragmatism?  If not, check here:  {{ section__pragm
 
 Using Pragmatism, we can evaluate anything on only the effects that they cause.  These effects can be turned into schema, as can any additional data needed to model the effects.
 
+When modeling for Operations, there are 2 main areas of modeling:
+
+- Model Reality: Describe what exists.
+- Model Effects: Describe what happens.
+
+We'll cover these in detail later as we go over the OpsDB, which is all about doing both of these things.
+
 Remember the "Universal Machine" concept?  If not, check here:  {{ section_um }}
 
 Universal Machines map Inputs, Outputs and Side-Effects, which is just a more explicit version of a Function, which maps Inputs and Outputs, and may perform Side-Effects, but does not explicitly model them for Control purposes.
