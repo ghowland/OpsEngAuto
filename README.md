@@ -1,8 +1,8 @@
 # Operations: Engineering and Automation
 
 
-Total Sections: 348   Populated Sections: 91
-Current Goal: Populate Empty Sections: 257   (Done: 26.1%)
+Total Sections: 348   Populated Sections: 92
+Current Goal: Populate Empty Sections: 256   (Done: 26.4%)
 
 
 <br><br><b>NOTE: This is still an early Work-In-Progress.  It is being written linearly as a First Rough Draft without editing at the moment.  There are many typos and grammatical errors presently.</b>
