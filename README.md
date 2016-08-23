@@ -7,9 +7,9 @@ Current Goal: Populate Empty Sections: 255   (Done: 25.9%)
 
 <br><br><b>NOTE: This is still an early Work-In-Progress.  It is being written linearly as a First Rough Draft without editing at the moment.  There are many typos and grammatical errors presently.</b>
 
-Lines: 3421
+Lines: 3427
 
-Words: 63445
+Words: 63475
 
 
 # Chapter 1: Preface (README.txt)
@@ -3174,7 +3174,13 @@ One important "Algorithmic Property" is Idempotency.&nbsp;&nbsp;This means that 
 <br>
 This has interesting mathematical uses, but in Operational Engineering, the use is that if we perform a function, we always have the same result.<br>
 <br>
-Consider a Algorithm that ensures that a directory exits with a given<br>
+Consider a Algorithm that ensures that a directory exits with a given set of permissions.<br>
+<br>
+Let's say that this will be the input data for this Algorithm:<br>
+<br>
+{{{ code_begin }}}<br>
+drwxr-xr-x&nbsp;&nbsp;346 ghowland&nbsp;&nbsp;staff&nbsp;&nbsp;11764 Aug 23 00:48 sections<br>
+{{{ code_end }}}<br>
 <p id=c5cff688b2a25a6cc5ab3c0301d86a54><b><a href="#c5cff688b2a25a6cc5ab3c0301d86a54">3.5.1.4</a>: Centralized vs. Decentralized</b></p>
 <p id=5fa11c75ac5e5ee842071b89611bd9ac><b><a href="#5fa11c75ac5e5ee842071b89611bd9ac">3.5.1.5</a>: Distributed Systems</b></p>
 <p id=1a38d9aa40613994ccbc55d3bd80aac3><b><a href="#1a38d9aa40613994ccbc55d3bd80aac3">3.5.1.6</a>: Distributed Data</b></p>

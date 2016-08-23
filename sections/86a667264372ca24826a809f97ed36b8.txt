@@ -17,6 +17,12 @@ One important "Algorithmic Property" is Idempotency.  This means that when you a
 
 This has interesting mathematical uses, but in Operational Engineering, the use is that if we perform a function, we always have the same result.
 
-Consider a Algorithm that ensures that a directory exits with a given 
+Consider a Algorithm that ensures that a directory exits with a given set of permissions.
+
+Let's say that this will be the input data for this Algorithm:
+
+{{{ code_begin }}}
+drwxr-xr-x  346 ghowland  staff  11764 Aug 23 00:48 sections
+{{{ code_end }}}
 
 
