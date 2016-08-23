@@ -3241,6 +3241,7 @@ TODO:&nbsp;&nbsp;Push vs Pull, when is it centralized?&nbsp;&nbsp;Do you want ti
 <p id=cd0b3e19dbeb9aa7495f50e8b3698932><b><a href="#cd0b3e19dbeb9aa7495f50e8b3698932">3.5.1.7.1</a>: Fixed Hardware</b></p>
 <p id=b4df504c277c470cd0ad26990e1ae72e><b><a href="#b4df504c277c470cd0ad26990e1ae72e">3.5.1.7.2</a>: Utility Hardware</b></p>
 <p id=a69a4ba83c5494ef7dba4d5ef550c7cd><b><a href="#a69a4ba83c5494ef7dba4d5ef550c7cd">3.5.1.7.3</a>: Cloud Hardware</b></p>
+<p id=23c810f8045fe70f023448e7aeaa259c><b><a href="#23c810f8045fe70f023448e7aeaa259c">3.5.1.7.3.1</a>: *aaS</b></p>
 <p id=cc126bbb155f6cf8bd48d01908206040><b><a href="#cc126bbb155f6cf8bd48d01908206040">3.5.1.7.4</a>: What do you have to care about?</b></p>
 <p id=25a7c2f4dc01247e2e4d86c271ee3eb4><b><a href="#25a7c2f4dc01247e2e4d86c271ee3eb4">3.5.1.8</a>: Types of Complexity</b></p>
 <br>
