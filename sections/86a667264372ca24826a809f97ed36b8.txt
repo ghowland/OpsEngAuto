@@ -7,6 +7,12 @@ There are lots of important Algorithms in Engineering, they are Virtual and are 
 - Coordination: Locking, reference counting, signaling other coordination style actions
 - Encoding/Decoding: Encryption, compression, encapsulation, and other wrap/unwrap style actions
 
+There are other categories as well, but these are often what we think of in Operational Engineering when someone says "algorithms".
+
+There are many good references for these, including Wikipedia or Donald Knuth's books, for a completely in-depth comparison between an encyclopedia of algorithms.
+
+In terms of Operations, while we use these other algorithms, I will focusing on "Algorithmic Properties" and very fundamental Algorithms.
+
 
 
 

@@ -7,9 +7,9 @@ Current Goal: Populate Empty Sections: 255   (Done: 25.9%)
 
 <br><br><b>NOTE: This is still an early Work-In-Progress.  It is being written linearly as a First Rough Draft without editing at the moment.  There are many typos and grammatical errors presently.</b>
 
-Lines: 3409
+Lines: 3415
 
-Words: 63286
+Words: 63350
 
 
 # Chapter 1: Preface (README.txt)
@@ -3163,6 +3163,12 @@ There are lots of important Algorithms in Engineering, they are Virtual and are 
 - Sorting data: Ordering data based on some sorting criteria<br>
 - Coordination: Locking, reference counting, signaling other coordination style actions<br>
 - Encoding/Decoding: Encryption, compression, encapsulation, and other wrap/unwrap style actions<br>
+<br>
+There are other categories as well, but these are often what we think of in Operational Engineering when someone says "algorithms".<br>
+<br>
+There are many good references for these, including Wikipedia or Donald Knuth's books, for a completely in-depth comparison between an encyclopedia of algorithms.<br>
+<br>
+In terms of Operations, while we use these other algorithms, I will focusing on "Algorithmic Properties" and very fundamental Algorithms.<br>
 <p id=c5cff688b2a25a6cc5ab3c0301d86a54><b><a href="#c5cff688b2a25a6cc5ab3c0301d86a54">3.5.1.4</a>: Centralized vs. Decentralized</b></p>
 <p id=5fa11c75ac5e5ee842071b89611bd9ac><b><a href="#5fa11c75ac5e5ee842071b89611bd9ac">3.5.1.5</a>: Distributed Systems</b></p>
 <p id=1a38d9aa40613994ccbc55d3bd80aac3><b><a href="#1a38d9aa40613994ccbc55d3bd80aac3">3.5.1.6</a>: Distributed Data</b></p>
