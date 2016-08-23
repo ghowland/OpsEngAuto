@@ -3311,6 +3311,7 @@ Apparently there is some kind of statistical slant I have to writing a certain n
 <p id=e122b3c42185ad60077b1cc58c7f1f22><b><a href="#e122b3c42185ad60077b1cc58c7f1f22">3.11.1.2</a>: Explain Replacement of DNS, DHCP, etc</b></p>
 <p id=957ddd798c6271497229ea774b39e478><b><a href="#957ddd798c6271497229ea774b39e478">3.11.1.2.1</a>: Zones, Subnets, etc</b></p>
 <h2 id=27893ca25e6be2dd440c59fcc7aa321e><a href="#27893ca25e6be2dd440c59fcc7aa321e">3.12</a>: Name spaces</h2>
+<h2 id=f982f5e8986e8ea977b3015d8041d372><a href="#f982f5e8986e8ea977b3015d8041d372">3.13</a>: Structure as Logic</h2>
 
 # Chapter 4: Automation Philosophy and Methodology in Operations
 
