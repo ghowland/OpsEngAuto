@@ -1,8 +1,8 @@
 # Operations: Engineering and Automation
 
 
-Total Sections: 345   Populated Sections: 89
-Current Goal: Populate Empty Sections: 256   (Done: 25.8%)
+Total Sections: 346   Populated Sections: 89
+Current Goal: Populate Empty Sections: 257   (Done: 25.7%)
 
 
 <br><br><b>NOTE: This is still an early Work-In-Progress.  It is being written linearly as a First Rough Draft without editing at the moment.  There are many typos and grammatical errors presently.</b>
@@ -3311,7 +3311,7 @@ Apparently there is some kind of statistical slant I have to writing a certain n
 <p id=e122b3c42185ad60077b1cc58c7f1f22><b><a href="#e122b3c42185ad60077b1cc58c7f1f22">3.11.1.2</a>: Explain Replacement of DNS, DHCP, etc</b></p>
 <p id=957ddd798c6271497229ea774b39e478><b><a href="#957ddd798c6271497229ea774b39e478">3.11.1.2.1</a>: Zones, Subnets, etc</b></p>
 <h2 id=27893ca25e6be2dd440c59fcc7aa321e><a href="#27893ca25e6be2dd440c59fcc7aa321e">3.12</a>: Name spaces</h2>
-<h2 id=f982f5e8986e8ea977b3015d8041d372><a href="#f982f5e8986e8ea977b3015d8041d372">3.13</a>: Structure as Logic</h2>
+<h2 id=ac19b6971bff8dc5db71667d1cb1d022><a href="#ac19b6971bff8dc5db71667d1cb1d022">3.13</a>: Structure as Logic</h2>
 
 # Chapter 4: Automation Philosophy and Methodology in Operations
 
