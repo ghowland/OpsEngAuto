@@ -19,10 +19,27 @@ This has interesting mathematical uses, but in Operational Engineering, the use 
 
 Consider a Algorithm that ensures that a directory exits with a given set of permissions.
 
-Let's say that this will be the input data for this Algorithm:
+Let's say that this will be the input data for this Algorithm, in YAML format:
 
 {{{ code_begin }}}
+type: ensure_directory_exists
+path: /Users/ghowland/projects/OpsEngAuto/sections
+mode: 755
+user: ghowland
+group: staff
+{{{ code_end }}}
+
+When the function that executes this Algorithm runs against this data it will ensure that a directory like this is created, if it doesn't exist:
+
+{{{ code_begin }}}
+$ ls -ld sections
 drwxr-xr-x  346 ghowland  staff  11764 Aug 23 00:48 sections
 {{{ code_end }}}
 
+If the directory does exist, then it ensures that the mode, user and group are correct.
 
+At the end of the function running, we always have this directory, with the correct mode, user and group permissions.
+
+This is a basic example of what Idempotency can mean in a Operational Engineering environment.  This property can be used in many places to ensure that we always get a single result, without conditional changes.  It either works, and we get what we expect, or it fails and we know there is a problem (such as lack of permissions to make the changes).  These are both desirable states, because both success and failure meet the Idempotent criteria we set forth.
+
+In comparison to an Algorithmic Property is an Algorithm, such as 
