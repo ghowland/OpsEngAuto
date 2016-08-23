@@ -51,6 +51,6 @@ For example, consider this YAML data that lists YAML paths for our above ensure_
 {{{ code_begin }}}
 ensure_directory_exists:
   - /Users/ghowland/projects/idempotent/dirs/OpsEngAuto_sections.yaml
-  - /Users/ghowland/projects/idempotent/dirs/OpsEngAuto_sections.yaml
+  - /Users/ghowland/projects/idempotent/dirs/OpsEngAuto_toc_.yaml
 {{{ code_end }}}
 
