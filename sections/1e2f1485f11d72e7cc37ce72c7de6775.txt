@@ -12,3 +12,5 @@ Universal Machines map Inputs, Outputs and Side-Effects, which is just a more ex
 
 Using modeling, by way of Pragmatism, through the Universal Machine interface, we can model anything and everything.  We can Black-Box the World, or wrap the world full of "black boxes", which contain something that has the signature of the Universal Machine (Input/Output/Side-Effects).
 
+Later, I will go over how to actually do this, but for now I just wanted to point out what our currently defined terminology and tools allow us to do, which is quite a lot.
+
