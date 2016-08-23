@@ -1,3 +1,14 @@
 ### [[3.10.1.2.1: Black boxing the world.  Pragmatism and effect driven models.  Input, Output, Side-Effects.]]
 
+Once we accept that anything can be modeled, then we can go about modeling everything that is useful.  We can model for Understanding, but it is better to model for Control, since you get both.
+
+Remember the introduction to Pragmatism?  If not, check here:  {{ section__pragmatism }}
+
+Using Pragmatism, we can evaluate anything on only the effects that they cause.  These effects can be turned into schema, as can any additional data needed to model the effects.
+
+Remember the "Universal Machine" concept?  If not, check here:  {{ section_um }}
+
+Universal Machines map Inputs, Outputs and Side-Effects, which is just a more explicit version of a Function, which maps Inputs and Outputs, and may perform Side-Effects, but does not explicitly model them for Control purposes.
+
+Using modeling, by way of Pragmatism, through the Universal Machine interface, we can model anything and everything.  We can Black-Box the World, or wrap the world full of "black boxes", which contain something that has the signature of the Universal Machine (Input/Output/Side-Effects).
 
