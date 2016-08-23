@@ -1,4 +1,3 @@
 ### [[3.10.1.4: Centralized vs. Decentralized.]]
 
-
 TODO:  Push vs Pull, when is it centralized?  Do you want tight control, or loose control?  Both have their effects.  People typically want tight control, or the effects of tight control (knowledge that it worked).
