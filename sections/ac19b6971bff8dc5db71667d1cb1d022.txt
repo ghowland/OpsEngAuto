@@ -1,3 +1,7 @@
 ### [[3.13: Structure as Logic]]
 
+Explain how I use schema and other structures in place of Logic, reducing the total amount of Logic, and making the gap between working features and Logic-creation much smaller.
 
+How this scales better than not doing this, writing everything as Logic without help from Structure.
+
+Structure is Efficient Alignment, in practice.

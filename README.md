@@ -1,15 +1,15 @@
 # Operations: Engineering and Automation
 
 
-Total Sections: 347   Populated Sections: 89
-Current Goal: Populate Empty Sections: 258   (Done: 25.6%)
+Total Sections: 347   Populated Sections: 90
+Current Goal: Populate Empty Sections: 257   (Done: 25.9%)
 
 
 <br><br><b>NOTE: This is still an early Work-In-Progress.  It is being written linearly as a First Rough Draft without editing at the moment.  There are many typos and grammatical errors presently.</b>
 
-Lines: 3480
+Lines: 3486
 
-Words: 63888
+Words: 63939
 
 
 # Chapter 1: Preface (README.txt)
@@ -3312,6 +3312,12 @@ Apparently there is some kind of statistical slant I have to writing a certain n
 <p id=957ddd798c6271497229ea774b39e478><b><a href="#957ddd798c6271497229ea774b39e478">3.11.1.2.1</a>: Zones, Subnets, etc</b></p>
 <h2 id=27893ca25e6be2dd440c59fcc7aa321e><a href="#27893ca25e6be2dd440c59fcc7aa321e">3.12</a>: Name spaces</h2>
 <h2 id=ac19b6971bff8dc5db71667d1cb1d022><a href="#ac19b6971bff8dc5db71667d1cb1d022">3.13</a>: Structure as Logic</h2>
+<br>
+Explain how I use schema and other structures in place of Logic, reducing the total amount of Logic, and making the gap between working features and Logic-creation much smaller.<br>
+<br>
+How this scales better than not doing this, writing everything as Logic without help from Structure.<br>
+<br>
+Structure is Efficient Alignment, in practice.<br>
 
 # Chapter 4: Automation Philosophy and Methodology in Operations
 
