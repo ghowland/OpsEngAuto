@@ -7,9 +7,9 @@ Current Goal: Populate Empty Sections: 255   (Done: 25.9%)
 
 <br><br><b>NOTE: This is still an early Work-In-Progress.  It is being written linearly as a First Rough Draft without editing at the moment.  There are many typos and grammatical errors presently.</b>
 
-Lines: 3456
+Lines: 3469
 
-Words: 63699
+Words: 63775
 
 
 # Chapter 1: Preface (README.txt)
@@ -3208,8 +3208,21 @@ For example, consider this YAML data that lists YAML paths for our above ensure_
 {{{ code_begin }}}<br>
 ensure_directory_exists:<br>
 &nbsp;&nbsp;- /Users/ghowland/projects/idempotent/dirs/OpsEngAuto_sections.yaml<br>
-&nbsp;&nbsp;- /Users/ghowland/projects/idempotent/dirs/OpsEngAuto_toc_.yaml<br>
+&nbsp;&nbsp;- /Users/ghowland/projects/idempotent/dirs/OpsEngAuto_toc_backups.yaml<br>
+&nbsp;&nbsp;- /Users/ghowland/projects/idempotent/dirs/something_else.yaml<br>
 {{{ code_end }}}<br>
+<br>
+If we wrote some Python like this, we can iterate (go over each item in the list) like this:<br>
+<br>
+{{{ code_begin }}}<br>
+directory_data = LoadYaml('/path/to/ensure_directory_exists.yaml')<br>
+paths = directory_data['ensure_directory_exists']<br>
+for path in paths:<br>
+&nbsp;&nbsp;dir_data = LoadYaml(path)<br>
+&nbsp;&nbsp;EnsureDirectoryExistsIdempotentFunction(dir_data)<br>
+{{{ code_end }}}<br>
+<br>
+This code assumes a LoadYaml() and EnsureDirectoryExistsIdempotentFunction() exist for convenience, and do what they say they do.&nbsp;&nbsp;This will iterate over our list of YAML files that contain our directory data, to Idempotently ensure exist.<br>
 <p id=c5cff688b2a25a6cc5ab3c0301d86a54><b><a href="#c5cff688b2a25a6cc5ab3c0301d86a54">3.5.1.4</a>: Centralized vs. Decentralized</b></p>
 <p id=5fa11c75ac5e5ee842071b89611bd9ac><b><a href="#5fa11c75ac5e5ee842071b89611bd9ac">3.5.1.5</a>: Distributed Systems</b></p>
 <p id=1a38d9aa40613994ccbc55d3bd80aac3><b><a href="#1a38d9aa40613994ccbc55d3bd80aac3">3.5.1.6</a>: Distributed Data</b></p>

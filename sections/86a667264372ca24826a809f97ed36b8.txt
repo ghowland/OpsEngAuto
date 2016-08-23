@@ -51,6 +51,19 @@ For example, consider this YAML data that lists YAML paths for our above ensure_
 {{{ code_begin }}}
 ensure_directory_exists:
   - /Users/ghowland/projects/idempotent/dirs/OpsEngAuto_sections.yaml
-  - /Users/ghowland/projects/idempotent/dirs/OpsEngAuto_toc_.yaml
+  - /Users/ghowland/projects/idempotent/dirs/OpsEngAuto_toc_backups.yaml
+  - /Users/ghowland/projects/idempotent/dirs/something_else.yaml
 {{{ code_end }}}
+
+If we wrote some Python like this, we can iterate (go over each item in the list) like this:
+
+{{{ code_begin }}}
+directory_data = LoadYaml('/path/to/ensure_directory_exists.yaml')
+paths = directory_data['ensure_directory_exists']
+for path in paths:
+  dir_data = LoadYaml(path)
+  EnsureDirectoryExistsIdempotentFunction(dir_data)
+{{{ code_end }}}
+
+This code assumes a LoadYaml() and EnsureDirectoryExistsIdempotentFunction() exist for convenience, and do what they say they do.  This will iterate over our list of YAML files that contain our directory data, to Idempotently ensure exist.
 
