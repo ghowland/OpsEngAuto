@@ -13,6 +13,6 @@ There are many good references for these, including Wikipedia or Donald Knuth's 
 
 In terms of Operations, while we use these other algorithms, I will focusing on "Algorithmic Properties" and very fundamental Algorithms.
 
-
+One important "Algorithmic Property" is Idempotency.  
 
 
