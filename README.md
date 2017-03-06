@@ -7,9 +7,9 @@ Current Goal: Populate Empty Sections: 256   (Done: 26.4%)
 
 <br><br><b>NOTE: This is still an early Work-In-Progress.  It is being written linearly as a First Rough Draft without editing at the moment.  There are many typos and grammatical errors presently.</b>
 
-Lines: 3488
+Lines: 3490
 
-Words: 63943
+Words: 63944
 
 
 # Chapter 1: Preface (README.txt)
@@ -3492,6 +3492,8 @@ In previous sections on Engineering I went over the philosophy and balance of en
 <p id=1cdc99a3dfdde59fb854db0175cb63c4><b><a href="#1cdc99a3dfdde59fb854db0175cb63c4">8.10.2.1.1.1</a>: Roll backs</b></p>
 <p id=c49dd8f1c6c2c694c834e61f716fb0fa><b><a href="#c49dd8f1c6c2c694c834e61f716fb0fa">8.10.2.1.1.2</a>: Pre-Post Commits</b></p>
 <p id=0e83ef919a005decfa42731ac7f54b07><b><a href="#0e83ef919a005decfa42731ac7f54b07">8.10.2.1.1.3</a>: Locking, to stop problematic race conditions</b></p>
+<br>
+...testing123...<br>
 <p id=019b9ff6745a81e4c068d893c7f13852><b><a href="#019b9ff6745a81e4c068d893c7f13852">8.10.2.1.1.3.1</a>: Channeled locking, to limit domains of locks</b></p>
 <p id=80bc1f096de2420328753be58a57dceb><b><a href="#80bc1f096de2420328753be58a57dceb">8.10.2.1.1.3.1.1</a>: Size of domain, and rate of change and lock duration determine requirements</b></p>
 <p id=5d14c394196a168616acd71cd98b3e1d><b><a href="#5d14c394196a168616acd71cd98b3e1d">8.10.2.1.2</a>: Single choke point for DB changes</b></p>
