@@ -538,7 +538,7 @@ def Main():
   header += report_text.replace('\n', '<br>\n')
   
   open(OUT_PATH, 'w').write(header + output)
-  print 'Wrote: %s' % OUT_PATH
+  print '\nWrote: %s' % OUT_PATH
   
   
   # Print the GitHub MarkDown
