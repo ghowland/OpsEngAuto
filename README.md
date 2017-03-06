@@ -7,9 +7,9 @@ Current Goal: Populate Empty Sections: 256   (Done: 26.4%)
 
 <br><br><b>NOTE: This is still an early Work-In-Progress.  It is being written linearly as a First Rough Draft without editing at the moment.  There are many typos and grammatical errors presently.</b>
 
-Lines: 3488
+Lines: 3490
 
-Words: 63943
+Words: 63944
 
 
 # Chapter 1: Preface (README.txt)
@@ -1882,6 +1882,8 @@ In brief:<br>
 <br>
 There is a fourth "A" that be added {{ todo_forgot_what_this_is_tempoarily_but_i_wrote_about_it_years_ago }}<br>
 <p id=85f5ad95d9e4d6cd51f782e15b9a380d><b><a href="#85f5ad95d9e4d6cd51f782e15b9a380d">2.6.9.2</a>: Staging Environment</b></p>
+<br>
+...<br>
 <p id=42913fa225b25b38eee2478890c7cdc9><b><a href="#42913fa225b25b38eee2478890c7cdc9">2.6.9.3</a>: QA Environment</b></p>
 <p id=e51f755569b88937197a5286a282bf76><b><a href="#e51f755569b88937197a5286a282bf76">2.6.9.4</a>: Performance Bench Testing Environment</b></p>
 <p id=d1a4f057af493912852ac12fc03ca9b3><b><a href="#d1a4f057af493912852ac12fc03ca9b3">2.6.9.5</a>: Corporate Environment</b></p>
