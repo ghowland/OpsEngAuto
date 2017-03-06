@@ -538,6 +538,7 @@ def Main():
   header += report_text.replace('\n', '<br>\n')
   
   open(OUT_PATH, 'w').write(header + output)
+  print 'Wrote: %s' % OUT_PATH
   
   
   # Print the GitHub MarkDown
@@ -551,6 +552,7 @@ def Main():
   header += report_text
   
   open(OUT_GIT_PATH, 'w').write(header + output)
+  print 'Wrote: %s' % OUT_GIT_PATH
   
   
   # Print the RST Book output
@@ -562,17 +564,18 @@ def Main():
     output += OutputSectionSphinx(cur_section, header_prefix=str(count))
   
   open(OUT_BOOK_PATH, 'w').write(header + output)
+  print 'Wrote: %s' % OUT_BOOK_PATH
   
   
   # Test if we need to rewrite the TOC file
   if toc_rewrite_output.rstrip() == text.rstrip():
-    print '\n- Nothing changed.  No rewrite necessary.'
+    print '\n- TOC: Nothing changed.  No rewrite necessary.'
   
   # Else, something changed, so we need to make a backup and re-write the original file
   else:
     #backup_path = '%s/%s_%s' % (TOC_BACKUP_DIR, IN_PATH, int(time.time()))     #NOTE(g): Because Im checking into github every time, this is the backup.  If I cant check into github for a period of time, I can switch the comments, and create unique files again.
     backup_path = '%s/%s' % (TOC_BACKUP_DIR, IN_PATH)
-    print '\n- Rewrite necessary:  Updated: %s    Backup: %s' % (IN_PATH, backup_path)
+    print '\n- TOC: Rewrite necessary:  Updated: %s    Backup: %s' % (IN_PATH, backup_path)
     
     # Write the original to our TOC backup dir
     open(backup_path, 'w').write(text)
