@@ -16,6 +16,5 @@ Indices and tables and
 ======================
 
 * :ref:`genindex`
-* :ref:`modindex`
 * :ref:`search`
 
