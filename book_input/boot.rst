@@ -2,7 +2,7 @@
 
 
 
-# Chapter 1: Preface (README.txt)
+.. topic::  Chapter 1: Preface (README.txt)
 
 
 What will you get out of this book?  Why read it?
@@ -165,7 +165,7 @@ If you find any areas difficult to understand, or believe that sections are not 
 
 My personal email is:  geoff@gmail.com
 
-# Chapter 2: Introduction
+.. topic::  Chapter 2: Introduction
 
 
 One of the foundational goals of this book will be to differentiate the real from the virtual.
@@ -2067,7 +2067,7 @@ We can evaluate these based on the effects of what happens when Logic updates a 
 
 There is a lot more detail that could go into this analysis, as with anything, but this is getting our feet on the path of how to analyze things by their effects, trying to strip out anything that is not an effect of the process.
 
-# Chapter 3: Engineering Philosophy and Methodology in Operations
+.. topic::  Chapter 3: Engineering Philosophy and Methodology in Operations
 
 
 Alright!  The book is really starting now!
@@ -3312,7 +3312,7 @@ How this scales better than not doing this, writing everything as Logic without 
 
 Structure is Efficient Alignment, in practice.
 
-# Chapter 4: Automation Philosophy and Methodology in Operations
+.. topic::  Chapter 4: Automation Philosophy and Methodology in Operations
 
 
 
@@ -3378,7 +3378,7 @@ As these new areas are added to our awareness, and we prioritize them we will co
 .. topic:: 4.22: Introduce the dotted notation as a universal naming convention, for lookups, it can universally address any type of DAG data:   domain.sub.thing.11.field.subfield.11.arrayfield.20.subsubfield
 .. topic:: 4.22.1: **** Use this DAG lookup to go into YAML, DBs, etc.  Schema Man can allow this.  Can use sub-searches like globs (domain.thing.*.field) and translate that into SQL or whatever for more advanced usage.
 
-# Chapter 5: Components of Engineering
+.. topic::  Chapter 5: Components of Engineering
 
 
 In previous sections on Engineering I went over the philosophy and balance of engineering, and now I will break things into distinct components that we deal with, how they are related to each other, and how they fit into the overall toolbox of Engineering.
@@ -3401,7 +3401,7 @@ In previous sections on Engineering I went over the philosophy and balance of en
 .. topic:: 5.6.6: Replacing a System
 .. topic:: 5.6.7: Depricating a System
 
-# Chapter 6: Components of Operational Environments
+.. topic::  Chapter 6: Components of Operational Environments
 
 
 
@@ -3410,7 +3410,7 @@ In previous sections on Engineering I went over the philosophy and balance of en
 
 .. topic:: 6.1: Troubleshooting
 
-# Chapter 7: Components of Automation Environments
+.. topic::  Chapter 7: Components of Automation Environments
 
 
 
@@ -3434,7 +3434,7 @@ In previous sections on Engineering I went over the philosophy and balance of en
 .. topic:: 7.4: * The more sources of authoritative data, the more data drift and non-alignment between the data (fields tracking similar but non-matching things, naming differences, not able to point to same primary keys, etc)
 .. topic:: 7.5: Data survives longer than code/logic, business logic stays all the time, but the assets described in the DB remain the same, even if they are used differently, and different meta-data is stored about them.
 
-# Chapter 8: The OpsDB
+.. topic::  Chapter 8: The OpsDB
 
 
 
@@ -3578,7 +3578,7 @@ Roughly these 4 tiers break down into:
 .. topic:: 8.10.15: How to plan to do this in your existing environment.  A map from:  Here -> There.
 .. topic:: 8.11: States of machines:  Unknown, Unprovisioned/Spare, Provisioned-Inactive, Active, In Maintenance, Transition-To X State, Broken, Fixed (waitig to be Unprovisioned/Spare)
 
-# Chapter 9: How to Implement the OpsDB in your Current Environment
+.. topic::  Chapter 9: How to Implement the OpsDB in your Current Environment
 
 
 
@@ -3611,7 +3611,7 @@ Roughly these 4 tiers break down into:
 .. topic:: 9.2.5.2: Break your open time periods into "units" of 30 minutes or 2 hours or whatever you can have contiguously, and see what you can FINISH in that time.  It is easy to lose days/weeks to getting little changes made, but not moving ahead in terms of usable progress.
 .. topic:: 9.2.5.2.1: When each time block arrives, try to get what you can finish, and hopefully test and put into place, in that 1 session.  This isnt possible for some work, because it's too big, so break that into stages that can fit into one of these time blocks.  A simple method, would be: write it in 1, test it in another, and finally deploy it in the 3rd.
 
-# Chapter 10: Planet Scale Automation
+.. topic::  Chapter 10: Planet Scale Automation
 
 
 [Placeholder for the time being, just to briefly explain]
@@ -3712,7 +3712,7 @@ Give examples of how we would need different systems that work together, and bri
 
 Use things like physical infrastructure, gas or electrical delivery grids, etc.
 
-# Chapter 11: General Advice
+.. topic::  Chapter 11: General Advice
 
 
 
@@ -3930,7 +3930,7 @@ How to make an immediate decision when you have enough data.
 
 How you can explain your decision based on the data you had to others.  Charting, graphing, etc.
 
-# Chapter 12: Everywhere.  Throughout the book.
+.. topic::  Chapter 12: Everywhere.  Throughout the book.
 
 
 

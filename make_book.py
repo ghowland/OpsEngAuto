@@ -20,7 +20,8 @@ DEBUG=False
 
 OUT_PATH = 'book.html'
 OUT_GIT_PATH = 'README.md'
-OUT_BOOK_PATH = 'book_rst.txt'
+OUT_BOOK_PATH = 'book_input/index.rst'
+
 IN_PATH = '_toc_details.yaml'
 
 # Directory to backup current TOC IN_PATH file, as we make changes to it, so it cannot be corrupted by the automated changes
@@ -109,13 +110,13 @@ def OutputSectionSphinx(section_dict, header_prefix=None, report=None, depth=0):
   if depth == 0:
     label = 'Chapter %s: %s' % (header_prefix, title)
     
-    output += '\n# %s\n' % label
+    output += '\n.. topic::  %s\n' % label
     
   # H2 to H3, beyond that is just paragraph headers?
   elif depth < 3:
     label = '%s: %s' % (header_prefix, title)
     
-    line_prefix = '#' * depth
+    line_prefix = '.. topic:: '
     
     output += '%s %s\n' % (line_prefix, label)
   
@@ -123,7 +124,7 @@ def OutputSectionSphinx(section_dict, header_prefix=None, report=None, depth=0):
   else:
     label = '%s: %s' % (header_prefix, title)
     
-    output += '#### %s\n' % label
+    output += '.. topic:: %s\n' % label
   
   
   # If we dont have the section path, create it from our title label
