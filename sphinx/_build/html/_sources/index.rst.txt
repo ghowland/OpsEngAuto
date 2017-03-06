@@ -1935,7 +1935,7 @@ There is a fourth "A" that be added {{ todo_forgot_what_this_is_tempoarily_but_i
 
 .. topic:: 2.6.9.2: Staging Environment
 
-.....
+........
 
 .. topic:: 2.6.9.3: QA Environment
 

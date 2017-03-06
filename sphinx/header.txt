@@ -12,8 +12,8 @@ Operations: Engineering and Automation
 
 
 
-Indices and tables
-==================
+Indices and tables and stuff
+============================
 
 * :ref:`genindex`
 * :ref:`modindex`
