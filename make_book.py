@@ -20,6 +20,7 @@ DEBUG=False
 
 OUT_PATH = 'book.html'
 OUT_GIT_PATH = 'README.md'
+OUT_BOOK_PATH = 'book_rst.txt'
 IN_PATH = '_toc_details.yaml'
 
 # Directory to backup current TOC IN_PATH file, as we make changes to it, so it cannot be corrupted by the automated changes
@@ -82,6 +83,153 @@ def Report__SectionsAbandoned():
   report = ''
   
   return report
+
+
+def OutputSectionSphinx(section_dict, header_prefix=None, report=None, depth=0):
+  """Sphinx Book Output section, and recurse through sub-sections."""
+  output = ''
+  
+  # If we have a report, add it to the top of the output.
+  #NOTE(g): This is temporary, as Im writing the book to track goals and other stuff easily
+  if report:
+    output += report.replace('\n', '\n\n')
+  
+  # Split the title and section tag out of this entry
+  (title, section_tag) = section_dict['title'].split(' [[', 1)
+  title = title.strip()
+  section_tag = section_tag.split(']]', 1)[0]
+  
+  
+  # Build section file path
+  #TODO(g): Switch this to HTML after processing with Jinja to template out vars
+  section_path = '%s/%s.txt' % (SECTION_DIR, section_tag)
+  
+  
+  # Chapter header
+  if depth == 0:
+    label = 'Chapter %s: %s' % (header_prefix, title)
+    
+    output += '\n# %s\n' % label
+    
+  # H2 to H3, beyond that is just paragraph headers?
+  elif depth < 3:
+    label = '%s: %s' % (header_prefix, title)
+    
+    line_prefix = '#' * depth
+    
+    output += '%s %s\n' % (line_prefix, label)
+  
+  # Else, deeper, not using HTML headers
+  else:
+    label = '%s: %s' % (header_prefix, title)
+    
+    output += '#### %s\n' % label
+  
+  
+  # If we dont have the section path, create it from our title label
+  if not os.path.isfile(section_path):
+    raise Exception('Section path not found, this should have been handled in HTML output: %s' % section_path)
+  
+  # Else, we do have it, so read it in and put it under the section header
+  else:
+    section_content = open(section_path).read()
+  
+  
+  # Print the section contents to our ouput (under our section header, which this is the content for)
+  for line in section_content.split('\n'):
+    # Skip the comment lines out (comments start with: ###)
+    if not line.strip().startswith('###'):
+      output += '%s\n\n' % line
+  
+  
+  # If this section has children, output them too
+  if section_dict['children']:
+    count = 0
+    for section_child_dict in section_dict['children']:
+      count += 1
+      cur_header_prefix = '%s.%s' % (header_prefix, count)
+      output += OutputSection__Sphinx(section_child_dict, header_prefix=cur_header_prefix, depth=depth+1)
+  
+  
+  return output
+
+
+def OutputSection__Sphinx(section_dict, header_prefix=None, report=None, depth=0):
+  """Output section, and recurse through sub-sections."""
+  global REPORT_LINE_COUNT, REPORT_WORD_COUNT
+  
+  output = ''
+  
+  output += ''
+  
+  # If we have a report, add it to the top of the output.
+  #NOTE(g): This is temporary, as Im writing the book to track goals and other stuff easily
+  if report:
+    output += report.replace('\n', '<br>\n')
+  
+  # Split the title and section tag out of this entry
+  (title, section_tag) = section_dict['title'].split(' [[', 1)
+  title = title.strip()
+  section_tag = section_tag.split(']]', 1)[0]
+  
+  
+  # Build section file path
+  #TODO(g): Switch this to HTML after processing with Jinja to template out vars
+  section_path = '%s/%s.txt' % (SECTION_DIR, section_tag)
+  
+  
+  # Chapter header
+  if depth == 0:
+    label = 'Chapter %s: %s' % (header_prefix, title)
+    label_html = '<a href="#%s">Chapter %s</a>: %s' % (section_tag, header_prefix, title)
+    output += '<h1 id=%s>%s</h1>\n' % (section_tag, label_html)
+    
+  # H2 to H3, beyond that is just paragraph headers?
+  elif depth < 3:
+    label = '%s: %s' % (header_prefix, title)
+    label_html = '<a href="#%s">%s</a>: %s' % (section_tag, header_prefix, title)
+    
+    output += '<h%d id=%s>%s</h%d>\n' % (depth + 1, section_tag, label_html, depth + 1)
+  
+  # Else, deeper, not using HTML headers
+  else:
+    label = '%s: %s' % (header_prefix, title)
+    label_html = '<a href="#%s">%s</a>: %s' % (section_tag, header_prefix, title)
+    
+    output += '<p id=%s><b>%s</b></p>\n' % (section_tag, label_html)
+  
+  
+  # If we dont have the section path, create it from our title label
+  if not os.path.isfile(section_path):
+    section_content = '### [[%s]]\n\n\n' % label
+    open(section_path, 'w').write(section_content)
+  
+  # Else, we do have it, so read it in and put it under the section header
+  else:
+    section_content = open(section_path).read()
+  
+  
+  # Print the section contents to our ouput (under our section header, which this is the content for)
+  for line in section_content.strip().split('\n'):
+    # Skip the comment lines out (comments start with: ###)
+    if not line.strip().startswith('###'):
+      output += '%s<br>\n' % line
+      
+      # Do reporting check here
+      REPORT_LINE_COUNT += 1
+      REPORT_WORD_COUNT += len(line.strip().split())   # Pretty inaccurate, fine for my purposes
+  
+  
+  # If this section has children, output them too
+  if section_dict['children']:
+    count = 0
+    for section_child_dict in section_dict['children']:
+      count += 1
+      cur_header_prefix = '%s.%s' % (header_prefix, count)
+      output += OutputSection__Sphinx(section_child_dict, header_prefix=cur_header_prefix, depth=depth+1)
+  
+  
+  return output.replace('  ', '&nbsp;&nbsp;')
 
 
 def OutputSectionGitMarkDown(section_dict, header_prefix=None, report=None, depth=0):
@@ -379,6 +527,7 @@ def Main():
   # Print the HTML
   header = '<h1>Operations: Engineering and Automation</h1>\n' + report
   output = ''
+  output_book = ''
   count = 0
   for cur_section in table_of_contents:
     count += 1
@@ -402,6 +551,19 @@ def Main():
   header += report_text
   
   open(OUT_GIT_PATH, 'w').write(header + output)
+  
+  
+  # Print the RST Book output
+  header = '.. topic:: Operations: Engineering and Automation\n\n\n'
+  output = ''
+  count = 0
+  for cur_section in table_of_contents:
+    count += 1
+    output += OutputSectionSphinx(cur_section, header_prefix=str(count))
+  
+  header += report_text
+  
+  open(OUT_BOOK_PATH, 'w').write(header + output)
   
   
   # Test if we need to rewrite the TOC file
