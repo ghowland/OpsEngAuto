@@ -20,7 +20,9 @@ DEBUG=False
 
 OUT_PATH = 'book.html'
 OUT_GIT_PATH = 'README.md'
-OUT_BOOK_PATH = 'book_input/index.rst'
+OUT_BOOK_PATH = 'sphinx/index.rst'
+
+BOOK_HEADER = 'sphinx/header.txt'
 
 IN_PATH = '_toc_details.yaml'
 
@@ -548,7 +550,7 @@ def Main():
   
   
   # Print the RST Book output
-  header = '.. topic:: Operations: Engineering and Automation\n\n\n'
+  header = open(BOOK_HEADER).read()
   output = ''
   count = 0
   for cur_section in table_of_contents:
