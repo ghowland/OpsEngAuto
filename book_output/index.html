@@ -6,9 +6,9 @@
   <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     
-    <title>&lt;no title&gt; &#8212; OpsEngAuto 1 documentation</title>
+    <title>&lt;no title&gt; &#8212; OpsEngAuto</title>
     
-    <link rel="stylesheet" href="_static/classic.css" type="text/css" />
+    <link rel="stylesheet" href="_static/alabaster.css" type="text/css" />
     <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
     
     <script type="text/javascript">
@@ -26,18 +26,16 @@
     <script type="text/javascript" src="_static/doctools.js"></script>
     <script type="text/javascript" src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
     <link rel="index" title="Index" href="genindex.html" />
-    <link rel="search" title="Search" href="search.html" /> 
+    <link rel="search" title="Search" href="search.html" />
+   
+  <link rel="stylesheet" href="_static/custom.css" type="text/css" />
+  
+  
+  <meta name="viewport" content="width=device-width, initial-scale=0.9, maximum-scale=0.9" />
+
   </head>
   <body role="document">
-    <div class="related" role="navigation" aria-label="related navigation">
-      <h3>Navigation</h3>
-      <ul>
-        <li class="right" style="margin-right: 10px">
-          <a href="genindex.html" title="General Index"
-             accesskey="I">index</a></li>
-        <li class="nav-item nav-item-0"><a href="#">OpsEngAuto 1 documentation</a> &#187;</li> 
-      </ul>
-    </div>  
+  
 
     <div class="document">
       <div class="documentwrapper">
@@ -56,8 +54,7 @@
 <p>Some names of places I&#8217;ve worked, named where you may know them, and grouped as industries where it&#8217;s unlikely:</p>
 <p>Google, VMWare, Netflix, LinkedIn, Cisco, Pacific Telesis, Lawrence Livermore Labs, Mobile Game Companies, PC Game Industry, Mortgage Industry, Financial Security Industry, Internet Startups (SaaS and end-user websites)</p>
 <p>You can see my abbrieviated job history at LinkedIn:</p>
-<p><a class="reference external" href="https://www.linkedin.com/in/ghowland">https://www.linkedin.com/in/ghowland</a>
-.. topic:: 1.2: The promise of automation is removing classes of work</p>
+<p><a class="reference external" href="https://www.linkedin.com/in/ghowland">https://www.linkedin.com/in/ghowland</a></p>
 <p>&#8220;The promise of automation is removing classes of work, while you consistently get the desired results.&#8221;</p>
 <p>At this point, everyone knows that automation is a necessary thing.  It wasn&#8217;t always this way.  I spent much of my career trying to automate things and getting strong pushback from both management and peers (starting around 1996).</p>
 <p>These days people usually have some aspects of automation, and are comfortable with those, so it is only the areas that they do not yet have experience which are hard to get implemented.  A major impetus in writing this book is to resolve those problems, by making the concepts better publicized and hopefully well understood.</p>
@@ -74,8 +71,7 @@
 <p>Knowledge work is more stimulating, and known to be something that needs reviews and tests, whereas manual data-entry work is more prone to mistakes, because it is done so regularly that constant vigilance becomes impossible to perform accurately.</p>
 <p>Mistakes will happen, as everyone knows manual work must be manually inspected and automatically tested, and yet this is typically the place that mistakes are made, because updating automatic tests and and manually inspecting the data are both themselves manual processes, and similarly prone to failures.</p>
 <p>Eventually someone will make a typo or other data-entry mistake, and it will not be caught in review, and will be pushed out to production, and will cause an outage, and may cause loss of revenue or other negative consequences.</p>
-<p>With automated logic, these kinds of repetitive data changes and verifications can be done as correctly as the logic specifies, and if it is written correctly, it will be done correctly forever.  Or, until the business goals or infrastructure environment changes, and it must be modified accordingly.
-.. topic:: 1.3: Writing in the First-Person</p>
+<p>With automated logic, these kinds of repetitive data changes and verifications can be done as correctly as the logic specifies, and if it is written correctly, it will be done correctly forever.  Or, until the business goals or infrastructure environment changes, and it must be modified accordingly.</p>
 <p>You may have noticed, but I am writing quiet frequently in the first person, and will try to keep this consistent as much as possible.</p>
 <p>I am speaking of my experiences, perspectives and opinions, and so I think this is best done using &#8220;my own&#8221; voice, instead of a more factual &#8220;voice of authority&#8221;.</p>
 <p>In my view, all information should be considered as coming from the source of origin, where you discovered it.</p>
@@ -88,8 +84,7 @@
 <p>Whether you utilize that information, or make it part of how you make decisions is up to you.  Whether it is applicable to your situation is up to you.  Whether it seems logical and grounded in reality as you understand it is up to you.  There is no reason to reject or accept it, as it is simply information, and you have tagged it along with the source to use as you see fit.</p>
 <p>There will be quite a bit of this kind of introspection into language and meaning in this book, as it is in part a book on the philosophy of engineering and automation, because this is much more important than common jokes about philosophy majors in college may lead one to believe.</p>
 <p>I also find that when writing in the first person, it is less of a commanding or authoritative approach, rather than writing in the second person (&#8220;you will then do this&#8221;), which has more opportunities to throw readers off if they disagree with the statement, do not immediate want to do what is being recommended, or are just tired of being lectured at.  All of these are reasonable reasons for avoiding incoming information, and I use my own voice to give it as my own take, to avoid this.</p>
-<p>This is a one-way conversation, in that it is a book, but it is meant to be taken as a conversational approach to learning, so that you can grow from it as best is possible, and not merely a display of my knowledge and set of instructions for others to follow.
-.. topic:: 1.4: Writing Stylistic Conventions</p>
+<p>This is a one-way conversation, in that it is a book, but it is meant to be taken as a conversational approach to learning, so that you can grow from it as best is possible, and not merely a display of my knowledge and set of instructions for others to follow.</p>
 <p>There will likely be some writing stylistic conventions I use that are new for you to read, and perhaps you don&#8217;t like, and certainly you will not find approved in English Grammar books.</p>
 <p>I have developed my style of written communication over my life, and continue to refine it still.  I am more concerned with having my intent and detailed messages understood than in complying with grammatical rules, and so will bend and break them as needed to achieve my desired results.</p>
 <p>As such, as I will quote &#8220;things&#8221; whenever I want to emphasize them specifically, as introduced by Alfred Korzybski, from his methodology of General Semantics (although not following his strict guidelines).</p>
@@ -117,8 +112,7 @@
 <p>I will also be making Liberal Use of capitalizations.  I will have certain terms that I always capitalize, as I am using them as &#8220;Proper Nouns&#8221; (like a person&#8217;s name), but I will also sometimes capitalize Random Words, because I am introducing a concept and want to draw attention to those specific words in the sentence.  It may be that I will capitalize them the first time I talk about them, and then never again, because the point was made, and the attention to them was drawn.</p>
 <p>All of this makes a real jumble of what is considered proper English, but I am doing more than relaying my thoughts and experiences and methodologies to you in English, I am trying to communicate the underlying ideas behind them, and those concepts are far more detailed and complex than English (or any language as I know them) can relay.</p>
 <p>There is a reason we have poetry, because the intent is to express something beyond the words, and often the structure of normal language communication is broken or modified to relay those intentions through the language, as the language is both the barrier and the medium.</p>
-<p>My usage is similar, but is the Poetry of Engineering, as I see it.
-.. topic:: 1.5: Hopefully, this will...</p>
+<p>My usage is similar, but is the Poetry of Engineering, as I see it.</p>
 <p>The ultimate goal in this book is that it improves your ability to function as an operational engineer, and to write automation that achieves the results that you want.</p>
 <p>If you find any areas difficult to understand, or believe that sections are not explained well or are incorrect, feel free to write me and I will try to get back to you and update the work as best I can.</p>
 <p>My personal email is:  <a class="reference external" href="mailto:geoff&#37;&#52;&#48;gmail&#46;com">geoff<span>&#64;</span>gmail<span>&#46;</span>com</a></p>
@@ -178,8 +172,7 @@
 <p>If not, please skim it again.  You don&#8217;t need to agree with me on these things, you merely need to understand what I am trying to say clearly to get the information I am trying to convey.</p>
 <p>If you ever hit parts that feel wrong to you, or you reject, try to use the mechanism I presented in the preface, changing what you disagree with to: &#8220;Geoff says X&#8221;</p>
 <p>This means you can take in this information, as &#8220;Geoff is saying this to me&#8221;, without having to update your world-view at this moment to include what I am saying as &#8220;the truth&#8221;, and in fact, I am not asking you to ever do this.  This is a communication to hopefully provide you more insight, which will include my perspectives, not as instructions on how you should see the world once you have finished reading this.</p>
-<p>It is more important that the things I am saying to you are internally consistent (Alignment), than that you agree with my usage and summary of each of them.  I am working with more information than I can convey at any given time, and am doing my best to partition this into a small stream of data that can be turned into understandable language.  It&#8217;s a lossy process, at best, but it&#8217;s the best I am able to do currently.
-.. topic:: 2.2: I only really know what I myself have experienced</p>
+<p>It is more important that the things I am saying to you are internally consistent (Alignment), than that you agree with my usage and summary of each of them.  I am working with more information than I can convey at any given time, and am doing my best to partition this into a small stream of data that can be turned into understandable language.  It&#8217;s a lossy process, at best, but it&#8217;s the best I am able to do currently.</p>
 <p>What do I know?  What do I really know?</p>
 <p>Or, to paraphase a Sherlock Holmes quote, &#8220;What do I know, and how do I know it?&#8221;</p>
 <p>In any situation, this is a relevant question, as it directs where I will go next.</p>
@@ -222,8 +215,7 @@
 <p>Rolling back the code resolves the problem, and the HTTP server starts to return correct tests to the monitoring system.</p>
 <p>Much of the downtime accrued because of working with non-verified information could have been avoided by getting personal verification of the exact time of the last code push.  I have seen this exact situation happen many times, and bad-code or bad-configuration changes are one of the most common outages for networked services.</p>
 <p>Even though these are common, the common-ness alone does not mean that it is solid information.  It only means it is something that should be verified quickly to see if it is a contender for causing the problem.</p>
-<p>We will be exploring the idea of what makes good information in detail in this book, and I will change this introductory terminology of &#8220;solid information&#8221; into a more precise definition of Intelligence, which we can categorize in many ways:  Verified, Unverified, Actionable, Unactionable, etc.
-.. topic:: 2.3: What is Operations?</p>
+<p>We will be exploring the idea of what makes good information in detail in this book, and I will change this introductory terminology of &#8220;solid information&#8221; into a more precise definition of Intelligence, which we can categorize in many ways:  Verified, Unverified, Actionable, Unactionable, etc.</p>
 <p>Keeping up our short tradition of asking questions that seem pointlessly basic, I will ask:  What is operations?</p>
 <p>Why do we do what we do?  Why does it exist?  What is it?  What are the goals?  What are the priorities?  What are the procedures that makes up an Operations department?</p>
 <p>The more questions that are asked, stemming from the original question, the less the question seems to be pointless, and the more the questions start to become the ones we deal with every day.  But, we skip the first question.  Why?</p>
@@ -231,8 +223,7 @@
 <p>People have different values, and they have different skills and personal experiences, and from these, they have a world-view that is also different.</p>
 <p>Getting to the fundamentals of what we mean by something like &#8220;Operations&#8221; means that we can start to align our views, and in aligning our views, we will communicate more effectively, and become able to work more effectively together.</p>
 <p>It is really these fundamental issues that make communication so hard and ineffective, because we do not drop down to discussing what we are fundamentally doing, and get buy-in from everyone on the team about each of the layers in the stack of what makes up an environment&#8217;s operations.</p>
-<p>So, what is operations?
-.. topic:: 2.3.1: Operations is about Control</p>
+<p>So, what is operations?</p>
 <p>I will posit that the primary thing that operations is about is Control.</p>
 <p>Why control?  Why not up-time, availability, responsiveness to business direction, or any other valid priority?</p>
 <p>My reason for this is that without control, you cannot be efficient in any other areas.  You can only be as efficient as your level of control allows you to be.</p>
@@ -251,8 +242,7 @@
 <p>But with a concept like &#8220;Control&#8221;, there is no way to check that you have control or not.  You can check that you have access to some data, which is an aspect of control, and you can check if you can change data (by changing it, or looking at permissions (less good)), and this tells you more aspects about control, but there are so many other things that go into this that are very difficult to inspect or verify.</p>
 <p>For instance, one aspect of Control is, &#8220;Do we have enough time to do the work we need to do?&#8221;  This is an aspect of controlling one&#8217;s schedule, so that good work can be produced.</p>
 <p>If we do not have control over our schedules, and work is required to be done before it can be done to our satisfaction of &#8220;good work&#8221;, then we do not have control over this, and we will see problems arise from this fact.</p>
-<p>There are many other aspects of Control that we will look at, and I will make more cases on why I believe this is the central tenet of Operations and why understanding what you do have good control over, and do not have good control over is very valuable and actionable information.
-.. topic:: 2.3.1.1: &#8220;De facto&#8221; Ops vs. &#8220;Planned/Controlled&#8221; Ops</p>
+<p>There are many other aspects of Control that we will look at, and I will make more cases on why I believe this is the central tenet of Operations and why understanding what you do have good control over, and do not have good control over is very valuable and actionable information.</p>
 <p>If Control is the central tenet of Operations, what is the opposite side of the spectrum?  Uncontrolled operations?</p>
 <p>I think it&#8217;s clearer to say that the opposite side of the spectrum from control is &#8220;de facto&#8221; operations.  What simply happens because there are business goals that need to be solved, and resources were put towards solving them, again and again.</p>
 <p>It is fairly easy, in my experience, to handle every situation in an efficient manner for the problem at hand, and still end up with a total mess of an operations environment, because the actions while individually efficient do not work together as a whole efficiently.  The total set of actions have poor Alignment.</p>
@@ -418,8 +408,7 @@ Often marketing and sales departments will rename a product many times, both bef
 <p>If you know you have additional requirements, be sure that they are implemented into the naming convention, and kept in the standard.  This is a good standard to be extremely rigid with, as the benefits for having consistent naming are large and increase over time.</p>
 <p>If you already have a naming convention, it is better to stay with it than to change it, but if you do need to change it, it is better to make a new standard, and make all new machines comply with it (if they are not in existing services with the old naming convention).</p>
 <p>This way you can at least control your naming conventions in a generational sense, and if you are doing planned work, you should have a very limited number of total generations.</p>
-<p>There is a lot more that could be said on just this example, and we will come back to it later, as naming things is, after all, one of the two hard computer problems, along with cache poisoning and off-by-one errors.
-.. topic:: 2.3.1.2: Alignment takes &#8220;vision&#8221; and knowledge</p>
+<p>There is a lot more that could be said on just this example, and we will come back to it later, as naming things is, after all, one of the two hard computer problems, along with cache poisoning and off-by-one errors.</p>
 <p>Another important aspect of operational engineering, and engineering in general, is &#8220;Alignment&#8221;.</p>
 <p>Things must Align with each other for their full efficiency to be able to be available.  This is easy to see in the physical world: all sections of a bridge must align with one another, fence parts must be in alignment to be a good fence, and support beams must align with each other to provide continuous support in a large building.  Engine linkages must align with transmissions and so on, all things that must work efficiently must have high levels of Alignment in order to do so.</p>
 <p>It is no less important in the virtual world.  The entire field of networking is about aligning physical cables and virtual configuration to move frames and packets from source to destination.  Databases are about aligning data together so that it can be stored and retrieved efficiently.  Software is the alignment of a starting set of data, transitioning through consecutive state changes until a result is produced; each of those state changes must be in perfect Alignment to produce that result; with any change a different result would occur.</p>
@@ -432,8 +421,7 @@ Often marketing and sales departments will rename a product many times, both bef
 <p>This experience is less about how many years one has worked in an industry or environment, and more about the experiences one has had in one&#8217;s lifetime.</p>
 <p>If you have never worked in the industry before, you will not know how organizations that run production operations, especially internet facing production operations at large scale (which I use as an extreme end of the scaling spectrum), will function and what changes will do those organizations and operating environments.</p>
 <p>The more you work in different environments, and complete more areas of implementation, the more experiences you will gain.  You can supplement these by setting up your own virtual environments on any cloud hosting providers, or on your own machines with a series of virtual machines.</p>
-<p>All projects, whether in-industry or outside of it, are limited, and never give complete information, because one&#8217;s viewpoint is limited and the amount of details one can interact with is limited.  So even if you know one environment from beginning to end, having created all of it, you will find another environment that you didn&#8217;t create to have many different properties, even if all the software used is the same, due to the alignment choices made in it&#8217;s creation.
-.. topic:: 2.3.2: An Explanation of Operations</p>
+<p>All projects, whether in-industry or outside of it, are limited, and never give complete information, because one&#8217;s viewpoint is limited and the amount of details one can interact with is limited.  So even if you know one environment from beginning to end, having created all of it, you will find another environment that you didn&#8217;t create to have many different properties, even if all the software used is the same, due to the alignment choices made in it&#8217;s creation.</p>
 <p>This section could be headlines on the front page of any magazine targeted at CIOs, and so may seem a little fluffy and self-serving.</p>
 <p>Sales people think of organizations in terms of their sales generating revenues.</p>
 <p>Developers think of organizations in terms of the software they write, which may be sold to generate revenue.</p>
@@ -505,8 +493,7 @@ Often marketing and sales departments will rename a product many times, both bef
 <p>This is not a problem that is likely to be solved soon, if ever solved, because there are a number of difficult factors that cause it; the primary one being the structure of organizations themselves.  When something is structured a certain way, it will tend to produce certain results, and producing different results is very difficult, and often only temporarily possible.</p>
 <p>Since the organizational structure of organizations is not likely to change, the best hope in making progress here is something akin to the Agile movement in development, where all developers just kept repeating the same things and eventually the management of companies started to be populated with managers who also said the same things, and their world changed.</p>
 <p>It&#8217;s debatable on whether their world really changed that much for the better, but there are many distinct differences in the pre-Agile development world, from the post-Agile development world, and it was this change in perspective and discussing it that caused those changes to take effect.</p>
-<p>It&#8217;s also worth noting that the way this change-through-repetition occurs should be done with as much awareness as possible of what is being repeated.  If it is something that will become a dogmatic problem, then that is not a good thing to repeat.  Thing&#8217;s to repeat should be based on ideas that cause more awareness to the complexities of the present reality and less dogmatic simplicity, which frequently ignores any local data and instead focuses on following idealistic principles.  If a principle sounds too idealistic, it probably is.
-.. topic:: 2.3.2.1: How is this not a core-service?</p>
+<p>It&#8217;s also worth noting that the way this change-through-repetition occurs should be done with as much awareness as possible of what is being repeated.  If it is something that will become a dogmatic problem, then that is not a good thing to repeat.  Thing&#8217;s to repeat should be based on ideas that cause more awareness to the complexities of the present reality and less dogmatic simplicity, which frequently ignores any local data and instead focuses on following idealistic principles.  If a principle sounds too idealistic, it probably is.</p>
 <p>One concept that organizations have a pretty good grasp on is &#8220;core services&#8221;.  They understand there are some services that they cannot outsource to other organizations and remain an efficient operation.</p>
 <p>The core-est of these core services are: management, finance and human resources (HR).</p>
 <p>Almost no organization outsources its&#8217; people managers.  They are the most core-service that a company has.</p>
@@ -526,8 +513,7 @@ Often marketing and sales departments will rename a product many times, both bef
 <li>Operations is like the tires of the car.  We are the part of the car that comes into contact with the road.  Your driving can only be as good as your traction against the ground.  If you lose a tire, your ability to drive is severely impacted or not possible.</li>
 <li>Operations are like the roads.  You can have a fleet of cars or trucks, but you cannot efficiently move them around without roads to provide consistent surfaces.</li>
 </ul>
-<p>A lot of people shop for cars, but not a lot of people are involved in the building or maintenance of roads.  This is similar to many people using networked services, but not being aware of what it takes to build or maintain them.
-.. topic:: 2.3.2.1.1: Just because it&#8217;s Core doesnt mean...</p>
+<p>A lot of people shop for cars, but not a lot of people are involved in the building or maintenance of roads.  This is similar to many people using networked services, but not being aware of what it takes to build or maintain them.</p>
 <p>A service may be a core service, but that does not mean all of it needs to be internally owned and operated.</p>
 <p>Cloud datacenter operations and Software-as-a-Service (SaaS) have changed the way many companies perform their internal and external operations, and has provided new ways for many engineers to think about solving problems.</p>
 <p>Just because you are paying someone else to maintain hardware or software for you does not mean that you do not need to manage it.  Some SaaS products do not require much management, but other still requires one or more full time staff to help manage it for the rest of the departments.</p>
@@ -549,8 +535,7 @@ Often marketing and sales departments will rename a product many times, both bef
 <p>What are the differences in cost in your current environment, between total ownership/leasing, managed services (someone else buys/leases and maintains), or going completely virtual?</p>
 <p>You should know these differences, as they will make data points in decisions on how to run your departments as the costs start to outweigh the benefits of any solution.</p>
 <p>This 1-factor look at the problem, financially, is not a &#8220;big picture&#8221; view, it is only a single detail, so there are many other factors which make using services that may be 5x or 3x as expensive, and provide worthwhile benefits, such as the total cost being low enough to be worth it, or the faster turn around time on new machines, or not having decided on the hardware requirements to make it practical to start ordering hardware yourselves.</p>
-<p>There are many more factors in this, and we will get into some of them later, but they are not the focus of this book, so we will not cover them comprehensively.
-.. topic:: 2.3.2.1.1.1: Typically companies still don&#8217;t...</p>
+<p>There are many more factors in this, and we will get into some of them later, but they are not the focus of this book, so we will not cover them comprehensively.</p>
 <p>The problem of communication between departments, especially in regard to lead times between knowing they need work to eventually be done, and when they alert another department or team that they need that work done is such a classic problem that we can just assume it will happen everywhere, in every circumstance, unless people do something to change the pattern.</p>
 <p>In places where departments are giving each other prior notice of work coming down the pipeline, and involving the teams they will need to do that future work in the design phase, it is very likely that this was set up on purpose, and either by &#8220;visionary&#8221; early employees or founders, or through great work of some individuals to make changes to the de facto process of only asking for work to be done, when it is at the end of the project and time to release.</p>
 <p>I say it&#8217;s most likely that this is the problem, because I have only worked in a couple environments, out of a large number of environments, where this happened as a normal occurrence.</p>
@@ -578,8 +563,7 @@ Often marketing and sales departments will rename a product many times, both bef
 <p>But this will still not stop any externally set schedules, as if the company requires a product is launched on a given date, then this is a higher priority than following any department&#8217;s self-appointed rules, and will override them in many circumstances.</p>
 <p>The direct-active approach is the best, but requires more resources, this would be someone who is acting a department project manager would meet with the other department heads or team managers directly, and ask them what they are working on, and when they will need operational resources.</p>
 <p>This direct-active approach is more likely to be successful, as the managers will know what projects they are working on, and are not trying to hide their project&#8217;s work, they are simply working to complete their projects, and in this way you are assisting them in getting to the final steps of completion.</p>
-<p>If this can be approached in a &#8220;let us help you&#8221; manner, then collaboration can begin, and hopefully will improve the working conditions for everyone, as handing off work between groups is a difficult process.
-.. topic:: 2.3.2.1.1.1.1: The Ops department is blamed for all lag</p>
+<p>If this can be approached in a &#8220;let us help you&#8221; manner, then collaboration can begin, and hopefully will improve the working conditions for everyone, as handing off work between groups is a difficult process.</p>
 <p>A look at the more negative side of this problem between groups is that the operations departments are often claimed to be creating lag between work being completed by other teams (typically development, sometimes marketing or business development).</p>
 <p>From the perspective of the non-operations teams, this is a true statement.  They finished their work, and now they want to put it into production for end-users to be able to access, and any time between them being &#8220;finished&#8221; and the end-user being able to access the work is considered lag created by the operations department.</p>
 <p>The issue here is one of &#8220;someone else&#8217;s problem&#8221; (SEP), which comes down to empathy and a realistic view of the nature of all work involved in a company, not just one&#8217;s own work in the company.  This is not a problem that can be solved directly, as people&#8217;s ability to appreciate other&#8217;s position&#8217;s is not going to change easily, or deterministically.</p>
@@ -599,8 +583,7 @@ Often marketing and sales departments will rename a product many times, both bef
 <li>Host names: As we went over earlier, there is a lot of information stored in names.  If you give a guideline of what your convention is, and how to apply that convention to various configurations, you can avoid being requested to make names that do not fit the convention, as you have already described how to take their configuration and put it into your naming convention.</li>
 <li>Accessing production machines:  You should have a security policy that can be applied in a standard way to all requests.  Do you allow root logins?  Root escalation?  Sudo?  Role accounts?  Copying data to machines?   You should write each of these things down, and where you do not allow something, you should have a method for how to accomplish that goal in a manner that is consistent with your security policy.  If you do not do this, people will just work around your enforcements and create many messes as everyone does it slightly differently.</li>
 </ul>
-<p>It is unlikely that people who perform different roles will start to become empathetic that the work done in others&#8217; roles really does take expertise and time, since we have so much history of people not having this empathy, but we can do things to try to bridge these gaps by being aware of them and tuning our behaviors accordingly.
-.. topic:: 2.3.2.1.1.1.1.1: Everyone doing everything themselves is...</p>
+<p>It is unlikely that people who perform different roles will start to become empathetic that the work done in others&#8217; roles really does take expertise and time, since we have so much history of people not having this empathy, but we can do things to try to bridge these gaps by being aware of them and tuning our behaviors accordingly.</p>
 <p>One important component of all operational environments is standardization.  At the extreme end of that spectrum would be uniformity and at the other extreme everything is unique:</p>
 <p>Everything Is Uniform &lt;&#8212;&gt; Everything Is Unique</p>
 <p>Since we know that not everything can be uniform, since we are already starting with a base of 3 SKUs (Utility, Relational Database, Non-Relational Database), that side of the spectrum is already constrained.</p>
@@ -617,8 +600,7 @@ Often marketing and sales departments will rename a product many times, both bef
 <p>And side-effects are what happens beyond the outputs, say that a database is updated, and a memory caching server is updated, and logs are written to storage.</p>
 <p>Black boxes are an appropriate level for a group to be able to discuss alignment, as getting into implementation details of how a web server is configured should be left to the sub-team that deals with that web server.</p>
 <p>This is to allow people and sub-teams autonomy of action, as centralized planning cannot deal with all details and all contingencies efficiently, while still allowing a larger centralized inspection of the black boxes, to achieve a total operational system alignment.</p>
-<p>There&#8217;s a lot involve in this, and we will be going into more depth as we move from philosophy and general issues into implementation.
-.. topic:: 2.3.2.1.1.1.1.2: What can be self-service, and what cant</p>
+<p>There&#8217;s a lot involve in this, and we will be going into more depth as we move from philosophy and general issues into implementation.</p>
 <p>One goal for an operations team that has decided they want to get the benefits of comprehensive automation is to provide more and more self-service tools to the departments they support.</p>
 <p>The benefit for the operations team is that they can remain more focused on improving infrastructure, rather than performing requests that were made by other teams to simply set up, configure and change existing infrastructure.</p>
 <p>There is also a spectrum of productivity to this:</p>
@@ -636,8 +618,7 @@ Often marketing and sales departments will rename a product many times, both bef
 <p>This flexibility to be very specific with an axis, and to cross many boundaries of topics provides another benefit to Axiomatic Engineering, which is that &#8220;Compare and Contrast&#8221; type efforts can be very explicit, and anything that is too complicated to talk about clearly can be turned into these very specific sets of axises, which can than be given numerical values, and compared against each other.</p>
 <p>Because the topics are specific, and the numerical values gives your preference (or could be data collected through automation or monitoring) for describing very specific things.  If you have related concepts that are specifically explained in separate axises, then the resulting quantified numbers of those axises comparison can give deeper insight to the problem, and can be communicated accordingly as Engineering Oriented Information, separate from normal communication in it&#8217;s attempt to be precise and descriptive, attempting to be as objective as possible on data so complicated it must be subjectively formulated.  Mathematics are such a notation for dealing with problems in that domain, but these are problems in a different domain, and need a solution as customized for that domain as the mathematics solution is customized for it&#8217;s domain.</p>
 <p>This is the problem that we must work to overcome with any engineering field, in that there are too many variables, both known and unknown, to take into account, and to communicate about them is impossible to do accurately, and difficult to even do effectively.</p>
-<p>Since we know accuracy, perfect accuracy, will be impossible, we must strive for maximum effectiveness, where we get the most value for the least effort, while not using too little effort so that we get the best results possible with the resources we have to use.
-.. topic:: 2.4: What is a System?</p>
+<p>Since we know accuracy, perfect accuracy, will be impossible, we must strive for maximum effectiveness, where we get the most value for the least effort, while not using too little effort so that we get the best results possible with the resources we have to use.</p>
 <p>There are a lot of ways the word &#8220;system&#8221; could be used.  We&#8217;re going to look at a general version of the word first, and then a specific version for our exact purposes afterwards.</p>
 <p>When I was growing up and for the first 10 years of my career, operational engineers were called &#8220;System Administrators&#8221;.  Today some people use this term derogatorily as lower-level or older style work, and while anyone can have any perspective they&#8217;d like, this is not consistent with history.</p>
 <p>I was lucky enough to spend some time around professional system administrators throughout the 1980s, before I was old enough to work, and I got to see them doing core dumps and reading through the hexadecimal output to find where the problems in their code were, and even fix some problems through a hex editor.  I also got to get a bit of their practical advice and viewpoints, and I believe that after 5 or so years of professional operations work the lessons I saw back then started to filter back in to be more conscious rather than subconscious guides and role models.</p>
@@ -667,8 +648,7 @@ Often marketing and sales departments will rename a product many times, both bef
 <p>How you describe a system is merely a view into the system, and will never cover every aspect of a system, but each change in viewpoint gives a better angle on some information, and a worse angle on others.</p>
 <p>Only the actual components of a system describe the system, and any attempt to review the system will only give a partial insight into it, because it is a summary of something else, because a map is not equivalent to the territory it attempts to describe.</p>
 <p>By &#8220;actual components&#8221; I mean the things that make up the system are separate than our understanding of them, and our descriptions of them.  They exist outside of our information, and so they are not only super-sets to the parts of our information that are accurate (and not related to the portions of our sets of information that are inaccurate), but that they also contain more data than we are aware of, and almost always some data of which we cannot become aware of because of the limitations in our ability to detect some things, and the limits of our knowledge to know to even try to detect them.</p>
-<p>Systems are tricky in this way, but this is also where their power comes from, because they are not limited by the nature of the actual components; they can be extended in any way you can think of, it it will assist you in your goals.
-.. topic:: 2.5: Systemic Thinking</p>
+<p>Systems are tricky in this way, but this is also where their power comes from, because they are not limited by the nature of the actual components; they can be extended in any way you can think of, it it will assist you in your goals.</p>
 <p>I&#8217;ll use &#8220;Systemic Thinking&#8221; to mean thinking in a way where everything is inside of a system.  Systemic Thinking focuses on the relationships between all things in a system, and their mechanical relationships to each other.  A system being a set of things you wish to model, to accomplish one or more goals by using the model to understand mechanically what the effects of a planned action would be.  It is mechanical because it has inputs, outputs and side-effects, and so can be tracked and operated on as any mechanical device can.  This is a Virtual Mechanical Device, which operates on Data.</p>
 <p>The Model gives feedback about what the current state of the Set of Components are, and what the likely state of the Set of Components will be if an action were to be performed.  This also works in reverse to provide information about what happened in the past, by comparing Data to the Model, which can both improve the Model by correcting it against Data and Reality, and give information by inspecting the Data produced by Reality, and using the Model to explain that Data, given the error tolerance you have for the accuracy of the Model&#8217;s ability to explain this Data and the correctness of the actions to perform the explanation.</p>
 <p>A System can be described by a network of black box functions which take inputs, emit outputs, and perform side-effects, totaling the results of anything that exists or doesn&#8217;t exist, Real or Virtual.  Either way, it can be described as a System, and using this methodology for organizing one&#8217;s thoughts is &#8220;Systemic Thinking&#8221; by my definition here.</p>
@@ -733,8 +713,7 @@ There is an infinite amount of information that is possible to learn, so the imp
 <p>In the case of a more dynamic system, the web server could proxy the request to an application server, which then makes database calls and performs formatting logic, and then returns a dynamic result instead of a static one.</p>
 <p>The importance of Systemic Thinking is that there are no gaps.  Every connection that is required is modeled, and if new connections are required, they are added, and the remaining components need to be updated so that the System remains Internally Consistent.</p>
 <p>Internal Consistency is a very important factor in any System, for it to be a properly functioning system, and will be another topic we delve into deeply.  Internal Consistency has similarities to Alignment, where components are aligned with one another for maximum efficiency, but Alignment requires Internal Consistency, where something can be Internally Consistent but not aligned.  In this way Internal Consistency is a super-set of Alignment, in order to be aligned, things must be consistent, but things can be consistent and yet not well-aligned.</p>
-<p>Any time a change is made to any part of a Model, the rest of the Model must react accordingly, to stay Internally Consistent.  The initial change may not require any additional changes to remain Internally Consistent, but it might be that every other Component must also be changed to remain Internally Consistent, this depends on the Reality that the Model is modeling, and the intent of the change being made.
-.. topic:: 2.5.1: Philosophers Knife</p>
+<p>Any time a change is made to any part of a Model, the rest of the Model must react accordingly, to stay Internally Consistent.  The initial change may not require any additional changes to remain Internally Consistent, but it might be that every other Component must also be changed to remain Internally Consistent, this depends on the Reality that the Model is modeling, and the intent of the change being made.</p>
 <p>One important tool in creating systems is the concept of the &#8220;Philosopher&#8217;s Knife&#8221;.</p>
 <p>This is a virtual knife, meant for cutting ideas into sections.</p>
 <p>The most basic way of dividing ideas is to split them in half.  Bifurcation is the cleanest method of division, as everything in split into one of two possibilities, which allows for using binary methods of organization, such as binary trees for creating hierarchy, or quantifying values so that things can be sorted on an comparative axis (ex: smallest to larger, slowest to fastest, etc), or setting binary flags so that set theory and boolean logic can be used (ex: &#8220;Is an X?&#8221;, &#8220;Has an X?&#8221;).</p>
@@ -758,8 +737,7 @@ There is an infinite amount of information that is possible to learn, so the imp
 </ul>
 <p>I could have sliced this in a different manner, and instead focused on the TCP packet exchange, or I could have cut it so we delved deeper into the end-user&#8217;s process of getting it&#8217;s request to the web server (LAN, routing, DNS, TCP handshakes, etc).</p>
 <p>I was able to slice this process into the layer&#8217;s I chose, because I wanted to discuss those elements, and not other elements.  This ability to exclude what information is being inspected, while not losing any of those excluded areas of data in the total picture is the real power of systemic thinking, is the function of the philosopher&#8217;s knife in this process.</p>
-<p>We can take the exact same example process, and re-slice it any way we want, and the events would be the same, but the information we look at, and how we inspect it would be different.  The system has not changed, the actions that occur in reality did not change, the results did not change, the inputs, outputs and side-effects did not change, and yet we are able to look at the problem in a completely different way, and take different lessons and gather different information from it.
-.. topic:: 2.5.2: Slicing the pie vs aggregation</p>
+<p>We can take the exact same example process, and re-slice it any way we want, and the events would be the same, but the information we look at, and how we inspect it would be different.  The system has not changed, the actions that occur in reality did not change, the results did not change, the inputs, outputs and side-effects did not change, and yet we are able to look at the problem in a completely different way, and take different lessons and gather different information from it.</p>
 <p>In the last section we covered the importance of slicing with the Philosopher&#8217;s Knife without losing any information.</p>
 <p>One easy way of thinking about this is that you are cutting up a pie with the Philosopher&#8217;s Knife.</p>
 <p>No matter how you slice a pie, the amount of pie has not been reduced, there is only a different number of pieces.</p>
@@ -785,8 +763,7 @@ There is an infinite amount of information that is possible to learn, so the imp
 <p>As of 2015, I do not know of any operational environments which work in a manner that is consistent with &#8220;slicing the pie&#8221;, I only know of aggregation environments.  I will explain this assertion as we get more into details, but this puts the use of systemic thinking in an operational environment into a purely &#8220;mythical&#8221; state at the moment.  Something I hope to change with writing this book, and sometime I hope to pass on as a valid tool for Engineering, and a valid goal where it will help your engineering projects.</p>
 <p>Part of the purpose of this book is to provide a path for others to understand these differences, so that paths can be built to allow us to create these comprehensive and complete systems, and to manage them accordingly, to get the benefits which they provide.</p>
 <p>We know the benefits and fallbacks of the aggregation system, though without comparing them to another method it is merely the de facto operations of all environments, making it hard to inspect as there is nothing different to compare it to.</p>
-<p>Making a change requires both defining the goals we want to achieve, and the current state of things, so we know what is required to make a change to get closer to our goals.
-.. topic:: 2.5.3: Systemic Thinking</p>
+<p>Making a change requires both defining the goals we want to achieve, and the current state of things, so we know what is required to make a change to get closer to our goals.</p>
 <p>So far we&#8217;ve gone over the general definition of a system, and created some examples, and looked at how to slice components of a system up to leave the system intact, but able to looked at from different perspectives, and to separate out different components.</p>
 <p>How does this affect our ability to perform operational duties?  How will it help in automation, and in the life-cycle management of an operational environment?</p>
 <p>Firstly, if one cannot understand something in detail for one&#8217;s self, then it will be difficult to work with that thing efficiently.  I hope I have shown that being able to slice up a topic in any way you would like can produce sub-divisions which allow inspection and description, and which do not change the whole of system, and can be sub-divided further, or sub-divided differently to provide examples to compare and contract with one another, and to inspect their relationships and how work might flow through them.</p>
@@ -799,8 +776,7 @@ There is an infinite amount of information that is possible to learn, so the imp
 <p>From this we can create a policy that requires all services to have log rotation or truncating configured for any software before it is put into active service.  We can go over the results we will achieve without this, and determine that are not the results that we want, and come up with a test for whether this is enacted on a given server to ensure that we have done this work, and have protected ourselves from this deterministic outcome.</p>
 <p>This is the type of leverage that these tools provide, and when we get into the details of automating an entire operational environment, through it&#8217;s life-cycles, with change management and ensuring that all things are internally consistent, and well-aligned, to accomplish our goals, we will find that without these tools for clear and consistent &#8220;breaking things apart&#8221; and &#8220;putting them back together again&#8221; without losing any information, we will not be able to get comprehensive coverage without being able to communicate at this level of detail.</p>
 <p>The short-comings of aggregated systems, versus comprehensive systemic systems is not yet clear, but as we define our terms more concretely, and begin to use them to deconstruct on operational environment, and then put it back together again, while keeping track of everything, we will see how aggregated systems are incapable of performing this task, while whole-systems always lean-towards an accurate representation, if they are viewed with accuracy.</p>
-<p>That isn&#8217;t circular logic, is it simply the result of &#8220;Garbage In-Garbage Out&#8221;.  If one can&#8217;t view a topic accurately, one cannot expect to perform work to meet goals accurately.
-.. topic:: 2.5.4: Inputs, Outputs and Side-Effects: A Virtual Mechanism</p>
+<p>That isn&#8217;t circular logic, is it simply the result of &#8220;Garbage In-Garbage Out&#8221;.  If one can&#8217;t view a topic accurately, one cannot expect to perform work to meet goals accurately.</p>
 <p>I talk about the qualities of &#8220;Inputs, Outputs and Side-Effects&#8221; enough that I&#8217;ve decided to label them as something that can be discussed directly.</p>
 <p>I will call something that takes Inputs, gives Outputs, and produces Side-Effects a &#8220;Universal Machine&#8221;, because it is a type of machine (performs work, mechanistically), and can be applied in any situation.  It may be a deterministic machine or non-deterministic (introduces randomness, or other factors which cause different Outputs or Side-Effects with the same Inputs).</p>
 <p>A Universal Machine, by our definition here, can take any inputs and return any outputs, and create any side-effects, whether they are Real or Virtual, it doesn&#8217;t matter.  The important aspect is that there is a definition of the interface, so that the understanding can be brought about from just looking at Inputs, Outputs and Side-Effects.</p>
@@ -808,15 +784,13 @@ There is an infinite amount of information that is possible to learn, so the imp
 <p>A Universal Machine can be defined as you want it, and can be applied to anything, like a system, and a Universal Machine is a System, but it is a specific type of System that is defined as having Inputs, Outputs and Side-Effects.  While any System might be able to be viewed as a Universal Machine, many times when we think of a system we are not thinking of it as a machine, so it helps to differentiate about when we are and when we are not thinking in terms of mechanical inputs, outputs and side-effects.</p>
 <p>Any process, physical or non-physical (informational, virtual, etc), can be defined by it&#8217;s Inputs, Outputs and Side-Effects, so this creates an interface we can use at any time, for any reason, and we can reason about Universal Machines based on their interfaces, separate from the work that they actually perform.</p>
 <p>The linkages between Universal Machines will follow the same rules, irregardless of the type of Inputs, Outputs and Side-Effects being worked on.  By making a distinct type of unit we can refer to by the label Universal Machine, we can always drop into the method of talking about a component. or service, or physical machine, or any type of thing, and how it operates in a chain or process of events.</p>
-<p>{{ note: Should I create an acronym for this?  I/O/SE? IOSE?  Might be useful. }}
-.. topic:: 2.6: Terminology</p>
+<p>{{ note: Should I create an acronym for this?  I/O/SE? IOSE?  Might be useful. }}</p>
 <p>Congratulations!  You&#8217;ve made it to the second beginning of the book, where we go over the definitions of terminology we will be using.</p>
 <p>I thought it was important to give a bunch of background on what we were going to talk about before we got to the definitions, because my terminology definitions may be quite different than how you already think of these terms, as you may have already begun to see.</p>
 <p>For the purposes of reading this book, please accept my definitions as I will use them for the purpose of making things clear.  The definitions must be kept congruous to differentiate things that are frequently conflated.  If it helps you can mentally append &#8220;Geoff is saying he means X when he says Y in this book&#8221;, if the terminologies conflict too much with your existing use of the words.  I&#8217;m making a specific point about this, as I often have an internal feeling of rejecting an authors information based on their use of words from being different than how I would use them.  It&#8217;s often a useful method to determine if the information is worth listening to, but in the case of a longer-term effort like reading a mentorship-oriented book, can cause you to miss out on crucial information.</p>
 <p>The important part of this is that you gain insight into my perspectives, as I will be using those descriptions of my perspectives to build up a detailed map of how to inspect an environment, how to design and compose an environment, how to implement it, how to automate it, how to troubleshoot it, how to perform maintenance and life-cycle changes to it, how to document it, describe it to other people, etc.</p>
 <p>This is all too much to do with just anyone&#8217;s terminology, and the only terminology that will be able to consistently deliver these results inside of this book will be my own.  So try to accept all of these for the tools that they are in getting to these goals, and not as universal definitions that should be written into dictionaries, or compared against them.</p>
-<p>I will be using the capitalization of proper nouns with these special terms, so that they are clearly my definition, for the purpose of this book, and not meant as the general term.  The only time this may be confusing is when the word starts the beginning of a sentence, but I hope context will keep that clear.
-.. topic:: 2.6.1: Data: data</p>
+<p>I will be using the capitalization of proper nouns with these special terms, so that they are clearly my definition, for the purpose of this book, and not meant as the general term.  The only time this may be confusing is when the word starts the beginning of a sentence, but I hope context will keep that clear.</p>
 <p>In the virtual world, Data is king.</p>
 <p>I will support this assertion throughout this entire work, as it has become a central tenet in my thinking about how to do any sort of digital engineering.</p>
 <p>As I asserted in {{ section_ff17d94c0d49aab3e372e47b64b96ea7 }}, Data is an un-real thing.  It is virtual.  It does not have physical properties, and does not exist in the physical world.</p>
@@ -829,8 +803,7 @@ There is an infinite amount of information that is possible to learn, so the imp
 <p>Data can be stored in many formats, and these formats can dramatically change the way the data is stored, and yet if it is not corrupted, the data can still function in the same way.</p>
 <p>Consider that data stored in a CSV (Comma-Separated Value) file and data stored in a YAML or JSON format look very different, and yet both can be loaded, parsed, and used as if they were stored in the same format.</p>
 <p>Data could be formatted to fit inside a relational database, so that it is spread into tables and fields, and looks nothing like a CSV file, and yet after querying the database I can get the data back in the same format which I could parse from a CSV file.</p>
-<p>This shows the dynamic nature of Data, while still providing us with consistent information that can be used by humans or Logic.
-.. topic:: 2.6.2: Logic: code</p>
+<p>This shows the dynamic nature of Data, while still providing us with consistent information that can be used by humans or Logic.</p>
 <p>I&#8217;m going to try to constrain myself to using the capitalized (proper noun) &#8220;Logic&#8221; any time I am referring any of the following things:</p>
 <ul class="simple">
 <li>Code</li>
@@ -882,16 +855,14 @@ There is an infinite amount of information that is possible to learn, so the imp
 <p>This accounts for the long-life span of Unix-style environments, which are historically largely made up of software that performs generalized operations against a set of data.  That data might resides in a file, a database or be given by user input on the command-line, piping through input streams, or through a series of prompts.</p>
 <p>In these &#8220;tool&#8221; types of Logic, it is the data that tells the Logic how to achieve a goal, and so again the Data gains primacy over the Logic in being the key element.  The &#8220;tool&#8221; Logic only exists to transform the Data.</p>
 <p>For our purposes, in automating an operational environment, we will be extending this &#8220;tool&#8221; type processing greatly, so that we create a large pool of interconnected data, and then create Logic that works against this data to achieve the goals we want.</p>
-<p>Like the Unix-style environment that allows so much control and flexibility, we will create a layer on top of current Operating Systems, which allows the accomplishment of goals with a minimum amount of changes to Logic, as the Logic is driven by the Data.
-.. topic:: 2.6.3: Rules: policies about how you do stuff</p>
+<p>Like the Unix-style environment that allows so much control and flexibility, we will create a layer on top of current Operating Systems, which allows the accomplishment of goals with a minimum amount of changes to Logic, as the Logic is driven by the Data.</p>
 <p>For the purpose of this book, I&#8217;m going to use a term I don&#8217;t usually use in real life, which is &#8220;Rules&#8221;.</p>
 <p>In this case I will define Rules to mean the way we do things, encoded into Logic and Data.</p>
 <p>I will use this to separate out digital Rules from policies and procedures that departments and organizations use to determine how people do things.</p>
 <p>This could be seen in the sense of &#8220;Rule Processing Systems&#8221;, or something similar, where Rules are constraints or requirements in how Logic will operate.</p>
 <p>And the Rules are specified either directly in the Logic (hard-coded rules), or in Data.</p>
 <p>Rules encoded in Logic will require more effort to change, and are not able to be changed automatically, unless you are generating the code.  Generated code is more of the side of the spectrum of Data than Logic, because Logic is generally created by humans.</p>
-<p>In the case of generated Logic, it will be generated from Logic created by humans, and is a type of template that has data populated into it, or loops of generated chunks with data populated into them.
-.. topic:: 2.6.4: Distributed: dealing with N nodes</p>
+<p>In the case of generated Logic, it will be generated from Logic created by humans, and is a type of template that has data populated into it, or loops of generated chunks with data populated into them.</p>
 <p>You may have used the word &#8220;distributed&#8221; before, such as in &#8220;distributed systems&#8221;.</p>
 <p>My meaning will be very similar to this usage, but I will use it a little more generally to mean any time you need to work across many nodes of something.</p>
 <p>For instance having to control 200 web servers will be a Distributed service of web servers.</p>
@@ -909,16 +880,13 @@ There is an infinite amount of information that is possible to learn, so the imp
 <p>Make this an internal meme for yourself, and watch as things start to make more sense in terms of problems with scaling.  When a number larger than 1-instance is introduced, you will eventually see that number grow, and sub-divide into different domains.</p>
 <p>Having a 1-instance system is incredibly difficult.  Pressures will continually be applied to grow into an N-instance system, and it will take work and perseverance to keep a 1-instance system at 1-instance.</p>
 <p>0-instance systems, when not just the identity of &#8220;we don&#8217;t do that here&#8221;, are created from efficiencies in automation.  This is when a 1-instance or N-instance system has been replaced in such a way that the work does not need to specifically occur, and yet the goals are still achieved.  If this sounds a lot like what I referred to as &#8220;removing Classes of Work&#8221;, it is because it is exactly that.</p>
-<p>I will cover this concept in full detail later on, because it is critical to understanding how scaling works in practice, but takes a bit more background before accomplishing it can be discussed.
-.. topic:: 2.6.5: Real/Virtual.  Strict definitions.</p>
+<p>I will cover this concept in full detail later on, because it is critical to understanding how scaling works in practice, but takes a bit more background before accomplishing it can be discussed.</p>
 <p>I won&#8217;t go through the explanation that I made in {{ section_ff17d94c0d49aab3e372e47b64b96ea7 }} again here, as I think we covered the differences between what I meant by real and un-real, or virtual there.</p>
 <p>I&#8217;ll just say that like other terms meant for this book, I will be using Real and Virtual as proper nouns to describe things I mean to be having physical properties as Real, and things that do not have physical properties are Virtual.</p>
-<p>If this seems vague, please review {{ section_ff17d94c0d49aab3e372e47b64b96ea7 }} again, as the specific use of these terms for the purposes of this book is important for understanding what I&#8217;m trying to convey.
-.. topic:: 2.6.5.1: Be clear about the differences:  Physical (Real), Logical (Virtual), Data (Virtual)</p>
+<p>If this seems vague, please review {{ section_ff17d94c0d49aab3e372e47b64b96ea7 }} again, as the specific use of these terms for the purposes of this book is important for understanding what I&#8217;m trying to convey.</p>
 <p>{{ todo: ... }}</p>
 <p>Since I think we have a clear working definition for the terms Real and Virtual, we start to do some comparisons between them and see what other things are different.</p>
-<p>Since they have very different properties, as they are about as different as anything can be, that means that those different properties should have different advantages and disadvantages when looking at them from different perspectives.
-.. topic:: 2.6.5.1.1: Reality: The Physical</p>
+<p>Since they have very different properties, as they are about as different as anything can be, that means that those different properties should have different advantages and disadvantages when looking at them from different perspectives.</p>
 <p>The first important thing to know about the difference between Real and Virtual things is that you cannot know everything about a Real thing.</p>
 <p>Determine what the state of a Real thing is is essentially impossible, but we can have approximations that are good enough.</p>
 <p>Why is it impossible to know that &#8220;true state&#8221; of a real thing?  Because it&#8217;s state varies with every atom, and collectively all the atoms of a physical thing are too numerous and beyond inspecting in many dimensions.</p>
@@ -930,8 +898,7 @@ There is an infinite amount of information that is possible to learn, so the imp
 <p>It happens that this is not necessarily important for our purposes, but it is important to understand and accept that this data is simply not available to us, and we have sensors in place to detect some aspects of it.</p>
 <p>Other aspects we may not have any sensors for.  For instance, mobile devices often come with accelerometers, which will detect movement of the devices.  Rack servers do not currently come with these sensors, and for a fairly reasonable reason, as they are not in demand.</p>
 <p>But this is one type of data that we cannot collect about this server.  It could be that the amount of vibration the servers are going through could end up causing problems over large numbers of servers, and by doing correlative analysis on part failures with vibrations, and by determining where the vibrations were worse, we could contact our data center&#8217;s staff and see if they could fix the problem, as it may be an undetected problem on their part.</p>
-<p>This is a completely theoretical example, but it illustrates that there are things we know, but not completely (temperature), and there are things we do not know at all about Real things.
-.. topic:: 2.6.5.1.2: Virtual: The Un-Real</p>
+<p>This is a completely theoretical example, but it illustrates that there are things we know, but not completely (temperature), and there are things we do not know at all about Real things.</p>
 <p>In the last section we learned that there are things we cannot know, or know with full accuracy about Real things.  Their very nature means that they are not fully knowable, but we can know enough about them to make use of them effectively, and have a long history of doing so.</p>
 <p>How do Virtual things align on this same spectrum of &#8220;knowability&#8221;?</p>
 <p>Some Virtual things can be completely known.  Other Virtual things remain unknowable.</p>
@@ -955,8 +922,7 @@ There is an infinite amount of information that is possible to learn, so the imp
 <p>Over time we will build up a toolset of these, so that we can communicate about incredibly complicated topics, and reason about them efficiently and clearly.</p>
 <p>As an exercise, try to come up with some of your own terms.  Once you have an understanding of how to create terms for yourself, you can use this to create things you understand completely, because you made up the terms you are working with.</p>
 <p>If you can, great, write them down and add more to that list as you think of them.  Over time, you will start your own set of terminology in which you can reason with, having more understanding of it than my terminology, which I have created.  Like I&#8217;m doing here, you will have to define your terms for other people, or translate your terms into language they already understand, but it is important that you have a clear understanding for yourself, which creating your own terms helps with.</p>
-<p>If you can&#8217;t think of any now, that&#8217;s not a problem, but if any come to mind in the future, write them down, and over time more and more may start to come to you.  This is a process that becomes easier and more useful over time, as you get used to it.
-.. topic:: 2.6.5.1.2.1: However, between Data and Logic is a huge gap, as Data is &#8220;perfectly&#8221; understandable, while Logic is not, due to Halting Problems and all other things CS-academia knows and describes very well.</p>
+<p>If you can&#8217;t think of any now, that&#8217;s not a problem, but if any come to mind in the future, write them down, and over time more and more may start to come to you.  This is a process that becomes easier and more useful over time, as you get used to it.</p>
 <p>Another Unknowable Virtual thing is Logic.</p>
 <p>Logic, as we defined earlier, is an all-emcompassing term for anything to do with software or decisions, or scripts or other methods of manipulating data, executing statements, etc.</p>
 <p>One of the famous problems of computer science is the Halting Problem.</p>
@@ -1008,15 +974,13 @@ intitial_result = function_reference()</p>
 <p>The decorator code creates the required wrapper for the functions, as that is what decorators do in Python, and it calls the function reference, but instead of simply returning the result, as if we had called the code without a decorator, it modifies the result.</p>
 <p>It replaces the string &#8220;Hello&#8221; with &#8220;Goodbye&#8221;, so we get the very different result of the &#8220;Goodbye World!&#8221; string being returned, changing our peppy introductory function into something much darker.</p>
 <p>This melodramatic example shows that we can see something that looks very clear in code, and yet something that does not necessarily looks like it will change the result we clearly see, in fact, does change that result.</p>
-<p>This is another aspect of Logic&#8217;s being on the Unknowable side of the spectrum, due to it&#8217;s ability to contain very high complexity.
-.. topic:: 2.6.5.1.2.2: This difference also tells us why Data is more important than Logic, because Data is more trustworthy than Logic.  When making changes to data, the changes are straight-forward to understand, when making changes to Logic, the side-effects (unintended consequences) can be far-reaching and completely not understandable, and frequently enough are this way.</p>
+<p>This is another aspect of Logic&#8217;s being on the Unknowable side of the spectrum, due to it&#8217;s ability to contain very high complexity.</p>
 <p>Now that we have established that collectively, Virtual Data, which I will just call Data, since it is always Virtual, is Knowable.</p>
 <p>And we have established that collectively Logic is Unknowable, even though components of it may be knowable, we can use this information to set up a hierarchy, which we can use to build more robust engineering solutions.</p>
 <p>If Data is comprehensively Knowable, and Logic is comprehensively Unknowable, then we should base our actions on our Data, and treat that as the supreme truth.  Our Logic is not less important because of this, as it serves the same role as it would if Logic was King, and reigned supreme over Data.  One thing must have precedence over the other, because in real-world prioritization things cannot be equal.  There is always a preference, and it is usually by a wide-margin, due to the limitation of resources in the pursuit of our goals.</p>
 <p>Knowing that we can treat Data as the most important thing in our operational environment means that we will always first focus on the data being correct, and then secondarily we will look at how the Logic interacts with the Data, with a careful watch that the Logic does not do anything to or with the Data that would cause us problems.</p>
 <p>Of course, you don&#8217;t have to have any of this kind of analysis to know that you should not corrupt your data with your code, but this is the path I have taken to understanding where to place priorities, and how to approach working, and they have served me well.  I hope to prove after we have gotten through this introductory phase, into the details phase, and finally into going over implementation, how these fundamentals are truly critical to building large, robust, resilient, controllable, manageable operational automation environments.</p>
-<p>Without all of these details, all the adjectives I just used to describe what we will build may still be applied, but they may not be true, and we may not really get those effects.  Through using well defined fundamentals, we can begin to bring this assurance in.  This is an important part of what Knowability gives us.
-.. topic:: 2.6.5.1.2.2.1: Changes to data, that meets constraints, will not harm other data, but can harm Logic that acts on the data (results of Logic, rather)</p>
+<p>Without all of these details, all the adjectives I just used to describe what we will build may still be applied, but they may not be true, and we may not really get those effects.  Through using well defined fundamentals, we can begin to bring this assurance in.  This is an important part of what Knowability gives us.</p>
 <p>When working with Data, is it required that certain constraints are met.  This is normal database 101 stuff.  If you have a relationship between 2 tables, the the primary key of Table A is referenced in Table B, and then you change that primary key in Table A, but do not update all external references to it (such as in Table B), then you will have created an inconsistency.</p>
 <p>There are methods for forcing this to not be allowed in many database software&#8217;s schema configuration, using constraints and foreign keys, etc.</p>
 <p>In an Operational Automation environment it is likely that the data sets will stay small enough that you can work with these constraints enabled (without performance problems), and the changes are important enough to deal with the performance hit the constraints provide anyway.  So, I recommend using software constraints when possible, and letting the database software manage enforcement of constraints to keep your operational configuration data consistent.</p>
@@ -1046,15 +1010,13 @@ intitial_result = function_reference()</p>
 <p>This is a large problem.</p>
 <p>Another issue that we deal with is that writing Logic for databases is not as manageable over time as writing Logic in other platforms, such as directly for execution or interpretation in an operating system.  That is because database&#8217;s purposes are to serve data, and so they do not get &#8220;best of breed&#8221; software development environments.</p>
 <p>There are many more examples I can give on how you can have consistent Data, but inconsistencies between the Logic and Data.  The end result of all of these is that you must simply be very cautious when creating your Logic, and provide as many safe guards as is warranted by the needs of your organization to provide that the Logic works cleanly with the Data.</p>
-<p>There are many techniques for this that we will cover once we get to implementation.
-.. topic:: 2.6.6: Knowability</p>
+<p>There are many techniques for this that we will cover once we get to implementation.</p>
 <p>I didn&#8217;t know this before I just looked it up, but Knowability is already a word in dictionaries, so there is not a lot of reason to cover it in depth.</p>
 <p>We&#8217;ve already been using it quite a lot, but I thought it would make sense to shortly define it.</p>
 <p>Knowability is a spectrum of how well you can know something, in full, at all levels.  It needs to be extreme knowledge like our &#8220;X=5&#8221; example, where we know absolutely everything about it.</p>
 <p>Any ambiguity or aspects that remain not-perfectly-knowable need to count against it being on the extreme side of Knowability, and more towards the side of Unknowability.</p>
 <p>To set up the spectrum, it looks like this:</p>
-<p>Unknowable  &lt;&#8212;&gt;  Knowable
-.. topic:: 2.6.7: Class of Work</p>
+<p>Unknowable  &lt;&#8212;&gt;  Knowable</p>
 <p>We briefly defined Class of Work in the beginning of the book, but let&#8217;s take a slightly deeper look at what it means.</p>
 <p>Initially I just said it was &#8220;anything that is done&#8221;, and this is true but perhaps &#8220;work&#8221; work suffice to say that, and everyone would understand.  However, there is more depth we can gain from looking at it deeper.</p>
 <p>I initially used the example of automating the DNS zone file updating.  If you aren&#8217;t familiar with DNS zone files, they are text files look like this:</p>
@@ -1088,8 +1050,7 @@ intitial_result = function_reference()</p>
 <p>The Alignment was that the web server required the DNS server to have the name of the database server, so that it could make a connection to it.  This is 1 layer of Alignment, as the web server needed the DNS server (the requirement) to contact the DB server (the goal).</p>
 <p>This is a very simple case of Alignment, but it makes the point for an initial example, which is that without Alignment, things either do not work, or do not work efficiently.  In the above case, things stopped working completely with the removal of the DNS entry.</p>
 <p>Efficiency is a metric that has to do with &#8220;functioning, but not as well as we would like, or could be&#8221;, and so is a more complex topic than something that does not function, which is fairly clear cut.</p>
-<p>We&#8217;ll be getting very deep into the Alignment of efficiency soon.
-.. topic:: 2.6.8: Data Source</p>
+<p>We&#8217;ll be getting very deep into the Alignment of efficiency soon.</p>
 <p>Since we&#8217;ll be talking about Data quite a bit, I will be referring to any mechanism that stores Data as a &#8220;Data Source&#8221;.</p>
 <p>This could be a database, a YAML file, a variable in a JavaScript web page that came from a JSON RPC request, it doesn&#8217;t matter.  There is a location that stores data, and we interact with it to get data and store the data.</p>
 <p>The Data Source may be persistent, or it may be temporary (such as Javascript data in a web page).  It may be transactionally safe, or unsafe to update simultaneously.  These are secondary properties, as the primary property of a Data Source is access to the data.</p>
@@ -1114,8 +1075,7 @@ intitial_result = function_reference()</p>
 <p>Replication might also be in lock-step with the Master, so a server that gets a write request will complete it on itself, and then wait for 1 or more other replication servers, based on a &#8220;quorum&#8221; number.  If the quorum is two (2), then at least 2 servers must have this transaction committed before the client requesting the transaction is told that it was successful.  This method is much slower in terms of returning a result to a user, but is safer in that the information is persisted on multiple server&#8217;s storage, in case a corruption-level failure happens on the original server.</p>
 <p>There are many other properties to Data Sources, so this is not meant to be an exhaustive list, but a brief coverage of some elements we can associate with the label Data Source, which may or may not exist in a given implementation you may use.</p>
 <p>Some Data Source implementations offer features that are in opposition to some of the above, and those feature sets are also useful, since they provide different benefits and weaknesses to some of the features I have mentioned.  The right tool for every job, and all that.</p>
-<p>{{ todo__make_more_of_these_qualities_lists_for_other_terms_and_things }}
-.. topic:: 2.6.9: Operational Environments</p>
+<p>{{ todo__make_more_of_these_qualities_lists_for_other_terms_and_things }}</p>
 <p>Any place where any operating is going on is an &#8220;operational environment&#8221;.  This could be on your desk, or in your closet, or in a data center, or across a number of data centers across the world.  The size and location of the operational environments is not what defines an Operational Environment.</p>
 <p>What defines an Operational Environment is the purpose you wish to achieve with it.</p>
 <p>Often it can be useful to think of an Operational Environment as a Security Zone.  You allow certain people to make certain requests in each security zone.</p>
@@ -1124,8 +1084,7 @@ intitial_result = function_reference()</p>
 <p>Looking at a Production Environment, we would want to have much more auditing, and restrictive access of who could login to servers and make changes.  We also all do allow external access from our customers, who could be anyone located anywhere, and may allow un-authenticated (guest) access to our services.</p>
 <p>Operational Environments, and their corresponding view as a Security Zone, is an important consideration any time you are performing Operational work.  Where are you doing this work?  What are the goals?  What are the rules and restrictions?  Who gets access, and what are they allowed to do?</p>
 <p>How do we ensure all of this stays consistent?  How do we maintain this, make changes, and automate regularly occurring processes?  What about monitoring and alerting on things we care about?</p>
-<p>All of these will change every time you change what Operational Environment classification you are in.
-.. topic:: 2.6.9.1: Production Environment</p>
+<p>All of these will change every time you change what Operational Environment classification you are in.</p>
 <p>The most important environment for any given system is the &#8220;Production&#8221; environment.  This is the environment in which the organization makes their revenue (ex: online service), or interfaces with their customers (ex: informational service), or creates their product (ex: manufacturing).  &#8220;Production&#8221; comes from &#8220;product&#8221;, as in a &#8220;production line&#8221; which in an assembly line that produces an end-good product, it has the meaning of the &#8220;end of the line&#8221; in terms of an organization producing a good or service, which will then be distributed.</p>
 <p>The Production Environment, which I will mostly just be calling &#8220;Production&#8221;, is the place that the critical operations of your organization takes place.</p>
 <p>This might be a data center that has many peered network circuits, in which you receive internet traffic and generate revenue.</p>
@@ -1141,14 +1100,7 @@ intitial_result = function_reference()</p>
 <li>Authorization is determining if they are allowed to do what they are trying to do.</li>
 <li>Auditing is logging everything that happens, so that it can be reviewed.</li>
 </ul>
-<p>There is a fourth &#8220;A&#8221; that be added {{ todo_forgot_what_this_is_tempoarily_but_i_wrote_about_it_years_ago }}
-.. topic:: 2.6.9.2: Staging Environment
-.. topic:: 2.6.9.3: QA Environment
-.. topic:: 2.6.9.4: Performance Bench Testing Environment
-.. topic:: 2.6.9.5: Corporate Environment
-.. topic:: 2.6.10: Server
-.. topic:: 2.6.11: Device or Machine or Nodes
-.. topic:: 2.6.12: Humans</p>
+<p>There is a fourth &#8220;A&#8221; that be added {{ todo_forgot_what_this_is_tempoarily_but_i_wrote_about_it_years_ago }}</p>
 <p>It feels a bit weird when I say or write &#8220;Humans&#8221;, as it&#8217;s strangely impersonalizing to everyone, I feel.  However, it is conveniently clear to differentiate not only from &#8220;Not Human&#8221;, or &#8220;Logic Based&#8221; or &#8220;Software&#8221; or whatever, but also clear in the sense that I am not speaking casually about people, but specifically about the type of effects that Humans cause.</p>
 <p>We generalize about &#8220;people&#8221; all the time, different groups of them, to have any sort of discussion.  Sentences can only carry so much information in them at any given time, because words only have so much meaning, and a word is composed of syllables, and those take time to write or say, and they have to be done sequentially: the syllables cannot be written or said simultaneously to be more efficient, and so generalizing or summarization is required.</p>
 <p>Without summarization and generalization, we would spend so much time getting to the point, by being maximally explicit in every detail, much in the way I am doing right now, that we would just not get to the point, and all communication would cease to function.</p>
@@ -1190,8 +1142,7 @@ This database handles requests in Transactions, and writes them to a journal fil
 <p>When we are having conversations like the one we are sort-of currently involved in, being specific by saying &#8220;Humans&#8221; instead of any other word allows us to understand we are using technical jargon, and we mean technical things.</p>
 <p>This allows us to move away from our standard social communication style, and into a technical communication style, to discuss technical points at a detailed level.</p>
 <p>So while it is weird to type and say, it has a benefit for clarity, which is an important attribute of Engineering.</p>
-<p>Also, it will make it easier to relate to your future AI overlords, which will be helpful.  (&#8220;The humans are revolting!&#8221;, &#8220;I know, right?&#8221;)
-.. topic:: 2.6.13: Philosophy</p>
+<p>Also, it will make it easier to relate to your future AI overlords, which will be helpful.  (&#8220;The humans are revolting!&#8221;, &#8220;I know, right?&#8221;)</p>
 <p>If you didn&#8217;t know, there are 2 Greek roots in the word &#8220;Philosophy&#8221;.</p>
 <p>These roots are &#8220;love&#8221; and &#8220;wisdom&#8221;, so Philosophy is the &#8220;love of wisdom&#8221;.</p>
 <p>I look at Wisdom and Intelligence as different axes.</p>
@@ -1225,8 +1176,7 @@ This database handles requests in Transactions, and writes them to a journal fil
 <p>Transitioning back to Wisdom (Note to self: Awesome segue!):</p>
 <p>One simple way to see Wisdom is &#8220;good ideas&#8221;.</p>
 <p>To keep things simple and say, &#8220;I love good ideas&#8221;, is why I love and heavily utilitize methods of philosophy.  I make use of different kinds of philosophies in my own ways, I take their definitions and interpret them in my own meanings, and I mix and match pieces wherever I need to, as configurable tools to be used in understanding the problem I have at hand, and manipulating them into what I what I want them to become, to get the results I want.</p>
-<p>This is what philosophy is an element of, for me, and how I will be using it, in this book.
-.. topic:: 2.7: The Philosophy of Pragmatism</p>
+<p>This is what philosophy is an element of, for me, and how I will be using it, in this book.</p>
 <p>Pragmatism is a formally written up philosophy, and you can read more in-depth about it on the Internet or various books.</p>
 <p>For the purpose of this book, we&#8217;ll be using it in it&#8217;s core form, in my usage, which is:</p>
 <p>&#8220;Pragmatism is when you only evaluate an action based on the effects, and nothing else.&#8221;</p>
@@ -1266,8 +1216,7 @@ This database handles requests in Transactions, and writes them to a journal fil
 <li>It might be soil conditions, and logistics of getting materials from Point A to Point B, or whatever)</li>
 <li>It has specifically desired effects, such as a set of interlocking canal segments of the Panama Canal, or a sky-scraper buildings ability to stay erect under it&#8217;s own enormous weight and support and movement of the soil, or the digital and physical equivalents in server operations.</li>
 </ul>
-<p>Regardless of the topic or domain, the initial approach to engineering a problem is the same.  Determine the environment and resources in play, determine the requirements of meeting our goal, determine the actions that can be taken to fulfill those requirements, create a plan to perform the actions, evaluate the plan&#8217;s methods of implementation, risks, etc, implement the plan, evaluate the implementation, whether we met our success criteria, and update the documentation based on the new state of the environment and resources.
-.. topic:: 3.1.1: A brief interlude on the Strengths and Weaknesses of Metaphors</p>
+<p>Regardless of the topic or domain, the initial approach to engineering a problem is the same.  Determine the environment and resources in play, determine the requirements of meeting our goal, determine the actions that can be taken to fulfill those requirements, create a plan to perform the actions, evaluate the plan&#8217;s methods of implementation, risks, etc, implement the plan, evaluate the implementation, whether we met our success criteria, and update the documentation based on the new state of the environment and resources.</p>
 <p>There is a trade-off on Metaphors, and it has to do with expert-knowledge and accuracy.</p>
 <p>Metaphors, in my opinion, are most useful when are you not an expert on the subject of the metaphor, or defer your expertise to see the metaphorical example being used as tool for communication.</p>
 <p>If I give the example of:</p>
@@ -1280,8 +1229,7 @@ This database handles requests in Transactions, and writes them to a journal fil
 <p>This can also be a useful tool in determining if you understood someone correctly, as you can re-frame what you understand of their point with a different metaphorical topic, allowing them to re-map what they meant to your new metaphor, and if they are agree, you are both likely thinking of very similar things.  Going back and forth like this, when there is still mis-alignment, choosing new metaphorical topics, or changing the reference of the metaphor, can allow a complex topic to be worked through in a shorter period of time than going to full-fundamental-definitions and working up from there.</p>
 <p>The &#8220;Expert&#8217;s Curse&#8221; is a real thing, and doesn&#8217;t just ruin movie plots (&#8220;We are 10 digits into hacking the mainframe password, but they are using 49-bit encryption, so it will take two more hours.  You need it done in 10 minutes?  We&#8217;ll make it happen.&#8221;), but also can ruin the intention of any type of alternative explanation, which is trying to expand on an idea in a hand-wavy-kind-of-way.</p>
 <p>This is an attempt to get you to use more information than what is being provided, which you already internally know, instead of explicitly providing all the information.  People have amazing inherent skills at filling in this information, and while this works best in spoken conversations (say, where you could finish the other person&#8217;s sentence), metaphors are an attempt to do that explicitly by providing a non-related but comparable reference.</p>
-<p>The goal of communication is the exchange of ideas, and it is important to always return to this goal, s we can remove anti-goals, such as competition, or &#8220;Being Right&#8221;, or any other anti-goals that get in the way of communicating in a fashion that allows us to achieve our True Goals.
-.. topic:: 3.2: Difference between Application and Operational Logic</p>
+<p>The goal of communication is the exchange of ideas, and it is important to always return to this goal, s we can remove anti-goals, such as competition, or &#8220;Being Right&#8221;, or any other anti-goals that get in the way of communicating in a fashion that allows us to achieve our True Goals.</p>
 <p>Is there a difference between Logic that is written for Operations automation and Logic that is written for non-Operations?</p>
 <p>In my opinion, there is, and it is a big difference.  It doesn&#8217;t need to exist, but it does exist, and they are not mildly different, but extremely different, at present ({{ CURRENT_YEAR }}).</p>
 <p>I see this changing more in the future, as distributed programming environments not only become normal, as they are are now, but that we start to get generational levels of experience in the field.  Generation Levels of Experience is required because there are many lessons to be learned, and then summarized, and then classified, and then come up with procedures for handling, and then generationally iterate on all of this, and this work has barely begun.</p>
@@ -1320,8 +1268,7 @@ This database handles requests in Transactions, and writes them to a journal fil
 <p>Additional to the Logic required to handle failures, is that Application code needs to be very stable for-it&#8217;s-own-purposes, and adding in this kind of Logic means that during failures more cases may be found that could be handled, which means more changes to the Logic surrounding database access, which means more change/churn, and this leads to more potential bugs.  Specifically the kind of bugs that have data access requests failing, which is something no one wants.  This doesn&#8217;t mean that better Logic shouldn&#8217;t be written for database access, but it does need to be written very well, and with an Operational understanding, especially around the matrix of failure cases.  Using a slicing-the-pie methodology for handling errors is an important tool for not missing any of the potential failure cases.</p>
 <p>While I think with better education, and better base-libraries we can solve these problems and Application Logic can be more like Operational Logic in handling failures, or in fact leverage the same Logic, so that they are working hand-in-hand, I am making this point because this is not currently standard, and has never been historically standard anywhere that I am aware of.</p>
 <p>Another thing that Operational Logic needs to do, is to simply have more information about the operational environment.  Seems like common sense, but since we are building from the foundations, it is necessary to state the details.  Without meta information about the environment, Operational Logic will not be able to make the same kind of decisions that a Human performing Manual changes would have access to.</p>
-<p>As we get into what it takes to construct Operational Logic the brief description I have given here will be born out by many more details and along many more axes, which will give better insight into  how these things are different, but for now it is sufficient that we can see that Application and Operational Logic are indeed different things.
-.. topic:: 3.2.1: Many applications and services.  One Operational environment</p>
+<p>As we get into what it takes to construct Operational Logic the brief description I have given here will be born out by many more details and along many more axes, which will give better insight into  how these things are different, but for now it is sufficient that we can see that Application and Operational Logic are indeed different things.</p>
 <p>Another difference between Operational Logic and Application Logic has to do with the nature of their environments.</p>
 <p>In a given organization there is generally only one &#8220;Production Environment&#8221;.  It may span many data centers, and there may be regional data center teams to support the physical side of the operations environment, but it generally by classified and worked on as a single environment.</p>
 <p>There are organizations who break these up, but they are frequently either regulated businesses, or ancient, or have some other external reason for running segmented Production Environments.  In general, companies, even very large ones with the largest Production server collections, only have one Production Environment (which may contain many services and security zones).</p>
@@ -1353,8 +1300,7 @@ This database handles requests in Transactions, and writes them to a journal fil
 <li>Not introducing problems into the environment, and prioritizing solving ones that currently exist</li>
 </ul>
 <p>Again, we could align these in terms of how they are similar, and we will find that they are mostly similar, but there is a difference between Operational Logic and Application Logic, and in this circumstance we want to understand the differences more than the similarities, as we are dividing the two subjects for inspection.</p>
-<p>I will not spend much more time on Application Logic, as there is much writing about that in non-Operational literature that covers the current understanding of how to do that, and that is not the focus for Operational Engineers.
-.. topic:: 3.2.1.1: Making more dependencies.</p>
+<p>I will not spend much more time on Application Logic, as there is much writing about that in non-Operational literature that covers the current understanding of how to do that, and that is not the focus for Operational Engineers.</p>
 <p>Now that I&#8217;ve established there are two different things, with different qualities, Operational Logic and Application Logic, let&#8217;s get into what goals Operational Logic should have:</p>
 <ul class="simple">
 <li>Operation Logic should try to minimize external dependencies, especially networked dependencies.</li>
@@ -1381,8 +1327,7 @@ This database handles requests in Transactions, and writes them to a journal fil
 </ul>
 <p>Minimizing dependencies, locally caching data are two strategies in making resilient Logic, but the real goal is that the Logic continues to function exactly as you designed it.</p>
 <p>By using Slicing The Pie methods of black boxing work that needs to be done, one can create a system that anticipates failures, and continues to function properly with the resources that are still available to it.</p>
-<p>This will the be automation we are going to inspect and start modeling soon.
-.. topic:: 3.2.1.2: Like 1 big computer.</p>
+<p>This will the be automation we are going to inspect and start modeling soon.</p>
 <p>One reason why the difference between Operational Logic and Application Logic matters if that it provides an insight into another way of looking at the Production Environment.</p>
 <p>By seeing it as a &#8220;one-way-to-do-it&#8221; system, where we mostly want things done one-way, we can actually look at the entire collective of Production Operations as a single entity.</p>
 <p>We can abstract it so that it is &#8220;one big computer&#8221;, with many nodes, which can be configured as if it one a single computer, with containers in it, or rather different directory mount points.</p>
@@ -1397,8 +1342,7 @@ This database handles requests in Transactions, and writes them to a journal fil
 <p>Since we need to move forward in our industry, and distributed systems are here to stay, and we need to advance our methods of thinking about how to manage those distributed systems, I think we can safely take the acronym &#8220;DOS&#8221; for our purposes.</p>
 <p>One big computer, many nodes, heterogeneous Operating Systems, and services.  All able to be managed as a single system.</p>
 <p>It&#8217;s a big deal, and I predict whether this terminology is adopted or not, that in the future we will end up seeing Production Environments in this way, because of the efficiencies that this will lead to.</p>
-<p>In any case, I&#8217;m going to detail how to build this sort of thing in this book, so you have a path to getting access to this technology in your hands already.
-.. topic:: 3.3: Axiomatic Engineering</p>
+<p>In any case, I&#8217;m going to detail how to build this sort of thing in this book, so you have a path to getting access to this technology in your hands already.</p>
 <p>We&#8217;ve been building up to this for a while, introducing different spectrums or axes for different Attributes of this or that, but do they fit into a system?  They do!  And I call this &#8220;Axiomatic Engineering&#8221;, which is like working with mathematical Axioms, to create engineering solutions.</p>
 <p>In this way we can detail all of the Attributes that we would like, and specify the spectrums (or axes) of those attributes, and then assign values to each attribute axes that we would like.</p>
 <p>Do we want more Consistency or less Consistency?  Do we want more Availability or less Availability?</p>
@@ -1460,8 +1404,7 @@ This database handles requests in Transactions, and writes them to a journal fil
 <li>Manageable: Speed: Slow &lt;&#8212;&gt; Fast</li>
 </ul>
 <p>That looks a little better to me.  We need that Visibility, because it speaks to knowing what is going on.  I would rather than that then easier to faster management, as I need it to ensure my work is correct, or help with troubleshooting if an error is introduced.</p>
-<p>Now, we have some Attribute Axes, does that mean we have Axioms?  Not quite, but we are getting close.
-.. topic:: 3.3.1: 90-9-.9-.09% Rules for Priorities</p>
+<p>Now, we have some Attribute Axes, does that mean we have Axioms?  Not quite, but we are getting close.</p>
 <p>Let&#8217;s take a brief tangent to talk about prioritization.  We made a couple prioritized lists earlier, and they were listed sequentially, but not numbered or evaluated in terms of &#8220;how much more important&#8221; each element was.</p>
 <p>There are many ways to rank priorities, and I have come up with a methodology that I like which I call the: &#8220;90-9-0.9% rule&#8221;, and can be said as the &#8220;Ninety-nine-point-Oh-nine rule&#8221; to make that actually pronounceable.</p>
 <p>The progression continues on forever, with the previous item being ten times (10x) more important than it&#8217;s following item.</p>
@@ -1516,8 +1459,7 @@ This database handles requests in Transactions, and writes them to a journal fil
 <p>The take-away for this section is not &#8220;this is a good technique, use it&#8221;, although I am currently using it, and I do recommend it, but the larger lesson here is that you can make up these types of devices yourself, and you should.</p>
 <p>Come up with your own numbering schemes, labeling schemes, and determine the exact meaning for each of them, and reasoning behind why they are a valid method of working, and then suggest other people use them yourself.</p>
 <p>This is the type of Engineering discussions I would like to see more of, and the type of Engineering thought that I believe the Operational Engineering world could benefit from.</p>
-<p>We get clear sets of data, that are quantifiable, and qualifiable, and we can test ideas against them, and communicate clearly about what our priorities are, down to which axes of information, and we can change the attribute axes values or priorities and talk about how those changes would affect our designs, and evaluate how well our implementations did against those values during and after implementation.
-.. topic:: 3.3.1.1: Assigning different people different priorities is what makes up different roles.  This allows different points of view, to make the organization stronger and more thoughtful, by design.</p>
+<p>We get clear sets of data, that are quantifiable, and qualifiable, and we can test ideas against them, and communicate clearly about what our priorities are, down to which axes of information, and we can change the attribute axes values or priorities and talk about how those changes would affect our designs, and evaluate how well our implementations did against those values during and after implementation.</p>
 <p>Now, we have created a system for being able to prioritize our Attribute Axes that we are using to evaluate our goals.</p>
 <p>How do we use these, is it one-size-fits all?  Well, that doesn&#8217;t sound like our working definition of Engineering, so that can&#8217;t be the right answer.</p>
 <p>Now, for &#8220;How do we prioritize work in Production?&#8221;, this starts to become more specific, and we can generally use this as a set of priorities.</p>
@@ -1532,8 +1474,7 @@ This database handles requests in Transactions, and writes them to a journal fil
 <p>Having this internal opposition of priorities can cause friction, but this friction (if done in a healthy way) will lead to better discussions about the issues than if everyone had the same perspective, and so the discussion didn&#8217;t take place at all, because there was no opposing point of view.</p>
 <p>This is the &#8220;Devil&#8217;s Advocate&#8221; of Engineering, but shouldn&#8217;t be used just to throw out opposing ideas, as that is also not Axiomatic Engineering, but should be applied to a set of Attribute Axes and Priorities with a different value set, that has a different perspective.</p>
 <p>This is always the case, but it not always explicitly the case, in fact it is rarely so in my experience.  Explicitness could be seen as &#8220;pedantic&#8221; or &#8220;argumentative&#8221;, when it does not need to be this at all, and should be encouraged in the time allowed for discussions.</p>
-<p>The organization and department should make an effort to provide timelines that allow some period of these discussions, at least for most important changes (things that are direction changes, direction-setters, or are risky are the most important).
-.. topic:: 3.3.2: Creating Axioms from Axes</p>
+<p>The organization and department should make an effort to provide timelines that allow some period of these discussions, at least for most important changes (things that are direction changes, direction-setters, or are risky are the most important).</p>
 <p>This will be one of the few places in the book that I use an external definition to help us get more clarity.  I used to always lead with dictionary definitions and quotes for things and I still am a fan of both these things, but if I am writing a book about how to think about things and evaluate them for yourself, it doesn&#8217;t help to constantly source external material as an authority.</p>
 <p>So accordingly to the greatest authority that was easily accessible on my phone as I wrote this, there are generally two types of Axioms.  Logical Axioms and Non-Logical Axioms.</p>
 <p>Logical Axioms are where you say something so simple and concise, that it couldn&#8217;t possible by disagreed with.</p>
@@ -1558,8 +1499,7 @@ This database handles requests in Transactions, and writes them to a journal fil
 <p>By using the Prioritization of our Attribute Axes values, we can make other Logical Axioms (that deal with Priority).</p>
 <p>We can also make Non-Logical Axioms by coming up with a system for how to discuss and compare the different things we are working on.  We can turn the Logical Axioms into variables, and create formulas out of them to determine what is a Logical course of action.</p>
 <p>We can also create Non-Logical Axioms once we start building these formulas, as we can decide how things can be treated inside the algorithm to express different ideas, and get different results.</p>
-<p>To go back to Philosophy, these elements are part of the Philosophy of Mathematics.  These do not need to be strictly used in an academic or strictly used in standard methods of statical analysis, but can be used in any circumstance, given that we have put sufficient thought and detail so that they can be used discretely and deterministically.
-.. topic:: 3.3.2.1: Impersonal decision making through communicated values and priorities using Axioms</p>
+<p>To go back to Philosophy, these elements are part of the Philosophy of Mathematics.  These do not need to be strictly used in an academic or strictly used in standard methods of statical analysis, but can be used in any circumstance, given that we have put sufficient thought and detail so that they can be used discretely and deterministically.</p>
 <p>One of the immediate benefits that we can apply to our everyday jobs is to use these Axioms, and their component Attribute Axes and Priorities to determine what actions we should take, and do so in a non-personal way.</p>
 <p>These days, when I make decisions, I don&#8217;t do it because &#8220;I want to do X&#8221; or &#8220;I think X is a good idea&#8221;, or &#8220;I had problems when I do Y, so I do X instead&#8221;.</p>
 <p>I make decisions based on turning things into component pieces, evaluating them, and determining what action best aligns with all of the values (Alignment).</p>
@@ -1581,8 +1521,7 @@ This database handles requests in Transactions, and writes them to a journal fil
 <p>In this way, I am not really making any decision at all, personally, I am merely an agent of this system, mapping values as I understand them into a set of Prioritized Attribute Axes, which map to goals, which map to a result (effects) that we want, and when any variable changes, the results might change.</p>
 <p>This doesn&#8217;t mean that I don&#8217;t bring my experience into the picture, because I do, but my experience is mapped into this Attribute Axes and Priorities, and can be expressed in a deterministic and explicit manner.</p>
 <p>They can be written into a Data Source and evaluated by Logic, and they can be graphed, statistically analyzed and revision controlled for historical reference.</p>
-<p>This is how I make judgement calls in a &#8220;non-personal&#8221; way, and I assert that this is a valid way to proceed with making Engineering decisions.
-.. topic:: 3.3.3: Fashion Oriented Engineering</p>
+<p>This is how I make judgement calls in a &#8220;non-personal&#8221; way, and I assert that this is a valid way to proceed with making Engineering decisions.</p>
 <p>This section is a little tricky for me, because it&#8217;s a thin line between just gathering information and using it, and &#8220;blindly following things&#8221; or simply acting out fashions.  These are all highly subjective, and trying to write up the history of these &#8220;Fashion Eras&#8221; in technology mostly reads like it is a valid progression.  The problem is to the extent any information is valid, for your context, not that the information contains potentially valid information.</p>
 <p>This is the problem with rationalization, and anything can be rationalized.  However, Rationalization and Engineering are not the same thing.</p>
 <p>So I&#8217;ll just that simply state that reading other organization&#8217;s Public Relations releases on what they are doing and how they are doing it, is frequently information one cannot validate.</p>
@@ -1601,8 +1540,7 @@ This database handles requests in Transactions, and writes them to a journal fil
 <p>So, Buyer Beware!  Engineering blogs are &#8220;press releases&#8221;, in fact all public communications are, and like any press release they are effectively &#8220;selling&#8221; something, such as how great a place they are to work, or how efficient and intelligent they are.</p>
 <p>There is nothing wrong with these press releases, they are a good thing, as they share information, and may be very useful.  However, they should be taken as information in the sense of, &#8220;Organizating X made a press release where they said Y.&#8221;</p>
 <p>This is true, and can be useful.  Simply doing what one interprets from their release doesn&#8217;t even mean that they communicated it properly, or their intent was understood properly, and it is a summarization, so it is only giving a limited insight into the reality behind the post, at best.</p>
-<p>Just something to keep in mind.  Fashion and Engineering are not compatible in making decisions, and there is a unfortunately lot of Fashion going on, in my experience.
-.. topic:: 3.4: Evaluating changes.</p>
+<p>Just something to keep in mind.  Fashion and Engineering are not compatible in making decisions, and there is a unfortunately lot of Fashion going on, in my experience.</p>
 <p>Now that we have established how to set up Attribute Axes, Priorities and create Axioms we can start to look at how to make evaluate changes, before making them and afterwards.</p>
 <p>Let&#8217;s start by creating an example problem, by setting up the environment for it, current state, and our goals (end state).</p>
 <p>Let&#8217;s start with a simple website with some dynamic content, which we are deploying.</p>
@@ -1712,8 +1650,7 @@ This database handles requests in Transactions, and writes them to a journal fil
 <p>I will rate the Push option as having a Can Scale value of 0.5.  It can scale, but will start to have problems as the target server count gets bigger.  SCP is not as fast as HTTP, and is not set up to handle as many simultaneous connections.</p>
 <p>I will rate the Pull option as having a Can Scale value of 0.75.  This is still not an amazingly scalable architecture, but it has the ability to scale better than the previous one, so I am leaving room for more-scalable solutions, but indicating that it is clearly superior to the Push option in this single Attribute Axis.</p>
 <p>Now, let&#8217;s come up with another spectrum, which I will call Knowability (as we have used generically before), but will be more specific in this case:  Do we know all target servers got the new code?  Do we know they all installed the new code?  Do we know they are all running the same code?  This is what Knowability will mean for this case.</p>
-<p>...tbc....
-.. topic:: 3.4.1: Alignment</p>
+<p>...tbc....</p>
 <p>Alignment is one of the most important concepts of building efficient systems.</p>
 <p>Any system can be described in a number of ways, but let us consider a system that is described as nodes and links between them, or edges, so that can be describe a system as a Graph.</p>
 <p>Any point of interest in the system can be described as a node, and the connections between these points of interest are our links or edges.</p>
@@ -1751,8 +1688,7 @@ This database handles requests in Transactions, and writes them to a journal fil
 <p>In future sections I will go into how Non-Local Alignment is one of the bigger problems we have to deal with in modern organizations today, because even good Local Alignment may yield poor Non-Local Alignment, as two or more sub-systems are working together in a larger integrated system, and while they may be locally efficient, they are not globally efficient.</p>
 <p>With this in mind, spend some time thinking now about environments you have worked in which had services whose poor Alignment lead to problems.  This might mean that one inefficient service blocked more-efficient services from being created because of the overlap they would have, and that the existing service was seen as &#8220;Good Enough&#8221;, even though it blocked progress and improvements due to inefficiently being Aligned to the future-good-state that you would like to create.</p>
 <p>In environments where I work, I see this constantly.  Almost every existing project is created inefficiently, and causes us to be blocked from moving forward to more efficient services (in that area and others) due to the inefficient designs of the existing services.  Can you see this inefficiency in your own environment?</p>
-<p>While we want to have Globally Efficient Alignment, if you find yourself in an environment where there is poor global efficiency, then you must start with a single project that has good Local Alignment efficiency, and attempt to branch out from there, creating either new Local efficiencies, or leveraging your now-existing good Local Alignment to create larger and larger inter-connected efficient systems, which can eventually replace the older less-aligned and less-efficient systems.
-.. topic:: 3.4.2: The Problem with the &#8220;Best&#8221;</p>
+<p>While we want to have Globally Efficient Alignment, if you find yourself in an environment where there is poor global efficiency, then you must start with a single project that has good Local Alignment efficiency, and attempt to branch out from there, creating either new Local efficiencies, or leveraging your now-existing good Local Alignment to create larger and larger inter-connected efficient systems, which can eventually replace the older less-aligned and less-efficient systems.</p>
 <p>Best is a concept that is poorly understood in our culture.  It is frequently used, but rarely clarified, because it&#8217;s vagueness gives it rhetorical power, but in engineering this is simply a logical fallacy that leads us to poor choices and low efficiency.</p>
 <p>In order to take a term like &#8220;best&#8221; and use it in a manner that allows us to make good choices and have high efficiency, we must understand what other properties &#8220;best&#8221; has, besides just being &#8220;the best&#8221;.</p>
 <p>What are some properties of &#8220;best&#8221;?</p>
@@ -1781,8 +1717,7 @@ This database handles requests in Transactions, and writes them to a journal fil
 <p>In comparison with &#8220;better&#8221;, we have to be more explicit.  Our language compels us to describe the &#8220;better attributes&#8221; explicitly, and begs that we also describe the &#8220;worse attributes&#8221; in comparison.  &#8220;Best&#8221; does not beg that we describe the &#8220;worse&#8221;, because we don&#8217;t care about the worst methodology or worst design.  Our minds enjoy the relationships of extremes.  &#8220;Better&#8221; leads to &#8220;more good&#8221; and &#8220;less good&#8221;; &#8220;Best&#8221; leads to &#8220;worst&#8221;.</p>
 <p>In both &#8220;best&#8221; and &#8220;better&#8221; we do care about their peer results, but &#8220;best&#8221; claims to have no peers, while &#8220;better&#8221; usually implies there are competing peers.</p>
 <p>Thought exercise:  In what circumstances currently do you use the term &#8220;best&#8221;?  When applying my critique above, what strikes you as something you need to think about more in terms of &#8220;best&#8221; or &#8220;better&#8221;?</p>
-<p>Can you think of a single thing you currently describe and think about as &#8220;best&#8221; that it would be better to reframe as &#8220;better&#8221;?  What tangible benefits could this immediately bring you, from this change in your thinking and decision making abilities?
-.. topic:: 3.5: Understanding Engineering</p>
+<p>Can you think of a single thing you currently describe and think about as &#8220;best&#8221; that it would be better to reframe as &#8220;better&#8221;?  What tangible benefits could this immediately bring you, from this change in your thinking and decision making abilities?</p>
 <p>I&#8217;ve said before that I think Engineering is:</p>
 <p>{{ definition_begin__engineering }}
 &#8220;The efficient use of resources that meet requirements which sufficiently satisfy your goals.&#8221;
@@ -1813,8 +1748,7 @@ This database handles requests in Transactions, and writes them to a journal fil
 <p>What does Engineering mean to you?</p>
 <p>How would you summarize it in a sentence, as I have?  How does your summary differ from mine?  What advantages do you see in your summary over mine?  Can you make a denser and more correct description?</p>
 <p>Brevity allows for a type of clarity which details do not provide, as details allow for a type of clarity which brevity does not provide.  They are the extremes of the scale of all valid information.</p>
-<p>Feel free to share your personal summaries with me, I am happy to hear how others view things, and expand my own understanding accordingly.
-.. topic:: 3.5.1: The Use of Resources</p>
+<p>Feel free to share your personal summaries with me, I am happy to hear how others view things, and expand my own understanding accordingly.</p>
 <p>For our purposes, Resources can be summarized to the short list of:</p>
 <ul class="simple">
 <li>Overall Time</li>
@@ -1830,8 +1764,7 @@ This database handles requests in Transactions, and writes them to a journal fil
 <p>Additionally, engineering companies often create their own software, and this is required for managing your own operational environments, as there will be somethings that are unique about your organization, even if you try to make it as generic as possible, from the software-infrastructure side of things.</p>
 <p>Finally, even commercial software requires configuration, troubleshooting, maintenance, etc, so in comparison with do-it-yourself style software, the difference is only in Personnel Time and Money, and it may well be cheaper to do it either way, depending on your unique situation and goals.</p>
 <p>How you use resources will determine the efficiency in the interactions between them, and the overall level of quality and quantity of work that you can perform, which will impact the success of your goals, and the success of your organization.</p>
-<p>Using resources efficiently is of prime importance for any Engineer.
-.. topic:: 3.5.1.1: Evaluate the environment.  Know the present.  Real vs. Virtual.</p>
+<p>Using resources efficiently is of prime importance for any Engineer.</p>
 <p>Do you remember the term &#8220;Knowability&#8221;, which I introduced towards the beginning of the book?</p>
 <p>If not, please refresh your memory quickly here:  {{ section__knowability }}</p>
 <p>In order to make efficient use of our resources, we must understand our resources, in as much depth as possible, in as many categories as possible, for our given cost-benefit requirements, to meet our goals.  So, we want to know &#8220;almost everything about everything&#8221;, while trying to minimize that into as few things as possible, because keeping track of more things is more work than keeping track of less things, and so is less efficient.</p>
@@ -1854,8 +1787,7 @@ This database handles requests in Transactions, and writes them to a journal fil
 <p>In terms of Monitoring, this means that all time series collected data, and other collected data, is aged.  It has an age that is older than 0 seconds, in which that information was &#8220;accurate-as-of-Now&#8221;, but the &#8220;now&#8221; that you are looking at is actually aged information.</p>
 <p>The only requirement is that this information is &#8220;new enough&#8221; to be considered &#8220;now&#8221;, but it is never truly &#8220;Now&#8221; that you are looking at.  This is important to keep in mind, since different decisions require a different level of &#8220;freshness&#8221; of data, to be a decision made from valid data.</p>
 <p>Thought experiment: What do you currently know about your own environment?  What don&#8217;t you know?  What did you think you knew before you read this, but changed your mind as you read?</p>
-<p>How can you use this perspective to improve your efficient use of your resources?
-.. topic:: 3.5.1.2: Modeling</p>
+<p>How can you use this perspective to improve your efficient use of your resources?</p>
 <p>To create a Model of something, is to try to &#8220;map&#8221; it some way.  Models can be made in any way you can think of, but typical models are things like:</p>
 <ul class="simple">
 <li>Data Schemas: such as in a relational database.</li>
@@ -1881,8 +1813,7 @@ This database handles requests in Transactions, and writes them to a journal fil
 <p>In contrast, a Model for understanding does not need to be highly synchronized, or absolutely accurate, because it only needs to be &#8220;good enough&#8221; to provide the required insight.  More accurate and more synchronization can assist in providing better accuracy, but less accuracy might be sufficient depending on your goals for better understanding.</p>
 <p>Creating Models for understanding has a lot of documentation that already exists about it, and there are many mature areas of study that currently exist for this.</p>
 <p>Creating Models for control does have some good examples in the wild, and some that are taught in mature areas of study, but I am of the opinion that we still do not have much documentation in this area, so I will do my best to describe how I do this effectively, quickly, and how I get good results every time.</p>
-<p>Modeling is a core skill in Engineering, so if you do not already consider yourself a proficient modeler, you should take any attempt to start creating more models when opportunities arise, as practice improves all skills.
-.. topic:: 3.5.1.2.1: Black-Boxing the World</p>
+<p>Modeling is a core skill in Engineering, so if you do not already consider yourself a proficient modeler, you should take any attempt to start creating more models when opportunities arise, as practice improves all skills.</p>
 <p>Once we accept that anything can be modeled, then we can go about modeling everything that is useful.  We can model for Understanding, but it is better to model for Control, since you get both.</p>
 <p>Remember the introduction to Pragmatism?  If not, check here:  {{ section__pragmatism }}</p>
 <p>Using Pragmatism, we can evaluate anything on only the effects that they cause.  These effects can be turned into schema, as can any additional data needed to model the effects.</p>
@@ -1895,8 +1826,7 @@ This database handles requests in Transactions, and writes them to a journal fil
 <p>Remember the &#8220;Universal Machine&#8221; concept?  If not, check here:  {{ section_um }}</p>
 <p>Universal Machines map Inputs, Outputs and Side-Effects, which is just a more explicit version of a Function, which maps Inputs and Outputs, and may perform Side-Effects, but does not explicitly model them for Control purposes.</p>
 <p>Using modeling, by way of Pragmatism, through the Universal Machine interface, we can model anything and everything.  We can Black-Box the World, or wrap the world full of &#8220;black boxes&#8221;, which contain something that has the signature of the Universal Machine (Input/Output/Side-Effects).</p>
-<p>Later, I will go over how to actually do this, but for now I just wanted to point out what our currently defined terminology and tools allow us to do, which is quite a lot.
-.. topic:: 3.5.1.3: Algorithms</p>
+<p>Later, I will go over how to actually do this, but for now I just wanted to point out what our currently defined terminology and tools allow us to do, which is quite a lot.</p>
 <p>There are lots of important Algorithms in Engineering, they are Virtual and are frequently constrained to these types of things:</p>
 <ul class="simple">
 <li>Searching for data: Finding things based on some matching criteria</li>
@@ -1949,19 +1879,9 @@ for path in paths:</p>
 EnsureDirectoryExistsIdempotentFunction(dir_data)</div></blockquote>
 <p>{{{ code_end }}}</p>
 <p>This code assumes a LoadYaml() and EnsureDirectoryExistsIdempotentFunction() exist for convenience, and do what they say they do.  This will iterate over our list of YAML files that contain our directory data, to Idempotently ensure exist.</p>
-<p>Over the course of the coming chapters we will introduce many Algorithmic Properties which give us good results in Operations, and we will compare when to use them, and how to use them efficiently.
-.. topic:: 3.5.1.4: Centralized vs. Decentralized</p>
-<p>TODO:  Push vs Pull, when is it centralized?  Do you want tight control, or loose control?  Both have their effects.  People typically want tight control, or the effects of tight control (knowledge that it worked).
-.. topic:: 3.5.1.5: Distributed Systems
-.. topic:: 3.5.1.6: Distributed Data
-.. topic:: 3.5.1.7: Hardware: Fixed vs. Utility vs. Cloud
-.. topic:: 3.5.1.7.1: Fixed Hardware
-.. topic:: 3.5.1.7.2: Utility Hardware
-.. topic:: 3.5.1.7.3: Cloud Hardware
-.. topic:: 3.5.1.7.3.1: <a href="#id3"><span class="problematic" id="id4">*</span></a>aaS</p>
-<p>Everything as a Service.
-.. topic:: 3.5.1.7.4: What do you have to care about?
-.. topic:: 3.5.1.8: Types of Complexity</p>
+<p>Over the course of the coming chapters we will introduce many Algorithmic Properties which give us good results in Operations, and we will compare when to use them, and how to use them efficiently.</p>
+<p>TODO:  Push vs Pull, when is it centralized?  Do you want tight control, or loose control?  Both have their effects.  People typically want tight control, or the effects of tight control (knowledge that it worked).</p>
+<p>Everything as a Service.</p>
 <p>There are a number of different kinds of complexity that we have to cope with while performing Engineering tasks.  Let&#8217;s enumerate them so we can refer to them explicitly, instead of clumping them all together as &#8220;complexity&#8221; or having to describe them each time.</p>
 <p>Each of these types of complexity also represent a spectrum or axis, as we only think of complexity as something heads toward 1.0, while things closer to 0.0 on the axis are seen as simple.</p>
 <p>This means that any issue can be evaluated on all types of complexity, to get a better understanding of it&#8217;s total &#8220;complexity shape&#8221;.</p>
@@ -1994,17 +1914,7 @@ EnsureDirectoryExistsIdempotentFunction(dir_data)</div></blockquote>
 <p>Additionally I have been adding sections and removing them as I see fit.  Im not trying to match this data up, and Im not trying to count words in my sections, I just write what seems to fill the topic section, and move on.</p>
 <p>And yet the percentage complete to my initial rough-calculation of 208,000 words, remaining in-line with the number of sections I have.  I will do an analysis on this from my Github entries, since all of this is in version control once the book is done.</p>
 <p>This is a topic that apparently works very well with statistical analysis, and the results are &#8220;amazingly accurate&#8221; as a study of the population of words and sections I write over time.</p>
-<p>Apparently there is some kind of statistical slant I have to writing a certain number of words a day, a certain number of sections a day, and so on.
-.. topic:: 3.10.1: Across many things: Appliable
-.. topic:: 3.10.2: For a given thing: Not Applicable
-.. topic:: 3.10.3: Exercises
-.. topic:: 3.11: How to Select Tools
-.. topic:: 3.11.1: Many stand alone tools will end up being replaced
-.. topic:: 3.11.1.1: Text and data and the purpose of the tools
-.. topic:: 3.11.1.2: Explain Replacement of DNS, DHCP, etc
-.. topic:: 3.11.1.2.1: Zones, Subnets, etc
-.. topic:: 3.12: Name spaces
-.. topic:: 3.13: Structure as Logic</p>
+<p>Apparently there is some kind of statistical slant I have to writing a certain number of words a day, a certain number of sections a day, and so on.</p>
 <p>Explain how I use schema and other structures in place of Logic, reducing the total amount of Logic, and making the gap between working features and Logic-creation much smaller.</p>
 <p>How this scales better than not doing this, writing everything as Logic without help from Structure.</p>
 <p>Structure is Efficient Alignment, in practice.</p>
@@ -2016,36 +1926,9 @@ EnsureDirectoryExistsIdempotentFunction(dir_data)</div></blockquote>
 <p>This is what makes the elimination of Classes of Work possible.</p>
 <p>Through understanding our environments and using systemic thinking and the Slicing The Pie technique to ensure we have comprehensive coverage of anything we are looking at, we can pre-solve problems by going through all their states.</p>
 <p>In testing our solutions, we will find mistakes and incorrect assumptions we have made, and over time Reality will inform us of additional mistakes, incorrect assumptions and also contexts we were not aware of, or did not prioritize.</p>
-<p>As these new areas are added to our awareness, and we prioritize them we will continue to slice the pie into more sections which allow us to cope with these problems and pre-solve them as well.
-.. topic:: 4.7: Total elimination of manual work.  How to remove classes of work from being necessary.
-.. topic:: 4.8: Building the data and action chains, to create all workflow.
-.. topic:: 4.9: The data requirements:  Authentication, Authorization, Versioning, Change Management, Deployment, Pre-Post Deployment Actions, Schema Management
-.. topic:: 4.10: How to construct an unbreakable process.  How to stop that process from being completed/sealed, so that it breaks.  How to ensure it breaks all the time, by setting conditions accordingly.
-.. topic:: 4.10.1: Faux-automation.  Manual automation.  Automation-assist.  Full-automation.  Comprehensive Life-Cycle automation.
-.. topic:: 4.10.2: This can be started as Procedure for Humans, but it will not be unbreakable, as people will make mistakes entering data (running commands is entering data)
-.. topic:: 4.10.2.1: Entered on the right system?  Right command?  Right args?  Right path?  Right data?  Right goal?  Right everything?
-.. topic:: 4.11: Flexibility and dangers of an automation system.
-.. topic:: 4.12: Distributed OS.  DOS.  N units, all being controlled, configured and scheduling work.
-.. topic:: 4.12.1: Does not need a &#8220;traditional&#8221; cluster scheduler.  Can use these these for &#8220;cron&#8221; type jobs though.
-.. topic:: 4.13: Monitoring is the heart of automation.  You cant control what you dont have info on.
-.. topic:: 4.13.1: Instelligence:  Actionable?  Timely?  Relevant?  Correct?  (Cross check it, all must align)
-.. topic:: 4.14: Behavioral AI.  An expert system, build by experts in Ops and Biz goals.
-.. topic:: 4.14.1: Do not use fuzzy info until you have exhausted discrete/precise info.  And turn the fuzzy info into a discrete/precise data point, so it can be acted on cleanly by logic.
-.. topic:: 4.14.2: N of M failures is not fuzzy, even though it has a scalar value, and not boolean.
-.. topic:: 4.15: 3 States:  Now, Desired, Current State (Whats Out there?)
-.. topic:: 4.15.1: How to manage.  Importing, synthesizing, checking.
-.. topic:: 4.15.2: Versioning, commits, pre/post-commit logic.
-.. topic:: 4.16: Agent model.  Centralized model.
-.. topic:: 4.17: Library model.  RPC model.  Framework model.
-.. topic:: 4.18: ORM vs wrapping lib vs straight SQL/data query.
-.. topic:: 4.19: Scales,  1000s/millions, not billions.  Can make this &#8220;configuration scale&#8221; not &#8220;production deployment end-user scale&#8221;.  Optimize only when necessary, use tools that do heavy lifting for Time series data analysis, and import results and last N snippets into OpsDB.
-.. topic:: 4.20: Selective Data Updating for Pyramid method and Mesh method.
-.. topic:: 4.21: Compare Pyramid vs Mesh (p2p).  Pros and cons.
-.. topic:: 4.22: Introduce the dotted notation as a universal naming convention, for lookups, it can universally address any type of DAG data:   domain.sub.thing.11.field.subfield.11.arrayfield.20.subsubfield
-.. topic:: 4.22.1: <a href="#id5"><span class="problematic" id="id6">**</span></a>** Use this DAG lookup to go into YAML, DBs, etc.  Schema Man can allow this.  Can use sub-searches like globs (domain.thing.*.field) and translate that into SQL or whatever for more advanced usage.</p>
+<p>As these new areas are added to our awareness, and we prioritize them we will continue to slice the pie into more sections which allow us to cope with these problems and pre-solve them as well.</p>
 <p>In previous sections on Engineering I went over the philosophy and balance of engineering, and now I will break things into distinct components that we deal with, how they are related to each other, and how they fit into the overall toolbox of Engineering.</p>
-<p>Environments are natural Security Zones, because we have a goal in mind for everything inside an Environment, so everything has a similar base set of Security Requirements, and therefore a Security Posture that is required.
-.. topic:: 8.10.10.2: Tiered Security Zones</p>
+<p>Environments are natural Security Zones, because we have a goal in mind for everything inside an Environment, so everything has a similar base set of Security Requirements, and therefore a Security Posture that is required.</p>
 <p>Let&#8217;s make a map of what tiers we could have in security zones.</p>
 <ul class="simple">
 <li>Tier 1: Member of the organization.  Employee or outsider?</li>
@@ -2096,14 +1979,12 @@ EnsureDirectoryExistsIdempotentFunction(dir_data)</div></blockquote>
 <p>This is obvious when you think about Planetary Scale.</p>
 <p>We only have 1 Planet we are dealing with (for now, and then its the same thing all over, no change for Universal Scale Automation, or Multi-Versal Scale Automation), or whatever).</p>
 <p>We have 1 Planet now, and we can slice that pie up in lots of ways.  But do we really think that a single &#8220;set&#8221; of slices will be good enough to describe automating the entire planet?</p>
-<p>Of course not, we have so many different viewpoints on things that we will need many &#8220;contexts&#8221; into this, which is exactly what UMCs are.  They are the mappings to contexts, of all the ways of seeing the &#8220;slice-the-pie&#8221; method of understanding and controlling something, as big as a Planet/Universe/etc, and also being able to map with deterministic and accurate precious between those different contexts, with the best information available to you to do so (since some concepts may not map cleanly, and results will be accordingly &#8220;less good&#8221;).
-.. topic:: 10.2: Single Layer Systems</p>
+<p>Of course not, we have so many different viewpoints on things that we will need many &#8220;contexts&#8221; into this, which is exactly what UMCs are.  They are the mappings to contexts, of all the ways of seeing the &#8220;slice-the-pie&#8221; method of understanding and controlling something, as big as a Planet/Universe/etc, and also being able to map with deterministic and accurate precious between those different contexts, with the best information available to you to do so (since some concepts may not map cleanly, and results will be accordingly &#8220;less good&#8221;).</p>
 <p>The entire &#8220;OpsDB&#8221; as it has been presented in this book can be considered a single &#8220;context&#8221; or &#8220;layer&#8221; system because it was created so that all pieces were equal, relational, and shared a place with each other under concepts like Don&#8217;t Repeat Yourself (DRY), and other methodologies so that there would not be overlaying contexts.</p>
 <p>This would be different in a situation where an existing legacy system already existed, and the OpsDB was created in parallel, and they both had to share their work.</p>
 <p>However, in this last case it is unlikely you would want to create two UMCs, because the OpsDB will become the dominant system, and the legacy system will be deprecated, so there is no reason to spend the time mapping between them with UMs.</p>
 <p>If both systems were required, because of some requirement, and you wanted to maintain the different contexts independently, but wanted them to work together, or through each other&#8217;s interfaces (so that there was a single-operator for any given task), then a sub-set of UMCRs would be required to map the two contexts together.</p>
-<p>Generally, you will want to aim for a single-layer system because it is simpler, and requires less work to design and maintain, but if you find that you must have more complexity or complicated systems because of your requirements, then you can use the UM/UMC/UMCR methods to recursively cover all the differences between them in a comprehensive manner, if you implement the interfaces accurately.
-.. topic:: 10.3: Multi-Layer Systems</p>
+<p>Generally, you will want to aim for a single-layer system because it is simpler, and requires less work to design and maintain, but if you find that you must have more complexity or complicated systems because of your requirements, then you can use the UM/UMC/UMCR methods to recursively cover all the differences between them in a comprehensive manner, if you implement the interfaces accurately.</p>
 <p>If comprehensive automation systems can be created as a Single-Layer System, than why would we ever need Multi-Layer Systems?</p>
 <p>Why can&#8217;t OpsDB scale into a Planet Scale Automation system without UMCs and UMCRs?</p>
 <p>The reason is that OpsDB is taking a look at the data from a strictly virtual perspective.  It maps to physical devices, hardware and physical locations of things, and other physical attributes and issues, but it is primarily a logical system for controlling logical elements, which simply map to physical elements.</p>
@@ -2112,8 +1993,7 @@ EnsureDirectoryExistsIdempotentFunction(dir_data)</div></blockquote>
 <p>In essence, these will be new OpsDBs, written in the same method as the OpsDB I have laid out, but with very different goals and requirements, so that the current OpsDB has it&#8217;s purpose, and so do these additional supplementary OpsDBs.</p>
 <p>So, how can they all work together, in a way where things don&#8217;t break, and they don&#8217;t fight over resources (race conditions), and their different views of the systems, can be integrated together.</p>
 <p>This is where the UMCs and UMCRs come into play.</p>
-<p>Your logical OpsDB for controlling your system is a UMC, and your other OpsDB for meeting your other goals is another UMC, and the UMCRs connect them and allow them to work together, with their different views, but in complementary and non-conflicting ways.
-.. topic:: 10.4: N-M-... Layer Systems</p>
+<p>Your logical OpsDB for controlling your system is a UMC, and your other OpsDB for meeting your other goals is another UMC, and the UMCRs connect them and allow them to work together, with their different views, but in complementary and non-conflicting ways.</p>
 <p>Give examples of how we would need different systems that work together, and brief mappings between them.</p>
 <p>Use things like physical infrastructure, gas or electrical delivery grids, etc.</p>
 <p>In response to: <a class="reference external" href="http://euphoricus.blogspot.com/2015/11/everybody-is-doing-tdd-take-two.html">http://euphoricus.blogspot.com/2015/11/everybody-is-doing-tdd-take-two.html</a></p>
@@ -2165,8 +2045,7 @@ EnsureDirectoryExistsIdempotentFunction(dir_data)</div></blockquote>
 <p>Taken to it&#8217;s extreme, on that same spectrum, you go from the 3 things I just typed in, to the complete work of code you intended to produce, in it&#8217;s ideal fully-tested-and-shippable form.</p>
 <p>This is the full-spectrum of analysis:  From complete abstraction to complete concrete implementation.</p>
 <p>So we can tune the discussion to any parameter for both this spectrum, and any related axioms for determining the results of the work that we wish to get through our efforts.</p>
-<p>My point was mostly that we should not lose out on efficiency, if we desire efficiency, because we also desire commonality.  As they have a spectrum between them.  (Almost anything can be put with anything else into a spectrum, like two points making a line segment, so I&#8217;m not drawing from any specific examples here, more in idea-space)
-.. topic:: 11.8.1: &#8220;Best Practices&#8221; Means Not-Thinking</p>
+<p>My point was mostly that we should not lose out on efficiency, if we desire efficiency, because we also desire commonality.  As they have a spectrum between them.  (Almost anything can be put with anything else into a spectrum, like two points making a line segment, so I&#8217;m not drawing from any specific examples here, more in idea-space)</p>
 <p>Everyone wants to know a &#8220;good&#8221; way to do something, or better yet a &#8220;better&#8221; way of doing something, or best yet, the &#8220;best&#8221; way of doing something.</p>
 <p>And so, &#8220;Best Practices&#8221; were created, to be sold by authorities (of any type or experience level) as to what you should do under a given situation, often with little context at all in terms of pros-and-cons of the implementation, because the authors often have very little personal experience in managing the solution being offered.</p>
 <p>Why would I broadly declare this to be true?  Because for any given &#8220;best&#8221; solution to be published would require more caveats and warnings than any advice, because &#8220;best&#8221; is a very specific set of criteria, and they by definition are not taking any of your specific environmental issues into account.</p>
@@ -2176,19 +2055,16 @@ EnsureDirectoryExistsIdempotentFunction(dir_data)</div></blockquote>
 <p>Reading over the &#8220;Best Practices&#8221; of others is not in any way bad, and one should try to collect up all the ways that people are doing things, or at least all the major archetypes of those methods, so that one has a good perspective of external activity to help guide one&#8217;s own decision.</p>
 <p>But, then one should make one&#8217;s decision based on your own environment, your own understanding of your resources, your own understanding of your requirements, your own understanding of your goals, and in this way you can tailor any external or internally created methodology to meet those needs, and because you thought about it yourself, whenever you discover something is inefficient you have the tools to re-design the solution to meet the new problem and solve it.</p>
 <p>If you are simply following someone else&#8217;s recipe, you are unequipped to change the recipe, because none of the thinking about how to build and apply the recipe were your own, so changes will be not mapped to all the issues I mentioned.  Often people are more likely to just switch to a different recipe, which they see as a New Silver Bullet, because the last one didn&#8217;t work.</p>
-<p>Repeating this process wastes time and other resources, and you give up all the opportunity you could have been leveraging if you had made your own plans, because you could make smaller changes since you well-understood all the components and decisions.
-.. topic:: 11.9: The Similarities of All Code</p>
+<p>Repeating this process wastes time and other resources, and you give up all the opportunity you could have been leveraging if you had made your own plans, because you could make smaller changes since you well-understood all the components and decisions.</p>
 <p>Explain how all code is similar, and all programs are implementing 95%+ the same functionality, and 5%- unique functionality.</p>
-<p>Explain how to take this apart and put it back together again, and how to apply it.
-.. topic:: 11.10: Penalties of Over-Abstraction</p>
+<p>Explain how to take this apart and put it back together again, and how to apply it.</p>
 <p>{{ todo__needs_editing__maybe_moved_into_another_section }}</p>
 <p>Removing the real-worldness of things always makes them easier to abstract, and also makes them unequipped to solve any real-world problems as-is.</p>
 <p>Many times when a real-world problem is finally solved with the non-real-worldness-based abstracted solution, the fit is not a good one, because the abstracted solution factored out critical elements of the problem, and now the problem is solved less efficiently, and in some cases too inefficiently.</p>
 <p>It yields better results to design a solution to an exact problem, so that you can solve it as efficiently as possible, and then abstract the solution into two split pieces: an abstracted library layer and a real-world implementation layer.</p>
 <p>Then you know the abstracted version solves a problem efficiently, because it&#8217;s the exact solution you just designed to solve your problem-at-hand efficiently.</p>
 <p>If it worked for this problem efficiently, there are likely other problems that can also make highly efficient or sufficiently efficient use of the abstracted solution as well.</p>
-<p>This is obviously something that can be logically proved if someone wanted to spend the effort.
-.. topic:: 11.11: Releasing the poison</p>
+<p>This is obviously something that can be logically proved if someone wanted to spend the effort.</p>
 <p>This is the only non-Operations advice that I will give in this book, because I think it is the most important non-technical advice I can give, and it has to do with inter-human communication and inter-human relationships.</p>
 <p>No matter what society, culture or place you are born in, grow up in, and live in, there are elements around you that are harmful to you, and affect you in a negative manner.</p>
 <p>In dealing with other people, we often encounter negativity in many dimensions, whether it is in attitude, verbally, or physically.</p>
@@ -2208,15 +2084,13 @@ EnsureDirectoryExistsIdempotentFunction(dir_data)</div></blockquote>
 <p>If I have said or done something that may have caused a problem for someone, in any way, I can realize this and then mention it to them in passing, or ask to talk with them and go over what happened, and how I would prefer things were resolved, trying to fix any problems that were created, and create and keep a positive relationship with them.</p>
 <p>This, however, does not mean that I ignore problems because &#8220;problems are negative&#8221;.  I do not see problems being negative, even though &#8220;problem&#8221; and &#8220;obstacle&#8221; are normally negative-quality terms.  In engineering, and especially in more maintenance type aspects such as Operations, problems and obstacles are almost all we deal with.  Everything could be phrased as a problem, and it could be flipped around to being phrased as an opportunity.</p>
 <p>I don&#8217;t recommend trying to phrase problems as opportunities all the time, because it leads to sounding unrealistic, but if you look at them positively, they really are opportunities that one can take advantage of to greater or lesser degrees to get greater or lesser benefits, if one can view them appropriately, and work with the knowledge gained from that vision into their nature.</p>
-<p>I think this methodology this has been very good for me, and recommend spending some time to think about this, and how it intersects with your life, and who you are, and if you can think of ways that bring about similar improvements in your own life, which can make working with other people more enjoyable and efficient, and brings you more happiness, contentment and a more fulfilling life with more accomplishments and friends.
-.. topic:: 11.12: Randomly Collected Spectrums</p>
+<p>I think this methodology this has been very good for me, and recommend spending some time to think about this, and how it intersects with your life, and who you are, and if you can think of ways that bring about similar improvements in your own life, which can make working with other people more enjoyable and efficient, and brings you more happiness, contentment and a more fulfilling life with more accomplishments and friends.</p>
 <p>Spectrums I thought of, but have not yet placed in a particular part of the book.</p>
 <p>Spectrum: Caring</p>
 <p>Shame &lt;=====&gt; Pride</p>
 <p>Without caring about things, one cannot feel shame over bad actions, nor pride in good actions.  This is an effect of having an environment where the care-takers do not care about their environment, only about getting through another day.</p>
 <p>When you care, you will avoid creating Shame for yourself and others.  When you care, you will try to perform actions you and others can be Proud of.  These are good things, because they will form as a compass, pointing in the direction you want to go towards and away from.</p>
-<p>If your assessments are in Alignment with Reality, then you have high assurance that you are creating a better Environment for yourself.
-.. topic:: 11.13: How To Make A Decision</p>
+<p>If your assessments are in Alignment with Reality, then you have high assurance that you are creating a better Environment for yourself.</p>
 <p>Describe how to make a decision immediately based on data.</p>
 <p>How to decide when you need more data.</p>
 <p>How to decide when you have enough data.</p>
@@ -2228,7 +2102,13 @@ EnsureDirectoryExistsIdempotentFunction(dir_data)</div></blockquote>
         </div>
       </div>
       <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
-        <div class="sphinxsidebarwrapper">
+        <div class="sphinxsidebarwrapper"><div class="relations">
+<h3>Related Topics</h3>
+<ul>
+  <li><a href="#">Documentation overview</a><ul>
+  </ul></li>
+</ul>
+</div>
   <div role="note" aria-label="source link">
     <h3>This Page</h3>
     <ul class="this-page-menu">
@@ -2250,18 +2130,20 @@ EnsureDirectoryExistsIdempotentFunction(dir_data)</div></blockquote>
       </div>
       <div class="clearer"></div>
     </div>
-    <div class="related" role="navigation" aria-label="related navigation">
-      <h3>Navigation</h3>
-      <ul>
-        <li class="right" style="margin-right: 10px">
-          <a href="genindex.html" title="General Index"
-             >index</a></li>
-        <li class="nav-item nav-item-0"><a href="#">OpsEngAuto 1 documentation</a> &#187;</li> 
-      </ul>
+    <div class="footer">
+      &copy;2016, Geoff Howland.
+      
+      |
+      Powered by <a href="http://sphinx-doc.org/">Sphinx 1.5.3</a>
+      &amp; <a href="https://github.com/bitprophet/alabaster">Alabaster 0.7.10</a>
+      
+      |
+      <a href="_sources/index.rst.txt"
+          rel="nofollow">Page source</a>
     </div>
-    <div class="footer" role="contentinfo">
-        &#169; Copyright 2016, Geoff Howland.
-      Created using <a href="http://sphinx-doc.org/">Sphinx</a> 1.5.3.
-    </div>
+
+    
+
+    
   </body>
 </html>

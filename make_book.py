@@ -88,7 +88,7 @@ def Report__SectionsAbandoned():
 
 def OutputSectionSphinx(section_dict, header_prefix=None, report=None, depth=0):
   """Sphinx Book Output section, and recurse through sub-sections."""
-  output = ''
+  output = '\n'
   
   # If we have a report, add it to the top of the output.
   #NOTE(g): This is temporary, as Im writing the book to track goals and other stuff easily
@@ -159,9 +159,7 @@ def OutputSection__Sphinx(section_dict, header_prefix=None, report=None, depth=0
   """Output section, and recurse through sub-sections."""
   global REPORT_LINE_COUNT, REPORT_WORD_COUNT
   
-  output = ''
-  
-  output += ''
+  output = '\n'
   
   # Split the title and section tag out of this entry
   (title, section_tag) = section_dict['title'].split(' [[', 1)
