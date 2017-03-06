@@ -112,16 +112,12 @@ def OutputSectionSphinx(section_dict, header_prefix=None, report=None, depth=0):
   if depth == 0:
     label = 'Chapter %s: %s' % (header_prefix, title)
     
-    # output += '\n.. topic::  %s\n' % label
     output += '%s\n' % label
     output += '%s\n' % ('=' * len(label))
     
   # H2 to H3, beyond that is just paragraph headers?
   elif depth < 3:
     label = '%s: %s' % (header_prefix, title)
-    
-    # line_prefix = '.. topic:: '
-    # output += '%s %s\n' % (line_prefix, label)
     
     output += '%s\n' % label
     output += '%s\n' % ('-' * len(label))
@@ -183,7 +179,6 @@ def OutputSection__Sphinx(section_dict, header_prefix=None, report=None, depth=0
   if depth == 0:
     label = 'Chapter %s: %s' % (header_prefix, title)
     # output += '<h1 id=%s>%s</h1>\n' % (section_tag, label_html)
-    # output += '.. topic:: %s\n' % (section_tag, label)    
     output += '%s\n' % label
     output += '%s\n' % ('=' * len(label))
     
