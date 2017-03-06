@@ -11,10 +11,3 @@ Operations: Engineering and Automation
    :caption: Contents:
 
 
-
-Indices and tables and
-======================
-
-* :ref:`genindex`
-* :ref:`search`
-
