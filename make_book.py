@@ -162,11 +162,6 @@ def OutputSection__Sphinx(section_dict, header_prefix=None, report=None, depth=0
   
   output += ''
   
-  # If we have a report, add it to the top of the output.
-  #NOTE(g): This is temporary, as Im writing the book to track goals and other stuff easily
-  if report:
-    output += report.replace('\n', '<br>\n')
-  
   # Split the title and section tag out of this entry
   (title, section_tag) = section_dict['title'].split(' [[', 1)
   title = title.strip()
@@ -181,22 +176,22 @@ def OutputSection__Sphinx(section_dict, header_prefix=None, report=None, depth=0
   # Chapter header
   if depth == 0:
     label = 'Chapter %s: %s' % (header_prefix, title)
-    label_html = '<a href="#%s">Chapter %s</a>: %s' % (section_tag, header_prefix, title)
-    output += '<h1 id=%s>%s</h1>\n' % (section_tag, label_html)
+    # output += '<h1 id=%s>%s</h1>\n' % (section_tag, label_html)
+    output += '.. topic:: %s\n' % (section_tag, label)
     
   # H2 to H3, beyond that is just paragraph headers?
   elif depth < 3:
     label = '%s: %s' % (header_prefix, title)
-    label_html = '<a href="#%s">%s</a>: %s' % (section_tag, header_prefix, title)
     
-    output += '<h%d id=%s>%s</h%d>\n' % (depth + 1, section_tag, label_html, depth + 1)
+    # output += '<h%d id=%s>%s</h%d>\n' % (depth + 1, section_tag, label_html, depth + 1)
+    output += '.. topic:: %s\n' % label
   
   # Else, deeper, not using HTML headers
   else:
     label = '%s: %s' % (header_prefix, title)
-    label_html = '<a href="#%s">%s</a>: %s' % (section_tag, header_prefix, title)
     
-    output += '<p id=%s><b>%s</b></p>\n' % (section_tag, label_html)
+    # output += '<p id=%s><b>%s</b></p>\n' % (section_tag, label_html)
+    output += '.. topic:: %s\n' % label
   
   
   # If we dont have the section path, create it from our title label
@@ -213,7 +208,7 @@ def OutputSection__Sphinx(section_dict, header_prefix=None, report=None, depth=0
   for line in section_content.strip().split('\n'):
     # Skip the comment lines out (comments start with: ###)
     if not line.strip().startswith('###'):
-      output += '%s<br>\n' % line
+      output += '%s\n' % line
       
       # Do reporting check here
       REPORT_LINE_COUNT += 1
@@ -229,7 +224,7 @@ def OutputSection__Sphinx(section_dict, header_prefix=None, report=None, depth=0
       output += OutputSection__Sphinx(section_child_dict, header_prefix=cur_header_prefix, depth=depth+1)
   
   
-  return output.replace('  ', '&nbsp;&nbsp;')
+  return output
 
 
 def OutputSectionGitMarkDown(section_dict, header_prefix=None, report=None, depth=0):
@@ -560,8 +555,6 @@ def Main():
   for cur_section in table_of_contents:
     count += 1
     output += OutputSectionSphinx(cur_section, header_prefix=str(count))
-  
-  header += report_text
   
   open(OUT_BOOK_PATH, 'w').write(header + output)
   
