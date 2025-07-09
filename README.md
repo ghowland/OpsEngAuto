@@ -1,4 +1,4 @@
-# Old School Operations: Engineering and Automation
+# Old School Operations: 25 years of System Administration and SRE
 
 
 Total Sections: 348   Populated Sections: 92
